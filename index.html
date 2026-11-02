@@ -348,6 +348,7 @@
   <section class="vc-section" id="live">
     <h2>进行中</h2>
     <p class="vc-lead">采集时服务器的状态：距截止还有多久，正在运行及刚完成的任务、追加实验的实际进度。请同时查看快照时间。</p>
+    <div class="vc-card" id="lv-daily" style="margin-bottom:16px"></div>
     <div class="live-grid">
       <div class="vc-card" id="lv-deadline"></div>
       <div class="vc-card" id="lv-tasks"></div>
@@ -534,7 +535,7 @@
     const dir = F.filter((f) => !f.counted && !f.retired).map((f) => f.short);
     return [ret.length ? ret.join('、') + ' 已停用' : '', dir.length ? dir.join('、') + ' 只看方向' : ''].filter(Boolean).join('，');
   };
-  const lifeLabel = (x) => ({running: '进行中', completed: '已完成', failed: '失败', planned: '计划中'}[x] || x || '—');
+  const lifeLabel = (x) => ({running: '进行中', completed: '已完成', failed: '失败', planned: '计划中', archived: '已归档', blocked: '等待条件', draft: '草案'}[x] || x || '—');
 
   // ------------------------------------------------------------ top bar and clock
   function renderTop(d) {
@@ -722,6 +723,13 @@
 
   // ------------------------------------------------------------ live
   function renderLive(d) {
+    const daily = d.daily || {}, dc = daily.counts || {};
+    $('#lv-daily').innerHTML = `<h3>今日新增与核对 <small>${esc(daily.day_bjt || '—')}（北京时间）</small></h3>`
+      + `<p><b>预测 ${esc(dc.generated || 0)} 份</b> · GREEN ${esc(dc.green || 0)} · RED ${esc(dc.red || 0)} · 未盖章 ${esc(dc.unsealed || 0)} · <b>实际评分 ${esc(dc.scored || 0)} 份</b>（含已替代旧测量 ${esc(dc.superseded_scores || 0)} 份） · <b>完整成绩单 ${(daily.cards || []).length} 份</b></p>`
+      + `<p class="vc-note">新成绩单：${(daily.cards || []).map(x => esc(x.sid)).join('；') || '无'}<br>${esc(daily.scope || '')}</p>`
+      + `<details><summary>逐策略当日记录 · 新登记 ${(daily.registrations || []).length} 项 · 实验/预检/分析 ${(daily.experiments || []).length} 项（展开核对）</summary>`
+      + (daily.rows || []).map(x => `<p><code>${esc(x.sid)}</code>：预测 ${esc(x.counts.generated)} · GREEN ${esc(x.counts.green)} · RED ${esc(x.counts.red)} · 未盖章 ${esc(x.counts.unsealed)} · 已评 ${esc(x.counts.scored)}；${esc(x.state)}</p>`).join('')
+      + `<p class="vc-note">今日新登记：${(daily.registrations || []).map(x => esc(x.sid) + '（' + esc(x.state) + '）').join('；') || '无'}</p></details>`;
     const ms = (d.milestones || []).map((m) => {
       const when = m.date_only ? String(m.time || '').slice(5, 10) : String(m.time || '').slice(5, 16);
       return `<li class="${m.done ? 'done' : m.passed ? 'passed' : ''}"><span class="mk">${m.done ? '✔' : m.passed ? '●' : '○'}</span><b>${esc(when)}</b><span>${esc(m.text)}</span>${m.done && m.done_note ? `<small>${esc(m.done_note)}</small>` : ''}</li>`;
@@ -735,18 +743,18 @@
       + '<p class="vc-note">核对启动记录完整 argv，并扫描本评分器运行目录下的实际进程；调度、生成、评分分开显示，子进程去重。仅表示进程存活，不代表任务已成功。</p>';
     const S = d.state_tail || [];
     $('#lv-steps').innerHTML = '<h3>Codex 最近几步</h3>' + (S.length ? '<ol class="steps">' + S.map((s) => `<li><span class="t">${esc(s.time)} · <span class="w">${esc(s.wp)}</span></span><span>${esc(s.did)}</span>${s.next ? `<span class="n">下一步：${esc(s.next)}</span>` : ''}</li>`).join('') + '</ol>' : '<p class="vc-note">还没有记录。</p>') + `<div>${docLink('run/STATE_v5.md', '看全部记录')}</div>`;
-    const projects = (d.projects || []).map(p => `<div class="exp"><b>${esc(p.name)}</b><p>生成 ${esc(p.generated)}/${esc(p.total)} · GREEN ${esc(p.green)}/${esc(p.total)} · 已评 ${esc(p.scored)}/${esc(p.total)} · 成绩单 ${esc(p.cards)}/${p.strategies.length}</p><p class="vc-note">${p.active.map(esc).join('；')}<br>状态文件：${esc(p.updated || '—')} · 报告 ${esc(p.reported_status || '—')}<br><code>${esc(p.source)}</code></p></div>`).join('');
+    const projects = (d.projects || []).map(p => `<div class="exp"><b>${esc(p.name)}</b><p>生成 ${esc(p.generated)}/${esc(p.total)} · GREEN ${esc(p.green)}/${esc(p.total)} · 已评 ${esc(p.scored)}/${esc(p.total)} · 成绩单 ${esc(p.cards)}/${p.strategies.length}</p><p class="vc-note">${p.active.map(esc).join('；')}<br>状态文件：${esc(p.updated || '—')} · 报告 ${esc(p.reported_status || '—')}<br><code>${esc(p.source)}</code>${p.note ? '<br>' + esc(p.note) : ''}</p></div>`).join('');
     const stops = (d.planned_stops || []).map(p => `<div class="exp"><b>${esc(p.name)}</b><p class="vc-note">${esc(p.state)}<br><code>${esc(p.source)}</code></p></div>`).join('');
     $('#lv-projects').innerHTML = '<h3>本轮任务与计划停止</h3>' + projects + stops + '<p class="vc-note">份数来自实际 CURRENT/印记/评分结果；状态文件时间另列。部分分数按盲评隐藏，已评份数仍更新。计划停止不算漏跑。</p>';
     const E = d.experiments || [];
-    $('#lv-exp').innerHTML = '<h3>追加实验</h3>' + (E.length ? E.map((e) => {
+    $('#lv-exp').innerHTML = '<h3>追加实验、预检与分析</h3>' + (E.length ? E.map((e) => {
       const done = e.groups.filter((g) => g.done).length;
       const tip = e.groups.map((g) => g.name + (g.done ? ' ✔ ' + g.at : ' 未完成')).join('\n');
-      return `<div class="exp"><div><b>${esc(e.id)}</b> <span class="pill ${e.lifecycle === 'completed' ? 'ok' : e.lifecycle === 'running' ? 'run' : ''}">${esc(lifeLabel(e.lifecycle))}</span> <small>更新于 ${esc(e.updated || '—')}</small></div>`
+      return `<div class="exp"><div><b>${esc(e.id)}</b> <span class="pill ${e.lifecycle === 'completed' ? 'ok' : e.lifecycle === 'running' ? 'run' : ''}">${esc(lifeLabel(e.lifecycle))}</span> <small>${esc(e.kind === "analysis" ? "分析记录" : "实验/预检记录")} · 更新于 ${esc(e.updated || '—')}</small></div>`
         + (e.objective ? `<p class="clamp" title="${esc(e.objective)}">${esc(e.objective)}</p>` : '')
         + (e.groups.length ? `<div class="segs" title="${esc(tip)}">${e.groups.map((g) => `<span class="${g.done ? 'on' : ''}"></span>`).join('')}</div><div class="vc-sub">${done}/${e.groups.length} 组已生成</div>` : '')
-        + (e.conclusion ? `<p class="vc-note">${esc(e.conclusion)}</p>` : '') + (e.readme ? `<div>${docLink(e.readme, '实验说明')}</div>` : '') + '</div>';
-    }).join('') : '<p class="vc-note">没有追加实验。</p>') + '<p class="vc-note">DEF工程预测无真值，只显示生成与核验进度；本地补评另列真实成绩单，不能把两者视为同一成绩。</p>';
+        + (e.conclusion ? `<p class="vc-note">${esc(e.conclusion)}</p>` : '') + (e.metadata_sha256 ? `<p class="vc-note">${esc(e.origin)} · 元数据SHA <code title="${esc(e.metadata_sha256)}">${esc(e.metadata_sha256.slice(0, 16))}</code></p>` : '') + (e.readme ? `<div>${docLink(e.readme, '实验说明')}</div>` : '') + '</div>';
+    }).join('') : '<p class="vc-note">没有追加实验。</p>') + '<p class="vc-note">分析、规划和连续值预检单独展示，不充当原生GREEN或评分。DEF工程预测无真值，本地补评以自身成绩单为准。</p>';
     const s = d.status || {}, snap = s.snapshot || {};
     const docs = (d.docs || []).map((x) => docLink(x.path, x.label)).join('');
     $('#lv-status').innerHTML = `<h3>评分器状态</h3><dl class="kv"><dt>快照</dt><dd>${esc(snap.version || '—')}（${snap.mode === 'record_only' ? '只记录，未锁定' : esc(snap.mode || '')}）${snap.unchanged === false ? ' <b class="bad">内容已变</b>' : ''}</dd>`
