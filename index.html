@@ -1,0 +1,959 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>评分器 v5 · 远端快照</title>
+<style>
+  :root {
+    --color-bg: #f7f6f2; --color-panel: #ffffff; --color-fg: #1f1e1b; --color-fg-muted: #6b6a64; --color-border-line: #e3e1d9;
+    --color-ok: #2e7d32; --color-warn: #9a5800; --color-bad: #c0392b; --color-accent: #2f5fb3;
+    --bg-ok: #e8f3e3; --bg-bad: #fbeaea; --bg-warn: #fbf0dc; --bg-soft: #f4f2ec;
+    --cds-chart-muted: #9a988f; --cds-chart-axis: #8a887f; --cds-chart-grid: #ecebe5; --cds-chart-status-critical: #c0392b;
+    --cds-font-size-caption: 12px; --cds-font-size-body: 14px; --cds-font-size-heading: 16px; --cds-font-size-title: 22px; --cds-font-weight-medium: 500;
+    --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px;
+    --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 12px; --cds-gap-lg: 16px; --cds-gap-xl: 28px; --cds-radius: 8px;
+    --font-sans: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    --font-serif: Georgia, "Noto Serif SC", "Songti SC", "SimSun", serif;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --color-bg: #191917; --color-panel: #23221f; --color-fg: #ecebe6; --color-fg-muted: #a3a29b; --color-border-line: #3a3935;
+      --color-ok: #74c477; --color-warn: #e3a84b; --color-bad: #ef7b6e; --color-accent: #82adf2;
+      --bg-ok: #1f3320; --bg-bad: #3a1f1c; --bg-warn: #3a2d17; --bg-soft: #2b2a27;
+      --cds-chart-muted: #7d7b74; --cds-chart-axis: #8a887f; --cds-chart-grid: #2f2e2b; --cds-chart-status-critical: #ef7b6e;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --color-bg: #191917; --color-panel: #23221f; --color-fg: #ecebe6; --color-fg-muted: #a3a29b; --color-border-line: #3a3935;
+    --color-ok: #74c477; --color-warn: #e3a84b; --color-bad: #ef7b6e; --color-accent: #82adf2;
+    --bg-ok: #1f3320; --bg-bad: #3a1f1c; --bg-warn: #3a2d17; --bg-soft: #2b2a27;
+    --cds-chart-muted: #7d7b74; --cds-chart-axis: #8a887f; --cds-chart-grid: #2f2e2b; --cds-chart-status-critical: #ef7b6e;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-sans); font-size: var(--cds-font-size-body); line-height: 1.6; }
+  a { color: var(--color-accent); }
+  b { font-weight: var(--cds-font-weight-medium); }
+  small { font-size: var(--cds-font-size-caption); }
+
+  .topbar { position: sticky; top: 0; z-index: 20; background: var(--color-panel); border-bottom: 1px solid var(--color-border-line); }
+  .tb-inner { max-width: 1440px; margin: 0 auto; padding: 8px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; font-size: 13px; }
+  .tb-title { font-family: var(--font-serif); font-size: 18px; margin-right: 4px; }
+  .tb-item { color: var(--color-fg-muted); }
+  .tb-item b { color: var(--color-fg); }
+  .tb-live { display: inline-flex; align-items: center; gap: 6px; font-weight: 500; }
+  .tb-live .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--cds-chart-muted); }
+  .tb-live.on { color: var(--color-ok); } .tb-live.on .dot { background: var(--color-ok); }
+  .tb-live.bad { color: var(--color-bad); } .tb-live.bad .dot { background: var(--color-bad); }
+  .tb-live.off { color: var(--color-fg-muted); }
+  .tb-warn { color: var(--color-warn); cursor: help; }
+  @media (max-width: 640px) { .topbar { position: static; } .vc-section { scroll-margin-top: 8px; } }
+
+  .vc { max-width: 1440px; margin: 0 auto; padding: 18px 16px 48px; display: flex; flex-direction: column; gap: var(--cds-gap-xl); }
+  .vc-head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+  .vc-head p { margin: 0; max-width: 92ch; color: var(--color-fg-muted); line-height: 1.7; }
+  .vc-head .vc-take { color: var(--color-fg); }
+  .vc-nav { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+  .vc-nav span { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .vc-jump { font: inherit; font-size: var(--cds-font-size-caption); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 2px 12px; color: var(--color-fg); cursor: pointer; }
+  .vc-jump:hover { border-color: var(--color-fg-muted); }
+  .vc-jump:focus-visible, .st tr.sr:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+  .vc-section { display: flex; flex-direction: column; gap: var(--cds-gap-md); scroll-margin-top: 64px; }
+  .vc-section > h2 { font-family: var(--font-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+  .vc-section > .vc-lead { margin: 0; max-width: 92ch; color: var(--color-fg-muted); line-height: 1.7; }
+  .vc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+  .vc-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+  .vc-card h3 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .vc-card h3 small { color: var(--color-fg-muted); font-weight: 400; margin-left: 6px; }
+  .vc-q { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+  .vc-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; max-width: 96ch; line-height: 1.6; }
+  .vc-text { margin: 0; max-width: 80ch; line-height: 1.7; }
+  .vc-list { margin: 0; padding-left: 1.2em; max-width: 80ch; line-height: 1.7; display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+  .vc-lab { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .vc-num { font-family: var(--font-serif); font-size: 26px; font-variant-numeric: tabular-nums; line-height: 1.3; }
+  .vc-sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .vc-scroll { overflow-x: auto; }
+  .vc-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-lg); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); align-items: center; }
+  .vc-legend > span { display: inline-flex; align-items: center; gap: var(--cds-gap-xs); }
+  .muted { color: var(--color-fg-muted); }
+  .ok { color: var(--color-ok); } .bad { color: var(--color-bad); } .warn { color: var(--color-warn); }
+  .lk { color: var(--color-accent); text-decoration: none; white-space: nowrap; }
+  .lk:hover { text-decoration: underline; }
+  .lk.off { color: var(--color-fg-muted); cursor: not-allowed; }
+  .pill { display: inline-block; font-size: var(--cds-font-size-caption); border-radius: 999px; padding: 0 8px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); line-height: 1.6; }
+  .pill.ok { color: var(--color-ok); border-color: var(--color-ok); } .pill.run { color: var(--color-warn); border-color: var(--color-warn); }
+
+  /* tables shared */
+  table.t { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: 13px; }
+  table.t th, table.t td { padding: 5px 8px; text-align: right; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  table.t th { font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); vertical-align: bottom; line-height: 1.35; }
+  table.t .l, .st .l, .mx .l, .sd .l { text-align: left; }
+  table.t .sep, .st .sep { border-left: 1px solid var(--color-border-line); }
+  table.t .dim, .st .dim, .mx .dim { color: var(--color-fg-muted); }
+  table.t small, .st small, .mx small { display: block; color: var(--color-fg-muted); font-size: 11px; font-weight: 400; }
+  table.t tr.parent td { font-weight: var(--cds-font-weight-medium); }
+  table.t tr.null td { color: var(--color-fg-muted); }
+  .fh b { display: block; color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .strong { font-weight: var(--cds-font-weight-medium); }
+  table.t th.off, table.t td.off, .st th.off, .st td.off { border-left: 1px solid var(--color-border-line); border-right: 1px solid var(--color-border-line); }
+  table.t th.m3, table.t td.m3, .st th.m3, .st td.m3 { border-right: 1px solid var(--color-border-line); }
+  table.t th.off, .st th.off, table.t th.m3, .st th.m3 { color: var(--color-fg); font-weight: 700; }
+  table.t tbody tr td.off, .st tbody tr td.off, table.t tbody tr td.m3, .st tbody tr td.m3 { font-weight: 700; }
+
+  /* baselines */
+  .bl-bottom { display: flex; flex-wrap: wrap; gap: var(--cds-gap-lg) 32px; align-items: center; margin-top: 4px; }
+  .bl-slope { flex: 1 1 26rem; min-width: 0; max-width: 34rem; }
+  .bl-side { flex: 1 1 16rem; display: flex; flex-direction: column; gap: 4px; }
+  .bl-side .big { font-family: var(--font-serif); font-size: 32px; line-height: 1.2; }
+  svg .ax { fill: var(--color-fg-muted); font-size: 12px; }
+  svg .lb { fill: var(--color-fg); font-size: 12px; }
+  svg .ln { stroke: var(--cds-chart-muted); stroke-width: 1.2; }
+  svg .sw { stroke: var(--color-warn); stroke-width: 2.2; }
+  svg .dt { fill: var(--cds-chart-muted); }
+  svg .swd { fill: var(--color-warn); }
+
+  /* samples */
+  .s-tools { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; font-size: 13px; }
+  .s-tools label { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; color: var(--color-fg); }
+  .s-tools .s-filter { display: inline-flex; gap: 10px; align-items: center; padding: 2px 10px; border: 1px solid var(--color-border-line); border-radius: 999px; }
+  .s-tools .grow { flex: 1; }
+  .s-box { max-height: 72vh; overflow: auto; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); }
+  .st { border-collapse: separate; border-spacing: 0; min-width: 1380px; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+  .st th, .st td { padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); text-align: right; white-space: nowrap; background: var(--color-panel); }
+  .st thead th { position: sticky; top: 0; z-index: 2; color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); font-size: var(--cds-font-size-caption); vertical-align: bottom; line-height: 1.35; }
+  .st .c-id { position: sticky; left: 0; z-index: 1; width: 6.2rem; min-width: 6.2rem; text-align: left; }
+  .st .c-name { position: sticky; left: 6.2rem; z-index: 1; min-width: 9rem; max-width: 15rem; white-space: normal; text-align: left; border-right: 1px solid var(--color-border-line); }
+  .st thead .c-id, .st thead .c-name { z-index: 3; }
+  .st tr.sr { cursor: pointer; }
+  .st tr.sr:hover td { background: var(--bg-soft); }
+  .st tr.parent td { font-weight: var(--cds-font-weight-medium); }
+  .st tr.cand .c-name b { color: var(--color-warn); }
+  .st tr.faded td { color: var(--color-fg-muted); }
+  .st td.m-up::after { content: " ▲"; color: var(--color-ok); font-size: .75em; }
+  .st td.m-down::after { content: " ▼"; color: var(--color-bad); font-size: .75em; }
+  .st td.m-eq::after { content: " ≈"; color: var(--color-fg-muted); font-size: .75em; }
+  .st td.blind { text-align: left; color: var(--color-fg-muted); font-style: italic; }
+  .st td.empty { text-align: center; color: var(--color-fg-muted); padding: 24px; }
+  .who { display: inline-block; padding: 0 8px; border-radius: 999px; font-size: 12px; border: 1px solid var(--color-border-line); font-weight: 500; }
+  .who.xzk { border-color: var(--color-accent); color: var(--color-accent); }
+  .v-cand { color: var(--color-warn); font-weight: 500; }
+  .v-parent { font-weight: 500; }
+  .v-muted { color: var(--color-fg-muted); }
+  .v-wait { color: var(--color-fg-muted); font-style: italic; }
+  .det-row td { background: var(--bg-soft); text-align: left; white-space: normal; padding: 12px 14px 16px; }
+  .det { position: sticky; left: 14px; width: min(1180px, calc(100vw - 96px)); display: flex; flex-direction: column; gap: 12px; font-weight: 400; color: var(--color-fg); }
+  .det-meta { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .det-text { font-size: 13px; line-height: 1.6; max-width: 100ch; }
+  .det-cols { display: flex; flex-wrap: wrap; gap: 14px 28px; align-items: flex-start; }
+  .det-cols > div { min-width: 0; }
+  .mx { border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; margin-top: 4px; }
+  .mx th, .mx td { padding: 3px 8px; border-bottom: 1px solid var(--color-border-line); text-align: right; white-space: nowrap; background: transparent; }
+  .mx th { color: var(--color-fg-muted); font-weight: 500; vertical-align: bottom; line-height: 1.3; }
+  .mx td.nq { color: var(--color-fg-muted); font-style: italic; }
+  .mx tr.srow td { border-bottom: 1.5px solid var(--color-border-line); }
+  .sd { border-collapse: collapse; font-size: 12px; margin-top: 4px; font-variant-numeric: tabular-nums; }
+  .sd td { padding: 2px 10px 2px 0; white-space: nowrap; }
+  .sd .mono span { margin-right: 4px; }
+  .det-links { font-size: 13px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .vcard { border: 1px solid var(--color-border-line); background: var(--color-panel); border-radius: var(--cds-radius); padding: 10px 12px; display: flex; flex-direction: column; gap: 8px; max-width: 900px; }
+  .vchips { display: grid; grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr)); gap: 6px; }
+  .vchip { border-radius: 6px; padding: 5px 9px; font-size: 12px; display: flex; flex-direction: column; border: 1px solid transparent; }
+  .vchip.win { background: var(--bg-ok); color: var(--color-ok); }
+  .vchip.lose { background: var(--bg-bad); color: var(--color-bad); }
+  .vchip.tie { background: var(--bg-soft); color: var(--color-fg-muted); border-color: var(--color-border-line); }
+  .vchip.dir { border: 1px dashed var(--color-border-line); color: var(--color-fg-muted); }
+  .vchip b { font-weight: 500; }
+  .vgroups { font-size: 13px; }
+  .vflags { margin: 0; padding-left: 1.2em; font-size: 12px; color: var(--color-fg-muted); }
+
+  /* live */
+  .live-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 21rem), 1fr)); gap: var(--cds-gap-md); align-items: start; }
+  .ms { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 4px; font-size: 13px; }
+  .ms li { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .ms .mk { width: 1em; color: var(--color-fg-muted); }
+  .ms li.done .mk { color: var(--color-ok); }
+  .ms li.passed { color: var(--color-fg-muted); }
+  .ms small { color: var(--color-fg-muted); }
+  .tasks, .steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 13px; }
+  .tasks li, .steps li { display: flex; flex-direction: column; gap: 1px; border-left: 2px solid var(--color-border-line); padding-left: 10px; }
+  .tasks li span, .tasks li small { color: var(--color-fg-muted); font-size: 12px; }
+  .steps .t { font-size: 12px; color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+  .steps .w { font-size: 12px; color: var(--color-fg-muted); }
+  .steps .n { font-size: 12px; color: var(--color-fg-muted); }
+  .exp { display: flex; flex-direction: column; gap: 4px; padding-bottom: 8px; border-bottom: 1px solid var(--color-border-line); font-size: 13px; }
+  .exp:last-of-type { border-bottom: 0; }
+  .exp small { color: var(--color-fg-muted); }
+  .clamp { margin: 0; font-size: 12px; color: var(--color-fg-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .segs { display: grid; grid-template-columns: repeat(auto-fit, minmax(10px, 1fr)); gap: 3px; max-width: 360px; }
+  .segs span { height: 9px; border-radius: 2px; background: var(--bg-soft); border: 1px solid var(--color-border-line); }
+  .segs span.on { background: var(--color-ok); border-color: var(--color-ok); }
+  .kv { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0; font-size: 13px; }
+  .kv dt { color: var(--color-fg-muted); }
+  .kv dd { margin: 0; }
+  .docs { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; }
+
+  /* pipeline */
+  .vc-pipe { overflow-x: auto; }
+  .vc-pipe-inner { min-width: 56rem; display: flex; flex-direction: column; }
+  .vc-prow { display: grid; grid-template-columns: 11rem repeat(8, minmax(0, 1fr)); }
+  .vc-phase { border-top: 2px solid var(--color-border-line); margin: 0 4px; padding-top: 2px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); text-align: center; }
+  .vc-station { padding: 8px 4px; display: flex; flex-direction: column; gap: 2px; align-items: center; text-align: center; min-width: 0; }
+  .vc-station .vc-sn { width: 1.5rem; height: 1.5rem; border-radius: 50%; border: 1px solid var(--color-border-line); display: inline-flex; align-items: center; justify-content: center; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .vc-station .vc-sname { font-weight: var(--cds-font-weight-medium); }
+  .vc-station .vc-sdesc { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; }
+  .vc-station .vc-stag { font-size: var(--cds-font-size-caption); border-radius: 999px; padding: 0 6px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); margin-top: 2px; }
+  .vc-station .vc-stag.guard { border-color: var(--color-ok); color: var(--color-ok); }
+  .vc-station .vc-stag.reveal { border-color: var(--color-warn); color: var(--color-warn); }
+  .vc-station .vc-stag.human { border-color: var(--color-fg); color: var(--color-fg); }
+  .vc-corner { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); align-self: end; padding: 8px 0; }
+  .vc-lane { border-top: 1px solid var(--color-border-line); }
+  .vc-lanelab { display: flex; flex-direction: column; justify-content: center; padding: 4px 0; min-width: 0; }
+  .vc-lname { font-weight: var(--cds-font-weight-medium); overflow-wrap: anywhere; }
+  .vc-lname small { color: var(--color-fg-muted); font-weight: 400; margin-left: 4px; }
+  .vc-chip { align-self: flex-start; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 0 6px; line-height: 1.5; }
+  .vc-chip.parent { color: var(--color-fg); border-color: var(--color-fg); }
+  .vc-chip.cand { color: var(--color-warn); border-color: var(--color-warn); }
+  .vc-chip.null { border-style: dashed; }
+  .vc-node { position: relative; height: 2.9rem; display: flex; align-items: center; justify-content: center; }
+  .vc-rail { position: absolute; top: 50%; height: 2px; margin-top: -1px; background: var(--color-border-line); }
+  .vc-rail.l { left: 0; right: 50%; }
+  .vc-rail.r { left: 50%; right: 0; }
+  .vc-rail.on { background: var(--color-ok); }
+  .vc-dot { position: relative; z-index: 1; width: .95rem; height: .95rem; border-radius: 50%; border: 2px solid var(--color-border-line); background: var(--color-panel); }
+  .vc-node.done .vc-dot { background: var(--color-ok); border-color: var(--color-ok); }
+  .vc-node.part .vc-dot { border-color: var(--color-warn); border-width: 3px; }
+  .vc-node.bad .vc-dot { background: var(--color-bad); border-color: var(--color-bad); }
+  .vc-node.na .vc-dot { border-style: dashed; opacity: .6; width: .7rem; height: .7rem; }
+  .vc-ncount { position: absolute; top: calc(50% + .6rem); left: 0; right: 0; text-align: center; font-size: var(--cds-font-size-caption); color: var(--color-warn); font-variant-numeric: tabular-nums; }
+  .vc-key { display: inline-block; width: .8rem; height: .8rem; border-radius: 50%; border: 2px solid var(--color-border-line); }
+  .vc-key.done { background: var(--color-ok); border-color: var(--color-ok); }
+  .vc-key.part { border-color: var(--color-warn); border-width: 3px; }
+  .vc-key.na { border-style: dashed; }
+  .vc-key.bad { background: var(--color-bad); border-color: var(--color-bad); }
+  .vc-roles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: var(--cds-gap-sm); }
+  .vc-role { border-left: 2px solid var(--color-border-line); padding: 2px 8px; display: flex; flex-direction: column; gap: 2px; }
+  .vc-role span { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.5; }
+
+  /* cross-validation */
+  .vc-how { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: var(--cds-gap-sm); }
+  .vc-how > div { border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .vc-how .vc-hn { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .vc-how .vc-ht { font-weight: var(--cds-font-weight-medium); }
+  .vc-how p { margin: 0; line-height: 1.6; }
+  .vc-cvwrap { overflow-x: auto; }
+  .vc-cv { display: grid; grid-template-columns: 11rem repeat(8, 4.4rem) 3.8rem 8.5rem 4.4rem minmax(13rem, 1fr); min-width: 76rem; font-size: var(--cds-font-size-body); }
+  .vc-cv > div { padding: 4px; display: flex; align-items: center; min-width: 0; border-bottom: 1px solid var(--color-border-line); }
+  .vc-cv .h { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); border-bottom: 0; }
+  .vc-cv .h.c { white-space: nowrap; }
+  .vc-cv .hg { justify-content: center; border-bottom: 1px solid var(--color-border-line); margin: 0 4px; }
+  .vc-cv .c { justify-content: center; }
+  .vc-cv .grp { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); padding-top: 12px; }
+  .vc-cv .fold { flex-direction: column; align-items: flex-start; gap: 0; }
+  .vc-cv .num { justify-content: flex-end; font-variant-numeric: tabular-nums; }
+  .vc-cv .use { flex-direction: column; align-items: flex-start; gap: 1px; }
+  .vc-cv .use small { color: var(--color-fg-muted); line-height: 1.4; }
+  .vc-cv .p { border-top: 2px solid var(--color-border-line); }
+  .vc-cell { display: inline-flex; align-items: center; justify-content: center; width: 2.6rem; height: 1.6rem; border-radius: var(--cds-radius); font-size: var(--cds-font-size-caption); }
+  .vc-cell.exam { font-weight: var(--cds-font-weight-medium); background: var(--color-fg); color: var(--color-bg); }
+  .vc-cell.hide { border: 1.5px dashed var(--color-bad); color: var(--color-bad); }
+  .vc-cell.avail { border: 1px solid var(--color-border-line); color: var(--color-fg-muted); }
+  .vc-cell.none { color: var(--color-fg-muted); opacity: .5; }
+
+  /* metrics */
+  .vc-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--cds-gap-md); }
+  .vc-metric { border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .vc-mname { font-weight: var(--cds-font-weight-medium); }
+  .vc-mname span { color: var(--color-fg-muted); font-weight: 400; font-size: var(--cds-font-size-caption); }
+  .vc-metric p { margin: 0; line-height: 1.6; }
+  .vc-mvals { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; border-top: 1px solid var(--color-border-line); padding-top: 4px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: auto; }
+  .vc-mvals b { display: block; color: var(--color-fg); font-variant-numeric: tabular-nums; font-size: var(--cds-font-size-body); font-weight: 400; }
+  .ruler svg { min-width: 560px; max-width: 920px; display: block; }
+  svg .neg { fill: var(--cds-chart-status-critical); opacity: .18; }
+  svg .pos { fill: var(--cds-chart-muted); opacity: .35; }
+  svg .axl { stroke: var(--cds-chart-axis); }
+  svg .ctl { fill: var(--color-panel); stroke: var(--cds-chart-muted); stroke-width: 1.5; }
+  svg .par { fill: var(--color-accent); }
+  svg .parl { stroke: var(--color-accent); }
+  svg .off { fill: none; stroke: var(--color-warn); stroke-width: 2; }
+  svg .offl { stroke: var(--color-warn); }
+  .vc-foot { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border-top: 1px solid var(--color-border-line); padding-top: 12px; line-height: 1.7; }
+</style>
+</head>
+<body>
+<aside style="padding:10px 18px;background:#eaf2ff;border-bottom:1px solid #cbdaf0;font-size:13px">远端只读快照 · 每15分钟上传 · 页面每分钟检查更新 · 超过35分钟标为过期 · 展开样本行可看逐折、逐种子、六指标及来源SHA · 原始预测与服务器文档不公开</aside>
+<div class="topbar">
+  <div class="tb-inner">
+    <span class="tb-title">评分器 v5 实时看板</span>
+    <span class="tb-live" id="tb-live"><span class="dot"></span><span id="tb-live-text">连接中</span></span>
+    <span class="tb-item" id="tb-age">—</span>
+    <span class="tb-item">距官方截止 <b id="tb-count">—</b></span>
+    <span class="tb-item" id="tb-final">—</span>
+    <span class="tb-item" id="tb-cand"></span>
+    <span class="tb-warn" id="tb-warn" hidden></span>
+  </div>
+</div>
+
+<main class="vc">
+  <header class="vc-head">
+    <p class="vc-take">这是评分器 v5 的远端定时快照：每15分钟从服务器采集并上传，页面每分钟检查新快照。页面上所有分数都是<b>本地打分</b>（我们自己的模拟考，刻度换算成和官方一样），不是官方分；官方分只有第一阶段（A/B/C）的。最终比赛只看 D/E/F 三个没见过的细胞系，本地分用来挑方法，不能直接当成最终成绩。</p>
+    <p>分数的刻度：0 等于官方简单基线的水平，1 等于官方定的高水平参考线，负数就是比基线还差。细胞系名后面的标签（如 CD4 静息 D-0.47）是它和最终考题里最像的那个有多像，下面"交叉验证"一节有解释。</p>
+    <nav class="vc-nav" aria-label="跳到">
+      <span>跳到</span>
+      <button class="vc-jump" type="button" data-target="baselines">几大基线</button>
+      <button class="vc-jump" type="button" data-target="samples">样本记录</button>
+      <button class="vc-jump" type="button" data-target="live">进行中</button>
+      <button class="vc-jump" type="button" data-target="pipeline">管线</button>
+      <button class="vc-jump" type="button" data-target="cv">交叉验证</button>
+      <button class="vc-jump" type="button" data-target="metrics">分数怎么读</button>
+    </nav>
+  </header>
+
+  <section class="vc-section" id="baselines">
+    <h2>几大基线</h2>
+    <p class="vc-lead">第一阶段用过、官方分已知的六个经典方案，用来检查本地评分器排得对不对。每折数字取自冻结参照日志；组平均按现行分组展示。</p>
+    <div class="vc-card">
+      <h3>六个经典方案在本地六折上的分数</h3>
+      <p class="vc-q">这张表回答：本地评分器给老方法排的先后，和官方第一阶段对不对得上。</p>
+      <div class="vc-scroll"><table class="t" id="bl-table"></table></div>
+      <p class="vc-note" id="bl-note"></p>
+      <div class="bl-bottom">
+        <div class="bl-slope" id="bl-slope"></div>
+        <div class="bl-side" id="bl-side"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="vc-section" id="samples">
+    <h2>样本记录</h2>
+    <p class="vc-lead">v5 建立以来评过的每个方法占一行，按登记时间排（归档测量另用“归档-”编号，已有V5编号保持），新方法会自动出现在这里。点一行展开明细：六折 × 六项、每个种子、成绩单判定、相关文档和 submission 链接。</p>
+    <div class="vc-card">
+      <div class="s-tools">
+        <span id="s-count"></span>
+        <span class="s-filter" title="只勾一个就只看那个人的；两个都勾或都不勾，全部显示">只看
+          <label><input type="checkbox" id="f-cym"> cym</label>
+          <label><input type="checkbox" id="f-xzk"> xzk</label>
+        </span>
+        <label><input type="checkbox" id="f-eng"> 显示工程测试（探针、试跑）</label>
+        <label><input type="checkbox" id="f-new"> 最新的在上面</label>
+        <button type="button" id="manual-refresh" title="检查GitHub上已上传的快照；采集周期15分钟">立即刷新</button>
+      </div>
+      <div class="s-box" id="s-box"><table class="st"><thead id="s-head"></thead><tbody id="s-body"></tbody></table></div>
+      <div class="vc-legend" id="s-legend"></div>
+    </div>
+  </section>
+
+  <section class="vc-section" id="live">
+    <h2>进行中</h2>
+    <p class="vc-lead">采集时服务器的状态：距截止还有多久，正在运行及刚完成的任务、追加实验的实际进度。请同时查看快照时间。</p>
+    <div class="live-grid">
+      <div class="vc-card" id="lv-deadline"></div>
+      <div class="vc-card" id="lv-tasks"></div>
+      <div class="vc-card" id="lv-steps"></div>
+      <div class="vc-card" id="lv-projects"></div>
+      <div class="vc-card" id="lv-exp"></div>
+      <div class="vc-card" id="lv-status"></div>
+    </div>
+  </section>
+
+  <section class="vc-section" id="pipeline">
+    <h2>管线</h2>
+    <p class="vc-lead">每个方法都按顺序走这八步。设计的重点是来源隔离：方法生成预测时只能看到为它准备的资料包，生成完由检查员独立盖章，分数要到成绩单那一步才放出来，避免边看分边调参数。</p>
+    <div class="vc-card">
+      <h3>八步流程，以及每个方法走到了哪一步</h3>
+      <p class="vc-q">上面是八个步骤，下面每一行是一个方法，圆点连成的线就是它走过的路。</p>
+      <div class="vc-pipe">
+        <div class="vc-pipe-inner">
+          <div class="vc-prow">
+            <div></div>
+            <div class="vc-phase" style="grid-column: span 3">准备</div>
+            <div class="vc-phase" style="grid-column: span 3">考试</div>
+            <div class="vc-phase" style="grid-column: span 2">出结论</div>
+          </div>
+          <div class="vc-prow">
+            <div class="vc-corner">方法</div>
+            <div class="vc-station"><span class="vc-sn">1</span><span class="vc-sname">策略卡</span><span class="vc-sdesc">写清改了什么、预计哪项分数会涨</span></div>
+            <div class="vc-station"><span class="vc-sn">2</span><span class="vc-sname">登记</span><span class="vc-sdesc">声明要用哪些数据，每份数据有编号</span></div>
+            <div class="vc-station"><span class="vc-sn">3</span><span class="vc-sname">视图</span><span class="vc-sdesc">为每个考场编好资料包，藏掉和考题有关的数据</span><span class="vc-stag guard">防偷看</span></div>
+            <div class="vc-station"><span class="vc-sn">4</span><span class="vc-sname">生成</span><span class="vc-sdesc">在守卫下跑出预测，读包外文件、联网都会被拦</span><span class="vc-stag guard">防偷看</span></div>
+            <div class="vc-station"><span class="vc-sn">5</span><span class="vc-sname">盖章</span><span class="vc-sdesc">检查员独立核对没偷看，通过盖绿章，否则红章作废</span><span class="vc-stag guard">防偷看</span></div>
+            <div class="vc-station"><span class="vc-sn">6</span><span class="vc-sname">评分</span><span class="vc-sdesc">用和官方同一套评分程序（cell-eval 0.20）打分</span></div>
+            <div class="vc-station"><span class="vc-sn">7</span><span class="vc-sname">成绩单</span><span class="vc-sdesc">和父本逐个考场比，给出"采用 / 不采用"</span><span class="vc-stag reveal">分数在这里放出</span></div>
+            <div class="vc-station"><span class="vc-sn">8</span><span class="vc-sname">正式包</span><span class="vc-sdesc">用全部数据做 D/E/F 提交包，做到提交前核对单为止</span><span class="vc-stag human">交不交由人定</span></div>
+          </div>
+          <div id="pp-lanes"></div>
+        </div>
+      </div>
+      <div class="vc-legend">
+        <span><span class="vc-key done"></span> 完成</span>
+        <span><span class="vc-key part"></span> 进行中（下面的数字是已完成份数 / 总份数）</span>
+        <span><span class="vc-key"></span> 还没到</span>
+        <span><span class="vc-key na"></span> 不适用 / 历史原记录 / 已停止</span>
+        <span><span class="vc-key bad"></span> 盖了红章，作废</span>
+      </div>
+      <p class="vc-note">参照基线和对照组不做正式包；对照组已有现行重新汇总卡。归档行从保留的原生测量和来源审计接入，不能冒充本轮新生成。"份数"是 考场数 × 种子数：父本 6 × 5，参照和候选 6 × 2，对照组 6 × 1；11/1 起 THP-1 停用，之后登记的候选是 5 × 2。F4仅显示保留历史，不计现行份数。已被新版替换的旧版本和工程测试不列，在"样本记录"里可以看到。</p>
+      <div class="vc-roles">
+        <div class="vc-role"><b>父本</b><span>固定父本 F250。新方法与它配对比较，由用户决定是否替换。</span></div>
+        <div class="vc-role"><b>参照基线</b><span>第一阶段用过、官方分已知的老方法，用来检查本地评分器排得对不对。</span></div>
+        <div class="vc-role"><b>对照组</b><span>故意不做真预测（只交对照细胞、打乱靶点），评分器必须给它们低分。</span></div>
+        <div class="vc-role"><b>候选</b><span>想替换父本的新方法。成绩单出来之前不显示它的分数（盲评）。</span></div>
+      </div>
+      <p class="vc-note" id="pp-rule"></p>
+    </div>
+  </section>
+
+  <section class="vc-section" id="cv">
+    <h2>交叉验证</h2>
+    <p class="vc-lead">比赛最终只考 D、E、F 三个我们从没见过的细胞系，我们手里没有它们被敲掉基因后的真实数据。本地考试就模仿这个处境：每次拿一个有真实答案的细胞系当考题，把它的数据藏起来，看方法只用剩下的数据能猜得多准。</p>
+    <div class="vc-card">
+      <h3>一折是怎么考的（以 CD4 静息为例）</h3>
+      <div class="vc-how">
+        <div><span class="vc-hn">第 1 步</span><span class="vc-ht">藏起答案</span><p>把 CD4 的数据全部拿走：它所在的研究、CD4 在别的研究里的数据、以及从它们算出来的东西。</p></div>
+        <div><span class="vc-hn">第 2 步</span><span class="vc-ht">发资料包</span><p>方法拿到的是：其余细胞系的来源数据，CD4 的正常细胞（名字换成"X"，方法不知道考的是谁），以及 <b id="cv-n1">—</b> 个要预测的靶点。</p></div>
+        <div><span class="vc-hn">第 3 步</span><span class="vc-ht">交答卷</span><p>方法为每个靶点造出 400 个"敲掉这个基因之后"的预测细胞。</p></div>
+        <div><span class="vc-hn">第 4 步</span><span class="vc-ht">对答案</span><p>拿藏起来的 CD4 真实细胞来比，算出六项指标和总分。</p></div>
+      </div>
+      <p class="vc-note">六个细胞系轮流当一次考题，就是"六折"。正式提交时什么都不藏，考题换成官方的 D/E/F。</p>
+    </div>
+    <div class="vc-card">
+      <h3>六折一览：每一折藏什么、考什么、分数怎么用</h3>
+      <p class="vc-q">每一行是一折。左半边是这一折的资料包里有什么，右半边是这一折的分数怎么用。</p>
+      <div class="vc-legend">
+        <span><span class="vc-cell exam">考</span> 这一折的考题，答案藏起来</span>
+        <span><span class="vc-cell hide">藏</span> 跟着一起藏，不能用</span>
+        <span><span class="vc-cell avail">可用</span> 方法可以拿来学</span>
+        <span><span class="vc-cell none">—</span> 不是来源数据</span>
+      </div>
+      <div class="vc-cvwrap"><div class="vc-cv" id="cv-grid"></div></div>
+      <p class="vc-note">能拿来学的来源数据只有五个细胞系。THP-1、U-87MG、MOLM-13 只当考题，从不给方法学，所以这三折里方法能用全部五份来源，和正式提交时的处境一样。HEK293T 跟 HCT116 一起藏，但不单独计分，因为它的敲低效率太低，不符合官方选靶点的标准。"合格指标"指这一折上信号够强、能分出好坏的指标。抖动 σ 是父本换种子的标准差，越小越能分辨细小的改进。</p>
+    </div>
+    <div class="vc-grid">
+      <div class="vc-card">
+        <h3>考场名后面的标签是什么</h3>
+        <p class="vc-text">"MOLM-13（D-0.87）"这样的标签，表示这个细胞系和最终考题里最像的那一个有多像。D-0.87 就是和 D 的相似度 0.87。</p>
+        <ul class="vc-list">
+          <li>1 表示一模一样。本队的经验分档：0.6 以上叫近亲，0.3 到 0.6 只算沾边，再低就是基本不像。</li>
+          <li>最终三个考题：D 像 MOLM-13（一种髓系白血病细胞），E 像 U-87MG（一种脑胶质瘤细胞），F 是成纤维细胞。这是本队根据表达数据的推测。</li>
+          <li>越像的考场越能代表最终比赛，但最像的 U-87MG、MOLM-13 恰好效应很弱，只能看方向。</li>
+        </ul>
+      </div>
+      <div class="vc-card">
+        <h3>为什么有的考场只看方向</h3>
+        <p class="vc-text" id="cv-weak">—</p>
+        <p class="vc-text">原因是这几个考场的真实效应很弱，敲掉基因后几乎没有基因明显变化。JAC 比的是两份"变了"的名单重合多少，两边都几乎为空就算高度重合，总分就被它撑了上去。</p>
+        <p class="vc-note" id="cv-weak-note"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="vc-section" id="metrics">
+    <h2>分数怎么读</h2>
+    <div class="vc-card">
+      <p class="vc-note">官方把六项原始指标各自换算到同一把尺子上：0 等于官方给的简单基线的水平，1 等于官方定的高水平参考线，负数就是比基线还差。总分是这一折上合格指标的平均。官方第一阶段排名靠前的队伍大约在 0.2 到 0.3 之间。下面把几个关键位置画在同一把尺子上。</p>
+      <div class="vc-scroll ruler" id="mt-ruler"></div>
+      <p class="vc-note">六项指标各用一句话说明如下。每张卡片底部是父本在各个计分考场上这一项的换算分，对照着看就知道它强在哪、弱在哪。</p>
+      <div class="vc-metrics" id="mt-cards"></div>
+    </div>
+  </section>
+
+  <footer class="vc-foot" id="foot"></footer>
+</main>
+
+<!-- Remote snapshot viewer; data is snapshot.json, not the H200 API. -->
+<script>
+(() => {
+  'use strict';
+  const $ = (s) => document.querySelector(s);
+  const ESC = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'};
+  const esc = (v) => String(v === null || v === undefined ? '' : v).replace(/[&<>"']/g, (c) => ESC[c]);
+  const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
+  const fx = (v, d = 3) => (isNum(v) ? (v < 0 ? '−' : '') + Math.abs(v).toFixed(d) : '—');
+  const fsig = (v) => (isNum(v) ? (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(1) + 'σ' : '—');
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem('v5dash.' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem('v5dash.' + k, JSON.stringify(v)); } catch (e) { /* storage may be blocked */ } },
+  };
+  const OFFLINE = false; const REMOTE = true;
+  const METRICS = ['PDS', 'MSE', 'NMAE', 'FID', 'REACH', 'JAC'];
+  const st = {
+    d: null, okAt: 0,
+    open: new Set(store.get('open', [])),
+    who: Object.assign({cym: false, xzk: false}, store.get('who', {})),
+    eng: !!store.get('eng', false), newest: !!store.get('newest', false),
+  };
+
+  const docLink = (path, label) => {
+    if (!path) return '';
+    if (REMOTE || OFFLINE) return `<span class="lk off" title="服务器原始文档未公开；远端查看摘要和来源SHA">${esc(label)}</span>`;
+    return `<a class="lk" href="/doc?p=${encodeURIComponent(path)}" target="_blank" rel="noopener">${esc(label)}</a>`;
+  };
+  const subLink = (sub, label) => {
+    if (!sub) return '<span class="muted">未交官方</span>';
+    const tip = '~/submission/' + sub.folder + (sub.official !== null && sub.official !== undefined ? ' · 官方 ' + fx(sub.official, 4) : '');
+    if (REMOTE || OFFLINE) return `<span class="lk off" title="${esc(tip)}">${esc(label || sub.folder)}</span>`;
+    return `<a class="lk" href="/sub?p=${encodeURIComponent(sub.folder)}" target="_blank" rel="noopener" title="${esc(tip)}">${esc(label || sub.folder)}</a>`;
+  };
+  const vsLink = (d, sub) => {
+    if (REMOTE) return "";
+    if (!sub || !d.paths) return '';
+    const abs = String(d.paths.submission).replace(/\/$/, '') + '/' + sub.folder;
+    return `<a class="lk" href="vscode://vscode-remote/ssh-remote+${encodeURIComponent(d.vscode_host || 'h200_ecnu')}${encodeURI(abs)}" title="需要本机 VS Code 装了 Remote-SSH">在 VS Code 中打开</a>`;
+  };
+  const foldHead = (f) => `<span class="fh"><b>${esc(f.short)}</b><small>${esc(f.fold)}${f.tag ? ' · ' + esc(f.tag) : ''}</small></span>`;
+  const dur = (s) => {
+    if (!isNum(s)) return '—';
+    const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
+    return h >= 24 ? `${Math.floor(h / 24)} 天 ${h % 24} 小时` : h ? `${h} 小时 ${m} 分` : `${m} 分`;
+  };
+  const countdown = (ep) => {
+    if (!isNum(ep)) return {short: '—', long: '—'};
+    let s = Math.floor(ep - Date.now() / 1000);
+    if (s <= 0) return {short: '已截止', long: '已截止'};
+    const dd = Math.floor(s / 86400); s %= 86400;
+    const hh = Math.floor(s / 3600); s %= 3600;
+    const mm = Math.floor(s / 60);
+    return {short: `${dd} 天 ${hh} 小时`, long: `${dd} 天 ${hh} 小时 ${mm} 分`};
+  };
+  const OFF_TH = '<th class="off">P1 官方评分<small>第一阶段 A/B/C</small></th>';
+  const CN_NUM = ['零', '一', '两', '三', '四', '五', '六'];
+  const foldMap = (d) => { const m = {}; for (const f of d.folds || []) m[f.fold] = f; return m; };
+  const m3Ids = (d) => d.mean3_folds || ['F1', 'F2', 'F3'];
+  const m3Names = (d) => { const fm = foldMap(d); return m3Ids(d).map((k) => (fm[k] || {}).short || k); };
+  const m3Label = (d) => `本地${CN_NUM[m3Ids(d).length] || m3Ids(d).length}考场平均`;
+  const m3Head = (d) => `<th class="m3" title="${esc(m3Ids(d).join('、'))} 各取种子平均，再取平均；每折都有分才算">${m3Label(d)}<small>${esc(m3Names(d).join(' · '))}</small></th>`;
+  // F1、F2、F3 -> "F1–F3"；不连续就用顿号
+  const foldSpan = (ids) => {
+    const n = ids.map((x) => Number(String(x).replace(/\D/g, '')));
+    const run = n.length > 2 && n.every((v, i) => i === 0 || v === n[i - 1] + 1);
+    return run ? `${ids[0]}–${ids[ids.length - 1]}` : ids.join('、');
+  };
+  const uncountedText = (F) => {
+    const ret = F.filter((f) => !f.counted && f.retired).map((f) => f.short);
+    const dir = F.filter((f) => !f.counted && !f.retired).map((f) => f.short);
+    return [ret.length ? ret.join('、') + ' 已停用' : '', dir.length ? dir.join('、') + ' 只看方向' : ''].filter(Boolean).join('，');
+  };
+  const lifeLabel = (x) => ({running: '进行中', completed: '已完成', failed: '失败', planned: '计划中'}[x] || x || '—');
+
+  // ------------------------------------------------------------ top bar and clock
+  function renderTop(d) {
+    const f = d.final;
+    $('#tb-final').textContent = f ? `现有保底核对单 ${f.strategy} ✔ · ${f.submitted ? '已提交' : '未提交'}` : '最终包：还没有核对单';
+    const c = d.latest_candidate;
+    $('#tb-cand').textContent = c ? `最新候选 ${c.name}：${c.verdict}` : '';
+    const w = $('#tb-warn');
+    const W = d.warnings || [];
+    w.hidden = !W.length;
+    w.textContent = W.length ? `⚠ ${W.length} 处数据暂时读不到` : '';
+    w.title = W.join('\n');
+  }
+  function tick() {
+    const d = st.d;
+    if (!d) return;
+    const live = $('#tb-live'), txt = $('#tb-live-text');
+    const age = Math.max(0, Math.round(Date.now() / 1000 - d.generated_epoch));
+    if (REMOTE) { const stale = age > 2100; live.className = stale ? 'tb-live bad' : 'tb-live on'; txt.textContent = stale ? '远端快照已过期' : '远端定时快照'; }
+    else if (OFFLINE) { live.className = 'tb-live off'; txt.textContent = '离线快照'; }
+    else if (st.okAt && Date.now() - st.okAt < 75000 && age < 75) { live.className = 'tb-live on'; txt.textContent = '实时'; }
+    else { live.className = 'tb-live bad'; txt.textContent = age >= 75 ? '数据已过期，正在刷新' : '连接断开，正在重试'; }
+    $('#tb-age').textContent = `采集 ${(d.export || {}).captured_at_bjt || d.generated}（${age < 120 ? age + ' 秒前' : Math.round(age / 60) + ' 分钟前'}）`;
+    const cd = countdown(d.deadline && d.deadline.epoch);
+    $('#tb-count').textContent = cd.short;
+    const big = $('#lv-count');
+    if (big) big.textContent = cd.long;
+  }
+
+  // ------------------------------------------------------------ baselines
+  function slopeSVG(rows) {
+    const L = rows.filter((r) => isNum(r.eq_mean) && isNum(r.official));
+    if (L.length < 2) return '';
+    const lo = [...L].sort((a, b) => b.eq_mean - a.eq_mean);
+    const of = [...L].sort((a, b) => b.official - a.official);
+    const W = 470, top = 36, gap = 28, H = top + gap * (L.length - 1) + 16, xl = 178, xr = 292;
+    const y = (i) => top + gap * i;
+    let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="本地名次与官方名次对照"><text x="${xl + 6}" y="14" text-anchor="end" class="ax">本地（两组等权）</text><text x="${xr - 6}" y="14" class="ax">P1 官方评分</text>`;
+    for (const r of L) {
+      const i = lo.indexOf(r), j = of.indexOf(r), sw = i !== j;
+      s += `<line x1="${xl + 6}" y1="${y(i)}" x2="${xr - 6}" y2="${y(j)}" class="${sw ? 'sw' : 'ln'}"/><circle cx="${xl + 6}" cy="${y(i)}" r="3.5" class="${sw ? 'swd' : 'dt'}"/><circle cx="${xr - 6}" cy="${y(j)}" r="3.5" class="${sw ? 'swd' : 'dt'}"/>`;
+    }
+    lo.forEach((r, i) => { s += `<text x="${xl - 2}" y="${y(i) + 4}" text-anchor="end" class="lb">${esc(r.name)} ${fx(r.eq_mean)}</text>`; });
+    of.forEach((r, j) => { s += `<text x="${xr + 2}" y="${y(j) + 4}" class="lb">${esc(r.name)} ${fx(r.official, 4)}</text>`; });
+    return s + '</svg>';
+  }
+  function renderBaselines(d) {
+    const B = d.baselines || {rows: []}, F = d.folds || [], G = d.groups || [];
+    let h = '<thead><tr><th class="l">基线</th>' + OFF_TH + m3Head(d) + F.map((f) => `<th class="${f.counted ? '' : 'dim'}">${foldHead(f)}${f.counted ? '' : '*'}</th>`).join('')
+      + G.map((g) => `<th class="sep">${esc(g.label)}<small>与 F250 差</small></th>`).join('')
+      + '<th class="sep">两组等权</th><th class="l">复现</th><th class="l">submission · 参照日志</th></tr></thead><tbody>';
+    for (const r of B.rows) {
+      h += `<tr class="${r.id === 'B4' ? 'parent' : r.id === 'B0' ? 'null' : ''}"><td class="l"><b>${esc(r.id)}</b> ${esc(r.name)}</td><td class="off">${fx(r.official, 4)}</td><td class="m3">${fx(r.mean3)}</td>`;
+      for (const f of F) h += `<td class="${f.counted ? '' : 'dim'}">${fx((r.S || {})[f.fold])}</td>`;
+      for (const g of r.groups) h += `<td class="sep">${fx(g.value)}<small>${isNum(g.diff) ? (Math.abs(g.diff) < 1e-12 ? '—' : fx(g.diff)) : ''}</small></td>`;
+      const sub = r.submission ? subLink(r.submission, r.submission.folder.split('/').pop()) : '<span class="muted">未交官方</span>';
+      h += `<td class="sep strong">${fx(r.eq_mean)}</td><td class="l muted">${esc(r.reproduction || '')}</td><td class="l">${sub}${r.log ? ' · ' + docLink(r.log, '日志') : ''}</td></tr>`;
+    }
+    $('#bl-table').innerHTML = h + '</tbody>';
+    const fm = foldMap(d);
+    const grpText = G.map((g) => `${g.label} = ${(g.folds || []).map((k) => (fm[k] || {}).short || k).join(' + ')}`).join('，');
+    const unc = uncountedText(F);
+    $('#bl-note').textContent = `每格是几个种子的平均。加粗的两列：P1 官方评分（第一阶段 A/B/C 的官方分，考的是另一批细胞，只能对先后，不能和本地分直接比大小）；${m3Label(d)}（${m3Names(d).join('、')}的平均，和旧面板一样）。`
+      + `两组平均按现行分组算：${grpText}${unc ? `；带 * 的列不计入（${unc}）` : ''}。`
+      + (B.regrouped ? `参照日志 ${B.snapshot || ''} 当时的分组不同（血液组还含 THP-1），所以这里的两组数和参照总表不一样；每折分数没变。` : '')
+      + '"与 F250 差"是这一组比 F250 低多少（负数表示不如 F250）。"两组等权"是两组平均再取平均，用来和官方分对排名。';
+    $('#bl-slope').innerHTML = slopeSVG(B.rows || []);
+    const L = (B.rows || []).filter((r) => isNum(r.eq_mean) && isNum(r.official));
+    const lo = [...L].sort((a, b) => b.eq_mean - a.eq_mean), of = [...L].sort((a, b) => b.official - a.official);
+    const moved = L.filter((r) => lo.indexOf(r) !== of.indexOf(r)).map((r) => r.name);
+    const txt = moved.length ? `名次和官方不一样的：${moved.join('、')}（图里橙色的线）；其余先后一致。` : '先后和官方完全一致。';
+    $('#bl-side').innerHTML = `<div class="big">${isNum(B.rho) ? B.rho.toFixed(3) : '—'}</div><div class="vc-lab">本地与官方排序的秩相关（1 = 完全一致）</div><p class="vc-note">${esc(txt)}${isNum(B.rho_mean3) ? `按${esc(m3Label(d))}排，秩相关是 ${B.rho_mean3.toFixed(3)}。` : ''}这个数只记录，不拿来调评分器或模型。参照日志版本 ${esc(B.snapshot || '—')}。</p><div>${B.summary_doc ? docLink(B.summary_doc, '参照总表全文') : ''}</div>`;
+  }
+
+  // ------------------------------------------------------------ samples
+  function verdictCard(d, sc) {
+    const fm = {};
+    for (const f of d.folds) fm[f.fold] = f;
+    const chip = (x) => {
+      const v = x.verdict || '';
+      const cls = v === '赢' ? 'win' : v === '输' ? 'lose' : v === '平' ? 'tie' : 'dir';
+      const z = isNum(x.d) && isNum(x.sigma) && x.sigma ? x.d / x.sigma : null;
+      return `<div class="vchip ${cls}"><b>${esc((fm[x.fold] || {}).name || x.name || x.fold)}</b><span>${esc(v)}${z !== null && cls !== 'dir' ? ' ' + fsig(z) : ''}</span></div>`;
+    };
+    const groups = (sc.groups || []).map((g) => `${esc(g.label)} <b class="${g.verdict === '赢' ? 'ok' : g.verdict === '输' ? 'bad' : ''}">${esc(g.verdict || '—')}</b>${isNum(g.D) && isNum(g.sigma) && g.sigma ? '（' + fsig(g.D / g.sigma) + '）' : ''}`).join(' · ');
+    const ruleNote = sc.rule_update ? "现行建议：F1或F2低于−2σ，或F3低于−3σ，建议不采用；F1/F2各≥−1σ、至少一折≥+2σ且F3≥−3σ，建议采用；其余不确定。F5/F6只看方向。" : "此卡保留原有历史判定；现行判读须查看同身份重新汇总卡。";
+    const flags = (sc.flags || []).length ? '<ul class="vflags">' + sc.flags.map((x) => `<li>${esc(x)}</li>`).join('') + '</ul>' : '';
+    return `<div class="vcard"><div class="vc-lab">成绩单判定 · ${esc(sc.created || '')} · 规则建议：<b class="warn">${esc(sc.conclusion || '—')}</b></div><div class="vchips">${(sc.folds || []).map(chip).join('')}</div><div class="vgroups">${groups}</div>${flags}<p class="vc-note">${esc(ruleNote)} 数字是与父本同折同种子的配对差除以 σ；这只是本地建议，由用户决定。</p></div>`;
+  }
+  function detailHTML(d, r) {
+    const F = d.folds;
+    const out = [];
+    out.push(`<div class="det-meta">${esc(r.id)} · ${esc(r.sid)}${r.card_name && r.card_name !== r.name ? ' · ' + esc(r.card_name) : ''} · 登记 ${esc(r.created || '—')} · 评分 ${esc(r.scored || '—')}（${esc(r.progress)}）· 提交者 ${esc(r.submitter)}（依据：${esc(r.submitter_how)}）${r.runtime ? ' · 状态：' + esc(r.runtime.label) : ''}${r.superseded_by ? ' · 已被 ' + esc(r.superseded_by) + ' 替换' : ''}${r.score_from ? ' · ' + esc(r.score_from) : ''}</div>`);
+    if (r.scorecard_path) out.push(`<p class="vc-note">成绩单来源：<code>${esc(r.scorecard_path)}</code><br>SHA256：<code>${esc(r.scorecard_sha256 || "—")}</code></p>`);
+    if (r.runtime) out.push(`<p class="vc-note">生成 ${esc((r.counts || {}).generated || 0)} · GREEN ${esc((r.counts || {}).green || 0)} · 已评 ${esc(r.progress)}${r.external ? "；来自原生测量来源审计，不是新增运行。" : "；仅有实际活进程才称运行中。"}</p>`);
+    if (r.change || r.mechanism) out.push(`<div class="det-text">${r.change ? '<b>改了什么</b>　' + esc(r.change) : ''}${r.change && r.mechanism ? '<br>' : ''}${r.mechanism ? '<b>做法</b>　' + esc(r.mechanism) : ''}</div>`);
+    if (r.blind) {
+      out.push('<p class="vc-note">这个候选还没有成绩单。按盲评规定，成绩单出来之前不显示任何分数。</p>');
+    } else {
+      if (r.detail.scorecard) out.push(verdictCard(d, r.detail.scorecard));
+      const M = r.detail.matrix || {};
+      let t = '<table class="mx"><thead><tr><th class="l">指标</th>' + F.map((f) => `<th class="${f.counted ? '' : 'dim'}">${foldHead(f)}</th>`).join('') + '</tr></thead><tbody>';
+      t += '<tr class="srow"><td class="l"><b>总分 S</b></td>' + F.map((f) => `<td class="${f.counted ? '' : 'dim'}"><b>${fx((M[f.fold] || {}).S)}</b></td>`).join('') + '</tr>';
+      for (const m of METRICS) {
+        t += `<tr><td class="l">${m}</td>` + F.map((f) => {
+          const c = M[f.fold];
+          if (!c) return '<td class="dim">—</td>';
+          const q = (c.qualified || []).includes(m);
+          return `<td class="${q ? '' : 'nq'}${f.counted ? '' : ' dim'}" title="原始值 ${fx(c.raw[m], 4)}${q ? '' : '（这一折不计分）'}">${fx(c.scaled[m])}<small>${fx(c.raw[m])}</small></td>`;
+        }).join('') + '</tr>';
+      }
+      t += '</tbody></table>';
+      const S = r.detail.seeds || {};
+      let sd = '<table class="sd"><tbody>';
+      for (const f of F) {
+        const arr = S[f.fold];
+        if (!arr || !arr.length) continue;
+        const vals = arr.map((x) => x[1]).filter(isNum);
+        const spread = vals.length > 1 ? Math.max(...vals) - Math.min(...vals) : null;
+        sd += `<tr><td class="l">${esc(f.short)}</td><td class="l mono">${arr.map(([s, v]) => `<span title="种子 ${esc(s)}">${fx(v, 4)}</span>`).join(' ')}</td><td class="muted">${spread !== null ? '最大差 ' + fx(spread, 4) : ''}</td></tr>`;
+      }
+      sd += '</tbody></table>';
+      out.push(`<div class="det-cols"><div><div class="vc-lab">六折 × 六项：大字是换算分，小字是原始值；灰色斜体是这一折不计分的指标</div><div class="vc-scroll">${t}</div></div><div><div class="vc-lab">每个种子的总分（同一方法换随机种子重跑）</div>${sd}</div></div>`);
+    }
+    const links = (r.detail.docs || []).map((x) => docLink(x.path, x.label));
+    if (r.submission) { links.push(subLink(r.submission, 'submission 文件夹 ' + r.submission.folder)); links.push(vsLink(d, r.submission)); }
+    if (links.length) out.push(`<div class="det-links">${links.join('')}</div>`);
+    return out.join('');
+  }
+  function renderSamples(d) {
+    const box = $('#s-box');
+    const keep = [box.scrollTop, box.scrollLeft];
+    const F = d.folds || [], G = d.groups || [];
+    $('#s-head').innerHTML = '<tr><th class="c-id">编号</th><th class="c-name">方法</th><th class="l">类型</th><th class="l">提交者</th><th class="l">测量/汇总时间</th>' + OFF_TH + m3Head(d)
+      + F.map((f) => `<th class="${f.counted ? '' : 'dim'}">${foldHead(f)}${f.counted ? '' : '*'}</th>`).join('')
+      + G.map((g, i) => `<th class="${i === 0 ? 'sep' : ''}">${esc(g.label)}</th>`).join('')
+      + METRICS.map((m, i) => `<th class="${i === 0 ? 'sep' : ''}">${m}</th>`).join('')
+      + '<th class="l sep">判定</th><th class="l">submission</th></tr>';
+    let rows = (d.samples || []).filter((r) => st.eng || !r.engineering);
+    const want = ['cym', 'xzk'].filter((k) => st.who[k]);
+    if (want.length === 1) rows = rows.filter((r) => r.submitter === want[0]);
+    if (st.newest) rows = rows.slice().reverse();
+    const ncol = 5 + F.length + G.length + METRICS.length + 4;
+    const span = F.length + G.length + METRICS.length;
+    let h = '';
+    for (const r of rows) {
+      const open = st.open.has(r.id);
+      const cls = ['sr', open ? 'open' : '', r.engineering || r.superseded_by ? 'faded' : '', r.role === 'candidate' ? 'cand' : '', r.is_parent ? 'parent' : ''].filter(Boolean).join(' ');
+      h += `<tr class="${cls}" data-id="${esc(r.id)}" tabindex="0" aria-expanded="${open}">`;
+      const subName = r.name !== r.sid ? r.sid : (r.card_name && r.card_name !== r.name ? r.card_name : '');
+      h += `<td class="c-id">${open ? '▾' : '▸'} ${esc(r.id)}</td><td class="c-name"><b>${esc(r.name)}</b>${subName ? `<small>${esc(subName)}</small>` : ''}${r.runtime ? `<small>${esc(r.runtime.label)}${r.external ? " · 历史原生测量" : ""}</small>` : ''}</td>`;
+      h += `<td class="l">${esc(r.type)}</td><td class="l"><span class="who ${esc(r.submitter)}" title="依据：${esc(r.submitter_how)}">${esc(r.submitter)}</span></td>`;
+      h += `<td class="l">${esc(r.scored || '—')}${r.complete ? '' : `<small>已评 ${esc(r.progress)}</small>`}</td>`;
+      h += `<td class="off">${fx(r.official, 4)}</td>`;
+      if (r.blind) {
+        h += `<td class="m3">—</td><td colspan="${span}" class="blind">成绩单出来之前不显示分数（盲评）· 已评 ${esc(r.progress)}</td>`;
+      } else {
+        h += `<td class="m3">${fx(r.mean3)}</td>`;
+        for (const f of F) {
+          const c = (r.folds || {})[f.fold];
+          const tip = c && isNum(c.z) ? `和父本差 ${fsig(c.z)}${c.verdict ? '，成绩单判 ' + c.verdict : ''}` : '';
+          h += `<td class="${f.counted ? '' : 'dim'}${c && c.mark ? ' m-' + c.mark : ''}" title="${esc(tip)}">${c ? fx(c.S) : '—'}</td>`;
+        }
+        (r.groups || []).forEach((g, i) => { h += `<td class="${i === 0 ? 'sep' : ''}">${fx(g.value)}</td>`; });
+        METRICS.forEach((m, i) => { h += `<td class="${i === 0 ? 'sep' : ''}">${fx((r.metrics || {})[m])}</td>`; });
+      }
+      const sub = r.submission ? subLink(r.submission, r.submission.folder.split('/').pop()) : '<span class="muted">未交官方</span>';
+      h += `<td class="l sep v-${esc(r.verdict_kind)}">${esc(r.verdict)}</td><td class="l">${sub}</td></tr>`;
+      if (open) h += `<tr class="det-row"><td colspan="${ncol}"><div class="det">${detailHTML(d, r)}</div></td></tr>`;
+    }
+    if (!rows.length) h = `<tr><td colspan="${ncol}" class="empty">${want.length === 1 ? `暂无 ${esc(want[0])} 的样本` : '还没有样本'}</td></tr>`;
+    $('#s-body').innerHTML = h;
+    box.scrollTop = keep[0];
+    box.scrollLeft = keep[1];
+    const main = (d.samples || []).filter((r) => !r.engineering);
+    const nc = main.filter((r) => r.submitter === 'cym').length, nx = main.filter((r) => r.submitter === 'xzk').length;
+    const ne = (d.samples || []).length - main.length;
+    $('#s-count').textContent = `共 ${main.length} 个（cym ${nc} 个，xzk ${nx} 个）${ne ? `，另有工程测试 ${ne} 个` : ''}`;
+    const cnt = F.filter((f) => f.counted).map((f) => f.fold), unc = uncountedText(F);
+    $('#s-legend').innerHTML = `<span><b>加粗两列</b>：P1 官方评分（没交过官方的显示 —）；${esc(m3Label(d))}（${esc(m3Names(d).join('、'))}，每折都有分才算）</span>`
+      + `<span>${esc(foldSpan(cnt))} 计分${unc ? `；带 * 的不计分（${esc(unc)}）` : ''}</span>`
+      + `<span><span class="ok">▲</span> 比父本高出 ${esc(d.sigma_k)}σ 以上</span><span><span class="bad">▼</span> 比父本低 ${esc(d.sigma_k)}σ 以上</span><span>≈ 和父本打平</span>`
+      + `<span>两组和六项指标都只算计分考场（六项只算该考场合格的指标）</span><span>提交者：鼠标停在名字上看依据；代志琨交的一律记 xzk</span>`;
+  }
+
+  // ------------------------------------------------------------ live
+  function renderLive(d) {
+    const ms = (d.milestones || []).map((m) => {
+      const when = m.date_only ? String(m.time || '').slice(5, 10) : String(m.time || '').slice(5, 16);
+      return `<li class="${m.done ? 'done' : m.passed ? 'passed' : ''}"><span class="mk">${m.done ? '✔' : m.passed ? '●' : '○'}</span><b>${esc(when)}</b><span>${esc(m.text)}</span>${m.done && m.done_note ? `<small>${esc(m.done_note)}</small>` : ''}</li>`;
+    }).join('');
+    const f = d.final;
+    $('#lv-deadline').innerHTML = `<h3>距官方截止</h3><div class="vc-num" id="lv-count">${countdown(d.deadline && d.deadline.epoch).long}</div><div class="vc-sub">${esc((d.deadline || {}).time || '—')}（北京时间）</div><ul class="ms">${ms}</ul>`
+      + (f ? `<p class="vc-note">现有保底核对单：${esc(f.strategy)}。${esc(f.selection || '')}。核对单 ${esc(f.created || '')} 完成，${f.submitted ? '已提交' : '还没有提交（只有人工点名才交）'}。${f.doc ? docLink(f.doc, '看核对单') : ''}</p>` : '');
+    const T = d.running || [];
+    $('#lv-tasks').innerHTML = `<h3>正在跑的任务<small>${T.filter(x => x.kind === "generate").length} 生成 / ${T.filter(x => x.kind === "score").length} 评分 · 共 ${T.length} 条进程记录</small></h3>`
+      + (T.length ? '<ul class="tasks">' + T.map((t) => `<li><b>${esc(t.name)}</b><span>已跑 ${dur(t.elapsed_s)} · 内存 ${t.rss_mb >= 1024 ? (t.rss_mb / 1024).toFixed(1) + ' GB' : esc(t.rss_mb) + ' MB'} · pid ${esc(t.pid)}</span>${t.name !== t.tool ? `<small>${esc(t.tool)}</small>` : ''}</li>`).join('') + '</ul>' : '<p class="vc-note">现在没有在跑的任务。</p>')
+      + '<p class="vc-note">核对启动记录完整 argv，并扫描本评分器运行目录下的实际进程；调度、生成、评分分开显示，子进程去重。仅表示进程存活，不代表任务已成功。</p>';
+    const S = d.state_tail || [];
+    $('#lv-steps').innerHTML = '<h3>Codex 最近几步</h3>' + (S.length ? '<ol class="steps">' + S.map((s) => `<li><span class="t">${esc(s.time)} · <span class="w">${esc(s.wp)}</span></span><span>${esc(s.did)}</span>${s.next ? `<span class="n">下一步：${esc(s.next)}</span>` : ''}</li>`).join('') + '</ol>' : '<p class="vc-note">还没有记录。</p>') + `<div>${docLink('run/STATE_v5.md', '看全部记录')}</div>`;
+    const projects = (d.projects || []).map(p => `<div class="exp"><b>${esc(p.name)}</b><p>生成 ${esc(p.generated)}/${esc(p.total)} · GREEN ${esc(p.green)}/${esc(p.total)} · 已评 ${esc(p.scored)}/${esc(p.total)} · 成绩单 ${esc(p.cards)}/${p.strategies.length}</p><p class="vc-note">${p.active.map(esc).join('；')}<br>状态文件：${esc(p.updated || '—')} · 报告 ${esc(p.reported_status || '—')}<br><code>${esc(p.source)}</code></p></div>`).join('');
+    const stops = (d.planned_stops || []).map(p => `<div class="exp"><b>${esc(p.name)}</b><p class="vc-note">${esc(p.state)}<br><code>${esc(p.source)}</code></p></div>`).join('');
+    $('#lv-projects').innerHTML = '<h3>本轮任务与计划停止</h3>' + projects + stops + '<p class="vc-note">份数来自实际 CURRENT/印记/评分结果；状态文件时间另列。部分分数按盲评隐藏，已评份数仍更新。计划停止不算漏跑。</p>';
+    const E = d.experiments || [];
+    $('#lv-exp').innerHTML = '<h3>追加实验</h3>' + (E.length ? E.map((e) => {
+      const done = e.groups.filter((g) => g.done).length;
+      const tip = e.groups.map((g) => g.name + (g.done ? ' ✔ ' + g.at : ' 未完成')).join('\n');
+      return `<div class="exp"><div><b>${esc(e.id)}</b> <span class="pill ${e.lifecycle === 'completed' ? 'ok' : e.lifecycle === 'running' ? 'run' : ''}">${esc(lifeLabel(e.lifecycle))}</span> <small>更新于 ${esc(e.updated || '—')}</small></div>`
+        + (e.objective ? `<p class="clamp" title="${esc(e.objective)}">${esc(e.objective)}</p>` : '')
+        + (e.groups.length ? `<div class="segs" title="${esc(tip)}">${e.groups.map((g) => `<span class="${g.done ? 'on' : ''}"></span>`).join('')}</div><div class="vc-sub">${done}/${e.groups.length} 组已生成</div>` : '')
+        + (e.conclusion ? `<p class="vc-note">${esc(e.conclusion)}</p>` : '') + (e.readme ? `<div>${docLink(e.readme, '实验说明')}</div>` : '') + '</div>';
+    }).join('') : '<p class="vc-note">没有追加实验。</p>') + '<p class="vc-note">DEF工程预测无真值，只显示生成与核验进度；本地补评另列真实成绩单，不能把两者视为同一成绩。</p>';
+    const s = d.status || {}, snap = s.snapshot || {};
+    const docs = (d.docs || []).map((x) => docLink(x.path, x.label)).join('');
+    $('#lv-status').innerHTML = `<h3>评分器状态</h3><dl class="kv"><dt>快照</dt><dd>${esc(snap.version || '—')}（${snap.mode === 'record_only' ? '只记录，未锁定' : esc(snap.mode || '')}）${snap.unchanged === false ? ' <b class="bad">内容已变</b>' : ''}</dd>`
+      + `<dt>磁盘剩余</dt><dd>${isNum(s.free_gb) ? s.free_gb.toLocaleString('zh-CN') + ' GB' : '—'}（全局低于 ${esc(s.min_free_gb)} GB 暂停无例外的新运行）</dd>`
+      + `<dt>负载 load1</dt><dd>${isNum(s.load1) ? s.load1.toFixed(2) : "—"}</dd><dt>作用域例外</dt><dd>${(d.resource_scopes || []).map(x => esc(x.strategies.join(", ") + "：" + x.note)).join("；") || "无"}</dd>`
+      + `<dt>告警</dt><dd>${(s.alerts || []).length ? s.alerts.map(esc).join('；') : '无'}</dd>`
+      + `<dt>Codex 状态页</dt><dd>${esc(d.board_updated || '—')} 更新${d.board_age_s > 660 ? ' <b class="bad">已过期</b>' : ''}；快照结论来自这次记录，未由网页实时全量验 SHA</dd><dt>采集版本</dt><dd>${esc(d.revision || "旧版")}</dd></dl><div class="vc-lab">文档（只读）</div><div class="docs">${docs}</div>`;
+  }
+
+  // ------------------------------------------------------------ pipeline
+  function renderPipeline(d) {
+    const el = $('#pp-lanes');
+    const steps = ['策略卡', '登记', '视图', '生成', '盖章', '评分', '成绩单', '正式包'];
+    const notNeeded = (role, i) => i === 7 && (role === '参照' || role === '对照组');
+    const chipCls = {'父本': ' parent', '候选': ' cand', '对照组': ' null'};
+    let h = '';
+    for (const r of d.pipeline || []) {
+      const st2 = steps.map((_, i) => {
+        const v = String((r.steps || [])[i] || '—');
+        if (v === '✔') return {c: 'done'};
+        if (v.startsWith('进行中')) return {c: 'part', t: v.replace('进行中', '').trim()};
+        if (v.startsWith('✖')) return {c: 'bad'};
+        if (v === '原记录' || v.startsWith('见来源')) return {c: 'na', t: v};
+        if (v.startsWith('已停止')) return {c: 'na', t: '已停止'};
+        return {c: notNeeded(r.role, i) ? 'na' : 'todo'};
+      });
+      const reached = (x) => x.c === 'done' || x.c === 'part' || x.c === 'bad';
+      h += `<div class="vc-prow vc-lane"><div class="vc-lanelab"><span class="vc-lname">${esc(r.name)}<small>${esc(r.id)}${r.runtime ? " · " + esc(r.runtime.label) : ""}</small></span><span class="vc-chip${chipCls[r.role] || ''}">${esc(r.role)}</span></div>`;
+      st2.forEach((x, i) => {
+        h += `<div class="vc-node ${x.c}">`;
+        if (i > 0) h += `<span class="vc-rail l${reached(x) ? ' on' : ''}"></span>`;
+        if (i < st2.length - 1) h += `<span class="vc-rail r${reached(st2[i + 1]) ? ' on' : ''}"></span>`;
+        h += '<span class="vc-dot"></span>' + (x.t ? `<span class="vc-ncount">${esc(x.t)}</span>` : '') + '</div>';
+      });
+      h += '</div>';
+    }
+    el.innerHTML = h;
+    $('#pp-rule').textContent = `现行建议（第7步）：F1/F2各≥−1σ，至少一折≥+2σ，F3≥−3σ才建议采用；F1/F2任一低于−2σ或F3低于−3σ建议不采用；其余不确定。F5/F6仅方向。旧测量保持原样，以现行同身份成绩单为准。`;
+  }
+
+  // ------------------------------------------------------------ cross-validation
+  function renderCV(d) {
+    const el = $('#cv-grid');
+    const cv = d.cv || {rows: [], sources: [], exam_only: []};
+    const SRC = cv.sources || [], EX = cv.exam_only || [];
+    const fm = {};
+    for (const f of d.folds || []) fm[f.fold] = f;
+    const rows = {};
+    for (const r of cv.rows || []) rows[r.fold] = r;
+    const cells = [];
+    const put = (cls, html, row, col, cs, rs) => { cells.push(`<div class="${cls}" style="grid-area:${row} / ${col} / span ${rs || 1} / span ${cs || 1}">${html}</div>`); };
+    put('h', '考场', 1, 1, 1, 2);
+    put('h hg', '能学的来源数据', 1, 2, SRC.length);
+    put('h hg', '只当考题', 1, 2 + SRC.length, EX.length);
+    put('h hg', '这一折的分数', 1, 2 + SRC.length + EX.length, 4);
+    SRC.concat(EX).forEach((n, i) => put('h c', esc(n), 2, 2 + i));
+    const c0 = 2 + SRC.length + EX.length;
+    put('h num', '考题数', 2, c0); put('h', '合格指标', 2, c0 + 1); put('h num', '抖动 σ', 2, c0 + 2); put('h', '怎么用', 2, c0 + 3);
+    const cellFor = (s) => s === '考' ? '<span class="vc-cell exam">考</span>' : s === '藏' ? '<span class="vc-cell hide">藏</span>' : s === '可用' ? '<span class="vc-cell avail">可用</span>' : '<span class="vc-cell none">—</span>';
+    const lineage = {};
+    for (const f of d.folds || []) (lineage[f.lineage || '其他'] = lineage[f.lineage || '其他'] || []).push(f.fold);
+    let line = 3;
+    const fillRow = (r, extra) => {
+      put('fold' + extra, `<span>${r.fold === 'P' ? '' : esc(r.fold) + ' · '}${esc(r.fold_name)}</span>`, line, 1);
+      SRC.concat(EX).forEach((n, i) => put('c' + extra, cellFor((r.cells || {})[n]), line, 2 + i));
+    };
+    for (const [grp, folds] of Object.entries(lineage)) {
+      put('grp', esc(grp), line, 1, 1 + SRC.length + EX.length + 4);
+      line += 1;
+      for (const fid of folds) {
+        const r = rows[fid], f = fm[fid];
+        if (!r || !f) continue;
+        fillRow(r, '');
+        put('num', isNum(f.n_targets) ? f.n_targets.toLocaleString('zh-CN') : '—', line, c0);
+        const have = f.qualified || [];
+        const miss = METRICS.filter((k) => !have.includes(k));
+        put('', have.length === METRICS.length ? '全部 6 项' : have.length <= 2 ? '只剩 ' + have.join('、') : '缺 ' + miss.join('、'), line, c0 + 1);
+        put('num', fx(f.sigma, 4), line, c0 + 2);
+        put('use', `<span class="pill ${f.counted ? 'ok' : ''}">${f.counted ? '计分' : f.retired ? '已停用' : '只看方向'}</span><small>Codex 现在：${esc(f.codex_status)}</small>${f.note ? `<small>${esc(f.note)}</small>` : ''}`, line, c0 + 3);
+        line += 1;
+      }
+    }
+    if (rows.P) {
+      fillRow(rows.P, ' p');
+      put('use p', '<small>不打分。考题是官方的 D/E/F，这一行只用来做正式提交包，所以什么都不藏。</small>', line, c0, 4);
+    }
+    el.innerHTML = cells.join('');
+    const f1 = fm.F1;
+    $('#cv-n1').textContent = f1 && isNum(f1.n_targets) ? f1.n_targets.toLocaleString('zh-CN') : '—';
+    const S = d.samples || [];
+    const ctl = S.find((r) => r.sid === 'NULL_control'), par = S.find((r) => r.is_parent);
+    const g = (r, f) => r && r.folds && r.folds[f] ? fx(r.folds[f].S) : '—';
+    const n = (f) => (fm[f] || {}).name || f;
+    $('#cv-weak').textContent = ctl && par
+      ? `"只交对照细胞"什么都不预测，却在 ${n('F5')} 拿到 ${g(ctl, 'F5')}，在 ${n('F4')} 拿到 ${g(ctl, 'F4')}；父本在这两个考场分别只有 ${g(par, 'F5')} 和 ${g(par, 'F4')}。`
+      : '—';
+    const notes = (d.folds || []).filter((f) => f.note).map((f) => `${f.name}：${f.note}`);
+    $('#cv-weak-note').textContent = notes.join('；');
+  }
+
+  // ------------------------------------------------------------ metrics
+  const MDESC = {
+    PDS: ['能不能认出是哪个靶点', '把预测的"敲掉 X 之后的变化"和所有靶点的真实变化比，看它离真的 X 最近，还是更像别的靶点。'],
+    MSE: ['平均表达差多少', '每个靶点 400 个预测细胞的平均表达，和真实细胞的平均表达逐个基因比，差得越少越好。'],
+    NMAE: ['变化幅度准不准', '在真实变化明显的基因上，预测的"升了几倍、降了几倍"和真实差多少。'],
+    FID: ['说"变了"的，方向对不对', '我们报告"变了"的基因里，升降方向说对的有多少。乱报会被扣分。'],
+    REACH: ['真变了的，找到多少', '真实"变了"的基因里，有多少被我们找到，并且方向也对。'],
+    JAC: ['"变了"的名单重合多少', '我们的"变了"名单和真实名单的重合程度。两边都几乎为空时也算高度重合，这正是有的考场只能看方向的原因。'],
+  };
+  function rulerSVG(d) {
+    const rows = (d.baselines || {}).rows || [];
+    const p = rows.find((r) => r.id === 'B4'), c = rows.find((r) => r.id === 'B0');
+    const W = 760, H = 140, ay = 62;
+    const lo = Math.min(-0.3, c && isNum(c.eq_mean) ? c.eq_mean : 0) - 0.05, hi = 1.05;
+    const x = (v) => 14 + ((v - lo) / (hi - lo)) * (W - 28);
+    let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="分数刻度尺">`;
+    s += `<rect x="${x(lo)}" y="${ay - 3}" width="${x(0) - x(lo)}" height="6" class="neg"/><rect x="${x(0)}" y="${ay - 3}" width="${x(1) - x(0)}" height="6" class="pos"/>`;
+    for (const t of [0, 1]) s += `<line x1="${x(t)}" x2="${x(t)}" y1="${ay - 12}" y2="${ay + 12}" class="axl"/>`;
+    s += `<text x="${x(0) + 4}" y="${ay - 16}" class="lb">0 = 官方基线</text><text x="${x(1)}" y="${ay - 16}" text-anchor="end" class="lb">1 = 高水平参考线</text>`;
+    if (c && isNum(c.eq_mean)) s += `<circle cx="${x(c.eq_mean)}" cy="${ay}" r="5" class="ctl"/><text x="${Math.max(2, x(c.eq_mean) - 4)}" y="${ay + 26}" class="ax">只交对照 ${fx(c.eq_mean)}</text>`;
+    if (p && isNum(p.eq_mean)) s += `<circle cx="${x(p.eq_mean)}" cy="${ay}" r="6" class="par"/><line x1="${x(p.eq_mean)}" x2="${x(p.eq_mean)}" y1="${ay + 6}" y2="${ay + 38}" class="parl"/><text x="${x(p.eq_mean) + 4}" y="${ay + 50}" class="lb">F250 本地两组等权 ${fx(p.eq_mean)}</text>`;
+    if (p && isNum(p.official)) s += `<circle cx="${x(p.official)}" cy="${ay}" r="6" class="off"/><line x1="${x(p.official)}" x2="${x(p.official)}" y1="${ay + 6}" y2="${ay + 60}" class="offl"/><text x="${x(p.official) + 4}" y="${ay + 72}" class="lb">F250 官方第一阶段 ${fx(p.official, 4)}</text>`;
+    return s + '</svg>';
+  }
+  function renderMetrics(d) {
+    $('#mt-ruler').innerHTML = rulerSVG(d);
+    const F = (d.folds || []).filter((f) => f.counted);
+    const pm = {};
+    for (const r of d.parent_metrics || []) pm[r.metric] = r;
+    $('#mt-cards').innerHTML = METRICS.map((m) => `<div class="vc-metric"><div class="vc-mname">${m} <span>${esc(MDESC[m][0])}</span></div><p>${esc(MDESC[m][1])}</p><div class="vc-mvals">${F.map((f) => `<span>${esc(f.short)}<b>${fx((pm[m] || {})[f.fold])}</b></span>`).join('')}</div></div>`).join('');
+  }
+
+  function renderFoot(d) {
+    $('#foot').innerHTML = `只读远端快照，每15分钟采集并上传；页面每分钟检查GitHub上的新快照，超过35分钟明确标为过期。采集时的活进程与已评份数是当时事实，不表示此刻仍在运行。所有成绩仅为本地评分。服务器文档与投稿目录未公开。<br><a href="./snapshot.json" target="_blank" rel="noopener">下载精简JSON（保留完整数值）</a> · <a href="https://github.com/Chemit797/Remote-Dashboard">GitHub与更新时间</a><br>内网看板：${(d.export || {}).production_dashboard_fixed ? '修复版已部署' : '原服务尚待单独重启授权；本页直接使用已验收的修复采集器'}。`;
+  }
+
+  const RENDER = [['top', renderTop], ['baselines', renderBaselines], ['samples', renderSamples], ['live', renderLive],
+    ['pipeline', renderPipeline], ['cv', renderCV], ['metrics', renderMetrics], ['foot', renderFoot]];
+  function renderAll() {
+    if (!st.d) return;
+    for (const [name, fn] of RENDER) {
+      try { fn(st.d); } catch (e) { console.error('render ' + name, e); }
+    }
+    tick();
+  }
+  async function refresh() {
+    try {
+      const r = await fetch('./snapshot.json?ts=' + Date.now(), {cache: 'no-store'});
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      st.d = await r.json();
+      st.okAt = Date.now();
+      renderAll();
+    } catch (e) {
+      tick();
+    }
+  }
+
+  // ------------------------------------------------------------ events
+  const body = $('#s-body');
+  const toggle = (tr) => {
+    const id = tr.dataset.id;
+    if (st.open.has(id)) st.open.delete(id); else st.open.add(id);
+    store.set('open', [...st.open]);
+    renderSamples(st.d);
+  };
+  body.addEventListener('click', (ev) => {
+    if (ev.target.closest('a') || ev.target.closest('.det')) return;
+    const tr = ev.target.closest('tr.sr');
+    if (tr) toggle(tr);
+  });
+  body.addEventListener('keydown', (ev) => {
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    const tr = ev.target.closest('tr.sr');
+    if (tr) { ev.preventDefault(); toggle(tr); }
+  });
+  for (const k of ['cym', 'xzk']) {
+    const el = $('#f-' + k);
+    el.checked = !!st.who[k];
+    el.addEventListener('change', () => { st.who[k] = el.checked; store.set('who', st.who); renderSamples(st.d); });
+  }
+  const eng = $('#f-eng'), nw = $('#f-new');
+  eng.checked = st.eng;
+  nw.checked = st.newest;
+  eng.addEventListener('change', () => { st.eng = eng.checked; store.set('eng', st.eng); renderSamples(st.d); });
+  nw.addEventListener('change', () => { st.newest = nw.checked; store.set('newest', st.newest); renderSamples(st.d); });
+  for (const b of document.querySelectorAll('.vc-jump')) {
+    b.addEventListener('click', () => {
+      const t = document.getElementById(b.dataset.target);
+      if (t) { t.scrollIntoView({behavior: 'smooth', block: 'start'}); history.replaceState(null, '', '#' + t.id); }
+    });
+  }
+
+  const manualRefresh = $('#manual-refresh');
+  manualRefresh.disabled = OFFLINE;
+  manualRefresh.addEventListener('click', refresh);
+  if (OFFLINE) {
+    st.d = window.__DASH_SNAPSHOT__;
+    renderAll();
+  } else {
+    refresh();
+    setInterval(refresh, 60000);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
+  }
+  setInterval(tick, 1000);
+  const named = document.getElementById(location.hash.slice(1));
+  if (named) setTimeout(() => named.scrollIntoView(), 400);
+})();
+</script>
+</body>
+</html>
