@@ -1,36 +1,38 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-02T15:19:59+08:00（北京时间）**
+**采集时间：2026-11-02T15:31:00+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 60 个，独立归档 8 个；采集时进程记录 12 条（生成 10、评分 0）。
+登记策略 60 个，独立归档 8 个；采集时进程记录 14 条（生成 12、评分 0）。
 
 ## 当前轮次
 
 | 轮次 | 生成 | GREEN | 已评 | 成绩单 | 状态文件时间 |
 |---|---:|---:|---:|---:|---|
-| 对照噪声 DN3 | 14/30 | 14/30 | 14/30 | 1/3 | 2026-11-02T15:19:45+08:00 |
+| 对照噪声 DN3 | 14/30 | 14/30 | 14/30 | 1/3 | 2026-11-02T15:30:56+08:00 |
 | 机制证据 pilot | 9/20 | 9/20 | 9/20 | 0/2 | 2026-11-02T15:11:25+08:00 |
 
 ## 采集时正在运行
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · DN3_NTC_GENE F1/seed0 | generate | 1303 |
-| 生成 · DN3_NTC_GENE F1/seed1 | generate | 1153 |
-| 生成 · DN3_NTC_GENE F2/seed0 | generate | 1002 |
-| 生成 · DN3_NTC_GENE F2/seed1 | generate | 557 |
-| 生成 · DN3_NTC_GENE F3/seed1 | generate | 557 |
-| 生成 · DN3_NTC_GENE F5/seed1 | generate | 557 |
-| 生成 · DN3_NTC_SHAPE F1/seed0 | generate | 557 |
-| 生成 · DN3_NTC_SHAPE F2/seed1 | generate | 527 |
-| 生成 · DN3_NTC_SHAPE F3/seed0 | generate | 527 |
-| 生成 · DN3_NTC_SHAPE F3/seed1 | generate | 497 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 151076 |
-| 调度/收尾 · dn3_dispatch_v8 | controller | 557 |
+| 生成 · DN3_NTC_GENE F1/seed0 | generate | 1965 |
+| 生成 · DN3_NTC_GENE F1/seed1 | generate | 1814 |
+| 生成 · DN3_NTC_GENE F2/seed0 | generate | 1664 |
+| 生成 · DN3_NTC_GENE F2/seed1 | generate | 1219 |
+| 生成 · DN3_NTC_GENE F3/seed1 | generate | 1219 |
+| 生成 · DN3_NTC_GENE F5/seed1 | generate | 1219 |
+| 生成 · DN3_NTC_SHAPE F1/seed0 | generate | 1219 |
+| 生成 · DN3_NTC_SHAPE F2/seed1 | generate | 1189 |
+| 生成 · DN3_NTC_SHAPE F3/seed0 | generate | 1189 |
+| 生成 · DN3_NTC_SHAPE F3/seed1 | generate | 1159 |
+| 生成 · DN3_NTC_SHAPE F1/seed1 | generate | 367 |
+| 生成 · DN3_NTC_SHAPE F2/seed0 | generate | 367 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 151737 |
+| 调度/收尾 · dn3_dispatch_v9 | controller | 367 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -120,6 +122,6 @@
 
 **内网看板部署：** 原18766服务仍待单独重启授权；此远端快照直接调用已验收的修复采集器，不依赖测试服务或持续SSH连接。
 
-采集版本：`20261102-live-audit-v1`；快照SHA256：`7aebe163b677e8982f855e644de770c3a4a580e1df7e7382feabea6b3b7a3849`。
+采集版本：`20261102-live-audit-v1`；快照SHA256：`f4df5dda3142c6929c4328fe92a500604cc54a6475af8c7473839459d0f79796`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
