@@ -1,6 +1,6 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-03T03:21:16+08:00（北京时间）**
+**采集时间：2026-11-03T03:36:02+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
@@ -35,7 +35,7 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 管线状态刷新 · board_refresh_resource_v4 | status | 194355 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 195241 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -129,6 +129,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261102-daily-reconciliation-v2`；快照SHA256：`f90cbaf722b2218e37986796d087ba8149b72f35fba0990085d76e8b1b9c28df`。
+采集版本：`20261102-daily-reconciliation-v2`；快照SHA256：`9878a595c60c19f8a101faefb1702a2ec41d5dbb0c5f77be042e9a91ee8cb0b3`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
