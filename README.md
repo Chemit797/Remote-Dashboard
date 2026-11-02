@@ -1,34 +1,33 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-02T16:45:52+08:00（北京时间）**
+**采集时间：2026-11-02T17:00:52+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 60 个，独立归档 8 个；采集时进程记录 10 条（生成 8、评分 0）。
+登记策略 60 个，独立归档 8 个；采集时进程记录 9 条（生成 7、评分 0）。
 
 ## 当前轮次
 
 | 轮次 | 生成 | GREEN | 已评 | 成绩单 | 状态文件时间 |
 |---|---:|---:|---:|---:|---|
-| 对照噪声 DN3 | 22/30 | 22/30 | 22/30 | 1/3 | 2026-11-02T16:45:48+08:00 |
+| 对照噪声 DN3 | 23/30 | 23/30 | 23/30 | 1/3 | 2026-11-02T17:00:24+08:00 |
 | 机制证据 pilot | 9/20 | 9/20 | 9/20 | 0/2 | 2026-11-02T15:11:25+08:00 |
 
 ## 采集时正在运行
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · DN3_NTC_GENE F1/seed0 | generate | 6457 |
-| 生成 · DN3_NTC_GENE F1/seed1 | generate | 6306 |
-| 生成 · DN3_NTC_GENE F2/seed0 | generate | 6156 |
-| 生成 · DN3_NTC_GENE F2/seed1 | generate | 5711 |
-| 生成 · DN3_NTC_SHAPE F1/seed0 | generate | 5711 |
-| 生成 · DN3_NTC_SHAPE F2/seed1 | generate | 5680 |
-| 生成 · DN3_NTC_SHAPE F1/seed1 | generate | 4859 |
-| 生成 · DN3_NTC_SHAPE F2/seed0 | generate | 4859 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 156229 |
-| 调度/收尾 · dn3_dispatch_v9 | controller | 4859 |
+| 生成 · DN3_NTC_GENE F1/seed0 | generate | 7357 |
+| 生成 · DN3_NTC_GENE F1/seed1 | generate | 7206 |
+| 生成 · DN3_NTC_GENE F2/seed1 | generate | 6611 |
+| 生成 · DN3_NTC_SHAPE F1/seed0 | generate | 6611 |
+| 生成 · DN3_NTC_SHAPE F2/seed1 | generate | 6581 |
+| 生成 · DN3_NTC_SHAPE F1/seed1 | generate | 5759 |
+| 生成 · DN3_NTC_SHAPE F2/seed0 | generate | 5759 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 157129 |
+| 调度/收尾 · dn3_dispatch_v9 | controller | 5759 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -89,7 +88,7 @@
 | 归档-06 | MSB_ps_015_040 | 成绩单已齐 | 10/10 | 10/10 | 0.209937 | 不确定 |
 | 归档-07 | MSB_ps_010_030 | 成绩单已齐 | 10/10 | 10/10 | 0.210328 | 不确定 |
 | 归档-08 | MSB_ps_010_060 | 成绩单已齐 | 10/10 | 10/10 | 0.210540 | 不确定 |
-| V5-22 | DN3_NTC_GENE | 生成中 | 6/10 | 6/10 | 盲评中 | 生成中 |
+| V5-22 | DN3_NTC_GENE | 生成中 | 7/10 | 7/10 | 盲评中 | 生成中 |
 | V5-23 | DN3_NTC_SHAPE | 生成中 | 6/10 | 6/10 | 盲评中 | 生成中 |
 | V5-24 | DN3_NTC_TARGET | 成绩单已齐 | 10/10 | 10/10 | 0.208824 | 否决 |
 | V5-25 | EVP_A | 已由 EVP4_A 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-34 |
@@ -118,6 +117,6 @@
 
 **内网看板部署：** 原18766服务仍待单独重启授权；此远端快照直接调用已验收的修复采集器，不依赖测试服务或持续SSH连接。
 
-采集版本：`20261102-live-audit-v1`；快照SHA256：`aea22e4feecf7daf2bcc9e8358bd959fd6218a3dcf55b58c814d1e7fd8d75ac9`。
+采集版本：`20261102-live-audit-v1`；快照SHA256：`8b6841fb699b45dcfee997467af627889799d6f6e21f3435940ffa512b95d67e`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
