@@ -1,6 +1,6 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-03T20:19:54+08:00（北京时间）**
+**采集时间：2026-11-03T20:22:01+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
@@ -20,7 +20,7 @@
 | public_repo_trials_E20261103_010 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-03T20:19:36.701898+08:00 |
 | public_repo_trials_E20261103_026 | 3/10 | 2/10 | 2/10 | 0/1 | 2026-11-03T19:01:47.277019+08:00 |
 | public_repo_trials_E20261103_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:18:06.542686+08:00 |
-| public_repo_trials_E20261103_029 | 10/10 | 10/10 | 4/10 | 0/1 | 2026-11-03T20:19:40.684080+08:00 |
+| public_repo_trials_E20261103_029 | 10/10 | 10/10 | 4/10 | 0/1 | 2026-11-03T20:21:19.583876+08:00 |
 
 ## 今日新增与核对（北京时间）
 
@@ -42,7 +42,7 @@
 
 - public_repo_trials_E20261103_027：成绩单与GREEN封存已齐
 
-- public_repo_trials_E20261103_029：批次运行中
+- public_repo_trials_E20261103_029：等待资源/下一轮：load1 210.138671875 exceeds 96; shared scoring slots 6 >= 6；load1 210.138671875 exceeds 96; shared scoring slots 6 >= 6
 
 ## 今日实验、预检与分析记录
 
@@ -55,17 +55,17 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 评分 · PR26_C08_v01 F1/seed0 | score | 375 |
-| 评分 · PR26_C23_v01 F2/seed0 | score | 372 |
-| 评分 · PR26_C08_v01 F1/seed1 | score | 371 |
-| 评分 · PR26_C23_v01 F2/seed1 | score | 363 |
-| 评分 · PR26_C23_v01 F3/seed0 | score | 354 |
-| 评分 · PR26_C23_v01 F3/seed1 | score | 345 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 255474 |
-| 调度/收尾 · task_io_v1 | controller | 6756 |
-| 调度/收尾 · task_io_v1 | controller | 2482 |
-| 调度/收尾 · round2_source_audit_worker | controller | 2477 |
-| 调度/收尾 · task_io_v1 | controller | 1098 |
+| 评分 · PR26_C08_v01 F1/seed0 | score | 501 |
+| 评分 · PR26_C23_v01 F2/seed0 | score | 498 |
+| 评分 · PR26_C08_v01 F1/seed1 | score | 497 |
+| 评分 · PR26_C23_v01 F2/seed1 | score | 489 |
+| 评分 · PR26_C23_v01 F3/seed0 | score | 480 |
+| 评分 · PR26_C23_v01 F3/seed1 | score | 472 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 255600 |
+| 调度/收尾 · task_io_v1 | controller | 6883 |
+| 调度/收尾 · task_io_v1 | controller | 2608 |
+| 调度/收尾 · round2_source_audit_worker | controller | 2603 |
+| 调度/收尾 · task_io_v1 | controller | 1224 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -189,6 +189,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`7bd915eafb30cbddebbaffaaba363636b8fdd3f6550f947b9e493e6155283c21`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`191b026a111aabd3e1a391521953a2c04efcc80880eae88eeef5b0cfa39a8bd5`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
