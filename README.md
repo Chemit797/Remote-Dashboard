@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-03T20:22:01+08:00（北京时间）**
+**采集时间：2026-11-03T20:35:07+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 94 个，独立归档 8 个；采集时进程记录 11 条（生成 0、评分 6）。
+登记策略 98 个，独立归档 8 个；采集时进程记录 15 条（生成 8、评分 0）。
 
 ## 当前轮次
 
@@ -17,16 +17,16 @@
 | 软机制证据 SE 四方案 | 40/40 | 40/40 | 40/40 | 4/4 | 2026-11-03T12:13:26.831464+08:00 |
 | 公开仓库来源融合 C01/C02 | 20/20 | 20/20 | 20/20 | 2/2 | 2026-11-03T09:11:12+08:00 |
 | 公开仓库控制轴 C06/C07 | 20/20 | 20/20 | 20/20 | 2/2 | 2026-11-03T10:20:05+08:00 |
-| public_repo_trials_E20261103_010 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-03T20:19:36.701898+08:00 |
+| public_repo_trials_E20261103_010 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:30:30.834423+08:00 |
 | public_repo_trials_E20261103_026 | 3/10 | 2/10 | 2/10 | 0/1 | 2026-11-03T19:01:47.277019+08:00 |
 | public_repo_trials_E20261103_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:18:06.542686+08:00 |
-| public_repo_trials_E20261103_029 | 10/10 | 10/10 | 4/10 | 0/1 | 2026-11-03T20:21:19.583876+08:00 |
+| public_repo_trials_E20261103_029 | 10/10 | 10/10 | 10/10 | 0/1 | 2026-11-03T20:33:27.680974+08:00 |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-03：预测 **262** 份，GREEN 250，RED 5，未盖章 7；实际评分 **239** 份（含已替代旧测量 0 份）；完整成绩单 **22** 份。
+2026-11-03：预测 **264** 份，GREEN 252，RED 5，未盖章 7；实际评分 **247** 份（含已替代旧测量 0 份）；完整成绩单 **23** 份。
 
-新成绩单：PR26_C01_v01、PR26_C02_v01、PR26_C06_v01、PR26_C07_v01、PR26_C17_v01、SE_fad805c229_D、SE_fad805c229_J、SE_fad805c229_JM、SE_fad805c229_S、SP26_S001_v01、SP26_S002_v01、SP26_S003_v01、SP26_S004_v01、SP26_S005_v01、SP26_S006_v01、SP26_S007_v01、SP26_S009_v01、SP26_S010_v01、XZK26_S007_v02、XZK26_S008_v03、XZK26_S009_v04、XZK26_S010_v02。
+新成绩单：PR26_C01_v01、PR26_C02_v01、PR26_C06_v01、PR26_C07_v01、PR26_C08_v01、PR26_C17_v01、SE_fad805c229_D、SE_fad805c229_J、SE_fad805c229_JM、SE_fad805c229_S、SP26_S001_v01、SP26_S002_v01、SP26_S003_v01、SP26_S004_v01、SP26_S005_v01、SP26_S006_v01、SP26_S007_v01、SP26_S009_v01、SP26_S010_v01、XZK26_S007_v02、XZK26_S008_v03、XZK26_S009_v04、XZK26_S010_v02。
 
 北京时间当日预测、印记与实际评分记录；保留已替代和停止分支，旧测量另注明。P正式包、连续值预检和分析不计入原生评分。
 
@@ -36,13 +36,13 @@
 
 - 公开仓库控制轴 C06/C07：成绩单与GREEN封存已齐
 
-- public_repo_trials_E20261103_010：等待资源/下一轮：load1 198.60888671875 exceeds 96; shared scoring slots 6 >= 6；load1 198.60888671875 exceeds 96; shared scoring slots 6 >= 6
+- public_repo_trials_E20261103_010：等待资源/下一轮：existing batch workers/finalizer active: [1031467]；existing batch workers/finalizer active: [1031467]
 
 - public_repo_trials_E20261103_026：已停止，需重启；RuntimeError('{"created_bjt": "2026-11-03T19:01:46+08:00", "total": 10, "generated": 3, "green": 2, "scored": 2, "positions": [{"strategy_id": "PR26_C09_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "PR26_C09_v01", "fold": "F1", "seed": 1, "generated": true, "green": false, "scored": false, "running": true, "attempt": "run/strategies/PR26_C09_v01/03_runs/F1/seed1/attempt_2026-11-03T103052_0000_278ec3c0"}, {"strategy_id": "PR26_C09_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/PR26_C09_v01/03_runs/F2/seed0/attempt_2026-11-03T103602_0000_00eecb57"}, {"strategy_id": "PR26_C09_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/PR26_C09_v01/03_runs/F2/seed1/attempt_2026-11-03T103603_0000_929267c3"}, {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [{"kind": "generation", "case": {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 0}, "launch": {"pid": 970269, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "PR26_C09_v01", "F5", "0"], "log": "run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F5_s0/1793703706354587179.log", "started_epoch": 1793703706.3563282, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json", "start_ticks": 828771742}}, {"kind": "generation", "case": {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 1}, "launch": {"pid": 970335, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "PR26_C09_v01", "F5", "1"], "log": "run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F5_s1/1793703706545306195.log", "started_epoch": 1793703706.5467072, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json", "start_ticks": 828771761}}], "errors": [{"case": {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "prior ended without CURRENT; inspect original log", "logs": ["run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F3_s0/1793702774453013613.log"]}], "status": "failed_retained"}')
 
 - public_repo_trials_E20261103_027：成绩单与GREEN封存已齐
 
-- public_repo_trials_E20261103_029：等待资源/下一轮：load1 210.138671875 exceeds 96; shared scoring slots 6 >= 6；load1 210.138671875 exceeds 96; shared scoring slots 6 >= 6
+- public_repo_trials_E20261103_029：等待资源/下一轮：shared generation slots 12 >= 12；shared generation slots 12 >= 12
 
 ## 今日实验、预检与分析记录
 
@@ -55,17 +55,21 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 评分 · PR26_C08_v01 F1/seed0 | score | 501 |
-| 评分 · PR26_C23_v01 F2/seed0 | score | 498 |
-| 评分 · PR26_C08_v01 F1/seed1 | score | 497 |
-| 评分 · PR26_C23_v01 F2/seed1 | score | 489 |
-| 评分 · PR26_C23_v01 F3/seed0 | score | 480 |
-| 评分 · PR26_C23_v01 F3/seed1 | score | 472 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 255600 |
-| 调度/收尾 · task_io_v1 | controller | 6883 |
-| 调度/收尾 · task_io_v1 | controller | 2608 |
-| 调度/收尾 · round2_source_audit_worker | controller | 2603 |
-| 调度/收尾 · task_io_v1 | controller | 1224 |
+| 生成 · XZK26_S101_v01 F1/seed0 | generate | 202 |
+| 生成 · XZK26_S101_v01 F1/seed1 | generate | 202 |
+| 生成 · XZK26_S101_v01 F2/seed0 | generate | 202 |
+| 生成 · XZK26_S101_v01 F2/seed1 | generate | 202 |
+| 生成 · XZK26_S101_v01 F3/seed0 | generate | 202 |
+| 生成 · XZK26_S101_v01 F3/seed1 | generate | 202 |
+| 生成 · XZK26_S101_v01 F5/seed0 | generate | 202 |
+| 生成 · XZK26_S101_v01 F5/seed1 | generate | 201 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 256388 |
+| 调度/收尾 · task_io_v1 | controller | 7671 |
+| 调度/收尾 · task_io_v1 | controller | 3396 |
+| 调度/收尾 · round2_source_audit_worker | controller | 3391 |
+| 调度/收尾 · task_io_v1 | controller | 2012 |
+| 调度/收尾 · task_io_v1 | controller | 208 |
+| 调度/收尾 · finalize_batch | controller | 106 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -169,11 +173,15 @@
 | V5-61 | SP26_S007_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210496 | 不确定 |
 | V5-62 | SP26_S008_v01 | 待派发（当前无活进程） | 7/10 | 4/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-63 | SP26_S009_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.206649 | 否决 |
-| V5-64 | PR26_C08_v01 | 评分中 | 10/10 | 8/10 | 盲评中 | 评分中 |
+| V5-64 | PR26_C08_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.211951 | 采用 |
 | V5-65 | PR26_C09_v01 | 已停止，需重启：RuntimeError('{"created_bjt": "2026-11-03T19:01:46+08:00", "total": 10, "generated": 3, "green": 2, "scored": 2, "positions": [{"strategy_id": "PR26_C09_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "PR26_C09_v01", "fold": "F1", "seed": 1, "generated": true, "green": false, "scored": false, "running": true, "attempt": "run/strategies/PR26_C09_v01/03_runs/F1/seed1/attempt_2026-11-03T103052_0000_278ec3c0"}, {"strategy_id": "PR26_C09_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/PR26_C09_v01/03_runs/F2/seed0/attempt_2026-11-03T103602_0000_00eecb57"}, {"strategy_id": "PR26_C09_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/PR26_C09_v01/03_runs/F2/seed1/attempt_2026-11-03T103603_0000_929267c3"}, {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [{"kind": "generation", "case": {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 0}, "launch": {"pid": 970269, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "PR26_C09_v01", "F5", "0"], "log": "run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F5_s0/1793703706354587179.log", "started_epoch": 1793703706.3563282, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json", "start_ticks": 828771742}}, {"kind": "generation", "case": {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 1}, "launch": {"pid": 970335, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "PR26_C09_v01", "F5", "1"], "log": "run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F5_s1/1793703706545306195.log", "started_epoch": 1793703706.5467072, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json", "start_ticks": 828771761}}], "errors": [{"case": {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "prior ended without CURRENT; inspect original log", "logs": ["run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F3_s0/1793702774453013613.log"]}], "status": "failed_retained"}') | 2/10 | 2/10 | 盲评中 | 已停止，需重启：RuntimeError('{"created_bjt": "2026-11-03T19:01:46+08:00", "total": 10, "generated": 3, "green": 2, "scored": 2, "positions": [{"strategy_id": "PR26_C09_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "PR26_C09_v01", "fold": "F1", "seed": 1, "generated": true, "green": false, "scored": false, "running": true, "attempt": "run/strategies/PR26_C09_v01/03_runs/F1/seed1/attempt_2026-11-03T103052_0000_278ec3c0"}, {"strategy_id": "PR26_C09_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/PR26_C09_v01/03_runs/F2/seed0/attempt_2026-11-03T103602_0000_00eecb57"}, {"strategy_id": "PR26_C09_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/PR26_C09_v01/03_runs/F2/seed1/attempt_2026-11-03T103603_0000_929267c3"}, {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "PR26_C09_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [{"kind": "generation", "case": {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 0}, "launch": {"pid": 970269, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "PR26_C09_v01", "F5", "0"], "log": "run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F5_s0/1793703706354587179.log", "started_epoch": 1793703706.3563282, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json", "start_ticks": 828771742}}, {"kind": "generation", "case": {"strategy_id": "PR26_C09_v01", "fold": "F5", "seed": 1}, "launch": {"pid": 970335, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "PR26_C09_v01", "F5", "1"], "log": "run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F5_s1/1793703706545306195.log", "started_epoch": 1793703706.5467072, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json", "start_ticks": 828771761}}], "errors": [{"case": {"strategy_id": "PR26_C09_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "prior ended without CURRENT; inspect original log", "logs": ["run/logs/round2_publicrepo_E20261103_026_PR26_C09_v01_F3_s0/1793702774453013613.log"]}], "status": "failed_retained"}') |
 | V5-66 | SP26_S010_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209973 | 不确定 |
 | V5-67 | PR26_C17_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209208 | 不确定 |
-| V5-68 | PR26_C23_v01 | 评分中 | 10/10 | 4/10 | 盲评中 | 评分中 |
+| V5-68 | PR26_C23_v01 | 等待资源/下一轮：shared generation slots 12 >= 12 | 10/10 | 10/10 | 盲评中 | 等待资源/下一轮：shared generation slots 12 >= 12 |
+| V5-69 | XZK26_S101_v01 | 生成中 | 2/10 | 0/10 | 盲评中 | 生成中 |
+| V5-70 | SP26_S011_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-71 | SP26_S012_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-72 | SP26_S013_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 
 </details>
 
@@ -189,6 +197,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`191b026a111aabd3e1a391521953a2c04efcc80880eae88eeef5b0cfa39a8bd5`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`cc8279cb5363f26b3c7356a8b36c3ebb002e4e364cf8ad9e7bca9c13129757fe`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
