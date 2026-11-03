@@ -127,6 +127,20 @@
   }
   .pg-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: 12px; }
   .pg-legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -2px; margin-right: 4px; font-style: normal; }
+  .pg-diag { margin-top: 18px; }
+  .pg-diag h3 { font-size: 15px; font-weight: 600; margin: 0 0 8px; }
+  .pg-diag h3 small { display: block; font-weight: 400; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: 2px; }
+  .pg-dn { display: inline-block; min-width: 1.6em; padding: 0 6px; border-radius: 6px; text-align: center; font-size: 22px; font-weight: 700; color: var(--color-fg-default); background: var(--color-bg-subtle, rgba(127,127,127,.12)); }
+  .pg-dn.zero { opacity: .45; }
+  table.pg-dtab { border-collapse: collapse; width: 100%; font-size: 13px; }
+  table.pg-dtab th, table.pg-dtab td { padding: 5px 8px; border-bottom: 1px solid var(--color-border-line); text-align: center; white-space: nowrap; }
+  table.pg-dtab .l { text-align: left; }
+  table.pg-dtab td.l { white-space: normal; min-width: 14em; }
+  table.pg-dtab th { font-weight: 600; color: var(--color-fg-muted); }
+  table.pg-dtab tr.on td { font-weight: 600; }
+  .pg-pulse { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: currentColor; margin-right: 6px; vertical-align: 1px; animation: pgpulse 1.4s ease-in-out infinite; }
+  @keyframes pgpulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+  @media (prefers-reduced-motion: reduce) { .pg-pulse { animation: none; } }
   .pg-empty { background: var(--color-panel); border: 1px dashed var(--color-border-line); border-radius: var(--cds-radius); padding: 18px; color: var(--color-fg-muted); }
 
   /* tables shared */
@@ -236,6 +250,9 @@
   .kv { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0; font-size: 13px; }
   .kv dt { color: var(--color-fg-muted); }
   .kv dd { margin: 0; }
+  /* 11/3：长路径、长策略名不换行会把整页撑出横向滚动，右边被切掉 */
+  .kv { grid-template-columns: auto minmax(0, 1fr); }
+  .kv dd, #live code, .exp p { overflow-wrap: anywhere; min-width: 0; }
   .docs { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; }
 
   /* pipeline */
@@ -371,7 +388,7 @@
 
   <section class="vc-section" id="samples">
     <h2>样本记录</h2>
-    <p class="vc-lead">v5 建立以来评过的每个方法占一行，按登记时间排（归档测量另用“归档-”编号，已有V5编号保持），新方法会自动出现在这里。点一行展开明细：六折 × 六项、每个种子、成绩单判定、相关文档和 submission 链接。</p>
+    <p class="vc-lead">v5 建立以来评过的每个方法占一行，按登记时间排，默认最新的在最上面（取消“最新的在上面”就按从旧到新；归档测量另用“归档-”编号，已有V5编号保持），新方法会自动出现在这里。点一行展开明细：六折 × 六项、每个种子、成绩单判定、相关文档和 submission 链接。</p>
     <div class="vc-card">
       <div class="s-tools">
         <span id="s-count"></span>
@@ -507,6 +524,7 @@
     <div class="pg-tiles" id="pg-tiles"></div>
     <div class="pg-cards" id="pg-cards"></div>
     <div class="pg-legend" id="pg-legend"></div>
+    <div class="pg-diag" id="pg-diag"></div>
     <p class="vc-note" id="pg-foot"></p>
   </section>
 
@@ -533,7 +551,8 @@
     d: null, okAt: 0,
     open: new Set(store.get('open', [])),
     who: Object.assign({cym: false, xzk: false}, store.get('who', {})),
-    eng: !!store.get('eng', false), newest: !!store.get('newest', false),
+    // 11/3 起默认最新的在上面（换了存储键，旧的"未勾选"记忆不再生效）
+    eng: !!store.get('eng', false), newest: !!store.get('newest2', true),
   };
 
   const docLink = (path, label) => {
@@ -770,7 +789,10 @@
     const nd = (d.samples || []).filter(dup).length;
     const nc = main.filter((r) => r.submitter === 'cym').length, nx = main.filter((r) => r.submitter === 'xzk').length;
     const ne = (d.samples || []).filter((r) => r.engineering).length;
-    $('#s-count').textContent = `共 ${main.length} 个（cym ${nc} 个，xzk ${nx} 个）${ne ? `，另有工程测试 ${ne} 个` : ''}${nd ? `，已停止的重复计算 ${nd} 个（分数在 归档 行）` : ''}`;
+    const bjDay = (ep) => new Date((ep + 8 * 3600) * 1000).toISOString().slice(0, 10);
+    const today = bjDay(d.generated_epoch || Date.now() / 1000);
+    const nt = main.filter((r) => isNum(r.created_epoch) && bjDay(r.created_epoch) === today).length;
+    $('#s-count').textContent = `共 ${main.length} 个（cym ${nc} 个，xzk ${nx} 个${nt ? `；今天新登记 ${nt} 个${st.newest ? '，在最上面' : '，在最下面'}` : ''}）${ne ? `，另有工程测试 ${ne} 个` : ''}${nd ? `，已停止的重复计算 ${nd} 个（分数在 归档 行）` : ''}`;
     const cnt = F.filter((f) => f.counted).map((f) => f.fold), unc = uncountedText(F);
     $('#s-legend').innerHTML = `<span><b>加粗两列</b>：P1 官方评分（没交过官方的显示 —）；${esc(m3Label(d))}（${esc(m3Names(d).join('、'))}，每折都有分才算）</span>`
       + `<span>${esc(foldSpan(cnt))} 计分${unc ? `；带 * 的不计分（${esc(unc)}）` : ''}</span>`
@@ -988,7 +1010,16 @@
     }
     $('#pg-legend').innerHTML = [['scored', '已评'], ['scoring', '评分中'], ['generating', '生成中'], ['generated', '已生成，等评分'], ['red', '印记红'], ['todo', '未开始']]
       .map(([k, t]) => `<span><i class="pc-${k}"></i>${t}</span>`).join('') + '<span>格子里的小字是这一步已跑多久；鼠标停在格子上看内存</span>';
-    const O = P.other || [];
+    const DG = P.diagnostics || [];
+    const nLive = DG.filter((g) => g.alive).length;
+    $('#pg-diag').innerHTML = !DG.length ? '' : `<h3>登记前的预检/诊断 <span class="pg-dn${nLive ? '' : ' zero'}">${nLive}</span> 个在跑，近两天共 ${DG.length} 批`
+      + '<small>Codex 在登记候选之前先做的可行性检查：不登记策略、不出分，所以不进样本记录；过了门才会登记成新的候选行。</small></h3>'
+      + '<div class="vc-scroll"><table class="pg-dtab"><thead><tr><th>设计</th><th>批次</th><th class="l">做什么</th><th class="l">状态</th><th>更新</th></tr></thead><tbody>'
+      + DG.map((g) => `<tr${g.alive ? ' class="on"' : ''}><td>${esc(g.design || '—')}</td><td>${esc(g.batch)}</td><td class="l" title="${esc(g.title)}">${esc(g.short)}</td>`
+        + `<td class="l">${g.alive ? '<i class="pg-pulse"></i>' : ''}${esc(g.status_label)}</td><td>${esc(g.updated || '—')}</td></tr>`).join('')
+      + '</tbody></table></div>';
+    const dpid = new Set(DG.flatMap((g) => g.pids || []));
+    const O = (P.other || []).filter((t) => !dpid.has(t.pid));
     $('#pg-foot').textContent = `以下为快照采集时的进程状态，每15分钟上传；不代表当前仍在运行。${O.length ? `另有 ${O.length} 个后台进程（${O.map((t) => t.name).join('、')}），不算生成或评分。` : ''}`;
   }
 
@@ -1044,7 +1075,7 @@
   eng.checked = st.eng;
   nw.checked = st.newest;
   eng.addEventListener('change', () => { st.eng = eng.checked; store.set('eng', st.eng); renderSamples(st.d); });
-  nw.addEventListener('change', () => { st.newest = nw.checked; store.set('newest', st.newest); renderSamples(st.d); });
+  nw.addEventListener('change', () => { st.newest = nw.checked; store.set('newest2', st.newest); renderSamples(st.d); });
   for (const b of document.querySelectorAll('.vc-jump')) {
     b.addEventListener('click', () => {
       const t = document.getElementById(b.dataset.target);
