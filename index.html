@@ -86,6 +86,49 @@
   .pill { display: inline-block; font-size: var(--cds-font-size-caption); border-radius: 999px; padding: 0 8px; border: 1px solid var(--color-border-line); color: var(--color-fg-muted); line-height: 1.6; }
   .pill.ok { color: var(--color-ok); border-color: var(--color-ok); } .pill.run { color: var(--color-warn); border-color: var(--color-warn); }
 
+  /* live progress */
+  .pg-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: 16px; }
+  .pg-tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-left-width: 5px; border-radius: var(--cds-radius); padding: 12px 16px; display: flex; flex-direction: column; gap: 2px; }
+  .pg-tile .n { font-size: 46px; font-weight: 700; line-height: 1.05; font-variant-numeric: tabular-nums; }
+  .pg-tile .n small { font-size: 22px; font-weight: 600; color: var(--color-fg-muted); }
+  .pg-tile .t { font-size: 14px; font-weight: 600; }
+  .pg-tile .s { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .pg-tile.gen { border-left-color: var(--color-warn); } .pg-tile.gen .n { color: var(--color-warn); }
+  .pg-tile.sco { border-left-color: var(--color-accent); } .pg-tile.sco .n { color: var(--color-accent); }
+  .pg-tile.done { border-left-color: var(--color-ok); } .pg-tile.done .n { color: var(--color-ok); }
+  .pg-tile.que { border-left-color: var(--cds-chart-muted); }
+  .pg-tile.zero .n { color: var(--color-fg-muted); }
+  .pg-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 21rem), 1fr)); gap: var(--cds-gap-md); }
+  .pg-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .pg-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .pg-head b { font-size: 15px; } .pg-head small { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .pg-big { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .pg-big .frac { font-size: 34px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .pg-big .frac small { font-size: 18px; color: var(--color-fg-muted); font-weight: 600; }
+  .pg-big .now { font-size: 14px; font-weight: 600; }
+  .pg-big .now .g { color: var(--color-warn); } .pg-big .now .c { color: var(--color-accent); }
+  .pg-bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--bg-soft); }
+  .pg-bar span { height: 100%; }
+  .pg-bar .scored { background: var(--color-ok); } .pg-bar .scoring { background: var(--color-accent); } .pg-bar .generating { background: var(--color-warn); }
+  .pg-bar .generated { background: var(--cds-chart-muted); } .pg-bar .red { background: var(--color-bad); }
+  table.pg-grid { border-collapse: separate; border-spacing: 4px; font-size: 12px; margin-left: -4px; }
+  table.pg-grid th { color: var(--color-fg-muted); font-weight: 500; text-align: left; padding: 0 6px 0 0; white-space: nowrap; }
+  table.pg-grid td { min-width: 4.6rem; height: 34px; text-align: center; border-radius: 5px; font-variant-numeric: tabular-nums; line-height: 1.15; }
+  table.pg-grid td small { display: block; font-size: 10.5px; opacity: .85; }
+  .pc-scored { background: var(--bg-ok); color: var(--color-ok); font-weight: 600; }
+  .pc-scoring { background: var(--color-accent); color: var(--color-panel); font-weight: 700; }
+  .pc-generating { background: var(--color-warn); color: var(--color-panel); font-weight: 700; }
+  .pc-generated { background: var(--bg-soft); color: var(--color-fg); border: 1px dashed var(--cds-chart-muted); }
+  .pc-red { background: var(--bg-bad); color: var(--color-bad); font-weight: 700; }
+  .pc-todo { background: transparent; color: var(--color-fg-muted); border: 1px dashed var(--color-border-line); }
+  @media (prefers-reduced-motion: no-preference) {
+    .pc-scoring, .pc-generating { animation: pg-pulse 1.6s ease-in-out infinite; }
+    @keyframes pg-pulse { 50% { opacity: .62; } }
+  }
+  .pg-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: 12px; }
+  .pg-legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -2px; margin-right: 4px; font-style: normal; }
+  .pg-empty { background: var(--color-panel); border: 1px dashed var(--color-border-line); border-radius: var(--cds-radius); padding: 18px; color: var(--color-fg-muted); }
+
   /* tables shared */
   table.t { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: 13px; }
   table.t th, table.t td { padding: 5px 8px; text-align: right; border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
@@ -336,7 +379,7 @@
           <label><input type="checkbox" id="f-cym"> cym</label>
           <label><input type="checkbox" id="f-xzk"> xzk</label>
         </span>
-        <label><input type="checkbox" id="f-eng"> 显示工程测试（探针、试跑）</label>
+        <label><input type="checkbox" id="f-eng"> 显示工程测试和重复计算</label>
         <label><input type="checkbox" id="f-new"> 最新的在上面</label>
         <button type="button" id="manual-refresh" title="检查GitHub上已上传的快照；采集周期15分钟">立即刷新</button>
       </div>
@@ -457,6 +500,14 @@
       <p class="vc-note">六项指标各用一句话说明如下。每张卡片底部是父本在各个计分考场上这一项的换算分，对照着看就知道它强在哪、弱在哪。</p>
       <div class="vc-metrics" id="mt-cards"></div>
     </div>
+  </section>
+
+  <section class="vc-section" id="progress">
+    <h2>采集时进度</h2>
+    <div class="pg-tiles" id="pg-tiles"></div>
+    <div class="pg-cards" id="pg-cards"></div>
+    <div class="pg-legend" id="pg-legend"></div>
+    <p class="vc-note" id="pg-foot"></p>
   </section>
 
   <footer class="vc-foot" id="foot"></footer>
@@ -674,7 +725,12 @@
       + G.map((g, i) => `<th class="${i === 0 ? 'sep' : ''}">${esc(g.label)}</th>`).join('')
       + METRICS.map((m, i) => `<th class="${i === 0 ? 'sep' : ''}">${m}</th>`).join('')
       + '<th class="l sep">判定</th><th class="l">submission</th></tr>';
-    let rows = (d.samples || []).filter((r) => st.eng || !r.engineering);
+    // Codex 标成重复计算（user_stopped_duplicate）的行：分数在对应的 归档 行里，默认不显示，勾选框打开
+    const dup = (r) => !!r.user_stopped_duplicate && !r.engineering;
+    const byId = {};
+    for (const r of d.samples || []) byId[r.sid] = r;
+    const archiveOf = (r) => byId['MSB_' + String(r.sid).replace(/^M_/, '')];
+    let rows = (d.samples || []).filter((r) => st.eng || (!r.engineering && !dup(r)));
     const want = ['cym', 'xzk'].filter((k) => st.who[k]);
     if (want.length === 1) rows = rows.filter((r) => r.submitter === want[0]);
     if (st.newest) rows = rows.slice().reverse();
@@ -683,10 +739,10 @@
     let h = '';
     for (const r of rows) {
       const open = st.open.has(r.id);
-      const cls = ['sr', open ? 'open' : '', r.engineering || r.superseded_by ? 'faded' : '', r.role === 'candidate' ? 'cand' : '', r.is_parent ? 'parent' : ''].filter(Boolean).join(' ');
+      const cls = ['sr', open ? 'open' : '', r.engineering || r.superseded_by || dup(r) ? 'faded' : '', r.role === 'candidate' ? 'cand' : '', r.is_parent ? 'parent' : ''].filter(Boolean).join(' ');
       h += `<tr class="${cls}" data-id="${esc(r.id)}" tabindex="0" aria-expanded="${open}">`;
       const subName = r.name !== r.sid ? r.sid : (r.card_name && r.card_name !== r.name ? r.card_name : '');
-      h += `<td class="c-id">${open ? '▾' : '▸'} ${esc(r.id)}</td><td class="c-name"><b>${esc(r.name)}</b>${subName ? `<small>${esc(subName)}</small>` : ''}${r.runtime ? `<small>${esc(r.runtime.label)}${r.external ? " · 历史原生测量" : ""}</small>` : ''}</td>`;
+      h += `<td class="c-id">${open ? '▾' : '▸'} ${esc(r.id)}</td><td class="c-name"><b>${esc(r.name)}</b>${subName ? `<small>${esc(subName)}</small>` : ''}${r.runtime ? `<small>${esc(r.runtime.label)}${r.external ? " · 历史原生测量" : ""}</small>` : ''}${dup(r) && archiveOf(r) ? `<small>分数看 ${esc(archiveOf(r).id)}</small>` : ''}</td>`;
       h += `<td class="l">${esc(r.type)}</td><td class="l"><span class="who ${esc(r.submitter)}" title="依据：${esc(r.submitter_how)}">${esc(r.submitter)}</span></td>`;
       h += `<td class="l">${esc(r.scored || '—')}${r.complete ? '' : `<small>已评 ${esc(r.progress)}</small>`}</td>`;
       h += `<td class="off">${fx(r.official, 4)}</td>`;
@@ -710,10 +766,11 @@
     $('#s-body').innerHTML = h;
     box.scrollTop = keep[0];
     box.scrollLeft = keep[1];
-    const main = (d.samples || []).filter((r) => !r.engineering);
+    const main = (d.samples || []).filter((r) => !r.engineering && !dup(r));
+    const nd = (d.samples || []).filter(dup).length;
     const nc = main.filter((r) => r.submitter === 'cym').length, nx = main.filter((r) => r.submitter === 'xzk').length;
-    const ne = (d.samples || []).length - main.length;
-    $('#s-count').textContent = `共 ${main.length} 个（cym ${nc} 个，xzk ${nx} 个）${ne ? `，另有工程测试 ${ne} 个` : ''}`;
+    const ne = (d.samples || []).filter((r) => r.engineering).length;
+    $('#s-count').textContent = `共 ${main.length} 个（cym ${nc} 个，xzk ${nx} 个）${ne ? `，另有工程测试 ${ne} 个` : ''}${nd ? `，已停止的重复计算 ${nd} 个（分数在 归档 行）` : ''}`;
     const cnt = F.filter((f) => f.counted).map((f) => f.fold), unc = uncountedText(F);
     $('#s-legend').innerHTML = `<span><b>加粗两列</b>：P1 官方评分（没交过官方的显示 —）；${esc(m3Label(d))}（${esc(m3Names(d).join('、'))}，每折都有分才算）</span>`
       + `<span>${esc(foldSpan(cnt))} 计分${unc ? `；带 * 的不计分（${esc(unc)}）` : ''}</span>`
@@ -887,12 +944,60 @@
     $('#mt-cards').innerHTML = METRICS.map((m) => `<div class="vc-metric"><div class="vc-mname">${m} <span>${esc(MDESC[m][0])}</span></div><p>${esc(MDESC[m][1])}</p><div class="vc-mvals">${F.map((f) => `<span>${esc(f.short)}<b>${fx((pm[m] || {})[f.fold])}</b></span>`).join('')}</div></div>`).join('');
   }
 
+  // ------------------------------------------------------------ live progress
+  const PG_STATE = {
+    scored: ['已评', '✔'], scoring: ['评分中', '评分'], generating: ['生成中', '生成'],
+    generated: ['已生成，等评分', '等评分'], red: ['印记红', '红'], todo: ['未开始', '·'],
+  };
+  const shortDur = (s) => (!isNum(s) ? '' : s >= 3600 ? `${Math.floor(s / 3600)}时${Math.floor((s % 3600) / 60)}分` : `${Math.max(1, Math.floor(s / 60))}分`);
+  function renderProgress(d) {
+    const P = d.progress || {}, A = P.active || [], Q = P.queued || [];
+    const tile = (cls, n, t, s) => `<div class="pg-tile ${cls}${n ? '' : ' zero'}"><span class="t">${t}</span><span class="n">${n}</span><span class="s">${s}</span></div>`;
+    const doneTile = `<div class="pg-tile done${P.total ? '' : ' zero'}"><span class="t">在跑策略已评</span><span class="n">${P.done || 0}<small> / ${P.total || 0}</small></span><span class="s">${A.length} 个策略在跑，按 考场 × 种子 计</span></div>`;
+    $('#pg-tiles').innerHTML = tile('gen', P.generating || 0, '正在生成', '生成预测的进程')
+      + tile('sco', P.scoring || 0, '正在评分', '评分的进程') + doneTile
+      + tile('que', Q.length, '排队待派发', Q.length ? Q.map((q) => q.name).slice(0, 4).join('、') + (Q.length > 4 ? ' 等' : '') : '没有排队的策略');
+    const fm = foldMap(d);
+    const fname = (f) => (f === 'P' ? '正式包 P' : `${f} ${(fm[f] || {}).short || ''}`);
+    if (!A.length) {
+      $('#pg-cards').innerHTML = '<div class="pg-empty">现在没有正在生成或评分的策略。</div>';
+    } else {
+      $('#pg-cards').innerHTML = A.map((a) => {
+        const n = a.n || {}, tot = a.total || 1;
+        const bar = ['scored', 'scoring', 'generating', 'generated', 'red'].map((k) => (n[k] ? `<span class="${k}" style="width:${(100 * n[k]) / tot}%" title="${PG_STATE[k][0]} ${n[k]}"></span>` : '')).join('');
+        const seeds = Math.max(...a.cells.map((c) => c.seed), 0) + 1;
+        let g = `<table class="pg-grid"><thead><tr><th></th>${Array.from({length: seeds}, (_, i) => `<th>种子 ${i}</th>`).join('')}</tr></thead><tbody>`;
+        for (const f of a.folds) {
+          g += `<tr><th>${esc(fname(f))}</th>`;
+          for (let sd = 0; sd < seeds; sd++) {
+            const c = a.cells.find((x) => x.fold === f && x.seed === sd);
+            if (!c) { g += '<td></td>'; continue; }
+            const [long, short] = PG_STATE[c.state] || [c.state, c.state];
+            const extra = c.elapsed_s !== null && c.elapsed_s !== undefined ? `<small>${shortDur(c.elapsed_s)}</small>` : '';
+            const tip = `${fname(f)} 种子 ${sd}：${long}${isNum(c.elapsed_s) ? `，已跑 ${dur(c.elapsed_s)}` : ''}${isNum(c.rss_mb) ? `，内存 ${c.rss_mb >= 1024 ? (c.rss_mb / 1024).toFixed(1) + ' GB' : c.rss_mb + ' MB'}` : ''}`;
+            g += `<td class="pc-${esc(c.state)}" title="${esc(tip)}">${esc(short)}${extra}</td>`;
+          }
+          g += '</tr>';
+        }
+        g += '</tbody></table>';
+        const now = [n.generating ? `<span class="g">生成 ${n.generating}</span>` : '', n.scoring ? `<span class="c">评分 ${n.scoring}</span>` : ''].filter(Boolean).join(' · ');
+        return `<div class="pg-card"><div class="pg-head"><b>${esc(a.id || '')} ${esc(a.name)}</b><small>${esc(a.label || '')}${a.engineering ? ' · 工程测试' : ''}</small></div>`
+          + `<div class="pg-big"><span class="frac">${n.scored || 0}<small> / ${a.total} 已评</small></span><span class="now">${now}</span><small class="muted">最久的已跑 ${dur(a.longest_s)}</small></div>`
+          + `<div class="pg-bar">${bar}</div><div class="vc-scroll">${g}</div></div>`;
+      }).join('');
+    }
+    $('#pg-legend').innerHTML = [['scored', '已评'], ['scoring', '评分中'], ['generating', '生成中'], ['generated', '已生成，等评分'], ['red', '印记红'], ['todo', '未开始']]
+      .map(([k, t]) => `<span><i class="pc-${k}"></i>${t}</span>`).join('') + '<span>格子里的小字是这一步已跑多久；鼠标停在格子上看内存</span>';
+    const O = P.other || [];
+    $('#pg-foot').textContent = `以下为快照采集时的进程状态，每15分钟上传；不代表当前仍在运行。${O.length ? `另有 ${O.length} 个后台进程（${O.map((t) => t.name).join('、')}），不算生成或评分。` : ''}`;
+  }
+
   function renderFoot(d) {
     $('#foot').innerHTML = `只读远端快照，每15分钟采集并上传；页面每分钟检查GitHub上的新快照，超过35分钟明确标为过期。采集时的活进程与已评份数是当时事实，不表示此刻仍在运行。所有成绩仅为本地评分。服务器文档与投稿目录未公开。<br><a href="./snapshot.json" target="_blank" rel="noopener">下载精简JSON（保留完整数值）</a> · <a href="https://github.com/Chemit797/Remote-Dashboard">GitHub与更新时间</a><br>内网看板：${(d.export || {}).production_dashboard_fixed ? '修复版已部署' : '原服务尚待单独重启授权；本页直接使用已验收的修复采集器'}。`;
   }
 
   const RENDER = [['top', renderTop], ['baselines', renderBaselines], ['samples', renderSamples], ['live', renderLive],
-    ['pipeline', renderPipeline], ['cv', renderCV], ['metrics', renderMetrics], ['foot', renderFoot]];
+    ['pipeline', renderPipeline], ['cv', renderCV], ['metrics', renderMetrics], ['progress', renderProgress], ['foot', renderFoot]];
   function renderAll() {
     if (!st.d) return;
     for (const [name, fn] of RENDER) {
