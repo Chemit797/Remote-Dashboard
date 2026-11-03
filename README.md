@@ -1,6 +1,6 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-03T11:32:38+08:00（北京时间）**
+**采集时间：2026-11-03T11:34:44+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
@@ -43,12 +43,12 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SE_fad805c229_S F5/seed0 | generate | 97 |
-| 生成 · SE_fad805c229_S F5/seed1 | generate | 88 |
-| 评分 · SE_fad805c229_S F1/seed0 | score | 72 |
-| 评分 · SE_fad805c229_S F1/seed1 | score | 66 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 223836 |
-| 调度/收尾 · task_io_v1 | controller | 334 |
+| 生成 · SE_fad805c229_S F5/seed0 | generate | 225 |
+| 生成 · SE_fad805c229_S F5/seed1 | generate | 216 |
+| 评分 · SE_fad805c229_S F1/seed0 | score | 199 |
+| 评分 · SE_fad805c229_S F1/seed1 | score | 193 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 223963 |
+| 调度/收尾 · task_io_v1 | controller | 462 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -147,6 +147,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`275603ab721eac2b625b4b37fc8e7faf008b14590fd81e3ee06225dec7565e03`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`64059639685c1f4c14000e9f5258874fc8c1f50f8596ee228351fd80681242ad`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
