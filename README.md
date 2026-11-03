@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T02:35:02+08:00（北京时间）**
+**采集时间：2026-11-04T02:50:04+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 143 个，独立归档 8 个；采集时进程记录 18 条（生成 4、评分 4）。
+登记策略 143 个，独立归档 8 个；采集时进程记录 26 条（生成 9、评分 5）。
 
 ## 当前轮次
 
@@ -22,11 +22,11 @@
 | public_repo_trials_E20261103_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:18:06.542686+08:00 |
 | public_repo_trials_E20261103_029 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:39:43.710699+08:00 |
 | public_repo_trials_E20261103_036 | 20/20 | 20/20 | 20/20 | 2/2 | 2026-11-04T00:32:05.404957+08:00 |
-| public_repo_trials_E20261103_038 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-04T02:33:52.018261+08:00 |
+| public_repo_trials_E20261103_038 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-04T02:50:09.252623+08:00 |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-04：预测 **72** 份，GREEN 68，RED 1，未盖章 5；实际评分 **59** 份（含已替代旧测量 0 份）；完整成绩单 **3** 份。
+2026-11-04：预测 **82** 份，GREEN 78，RED 1，未盖章 5；实际评分 **66** 份（含已替代旧测量 0 份）；完整成绩单 **3** 份。
 
 新成绩单：PR26_C10_v01、PR26_C11_v01、SP26_S017_v01。
 
@@ -48,7 +48,7 @@
 
 - public_repo_trials_E20261103_036：成绩单与GREEN封存已齐
 
-- public_repo_trials_E20261103_038：等待资源/下一轮：load1 150.80419921875 exceeds 96; free 354141315072 bytes below existing launch floor 520000000000; generation shared reservation: free 354141315072 minus reserve 33000000000 < 520000000000；load1 150.80419921875 exceeds 96; free 354141315072 bytes below existing launch floor 520000000000; generation shared reservation: free 354141315072 minus reserve 33000000000 < 520000000000
+- public_repo_trials_E20261103_038：等待资源/下一轮：free 344934043648 bytes below existing launch floor 520000000000; shared generation slots 12 >= 12; generation shared reservation: free 344934043648 minus reserve 52000000000 < 520000000000；free 344934043648 bytes below existing launch floor 520000000000; shared generation slots 12 >= 12; generation shared reservation: free 344934043648 minus reserve 52000000000 < 520000000000
 
 ## 今日实验、预检与分析记录
 
@@ -59,24 +59,32 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · XZK26_S103_v02 F1/seed0 | generate | 855 |
-| 生成 · XZK26_S103_v02 F1/seed1 | generate | 855 |
-| 生成 · XZK26_S113_v01 F1/seed1 | generate | 359 |
-| 生成 · XZK26_S115_v01 F2/seed0 | generate | 354 |
-| 评分 · XZK26_S102_v03 F1/seed0 | score | 338 |
-| 评分 · XZK26_S122_v01 F1/seed1 | score | 327 |
-| 评分 · XZK26_S123_v01 F2/seed0 | score | 282 |
-| 评分 · XZK26_S123_v01 F2/seed1 | score | 255 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 277982 |
-| 调度/收尾 · task_io_v1 | controller | 20272 |
-| 调度/收尾 · round2_source_audit_worker | controller | 20266 |
-| 调度/收尾 · task_io_v1 | controller | 14906 |
-| 调度/收尾 · task_io_v1 | controller | 6001 |
-| 调度/收尾 · task_io_v1 | controller | 5816 |
-| 调度/收尾 · task_io_v1 | controller | 1128 |
-| 调度/收尾 · task_io_v1 | controller | 1090 |
-| 调度/收尾 · task_io_v1 | controller | 909 |
-| 调度/收尾 · task_io_v1 | controller | 468 |
+| 生成 · XZK26_S113_v01 F1/seed1 | generate | 1264 |
+| 生成 · XZK26_S123_v01 F1/seed0 | generate | 662 |
+| 生成 · XZK26_S123_v01 F1/seed1 | generate | 638 |
+| 生成 · XZK26_S124_v01 F1/seed0 | generate | 615 |
+| 生成 · XZK26_S124_v01 F1/seed1 | generate | 615 |
+| 生成 · XZK26_S128_v01 F1/seed0 | generate | 530 |
+| 生成 · XZK26_S128_v01 F1/seed1 | generate | 525 |
+| 生成 · XZK26_S120_v01 F2/seed0 | generate | 104 |
+| 生成 · XZK26_S125_v01 F2/seed0 | generate | 71 |
+| 评分 · XZK26_S103_v02 F2/seed0 | score | 188 |
+| 评分 · XZK26_S103_v02 F1/seed0 | score | 159 |
+| 评分 · XZK26_S103_v02 F2/seed1 | score | 134 |
+| 评分 · XZK26_S103_v02 F1/seed1 | score | 104 |
+| 评分 · XZK26_S124_v01 F2/seed1 | score | 71 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 278887 |
+| 调度/收尾 · task_io_v1 | controller | 21177 |
+| 调度/收尾 · round2_source_audit_worker | controller | 21171 |
+| 调度/收尾 · task_io_v1 | controller | 15811 |
+| 调度/收尾 · task_io_v1 | controller | 6906 |
+| 调度/收尾 · task_io_v1 | controller | 2033 |
+| 调度/收尾 · task_io_v1 | controller | 1995 |
+| 调度/收尾 · task_io_v1 | controller | 1814 |
+| 调度/收尾 · task_io_v1 | controller | 1373 |
+| 调度/收尾 · task_io_v1 | controller | 497 |
+| 调度/收尾 · round2_source_audit_worker | controller | 27 |
+| 调度/收尾 · round2_source_audit_worker | controller | 7 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -203,10 +211,10 @@
 | V5-84 | XZK26_S112_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-85 | XZK26_S113_v01 | 生成中 | 3/10 | 2/10 | 盲评中 | 生成中 |
 | V5-86 | XZK26_S114_v01 | 待派发（当前无活进程） | 1/10 | 1/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-87 | XZK26_S115_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
+| V5-87 | XZK26_S115_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-88 | PR26_C10_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209783 | 不确定 |
 | V5-89 | PR26_C11_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210191 | 不确定 |
-| V5-90 | PR26_C05_v01 | 等待资源/下一轮：load1 150.80419921875 exceeds 96; free 354141315072 bytes below existing launch floor 520000000000; generation shared reservation: free 354141315072 minus reserve 33000000000 < 520000000000 | 9/10 | 9/10 | 盲评中 | 等待资源/下一轮：load1 150.80419921875 exceeds 96; free 354141315072 bytes below existing launch floor 520000000000; generation shared reservation: free 354141315072 minus reserve 33000000000 < 520000000000 |
+| V5-90 | PR26_C05_v01 | 等待资源/下一轮：free 344934043648 bytes below existing launch floor 520000000000; shared generation slots 12 >= 12; generation shared reservation: free 344934043648 minus reserve 52000000000 < 520000000000 | 9/10 | 9/10 | 盲评中 | 等待资源/下一轮：free 344934043648 bytes below existing launch floor 520000000000; shared generation slots 12 >= 12; generation shared reservation: free 344934043648 minus reserve 52000000000 < 520000000000 |
 | V5-91 | XZK26_S116_v01 | 已由 XZK26_S116_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-95 |
 | V5-92 | XZK26_S117_v01 | 已由 XZK26_S117_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-96 |
 | V5-93 | XZK26_S118_v01 | 已由 XZK26_S118_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-97 |
@@ -216,20 +224,20 @@
 | V5-97 | XZK26_S118_v02 | 待派发（当前无活进程） | 4/10 | 4/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-98 | XZK26_S119_v02 | 待派发（当前无活进程） | 4/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-99 | XZK26_S007_v03 | 待派发（当前无活进程） | 5/10 | 5/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-100 | XZK26_S102_v03 | 评分中 | 4/10 | 2/10 | 盲评中 | 评分中 |
-| V5-101 | XZK26_S103_v02 | 生成中 | 2/10 | 0/10 | 盲评中 | 生成中 |
-| V5-102 | XZK26_S120_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-100 | XZK26_S102_v03 | 待派发（当前无活进程） | 4/10 | 3/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-101 | XZK26_S103_v02 | 评分中 | 4/10 | 0/10 | 盲评中 | 评分中 |
+| V5-102 | XZK26_S120_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
 | V5-103 | XZK26_S121_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-104 | SP26_S017_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.074985 | 否决 |
-| V5-105 | XZK26_S122_v01 | 评分中 | 5/10 | 4/10 | 盲评中 | 评分中 |
-| V5-106 | XZK26_S123_v01 | 评分中 | 2/10 | 0/10 | 盲评中 | 评分中 |
-| V5-107 | XZK26_S124_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-108 | XZK26_S125_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-105 | XZK26_S122_v01 | 待派发（当前无活进程） | 5/10 | 5/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-106 | XZK26_S123_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
+| V5-107 | XZK26_S124_v01 | 评分中 | 2/10 | 1/10 | 盲评中 | 评分中 |
+| V5-108 | XZK26_S125_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
 | V5-109 | XZK26_S126_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-110 | XZK26_S127_v01 | 待派发（当前无活进程） | 3/10 | 3/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-111 | XZK26_S128_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-112 | XZK26_S129_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-113 | XZK26_S130_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-110 | XZK26_S127_v01 | 待派发（当前无活进程） | 5/10 | 3/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-111 | XZK26_S128_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
+| V5-112 | XZK26_S129_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-113 | XZK26_S130_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-114 | XZK26_S131_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-115 | XZK26_S132_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-116 | SP26_S019_v01 | RED停止，未评分 | 0/10 | 0/10 | 盲评中 | RED停止，未评分 |
@@ -249,6 +257,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`09dad56cd2a5285e1f5d79b1bf86de74946521211e28449659d390282d17726c`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`8734d7a70318525cf4c086169de22779d9f14fa784a47434f17c0775e16275ef`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
