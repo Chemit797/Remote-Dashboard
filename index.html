@@ -984,14 +984,14 @@
   function renderProgress(d) {
     const P = d.progress || {}, A = P.active || [], Q = P.queued || [];
     const tile = (cls, n, t, s) => `<div class="pg-tile ${cls}${n ? '' : ' zero'}"><span class="t">${t}</span><span class="n">${n}</span><span class="s">${s}</span></div>`;
-    const doneTile = `<div class="pg-tile done${P.total ? '' : ' zero'}"><span class="t">在跑策略已评</span><span class="n">${P.done || 0}<small> / ${P.total || 0}</small></span><span class="s">${A.length} 个策略在跑，按 考场 × 种子 计</span></div>`;
+    const doneTile = `<div class="pg-tile done${P.total ? '' : ' zero'}"><span class="t">进行中批次已评</span><span class="n">${P.done || 0}<small> / ${P.total || 0}</small></span><span class="s">${A.length} 个策略（含等待资源/出卡），按 考场 × 种子 计</span></div>`;
     $('#pg-tiles').innerHTML = tile('gen', P.generating || 0, '正在生成', '生成预测的进程')
       + tile('sco', P.scoring || 0, '正在评分', '评分的进程') + doneTile
       + tile('que', Q.length, '排队待派发', Q.length ? Q.map((q) => q.name).slice(0, 4).join('、') + (Q.length > 4 ? ' 等' : '') : '没有排队的策略');
     const fm = foldMap(d);
     const fname = (f) => (f === 'P' ? '正式包 P' : `${f} ${(fm[f] || {}).short || ''}`);
     if (!A.length) {
-      $('#pg-cards').innerHTML = '<div class="pg-empty">现在没有正在生成或评分的策略。</div>';
+      $('#pg-cards').innerHTML = '<div class="pg-empty">现在没有正在生成、评分、等待资源或待出卡的策略。</div>';
     } else {
       $('#pg-cards').innerHTML = A.map((a) => {
         const n = a.n || {}, tot = a.total || 1;
@@ -1013,7 +1013,7 @@
         g += '</tbody></table>';
         const now = [n.generating ? `<span class="g">生成 ${n.generating}</span>` : '', n.scoring ? `<span class="c">评分 ${n.scoring}</span>` : ''].filter(Boolean).join(' · ');
         return `<div class="pg-card"><div class="pg-head"><b>${esc(a.id || '')} ${esc(a.name)}</b><small>${esc(a.label || '')}${a.engineering ? ' · 工程测试' : ''}</small></div>`
-          + `<div class="pg-big"><span class="frac">${n.scored || 0}<small> / ${a.total} 已评</small></span><span class="now">${now}</span><small class="muted">最久的已跑 ${dur(a.longest_s)}</small></div>`
+          + `<div class="pg-big"><span class="frac">${n.scored || 0}<small> / ${a.total} 已评</small></span><span class="now">${now}</span><small class="muted">${a.longest_s ? '最久的已跑 ' + dur(a.longest_s) : '当前无生成/评分工作进程；进度保留'}</small></div>`
           + `<div class="pg-bar">${bar}</div><div class="vc-scroll">${g}</div></div>`;
       }).join('');
     }
