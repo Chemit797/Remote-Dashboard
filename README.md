@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-05T01:37:00+08:00（北京时间）**
+**采集时间：2026-11-05T01:52:04+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 208 个，独立归档 8 个；采集时进程记录 29 条（生成 9、评分 5）。
+登记策略 208 个，独立归档 8 个；采集时进程记录 22 条（生成 7、评分 0）。
 
 ## 当前轮次
 
@@ -61,28 +61,28 @@
 | E20261104_025 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-04T17:21:11.222539+08:00 |
 | E20261104_026 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-04T12:15:15.141479+08:00 |
 | E20261104_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-04T13:34:18.208188+08:00 |
-| E20261104_028 | 30/60 | 30/60 | 28/60 | 0/6 | 2026-11-05T01:35:21.419235+08:00 |
+| E20261104_028 | 30/60 | 30/60 | 30/60 | 0/6 | 2026-11-05T01:50:19.365175+08:00 |
 | E20261104_029 | 10/20 | 10/20 | 10/20 | 0/2 | 2026-11-04T22:59:45.770886+08:00 |
-| E20261104_030 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T01:35:21.154123+08:00 |
-| E20261104_031 | 16/20 | 16/20 | 11/20 | 0/2 | 2026-11-05T01:37:05.403663+08:00 |
-| E20261104_032 | 8/10 | 8/10 | 8/10 | 0/1 | 2026-11-05T01:33:23.521024+08:00 |
-| E20261104_033 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T01:36:43.139108+08:00 |
+| E20261104_030 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T01:50:58.427182+08:00 |
+| E20261104_031 | 17/20 | 17/20 | 16/20 | 0/2 | 2026-11-05T01:49:30.965738+08:00 |
+| E20261104_032 | 8/10 | 8/10 | 8/10 | 0/1 | 2026-11-05T01:49:53.873165+08:00 |
+| E20261104_033 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T01:52:14.386090+08:00 |
 | E20261104_034 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-04T21:49:52.149941+08:00 |
-| E20261104_035 | 1/10 | 1/10 | 1/10 | 0/1 | 2026-11-05T01:32:22.795573+08:00 |
-| E20261104_036 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T01:36:38.532447+08:00 |
-| E20261104_037 | 1/10 | 1/10 | 1/10 | 0/1 | 2026-11-05T01:33:11.378323+08:00 |
+| E20261104_035 | 1/10 | 1/10 | 1/10 | 0/1 | 2026-11-05T01:47:50.127376+08:00 |
+| E20261104_036 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T01:51:56.839442+08:00 |
+| E20261104_037 | 6/10 | 6/10 | 3/10 | 0/1 | 2026-11-05T01:49:18.776504+08:00 |
 | E20261104_038 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-04T23:22:24.655801+08:00 |
-| E20261104_039 | 8/10 | 8/10 | 8/10 | 0/1 | 2026-11-05T01:36:06.254851+08:00 |
+| E20261104_039 | 8/10 | 8/10 | 8/10 | 0/1 | 2026-11-05T01:47:39.502205+08:00 |
 | E20261104_040 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T00:20:41.671497+08:00 |
 | E20261104_206 | 30/30 | 30/30 | 30/30 | 3/3 | 2026-11-05T00:05:36.461636+08:00 |
-| E20261105_002 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T01:34:13.688761+08:00 |
-| E20261105_003 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T01:32:26.416330+08:00 |
-| E20261105_004 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T01:37:05.499376+08:00 |
+| E20261105_002 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T01:49:33.966530+08:00 |
+| E20261105_003 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T01:47:45.679826+08:00 |
+| E20261105_004 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T01:47:16.677033+08:00 |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-05：预测 **23** 份，GREEN 23，RED 0，未盖章 0；实际评分 **25** 份（含已替代旧测量 0 份）；完整成绩单 **0** 份。
+2026-11-05：预测 **29** 份，GREEN 29，RED 0，未盖章 0；实际评分 **34** 份（含已替代旧测量 0 份）；完整成绩单 **0** 份。
 
 新成绩单：无。
 
@@ -182,39 +182,39 @@
 
 - E20261104_027：成绩单与GREEN封存已齐
 
-- E20261104_028：等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000；load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000
+- E20261104_028：等待资源/下一轮：load1 122.96044921875 exceeds 96；load1 122.96044921875 exceeds 96
 
 - E20261104_029：已停止，需重启；用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json
 
-- E20261104_030：等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260881555456 minus reserve 46000000000 < 520000000000；load1 149.8154296875 exceeds 96; generation shared reservation: free 260881555456 minus reserve 46000000000 < 520000000000
+- E20261104_030：等待资源/下一轮：generation shared reservation: free 191808835584 minus reserve 34000000000 < 520000000000；generation shared reservation: free 191808835584 minus reserve 34000000000 < 520000000000
 
-- E20261104_031：批次运行中
+- E20261104_031：等待资源/下一轮：load1 139.86767578125 exceeds 96; generation shared reservation: free 187736768512 minus reserve 35000000000 < 520000000000；load1 139.86767578125 exceeds 96; generation shared reservation: free 187736768512 minus reserve 35000000000 < 520000000000
 
-- E20261104_032：等待资源/下一轮：generation shared reservation: free 250153103360 minus reserve 46000000000 < 520000000000；generation shared reservation: free 250153103360 minus reserve 46000000000 < 520000000000
+- E20261104_032：等待资源/下一轮：load1 131.439453125 exceeds 96; generation shared reservation: free 187576336384 minus reserve 35000000000 < 520000000000；load1 131.439453125 exceeds 96; generation shared reservation: free 187576336384 minus reserve 35000000000 < 520000000000
 
-- E20261104_033：等待资源/下一轮：load1 238.81103515625 exceeds 96; generation shared reservation: free 241652641792 minus reserve 46000000000 < 520000000000；load1 238.81103515625 exceeds 96; generation shared reservation: free 241652641792 minus reserve 46000000000 < 520000000000
+- E20261104_033：批次运行中
 
 - E20261104_034：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-04T21:49:50+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S027_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S027_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S027_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S027_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S027_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S027_v01", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261104_034_SP26_S027_v01_F1_s0/1793799577880408233.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
-- E20261104_035：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
+- E20261104_035：等待资源/下一轮：load1 166.31201171875 exceeds 96；load1 166.31201171875 exceeds 96
 
-- E20261104_036：等待资源/下一轮：load1 238.81103515625 exceeds 96；load1 238.81103515625 exceeds 96
+- E20261104_036：等待资源/下一轮：existing batch workers/finalizer active: [2838346, 2838352]；existing batch workers/finalizer active: [2838346, 2838352]
 
-- E20261104_037：等待资源/下一轮：existing batch workers/finalizer active: [2780411, 2780413, 2780415, 2780418, 2780421]；existing batch workers/finalizer active: [2780411, 2780413, 2780415, 2780418, 2780421]
+- E20261104_037：等待资源/下一轮：load1 139.46875 exceeds 96；load1 139.46875 exceeds 96
 
 - E20261104_038：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-04T23:22:23+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S043_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S043_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S043_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S043_v01", "fold": "F2", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261104_038_SP26_S043_v01_F2_s0/1793805434716991948.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
-- E20261104_039：等待资源/下一轮：load1 208.67236328125 exceeds 96；load1 208.67236328125 exceeds 96
+- E20261104_039：等待资源/下一轮：load1 164.40087890625 exceeds 96；load1 164.40087890625 exceeds 96
 
 - E20261104_040：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T00:20:40+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S043_v02", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S043_v02", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S043_v02", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [{"kind": "generation", "case": {"strategy_id": "SP26_S043_v02", "fold": "F3", "seed": 0}, "launch": {"pid": 2637776, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "SP26_S043_v02", "F3", "0"], "log": "run/logs/round2_scorepush_E20261104_040_SP26_S043_v02_F3_s0/1793809240512400905.log", "started_epoch": 1793809240.5136435, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json"}}], "errors": [{"case": {"strategy_id": "SP26_S043_v02", "fold": "F2", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261104_040_SP26_S043_v02_F2_s0/1793808933608656721.log"]}, {"case": {"strategy_id": "SP26_S043_v02", "fold": "F2", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261104_040_SP26_S043_v02_F2_s1/1793808933704462786.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
 - E20261104_206：成绩单与GREEN封存已齐
 
-- E20261105_002：等待资源/下一轮：load1 98.67236328125 exceeds 96；load1 98.67236328125 exceeds 96
+- E20261105_002：等待资源/下一轮：load1 141.23974609375 exceeds 96；load1 141.23974609375 exceeds 96
 
-- E20261105_003：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
+- E20261105_003：等待资源/下一轮：load1 167.732421875 exceeds 96；load1 167.732421875 exceeds 96
 
-- E20261105_004：等待资源/下一轮：load1 236.3955078125 exceeds 96；load1 236.3955078125 exceeds 96
+- E20261105_004：等待资源/下一轮：load1 153.51953125 exceeds 96；load1 153.51953125 exceeds 96
 
 - public_repo_trials_E20261103_034：已停止，需重启；未完成且没有活进程
 
@@ -227,35 +227,28 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S038_v01 F2/seed0 | generate | 4798 |
-| 生成 · XZK26_S168_v01 F1/seed0 | generate | 4588 |
-| 生成 · XZK26_S168_v01 F1/seed1 | generate | 4587 |
-| 生成 · SP26_S037_v01 F5/seed0 | generate | 2334 |
-| 生成 · SP26_S027_v02 F1/seed1 | generate | 867 |
-| 生成 · SP26_S027_v02 F2/seed0 | generate | 867 |
-| 生成 · SP26_S027_v02 F2/seed1 | generate | 867 |
-| 生成 · SP26_S027_v02 F3/seed0 | generate | 867 |
-| 生成 · SP26_S027_v02 F3/seed1 | generate | 866 |
-| 评分 · SP26_S037_v01 F1/seed1 | score | 314 |
-| 评分 · SP26_S037_v01 F2/seed0 | score | 311 |
-| 评分 · SP26_S037_v01 F2/seed1 | score | 309 |
-| 评分 · SP26_S037_v01 F3/seed0 | score | 307 |
-| 评分 · SP26_S037_v01 F3/seed1 | score | 305 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 360905 |
-| 调度/收尾 · task_io_v1 | controller | 103195 |
-| 调度/收尾 · round2_source_audit_worker | controller | 103189 |
-| 调度/收尾 · task_io_v1 | controller | 27418 |
-| 调度/收尾 · task_io_v1 | controller | 20336 |
-| 调度/收尾 · task_io_v1 | controller | 18316 |
-| 调度/收尾 · task_io_v1 | controller | 17605 |
-| 调度/收尾 · task_io_v1 | controller | 17219 |
-| 调度/收尾 · task_io_v1 | controller | 14479 |
-| 调度/收尾 · task_io_v1 | controller | 12912 |
-| 调度/收尾 · task_io_v1 | controller | 10718 |
-| 调度/收尾 · task_io_v1 | controller | 7438 |
-| 调度/收尾 · task_io_v1 | controller | 4166 |
-| 调度/收尾 · task_io_v1 | controller | 2744 |
-| 调度/收尾 · task_io_v1 | controller | 1848 |
+| 生成 · SP26_S038_v01 F2/seed0 | generate | 5702 |
+| 生成 · SP26_S043_v03 F1/seed0 | generate | 577 |
+| 生成 · SP26_S037_v01 F5/seed1 | generate | 508 |
+| 生成 · SP26_S038_v01 F2/seed1 | generate | 387 |
+| 生成 · SP26_S038_v01 F3/seed0 | generate | 387 |
+| 生成 · SP26_S042_v01 F1/seed0 | generate | 19 |
+| 生成 · SP26_S042_v01 F2/seed0 | generate | 19 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 361809 |
+| 调度/收尾 · task_io_v1 | controller | 104098 |
+| 调度/收尾 · round2_source_audit_worker | controller | 104092 |
+| 调度/收尾 · task_io_v1 | controller | 28321 |
+| 调度/收尾 · task_io_v1 | controller | 21240 |
+| 调度/收尾 · task_io_v1 | controller | 19220 |
+| 调度/收尾 · task_io_v1 | controller | 18508 |
+| 调度/收尾 · task_io_v1 | controller | 15383 |
+| 调度/收尾 · task_io_v1 | controller | 13816 |
+| 调度/收尾 · task_io_v1 | controller | 11622 |
+| 调度/收尾 · task_io_v1 | controller | 8342 |
+| 调度/收尾 · task_io_v1 | controller | 5070 |
+| 调度/收尾 · task_io_v1 | controller | 3648 |
+| 调度/收尾 · task_io_v1 | controller | 2752 |
+| 调度/收尾 · task_io_v1 | controller | 870 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -449,35 +442,35 @@
 | V5-151 | XZK26_S162_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.219396 | 采用 |
 | V5-152 | SP26_S025_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.174163 | 否决 |
 | V5-153 | SP26_S026_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.178207 | 否决 |
-| V5-154 | XZK26_S163_v01 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 |
-| V5-155 | XZK26_S164_v01 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 |
-| V5-156 | XZK26_S165_v01 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 | 7/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 |
-| V5-157 | XZK26_S166_v01 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 |
-| V5-158 | XZK26_S167_v01 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 149.8154296875 exceeds 96; generation shared reservation: free 260601905152 minus reserve 46000000000 < 520000000000 |
-| V5-159 | XZK26_S168_v01 | 生成中 | 3/10 | 3/10 | 盲评中 | 生成中 |
+| V5-154 | XZK26_S163_v01 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 |
+| V5-155 | XZK26_S164_v01 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 |
+| V5-156 | XZK26_S165_v01 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 | 7/10 | 7/10 | 盲评中 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 |
+| V5-157 | XZK26_S166_v01 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 |
+| V5-158 | XZK26_S167_v01 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 |
+| V5-159 | XZK26_S168_v01 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 | 3/10 | 3/10 | 盲评中 | 等待资源/下一轮：load1 122.96044921875 exceeds 96 |
 | V5-160 | XZK26_S169_v01 | 已停止，需重启：用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json |
 | V5-161 | XZK26_S170_v01 | 已停止，需重启：用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json |
 | V5-162 | DX26_S211_v01 | 已由 DX26_S211_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-172 |
 | V5-163 | DX26_S212_v01 | 已由 DX26_S212_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-173 |
 | V5-164 | DX26_S213_v01 | 已由 DX26_S213_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-174 |
 | V5-165 | SP26_S038_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
-| V5-166 | SP26_S036_v01 | 批次运行中，等待本位置/原有出卡 | 10/10 | 10/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
-| V5-167 | SP26_S037_v01 | 评分中 | 6/10 | 1/10 | 盲评中 | 评分中 |
-| V5-168 | SP26_S039_v01 | 等待资源/下一轮：generation shared reservation: free 250153103360 minus reserve 46000000000 < 520000000000 | 8/10 | 8/10 | 盲评中 | 等待资源/下一轮：generation shared reservation: free 250153103360 minus reserve 46000000000 < 520000000000 |
-| V5-169 | SP26_S040_v01 | 等待资源/下一轮：load1 238.81103515625 exceeds 96; generation shared reservation: free 241652641792 minus reserve 46000000000 < 520000000000 | 2/10 | 2/10 | 盲评中 | 等待资源/下一轮：load1 238.81103515625 exceeds 96; generation shared reservation: free 241652641792 minus reserve 46000000000 < 520000000000 |
+| V5-166 | SP26_S036_v01 | 等待资源/下一轮：load1 139.86767578125 exceeds 96; generation shared reservation: free 187736768512 minus reserve 35000000000 < 520000000000 | 10/10 | 10/10 | 盲评中 | 等待资源/下一轮：load1 139.86767578125 exceeds 96; generation shared reservation: free 187736768512 minus reserve 35000000000 < 520000000000 |
+| V5-167 | SP26_S037_v01 | 生成中 | 7/10 | 6/10 | 盲评中 | 生成中 |
+| V5-168 | SP26_S039_v01 | 等待资源/下一轮：load1 131.439453125 exceeds 96; generation shared reservation: free 187576336384 minus reserve 35000000000 < 520000000000 | 8/10 | 8/10 | 盲评中 | 等待资源/下一轮：load1 131.439453125 exceeds 96; generation shared reservation: free 187576336384 minus reserve 35000000000 < 520000000000 |
+| V5-169 | SP26_S040_v01 | 批次运行中，等待本位置/原有出卡 | 2/10 | 2/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
 | V5-170 | SP26_S027_v01 | 已由 SP26_S027_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-176 |
-| V5-171 | SP26_S041_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 1/10 | 1/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
+| V5-171 | SP26_S041_v01 | 等待资源/下一轮：load1 166.31201171875 exceeds 96 | 1/10 | 1/10 | 盲评中 | 等待资源/下一轮：load1 166.31201171875 exceeds 96 |
 | V5-172 | DX26_S211_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.207055 | 否决 |
 | V5-173 | DX26_S212_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.207273 | 否决 |
 | V5-174 | DX26_S213_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.207470 | 否决 |
-| V5-175 | SP26_S042_v01 | 等待资源/下一轮：load1 238.81103515625 exceeds 96 | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：load1 238.81103515625 exceeds 96 |
-| V5-176 | SP26_S027_v02 | 生成中 | 1/10 | 1/10 | 盲评中 | 生成中 |
+| V5-175 | SP26_S042_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
+| V5-176 | SP26_S027_v02 | 等待资源/下一轮：load1 139.46875 exceeds 96 | 6/10 | 3/10 | 盲评中 | 等待资源/下一轮：load1 139.46875 exceeds 96 |
 | V5-177 | SP26_S043_v01 | 已由 SP26_S043_v03 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-181 |
-| V5-178 | SP26_S044_v01 | 等待资源/下一轮：load1 208.67236328125 exceeds 96 | 8/10 | 8/10 | 盲评中 | 等待资源/下一轮：load1 208.67236328125 exceeds 96 |
+| V5-178 | SP26_S044_v01 | 等待资源/下一轮：load1 164.40087890625 exceeds 96 | 8/10 | 8/10 | 盲评中 | 等待资源/下一轮：load1 164.40087890625 exceeds 96 |
 | V5-179 | SP26_S043_v02 | 已由 SP26_S043_v03 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-181 |
-| V5-180 | SP26_S045_v01 | 等待资源/下一轮：load1 98.67236328125 exceeds 96 | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：load1 98.67236328125 exceeds 96 |
-| V5-181 | SP26_S043_v03 | 等待资源/下一轮：next native single-pass recheck scheduled | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
-| V5-182 | SP26_S046_v01 | 等待资源/下一轮：load1 236.3955078125 exceeds 96 | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：load1 236.3955078125 exceeds 96 |
+| V5-180 | SP26_S045_v01 | 等待资源/下一轮：load1 141.23974609375 exceeds 96 | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：load1 141.23974609375 exceeds 96 |
+| V5-181 | SP26_S043_v03 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
+| V5-182 | SP26_S046_v01 | 等待资源/下一轮：load1 153.51953125 exceeds 96 | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：load1 153.51953125 exceeds 96 |
 
 </details>
 
@@ -493,6 +486,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`4f127e133a4497e71d32945164f79a4cbfbabac1b4f4702bb2afc27b0036b64b`。
+采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`a873930ef29275b4953ac668bd396efee3b38ffdc3b87f0eb531b4b4472eb380`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
