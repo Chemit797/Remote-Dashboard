@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T22:02:41+08:00（北京时间）**
+**采集时间：2026-11-04T22:07:00+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 201 个，独立归档 8 个；采集时进程记录 41 条（生成 27、评分 2）。
+登记策略 201 个，独立归档 8 个；采集时进程记录 40 条（生成 27、评分 1）。
 
 ## 当前轮次
 
@@ -26,7 +26,7 @@
 
 ## 今日新增与核对（北京时间）
 
-2026-11-04：预测 **407** 份，GREEN 404，RED 2，未盖章 3；实际评分 **395** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
+2026-11-04：预测 **407** 份，GREEN 404，RED 2，未盖章 3；实际评分 **396** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
 
 新成绩单：PR26_C05_v01、PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、SP26_S025_v01、SP26_S026_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01、XZK26_S161_v01、XZK26_S162_v01。
 
@@ -59,47 +59,46 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · XZK26_S170_v01 F1/seed1 | generate | 6176 |
-| 生成 · SP26_S036_v01 F1/seed0 | generate | 4705 |
-| 生成 · SP26_S036_v01 F1/seed1 | generate | 2864 |
-| 生成 · DX26_S211_v02 F1/seed0 | generate | 447 |
-| 生成 · DX26_S211_v02 F1/seed1 | generate | 447 |
-| 生成 · DX26_S212_v02 F1/seed0 | generate | 447 |
-| 生成 · DX26_S212_v02 F1/seed1 | generate | 447 |
-| 生成 · DX26_S213_v02 F1/seed0 | generate | 447 |
-| 生成 · DX26_S213_v02 F1/seed1 | generate | 446 |
-| 生成 · DX26_S211_v02 F2/seed0 | generate | 446 |
-| 生成 · DX26_S211_v02 F2/seed1 | generate | 446 |
-| 生成 · DX26_S212_v02 F2/seed0 | generate | 446 |
-| 生成 · DX26_S212_v02 F2/seed1 | generate | 446 |
-| 生成 · DX26_S213_v02 F2/seed0 | generate | 445 |
-| 生成 · DX26_S213_v02 F2/seed1 | generate | 445 |
-| 生成 · DX26_S211_v02 F3/seed0 | generate | 445 |
-| 生成 · DX26_S211_v02 F3/seed1 | generate | 445 |
-| 生成 · DX26_S212_v02 F3/seed0 | generate | 445 |
-| 生成 · DX26_S212_v02 F3/seed1 | generate | 445 |
-| 生成 · DX26_S213_v02 F3/seed0 | generate | 444 |
-| 生成 · DX26_S213_v02 F3/seed1 | generate | 444 |
-| 生成 · DX26_S211_v02 F5/seed0 | generate | 444 |
-| 生成 · DX26_S211_v02 F5/seed1 | generate | 444 |
-| 生成 · DX26_S212_v02 F5/seed0 | generate | 444 |
-| 生成 · DX26_S212_v02 F5/seed1 | generate | 443 |
-| 生成 · DX26_S213_v02 F5/seed0 | generate | 443 |
-| 生成 · DX26_S213_v02 F5/seed1 | generate | 443 |
-| 评分 · XZK26_S164_v01 F1/seed1 | score | 395 |
-| 评分 · XZK26_S163_v01 F1/seed0 | score | 332 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 348045 |
-| 调度/收尾 · task_io_v1 | controller | 90335 |
-| 调度/收尾 · round2_source_audit_worker | controller | 90329 |
-| 调度/收尾 · task_io_v1 | controller | 14558 |
-| 调度/收尾 · task_io_v1 | controller | 7476 |
-| 调度/收尾 · task_io_v1 | controller | 5456 |
-| 调度/收尾 · task_io_v1 | controller | 4745 |
-| 调度/收尾 · task_io_v1 | controller | 4359 |
-| 调度/收尾 · task_io_v1 | controller | 4359 |
-| 调度/收尾 · task_io_v1 | controller | 1619 |
-| 调度/收尾 · task_io_v1 | controller | 1380 |
-| 调度/收尾 · task_io_v1 | controller | 52 |
+| 生成 · XZK26_S170_v01 F1/seed1 | generate | 6435 |
+| 生成 · SP26_S036_v01 F1/seed0 | generate | 4964 |
+| 生成 · SP26_S036_v01 F1/seed1 | generate | 3122 |
+| 生成 · DX26_S211_v02 F1/seed0 | generate | 706 |
+| 生成 · DX26_S211_v02 F1/seed1 | generate | 706 |
+| 生成 · DX26_S212_v02 F1/seed0 | generate | 705 |
+| 生成 · DX26_S212_v02 F1/seed1 | generate | 705 |
+| 生成 · DX26_S213_v02 F1/seed0 | generate | 705 |
+| 生成 · DX26_S213_v02 F1/seed1 | generate | 705 |
+| 生成 · DX26_S211_v02 F2/seed0 | generate | 705 |
+| 生成 · DX26_S211_v02 F2/seed1 | generate | 705 |
+| 生成 · DX26_S212_v02 F2/seed0 | generate | 704 |
+| 生成 · DX26_S212_v02 F2/seed1 | generate | 704 |
+| 生成 · DX26_S213_v02 F2/seed0 | generate | 704 |
+| 生成 · DX26_S213_v02 F2/seed1 | generate | 704 |
+| 生成 · DX26_S211_v02 F3/seed0 | generate | 704 |
+| 生成 · DX26_S211_v02 F3/seed1 | generate | 703 |
+| 生成 · DX26_S212_v02 F3/seed0 | generate | 703 |
+| 生成 · DX26_S212_v02 F3/seed1 | generate | 703 |
+| 生成 · DX26_S213_v02 F3/seed0 | generate | 703 |
+| 生成 · DX26_S213_v02 F3/seed1 | generate | 703 |
+| 生成 · DX26_S211_v02 F5/seed0 | generate | 702 |
+| 生成 · DX26_S211_v02 F5/seed1 | generate | 702 |
+| 生成 · DX26_S212_v02 F5/seed0 | generate | 702 |
+| 生成 · DX26_S212_v02 F5/seed1 | generate | 702 |
+| 生成 · DX26_S213_v02 F5/seed0 | generate | 702 |
+| 生成 · DX26_S213_v02 F5/seed1 | generate | 701 |
+| 评分 · XZK26_S163_v01 F1/seed0 | score | 590 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 348303 |
+| 调度/收尾 · task_io_v1 | controller | 90593 |
+| 调度/收尾 · round2_source_audit_worker | controller | 90587 |
+| 调度/收尾 · task_io_v1 | controller | 14816 |
+| 调度/收尾 · task_io_v1 | controller | 7735 |
+| 调度/收尾 · task_io_v1 | controller | 5715 |
+| 调度/收尾 · task_io_v1 | controller | 5003 |
+| 调度/收尾 · task_io_v1 | controller | 4617 |
+| 调度/收尾 · task_io_v1 | controller | 4617 |
+| 调度/收尾 · task_io_v1 | controller | 1877 |
+| 调度/收尾 · task_io_v1 | controller | 1639 |
+| 调度/收尾 · task_io_v1 | controller | 311 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -294,7 +293,7 @@
 | V5-152 | SP26_S025_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.174163 | 否决 |
 | V5-153 | SP26_S026_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.178207 | 否决 |
 | V5-154 | XZK26_S163_v01 | 评分中 | 3/10 | 2/10 | 盲评中 | 评分中 |
-| V5-155 | XZK26_S164_v01 | 评分中 | 5/10 | 4/10 | 盲评中 | 评分中 |
+| V5-155 | XZK26_S164_v01 | 待派发（当前无活进程） | 5/10 | 5/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-156 | XZK26_S165_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-157 | XZK26_S166_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-158 | XZK26_S167_v01 | 待派发（当前无活进程） | 5/10 | 5/10 | 盲评中 | 待派发（当前无活进程） |
@@ -330,6 +329,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`44f7e0b7db34f7ee5f842cddc6d0977f4b27472e0537bdb050367d58e685847c`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`cf8743867b663bc61cff7004b42df525cc3f0bf72698010c52e337ca09facdc0`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
