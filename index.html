@@ -392,9 +392,10 @@
     <div class="vc-card">
       <div class="s-tools">
         <span id="s-count"></span>
-        <span class="s-filter" title="只勾一个就只看那个人的；两个都勾或都不勾，全部显示">只看
+        <span class="s-filter" title="只勾一个就筛选该成员；共享和归属待确认记录始终显示；两个都勾或都不勾，全部显示">只看
           <label><input type="checkbox" id="f-cym"> cym</label>
           <label><input type="checkbox" id="f-xzk"> xzk</label>
+          <span class="muted">（含共享/待确认）</span>
         </span>
         <label><input type="checkbox" id="f-eng"> 显示工程测试和重复计算</label>
         <label><input type="checkbox" id="f-new"> 最新的在上面</label>
@@ -759,7 +760,7 @@
     const archiveOf = (r) => byId['MSB_' + String(r.sid).replace(/^M_/, '')];
     let rows = (d.samples || []).filter((r) => st.eng || (!r.engineering && !dup(r)));
     const want = ['cym', 'xzk'].filter((k) => st.who[k]);
-    if (want.length === 1) rows = rows.filter((r) => r.submitter === want[0]);
+    if (want.length === 1) rows = rows.filter((r) => r.submitter === want[0] || !['cym', 'xzk'].includes(r.submitter));
     if (st.newest) rows = rows.slice().reverse();
     const ncol = 5 + F.length + G.length + METRICS.length + 4;
     const span = F.length + G.length + METRICS.length;
