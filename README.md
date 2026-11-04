@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T12:21:39+08:00（北京时间）**
+**采集时间：2026-11-04T12:36:44+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 178 个，独立归档 8 个；采集时进程记录 8 条（生成 0、评分 0）。
+登记策略 179 个，独立归档 8 个；采集时进程记录 8 条（生成 0、评分 0）。
 
 ## 当前轮次
 
@@ -22,7 +22,7 @@
 | public_repo_trials_E20261103_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:18:06.542686+08:00 |
 | public_repo_trials_E20261103_029 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:39:43.710699+08:00 |
 | public_repo_trials_E20261103_036 | 20/20 | 20/20 | 20/20 | 2/2 | 2026-11-04T00:32:05.404957+08:00 |
-| public_repo_trials_E20261103_038 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-04T12:20:29.859281+08:00 |
+| public_repo_trials_E20261103_038 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-04T12:36:45.209106+08:00 |
 
 ## 今日新增与核对（北京时间）
 
@@ -48,7 +48,7 @@
 
 - public_repo_trials_E20261103_036：成绩单与GREEN封存已齐
 
-- public_repo_trials_E20261103_038：等待资源/下一轮：free 288753639424 bytes below existing launch floor 520000000000; generation shared reservation: free 288753639424 minus reserve 23000000000 < 520000000000；free 288753639424 bytes below existing launch floor 520000000000; generation shared reservation: free 288753639424 minus reserve 23000000000 < 520000000000
+- public_repo_trials_E20261103_038：等待资源/下一轮：free 256641937408 bytes below existing launch floor 520000000000; generation shared reservation: free 256641937408 minus reserve 23000000000 < 520000000000；free 256641937408 bytes below existing launch floor 520000000000; generation shared reservation: free 256641937408 minus reserve 23000000000 < 520000000000
 
 ## 今日实验、预检与分析记录
 
@@ -59,14 +59,14 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 管线状态刷新 · board_refresh_resource_v4 | status | 313185 |
-| 调度/收尾 · task_io_v1 | controller | 55475 |
-| 调度/收尾 · round2_source_audit_worker | controller | 55469 |
-| 调度/收尾 · task_io_v1 | controller | 50110 |
-| 调度/收尾 · task_io_v1 | controller | 36112 |
-| 调度/收尾 · round2_source_audit_worker | controller | 1684 |
-| 调度/收尾 · round2_source_audit_worker | controller | 542 |
-| 调度/收尾 · round2_source_audit_worker | controller | 118 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 314089 |
+| 调度/收尾 · task_io_v1 | controller | 56379 |
+| 调度/收尾 · round2_source_audit_worker | controller | 56373 |
+| 调度/收尾 · task_io_v1 | controller | 51013 |
+| 调度/收尾 · task_io_v1 | controller | 37016 |
+| 调度/收尾 · round2_source_audit_worker | controller | 2588 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1446 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1022 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -196,7 +196,7 @@
 | V5-87 | XZK26_S115_v01 | 待派发（当前无活进程） | 4/10 | 4/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-88 | PR26_C10_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209783 | 不确定 |
 | V5-89 | PR26_C11_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210191 | 不确定 |
-| V5-90 | PR26_C05_v01 | 等待资源/下一轮：free 288753639424 bytes below existing launch floor 520000000000; generation shared reservation: free 288753639424 minus reserve 23000000000 < 520000000000 | 9/10 | 9/10 | 盲评中 | 等待资源/下一轮：free 288753639424 bytes below existing launch floor 520000000000; generation shared reservation: free 288753639424 minus reserve 23000000000 < 520000000000 |
+| V5-90 | PR26_C05_v01 | 等待资源/下一轮：free 256641937408 bytes below existing launch floor 520000000000; generation shared reservation: free 256641937408 minus reserve 23000000000 < 520000000000 | 9/10 | 9/10 | 盲评中 | 等待资源/下一轮：free 256641937408 bytes below existing launch floor 520000000000; generation shared reservation: free 256641937408 minus reserve 23000000000 < 520000000000 |
 | V5-91 | XZK26_S116_v01 | 已由 XZK26_S116_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-95 |
 | V5-92 | XZK26_S117_v01 | 已由 XZK26_S117_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-96 |
 | V5-93 | XZK26_S118_v01 | 已由 XZK26_S118_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-97 |
@@ -259,6 +259,7 @@
 | V5-150 | XZK26_S161_v01 | 待派发（当前无活进程） | 10/10 | 8/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-151 | XZK26_S162_v01 | 待派发（当前无活进程） | 9/10 | 8/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-152 | SP26_S025_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.174163 | 否决 |
+| V5-153 | SP26_S026_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 
 </details>
 
@@ -274,6 +275,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`54102f8bb5435611b3fa151fdad8fa0d67f3387f27079d63d3124467638e6ef9`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`294bc49745e5e77f934c2f3ff10f02a76cffbeb06e0af0b06ba1d0a5a8ce5b13`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
