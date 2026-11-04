@@ -1,6 +1,6 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T21:11:24+08:00（北京时间）**
+**采集时间：2026-11-04T21:16:19+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
@@ -26,7 +26,7 @@
 
 ## 今日新增与核对（北京时间）
 
-2026-11-04：预测 **387** 份，GREEN 384，RED 2，未盖章 3；实际评分 **381** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
+2026-11-04：预测 **388** 份，GREEN 385，RED 2，未盖章 3；实际评分 **381** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
 
 新成绩单：PR26_C05_v01、PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、SP26_S025_v01、SP26_S026_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01、XZK26_S161_v01、XZK26_S162_v01。
 
@@ -59,27 +59,27 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S038_v01 F1/seed0 | generate | 9937 |
-| 生成 · SP26_S038_v01 F1/seed1 | generate | 9937 |
-| 生成 · XZK26_S169_v01 F1/seed1 | generate | 6314 |
-| 生成 · XZK26_S170_v01 F1/seed1 | generate | 3097 |
-| 生成 · XZK26_S167_v01 F1/seed1 | generate | 2276 |
-| 生成 · SP26_S036_v01 F1/seed0 | generate | 1626 |
-| 生成 · SP26_S040_v01 F1/seed0 | generate | 1353 |
-| 生成 · XZK26_S164_v01 F1/seed0 | generate | 1219 |
-| 生成 · XZK26_S164_v01 F2/seed1 | generate | 247 |
-| 生成 · XZK26_S164_v01 F1/seed1 | generate | 247 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 344966 |
-| 调度/收尾 · task_io_v1 | controller | 87256 |
-| 调度/收尾 · round2_source_audit_worker | controller | 87250 |
-| 调度/收尾 · round2_source_audit_worker | controller | 21822 |
-| 调度/收尾 · task_io_v1 | controller | 11479 |
-| 调度/收尾 · task_io_v1 | controller | 4398 |
-| 调度/收尾 · task_io_v1 | controller | 2377 |
-| 调度/收尾 · round2_source_audit_worker | controller | 1743 |
-| 调度/收尾 · task_io_v1 | controller | 1666 |
-| 调度/收尾 · task_io_v1 | controller | 1280 |
-| 调度/收尾 · task_io_v1 | controller | 1280 |
+| 生成 · SP26_S038_v01 F1/seed0 | generate | 10232 |
+| 生成 · SP26_S038_v01 F1/seed1 | generate | 10232 |
+| 生成 · XZK26_S169_v01 F1/seed1 | generate | 6609 |
+| 生成 · XZK26_S170_v01 F1/seed1 | generate | 3393 |
+| 生成 · SP26_S036_v01 F1/seed0 | generate | 1922 |
+| 生成 · SP26_S040_v01 F1/seed0 | generate | 1649 |
+| 生成 · XZK26_S164_v01 F1/seed0 | generate | 1514 |
+| 生成 · XZK26_S164_v01 F2/seed1 | generate | 542 |
+| 生成 · XZK26_S164_v01 F1/seed1 | generate | 542 |
+| 生成 · SP26_S036_v01 F1/seed1 | generate | 80 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 345261 |
+| 调度/收尾 · task_io_v1 | controller | 87551 |
+| 调度/收尾 · round2_source_audit_worker | controller | 87545 |
+| 调度/收尾 · round2_source_audit_worker | controller | 22118 |
+| 调度/收尾 · task_io_v1 | controller | 11774 |
+| 调度/收尾 · task_io_v1 | controller | 4693 |
+| 调度/收尾 · task_io_v1 | controller | 2673 |
+| 调度/收尾 · task_io_v1 | controller | 1961 |
+| 调度/收尾 · task_io_v1 | controller | 1575 |
+| 调度/收尾 · task_io_v1 | controller | 1575 |
+| 调度/收尾 · round2_source_audit_worker | controller | 111 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -277,7 +277,7 @@
 | V5-155 | XZK26_S164_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
 | V5-156 | XZK26_S165_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-157 | XZK26_S166_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-158 | XZK26_S167_v01 | 生成中 | 4/10 | 4/10 | 盲评中 | 生成中 |
+| V5-158 | XZK26_S167_v01 | 待派发（当前无活进程） | 5/10 | 4/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-159 | XZK26_S168_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-160 | XZK26_S169_v01 | 生成中 | 4/10 | 4/10 | 盲评中 | 生成中 |
 | V5-161 | XZK26_S170_v01 | 生成中 | 4/10 | 4/10 | 盲评中 | 生成中 |
@@ -304,6 +304,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`4c7210827cbf20a1aa57dd9a90912712ce23a234742a3a9d19aca9cd7ce5e078`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`5961a39b39063c11daac0e170e82b18d12e4a59038ceffc849f4da09b63ee522`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
