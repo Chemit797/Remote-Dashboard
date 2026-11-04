@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-05T05:52:03+08:00（北京时间）**
+**采集时间：2026-11-05T06:07:03+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 213 个，独立归档 8 个；采集时进程记录 6 条（生成 0、评分 2）。
+登记策略 217 个，独立归档 8 个；采集时进程记录 21 条（生成 16、评分 0）。
 
 ## 当前轮次
 
@@ -77,17 +77,21 @@
 | E20261104_206 | 30/30 | 30/30 | 30/30 | 3/3 | 2026-11-05T00:05:36.461636+08:00 |
 | E20261105_002 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T02:20:22.856290+08:00 |
 | E20261105_003 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T03:34:51.236562+08:00 |
-| E20261105_004 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T05:49:37.769465+08:00 |
+| E20261105_004 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T06:06:33.176805+08:00 |
 | E20261105_006 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T04:39:48.247440+08:00 |
 | E20261105_007 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:17:52.034676+08:00 |
-| E20261105_008 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:51:58.616600+08:00 |
-| E20261105_009 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:52:19.020620+08:00 |
-| E20261105_010 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T05:52:00.543336+08:00 |
+| E20261105_008 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:58:00.216369+08:00 |
+| E20261105_009 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:55:19.361420+08:00 |
+| E20261105_010 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:57:59.952748+08:00 |
+| E20261105_011 | 3/10 | 3/10 | 3/10 | 0/1 | 2026-11-05T06:06:57.679292+08:00 |
+| E20261105_012 | 3/10 | 3/10 | 2/10 | 0/1 | 2026-11-05T06:05:11.743740+08:00 |
+| E20261105_013 | 3/10 | 3/10 | 1/10 | 0/1 | 2026-11-05T06:06:51.315750+08:00 |
+| E20261105_014 | 0/10 | 0/10 | 0/10 | 0/1 | — |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-05：预测 **110** 份，GREEN 110，RED 0，未盖章 0；实际评分 **117** 份（含已替代旧测量 0 份）；完整成绩单 **10** 份。
+2026-11-05：预测 **119** 份，GREEN 119，RED 0，未盖章 0；实际评分 **125** 份（含已替代旧测量 0 份）；完整成绩单 **10** 份。
 
 新成绩单：SP26_S027_v02、SP26_S036_v01、SP26_S037_v01、SP26_S038_v01、SP26_S039_v01、SP26_S040_v01、SP26_S041_v01、SP26_S042_v01、SP26_S043_v03、SP26_S044_v01。
 
@@ -219,17 +223,25 @@
 
 - E20261105_003：成绩单与GREEN封存已齐
 
-- E20261105_004：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T05:49:36+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [{"kind": "generation", "case": {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 1}, "launch": {"pid": 3230936, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "SP26_S046_v01", "F6", "1"], "log": "run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F6_s1/1793828976677129008.log", "started_epoch": 1793828976.6879013, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json"}}], "errors": [{"case": {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F1_s0/1793816279463457396.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F1_s1/1793816280587433891.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F2_s0/1793816281708886419.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F2_s1/1793816282828059226.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F3_s0/1793816283954730421.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F3_s1/1793816285085612551.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F5_s0/1793816286216377810.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F5_s1/1793816287342135501.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F6_s0/1793816288466056228.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
+- E20261105_004：等待资源/下一轮：existing batch workers/finalizer active: [3240423, 3240424, 3240425, 3240426, 3240427, 3240428, 3240429, 3240430, 3240431, 3240432]；existing batch workers/finalizer active: [3240423, 3240424, 3240425, 3240426, 3240427, 3240428, 3240429, 3240430, 3240431, 3240432]
 
 - E20261105_006：已停止，需重启；用户停止文件：run/E20261105_006/STOP_USER.json; run/E20261105_006/STOP_USER.json
 
 - E20261105_007：已停止，需重启；用户停止文件：run/E20261105_007/STOP_USER.json; run/E20261105_007/STOP_USER.json
 
-- E20261105_008：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
+- E20261105_008：已停止，需重启；用户停止文件：run/E20261105_008/STOP_USER.json; run/E20261105_008/STOP_USER.json
 
-- E20261105_009：批次运行中
+- E20261105_009：已停止，需重启；用户停止文件：run/E20261105_009/STOP_USER.json; run/E20261105_009/STOP_USER.json
 
-- E20261105_010：等待资源/下一轮：existing batch workers/finalizer active: [3228976, 3228979]；existing batch workers/finalizer active: [3228976, 3228979]
+- E20261105_010：已停止，需重启；用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json
+
+- E20261105_011：等待资源/下一轮：existing batch workers/finalizer active: [3235499, 3235512]；existing batch workers/finalizer active: [3235499, 3235512]
+
+- E20261105_012：批次运行中
+
+- E20261105_013：批次运行中
+
+- E20261105_014：已停止，需重启；未完成且没有活进程
 
 - public_repo_trials_E20261103_034：已停止，需重启；未完成且没有活进程
 
@@ -242,12 +254,27 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 评分 · XZK26_S176_v01 F1/seed0 | score | 386 |
-| 评分 · XZK26_S176_v01 F1/seed1 | score | 386 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 376212 |
-| 调度/收尾 · task_io_v1 | controller | 3483 |
-| 调度/收尾 · task_io_v1 | controller | 3435 |
-| 调度/收尾 · task_io_v1 | controller | 1921 |
+| 生成 · XZK26_S177_v01 F1/seed0 | generate | 528 |
+| 生成 · XZK26_S177_v01 F1/seed1 | generate | 526 |
+| 生成 · XZK26_S178_v01 F1/seed0 | generate | 356 |
+| 生成 · XZK26_S178_v01 F1/seed1 | generate | 353 |
+| 生成 · XZK26_S179_v01 F1/seed0 | generate | 247 |
+| 生成 · XZK26_S179_v01 F1/seed1 | generate | 244 |
+| 生成 · SP26_S046_v01 F1/seed0 | generate | 108 |
+| 生成 · SP26_S046_v01 F1/seed1 | generate | 108 |
+| 生成 · SP26_S046_v01 F2/seed0 | generate | 108 |
+| 生成 · SP26_S046_v01 F2/seed1 | generate | 108 |
+| 生成 · SP26_S046_v01 F3/seed0 | generate | 108 |
+| 生成 · SP26_S046_v01 F3/seed1 | generate | 108 |
+| 生成 · SP26_S046_v01 F5/seed0 | generate | 108 |
+| 生成 · SP26_S046_v01 F5/seed1 | generate | 108 |
+| 生成 · SP26_S046_v01 F6/seed0 | generate | 108 |
+| 生成 · SP26_S046_v01 F6/seed1 | generate | 108 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 377108 |
+| 调度/收尾 · task_io_v1 | controller | 695 |
+| 调度/收尾 · task_io_v1 | controller | 529 |
+| 调度/收尾 · task_io_v1 | controller | 416 |
+| 调度/收尾 · task_io_v1 | controller | 126 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -469,12 +496,16 @@
 | V5-179 | SP26_S043_v02 | 已由 SP26_S043_v03 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-181 |
 | V5-180 | SP26_S045_v01 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') | 0/10 | 0/10 | 盲评中 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') |
 | V5-181 | SP26_S043_v03 | 成绩单已齐 | 10/10 | 10/10 | -0.028964 | 否决 |
-| V5-182 | SP26_S046_v01 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T05:49:36+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [{"kind": "generation", "case": {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 1}, "launch": {"pid": 3230936, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "SP26_S046_v01", "F6", "1"], "log": "run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F6_s1/1793828976677129008.log", "started_epoch": 1793828976.6879013, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json"}}], "errors": [{"case": {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F1_s0/1793816279463457396.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F1_s1/1793816280587433891.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F2_s0/1793816281708886419.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F2_s1/1793816282828059226.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F3_s0/1793816283954730421.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F3_s1/1793816285085612551.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F5_s0/1793816286216377810.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F5_s1/1793816287342135501.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F6_s0/1793816288466056228.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') | 0/10 | 0/10 | 盲评中 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T05:49:36+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [{"kind": "generation", "case": {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 1}, "launch": {"pid": 3230936, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "SP26_S046_v01", "F6", "1"], "log": "run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F6_s1/1793828976677129008.log", "started_epoch": 1793828976.6879013, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json"}}], "errors": [{"case": {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F1_s0/1793816279463457396.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F1", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F1_s1/1793816280587433891.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F2_s0/1793816281708886419.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F2", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F2_s1/1793816282828059226.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F3_s0/1793816283954730421.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F3", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F3_s1/1793816285085612551.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F5_s0/1793816286216377810.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F5", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F5_s1/1793816287342135501.log"]}, {"case": {"strategy_id": "SP26_S046_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_004_SP26_S046_v01_F6_s0/1793816288466056228.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') |
+| V5-182 | SP26_S046_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
 | V5-183 | XZK26_S171_v01 | 已停止，需重启：用户停止文件：run/E20261105_006/STOP_USER.json; run/E20261105_006/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_006/STOP_USER.json; run/E20261105_006/STOP_USER.json |
 | V5-184 | XZK26_S173_v01 | 已停止，需重启：用户停止文件：run/E20261105_007/STOP_USER.json; run/E20261105_007/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_007/STOP_USER.json; run/E20261105_007/STOP_USER.json |
-| V5-185 | XZK26_S174_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
-| V5-186 | XZK26_S175_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
-| V5-187 | XZK26_S176_v01 | 评分中 | 5/10 | 3/10 | 盲评中 | 评分中 |
+| V5-185 | XZK26_S174_v01 | 已停止，需重启：用户停止文件：run/E20261105_008/STOP_USER.json; run/E20261105_008/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_008/STOP_USER.json; run/E20261105_008/STOP_USER.json |
+| V5-186 | XZK26_S175_v01 | 已停止，需重启：用户停止文件：run/E20261105_009/STOP_USER.json; run/E20261105_009/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_009/STOP_USER.json; run/E20261105_009/STOP_USER.json |
+| V5-187 | XZK26_S176_v01 | 已停止，需重启：用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json |
+| V5-188 | XZK26_S177_v01 | 生成中 | 3/10 | 3/10 | 盲评中 | 生成中 |
+| V5-189 | XZK26_S178_v01 | 生成中 | 3/10 | 2/10 | 盲评中 | 生成中 |
+| V5-190 | XZK26_S179_v01 | 生成中 | 3/10 | 1/10 | 盲评中 | 生成中 |
+| V5-191 | XZK26_S180_v01 | 已停止，需重启：未完成且没有活进程 | 0/10 | 0/10 | 盲评中 | 已停止，需重启：未完成且没有活进程 |
 
 </details>
 
@@ -490,6 +521,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`b34263223ed41b9ffbbd3e04a542afdb4cf025d136a996f8bbfba78149549afe`。
+采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`b17dbe8c585592a2929d33c99a50b10cf4473caaa86a2553c8129cd2ceaaa7f6`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
