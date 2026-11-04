@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-05T03:07:01+08:00（北京时间）**
+**采集时间：2026-11-05T03:22:07+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 208 个，独立归档 8 个；采集时进程记录 14 条（生成 4、评分 0）。
+登记策略 208 个，独立归档 8 个；采集时进程记录 11 条（生成 1、评分 1）。
 
 ## 当前轮次
 
@@ -63,28 +63,28 @@
 | E20261104_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-04T13:34:18.208188+08:00 |
 | E20261104_028 | 30/60 | 30/60 | 30/60 | 0/6 | 2026-11-05T02:01:27.790683+08:00 |
 | E20261104_029 | 10/20 | 10/20 | 10/20 | 0/2 | 2026-11-04T22:59:45.770886+08:00 |
-| E20261104_030 | 7/10 | 7/10 | 6/10 | 0/1 | 2026-11-05T03:05:13.109696+08:00 |
-| E20261104_031 | 20/20 | 20/20 | 20/20 | 1/2 | 2026-11-05T03:07:01.369561+08:00 |
+| E20261104_030 | 9/10 | 9/10 | 6/10 | 0/1 | 2026-11-05T03:18:26.596639+08:00 |
+| E20261104_031 | 20/20 | 20/20 | 20/20 | 2/2 | 2026-11-05T03:11:52.313548+08:00 |
 | E20261104_032 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T02:34:56.795528+08:00 |
-| E20261104_033 | 10/10 | 10/10 | 7/10 | 0/1 | 2026-11-05T03:02:23.549562+08:00 |
+| E20261104_033 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T03:19:21.983832+08:00 |
 | E20261104_034 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-04T21:49:52.149941+08:00 |
 | E20261104_035 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T03:02:52.532377+08:00 |
-| E20261104_036 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-05T03:06:03.031842+08:00 |
+| E20261104_036 | 10/10 | 10/10 | 9/10 | 0/1 | 2026-11-05T03:22:02.265069+08:00 |
 | E20261104_037 | 10/10 | 10/10 | 10/10 | 0/1 | 2026-11-05T02:53:41.698519+08:00 |
 | E20261104_038 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-04T23:22:24.655801+08:00 |
 | E20261104_039 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T02:34:50.378623+08:00 |
 | E20261104_040 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T00:20:41.671497+08:00 |
 | E20261104_206 | 30/30 | 30/30 | 30/30 | 3/3 | 2026-11-05T00:05:36.461636+08:00 |
 | E20261105_002 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T02:20:22.856290+08:00 |
-| E20261105_003 | 10/10 | 10/10 | 6/10 | 0/1 | 2026-11-05T03:04:29.389164+08:00 |
+| E20261105_003 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-05T03:21:53.041411+08:00 |
 | E20261105_004 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T02:23:16.787720+08:00 |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-05：预测 **81** 份，GREEN 81，RED 0，未盖章 0；实际评分 **82** 份（含已替代旧测量 0 份）；完整成绩单 **4** 份。
+2026-11-05：预测 **84** 份，GREEN 84，RED 0，未盖章 0；实际评分 **88** 份（含已替代旧测量 0 份）；完整成绩单 **6** 份。
 
-新成绩单：SP26_S036_v01、SP26_S039_v01、SP26_S041_v01、SP26_S044_v01。
+新成绩单：SP26_S036_v01、SP26_S037_v01、SP26_S039_v01、SP26_S040_v01、SP26_S041_v01、SP26_S044_v01。
 
 北京时间当日预测、印记与实际评分记录；保留已替代和停止分支，旧测量另注明。P正式包、连续值预检和分析不计入原生评分。
 
@@ -186,19 +186,19 @@
 
 - E20261104_029：已停止，需重启；用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json
 
-- E20261104_030：等待资源/下一轮：load1 199.6796875 exceeds 96; generation shared reservation: free 268125306880 minus reserve 30000000000 < 520000000000；load1 199.6796875 exceeds 96; generation shared reservation: free 268125306880 minus reserve 30000000000 < 520000000000
+- E20261104_030：等待资源/下一轮：load1 192.236328125 exceeds 96; generation shared reservation: free 248326299648 minus reserve 21000000000 < 520000000000；load1 192.236328125 exceeds 96; generation shared reservation: free 248326299648 minus reserve 21000000000 < 520000000000
 
-- E20261104_031：批次运行中
+- E20261104_031：成绩单与GREEN封存已齐
 
 - E20261104_032：成绩单与GREEN封存已齐
 
-- E20261104_033：等待资源/下一轮：load1 238.15869140625 exceeds 96; shared scoring slots 6 >= 6; generation shared reservation: free 266633932800 minus reserve 32000000000 < 520000000000；load1 238.15869140625 exceeds 96; shared scoring slots 6 >= 6; generation shared reservation: free 266633932800 minus reserve 32000000000 < 520000000000
+- E20261104_033：等待资源/下一轮：load1 209.77001953125 exceeds 96; generation shared reservation: free 248258445312 minus reserve 21000000000 < 520000000000；load1 209.77001953125 exceeds 96; generation shared reservation: free 248258445312 minus reserve 21000000000 < 520000000000
 
 - E20261104_034：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-04T21:49:50+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S027_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S027_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S027_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S027_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S027_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S027_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S027_v01", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261104_034_SP26_S027_v01_F1_s0/1793799577880408233.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
 - E20261104_035：成绩单与GREEN封存已齐
 
-- E20261104_036：等待资源/下一轮：load1 143.27685546875 exceeds 96；load1 143.27685546875 exceeds 96
+- E20261104_036：批次运行中
 
 - E20261104_037：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:53:41+08:00", "total": 10, "generated": 10, "green": 10, "scored": 10, "positions": [{"strategy_id": "SP26_S027_v02", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F1/seed0/attempt_2026-11-04T162053_0000_563a69f7", "stamp": "run/strategies/SP26_S027_v02/03_runs/F1/seed0/attempt_2026-11-04T162053_0000_563a69f7/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F1/seed1/attempt_2026-11-04T172249_0000_e8deaab0", "stamp": "run/strategies/SP26_S027_v02/03_runs/F1/seed1/attempt_2026-11-04T172249_0000_e8deaab0/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F2/seed0/attempt_2026-11-04T172249_0000_694a7ba6", "stamp": "run/strategies/SP26_S027_v02/03_runs/F2/seed0/attempt_2026-11-04T172249_0000_694a7ba6/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F2/seed1/attempt_2026-11-04T172249_0000_1e4a4dbe", "stamp": "run/strategies/SP26_S027_v02/03_runs/F2/seed1/attempt_2026-11-04T172249_0000_1e4a4dbe/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F3/seed0/attempt_2026-11-04T172249_0000_2d6d5c7e", "stamp": "run/strategies/SP26_S027_v02/03_runs/F3/seed0/attempt_2026-11-04T172249_0000_2d6d5c7e/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F3/seed1/attempt_2026-11-04T172249_0000_965ca5f3", "stamp": "run/strategies/SP26_S027_v02/03_runs/F3/seed1/attempt_2026-11-04T172249_0000_965ca5f3/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F5", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F5/seed0/attempt_2026-11-04T180623_0000_c6709836", "stamp": "run/strategies/SP26_S027_v02/03_runs/F5/seed0/attempt_2026-11-04T180623_0000_c6709836/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F5", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F5/seed1/attempt_2026-11-04T181750_0000_31e72ab8", "stamp": "run/strategies/SP26_S027_v02/03_runs/F5/seed1/attempt_2026-11-04T181750_0000_31e72ab8/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F6/seed0/attempt_2026-11-04T181748_0000_8ea2d370", "stamp": "run/strategies/SP26_S027_v02/03_runs/F6/seed0/attempt_2026-11-04T181748_0000_8ea2d370/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F6/seed1/attempt_2026-11-04T181749_0000_238b38a2", "stamp": "run/strategies/SP26_S027_v02/03_runs/F6/seed1/attempt_2026-11-04T181749_0000_238b38a2/STAMP.json", "verdict": "GREEN", "score_running": false}], "actions": [], "errors": [{"phase": "finalize", "reason": "Original finalizer ended without receipt", "logs": ["run/logs/round2_scorepush_finalize_E20261104_037/1793818071122644910.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
@@ -212,7 +212,7 @@
 
 - E20261105_002：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
-- E20261105_003：等待资源/下一轮：load1 207.041015625 exceeds 96；load1 207.041015625 exceeds 96
+- E20261105_003：批次运行中
 
 - E20261105_004：已停止，需重启；RuntimeError('existing executor failed rc=1; run/E20261105_004/run_to_completion_1793816595464385010_existing_executor.log')
 
@@ -227,20 +227,17 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S038_v01 F2/seed1 | generate | 4884 |
-| 生成 · SP26_S038_v01 F5/seed0 | generate | 3003 |
-| 生成 · SP26_S038_v01 F5/seed1 | generate | 3002 |
-| 生成 · SP26_S042_v01 F1/seed1 | generate | 2978 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 366305 |
-| 调度/收尾 · task_io_v1 | controller | 108595 |
-| 调度/收尾 · round2_source_audit_worker | controller | 108589 |
-| 调度/收尾 · task_io_v1 | controller | 32818 |
-| 调度/收尾 · task_io_v1 | controller | 23005 |
-| 调度/收尾 · task_io_v1 | controller | 18313 |
-| 调度/收尾 · task_io_v1 | controller | 8145 |
-| 调度/收尾 · task_io_v1 | controller | 1209 |
-| 调度/收尾 · task_io_v1 | controller | 349 |
-| 调度/收尾 · SP26_S037_v01 | controller | 76 |
+| 生成 · SP26_S038_v01 F2/seed1 | generate | 5790 |
+| 评分 · SP26_S043_v03 F1/seed1 | score | 752 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 367211 |
+| 调度/收尾 · task_io_v1 | controller | 109501 |
+| 调度/收尾 · round2_source_audit_worker | controller | 109495 |
+| 调度/收尾 · task_io_v1 | controller | 33724 |
+| 调度/收尾 · task_io_v1 | controller | 23911 |
+| 调度/收尾 · task_io_v1 | controller | 19219 |
+| 调度/收尾 · task_io_v1 | controller | 9050 |
+| 调度/收尾 · task_io_v1 | controller | 2115 |
+| 调度/收尾 · finalize_batch | controller | 174 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -445,23 +442,23 @@
 | V5-162 | DX26_S211_v01 | 已由 DX26_S211_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-172 |
 | V5-163 | DX26_S212_v01 | 已由 DX26_S212_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-173 |
 | V5-164 | DX26_S213_v01 | 已由 DX26_S213_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-174 |
-| V5-165 | SP26_S038_v01 | 生成中 | 7/10 | 6/10 | 盲评中 | 生成中 |
+| V5-165 | SP26_S038_v01 | 生成中 | 9/10 | 6/10 | 盲评中 | 生成中 |
 | V5-166 | SP26_S036_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209745 | 否决 |
-| V5-167 | SP26_S037_v01 | 运行中 | 10/10 | 10/10 | 盲评中 | 运行中 |
+| V5-167 | SP26_S037_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.193628 | 否决 |
 | V5-168 | SP26_S039_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.150202 | 否决 |
-| V5-169 | SP26_S040_v01 | 等待资源/下一轮：load1 238.15869140625 exceeds 96; shared scoring slots 6 >= 6; generation shared reservation: free 266633932800 minus reserve 32000000000 < 520000000000 | 10/10 | 7/10 | 盲评中 | 等待资源/下一轮：load1 238.15869140625 exceeds 96; shared scoring slots 6 >= 6; generation shared reservation: free 266633932800 minus reserve 32000000000 < 520000000000 |
+| V5-169 | SP26_S040_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.203988 | 否决 |
 | V5-170 | SP26_S027_v01 | 已由 SP26_S027_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-176 |
 | V5-171 | SP26_S041_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.144739 | 否决 |
 | V5-172 | DX26_S211_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.207055 | 否决 |
 | V5-173 | DX26_S212_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.207273 | 否决 |
 | V5-174 | DX26_S213_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.207470 | 否决 |
-| V5-175 | SP26_S042_v01 | 生成中 | 9/10 | 9/10 | 盲评中 | 生成中 |
+| V5-175 | SP26_S042_v01 | 批次运行中，等待本位置/原有出卡 | 10/10 | 9/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
 | V5-176 | SP26_S027_v02 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:53:41+08:00", "total": 10, "generated": 10, "green": 10, "scored": 10, "positions": [{"strategy_id": "SP26_S027_v02", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F1/seed0/attempt_2026-11-04T162053_0000_563a69f7", "stamp": "run/strategies/SP26_S027_v02/03_runs/F1/seed0/attempt_2026-11-04T162053_0000_563a69f7/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F1/seed1/attempt_2026-11-04T172249_0000_e8deaab0", "stamp": "run/strategies/SP26_S027_v02/03_runs/F1/seed1/attempt_2026-11-04T172249_0000_e8deaab0/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F2/seed0/attempt_2026-11-04T172249_0000_694a7ba6", "stamp": "run/strategies/SP26_S027_v02/03_runs/F2/seed0/attempt_2026-11-04T172249_0000_694a7ba6/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F2/seed1/attempt_2026-11-04T172249_0000_1e4a4dbe", "stamp": "run/strategies/SP26_S027_v02/03_runs/F2/seed1/attempt_2026-11-04T172249_0000_1e4a4dbe/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F3/seed0/attempt_2026-11-04T172249_0000_2d6d5c7e", "stamp": "run/strategies/SP26_S027_v02/03_runs/F3/seed0/attempt_2026-11-04T172249_0000_2d6d5c7e/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F3/seed1/attempt_2026-11-04T172249_0000_965ca5f3", "stamp": "run/strategies/SP26_S027_v02/03_runs/F3/seed1/attempt_2026-11-04T172249_0000_965ca5f3/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F5", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F5/seed0/attempt_2026-11-04T180623_0000_c6709836", "stamp": "run/strategies/SP26_S027_v02/03_runs/F5/seed0/attempt_2026-11-04T180623_0000_c6709836/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F5", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F5/seed1/attempt_2026-11-04T181750_0000_31e72ab8", "stamp": "run/strategies/SP26_S027_v02/03_runs/F5/seed1/attempt_2026-11-04T181750_0000_31e72ab8/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F6/seed0/attempt_2026-11-04T181748_0000_8ea2d370", "stamp": "run/strategies/SP26_S027_v02/03_runs/F6/seed0/attempt_2026-11-04T181748_0000_8ea2d370/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F6/seed1/attempt_2026-11-04T181749_0000_238b38a2", "stamp": "run/strategies/SP26_S027_v02/03_runs/F6/seed1/attempt_2026-11-04T181749_0000_238b38a2/STAMP.json", "verdict": "GREEN", "score_running": false}], "actions": [], "errors": [{"phase": "finalize", "reason": "Original finalizer ended without receipt", "logs": ["run/logs/round2_scorepush_finalize_E20261104_037/1793818071122644910.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') | 10/10 | 10/10 | 盲评中 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:53:41+08:00", "total": 10, "generated": 10, "green": 10, "scored": 10, "positions": [{"strategy_id": "SP26_S027_v02", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F1/seed0/attempt_2026-11-04T162053_0000_563a69f7", "stamp": "run/strategies/SP26_S027_v02/03_runs/F1/seed0/attempt_2026-11-04T162053_0000_563a69f7/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F1/seed1/attempt_2026-11-04T172249_0000_e8deaab0", "stamp": "run/strategies/SP26_S027_v02/03_runs/F1/seed1/attempt_2026-11-04T172249_0000_e8deaab0/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F2/seed0/attempt_2026-11-04T172249_0000_694a7ba6", "stamp": "run/strategies/SP26_S027_v02/03_runs/F2/seed0/attempt_2026-11-04T172249_0000_694a7ba6/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F2/seed1/attempt_2026-11-04T172249_0000_1e4a4dbe", "stamp": "run/strategies/SP26_S027_v02/03_runs/F2/seed1/attempt_2026-11-04T172249_0000_1e4a4dbe/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F3/seed0/attempt_2026-11-04T172249_0000_2d6d5c7e", "stamp": "run/strategies/SP26_S027_v02/03_runs/F3/seed0/attempt_2026-11-04T172249_0000_2d6d5c7e/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F3/seed1/attempt_2026-11-04T172249_0000_965ca5f3", "stamp": "run/strategies/SP26_S027_v02/03_runs/F3/seed1/attempt_2026-11-04T172249_0000_965ca5f3/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F5", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F5/seed0/attempt_2026-11-04T180623_0000_c6709836", "stamp": "run/strategies/SP26_S027_v02/03_runs/F5/seed0/attempt_2026-11-04T180623_0000_c6709836/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F5", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F5/seed1/attempt_2026-11-04T181750_0000_31e72ab8", "stamp": "run/strategies/SP26_S027_v02/03_runs/F5/seed1/attempt_2026-11-04T181750_0000_31e72ab8/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F6/seed0/attempt_2026-11-04T181748_0000_8ea2d370", "stamp": "run/strategies/SP26_S027_v02/03_runs/F6/seed0/attempt_2026-11-04T181748_0000_8ea2d370/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S027_v02", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S027_v02/03_runs/F6/seed1/attempt_2026-11-04T181749_0000_238b38a2", "stamp": "run/strategies/SP26_S027_v02/03_runs/F6/seed1/attempt_2026-11-04T181749_0000_238b38a2/STAMP.json", "verdict": "GREEN", "score_running": false}], "actions": [], "errors": [{"phase": "finalize", "reason": "Original finalizer ended without receipt", "logs": ["run/logs/round2_scorepush_finalize_E20261104_037/1793818071122644910.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') |
 | V5-177 | SP26_S043_v01 | 已由 SP26_S043_v03 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-181 |
 | V5-178 | SP26_S044_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.041135 | 否决 |
 | V5-179 | SP26_S043_v02 | 已由 SP26_S043_v03 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-181 |
 | V5-180 | SP26_S045_v01 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') | 0/10 | 0/10 | 盲评中 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') |
-| V5-181 | SP26_S043_v03 | 等待资源/下一轮：load1 207.041015625 exceeds 96 | 10/10 | 6/10 | 盲评中 | 等待资源/下一轮：load1 207.041015625 exceeds 96 |
+| V5-181 | SP26_S043_v03 | 评分中 | 10/10 | 8/10 | 盲评中 | 评分中 |
 | V5-182 | SP26_S046_v01 | 已停止，需重启：RuntimeError('existing executor failed rc=1; run/E20261105_004/run_to_completion_1793816595464385010_existing_executor.log') | 0/10 | 0/10 | 盲评中 | 已停止，需重启：RuntimeError('existing executor failed rc=1; run/E20261105_004/run_to_completion_1793816595464385010_existing_executor.log') |
 
 </details>
@@ -478,6 +475,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`47478e9b5ba0c2582bae406d3b942bbaae2f049d2bd376fd4c6573f41a4b58c6`。
+采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`feaf31ce4edc47106baac1215613fa24e6eea53a94a97dc57f92b75e641dea07`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
