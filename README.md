@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-05T07:22:09+08:00（北京时间）**
+**采集时间：2026-11-05T07:37:08+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 225 个，独立归档 8 个；采集时进程记录 18 条（生成 4、评分 6）。
+登记策略 225 个，独立归档 8 个；采集时进程记录 19 条（生成 8、评分 3）。
 
 ## 当前轮次
 
@@ -77,7 +77,7 @@
 | E20261104_206 | 30/30 | 30/30 | 30/30 | 3/3 | 2026-11-05T00:05:36.461636+08:00 |
 | E20261105_002 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T02:20:22.856290+08:00 |
 | E20261105_003 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T03:34:51.236562+08:00 |
-| E20261105_004 | 6/10 | 6/10 | 6/10 | 0/1 | 2026-11-05T07:22:11.905099+08:00 |
+| E20261105_004 | 6/10 | 6/10 | 6/10 | 0/1 | 2026-11-05T07:37:11.997140+08:00 |
 | E20261105_006 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T04:39:48.247440+08:00 |
 | E20261105_007 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:17:52.034676+08:00 |
 | E20261105_008 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:58:00.216369+08:00 |
@@ -88,18 +88,18 @@
 | E20261105_013 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T06:39:21.728330+08:00 |
 | E20261105_014 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T06:55:31.619194+08:00 |
 | E20261105_015 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T07:17:44.761207+08:00 |
-| E20261105_016 | 5/10 | 5/10 | 4/10 | 0/1 | 2026-11-05T07:22:08.248778+08:00 |
-| E20261105_017 | 5/10 | 5/10 | 4/10 | 0/1 | 2026-11-05T07:21:31.040044+08:00 |
-| E20261105_018 | 5/10 | 5/10 | 2/10 | 0/1 | 2026-11-05T07:21:56.217431+08:00 |
-| E20261105_501 | 5/10 | 5/10 | 1/10 | 0/1 | 2026-11-05T07:22:20.647196+08:00 |
-| E20261105_502 | 1/10 | 1/10 | 0/10 | 0/1 | 2026-11-05T07:22:02.130478+08:00 |
-| E20261105_503 | 1/10 | 1/10 | 0/10 | 0/1 | 2026-11-05T07:22:06.163350+08:00 |
-| E20261105_504 | 0/10 | 0/10 | 0/10 | 0/1 | — |
+| E20261105_016 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T07:36:51.785087+08:00 |
+| E20261105_017 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T07:28:41.713225+08:00 |
+| E20261105_018 | 5/10 | 5/10 | 4/10 | 0/1 | 2026-11-05T07:37:18.408010+08:00 |
+| E20261105_501 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T07:36:50.763994+08:00 |
+| E20261105_502 | 3/10 | 3/10 | 1/10 | 0/1 | 2026-11-05T07:37:20.550189+08:00 |
+| E20261105_503 | 3/10 | 3/10 | 1/10 | 0/1 | 2026-11-05T07:37:04.510021+08:00 |
+| E20261105_504 | 1/10 | 1/10 | 1/10 | 0/1 | 2026-11-05T07:36:52.426121+08:00 |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-05：预测 **163** 份，GREEN 163，RED 0，未盖章 0；实际评分 **161** 份（含已替代旧测量 0 份）；完整成绩单 **10** 份。
+2026-11-05：预测 **168** 份，GREEN 168，RED 0，未盖章 0；实际评分 **170** 份（含已替代旧测量 0 份）；完整成绩单 **10** 份。
 
 新成绩单：SP26_S027_v02、SP26_S036_v01、SP26_S037_v01、SP26_S038_v01、SP26_S039_v01、SP26_S040_v01、SP26_S041_v01、SP26_S042_v01、SP26_S043_v03、SP26_S044_v01。
 
@@ -253,19 +253,19 @@
 
 - E20261105_015：已停止，需重启；用户停止文件：run/E20261105_015/STOP_USER.json; run/E20261105_015/STOP_USER.json
 
-- E20261105_016：等待资源/下一轮：existing batch workers/finalizer active: [3319548]；existing batch workers/finalizer active: [3319548]
+- E20261105_016：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
 
-- E20261105_017：等待资源/下一轮：existing batch workers/finalizer active: [3318937]；existing batch workers/finalizer active: [3318937]
+- E20261105_017：已停止，需重启；用户停止文件：run/E20261105_017/STOP_USER.json; run/E20261105_017/STOP_USER.json
 
-- E20261105_018：等待资源/下一轮：existing batch workers/finalizer active: [3319170, 3319180]；existing batch workers/finalizer active: [3319170, 3319180]
+- E20261105_018：批次运行中
 
-- E20261105_501：批次运行中
+- E20261105_501：等待资源/下一轮：existing batch workers/finalizer active: [3327725, 3327729]；existing batch workers/finalizer active: [3327725, 3327729]
 
-- E20261105_502：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
+- E20261105_502：等待资源/下一轮：existing batch workers/finalizer active: [3327714, 3327753]；existing batch workers/finalizer active: [3327714, 3327753]
 
-- E20261105_503：批次运行中
+- E20261105_503：等待资源/下一轮：existing batch workers/finalizer active: [3328496, 3330035]；existing batch workers/finalizer active: [3328496, 3330035]
 
-- E20261105_504：已停止，需重启；未完成且没有活进程
+- E20261105_504：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
 
 - public_repo_trials_E20261103_034：已停止，需重启；未完成且没有活进程
 
@@ -278,24 +278,25 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S046_v01 F1/seed0 | generate | 4615 |
-| 生成 · SP26_S046_v01 F1/seed1 | generate | 4615 |
-| 生成 · SP26_S046_v01 F2/seed0 | generate | 4615 |
-| 生成 · SP26_S046_v01 F2/seed1 | generate | 4615 |
-| 评分 · XZK26_S183_v01 F2/seed1 | score | 243 |
-| 评分 · XZK26_S185_v01 F2/seed0 | score | 229 |
-| 评分 · XZK26_S185_v01 F2/seed1 | score | 229 |
-| 评分 · XZK26_S184_v01 F1/seed0 | score | 222 |
-| 评分 · XZK26_S184_v01 F2/seed1 | score | 222 |
-| 评分 · XZK26_S182_v01 F1/seed1 | score | 199 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 381615 |
-| 调度/收尾 · task_io_v1 | controller | 4633 |
-| 调度/收尾 · task_io_v1 | controller | 2184 |
-| 调度/收尾 · task_io_v1 | controller | 2036 |
-| 调度/收尾 · task_io_v1 | controller | 1900 |
-| 调度/收尾 · task_io_v1 | controller | 1047 |
-| 调度/收尾 · task_io_v1 | controller | 260 |
-| 调度/收尾 · task_io_v1 | controller | 155 |
+| 生成 · SP26_S046_v01 F1/seed0 | generate | 5514 |
+| 生成 · SP26_S046_v01 F1/seed1 | generate | 5514 |
+| 生成 · SP26_S046_v01 F2/seed0 | generate | 5514 |
+| 生成 · SP26_S046_v01 F2/seed1 | generate | 5514 |
+| 生成 · XZK26_S186_v01 F1/seed0 | generate | 509 |
+| 生成 · XZK26_S186_v01 F1/seed1 | generate | 507 |
+| 生成 · XZK26_S187_v01 F1/seed0 | generate | 469 |
+| 生成 · XZK26_S187_v01 F1/seed1 | generate | 376 |
+| 评分 · XZK26_S185_v01 F1/seed0 | score | 508 |
+| 评分 · XZK26_S185_v01 F1/seed1 | score | 508 |
+| 评分 · XZK26_S184_v01 F1/seed1 | score | 451 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 382514 |
+| 调度/收尾 · task_io_v1 | controller | 5532 |
+| 调度/收尾 · task_io_v1 | controller | 3083 |
+| 调度/收尾 · task_io_v1 | controller | 2799 |
+| 调度/收尾 · task_io_v1 | controller | 1946 |
+| 调度/收尾 · task_io_v1 | controller | 1159 |
+| 调度/收尾 · task_io_v1 | controller | 1054 |
+| 调度/收尾 · task_io_v1 | controller | 895 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -528,13 +529,13 @@
 | V5-190 | XZK26_S179_v01 | 已停止，需重启：用户停止文件：run/E20261105_013/STOP_USER.json; run/E20261105_013/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_013/STOP_USER.json; run/E20261105_013/STOP_USER.json |
 | V5-191 | XZK26_S180_v01 | 已停止，需重启：用户停止文件：run/E20261105_014/STOP_USER.json; run/E20261105_014/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_014/STOP_USER.json; run/E20261105_014/STOP_USER.json |
 | V5-192 | XZK26_S181_v01 | 已停止，需重启：用户停止文件：run/E20261105_015/STOP_USER.json; run/E20261105_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_015/STOP_USER.json; run/E20261105_015/STOP_USER.json |
-| V5-193 | XZK26_S182_v01 | 评分中 | 5/10 | 4/10 | 盲评中 | 评分中 |
-| V5-194 | XZK26_S183_v01 | 评分中 | 5/10 | 4/10 | 盲评中 | 评分中 |
-| V5-195 | XZK26_S184_v01 | 评分中 | 5/10 | 2/10 | 盲评中 | 评分中 |
-| V5-196 | XZK26_S185_v01 | 评分中 | 5/10 | 1/10 | 盲评中 | 评分中 |
-| V5-197 | XZK26_S186_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 1/10 | 0/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
-| V5-198 | XZK26_S187_v01 | 批次运行中，等待本位置/原有出卡 | 1/10 | 0/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
-| V5-199 | XZK26_S188_v01 | 已停止，需重启：未完成且没有活进程 | 0/10 | 0/10 | 盲评中 | 已停止，需重启：未完成且没有活进程 |
+| V5-193 | XZK26_S182_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
+| V5-194 | XZK26_S183_v01 | 已停止，需重启：用户停止文件：run/E20261105_017/STOP_USER.json; run/E20261105_017/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_017/STOP_USER.json; run/E20261105_017/STOP_USER.json |
+| V5-195 | XZK26_S184_v01 | 评分中 | 5/10 | 4/10 | 盲评中 | 评分中 |
+| V5-196 | XZK26_S185_v01 | 评分中 | 5/10 | 3/10 | 盲评中 | 评分中 |
+| V5-197 | XZK26_S186_v01 | 生成中 | 3/10 | 1/10 | 盲评中 | 生成中 |
+| V5-198 | XZK26_S187_v01 | 生成中 | 3/10 | 1/10 | 盲评中 | 生成中 |
+| V5-199 | XZK26_S188_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 1/10 | 1/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
 
 </details>
 
@@ -550,6 +551,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`0a7f214369c3200d242db8162e393cb29cc562cff06188dcc22d32542555ea77`。
+采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`15c390633faa5d6b00ba1c01dee591b926869d99921783344136a740b6c1d82e`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
