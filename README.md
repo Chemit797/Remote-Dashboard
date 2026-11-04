@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T20:06:58+08:00（北京时间）**
+**采集时间：2026-11-04T20:22:00+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 193 个，独立归档 8 个；采集时进程记录 20 条（生成 6、评分 0）。
+登记策略 193 个，独立归档 8 个；采集时进程记录 21 条（生成 6、评分 1）。
 
 ## 当前轮次
 
@@ -26,7 +26,7 @@
 
 ## 今日新增与核对（北京时间）
 
-2026-11-04：预测 **382** 份，GREEN 379，RED 2，未盖章 3；实际评分 **376** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
+2026-11-04：预测 **383** 份，GREEN 380，RED 2，未盖章 3；实际评分 **376** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
 
 新成绩单：PR26_C05_v01、PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、SP26_S025_v01、SP26_S026_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01、XZK26_S161_v01、XZK26_S162_v01。
 
@@ -59,26 +59,27 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S038_v01 F1/seed0 | generate | 6072 |
-| 生成 · SP26_S038_v01 F1/seed1 | generate | 6071 |
-| 生成 · XZK26_S169_v01 F1/seed0 | generate | 4439 |
-| 生成 · XZK26_S170_v01 F1/seed0 | generate | 4060 |
-| 生成 · XZK26_S169_v01 F1/seed1 | generate | 2448 |
-| 生成 · XZK26_S167_v01 F1/seed0 | generate | 2055 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 341100 |
-| 调度/收尾 · task_io_v1 | controller | 83390 |
-| 调度/收尾 · round2_source_audit_worker | controller | 83384 |
-| 调度/收尾 · round2_source_audit_worker | controller | 23435 |
-| 调度/收尾 · round2_source_audit_worker | controller | 21688 |
-| 调度/收尾 · round2_source_audit_worker | controller | 17957 |
-| 调度/收尾 · round2_source_audit_worker | controller | 13178 |
-| 调度/收尾 · round2_source_audit_worker | controller | 10891 |
-| 调度/收尾 · task_io_v1 | controller | 10081 |
-| 调度/收尾 · task_io_v1 | controller | 7613 |
-| 调度/收尾 · task_io_v1 | controller | 3449 |
-| 调度/收尾 · round2_source_audit_worker | controller | 1731 |
-| 调度/收尾 · round2_source_audit_worker | controller | 734 |
-| 调度/收尾 · task_io_v1 | controller | 532 |
+| 生成 · SP26_S038_v01 F1/seed0 | generate | 6975 |
+| 生成 · SP26_S038_v01 F1/seed1 | generate | 6975 |
+| 生成 · XZK26_S169_v01 F1/seed0 | generate | 5343 |
+| 生成 · XZK26_S170_v01 F1/seed0 | generate | 4964 |
+| 生成 · XZK26_S169_v01 F1/seed1 | generate | 3352 |
+| 生成 · XZK26_S170_v01 F1/seed1 | generate | 136 |
+| 评分 · XZK26_S167_v01 F1/seed0 | score | 4 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 342004 |
+| 调度/收尾 · task_io_v1 | controller | 84294 |
+| 调度/收尾 · round2_source_audit_worker | controller | 84288 |
+| 调度/收尾 · round2_source_audit_worker | controller | 24339 |
+| 调度/收尾 · round2_source_audit_worker | controller | 22592 |
+| 调度/收尾 · round2_source_audit_worker | controller | 18861 |
+| 调度/收尾 · round2_source_audit_worker | controller | 14081 |
+| 调度/收尾 · round2_source_audit_worker | controller | 11795 |
+| 调度/收尾 · task_io_v1 | controller | 10985 |
+| 调度/收尾 · task_io_v1 | controller | 8517 |
+| 调度/收尾 · task_io_v1 | controller | 4353 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1638 |
+| 调度/收尾 · task_io_v1 | controller | 1436 |
+| 调度/收尾 · round2_source_audit_worker | controller | 92 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -276,7 +277,7 @@
 | V5-155 | XZK26_S164_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-156 | XZK26_S165_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-157 | XZK26_S166_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-158 | XZK26_S167_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
+| V5-158 | XZK26_S167_v01 | 评分中 | 3/10 | 2/10 | 盲评中 | 评分中 |
 | V5-159 | XZK26_S168_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-160 | XZK26_S169_v01 | 生成中 | 3/10 | 3/10 | 盲评中 | 生成中 |
 | V5-161 | XZK26_S170_v01 | 生成中 | 3/10 | 3/10 | 盲评中 | 生成中 |
@@ -301,6 +302,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`1014faccfcbcc6cf2b272345580383a8b2b88399d72659217ede082850afe9b7`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`b664df88a6a55c9fecf7cabd9f67f942531b9aa2f6079bf7094a4ea536c7153c`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
