@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T22:36:58+08:00（北京时间）**
+**采集时间：2026-11-04T22:51:58+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 202 个，独立归档 8 个；采集时进程记录 24 条（生成 11、评分 0）。
+登记策略 202 个，独立归档 8 个；采集时进程记录 22 条（生成 9、评分 0）。
 
 ## 当前轮次
 
@@ -26,7 +26,7 @@
 
 ## 今日新增与核对（北京时间）
 
-2026-11-04：预测 **434** 份，GREEN 431，RED 2，未盖章 3；实际评分 **418** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
+2026-11-04：预测 **436** 份，GREEN 433，RED 2，未盖章 3；实际评分 **419** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
 
 新成绩单：PR26_C05_v01、PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、SP26_S025_v01、SP26_S026_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01、XZK26_S161_v01、XZK26_S162_v01。
 
@@ -59,30 +59,28 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S036_v01 F1/seed0 | generate | 6763 |
-| 生成 · SP26_S036_v01 F1/seed1 | generate | 4922 |
-| 生成 · SP26_S036_v01 F2/seed0 | generate | 10 |
-| 生成 · SP26_S036_v01 F2/seed1 | generate | 10 |
-| 生成 · SP26_S036_v01 F3/seed0 | generate | 10 |
-| 生成 · SP26_S036_v01 F3/seed1 | generate | 10 |
-| 生成 · SP26_S036_v01 F5/seed0 | generate | 10 |
-| 生成 · SP26_S036_v01 F5/seed1 | generate | 10 |
-| 生成 · SP26_S036_v01 F6/seed0 | generate | 9 |
-| 生成 · SP26_S036_v01 F6/seed1 | generate | 9 |
-| 生成 · SP26_S037_v01 F1/seed0 | generate | 9 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 350103 |
-| 调度/收尾 · task_io_v1 | controller | 92393 |
-| 调度/收尾 · round2_source_audit_worker | controller | 92386 |
-| 调度/收尾 · task_io_v1 | controller | 16616 |
-| 调度/收尾 · task_io_v1 | controller | 9534 |
-| 调度/收尾 · task_io_v1 | controller | 7514 |
-| 调度/收尾 · task_io_v1 | controller | 6803 |
-| 调度/收尾 · task_io_v1 | controller | 6417 |
-| 调度/收尾 · task_io_v1 | controller | 6417 |
-| 调度/收尾 · task_io_v1 | controller | 3677 |
-| 调度/收尾 · task_io_v1 | controller | 3438 |
-| 调度/收尾 · task_io_v1 | controller | 2110 |
-| 调度/收尾 · task_io_v1 | controller | 417 |
+| 生成 · SP26_S036_v01 F1/seed0 | generate | 7662 |
+| 生成 · SP26_S036_v01 F1/seed1 | generate | 5821 |
+| 生成 · SP26_S036_v01 F2/seed0 | generate | 909 |
+| 生成 · SP26_S036_v01 F2/seed1 | generate | 909 |
+| 生成 · SP26_S036_v01 F3/seed0 | generate | 909 |
+| 生成 · SP26_S036_v01 F3/seed1 | generate | 909 |
+| 生成 · SP26_S036_v01 F5/seed0 | generate | 909 |
+| 生成 · SP26_S036_v01 F5/seed1 | generate | 909 |
+| 生成 · SP26_S037_v01 F1/seed0 | generate | 909 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 351002 |
+| 调度/收尾 · task_io_v1 | controller | 93292 |
+| 调度/收尾 · round2_source_audit_worker | controller | 93286 |
+| 调度/收尾 · task_io_v1 | controller | 17515 |
+| 调度/收尾 · task_io_v1 | controller | 10434 |
+| 调度/收尾 · task_io_v1 | controller | 8414 |
+| 调度/收尾 · task_io_v1 | controller | 7702 |
+| 调度/收尾 · task_io_v1 | controller | 7316 |
+| 调度/收尾 · task_io_v1 | controller | 7316 |
+| 调度/收尾 · task_io_v1 | controller | 4576 |
+| 调度/收尾 · task_io_v1 | controller | 4338 |
+| 调度/收尾 · task_io_v1 | controller | 3010 |
+| 调度/收尾 · task_io_v1 | controller | 816 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -283,12 +281,12 @@
 | V5-158 | XZK26_S167_v01 | 待派发（当前无活进程） | 5/10 | 5/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-159 | XZK26_S168_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-160 | XZK26_S169_v01 | 待派发（当前无活进程） | 5/10 | 5/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-161 | XZK26_S170_v01 | 待派发（当前无活进程） | 5/10 | 4/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-161 | XZK26_S170_v01 | 待派发（当前无活进程） | 5/10 | 5/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-162 | DX26_S211_v01 | 已由 DX26_S211_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-172 |
 | V5-163 | DX26_S212_v01 | 已由 DX26_S212_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-173 |
 | V5-164 | DX26_S213_v01 | 已由 DX26_S213_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-174 |
 | V5-165 | SP26_S038_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-166 | SP26_S036_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
+| V5-166 | SP26_S036_v01 | 生成中 | 2/10 | 0/10 | 盲评中 | 生成中 |
 | V5-167 | SP26_S037_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
 | V5-168 | SP26_S039_v01 | 待派发（当前无活进程） | 7/10 | 5/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-169 | SP26_S040_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
@@ -314,6 +312,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`c65cd4979a374fccf8555b7690045c0c62d5692916e8b63bfa7b03947d0c957e`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`751b28b935d1c96147d1c9242bce8f70881305decabb908c4c198d7c0b2ee9e2`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
