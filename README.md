@@ -1,6 +1,6 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T17:22:57+08:00（北京时间）**
+**采集时间：2026-11-04T17:36:54+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
@@ -26,7 +26,7 @@
 
 ## 今日新增与核对（北京时间）
 
-2026-11-04：预测 **366** 份，GREEN 364，RED 1，未盖章 3；实际评分 **361** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
+2026-11-04：预测 **368** 份，GREEN 366，RED 1，未盖章 3；实际评分 **363** 份（含已替代旧测量 7 份）；完整成绩单 **22** 份。
 
 新成绩单：PR26_C05_v01、PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、SP26_S025_v01、SP26_S026_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01、XZK26_S161_v01、XZK26_S162_v01。
 
@@ -59,25 +59,25 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · XZK26_S165_v01 F6/seed0 | generate | 25 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 331259 |
-| 调度/收尾 · task_io_v1 | controller | 73549 |
-| 调度/收尾 · round2_source_audit_worker | controller | 73542 |
-| 调度/收尾 · round2_source_audit_worker | controller | 18615 |
-| 调度/收尾 · round2_source_audit_worker | controller | 18192 |
-| 调度/收尾 · round2_source_audit_worker | controller | 16027 |
-| 调度/收尾 · round2_source_audit_worker | controller | 14997 |
-| 调度/收尾 · round2_source_audit_worker | controller | 13593 |
-| 调度/收尾 · round2_source_audit_worker | controller | 11846 |
-| 调度/收尾 · round2_source_audit_worker | controller | 8115 |
-| 调度/收尾 · round2_source_audit_worker | controller | 5791 |
-| 调度/收尾 · round2_source_audit_worker | controller | 3336 |
-| 调度/收尾 · task_io_v1 | controller | 1805 |
-| 调度/收尾 · task_io_v1 | controller | 1370 |
-| 调度/收尾 · round2_source_audit_worker | controller | 1049 |
-| 调度/收尾 · round2_source_audit_worker | controller | 1048 |
-| 调度/收尾 · round2_source_audit_worker | controller | 1025 |
-| 调度/收尾 · task_io_v1 | controller | 239 |
+| 生成 · XZK26_S167_v01 F6/seed0 | generate | 205 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 332101 |
+| 调度/收尾 · task_io_v1 | controller | 74391 |
+| 调度/收尾 · round2_source_audit_worker | controller | 74385 |
+| 调度/收尾 · round2_source_audit_worker | controller | 19458 |
+| 调度/收尾 · round2_source_audit_worker | controller | 19034 |
+| 调度/收尾 · round2_source_audit_worker | controller | 16869 |
+| 调度/收尾 · round2_source_audit_worker | controller | 15839 |
+| 调度/收尾 · round2_source_audit_worker | controller | 14436 |
+| 调度/收尾 · round2_source_audit_worker | controller | 12689 |
+| 调度/收尾 · round2_source_audit_worker | controller | 8958 |
+| 调度/收尾 · round2_source_audit_worker | controller | 6634 |
+| 调度/收尾 · round2_source_audit_worker | controller | 4178 |
+| 调度/收尾 · task_io_v1 | controller | 2213 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1892 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1867 |
+| 调度/收尾 · task_io_v1 | controller | 1082 |
+| 调度/收尾 · round2_source_audit_worker | controller | 836 |
+| 调度/收尾 · task_io_v1 | controller | 803 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -273,9 +273,9 @@
 | V5-153 | SP26_S026_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.178207 | 否决 |
 | V5-154 | XZK26_S163_v01 | 待派发（当前无活进程） | 2/10 | 2/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-155 | XZK26_S164_v01 | 待派发（当前无活进程） | 1/10 | 1/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-156 | XZK26_S165_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
-| V5-157 | XZK26_S166_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-158 | XZK26_S167_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-156 | XZK26_S165_v01 | 待派发（当前无活进程） | 1/10 | 1/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-157 | XZK26_S166_v01 | 待派发（当前无活进程） | 1/10 | 1/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-158 | XZK26_S167_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
 | V5-159 | XZK26_S168_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-160 | XZK26_S169_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-161 | XZK26_S170_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
@@ -297,6 +297,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`f0cc792038e24bb1a85763e0b245e7eadfa82311bcda768897342a22c0960eaf`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`34020af098aabce2bcf81eb47ac25d9b34526186ad01c57f2b1263fbf8957337`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
