@@ -1,6 +1,6 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T13:51:46+08:00（北京时间）**
+**采集时间：2026-11-04T14:06:48+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
@@ -22,7 +22,7 @@
 | public_repo_trials_E20261103_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:18:06.542686+08:00 |
 | public_repo_trials_E20261103_029 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:39:43.710699+08:00 |
 | public_repo_trials_E20261103_036 | 20/20 | 20/20 | 20/20 | 2/2 | 2026-11-04T00:32:05.404957+08:00 |
-| public_repo_trials_E20261103_038 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-04T13:47:23.445253+08:00 |
+| public_repo_trials_E20261103_038 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-04T14:03:35.804752+08:00 |
 
 ## 今日新增与核对（北京时间）
 
@@ -48,7 +48,7 @@
 
 - public_repo_trials_E20261103_036：成绩单与GREEN封存已齐
 
-- public_repo_trials_E20261103_038：等待资源/下一轮：free 416482025472 bytes below existing launch floor 520000000000; generation shared reservation: free 416482025472 minus reserve 29000000000 < 520000000000；free 416482025472 bytes below existing launch floor 520000000000; generation shared reservation: free 416482025472 minus reserve 29000000000 < 520000000000
+- public_repo_trials_E20261103_038：等待资源/下一轮：free 354572906496 bytes below existing launch floor 520000000000; generation shared reservation: free 354572906496 minus reserve 32000000000 < 520000000000；free 354572906496 bytes below existing launch floor 520000000000; generation shared reservation: free 354572906496 minus reserve 32000000000 < 520000000000
 
 ## 今日实验、预检与分析记录
 
@@ -59,16 +59,16 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 管线状态刷新 · board_refresh_resource_v4 | status | 318589 |
-| 调度/收尾 · task_io_v1 | controller | 60879 |
-| 调度/收尾 · round2_source_audit_worker | controller | 60873 |
-| 调度/收尾 · task_io_v1 | controller | 55513 |
-| 调度/收尾 · round2_source_audit_worker | controller | 5946 |
-| 调度/收尾 · round2_source_audit_worker | controller | 5522 |
-| 调度/收尾 · round2_source_audit_worker | controller | 3358 |
-| 调度/收尾 · round2_source_audit_worker | controller | 2327 |
-| 调度/收尾 · task_io_v1 | controller | 1545 |
-| 调度/收尾 · round2_source_audit_worker | controller | 924 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 319494 |
+| 调度/收尾 · task_io_v1 | controller | 61784 |
+| 调度/收尾 · round2_source_audit_worker | controller | 61778 |
+| 调度/收尾 · task_io_v1 | controller | 56418 |
+| 调度/收尾 · round2_source_audit_worker | controller | 6851 |
+| 调度/收尾 · round2_source_audit_worker | controller | 6427 |
+| 调度/收尾 · round2_source_audit_worker | controller | 4263 |
+| 调度/收尾 · round2_source_audit_worker | controller | 3233 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1829 |
+| 调度/收尾 · round2_source_audit_worker | controller | 82 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -198,7 +198,7 @@
 | V5-87 | XZK26_S115_v01 | 待派发（当前无活进程） | 4/10 | 4/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-88 | PR26_C10_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209783 | 不确定 |
 | V5-89 | PR26_C11_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210191 | 不确定 |
-| V5-90 | PR26_C05_v01 | 等待资源/下一轮：free 416482025472 bytes below existing launch floor 520000000000; generation shared reservation: free 416482025472 minus reserve 29000000000 < 520000000000 | 9/10 | 9/10 | 盲评中 | 等待资源/下一轮：free 416482025472 bytes below existing launch floor 520000000000; generation shared reservation: free 416482025472 minus reserve 29000000000 < 520000000000 |
+| V5-90 | PR26_C05_v01 | 等待资源/下一轮：free 354572906496 bytes below existing launch floor 520000000000; generation shared reservation: free 354572906496 minus reserve 32000000000 < 520000000000 | 9/10 | 9/10 | 盲评中 | 等待资源/下一轮：free 354572906496 bytes below existing launch floor 520000000000; generation shared reservation: free 354572906496 minus reserve 32000000000 < 520000000000 |
 | V5-91 | XZK26_S116_v01 | 已由 XZK26_S116_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-95 |
 | V5-92 | XZK26_S117_v01 | 已由 XZK26_S117_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-96 |
 | V5-93 | XZK26_S118_v01 | 已由 XZK26_S118_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-97 |
@@ -277,6 +277,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`59cc5745bea55a1aaeba07c1505647de2013651165a73a3ae103f7d68a36389b`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`a9866875e0866881e75fb19f89f42d7303436f5a745befeca778cb35c7e42d5d`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
