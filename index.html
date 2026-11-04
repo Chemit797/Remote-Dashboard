@@ -548,7 +548,7 @@
   const OFFLINE = false; const REMOTE = true;
   const METRICS = ['PDS', 'MSE', 'NMAE', 'FID', 'REACH', 'JAC'];
   const st = {
-    d: null, okAt: 0,
+    d: null, okAt: 0, t0: Date.now(), err: '',
     open: new Set(store.get('open', [])),
     who: Object.assign({cym: false, xzk: false}, store.get('who', {})),
     // 11/3 起默认最新的在上面（换了存储键，旧的"未勾选"记忆不再生效）
@@ -619,9 +619,17 @@
     w.textContent = W.length ? `⚠ ${W.length} 处数据暂时读不到` : '';
     w.title = W.join('\n');
   }
+  // 第一份数据到之前页面是空的；网络慢时要等十几秒，顶栏写清楚，免得反复刷新把下载打断
+  function waitNote() {
+    if (OFFLINE) return;
+    const s = Math.round((Date.now() - st.t0) / 1000);
+    $('#tb-live').className = st.err ? 'tb-live bad' : 'tb-live';
+    $('#tb-live-text').textContent = st.err ? '取数据失败，30 秒内自动重试' : '正在取数据';
+    $('#tb-age').textContent = st.err ? `${st.err}（已等 ${s} 秒）` : `已等 ${s} 秒；网络慢时要十几秒，不用反复刷新`;
+  }
   function tick() {
     const d = st.d;
-    if (!d) return;
+    if (!d) return waitNote();
     const live = $('#tb-live'), txt = $('#tb-live-text');
     const age = Math.max(0, Math.round(Date.now() / 1000 - d.generated_epoch));
     if (REMOTE) { const stale = age > 2100; live.className = stale ? 'tb-live bad' : 'tb-live on'; txt.textContent = stale ? '远端快照已过期' : '远端定时快照'; }
@@ -1042,8 +1050,10 @@
       if (!r.ok) throw new Error('HTTP ' + r.status);
       st.d = await r.json();
       st.okAt = Date.now();
+      st.err = '';
       renderAll();
     } catch (e) {
+      st.err = '连不上服务器：' + ((e && e.message) || e);
       tick();
     }
   }
