@@ -1,6 +1,6 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T12:06:38+08:00（北京时间）**
+**采集时间：2026-11-04T12:19:49+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
@@ -22,13 +22,13 @@
 | public_repo_trials_E20261103_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:18:06.542686+08:00 |
 | public_repo_trials_E20261103_029 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:39:43.710699+08:00 |
 | public_repo_trials_E20261103_036 | 20/20 | 20/20 | 20/20 | 2/2 | 2026-11-04T00:32:05.404957+08:00 |
-| public_repo_trials_E20261103_038 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-04T12:04:21.554093+08:00 |
+| public_repo_trials_E20261103_038 | 9/10 | 9/10 | 9/10 | 0/1 | 2026-11-04T12:15:07.743250+08:00 |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-04：预测 **351** 份，GREEN 349，RED 1，未盖章 3；实际评分 **343** 份（含已替代旧测量 7 份）；完整成绩单 **17** 份。
+2026-11-04：预测 **351** 份，GREEN 349，RED 1，未盖章 3；实际评分 **343** 份（含已替代旧测量 7 份）；完整成绩单 **18** 份。
 
-新成绩单：PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01。
+新成绩单：PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、SP26_S025_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01。
 
 北京时间当日预测、印记与实际评分记录；保留已替代和停止分支，旧测量另注明。P正式包、连续值预检和分析不计入原生评分。
 
@@ -48,7 +48,7 @@
 
 - public_repo_trials_E20261103_036：成绩单与GREEN封存已齐
 
-- public_repo_trials_E20261103_038：等待资源/下一轮：load1 117.345703125 exceeds 96; free 286491525120 bytes below existing launch floor 520000000000; generation shared reservation: free 286491525120 minus reserve 22000000000 < 520000000000；load1 117.345703125 exceeds 96; free 286491525120 bytes below existing launch floor 520000000000; generation shared reservation: free 286491525120 minus reserve 22000000000 < 520000000000
+- public_repo_trials_E20261103_038：等待资源/下一轮：free 232424968192 bytes below existing launch floor 520000000000; generation shared reservation: free 232424968192 minus reserve 20000000000 < 520000000000；free 232424968192 bytes below existing launch floor 520000000000; generation shared reservation: free 232424968192 minus reserve 20000000000 < 520000000000
 
 ## 今日实验、预检与分析记录
 
@@ -59,14 +59,14 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 管线状态刷新 · board_refresh_resource_v4 | status | 312280 |
-| 调度/收尾 · task_io_v1 | controller | 54570 |
-| 调度/收尾 · round2_source_audit_worker | controller | 54564 |
-| 调度/收尾 · task_io_v1 | controller | 49204 |
-| 调度/收尾 · task_io_v1 | controller | 35206 |
-| 调度/收尾 · task_io_v1 | controller | 2626 |
-| 调度/收尾 · round2_source_audit_worker | controller | 779 |
-| 调度/收尾 · task_io_v1 | controller | 406 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 313072 |
+| 调度/收尾 · task_io_v1 | controller | 55362 |
+| 调度/收尾 · round2_source_audit_worker | controller | 55355 |
+| 调度/收尾 · task_io_v1 | controller | 49996 |
+| 调度/收尾 · task_io_v1 | controller | 35998 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1571 |
+| 调度/收尾 · round2_source_audit_worker | controller | 428 |
+| 调度/收尾 · round2_source_audit_worker | controller | 5 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -196,7 +196,7 @@
 | V5-87 | XZK26_S115_v01 | 待派发（当前无活进程） | 4/10 | 4/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-88 | PR26_C10_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209783 | 不确定 |
 | V5-89 | PR26_C11_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210191 | 不确定 |
-| V5-90 | PR26_C05_v01 | 等待资源/下一轮：load1 117.345703125 exceeds 96; free 286491525120 bytes below existing launch floor 520000000000; generation shared reservation: free 286491525120 minus reserve 22000000000 < 520000000000 | 9/10 | 9/10 | 盲评中 | 等待资源/下一轮：load1 117.345703125 exceeds 96; free 286491525120 bytes below existing launch floor 520000000000; generation shared reservation: free 286491525120 minus reserve 22000000000 < 520000000000 |
+| V5-90 | PR26_C05_v01 | 等待资源/下一轮：free 232424968192 bytes below existing launch floor 520000000000; generation shared reservation: free 232424968192 minus reserve 20000000000 < 520000000000 | 9/10 | 9/10 | 盲评中 | 等待资源/下一轮：free 232424968192 bytes below existing launch floor 520000000000; generation shared reservation: free 232424968192 minus reserve 20000000000 < 520000000000 |
 | V5-91 | XZK26_S116_v01 | 已由 XZK26_S116_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-95 |
 | V5-92 | XZK26_S117_v01 | 已由 XZK26_S117_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-96 |
 | V5-93 | XZK26_S118_v01 | 已由 XZK26_S118_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-97 |
@@ -258,7 +258,7 @@
 | V5-149 | XZK26_S157_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.220339 | 采用 |
 | V5-150 | XZK26_S161_v01 | 待派发（当前无活进程） | 10/10 | 8/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-151 | XZK26_S162_v01 | 待派发（当前无活进程） | 9/10 | 8/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-152 | SP26_S025_v01 | 测量已齐，待成绩单 | 10/10 | 10/10 | 盲评中 | 测量已齐，待成绩单 |
+| V5-152 | SP26_S025_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.174163 | 否决 |
 
 </details>
 
@@ -274,6 +274,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`d821db51cdb4a40b777bc9a9a55549a727d92ac9b6a975f94e5eef8793c3ee52`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`1585997383c315e2f69b591de118820565b7c8d31ed41752541b26d9adf47c0a`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
