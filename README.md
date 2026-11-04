@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-05T06:22:07+08:00（北京时间）**
+**采集时间：2026-11-05T06:37:04+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 218 个，独立归档 8 个；采集时进程记录 19 条（生成 8、评分 5）。
+登记策略 218 个，独立归档 8 个；采集时进程记录 24 条（生成 12、评分 5）。
 
 ## 当前轮次
 
@@ -77,22 +77,22 @@
 | E20261104_206 | 30/30 | 30/30 | 30/30 | 3/3 | 2026-11-05T00:05:36.461636+08:00 |
 | E20261105_002 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T02:20:22.856290+08:00 |
 | E20261105_003 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T03:34:51.236562+08:00 |
-| E20261105_004 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T06:22:19.063236+08:00 |
+| E20261105_004 | 4/10 | 4/10 | 2/10 | 0/1 | 2026-11-05T06:37:05.437032+08:00 |
 | E20261105_006 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T04:39:48.247440+08:00 |
 | E20261105_007 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:17:52.034676+08:00 |
 | E20261105_008 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:58:00.216369+08:00 |
 | E20261105_009 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:55:19.361420+08:00 |
 | E20261105_010 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T05:57:59.952748+08:00 |
-| E20261105_011 | 5/10 | 5/10 | 4/10 | 0/1 | 2026-11-05T06:21:38.992002+08:00 |
-| E20261105_012 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T06:21:28.651256+08:00 |
-| E20261105_013 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T06:21:49.583164+08:00 |
-| E20261105_014 | 1/10 | 1/10 | 0/10 | 0/1 | 2026-11-05T06:22:19.318988+08:00 |
-| E20261105_015 | 0/10 | 0/10 | 0/10 | 0/1 | — |
+| E20261105_011 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T06:36:24.929230+08:00 |
+| E20261105_012 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T06:37:16.598201+08:00 |
+| E20261105_013 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T06:36:34.532674+08:00 |
+| E20261105_014 | 3/10 | 3/10 | 1/10 | 0/1 | 2026-11-05T06:36:15.840865+08:00 |
+| E20261105_015 | 1/10 | 1/10 | 0/10 | 0/1 | 2026-11-05T06:36:40.766189+08:00 |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-05：预测 **128** 份，GREEN 128，RED 0，未盖章 0；实际评分 **131** 份（含已替代旧测量 0 份）；完整成绩单 **10** 份。
+2026-11-05：预测 **133** 份，GREEN 133，RED 0，未盖章 0；实际评分 **137** 份（含已替代旧测量 0 份）；完整成绩单 **10** 份。
 
 新成绩单：SP26_S027_v02、SP26_S036_v01、SP26_S037_v01、SP26_S038_v01、SP26_S039_v01、SP26_S040_v01、SP26_S041_v01、SP26_S042_v01、SP26_S043_v03、SP26_S044_v01。
 
@@ -236,15 +236,15 @@
 
 - E20261105_010：已停止，需重启；用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json
 
-- E20261105_011：等待资源/下一轮：existing batch workers/finalizer active: [3277146]；existing batch workers/finalizer active: [3277146]
+- E20261105_011：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
 
-- E20261105_012：等待资源/下一轮：existing batch workers/finalizer active: [3245724, 3276851]；existing batch workers/finalizer active: [3245724, 3276851]
+- E20261105_012：批次运行中
 
-- E20261105_013：等待资源/下一轮：existing batch workers/finalizer active: [3246318, 3277312]；existing batch workers/finalizer active: [3246318, 3277312]
+- E20261105_013：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
 
-- E20261105_014：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
+- E20261105_014：批次运行中
 
-- E20261105_015：已停止，需重启；未完成且没有活进程
+- E20261105_015：等待资源/下一轮：existing batch workers/finalizer active: [3290025, 3290029, 3289799, 3289995, 3290009]；existing batch workers/finalizer active: [3290025, 3290029, 3289799, 3289995, 3290009]
 
 - public_repo_trials_E20261103_034：已停止，需重启；未完成且没有活进程
 
@@ -257,25 +257,30 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S046_v01 F1/seed0 | generate | 1012 |
-| 生成 · SP26_S046_v01 F1/seed1 | generate | 1012 |
-| 生成 · SP26_S046_v01 F2/seed0 | generate | 1012 |
-| 生成 · SP26_S046_v01 F2/seed1 | generate | 1012 |
-| 生成 · SP26_S046_v01 F3/seed0 | generate | 1012 |
-| 生成 · SP26_S046_v01 F3/seed1 | generate | 1012 |
-| 生成 · SP26_S046_v01 F5/seed0 | generate | 1012 |
-| 生成 · SP26_S046_v01 F5/seed1 | generate | 1012 |
-| 评分 · XZK26_S178_v01 F1/seed1 | score | 425 |
-| 评分 · XZK26_S179_v01 F1/seed0 | score | 384 |
-| 评分 · XZK26_S178_v01 F1/seed0 | score | 239 |
-| 评分 · XZK26_S177_v01 F1/seed0 | score | 227 |
-| 评分 · XZK26_S179_v01 F1/seed1 | score | 215 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 378012 |
-| 调度/收尾 · task_io_v1 | controller | 1599 |
-| 调度/收尾 · task_io_v1 | controller | 1433 |
-| 调度/收尾 · task_io_v1 | controller | 1320 |
-| 调度/收尾 · task_io_v1 | controller | 1030 |
-| 调度/收尾 · task_io_v1 | controller | 840 |
+| 生成 · SP26_S046_v01 F1/seed0 | generate | 1910 |
+| 生成 · SP26_S046_v01 F1/seed1 | generate | 1910 |
+| 生成 · SP26_S046_v01 F2/seed0 | generate | 1910 |
+| 生成 · SP26_S046_v01 F2/seed1 | generate | 1910 |
+| 生成 · SP26_S046_v01 F5/seed0 | generate | 1910 |
+| 生成 · SP26_S046_v01 F5/seed1 | generate | 1910 |
+| 生成 · XZK26_S180_v01 F1/seed0 | generate | 486 |
+| 生成 · XZK26_S180_v01 F1/seed1 | generate | 483 |
+| 生成 · XZK26_S181_v01 F2/seed0 | generate | 40 |
+| 生成 · XZK26_S181_v01 F1/seed0 | generate | 39 |
+| 生成 · XZK26_S181_v01 F2/seed1 | generate | 38 |
+| 生成 · XZK26_S181_v01 F1/seed1 | generate | 36 |
+| 评分 · SP26_S046_v01 F3/seed0 | score | 165 |
+| 评分 · SP26_S046_v01 F3/seed1 | score | 165 |
+| 评分 · XZK26_S180_v01 F2/seed0 | score | 159 |
+| 评分 · XZK26_S180_v01 F2/seed1 | score | 128 |
+| 评分 · XZK26_S181_v01 F6/seed0 | score | 41 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 378910 |
+| 调度/收尾 · task_io_v1 | controller | 2497 |
+| 调度/收尾 · task_io_v1 | controller | 2331 |
+| 调度/收尾 · task_io_v1 | controller | 2218 |
+| 调度/收尾 · task_io_v1 | controller | 1928 |
+| 调度/收尾 · task_io_v1 | controller | 1738 |
+| 调度/收尾 · task_io_v1 | controller | 884 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -497,17 +502,17 @@
 | V5-179 | SP26_S043_v02 | 已由 SP26_S043_v03 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-181 |
 | V5-180 | SP26_S045_v01 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') | 0/10 | 0/10 | 盲评中 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') |
 | V5-181 | SP26_S043_v03 | 成绩单已齐 | 10/10 | 10/10 | -0.028964 | 否决 |
-| V5-182 | SP26_S046_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
+| V5-182 | SP26_S046_v01 | 评分中 | 4/10 | 2/10 | 盲评中 | 评分中 |
 | V5-183 | XZK26_S171_v01 | 已停止，需重启：用户停止文件：run/E20261105_006/STOP_USER.json; run/E20261105_006/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_006/STOP_USER.json; run/E20261105_006/STOP_USER.json |
 | V5-184 | XZK26_S173_v01 | 已停止，需重启：用户停止文件：run/E20261105_007/STOP_USER.json; run/E20261105_007/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_007/STOP_USER.json; run/E20261105_007/STOP_USER.json |
 | V5-185 | XZK26_S174_v01 | 已停止，需重启：用户停止文件：run/E20261105_008/STOP_USER.json; run/E20261105_008/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_008/STOP_USER.json; run/E20261105_008/STOP_USER.json |
 | V5-186 | XZK26_S175_v01 | 已停止，需重启：用户停止文件：run/E20261105_009/STOP_USER.json; run/E20261105_009/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_009/STOP_USER.json; run/E20261105_009/STOP_USER.json |
 | V5-187 | XZK26_S176_v01 | 已停止，需重启：用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json |
-| V5-188 | XZK26_S177_v01 | 评分中 | 5/10 | 4/10 | 盲评中 | 评分中 |
-| V5-189 | XZK26_S178_v01 | 评分中 | 5/10 | 3/10 | 盲评中 | 评分中 |
-| V5-190 | XZK26_S179_v01 | 评分中 | 5/10 | 3/10 | 盲评中 | 评分中 |
-| V5-191 | XZK26_S180_v01 | 批次运行中，等待本位置/原有出卡 | 1/10 | 0/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
-| V5-192 | XZK26_S181_v01 | 已停止，需重启：未完成且没有活进程 | 0/10 | 0/10 | 盲评中 | 已停止，需重启：未完成且没有活进程 |
+| V5-188 | XZK26_S177_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
+| V5-189 | XZK26_S178_v01 | 批次运行中，等待本位置/原有出卡 | 5/10 | 5/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
+| V5-190 | XZK26_S179_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 5/10 | 5/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
+| V5-191 | XZK26_S180_v01 | 评分中 | 3/10 | 1/10 | 盲评中 | 评分中 |
+| V5-192 | XZK26_S181_v01 | 评分中 | 1/10 | 0/10 | 盲评中 | 评分中 |
 
 </details>
 
@@ -523,6 +528,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`479e933e36aab30abdfc23419876e6547986c25c37fab468bcfbc2690f2186b5`。
+采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`ca4a8c271a5c94135716beac8ce276a36ffa2bb586b4e6ef5c4373706fe6e342`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
