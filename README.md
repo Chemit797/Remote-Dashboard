@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T19:52:37+08:00（北京时间）**
+**采集时间：2026-11-04T20:06:58+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 191 个，独立归档 8 个；采集时进程记录 19 条（生成 6、评分 0）。
+登记策略 193 个，独立归档 8 个；采集时进程记录 20 条（生成 6、评分 0）。
 
 ## 当前轮次
 
@@ -59,25 +59,26 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S038_v01 F1/seed0 | generate | 5211 |
-| 生成 · SP26_S038_v01 F1/seed1 | generate | 5211 |
-| 生成 · XZK26_S169_v01 F1/seed0 | generate | 3579 |
-| 生成 · XZK26_S170_v01 F1/seed0 | generate | 3200 |
-| 生成 · XZK26_S169_v01 F1/seed1 | generate | 1588 |
-| 生成 · XZK26_S167_v01 F1/seed0 | generate | 1195 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 340240 |
-| 调度/收尾 · task_io_v1 | controller | 82530 |
-| 调度/收尾 · round2_source_audit_worker | controller | 82524 |
-| 调度/收尾 · round2_source_audit_worker | controller | 22575 |
-| 调度/收尾 · round2_source_audit_worker | controller | 20828 |
-| 调度/收尾 · round2_source_audit_worker | controller | 17097 |
-| 调度/收尾 · round2_source_audit_worker | controller | 12318 |
-| 调度/收尾 · round2_source_audit_worker | controller | 10031 |
-| 调度/收尾 · task_io_v1 | controller | 9221 |
-| 调度/收尾 · task_io_v1 | controller | 6753 |
-| 调度/收尾 · task_io_v1 | controller | 2589 |
-| 调度/收尾 · round2_source_audit_worker | controller | 871 |
-| 调度/收尾 · round2_source_audit_worker | controller | 558 |
+| 生成 · SP26_S038_v01 F1/seed0 | generate | 6072 |
+| 生成 · SP26_S038_v01 F1/seed1 | generate | 6071 |
+| 生成 · XZK26_S169_v01 F1/seed0 | generate | 4439 |
+| 生成 · XZK26_S170_v01 F1/seed0 | generate | 4060 |
+| 生成 · XZK26_S169_v01 F1/seed1 | generate | 2448 |
+| 生成 · XZK26_S167_v01 F1/seed0 | generate | 2055 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 341100 |
+| 调度/收尾 · task_io_v1 | controller | 83390 |
+| 调度/收尾 · round2_source_audit_worker | controller | 83384 |
+| 调度/收尾 · round2_source_audit_worker | controller | 23435 |
+| 调度/收尾 · round2_source_audit_worker | controller | 21688 |
+| 调度/收尾 · round2_source_audit_worker | controller | 17957 |
+| 调度/收尾 · round2_source_audit_worker | controller | 13178 |
+| 调度/收尾 · round2_source_audit_worker | controller | 10891 |
+| 调度/收尾 · task_io_v1 | controller | 10081 |
+| 调度/收尾 · task_io_v1 | controller | 7613 |
+| 调度/收尾 · task_io_v1 | controller | 3449 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1731 |
+| 调度/收尾 · round2_source_audit_worker | controller | 734 |
+| 调度/收尾 · task_io_v1 | controller | 532 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -283,6 +284,8 @@
 | V5-163 | DX26_S212_v01 | RED停止，未评分 | 0/10 | 0/10 | 盲评中 | RED停止，未评分 |
 | V5-164 | DX26_S213_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-165 | SP26_S038_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
+| V5-166 | SP26_S036_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-167 | SP26_S037_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 
 </details>
 
@@ -298,6 +301,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`d87742dde9cb2195f9b4857c8b93def7a4973934779654f0a2341d55ef17666b`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`1014faccfcbcc6cf2b272345580383a8b2b88399d72659217ede082850afe9b7`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
