@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-04T16:36:59+08:00（北京时间）**
+**采集时间：2026-11-04T16:52:12+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 185 个，独立归档 8 个；采集时进程记录 15 条（生成 0、评分 0）。
+登记策略 185 个，独立归档 8 个；采集时进程记录 18 条（生成 1、评分 0）。
 
 ## 当前轮次
 
@@ -22,13 +22,13 @@
 | public_repo_trials_E20261103_027 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:18:06.542686+08:00 |
 | public_repo_trials_E20261103_029 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-03T20:39:43.710699+08:00 |
 | public_repo_trials_E20261103_036 | 20/20 | 20/20 | 20/20 | 2/2 | 2026-11-04T00:32:05.404957+08:00 |
-| public_repo_trials_E20261103_038 | 10/10 | 10/10 | 10/10 | 0/1 | 2026-11-04T16:35:02.007264+08:00 |
+| public_repo_trials_E20261103_038 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-04T16:46:07.177038+08:00 |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-04：预测 **362** 份，GREEN 360，RED 1，未盖章 3；实际评分 **354** 份（含已替代旧测量 7 份）；完整成绩单 **19** 份。
+2026-11-04：预测 **363** 份，GREEN 361，RED 1，未盖章 3；实际评分 **358** 份（含已替代旧测量 7 份）；完整成绩单 **20** 份。
 
-新成绩单：PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、SP26_S025_v01、SP26_S026_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01。
+新成绩单：PR26_C05_v01、PR26_C10_v01、PR26_C11_v01、SP26_S017_v01、SP26_S019_v02、SP26_S020_v02、SP26_S022_v01、SP26_S023_v01、SP26_S024_v01、SP26_S025_v01、SP26_S026_v01、XZK26_S128_v02、XZK26_S142_v02、XZK26_S152_v01、XZK26_S153_v01、XZK26_S154_v01、XZK26_S155_v01、XZK26_S156_v01、XZK26_S157_v01、XZK26_S158_v01。
 
 北京时间当日预测、印记与实际评分记录；保留已替代和停止分支，旧测量另注明。P正式包、连续值预检和分析不计入原生评分。
 
@@ -48,7 +48,7 @@
 
 - public_repo_trials_E20261103_036：成绩单与GREEN封存已齐
 
-- public_repo_trials_E20261103_038：等待资源/下一轮：existing batch workers/finalizer active: [1896903]；existing batch workers/finalizer active: [1896903]
+- public_repo_trials_E20261103_038：成绩单与GREEN封存已齐
 
 ## 今日实验、预检与分析记录
 
@@ -59,21 +59,24 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 管线状态刷新 · board_refresh_resource_v4 | status | 328501 |
-| 调度/收尾 · task_io_v1 | controller | 70790 |
-| 调度/收尾 · round2_source_audit_worker | controller | 70784 |
-| 调度/收尾 · task_io_v1 | controller | 65425 |
-| 调度/收尾 · round2_source_audit_worker | controller | 15857 |
-| 调度/收尾 · round2_source_audit_worker | controller | 15434 |
-| 调度/收尾 · round2_source_audit_worker | controller | 13269 |
-| 调度/收尾 · round2_source_audit_worker | controller | 12239 |
-| 调度/收尾 · round2_source_audit_worker | controller | 10835 |
-| 调度/收尾 · round2_source_audit_worker | controller | 9088 |
-| 调度/收尾 · round2_source_audit_worker | controller | 5357 |
-| 调度/收尾 · round2_source_audit_worker | controller | 3033 |
-| 调度/收尾 · round2_source_audit_worker | controller | 578 |
-| 调度/收尾 · round2_source_audit_worker | controller | 332 |
-| 调度/收尾 · round2_source_audit_worker | controller | 243 |
+| 生成 · XZK26_S163_v01 F2/seed0 | generate | 549 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 329415 |
+| 调度/收尾 · task_io_v1 | controller | 71705 |
+| 调度/收尾 · round2_source_audit_worker | controller | 71699 |
+| 调度/收尾 · round2_source_audit_worker | controller | 16772 |
+| 调度/收尾 · round2_source_audit_worker | controller | 16348 |
+| 调度/收尾 · round2_source_audit_worker | controller | 14183 |
+| 调度/收尾 · round2_source_audit_worker | controller | 13153 |
+| 调度/收尾 · round2_source_audit_worker | controller | 11750 |
+| 调度/收尾 · round2_source_audit_worker | controller | 10003 |
+| 调度/收尾 · round2_source_audit_worker | controller | 6272 |
+| 调度/收尾 · round2_source_audit_worker | controller | 3948 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1492 |
+| 调度/收尾 · round2_source_audit_worker | controller | 1158 |
+| 调度/收尾 · task_io_v1 | controller | 879 |
+| 调度/收尾 · task_io_v1 | controller | 797 |
+| 调度/收尾 · task_io_v1 | controller | 797 |
+| 调度/收尾 · XZK26_S161_v01 | controller | 183 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -203,7 +206,7 @@
 | V5-87 | XZK26_S115_v01 | 待派发（当前无活进程） | 4/10 | 4/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-88 | PR26_C10_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209783 | 不确定 |
 | V5-89 | PR26_C11_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210191 | 不确定 |
-| V5-90 | PR26_C05_v01 | 等待资源/下一轮：existing batch workers/finalizer active: [1896903] | 10/10 | 10/10 | 盲评中 | 等待资源/下一轮：existing batch workers/finalizer active: [1896903] |
+| V5-90 | PR26_C05_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210476 | 不确定 |
 | V5-91 | XZK26_S116_v01 | 已由 XZK26_S116_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-95 |
 | V5-92 | XZK26_S117_v01 | 已由 XZK26_S117_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-96 |
 | V5-93 | XZK26_S118_v01 | 已由 XZK26_S118_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-97 |
@@ -263,11 +266,11 @@
 | V5-147 | XZK26_S154_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.221238 | 采用 |
 | V5-148 | XZK26_S156_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.218923 | 采用 |
 | V5-149 | XZK26_S157_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.220339 | 采用 |
-| V5-150 | XZK26_S161_v01 | 待派发（当前无活进程） | 10/10 | 8/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-151 | XZK26_S162_v01 | 待派发（当前无活进程） | 9/10 | 8/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-150 | XZK26_S161_v01 | 运行中 | 10/10 | 10/10 | 盲评中 | 运行中 |
+| V5-151 | XZK26_S162_v01 | 待派发（当前无活进程） | 9/10 | 9/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-152 | SP26_S025_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.174163 | 否决 |
 | V5-153 | SP26_S026_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.178207 | 否决 |
-| V5-154 | XZK26_S163_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
+| V5-154 | XZK26_S163_v01 | 生成中 | 1/10 | 1/10 | 盲评中 | 生成中 |
 | V5-155 | XZK26_S164_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-156 | XZK26_S165_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-157 | XZK26_S166_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
@@ -288,6 +291,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`fcfeb488b963bb44867c4f853f694469cd1065548f46270611edeac5fc471780`。
+采集版本：`20261103-native-batch-liveness-v3`；快照SHA256：`79871b0710ae4c04ee4b29e2da09c58b1fd4def781e9d79be5d5d47251b638fe`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
