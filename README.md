@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-05T22:51:53+08:00（北京时间）**
+**采集时间：2026-11-05T23:11:27+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 296 个，独立归档 8 个；采集时进程记录 134 条（生成 81、评分 28）。
+登记策略 297 个，独立归档 8 个；采集时进程记录 132 条（生成 78、评分 30）。
 
 ## 当前轮次
 
@@ -99,35 +99,36 @@
 | E20261105_024 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T18:38:00.046652+08:00 |
 | E20261105_025 | 0/10 | 0/10 | 0/10 | 0/1 | — |
 | E20261105_026 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T19:14:41.503352+08:00 |
-| E20261105_027 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-05T22:49:22.662204+08:00 |
+| E20261105_027 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-05T23:10:48.709371+08:00 |
 | E20261105_028 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T19:30:39.070657+08:00 |
 | E20261105_029 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T21:00:37.283451+08:00 |
 | E20261105_030 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T21:01:50.440330+08:00 |
-| E20261105_031 | 8/10 | 8/10 | 5/10 | 0/1 | 2026-11-05T22:45:52.575786+08:00 |
-| E20261105_032 | 8/10 | 8/10 | 4/10 | 0/1 | 2026-11-05T22:51:55.859132+08:00 |
+| E20261105_031 | 8/10 | 8/10 | 5/10 | 0/1 | 2026-11-05T23:10:45.289023+08:00 |
+| E20261105_032 | 8/10 | 8/10 | 4/10 | 0/1 | 2026-11-05T23:10:47.731281+08:00 |
 | E20261105_033 | 7/10 | 7/10 | 4/10 | 0/1 | 2026-11-05T19:46:51.652837+08:00 |
-| E20261105_034 | 8/10 | 8/10 | 4/10 | 0/1 | 2026-11-05T22:51:50.471634+08:00 |
+| E20261105_034 | 8/10 | 8/10 | 5/10 | 0/1 | 2026-11-05T23:09:36.036078+08:00 |
 | E20261105_035 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T21:01:15.756413+08:00 |
-| E20261105_036 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T22:52:08.161685+08:00 |
-| E20261105_037 | 6/10 | 6/10 | 6/10 | 0/1 | 2026-11-05T22:51:59.020063+08:00 |
-| E20261105_038 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T22:52:02.856878+08:00 |
+| E20261105_036 | 4/10 | 3/10 | 2/10 | 0/1 | 2026-11-05T23:11:45.565246+08:00 |
+| E20261105_037 | 7/10 | 7/10 | 7/10 | 0/1 | 2026-11-05T23:10:53.934008+08:00 |
+| E20261105_038 | 3/10 | 3/10 | 2/10 | 0/1 | 2026-11-05T23:11:46.469345+08:00 |
 | E20261105_039 | 0/10 | 0/10 | 0/10 | 0/1 | — |
 | E20261105_040 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T22:38:08.056597+08:00 |
 | E20261105_041 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T22:45:50.909294+08:00 |
 | E20261105_042 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T22:40:10.581138+08:00 |
-| E20261105_043 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-05T22:52:04.971355+08:00 |
-| E20261105_044 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-05T22:51:11.992511+08:00 |
+| E20261105_043 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T23:03:34.454250+08:00 |
+| E20261105_044 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T23:06:30.823531+08:00 |
 | E20261105_045 | 0/10 | 0/10 | 0/10 | 0/1 | — |
-| E20261105_046 | 9/10 | 8/10 | 6/10 | 0/1 | 2026-11-05T22:52:10.801611+08:00 |
-| E20261105_047 | 8/10 | 8/10 | 8/10 | 0/1 | 2026-11-05T22:52:00.360159+08:00 |
-| E20261105_048 | 7/10 | 6/10 | 4/10 | 0/1 | 2026-11-05T22:52:13.093065+08:00 |
-| E20261105_049 | 8/10 | 8/10 | 4/10 | 0/1 | 2026-11-05T22:52:14.276004+08:00 |
-| E20261105_050 | 4/10 | 4/10 | 2/10 | 0/1 | 2026-11-05T22:51:50.493492+08:00 |
-| E20261105_051 | 4/10 | 4/10 | 3/10 | 0/1 | 2026-11-05T22:51:59.638612+08:00 |
-| E20261105_052 | 3/10 | 3/10 | 2/10 | 0/1 | 2026-11-05T22:51:23.050140+08:00 |
-| E20261105_053 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T22:51:53.189142+08:00 |
-| E20261105_054 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T22:51:32.239450+08:00 |
-| E20261105_055 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T22:52:05.044144+08:00 |
+| E20261105_046 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-05T23:11:48.957637+08:00 |
+| E20261105_047 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-05T23:11:49.510952+08:00 |
+| E20261105_048 | 8/10 | 7/10 | 6/10 | 0/1 | 2026-11-05T23:10:22.793782+08:00 |
+| E20261105_049 | 8/10 | 8/10 | 4/10 | 0/1 | 2026-11-05T23:11:32.740991+08:00 |
+| E20261105_050 | 6/10 | 6/10 | 2/10 | 0/1 | 2026-11-05T23:11:13.601779+08:00 |
+| E20261105_051 | 4/10 | 4/10 | 3/10 | 0/1 | 2026-11-05T23:11:35.474046+08:00 |
+| E20261105_052 | 4/10 | 4/10 | 2/10 | 0/1 | 2026-11-05T23:11:40.048769+08:00 |
+| E20261105_053 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T23:11:48.391910+08:00 |
+| E20261105_054 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T23:11:18.272372+08:00 |
+| E20261105_055 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T23:11:27.701789+08:00 |
+| E20261105_056 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T23:11:02.642563+08:00 |
 | E20261105_501 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T07:43:10.189266+08:00 |
 | E20261105_502 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T08:59:44.393230+08:00 |
 | E20261105_503 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T08:08:46.010969+08:00 |
@@ -162,18 +163,18 @@
 | E20261105_532 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T17:16:24.663247+08:00 |
 | E20261105_533 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T18:35:43.702325+08:00 |
 | E20261105_534 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T18:35:45.057360+08:00 |
-| E20261105_535 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T22:51:49.990483+08:00 |
-| E20261105_536 | 5/10 | 5/10 | 2/10 | 0/1 | 2026-11-05T22:51:51.668800+08:00 |
-| E20261105_537 | 5/10 | 5/10 | 1/10 | 0/1 | 2026-11-05T22:51:57.071034+08:00 |
-| E20261105_538 | 4/10 | 4/10 | 1/10 | 0/1 | 2026-11-05T22:51:52.402805+08:00 |
-| E20261105_539 | 1/10 | 1/10 | 1/10 | 0/1 | 2026-11-05T22:51:57.939557+08:00 |
+| E20261105_535 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T23:11:47.515324+08:00 |
+| E20261105_536 | 5/10 | 5/10 | 2/10 | 0/1 | 2026-11-05T23:11:45.593216+08:00 |
+| E20261105_537 | 5/10 | 5/10 | 1/10 | 0/1 | 2026-11-05T23:11:42.549260+08:00 |
+| E20261105_538 | 4/10 | 4/10 | 1/10 | 0/1 | 2026-11-05T23:11:42.694013+08:00 |
+| E20261105_539 | 1/10 | 1/10 | 1/10 | 0/1 | 2026-11-05T23:11:45.397147+08:00 |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-05：预测 **562** 份，GREEN 578，RED 0，未盖章 2；实际评分 **519** 份（含已替代旧测量 10 份）；完整成绩单 **24** 份。
+2026-11-05：预测 **575** 份，GREEN 591，RED 0，未盖章 2；实际评分 **531** 份（含已替代旧测量 10 份）；完整成绩单 **26** 份。
 
-新成绩单：SP26_S027_v02、SP26_S036_v01、SP26_S037_v01、SP26_S038_v01、SP26_S039_v01、SP26_S040_v01、SP26_S041_v01、SP26_S042_v01、SP26_S043_v03、SP26_S044_v01、SP26_S046_v01、SP26_S047_v01、SP26_S048_v02、SP26_S048_v03、SP26_S049_v01、SP26_S050_v01、SP26_S051_v01、SP26_S053_v01、SP26_S054_v01、SP26_S056_v01、SP26_S058_v02、SP26_S059_v01、SP26_S060_v01、SP26_S068_v01。
+新成绩单：SP26_S027_v02、SP26_S036_v01、SP26_S037_v01、SP26_S038_v01、SP26_S039_v01、SP26_S040_v01、SP26_S041_v01、SP26_S042_v01、SP26_S043_v03、SP26_S044_v01、SP26_S046_v01、SP26_S047_v01、SP26_S048_v02、SP26_S048_v03、SP26_S049_v01、SP26_S050_v01、SP26_S051_v01、SP26_S053_v01、SP26_S054_v01、SP26_S056_v01、SP26_S058_v02、SP26_S059_v01、SP26_S060_v01、SP26_S068_v01、SP26_S069_v01、SP26_S070_v01。
 
 北京时间当日预测、印记与实际评分记录；保留已替代和停止分支，旧测量另注明。P正式包、连续值预检和分析不计入原生评分。
 
@@ -361,15 +362,15 @@
 
 - E20261105_033：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T19:46:51+08:00", "total": 10, "generated": 7, "green": 7, "scored": 4, "positions": [{"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F2/seed0/attempt_2026-11-05T104401_0000_56d731e5", "stamp": "run/strategies/SP26_S055_v01/03_runs/F2/seed0/attempt_2026-11-05T104401_0000_56d731e5/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F2/seed1/attempt_2026-11-05T104402_0000_ac14794d", "stamp": "run/strategies/SP26_S055_v01/03_runs/F2/seed1/attempt_2026-11-05T104402_0000_ac14794d/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F3/seed1/attempt_2026-11-05T104405_0000_83b0117f", "stamp": "run/strategies/SP26_S055_v01/03_runs/F3/seed1/attempt_2026-11-05T104405_0000_83b0117f/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F5", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F5/seed0/attempt_2026-11-05T104411_0000_665ed5bc", "stamp": "run/strategies/SP26_S055_v01/03_runs/F5/seed0/attempt_2026-11-05T104411_0000_665ed5bc/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F5", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F5/seed1/attempt_2026-11-05T104411_0000_2d7a80df", "stamp": "run/strategies/SP26_S055_v01/03_runs/F5/seed1/attempt_2026-11-05T104411_0000_2d7a80df/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F6/seed0/attempt_2026-11-05T104414_0000_f2bb8e8c", "stamp": "run/strategies/SP26_S055_v01/03_runs/F6/seed0/attempt_2026-11-05T104414_0000_f2bb8e8c/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F6/seed1/attempt_2026-11-05T104415_0000_1724e412", "stamp": "run/strategies/SP26_S055_v01/03_runs/F6/seed1/attempt_2026-11-05T104415_0000_1724e412/STAMP.json", "verdict": "GREEN", "score_running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F1_s0_interruption_recovery_v01/1793879076419306749.log"]}, {"case": {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F1_s1_interruption_recovery_v01/1793879077573142579.log"]}, {"case": {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F3_s0_interruption_recovery_v01/1793879084817129059.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
-- E20261105_034：等待资源/下一轮：existing batch workers/finalizer active: [80108, 80123, 80166, 80276, 80352, 80500]；existing batch workers/finalizer active: [80108, 80123, 80166, 80276, 80352, 80500]
+- E20261105_034：批次运行中
 
 - E20261105_035：成绩单与GREEN封存已齐
 
-- E20261105_036：等待资源/下一轮：existing batch workers/finalizer active: [79508, 79518, 79527, 79615, 79644, 79790, 79806, 79925]；existing batch workers/finalizer active: [79508, 79518, 79527, 79615, 79644, 79790, 79806, 79925]
+- E20261105_036：批次运行中
 
-- E20261105_037：等待资源/下一轮：existing batch workers/finalizer active: [4115813, 4115820, 4115905, 4115933]；existing batch workers/finalizer active: [4115813, 4115820, 4115905, 4115933]
+- E20261105_037：等待资源/下一轮：existing batch workers/finalizer active: [4115813, 4115820, 4115933]；existing batch workers/finalizer active: [4115813, 4115820, 4115933]
 
-- E20261105_038：等待资源/下一轮：existing batch workers/finalizer active: [79502, 79514, 79522, 79537, 79634, 79782, 79796, 79911]；existing batch workers/finalizer active: [79502, 79514, 79522, 79537, 79634, 79782, 79796, 79911]
+- E20261105_038：等待资源/下一轮：existing batch workers/finalizer active: [179314, 79502, 79514, 79522, 79537, 79634, 79782, 79796]；existing batch workers/finalizer active: [179314, 79502, 79514, 79522, 79537, 79634, 79782, 79796]
 
 - E20261105_039：已停止，需重启；未完成且没有活进程
 
@@ -379,13 +380,13 @@
 
 - E20261105_042：成绩单与GREEN封存已齐
 
-- E20261105_043：批次运行中
+- E20261105_043：成绩单与GREEN封存已齐
 
-- E20261105_044：批次运行中
+- E20261105_044：成绩单与GREEN封存已齐
 
 - E20261105_045：已停止（见原始停止凭据）；已记录停止指令；run/E20261105_045/STOP_USER.json; run/strategies/SP26_S071_v01/STOP_USER.json
 
-- E20261105_046：等待资源/下一轮：existing batch workers/finalizer active: [35697, 35737, 4182263, 4182288]；existing batch workers/finalizer active: [35697, 35737, 4182263, 4182288]
+- E20261105_046：批次运行中
 
 - E20261105_047：批次运行中
 
@@ -397,13 +398,15 @@
 
 - E20261105_051：批次运行中
 
-- E20261105_052：等待资源/下一轮：existing batch workers/finalizer active: [147677, 57683, 57694, 57705, 57718, 57754, 57806, 57822]；existing batch workers/finalizer active: [147677, 57683, 57694, 57705, 57718, 57754, 57806, 57822]
+- E20261105_052：批次运行中
 
-- E20261105_053：批次运行中
+- E20261105_053：等待资源/下一轮：existing batch workers/finalizer active: [88190, 88210, 88219, 88226, 88243, 88301, 88314, 88371]；existing batch workers/finalizer active: [88190, 88210, 88219, 88226, 88243, 88301, 88314, 88371]
 
 - E20261105_054：等待资源/下一轮：existing batch workers/finalizer active: [94667, 94677, 94702, 94762, 94780, 94805, 94821, 94869]；existing batch workers/finalizer active: [94667, 94677, 94702, 94762, 94780, 94805, 94821, 94869]
 
-- E20261105_055：批次运行中
+- E20261105_055：等待资源/下一轮：existing batch workers/finalizer active: [125725, 125743, 125869, 125898, 125920, 125941, 125988, 126025]；existing batch workers/finalizer active: [125725, 125743, 125869, 125898, 125920, 125941, 125988, 126025]
+
+- E20261105_056：等待资源/下一轮：existing batch workers/finalizer active: [182612, 182631, 182733, 182782, 182796, 182809, 182815, 182824, 182834, 182859]；existing batch workers/finalizer active: [182612, 182631, 182733, 182782, 182796, 182809, 182815, 182824, 182834, 182859]
 
 - E20261105_501：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_501/STOP_USER.json
 
@@ -473,15 +476,15 @@
 
 - E20261105_534：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_534/STOP_USER.json
 
-- E20261105_535：等待资源/下一轮：load1 1350.689453125 exceeds original96；load1 1350.689453125 exceeds original96
+- E20261105_535：批次运行中
 
-- E20261105_536：等待资源/下一轮：load1 1350.689453125 exceeds original96；load1 1350.689453125 exceeds original96
+- E20261105_536：批次运行中
 
-- E20261105_537：等待资源/下一轮：load1 1336.7001953125 exceeds original96；load1 1336.7001953125 exceeds original96
+- E20261105_537：批次运行中
 
-- E20261105_538：等待资源/下一轮：load1 1350.689453125 exceeds original96；load1 1350.689453125 exceeds original96
+- E20261105_538：批次运行中
 
-- E20261105_539：等待资源/下一轮：load1 1336.7001953125 exceeds original96；load1 1336.7001953125 exceeds original96
+- E20261105_539：批次运行中
 
 - public_repo_trials_E20261103_034：成绩及GREEN已齐；批次收尾未完成；未完成且没有活进程
 
@@ -494,140 +497,138 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S057_v01 F1/seed0 | generate | 11252 |
-| 生成 · SP26_S057_v01 F1/seed1 | generate | 11251 |
-| 生成 · SP26_S057_v01 F5/seed0 | generate | 11245 |
-| 生成 · SP26_S057_v01 F5/seed1 | generate | 11244 |
-| 生成 · SP26_S072_v01 F1/seed0 | generate | 7578 |
-| 生成 · SP26_S072_v01 F1/seed1 | generate | 7577 |
-| 生成 · SP26_S071_v02 F1/seed0 | generate | 7511 |
-| 生成 · SP26_S071_v02 F1/seed1 | generate | 7509 |
-| 生成 · SP26_S073_v01 F1/seed0 | generate | 6161 |
-| 生成 · SP26_S073_v01 F1/seed1 | generate | 6159 |
-| 生成 · SP26_S074_v01 F1/seed0 | generate | 6040 |
-| 生成 · SP26_S074_v01 F1/seed1 | generate | 6038 |
-| 生成 · SP26_S074_v01 F3/seed0 | generate | 6035 |
-| 生成 · SP26_S074_v01 F3/seed1 | generate | 6033 |
-| 生成 · SP26_S075_v01 F1/seed0 | generate | 5047 |
-| 生成 · SP26_S075_v01 F1/seed1 | generate | 5045 |
-| 生成 · SP26_S075_v01 F2/seed0 | generate | 5044 |
-| 生成 · SP26_S075_v01 F3/seed1 | generate | 5040 |
-| 生成 · SP26_S075_v01 F5/seed0 | generate | 5039 |
-| 生成 · SP26_S075_v01 F5/seed1 | generate | 5038 |
-| 生成 · SP26_S076_v01 F1/seed0 | generate | 4586 |
-| 生成 · SP26_S076_v01 F1/seed1 | generate | 4585 |
-| 生成 · SP26_S076_v01 F2/seed1 | generate | 4583 |
-| 生成 · SP26_S076_v01 F3/seed0 | generate | 4581 |
-| 生成 · SP26_S076_v01 F3/seed1 | generate | 4580 |
-| 生成 · SP26_S076_v01 F5/seed0 | generate | 4579 |
-| 生成 · SP26_S077_v01 F1/seed0 | generate | 3921 |
-| 生成 · SP26_S077_v01 F1/seed1 | generate | 3920 |
-| 生成 · SP26_S077_v01 F2/seed0 | generate | 3919 |
-| 生成 · SP26_S077_v01 F2/seed1 | generate | 3917 |
-| 生成 · SP26_S077_v01 F3/seed1 | generate | 3915 |
-| 生成 · SP26_S077_v01 F5/seed0 | generate | 3913 |
-| 生成 · SP26_S077_v01 F5/seed1 | generate | 3912 |
-| 生成 · SP26_S067_v01 F1/seed0 | generate | 2985 |
-| 生成 · SP26_S066_v01 F1/seed0 | generate | 2985 |
-| 生成 · SP26_S067_v01 F1/seed1 | generate | 2984 |
-| 生成 · SP26_S066_v01 F1/seed1 | generate | 2984 |
-| 生成 · SP26_S067_v01 F2/seed0 | generate | 2983 |
-| 生成 · SP26_S066_v01 F2/seed0 | generate | 2982 |
-| 生成 · SP26_S067_v01 F2/seed1 | generate | 2982 |
-| 生成 · SP26_S066_v01 F2/seed1 | generate | 2981 |
-| 生成 · SP26_S067_v01 F3/seed0 | generate | 2980 |
-| 生成 · SP26_S066_v01 F3/seed0 | generate | 2980 |
-| 生成 · SP26_S067_v01 F3/seed1 | generate | 2979 |
-| 生成 · SP26_S066_v01 F3/seed1 | generate | 2978 |
-| 生成 · SP26_S063_v01 F1/seed0 | generate | 2978 |
-| 生成 · SP26_S067_v01 F5/seed0 | generate | 2978 |
-| 生成 · SP26_S066_v01 F5/seed0 | generate | 2977 |
-| 生成 · SP26_S063_v01 F1/seed1 | generate | 2976 |
-| 生成 · SP26_S067_v01 F5/seed1 | generate | 2976 |
-| 生成 · SP26_S066_v01 F5/seed1 | generate | 2976 |
-| 生成 · SP26_S064_v01 F1/seed0 | generate | 2973 |
-| 生成 · SP26_S064_v01 F1/seed1 | generate | 2972 |
-| 生成 · SP26_S065_v01 F1/seed0 | generate | 2970 |
-| 生成 · SP26_S065_v01 F1/seed1 | generate | 2968 |
-| 生成 · SP26_S078_v01 F1/seed0 | generate | 2619 |
-| 生成 · SP26_S078_v01 F1/seed1 | generate | 2618 |
-| 生成 · SP26_S078_v01 F2/seed0 | generate | 2616 |
-| 生成 · SP26_S078_v01 F2/seed1 | generate | 2615 |
-| 生成 · SP26_S078_v01 F3/seed0 | generate | 2614 |
-| 生成 · SP26_S078_v01 F3/seed1 | generate | 2612 |
-| 生成 · SP26_S078_v01 F5/seed0 | generate | 2611 |
-| 生成 · SP26_S078_v01 F5/seed1 | generate | 2609 |
-| 生成 · SP26_S079_v01 F1/seed0 | generate | 2324 |
-| 生成 · SP26_S079_v01 F1/seed1 | generate | 2323 |
-| 生成 · SP26_S079_v01 F2/seed0 | generate | 2321 |
-| 生成 · SP26_S079_v01 F2/seed1 | generate | 2320 |
-| 生成 · SP26_S079_v01 F3/seed0 | generate | 2319 |
-| 生成 · SP26_S079_v01 F3/seed1 | generate | 2317 |
-| 生成 · SP26_S079_v01 F5/seed0 | generate | 2316 |
-| 生成 · SP26_S079_v01 F5/seed1 | generate | 2314 |
-| 生成 · SP26_S080_v01 F1/seed0 | generate | 962 |
-| 生成 · SP26_S080_v01 F1/seed1 | generate | 961 |
-| 生成 · SP26_S080_v01 F2/seed0 | generate | 960 |
-| 生成 · SP26_S080_v01 F2/seed1 | generate | 959 |
-| 生成 · SP26_S080_v01 F3/seed0 | generate | 957 |
-| 生成 · SP26_S080_v01 F3/seed1 | generate | 956 |
-| 生成 · SP26_S080_v01 F5/seed0 | generate | 955 |
-| 生成 · SP26_S080_v01 F5/seed1 | generate | 953 |
-| 生成 · SP26_S080_v01 F6/seed0 | generate | 952 |
-| 生成 · SP26_S080_v01 F6/seed1 | generate | 951 |
-| 评分 · SP26_S071_v02 F3/seed0 | score | 4883 |
-| 评分 · SP26_S071_v02 F3/seed1 | score | 4878 |
-| 评分 · SP26_S069_v01 F1/seed1 | score | 4449 |
-| 评分 · SP26_S069_v01 F1/seed0 | score | 4164 |
-| 评分 · SP26_S070_v01 F1/seed1 | score | 4158 |
-| 评分 · SP26_S070_v01 F1/seed0 | score | 4026 |
-| 评分 · SP26_S061_v01 F1/seed0 | score | 3064 |
-| 评分 · SP26_S061_v01 F1/seed1 | score | 3060 |
-| 评分 · SP26_S063_v01 F2/seed0 | score | 2970 |
-| 评分 · SP26_S064_v01 F2/seed0 | score | 2966 |
-| 评分 · SP26_S065_v01 F2/seed0 | score | 2964 |
-| 评分 · SP26_S064_v01 F2/seed1 | score | 2962 |
-| 评分 · SP26_S065_v01 F2/seed1 | score | 2960 |
-| 评分 · SP26_S064_v01 F3/seed0 | score | 2959 |
-| 评分 · SP26_S063_v01 F3/seed0 | score | 2959 |
-| 评分 · SP26_S065_v01 F3/seed0 | score | 2956 |
-| 评分 · SP26_S064_v01 F3/seed1 | score | 2955 |
-| 评分 · SP26_S065_v01 F3/seed1 | score | 2952 |
-| 评分 · SP26_S063_v01 F3/seed1 | score | 2950 |
-| 评分 · SP26_S073_v01 F3/seed0 | score | 2924 |
-| 评分 · SP26_S074_v01 F2/seed1 | score | 2911 |
-| 评分 · SP26_S073_v01 F2/seed1 | score | 2593 |
-| 评分 · SP26_S074_v01 F2/seed0 | score | 2534 |
-| 评分 · SP26_S073_v01 F2/seed0 | score | 2471 |
-| 评分 · SP26_S075_v01 F3/seed0 | score | 1735 |
-| 评分 · SP26_S076_v01 F2/seed0 | score | 1593 |
-| 评分 · SP26_S073_v01 F3/seed1 | score | 750 |
-| 评分 · SP26_S077_v01 F3/seed0 | score | 174 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 437406 |
-| 调度/收尾 · task_io_v1 | controller | 11259 |
-| 调度/收尾 · task_io_v1 | controller | 9141 |
-| 调度/收尾 · task_io_v1 | controller | 9088 |
-| 调度/收尾 · task_io_v1 | controller | 7587 |
-| 调度/收尾 · task_io_v1 | controller | 7519 |
-| 调度/收尾 · task_io_v1 | controller | 6168 |
-| 调度/收尾 · task_io_v1 | controller | 6048 |
-| 调度/收尾 · task_io_v1 | controller | 5054 |
-| 调度/收尾 · task_io_v1 | controller | 4595 |
-| 调度/收尾 · task_io_v1 | controller | 3930 |
-| 调度/收尾 · task_io_v1 | controller | 3110 |
-| 调度/收尾 · task_io_v1 | controller | 3011 |
-| 调度/收尾 · task_io_v1 | controller | 3007 |
-| 调度/收尾 · task_io_v1 | controller | 3003 |
-| 调度/收尾 · task_io_v1 | controller | 2999 |
-| 调度/收尾 · task_io_v1 | controller | 2995 |
-| 调度/收尾 · task_io_v1 | controller | 2630 |
-| 调度/收尾 · task_io_v1 | controller | 2335 |
-| 调度/收尾 · task_io_v1 | controller | 974 |
-| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 712 |
-| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 711 |
-| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 711 |
-| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 710 |
-| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 665 |
+| 生成 · SP26_S057_v01 F1/seed0 | generate | 12427 |
+| 生成 · SP26_S057_v01 F1/seed1 | generate | 12425 |
+| 生成 · SP26_S057_v01 F5/seed1 | generate | 12419 |
+| 生成 · SP26_S073_v01 F1/seed0 | generate | 7335 |
+| 生成 · SP26_S073_v01 F1/seed1 | generate | 7334 |
+| 生成 · SP26_S074_v01 F1/seed0 | generate | 7214 |
+| 生成 · SP26_S074_v01 F1/seed1 | generate | 7213 |
+| 生成 · SP26_S074_v01 F3/seed1 | generate | 7208 |
+| 生成 · SP26_S075_v01 F1/seed0 | generate | 6221 |
+| 生成 · SP26_S075_v01 F1/seed1 | generate | 6220 |
+| 生成 · SP26_S075_v01 F5/seed0 | generate | 6213 |
+| 生成 · SP26_S075_v01 F5/seed1 | generate | 6212 |
+| 生成 · SP26_S076_v01 F1/seed0 | generate | 5761 |
+| 生成 · SP26_S076_v01 F1/seed1 | generate | 5759 |
+| 生成 · SP26_S076_v01 F2/seed1 | generate | 5757 |
+| 生成 · SP26_S076_v01 F3/seed0 | generate | 5756 |
+| 生成 · SP26_S076_v01 F3/seed1 | generate | 5754 |
+| 生成 · SP26_S076_v01 F5/seed0 | generate | 5753 |
+| 生成 · SP26_S077_v01 F1/seed0 | generate | 5095 |
+| 生成 · SP26_S077_v01 F1/seed1 | generate | 5094 |
+| 生成 · SP26_S077_v01 F2/seed1 | generate | 5092 |
+| 生成 · SP26_S077_v01 F3/seed1 | generate | 5089 |
+| 生成 · SP26_S077_v01 F5/seed0 | generate | 5088 |
+| 生成 · SP26_S077_v01 F5/seed1 | generate | 5086 |
+| 生成 · SP26_S067_v01 F1/seed0 | generate | 4160 |
+| 生成 · SP26_S066_v01 F1/seed0 | generate | 4159 |
+| 生成 · SP26_S067_v01 F1/seed1 | generate | 4158 |
+| 生成 · SP26_S066_v01 F1/seed1 | generate | 4158 |
+| 生成 · SP26_S067_v01 F2/seed0 | generate | 4157 |
+| 生成 · SP26_S066_v01 F2/seed0 | generate | 4157 |
+| 生成 · SP26_S067_v01 F2/seed1 | generate | 4156 |
+| 生成 · SP26_S066_v01 F2/seed1 | generate | 4155 |
+| 生成 · SP26_S067_v01 F3/seed0 | generate | 4155 |
+| 生成 · SP26_S066_v01 F3/seed0 | generate | 4154 |
+| 生成 · SP26_S067_v01 F3/seed1 | generate | 4153 |
+| 生成 · SP26_S066_v01 F3/seed1 | generate | 4153 |
+| 生成 · SP26_S063_v01 F1/seed0 | generate | 4152 |
+| 生成 · SP26_S067_v01 F5/seed0 | generate | 4152 |
+| 生成 · SP26_S066_v01 F5/seed0 | generate | 4151 |
+| 生成 · SP26_S063_v01 F1/seed1 | generate | 4151 |
+| 生成 · SP26_S064_v01 F1/seed0 | generate | 4147 |
+| 生成 · SP26_S064_v01 F1/seed1 | generate | 4146 |
+| 生成 · SP26_S065_v01 F1/seed0 | generate | 4144 |
+| 生成 · SP26_S065_v01 F1/seed1 | generate | 4143 |
+| 生成 · SP26_S078_v01 F1/seed0 | generate | 3793 |
+| 生成 · SP26_S078_v01 F1/seed1 | generate | 3792 |
+| 生成 · SP26_S078_v01 F2/seed0 | generate | 3791 |
+| 生成 · SP26_S078_v01 F2/seed1 | generate | 3789 |
+| 生成 · SP26_S078_v01 F3/seed0 | generate | 3788 |
+| 生成 · SP26_S078_v01 F3/seed1 | generate | 3786 |
+| 生成 · SP26_S078_v01 F5/seed0 | generate | 3785 |
+| 生成 · SP26_S078_v01 F5/seed1 | generate | 3783 |
+| 生成 · SP26_S079_v01 F1/seed0 | generate | 3498 |
+| 生成 · SP26_S079_v01 F1/seed1 | generate | 3497 |
+| 生成 · SP26_S079_v01 F2/seed0 | generate | 3496 |
+| 生成 · SP26_S079_v01 F2/seed1 | generate | 3494 |
+| 生成 · SP26_S079_v01 F3/seed0 | generate | 3493 |
+| 生成 · SP26_S079_v01 F3/seed1 | generate | 3491 |
+| 生成 · SP26_S079_v01 F5/seed0 | generate | 3490 |
+| 生成 · SP26_S079_v01 F5/seed1 | generate | 3489 |
+| 生成 · SP26_S080_v01 F1/seed0 | generate | 2137 |
+| 生成 · SP26_S080_v01 F1/seed1 | generate | 2135 |
+| 生成 · SP26_S080_v01 F2/seed0 | generate | 2134 |
+| 生成 · SP26_S080_v01 F2/seed1 | generate | 2133 |
+| 生成 · SP26_S080_v01 F3/seed0 | generate | 2131 |
+| 生成 · SP26_S080_v01 F3/seed1 | generate | 2130 |
+| 生成 · SP26_S080_v01 F5/seed0 | generate | 2129 |
+| 生成 · SP26_S080_v01 F5/seed1 | generate | 2128 |
+| 生成 · SP26_S081_v01 F1/seed0 | generate | 56 |
+| 生成 · SP26_S081_v01 F1/seed1 | generate | 54 |
+| 生成 · SP26_S081_v01 F2/seed0 | generate | 53 |
+| 生成 · SP26_S081_v01 F2/seed1 | generate | 52 |
+| 生成 · SP26_S081_v01 F3/seed0 | generate | 51 |
+| 生成 · SP26_S081_v01 F3/seed1 | generate | 49 |
+| 生成 · SP26_S081_v01 F5/seed0 | generate | 48 |
+| 生成 · SP26_S081_v01 F5/seed1 | generate | 47 |
+| 生成 · SP26_S081_v01 F6/seed0 | generate | 45 |
+| 生成 · SP26_S081_v01 F6/seed1 | generate | 44 |
+| 评分 · SP26_S061_v01 F1/seed0 | score | 4239 |
+| 评分 · SP26_S061_v01 F1/seed1 | score | 4234 |
+| 评分 · SP26_S063_v01 F2/seed0 | score | 4144 |
+| 评分 · SP26_S064_v01 F2/seed0 | score | 4140 |
+| 评分 · SP26_S064_v01 F2/seed1 | score | 4136 |
+| 评分 · SP26_S065_v01 F2/seed1 | score | 4134 |
+| 评分 · SP26_S064_v01 F3/seed0 | score | 4134 |
+| 评分 · SP26_S063_v01 F3/seed0 | score | 4133 |
+| 评分 · SP26_S065_v01 F3/seed0 | score | 4131 |
+| 评分 · SP26_S064_v01 F3/seed1 | score | 4130 |
+| 评分 · SP26_S065_v01 F3/seed1 | score | 4126 |
+| 评分 · SP26_S063_v01 F3/seed1 | score | 4124 |
+| 评分 · SP26_S073_v01 F3/seed0 | score | 4099 |
+| 评分 · SP26_S073_v01 F2/seed1 | score | 3767 |
+| 评分 · SP26_S073_v01 F2/seed0 | score | 3646 |
+| 评分 · SP26_S075_v01 F3/seed0 | score | 2909 |
+| 评分 · SP26_S076_v01 F2/seed0 | score | 2768 |
+| 评分 · SP26_S073_v01 F3/seed1 | score | 1924 |
+| 评分 · SP26_S077_v01 F3/seed0 | score | 1349 |
+| 评分 · SP26_S075_v01 F2/seed1 | score | 1153 |
+| 评分 · SP26_S071_v02 F1/seed0 | score | 862 |
+| 评分 · SP26_S074_v01 F3/seed0 | score | 697 |
+| 评分 · SP26_S072_v01 F1/seed0 | score | 629 |
+| 评分 · SP26_S071_v02 F1/seed1 | score | 598 |
+| 评分 · SP26_S077_v01 F2/seed0 | score | 463 |
+| 评分 · SP26_S075_v01 F2/seed0 | score | 457 |
+| 评分 · SP26_S075_v01 F3/seed1 | score | 268 |
+| 评分 · SP26_S066_v01 F5/seed1 | score | 244 |
+| 评分 · SP26_S067_v01 F5/seed1 | score | 206 |
+| 评分 · SP26_S072_v01 F1/seed1 | score | 142 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 438580 |
+| 调度/收尾 · task_io_v1 | controller | 12433 |
+| 调度/收尾 · task_io_v1 | controller | 8761 |
+| 调度/收尾 · task_io_v1 | controller | 8693 |
+| 调度/收尾 · task_io_v1 | controller | 7342 |
+| 调度/收尾 · task_io_v1 | controller | 7222 |
+| 调度/收尾 · task_io_v1 | controller | 6228 |
+| 调度/收尾 · task_io_v1 | controller | 5769 |
+| 调度/收尾 · task_io_v1 | controller | 5104 |
+| 调度/收尾 · task_io_v1 | controller | 4284 |
+| 调度/收尾 · task_io_v1 | controller | 4185 |
+| 调度/收尾 · task_io_v1 | controller | 4181 |
+| 调度/收尾 · task_io_v1 | controller | 4177 |
+| 调度/收尾 · task_io_v1 | controller | 4173 |
+| 调度/收尾 · task_io_v1 | controller | 4169 |
+| 调度/收尾 · task_io_v1 | controller | 3804 |
+| 调度/收尾 · task_io_v1 | controller | 3509 |
+| 调度/收尾 · task_io_v1 | controller | 2148 |
+| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 1886 |
+| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 1886 |
+| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 1885 |
+| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 1884 |
+| 调度/收尾 · xzk_final_closeout_exec_v1 | controller | 1840 |
+| 调度/收尾 · task_io_v1 | controller | 65 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -902,42 +903,43 @@
 | V5-232 | SP26_S050_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.223367 | 采用 |
 | V5-233 | XZK26_S215_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_533/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_533/STOP_USER.json |
 | V5-234 | XZK26_S216_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_534/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_534/STOP_USER.json |
-| V5-235 | XZK26_S217_v01 | 等待资源/下一轮：load1 1350.689453125 exceeds original96 | 5/10 | 3/10 | 盲评中 | 等待资源/下一轮：load1 1350.689453125 exceeds original96 |
-| V5-236 | XZK26_S218_v01 | 等待资源/下一轮：load1 1350.689453125 exceeds original96 | 5/10 | 2/10 | 盲评中 | 等待资源/下一轮：load1 1350.689453125 exceeds original96 |
-| V5-237 | XZK26_S219_v01 | 等待资源/下一轮：load1 1336.7001953125 exceeds original96 | 5/10 | 1/10 | 盲评中 | 等待资源/下一轮：load1 1336.7001953125 exceeds original96 |
+| V5-235 | XZK26_S217_v01 | 批次运行中，等待本位置/原有出卡 | 5/10 | 3/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
+| V5-236 | XZK26_S218_v01 | 批次运行中，等待本位置/原有出卡 | 5/10 | 2/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
+| V5-237 | XZK26_S219_v01 | 批次运行中，等待本位置/原有出卡 | 5/10 | 1/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
 | V5-238 | SP26_S051_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.221446 | 采用 |
-| V5-239 | XZK26_S220_v01 | 等待资源/下一轮：load1 1350.689453125 exceeds original96 | 4/10 | 1/10 | 盲评中 | 等待资源/下一轮：load1 1350.689453125 exceeds original96 |
+| V5-239 | XZK26_S220_v01 | 批次运行中，等待本位置/原有出卡 | 4/10 | 1/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
 | V5-240 | SP26_S060_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.220024 | 采用 |
 | V5-241 | SP26_S052_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_025/STOP_USER.json; run/strategies/SP26_S052_v01/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_025/STOP_USER.json; run/strategies/SP26_S052_v01/STOP_USER.json |
-| V5-242 | XZK26_S211_v02 | 等待资源/下一轮：load1 1336.7001953125 exceeds original96 | 1/10 | 1/10 | 盲评中 | 等待资源/下一轮：load1 1336.7001953125 exceeds original96 |
+| V5-242 | XZK26_S211_v02 | 批次运行中，等待本位置/原有出卡 | 1/10 | 1/10 | 盲评中 | 批次运行中，等待本位置/原有出卡 |
 | V5-243 | SP26_S061_v01 | 评分中 | 10/10 | 8/10 | 盲评中 | 评分中 |
 | V5-244 | SP26_S053_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.193889 | 否决 |
 | V5-245 | SP26_S063_v01 | 评分中 | 8/10 | 5/10 | 盲评中 | 评分中 |
 | V5-246 | SP26_S054_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.141945 | 否决 |
 | V5-247 | SP26_S064_v01 | 评分中 | 8/10 | 4/10 | 盲评中 | 评分中 |
 | V5-248 | SP26_S055_v01 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T19:46:51+08:00", "total": 10, "generated": 7, "green": 7, "scored": 4, "positions": [{"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F2/seed0/attempt_2026-11-05T104401_0000_56d731e5", "stamp": "run/strategies/SP26_S055_v01/03_runs/F2/seed0/attempt_2026-11-05T104401_0000_56d731e5/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F2/seed1/attempt_2026-11-05T104402_0000_ac14794d", "stamp": "run/strategies/SP26_S055_v01/03_runs/F2/seed1/attempt_2026-11-05T104402_0000_ac14794d/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F3/seed1/attempt_2026-11-05T104405_0000_83b0117f", "stamp": "run/strategies/SP26_S055_v01/03_runs/F3/seed1/attempt_2026-11-05T104405_0000_83b0117f/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F5", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F5/seed0/attempt_2026-11-05T104411_0000_665ed5bc", "stamp": "run/strategies/SP26_S055_v01/03_runs/F5/seed0/attempt_2026-11-05T104411_0000_665ed5bc/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F5", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F5/seed1/attempt_2026-11-05T104411_0000_2d7a80df", "stamp": "run/strategies/SP26_S055_v01/03_runs/F5/seed1/attempt_2026-11-05T104411_0000_2d7a80df/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F6/seed0/attempt_2026-11-05T104414_0000_f2bb8e8c", "stamp": "run/strategies/SP26_S055_v01/03_runs/F6/seed0/attempt_2026-11-05T104414_0000_f2bb8e8c/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F6/seed1/attempt_2026-11-05T104415_0000_1724e412", "stamp": "run/strategies/SP26_S055_v01/03_runs/F6/seed1/attempt_2026-11-05T104415_0000_1724e412/STAMP.json", "verdict": "GREEN", "score_running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F1_s0_interruption_recovery_v01/1793879076419306749.log"]}, {"case": {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F1_s1_interruption_recovery_v01/1793879077573142579.log"]}, {"case": {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F3_s0_interruption_recovery_v01/1793879084817129059.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') | 7/10 | 4/10 | 盲评中 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T19:46:51+08:00", "total": 10, "generated": 7, "green": 7, "scored": 4, "positions": [{"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F2/seed0/attempt_2026-11-05T104401_0000_56d731e5", "stamp": "run/strategies/SP26_S055_v01/03_runs/F2/seed0/attempt_2026-11-05T104401_0000_56d731e5/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F2/seed1/attempt_2026-11-05T104402_0000_ac14794d", "stamp": "run/strategies/SP26_S055_v01/03_runs/F2/seed1/attempt_2026-11-05T104402_0000_ac14794d/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F3/seed1/attempt_2026-11-05T104405_0000_83b0117f", "stamp": "run/strategies/SP26_S055_v01/03_runs/F3/seed1/attempt_2026-11-05T104405_0000_83b0117f/STAMP.json", "verdict": "GREEN", "score_running": true}, {"strategy_id": "SP26_S055_v01", "fold": "F5", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F5/seed0/attempt_2026-11-05T104411_0000_665ed5bc", "stamp": "run/strategies/SP26_S055_v01/03_runs/F5/seed0/attempt_2026-11-05T104411_0000_665ed5bc/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F5", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F5/seed1/attempt_2026-11-05T104411_0000_2d7a80df", "stamp": "run/strategies/SP26_S055_v01/03_runs/F5/seed1/attempt_2026-11-05T104411_0000_2d7a80df/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F6/seed0/attempt_2026-11-05T104414_0000_f2bb8e8c", "stamp": "run/strategies/SP26_S055_v01/03_runs/F6/seed0/attempt_2026-11-05T104414_0000_f2bb8e8c/STAMP.json", "verdict": "GREEN", "score_running": false}, {"strategy_id": "SP26_S055_v01", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/SP26_S055_v01/03_runs/F6/seed1/attempt_2026-11-05T104415_0000_1724e412", "stamp": "run/strategies/SP26_S055_v01/03_runs/F6/seed1/attempt_2026-11-05T104415_0000_1724e412/STAMP.json", "verdict": "GREEN", "score_running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F1_s0_interruption_recovery_v01/1793879076419306749.log"]}, {"case": {"strategy_id": "SP26_S055_v01", "fold": "F1", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F1_s1_interruption_recovery_v01/1793879077573142579.log"]}, {"case": {"strategy_id": "SP26_S055_v01", "fold": "F3", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_033_SP26_S055_v01_F3_s0_interruption_recovery_v01/1793879084817129059.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') |
-| V5-249 | SP26_S065_v01 | 评分中 | 8/10 | 4/10 | 盲评中 | 评分中 |
+| V5-249 | SP26_S065_v01 | 评分中 | 8/10 | 5/10 | 盲评中 | 评分中 |
 | V5-250 | SP26_S056_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.142787 | 否决 |
-| V5-251 | SP26_S066_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
-| V5-252 | SP26_S057_v01 | 生成中 | 6/10 | 6/10 | 盲评中 | 生成中 |
-| V5-253 | SP26_S067_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
+| V5-251 | SP26_S066_v01 | 评分中 | 3/10 | 2/10 | 盲评中 | 评分中 |
+| V5-252 | SP26_S057_v01 | 生成中 | 7/10 | 7/10 | 盲评中 | 生成中 |
+| V5-253 | SP26_S067_v01 | 评分中 | 3/10 | 2/10 | 盲评中 | 评分中 |
 | V5-254 | SP26_S058_v01 | 已由 SP26_S058_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-255 |
 | V5-255 | SP26_S058_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.219555 | 采用 |
 | V5-256 | SP26_S059_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.185319 | 否决 |
 | V5-257 | SP26_S068_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.213665 | 否决 |
-| V5-258 | SP26_S069_v01 | 评分中 | 10/10 | 8/10 | 盲评中 | 评分中 |
-| V5-259 | SP26_S070_v01 | 评分中 | 10/10 | 8/10 | 盲评中 | 评分中 |
+| V5-258 | SP26_S069_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.223155 | 采用 |
+| V5-259 | SP26_S070_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.219753 | 采用 |
 | V5-260 | SP26_S071_v01 | 已停止（见原始停止凭据）：已记录停止指令；run/E20261105_045/STOP_USER.json; run/strategies/SP26_S071_v01/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止（见原始停止凭据）：已记录停止指令；run/E20261105_045/STOP_USER.json; run/strategies/SP26_S071_v01/STOP_USER.json |
-| V5-261 | SP26_S071_v02 | 评分中 | 8/10 | 6/10 | 盲评中 | 评分中 |
-| V5-262 | SP26_S072_v01 | 生成中 | 8/10 | 8/10 | 盲评中 | 生成中 |
+| V5-261 | SP26_S071_v02 | 评分中 | 10/10 | 8/10 | 盲评中 | 评分中 |
+| V5-262 | SP26_S072_v01 | 评分中 | 10/10 | 8/10 | 盲评中 | 评分中 |
 | V5-263 | SP26_S073_v01 | 评分中 | 8/10 | 4/10 | 盲评中 | 评分中 |
-| V5-264 | SP26_S074_v01 | 评分中 | 6/10 | 4/10 | 盲评中 | 评分中 |
-| V5-265 | SP26_S075_v01 | 评分中 | 4/10 | 2/10 | 盲评中 | 评分中 |
+| V5-264 | SP26_S074_v01 | 评分中 | 7/10 | 6/10 | 盲评中 | 评分中 |
+| V5-265 | SP26_S075_v01 | 评分中 | 6/10 | 2/10 | 盲评中 | 评分中 |
 | V5-266 | SP26_S076_v01 | 评分中 | 4/10 | 3/10 | 盲评中 | 评分中 |
-| V5-267 | SP26_S077_v01 | 评分中 | 3/10 | 2/10 | 盲评中 | 评分中 |
+| V5-267 | SP26_S077_v01 | 评分中 | 4/10 | 2/10 | 盲评中 | 评分中 |
 | V5-268 | SP26_S078_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
 | V5-269 | SP26_S079_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
-| V5-270 | SP26_S080_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
+| V5-270 | SP26_S080_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
+| V5-271 | SP26_S081_v01 | 生成中 | 0/10 | 0/10 | 盲评中 | 生成中 |
 
 </details>
 
@@ -953,6 +955,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-scoring-anomaly-audit-v5`；快照SHA256：`e972a09bc1cc7ae3d68e89b6b143cd991d773af2ae3927a4867d6ec0e00ae735`。
+采集版本：`20261105-scoring-anomaly-audit-v5`；快照SHA256：`657e595eea9537eb9348e35932568b0eded9744d66217b00148cc59e5c0fd49e`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
