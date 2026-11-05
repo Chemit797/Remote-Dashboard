@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-05T16:51:48+08:00（北京时间）**
+**采集时间：2026-11-05T16:57:32+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 260 个，独立归档 8 个；采集时进程记录 21 条（生成 12、评分 2）。
+登记策略 261 个，独立归档 8 个；采集时进程记录 22 条（生成 11、评分 2）。
 
 ## 当前轮次
 
@@ -93,9 +93,9 @@
 | E20261105_018 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T07:43:10.224126+08:00 |
 | E20261105_019 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T10:53:44.127353+08:00 |
 | E20261105_020 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-05T15:54:53.744412+08:00 |
-| E20261105_021 | 10/10 | 10/10 | 8/10 | 0/1 | 2026-11-05T16:51:17.381912+08:00 |
-| E20261105_022 | 8/10 | 8/10 | 8/10 | 0/1 | 2026-11-05T16:51:39.972311+08:00 |
-| E20261105_023 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T16:51:50.209798+08:00 |
+| E20261105_021 | 10/10 | 10/10 | 10/10 | 0/1 | 2026-11-05T16:57:23.816786+08:00 |
+| E20261105_022 | 8/10 | 8/10 | 8/10 | 0/1 | 2026-11-05T16:57:27.525888+08:00 |
+| E20261105_023 | 2/10 | 2/10 | 2/10 | 0/1 | 2026-11-05T16:57:43.739199+08:00 |
 | E20261105_501 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T07:43:10.189266+08:00 |
 | E20261105_502 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T08:59:44.393230+08:00 |
 | E20261105_503 | 5/10 | 5/10 | 5/10 | 0/1 | 2026-11-05T08:08:46.010969+08:00 |
@@ -126,15 +126,15 @@
 | E20261105_528 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T14:59:09.236197+08:00 |
 | E20261105_529 | 7/10 | 7/10 | 7/10 | 0/1 | 2026-11-05T16:06:12.016302+08:00 |
 | E20261105_530 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T15:46:12.723935+08:00 |
-| E20261105_531 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T16:51:07.912515+08:00 |
-| E20261105_532 | 3/10 | 3/10 | 1/10 | 0/1 | 2026-11-05T16:51:36.301429+08:00 |
-| E20261105_533 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T16:51:42.800277+08:00 |
-| E20261105_534 | 0/10 | 0/10 | 0/10 | 0/1 | — |
+| E20261105_531 | 5/10 | 5/10 | 3/10 | 0/1 | 2026-11-05T16:56:56.650333+08:00 |
+| E20261105_532 | 4/10 | 4/10 | 1/10 | 0/1 | 2026-11-05T16:57:15.722730+08:00 |
+| E20261105_533 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T16:57:22.426313+08:00 |
+| E20261105_534 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-05T16:56:57.555854+08:00 |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-05：预测 **340** 份，GREEN 340，RED 0，未盖章 0；实际评分 **319** 份（含已替代旧测量 0 份）；完整成绩单 **13** 份。
+2026-11-05：预测 **341** 份，GREEN 341，RED 0，未盖章 0；实际评分 **322** 份（含已替代旧测量 0 份）；完整成绩单 **13** 份。
 
 新成绩单：SP26_S027_v02、SP26_S036_v01、SP26_S037_v01、SP26_S038_v01、SP26_S039_v01、SP26_S040_v01、SP26_S041_v01、SP26_S042_v01、SP26_S043_v03、SP26_S044_v01、SP26_S046_v01、SP26_S047_v01、SP26_S048_v02。
 
@@ -180,35 +180,35 @@
 
 - E20261103_014：已停止，需重启；failure evidence: run/strategies/XZK26_S102_v01/STOP_RED.json
 
-- E20261103_015：已停止，需重启；用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json
+- E20261103_015：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261103_015/STOP_USER.json
 
-- E20261103_017：已停止，需重启；用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json
+- E20261103_017：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261103_017/STOP_USER.json
 
-- E20261104_001：已停止，需重启；用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json
+- E20261104_001：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_001/STOP_USER.json
 
 - E20261104_002：成绩单与GREEN封存已齐
 
-- E20261104_003：已停止，需重启；用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json
+- E20261104_003：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_003/STOP_USER.json
 
 - E20261104_004：已停止，需重启；RuntimeError('{"created_bjt": "2026-11-04T04:44:37+08:00", "preflight_ok": true, "planned_total": 30, "total": 30, "generated": 19, "green": 19, "scored": 18, "positions": [{"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed0/attempt_2026-11-03T174253_0000_6bba6480"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed0/attempt_2026-11-03T184107_0000_8d5a4776"}, {"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed1/attempt_2026-11-03T174254_0000_a04d38d5"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed1/attempt_2026-11-03T184113_0000_0687f2b7"}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F6/seed0/attempt_2026-11-03T172703_0000_e1eef48b"}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed0/attempt_2026-11-03T175929_0000_5bd5104a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed0/attempt_2026-11-03T184129_0000_6e0439ef"}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed1/attempt_2026-11-03T175930_0000_8f6725fb"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed1/attempt_2026-11-03T184136_0000_a541d4d2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed0/attempt_2026-11-03T193647_0000_85552de8"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed1/attempt_2026-11-03T193648_0000_2ef30f3a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed0/attempt_2026-11-03T202756_0000_107d21b2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed1/attempt_2026-11-03T202759_0000_72f9d45e"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed0/attempt_2026-11-03T184135_0000_ced6a730"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed0/attempt_2026-11-03T185857_0000_69bfb3df"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed1/attempt_2026-11-03T185857_0000_d62b6379"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed1/attempt_2026-11-03T185858_0000_6d72ff36"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed0/attempt_2026-11-03T195025_0000_73e363a3"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed1/attempt_2026-11-03T195025_0000_6b84f377"}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0}, "phase": "generation", "reason": "prior ended without CURRENT; inspect original log", "logs": ["run/logs/round2_scorepush_E20261104_004_XZK26_S128_v01_F5_s0/1793737664271030490.log"]}], "status": "failed_retained", "goal_screening": {"XZK26_S127_v01": {"strategy_id": "XZK26_S127_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_primary_goal_guards", "allowed_folds": ["F1", "F2"], "paired_d": {"F1": 0.00043614471259489224, "F2": -0.00036926560856963275}, "reasons": ["F2 mean paired delta is negative; predeclared goal guard fails", "Neither primary fold reaches the predeclared 2-sigma adoption condition"]}, "XZK26_S128_v01": {"strategy_id": "XZK26_S128_v01", "scientific_card_complete": false, "screen_only": true, "status": "validate_small_positive_component", "allowed_folds": ["F1", "F2", "F3", "F5", "F6"], "paired_d": {"F1": 0.002992305786507783, "F2": 3.054130524486609e-05, "F3": -0.0004503494536954311}, "delta_mean3": 0.0008574992126857394, "per_seed_delta_mean3": {"0": 0.0010016412663627072, "1": 0.0007133571590087715}, "reasons": ["Mean paired gain is below the explicit backup threshold"], "goal_status": "screened_out_three_fold_goal", "goal_reasons": ["Mean paired gain is below the explicit backup threshold"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": true, "F3_guard": true, "not_single_metric_only": true}, "provisional_tier": "component_only_below_backup", "component_research_only": true, "goal_qualified": false}, "XZK26_S129_v01": {"strategy_id": "XZK26_S129_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_three_fold_goal", "allowed_folds": ["F1", "F2", "F3"], "paired_d": {"F1": 0.003586101312525944, "F2": 0.0011933485792530174, "F3": -0.004347906381791972}, "delta_mean3": 0.0001438478366623299, "per_seed_delta_mean3": {"0": 0.0007189955368143985, "1": -0.00043129986348973876}, "reasons": ["Mean paired gain is below the explicit backup threshold", "Both seed-specific mean gains are not positive"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": false, "F3_guard": true, "not_single_metric_only": false}}}}')
 
 - E20261104_005：已停止，需重启；failure evidence: run/strategies/SP26_S019_v01/STOP_RED.json
 
-- E20261104_006：已停止，需重启；用户停止文件：run/E20261104_006/STOP_USER.json; run/E20261104_006/STOP_USER.json
+- E20261104_006：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_006/STOP_USER.json
 
 - E20261104_007：成绩单与GREEN封存已齐
 
-- E20261104_008：已停止，需重启；用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json
+- E20261104_008：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_008/STOP_USER.json
 
-- E20261104_009：已停止，需重启；用户停止文件：run/E20261104_009/STOP_USER.json; run/E20261104_009/STOP_USER.json
+- E20261104_009：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_009/STOP_USER.json
 
-- E20261104_011：已停止，需重启；用户停止文件：run/E20261104_011/STOP_USER.json; run/E20261104_011/STOP_USER.json
+- E20261104_011：已停止（见原始停止凭据）；已记录停止指令；run/E20261104_011/STOP_USER.json
 
 - E20261104_012：成绩单与GREEN封存已齐
 
 - E20261104_013：已停止，需重启；RuntimeError('existing executor failed rc=1; run/E20261104_013/run_to_completion_1793763897266715474_existing_executor.log')
 
-- E20261104_014：已停止，需重启；用户停止文件：run/E20261104_014/STOP_USER.json; run/E20261104_014/STOP_USER.json
+- E20261104_014：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_014/STOP_USER.json
 
 - E20261104_015：成绩单与GREEN封存已齐
 
@@ -216,7 +216,7 @@
 
 - E20261104_017：成绩单与GREEN封存已齐
 
-- E20261104_019：已停止，需重启；用户停止文件：run/E20261104_019/STOP_USER.json; run/E20261104_019/STOP_USER.json
+- E20261104_019：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_019/STOP_USER.json
 
 - E20261104_020：成绩单与GREEN封存已齐
 
@@ -230,13 +230,13 @@
 
 - E20261104_025：成绩单与GREEN封存已齐
 
-- E20261104_026：已停止，需重启；RuntimeError('no fresh successful server archive receipt')
+- E20261104_026：成绩及GREEN已齐；批次收尾未完成；RuntimeError('no fresh successful server archive receipt')
 
 - E20261104_027：成绩单与GREEN封存已齐
 
-- E20261104_028：已停止，需重启；用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json
+- E20261104_028：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_028/STOP_USER.json
 
-- E20261104_029：已停止，需重启；用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json
+- E20261104_029：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261104_029/STOP_USER.json
 
 - E20261104_030：成绩单与GREEN封存已齐
 
@@ -256,7 +256,7 @@
 
 - E20261104_038：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-04T23:22:23+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S043_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S043_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S043_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S043_v01", "fold": "F2", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261104_038_SP26_S043_v01_F2_s0/1793805434716991948.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
-- E20261104_039：已停止，需重启；RuntimeError('no fresh successful server archive receipt')
+- E20261104_039：成绩及GREEN已齐；批次收尾未完成；RuntimeError('no fresh successful server archive receipt')
 
 - E20261104_040：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T00:20:40+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S043_v02", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S043_v02", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S043_v02", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S043_v02", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [{"kind": "generation", "case": {"strategy_id": "SP26_S043_v02", "fold": "F3", "seed": 0}, "launch": {"pid": 2637776, "argv": ["work/.venv/bin/python", "run/tools/resource_policy_exec_v1.py", "run/tools/round2_generate_worker.py", "SP26_S043_v02", "F3", "0"], "log": "run/logs/round2_scorepush_E20261104_040_SP26_S043_v02_F3_s0/1793809240512400905.log", "started_epoch": 1793809240.5136435, "operational_resource_policy": "run/RESOURCE_POLICY_v1.json"}}], "errors": [{"case": {"strategy_id": "SP26_S043_v02", "fold": "F2", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261104_040_SP26_S043_v02_F2_s0/1793808933608656721.log"]}, {"case": {"strategy_id": "SP26_S043_v02", "fold": "F2", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261104_040_SP26_S043_v02_F2_s1/1793808933704462786.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}')
 
@@ -268,111 +268,111 @@
 
 - E20261105_004：成绩单与GREEN封存已齐
 
-- E20261105_006：已停止，需重启；用户停止文件：run/E20261105_006/STOP_USER.json; run/E20261105_006/STOP_USER.json
+- E20261105_006：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_006/STOP_USER.json
 
-- E20261105_007：已停止，需重启；用户停止文件：run/E20261105_007/STOP_USER.json; run/E20261105_007/STOP_USER.json
+- E20261105_007：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_007/STOP_USER.json
 
-- E20261105_008：已停止，需重启；用户停止文件：run/E20261105_008/STOP_USER.json; run/E20261105_008/STOP_USER.json
+- E20261105_008：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_008/STOP_USER.json
 
-- E20261105_009：已停止，需重启；用户停止文件：run/E20261105_009/STOP_USER.json; run/E20261105_009/STOP_USER.json
+- E20261105_009：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_009/STOP_USER.json
 
-- E20261105_010：已停止，需重启；用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json
+- E20261105_010：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_010/STOP_USER.json
 
-- E20261105_011：已停止，需重启；用户停止文件：run/E20261105_011/STOP_USER.json; run/E20261105_011/STOP_USER.json
+- E20261105_011：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_011/STOP_USER.json
 
-- E20261105_012：已停止，需重启；用户停止文件：run/E20261105_012/STOP_USER.json; run/E20261105_012/STOP_USER.json
+- E20261105_012：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_012/STOP_USER.json
 
-- E20261105_013：已停止，需重启；用户停止文件：run/E20261105_013/STOP_USER.json; run/E20261105_013/STOP_USER.json
+- E20261105_013：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_013/STOP_USER.json
 
-- E20261105_014：已停止，需重启；用户停止文件：run/E20261105_014/STOP_USER.json; run/E20261105_014/STOP_USER.json
+- E20261105_014：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_014/STOP_USER.json
 
-- E20261105_015：已停止，需重启；用户停止文件：run/E20261105_015/STOP_USER.json; run/E20261105_015/STOP_USER.json
+- E20261105_015：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_015/STOP_USER.json
 
-- E20261105_016：已停止，需重启；用户停止文件：run/E20261105_016/STOP_USER.json; run/E20261105_016/STOP_USER.json
+- E20261105_016：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_016/STOP_USER.json
 
-- E20261105_017：已停止，需重启；用户停止文件：run/E20261105_017/STOP_USER.json; run/E20261105_017/STOP_USER.json
+- E20261105_017：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_017/STOP_USER.json
 
-- E20261105_018：已停止，需重启；用户停止文件：run/E20261105_018/STOP_USER.json; run/E20261105_018/STOP_USER.json
+- E20261105_018：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_018/STOP_USER.json
 
 - E20261105_019：成绩单与GREEN封存已齐
 
 - E20261105_020：成绩单与GREEN封存已齐
 
-- E20261105_021：等待资源/下一轮：existing batch workers/finalizer active: [3947441, 3944600]；existing batch workers/finalizer active: [3947441, 3944600]
+- E20261105_021：等待资源/下一轮：existing batch workers/finalizer active: [3956264]；existing batch workers/finalizer active: [3956264]
 
 - E20261105_022：等待资源/下一轮：existing batch workers/finalizer active: [3926953, 3926959]；existing batch workers/finalizer active: [3926953, 3926959]
 
-- E20261105_023：等待资源/下一轮：existing batch workers/finalizer active: [3950687, 3946964, 3946975, 3947019, 3947025, 3947076, 3947096, 3947115, 3947128]；existing batch workers/finalizer active: [3950687, 3946964, 3946975, 3947019, 3947025, 3947076, 3947096, 3947115, 3947128]
+- E20261105_023：批次运行中
 
-- E20261105_501：已停止，需重启；用户停止文件：run/E20261105_501/STOP_USER.json; run/E20261105_501/STOP_USER.json
+- E20261105_501：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_501/STOP_USER.json
 
-- E20261105_502：已停止，需重启；用户停止文件：run/E20261105_502/STOP_USER.json; run/E20261105_502/STOP_USER.json
+- E20261105_502：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_502/STOP_USER.json
 
-- E20261105_503：已停止，需重启；用户停止文件：run/E20261105_503/STOP_USER.json; run/E20261105_503/STOP_USER.json
+- E20261105_503：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_503/STOP_USER.json
 
-- E20261105_504：已停止，需重启；用户停止文件：run/E20261105_504/STOP_USER.json; run/E20261105_504/STOP_USER.json
+- E20261105_504：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_504/STOP_USER.json
 
-- E20261105_505：已停止，需重启；用户停止文件：run/E20261105_505/STOP_USER.json; run/E20261105_505/STOP_USER.json
+- E20261105_505：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_505/STOP_USER.json
 
-- E20261105_506：已停止，需重启；用户停止文件：run/E20261105_506/STOP_USER.json; run/E20261105_506/STOP_USER.json
+- E20261105_506：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_506/STOP_USER.json
 
-- E20261105_507：已停止，需重启；用户停止文件：run/E20261105_507/STOP_USER.json; run/E20261105_507/STOP_USER.json
+- E20261105_507：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_507/STOP_USER.json
 
-- E20261105_508：已停止，需重启；用户停止文件：run/E20261105_508/STOP_USER.json; run/E20261105_508/STOP_USER.json
+- E20261105_508：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_508/STOP_USER.json
 
-- E20261105_509：已停止，需重启；用户停止文件：run/E20261105_509/STOP_USER.json; run/E20261105_509/STOP_USER.json
+- E20261105_509：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_509/STOP_USER.json
 
-- E20261105_510：已停止，需重启；用户停止文件：run/E20261105_510/STOP_USER.json; run/E20261105_510/STOP_USER.json
+- E20261105_510：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_510/STOP_USER.json
 
-- E20261105_511：已停止，需重启；用户停止文件：run/E20261105_511/STOP_USER.json; run/E20261105_511/STOP_USER.json
+- E20261105_511：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_511/STOP_USER.json
 
-- E20261105_512：已停止，需重启；用户停止文件：run/E20261105_512/STOP_USER.json; run/E20261105_512/STOP_USER.json
+- E20261105_512：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_512/STOP_USER.json
 
-- E20261105_513：已停止，需重启；用户停止文件：run/E20261105_513/STOP_USER.json; run/E20261105_513/STOP_USER.json
+- E20261105_513：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_513/STOP_USER.json
 
-- E20261105_514：已停止，需重启；用户停止文件：run/E20261105_514/STOP_USER.json; run/E20261105_514/STOP_USER.json
+- E20261105_514：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_514/STOP_USER.json
 
-- E20261105_515：已停止，需重启；用户停止文件：run/E20261105_515/STOP_USER.json; run/E20261105_515/STOP_USER.json
+- E20261105_515：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_515/STOP_USER.json
 
-- E20261105_516：已停止，需重启；用户停止文件：run/E20261105_516/STOP_USER.json; run/E20261105_516/STOP_USER.json
+- E20261105_516：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_516/STOP_USER.json
 
-- E20261105_517：已停止，需重启；用户停止文件：run/E20261105_517/STOP_USER.json; run/E20261105_517/STOP_USER.json
+- E20261105_517：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_517/STOP_USER.json
 
-- E20261105_518：已停止，需重启；用户停止文件：run/E20261105_518/STOP_USER.json; run/E20261105_518/STOP_USER.json
+- E20261105_518：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_518/STOP_USER.json
 
-- E20261105_519：已停止，需重启；用户停止文件：run/E20261105_519/STOP_USER.json; run/E20261105_519/STOP_USER.json
+- E20261105_519：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_519/STOP_USER.json
 
-- E20261105_520：已停止，需重启；用户停止文件：run/E20261105_520/STOP_USER.json; run/E20261105_520/STOP_USER.json; run/strategies/XZK26_S204_v01/STOP_USER.json
+- E20261105_520：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_520/STOP_USER.json; run/strategies/XZK26_S204_v01/STOP_USER.json
 
-- E20261105_521：已停止，需重启；用户停止文件：run/E20261105_521/STOP_USER.json; run/E20261105_521/STOP_USER.json; run/strategies/XZK26_S205_v01/STOP_USER.json
+- E20261105_521：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_521/STOP_USER.json; run/strategies/XZK26_S205_v01/STOP_USER.json
 
-- E20261105_522：已停止，需重启；用户停止文件：run/E20261105_522/STOP_USER.json; run/E20261105_522/STOP_USER.json
+- E20261105_522：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_522/STOP_USER.json
 
-- E20261105_523：已停止，需重启；用户停止文件：run/E20261105_523/STOP_USER.json; run/E20261105_523/STOP_USER.json
+- E20261105_523：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_523/STOP_USER.json
 
-- E20261105_524：已停止，需重启；用户停止文件：run/E20261105_524/STOP_USER.json; run/E20261105_524/STOP_USER.json
+- E20261105_524：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_524/STOP_USER.json
 
-- E20261105_525：已停止，需重启；用户停止文件：run/E20261105_525/STOP_USER.json; run/E20261105_525/STOP_USER.json
+- E20261105_525：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_525/STOP_USER.json
 
-- E20261105_526：已停止，需重启；用户停止文件：run/E20261105_526/STOP_USER.json; run/E20261105_526/STOP_USER.json
+- E20261105_526：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_526/STOP_USER.json
 
-- E20261105_527：已停止，需重启；用户停止文件：run/E20261105_527/STOP_USER.json; run/E20261105_527/STOP_USER.json
+- E20261105_527：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_527/STOP_USER.json
 
-- E20261105_528：已停止，需重启；用户停止文件：run/E20261105_528/STOP_USER.json; run/E20261105_528/STOP_USER.json
+- E20261105_528：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_528/STOP_USER.json
 
-- E20261105_529：已停止，需重启；用户停止文件：run/E20261105_529/STOP_USER.json; run/E20261105_529/STOP_USER.json
+- E20261105_529：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_529/STOP_USER.json
 
-- E20261105_530：已停止，需重启；用户停止文件：run/E20261105_530/STOP_USER.json; run/E20261105_530/STOP_USER.json
+- E20261105_530：已按早停规则停止（保留部分评分）；agent按预设早停规则结束；run/E20261105_530/STOP_USER.json
 
-- E20261105_531：等待资源/下一轮：load1 138.5263671875 exceeds original96；load1 138.5263671875 exceeds original96
+- E20261105_531：等待资源/下一轮：load1 99.78564453125 exceeds original96；load1 99.78564453125 exceeds original96
 
 - E20261105_532：批次运行中
 
-- E20261105_533：等待资源/下一轮：load1 146.48193359375 exceeds original96；load1 146.48193359375 exceeds original96
+- E20261105_533：等待资源/下一轮：load1 101.29833984375 exceeds original96；load1 101.29833984375 exceeds original96
 
-- E20261105_534：已停止，需重启；未完成且没有活进程
+- E20261105_534：等待资源/下一轮：load1 99.78564453125 exceeds original96；load1 99.78564453125 exceeds original96
 
-- public_repo_trials_E20261103_034：已停止，需重启；未完成且没有活进程
+- public_repo_trials_E20261103_034：成绩及GREEN已齐；批次收尾未完成；未完成且没有活进程
 
 ## 今日实验、预检与分析记录
 
@@ -383,27 +383,28 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S049_v01 F1/seed0 | generate | 2414 |
-| 生成 · SP26_S049_v01 F1/seed1 | generate | 2413 |
-| 生成 · XZK26_S214_v01 F1/seed0 | generate | 402 |
-| 生成 · XZK26_S214_v01 F1/seed1 | generate | 399 |
-| 生成 · SP26_S050_v01 F1/seed0 | generate | 373 |
-| 生成 · SP26_S050_v01 F1/seed1 | generate | 372 |
-| 生成 · SP26_S050_v01 F2/seed0 | generate | 371 |
-| 生成 · SP26_S050_v01 F2/seed1 | generate | 370 |
-| 生成 · SP26_S050_v01 F3/seed0 | generate | 369 |
-| 生成 · SP26_S050_v01 F3/seed1 | generate | 368 |
-| 生成 · SP26_S050_v01 F5/seed0 | generate | 367 |
-| 生成 · SP26_S050_v01 F5/seed1 | generate | 365 |
-| 评分 · SP26_S048_v03 F1/seed0 | score | 529 |
-| 评分 · SP26_S048_v03 F1/seed1 | score | 357 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 415798 |
-| 调度/收尾 · task_io_v1 | controller | 4990 |
-| 调度/收尾 · task_io_v1 | controller | 2422 |
-| 调度/收尾 · task_io_v1 | controller | 1206 |
-| 调度/收尾 · task_io_v1 | controller | 845 |
-| 调度/收尾 · task_io_v1 | controller | 380 |
-| 调度/收尾 · task_io_v1 | controller | 166 |
+| 生成 · SP26_S049_v01 F1/seed0 | generate | 2755 |
+| 生成 · SP26_S049_v01 F1/seed1 | generate | 2754 |
+| 生成 · XZK26_S214_v01 F1/seed1 | generate | 740 |
+| 生成 · SP26_S050_v01 F1/seed0 | generate | 714 |
+| 生成 · SP26_S050_v01 F1/seed1 | generate | 713 |
+| 生成 · SP26_S050_v01 F2/seed0 | generate | 712 |
+| 生成 · SP26_S050_v01 F2/seed1 | generate | 710 |
+| 生成 · SP26_S050_v01 F3/seed0 | generate | 709 |
+| 生成 · SP26_S050_v01 F3/seed1 | generate | 708 |
+| 生成 · SP26_S050_v01 F5/seed0 | generate | 707 |
+| 生成 · SP26_S050_v01 F5/seed1 | generate | 706 |
+| 评分 · XZK26_S214_v01 F2/seed1 | score | 273 |
+| 评分 · XZK26_S214_v01 F2/seed0 | score | 94 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 416138 |
+| 调度/收尾 · task_io_v1 | controller | 5331 |
+| 调度/收尾 · task_io_v1 | controller | 2762 |
+| 调度/收尾 · task_io_v1 | controller | 1547 |
+| 调度/收尾 · task_io_v1 | controller | 1185 |
+| 调度/收尾 · task_io_v1 | controller | 720 |
+| 调度/收尾 · task_io_v1 | controller | 507 |
+| 调度/收尾 · task_io_v1 | controller | 328 |
+| 调度/收尾 · finalize_batch | controller | 21 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -525,12 +526,12 @@
 | V5-79 | XZK26_S107_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-80 | XZK26_S108_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-81 | XZK26_S109_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-82 | XZK26_S110_v01 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json |
-| V5-83 | XZK26_S111_v01 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json |
-| V5-84 | XZK26_S112_v01 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json |
-| V5-85 | XZK26_S113_v01 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json |
-| V5-86 | XZK26_S114_v01 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json |
-| V5-87 | XZK26_S115_v01 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_015/STOP_USER.json; run/E20261103_015/STOP_USER.json |
+| V5-82 | XZK26_S110_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json |
+| V5-83 | XZK26_S111_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json |
+| V5-84 | XZK26_S112_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json |
+| V5-85 | XZK26_S113_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json |
+| V5-86 | XZK26_S114_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json |
+| V5-87 | XZK26_S115_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_015/STOP_USER.json |
 | V5-88 | PR26_C10_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.209783 | 不确定 |
 | V5-89 | PR26_C11_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210191 | 不确定 |
 | V5-90 | PR26_C05_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.210476 | 不确定 |
@@ -538,49 +539,49 @@
 | V5-92 | XZK26_S117_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-93 | XZK26_S118_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-94 | XZK26_S119_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-95 | XZK26_S116_v02 | 已停止，需重启：用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json |
-| V5-96 | XZK26_S117_v02 | 已停止，需重启：用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json |
-| V5-97 | XZK26_S118_v02 | 已停止，需重启：用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json |
-| V5-98 | XZK26_S119_v02 | 已停止，需重启：用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json | 4/10 | 2/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261103_017/STOP_USER.json; run/E20261103_017/STOP_USER.json |
-| V5-99 | XZK26_S007_v03 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json |
-| V5-100 | XZK26_S102_v03 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json |
-| V5-101 | XZK26_S103_v02 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json |
-| V5-102 | XZK26_S120_v01 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json |
-| V5-103 | XZK26_S121_v01 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_001/STOP_USER.json; run/E20261104_001/STOP_USER.json |
+| V5-95 | XZK26_S116_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_017/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_017/STOP_USER.json |
+| V5-96 | XZK26_S117_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_017/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_017/STOP_USER.json |
+| V5-97 | XZK26_S118_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_017/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_017/STOP_USER.json |
+| V5-98 | XZK26_S119_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_017/STOP_USER.json | 4/10 | 2/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261103_017/STOP_USER.json |
+| V5-99 | XZK26_S007_v03 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json |
+| V5-100 | XZK26_S102_v03 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json |
+| V5-101 | XZK26_S103_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json |
+| V5-102 | XZK26_S120_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json |
+| V5-103 | XZK26_S121_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_001/STOP_USER.json |
 | V5-104 | SP26_S017_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.074985 | 否决 |
-| V5-105 | XZK26_S122_v01 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json |
-| V5-106 | XZK26_S123_v01 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json |
-| V5-107 | XZK26_S124_v01 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json |
-| V5-108 | XZK26_S125_v01 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json |
-| V5-109 | XZK26_S126_v01 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_003/STOP_USER.json; run/E20261104_003/STOP_USER.json |
+| V5-105 | XZK26_S122_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json |
+| V5-106 | XZK26_S123_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json |
+| V5-107 | XZK26_S124_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json |
+| V5-108 | XZK26_S125_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json |
+| V5-109 | XZK26_S126_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_003/STOP_USER.json |
 | V5-110 | XZK26_S127_v01 | 已停止，需重启：RuntimeError('{"created_bjt": "2026-11-04T04:44:37+08:00", "preflight_ok": true, "planned_total": 30, "total": 30, "generated": 19, "green": 19, "scored": 18, "positions": [{"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed0/attempt_2026-11-03T174253_0000_6bba6480"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed0/attempt_2026-11-03T184107_0000_8d5a4776"}, {"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed1/attempt_2026-11-03T174254_0000_a04d38d5"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed1/attempt_2026-11-03T184113_0000_0687f2b7"}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F6/seed0/attempt_2026-11-03T172703_0000_e1eef48b"}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed0/attempt_2026-11-03T175929_0000_5bd5104a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed0/attempt_2026-11-03T184129_0000_6e0439ef"}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed1/attempt_2026-11-03T175930_0000_8f6725fb"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed1/attempt_2026-11-03T184136_0000_a541d4d2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed0/attempt_2026-11-03T193647_0000_85552de8"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed1/attempt_2026-11-03T193648_0000_2ef30f3a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed0/attempt_2026-11-03T202756_0000_107d21b2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed1/attempt_2026-11-03T202759_0000_72f9d45e"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed0/attempt_2026-11-03T184135_0000_ced6a730"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed0/attempt_2026-11-03T185857_0000_69bfb3df"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed1/attempt_2026-11-03T185857_0000_d62b6379"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed1/attempt_2026-11-03T185858_0000_6d72ff36"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed0/attempt_2026-11-03T195025_0000_73e363a3"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed1/attempt_2026-11-03T195025_0000_6b84f377"}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0}, "phase": "generation", "reason": "prior ended without CURRENT; inspect original log", "logs": ["run/logs/round2_scorepush_E20261104_004_XZK26_S128_v01_F5_s0/1793737664271030490.log"]}], "status": "failed_retained", "goal_screening": {"XZK26_S127_v01": {"strategy_id": "XZK26_S127_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_primary_goal_guards", "allowed_folds": ["F1", "F2"], "paired_d": {"F1": 0.00043614471259489224, "F2": -0.00036926560856963275}, "reasons": ["F2 mean paired delta is negative; predeclared goal guard fails", "Neither primary fold reaches the predeclared 2-sigma adoption condition"]}, "XZK26_S128_v01": {"strategy_id": "XZK26_S128_v01", "scientific_card_complete": false, "screen_only": true, "status": "validate_small_positive_component", "allowed_folds": ["F1", "F2", "F3", "F5", "F6"], "paired_d": {"F1": 0.002992305786507783, "F2": 3.054130524486609e-05, "F3": -0.0004503494536954311}, "delta_mean3": 0.0008574992126857394, "per_seed_delta_mean3": {"0": 0.0010016412663627072, "1": 0.0007133571590087715}, "reasons": ["Mean paired gain is below the explicit backup threshold"], "goal_status": "screened_out_three_fold_goal", "goal_reasons": ["Mean paired gain is below the explicit backup threshold"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": true, "F3_guard": true, "not_single_metric_only": true}, "provisional_tier": "component_only_below_backup", "component_research_only": true, "goal_qualified": false}, "XZK26_S129_v01": {"strategy_id": "XZK26_S129_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_three_fold_goal", "allowed_folds": ["F1", "F2", "F3"], "paired_d": {"F1": 0.003586101312525944, "F2": 0.0011933485792530174, "F3": -0.004347906381791972}, "delta_mean3": 0.0001438478366623299, "per_seed_delta_mean3": {"0": 0.0007189955368143985, "1": -0.00043129986348973876}, "reasons": ["Mean paired gain is below the explicit backup threshold", "Both seed-specific mean gains are not positive"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": false, "F3_guard": true, "not_single_metric_only": false}}}}') | 5/10 | 5/10 | 盲评中 | 已停止，需重启：RuntimeError('{"created_bjt": "2026-11-04T04:44:37+08:00", "preflight_ok": true, "planned_total": 30, "total": 30, "generated": 19, "green": 19, "scored": 18, "positions": [{"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed0/attempt_2026-11-03T174253_0000_6bba6480"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed0/attempt_2026-11-03T184107_0000_8d5a4776"}, {"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed1/attempt_2026-11-03T174254_0000_a04d38d5"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed1/attempt_2026-11-03T184113_0000_0687f2b7"}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F6/seed0/attempt_2026-11-03T172703_0000_e1eef48b"}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed0/attempt_2026-11-03T175929_0000_5bd5104a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed0/attempt_2026-11-03T184129_0000_6e0439ef"}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed1/attempt_2026-11-03T175930_0000_8f6725fb"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed1/attempt_2026-11-03T184136_0000_a541d4d2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed0/attempt_2026-11-03T193647_0000_85552de8"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed1/attempt_2026-11-03T193648_0000_2ef30f3a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed0/attempt_2026-11-03T202756_0000_107d21b2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed1/attempt_2026-11-03T202759_0000_72f9d45e"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed0/attempt_2026-11-03T184135_0000_ced6a730"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed0/attempt_2026-11-03T185857_0000_69bfb3df"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed1/attempt_2026-11-03T185857_0000_d62b6379"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed1/attempt_2026-11-03T185858_0000_6d72ff36"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed0/attempt_2026-11-03T195025_0000_73e363a3"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed1/attempt_2026-11-03T195025_0000_6b84f377"}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0}, "phase": "generation", "reason": "prior ended without CURRENT; inspect original log", "logs": ["run/logs/round2_scorepush_E20261104_004_XZK26_S128_v01_F5_s0/1793737664271030490.log"]}], "status": "failed_retained", "goal_screening": {"XZK26_S127_v01": {"strategy_id": "XZK26_S127_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_primary_goal_guards", "allowed_folds": ["F1", "F2"], "paired_d": {"F1": 0.00043614471259489224, "F2": -0.00036926560856963275}, "reasons": ["F2 mean paired delta is negative; predeclared goal guard fails", "Neither primary fold reaches the predeclared 2-sigma adoption condition"]}, "XZK26_S128_v01": {"strategy_id": "XZK26_S128_v01", "scientific_card_complete": false, "screen_only": true, "status": "validate_small_positive_component", "allowed_folds": ["F1", "F2", "F3", "F5", "F6"], "paired_d": {"F1": 0.002992305786507783, "F2": 3.054130524486609e-05, "F3": -0.0004503494536954311}, "delta_mean3": 0.0008574992126857394, "per_seed_delta_mean3": {"0": 0.0010016412663627072, "1": 0.0007133571590087715}, "reasons": ["Mean paired gain is below the explicit backup threshold"], "goal_status": "screened_out_three_fold_goal", "goal_reasons": ["Mean paired gain is below the explicit backup threshold"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": true, "F3_guard": true, "not_single_metric_only": true}, "provisional_tier": "component_only_below_backup", "component_research_only": true, "goal_qualified": false}, "XZK26_S129_v01": {"strategy_id": "XZK26_S129_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_three_fold_goal", "allowed_folds": ["F1", "F2", "F3"], "paired_d": {"F1": 0.003586101312525944, "F2": 0.0011933485792530174, "F3": -0.004347906381791972}, "delta_mean3": 0.0001438478366623299, "per_seed_delta_mean3": {"0": 0.0007189955368143985, "1": -0.00043129986348973876}, "reasons": ["Mean paired gain is below the explicit backup threshold", "Both seed-specific mean gains are not positive"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": false, "F3_guard": true, "not_single_metric_only": false}}}}') |
 | V5-111 | XZK26_S128_v01 | 已由 XZK26_S128_v02 接续 | 8/10 | 7/10 | 盲评中 | 已换成 V5-131 |
 | V5-112 | XZK26_S129_v01 | 已停止，需重启：RuntimeError('{"created_bjt": "2026-11-04T04:44:37+08:00", "preflight_ok": true, "planned_total": 30, "total": 30, "generated": 19, "green": 19, "scored": 18, "positions": [{"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed0/attempt_2026-11-03T174253_0000_6bba6480"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed0/attempt_2026-11-03T184107_0000_8d5a4776"}, {"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed1/attempt_2026-11-03T174254_0000_a04d38d5"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed1/attempt_2026-11-03T184113_0000_0687f2b7"}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F6/seed0/attempt_2026-11-03T172703_0000_e1eef48b"}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed0/attempt_2026-11-03T175929_0000_5bd5104a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed0/attempt_2026-11-03T184129_0000_6e0439ef"}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed1/attempt_2026-11-03T175930_0000_8f6725fb"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed1/attempt_2026-11-03T184136_0000_a541d4d2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed0/attempt_2026-11-03T193647_0000_85552de8"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed1/attempt_2026-11-03T193648_0000_2ef30f3a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed0/attempt_2026-11-03T202756_0000_107d21b2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed1/attempt_2026-11-03T202759_0000_72f9d45e"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed0/attempt_2026-11-03T184135_0000_ced6a730"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed0/attempt_2026-11-03T185857_0000_69bfb3df"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed1/attempt_2026-11-03T185857_0000_d62b6379"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed1/attempt_2026-11-03T185858_0000_6d72ff36"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed0/attempt_2026-11-03T195025_0000_73e363a3"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed1/attempt_2026-11-03T195025_0000_6b84f377"}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0}, "phase": "generation", "reason": "prior ended without CURRENT; inspect original log", "logs": ["run/logs/round2_scorepush_E20261104_004_XZK26_S128_v01_F5_s0/1793737664271030490.log"]}], "status": "failed_retained", "goal_screening": {"XZK26_S127_v01": {"strategy_id": "XZK26_S127_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_primary_goal_guards", "allowed_folds": ["F1", "F2"], "paired_d": {"F1": 0.00043614471259489224, "F2": -0.00036926560856963275}, "reasons": ["F2 mean paired delta is negative; predeclared goal guard fails", "Neither primary fold reaches the predeclared 2-sigma adoption condition"]}, "XZK26_S128_v01": {"strategy_id": "XZK26_S128_v01", "scientific_card_complete": false, "screen_only": true, "status": "validate_small_positive_component", "allowed_folds": ["F1", "F2", "F3", "F5", "F6"], "paired_d": {"F1": 0.002992305786507783, "F2": 3.054130524486609e-05, "F3": -0.0004503494536954311}, "delta_mean3": 0.0008574992126857394, "per_seed_delta_mean3": {"0": 0.0010016412663627072, "1": 0.0007133571590087715}, "reasons": ["Mean paired gain is below the explicit backup threshold"], "goal_status": "screened_out_three_fold_goal", "goal_reasons": ["Mean paired gain is below the explicit backup threshold"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": true, "F3_guard": true, "not_single_metric_only": true}, "provisional_tier": "component_only_below_backup", "component_research_only": true, "goal_qualified": false}, "XZK26_S129_v01": {"strategy_id": "XZK26_S129_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_three_fold_goal", "allowed_folds": ["F1", "F2", "F3"], "paired_d": {"F1": 0.003586101312525944, "F2": 0.0011933485792530174, "F3": -0.004347906381791972}, "delta_mean3": 0.0001438478366623299, "per_seed_delta_mean3": {"0": 0.0007189955368143985, "1": -0.00043129986348973876}, "reasons": ["Mean paired gain is below the explicit backup threshold", "Both seed-specific mean gains are not positive"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": false, "F3_guard": true, "not_single_metric_only": false}}}}') | 6/10 | 6/10 | 盲评中 | 已停止，需重启：RuntimeError('{"created_bjt": "2026-11-04T04:44:37+08:00", "preflight_ok": true, "planned_total": 30, "total": 30, "generated": 19, "green": 19, "scored": 18, "positions": [{"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed0/attempt_2026-11-03T174253_0000_6bba6480"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed0/attempt_2026-11-03T184107_0000_8d5a4776"}, {"strategy_id": "XZK26_S127_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F2/seed1/attempt_2026-11-03T174254_0000_a04d38d5"}, {"strategy_id": "XZK26_S127_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F1/seed1/attempt_2026-11-03T184113_0000_0687f2b7"}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S127_v01/03_runs/F6/seed0/attempt_2026-11-03T172703_0000_e1eef48b"}, {"strategy_id": "XZK26_S127_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed0/attempt_2026-11-03T175929_0000_5bd5104a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed0/attempt_2026-11-03T184129_0000_6e0439ef"}, {"strategy_id": "XZK26_S128_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F2/seed1/attempt_2026-11-03T175930_0000_8f6725fb"}, {"strategy_id": "XZK26_S128_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F1/seed1/attempt_2026-11-03T184136_0000_a541d4d2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed0/attempt_2026-11-03T193647_0000_85552de8"}, {"strategy_id": "XZK26_S128_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F3/seed1/attempt_2026-11-03T193648_0000_2ef30f3a"}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed0/attempt_2026-11-03T202756_0000_107d21b2"}, {"strategy_id": "XZK26_S128_v01", "fold": "F6", "seed": 1, "generated": true, "green": true, "scored": false, "running": false, "attempt": "run/strategies/XZK26_S128_v01/03_runs/F6/seed1/attempt_2026-11-03T202759_0000_72f9d45e"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed0/attempt_2026-11-03T184135_0000_ced6a730"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed0/attempt_2026-11-03T185857_0000_69bfb3df"}, {"strategy_id": "XZK26_S129_v01", "fold": "F2", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F2/seed1/attempt_2026-11-03T185857_0000_d62b6379"}, {"strategy_id": "XZK26_S129_v01", "fold": "F1", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F1/seed1/attempt_2026-11-03T185858_0000_6d72ff36"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 0, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed0/attempt_2026-11-03T195025_0000_73e363a3"}, {"strategy_id": "XZK26_S129_v01", "fold": "F3", "seed": 1, "generated": true, "green": true, "scored": true, "running": false, "attempt": "run/strategies/XZK26_S129_v01/03_runs/F3/seed1/attempt_2026-11-03T195025_0000_6b84f377"}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "XZK26_S129_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "XZK26_S128_v01", "fold": "F5", "seed": 0}, "phase": "generation", "reason": "prior ended without CURRENT; inspect original log", "logs": ["run/logs/round2_scorepush_E20261104_004_XZK26_S128_v01_F5_s0/1793737664271030490.log"]}], "status": "failed_retained", "goal_screening": {"XZK26_S127_v01": {"strategy_id": "XZK26_S127_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_primary_goal_guards", "allowed_folds": ["F1", "F2"], "paired_d": {"F1": 0.00043614471259489224, "F2": -0.00036926560856963275}, "reasons": ["F2 mean paired delta is negative; predeclared goal guard fails", "Neither primary fold reaches the predeclared 2-sigma adoption condition"]}, "XZK26_S128_v01": {"strategy_id": "XZK26_S128_v01", "scientific_card_complete": false, "screen_only": true, "status": "validate_small_positive_component", "allowed_folds": ["F1", "F2", "F3", "F5", "F6"], "paired_d": {"F1": 0.002992305786507783, "F2": 3.054130524486609e-05, "F3": -0.0004503494536954311}, "delta_mean3": 0.0008574992126857394, "per_seed_delta_mean3": {"0": 0.0010016412663627072, "1": 0.0007133571590087715}, "reasons": ["Mean paired gain is below the explicit backup threshold"], "goal_status": "screened_out_three_fold_goal", "goal_reasons": ["Mean paired gain is below the explicit backup threshold"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": true, "F3_guard": true, "not_single_metric_only": true}, "provisional_tier": "component_only_below_backup", "component_research_only": true, "goal_qualified": false}, "XZK26_S129_v01": {"strategy_id": "XZK26_S129_v01", "scientific_card_complete": false, "screen_only": true, "status": "screened_out_three_fold_goal", "allowed_folds": ["F1", "F2", "F3"], "paired_d": {"F1": 0.003586101312525944, "F2": 0.0011933485792530174, "F3": -0.004347906381791972}, "delta_mean3": 0.0001438478366623299, "per_seed_delta_mean3": {"0": 0.0007189955368143985, "1": -0.00043129986348973876}, "reasons": ["Mean paired gain is below the explicit backup threshold", "Both seed-specific mean gains are not positive"], "component_validation_checks": {"positive_mean3": true, "both_seed_positive": false, "F3_guard": true, "not_single_metric_only": false}}}}') |
-| V5-113 | XZK26_S130_v01 | 已停止，需重启：用户停止文件：run/E20261104_006/STOP_USER.json; run/E20261104_006/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_006/STOP_USER.json; run/E20261104_006/STOP_USER.json |
-| V5-114 | XZK26_S131_v01 | 已停止，需重启：用户停止文件：run/E20261104_006/STOP_USER.json; run/E20261104_006/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_006/STOP_USER.json; run/E20261104_006/STOP_USER.json |
-| V5-115 | XZK26_S132_v01 | 已停止，需重启：用户停止文件：run/E20261104_006/STOP_USER.json; run/E20261104_006/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_006/STOP_USER.json; run/E20261104_006/STOP_USER.json |
+| V5-113 | XZK26_S130_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_006/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_006/STOP_USER.json |
+| V5-114 | XZK26_S131_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_006/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_006/STOP_USER.json |
+| V5-115 | XZK26_S132_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_006/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_006/STOP_USER.json |
 | V5-116 | SP26_S019_v01 | 已由 SP26_S019_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-118 |
 | V5-117 | SP26_S020_v01 | 已由 SP26_S020_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-119 |
 | V5-118 | SP26_S019_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.073665 | 否决 |
 | V5-119 | SP26_S020_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.047181 | 否决 |
-| V5-120 | XZK26_S133_v01 | 已停止，需重启：用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json |
-| V5-121 | XZK26_S134_v01 | 已停止，需重启：用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json |
-| V5-122 | XZK26_S135_v01 | 已停止，需重启：用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json |
-| V5-123 | XZK26_S136_v01 | 已停止，需重启：用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_008/STOP_USER.json; run/E20261104_008/STOP_USER.json |
-| V5-124 | XZK26_S137_v01 | 已停止，需重启：用户停止文件：run/E20261104_009/STOP_USER.json; run/E20261104_009/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_009/STOP_USER.json; run/E20261104_009/STOP_USER.json |
-| V5-125 | XZK26_S138_v01 | 已停止，需重启：用户停止文件：run/E20261104_009/STOP_USER.json; run/E20261104_009/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_009/STOP_USER.json; run/E20261104_009/STOP_USER.json |
+| V5-120 | XZK26_S133_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_008/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_008/STOP_USER.json |
+| V5-121 | XZK26_S134_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_008/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_008/STOP_USER.json |
+| V5-122 | XZK26_S135_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_008/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_008/STOP_USER.json |
+| V5-123 | XZK26_S136_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_008/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_008/STOP_USER.json |
+| V5-124 | XZK26_S137_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_009/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_009/STOP_USER.json |
+| V5-125 | XZK26_S138_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_009/STOP_USER.json | 4/10 | 4/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_009/STOP_USER.json |
 | V5-126 | XZK26_S139_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-127 | XZK26_S140_v01 | 已停止，需重启：用户停止文件：run/E20261104_011/STOP_USER.json; run/E20261104_011/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_011/STOP_USER.json; run/E20261104_011/STOP_USER.json |
-| V5-128 | XZK26_S141_v01 | 已停止，需重启：用户停止文件：run/E20261104_011/STOP_USER.json; run/E20261104_011/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_011/STOP_USER.json; run/E20261104_011/STOP_USER.json |
+| V5-127 | XZK26_S140_v01 | 已停止（见原始停止凭据）：已记录停止指令；run/E20261104_011/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止（见原始停止凭据）：已记录停止指令；run/E20261104_011/STOP_USER.json |
+| V5-128 | XZK26_S141_v01 | 已停止（见原始停止凭据）：已记录停止指令；run/E20261104_011/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止（见原始停止凭据）：已记录停止指令；run/E20261104_011/STOP_USER.json |
 | V5-129 | XZK26_S142_v01 | 已由 XZK26_S142_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-133 |
-| V5-130 | XZK26_S143_v01 | 已停止，需重启：用户停止文件：run/E20261104_011/STOP_USER.json; run/E20261104_011/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_011/STOP_USER.json; run/E20261104_011/STOP_USER.json |
+| V5-130 | XZK26_S143_v01 | 已停止（见原始停止凭据）：已记录停止指令；run/E20261104_011/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止（见原始停止凭据）：已记录停止指令；run/E20261104_011/STOP_USER.json |
 | V5-131 | XZK26_S128_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.210934 | 采用 |
 | V5-132 | XZK26_S140_v02 | 已停止，需重启：RuntimeError('existing executor failed rc=1; run/E20261104_013/run_to_completion_1793763897266715474_existing_executor.log') | 5/10 | 5/10 | 盲评中 | 已停止，需重启：RuntimeError('existing executor failed rc=1; run/E20261104_013/run_to_completion_1793763897266715474_existing_executor.log') |
 | V5-133 | XZK26_S142_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.221219 | 采用 |
 | V5-134 | XZK26_S144_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 | V5-135 | XZK26_S145_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-136 | XZK26_S144_v02 | 已停止，需重启：用户停止文件：run/E20261104_014/STOP_USER.json; run/E20261104_014/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_014/STOP_USER.json; run/E20261104_014/STOP_USER.json |
-| V5-137 | XZK26_S145_v02 | 已停止，需重启：用户停止文件：run/E20261104_014/STOP_USER.json; run/E20261104_014/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_014/STOP_USER.json; run/E20261104_014/STOP_USER.json |
+| V5-136 | XZK26_S144_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_014/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_014/STOP_USER.json |
+| V5-137 | XZK26_S145_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_014/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_014/STOP_USER.json |
 | V5-138 | XZK26_S152_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.211187 | 采用 |
 | V5-139 | XZK26_S155_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.211113 | 采用 |
 | V5-140 | SP26_S022_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.043736 | 否决 |
@@ -588,7 +589,7 @@
 | V5-142 | SP26_S024_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.034457 | 否决 |
 | V5-143 | XZK26_S158_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.220382 | 不确定 |
 | V5-144 | XZK26_S159_v01 | 待派发（当前无活进程） | 1/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
-| V5-145 | XZK26_S160_v01 | 已停止，需重启：用户停止文件：run/E20261104_019/STOP_USER.json; run/E20261104_019/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_019/STOP_USER.json; run/E20261104_019/STOP_USER.json |
+| V5-145 | XZK26_S160_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_019/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_019/STOP_USER.json |
 | V5-146 | XZK26_S153_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.219575 | 采用 |
 | V5-147 | XZK26_S154_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.221238 | 采用 |
 | V5-148 | XZK26_S156_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.218923 | 采用 |
@@ -597,14 +598,14 @@
 | V5-151 | XZK26_S162_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.219396 | 采用 |
 | V5-152 | SP26_S025_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.174163 | 否决 |
 | V5-153 | SP26_S026_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.178207 | 否决 |
-| V5-154 | XZK26_S163_v01 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json |
-| V5-155 | XZK26_S164_v01 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json |
-| V5-156 | XZK26_S165_v01 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json | 7/10 | 7/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json |
-| V5-157 | XZK26_S166_v01 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json |
-| V5-158 | XZK26_S167_v01 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json |
-| V5-159 | XZK26_S168_v01 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_028/STOP_USER.json; run/E20261104_028/STOP_USER.json |
-| V5-160 | XZK26_S169_v01 | 已停止，需重启：用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json |
-| V5-161 | XZK26_S170_v01 | 已停止，需重启：用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261104_029/STOP_USER.json; run/E20261104_029/STOP_USER.json |
+| V5-154 | XZK26_S163_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json |
+| V5-155 | XZK26_S164_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json |
+| V5-156 | XZK26_S165_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json | 7/10 | 7/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json |
+| V5-157 | XZK26_S166_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json |
+| V5-158 | XZK26_S167_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json |
+| V5-159 | XZK26_S168_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_028/STOP_USER.json |
+| V5-160 | XZK26_S169_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_029/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_029/STOP_USER.json |
+| V5-161 | XZK26_S170_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_029/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261104_029/STOP_USER.json |
 | V5-162 | DX26_S211_v01 | 已由 DX26_S211_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-172 |
 | V5-163 | DX26_S212_v01 | 已由 DX26_S212_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-173 |
 | V5-164 | DX26_S213_v01 | 已由 DX26_S213_v02 接续 | 0/10 | 0/10 | 盲评中 | 已换成 V5-174 |
@@ -626,58 +627,59 @@
 | V5-180 | SP26_S045_v01 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') | 0/10 | 0/10 | 盲评中 | 已停止，需重启：RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-05T02:20:21+08:00", "total": 10, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": true}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 0}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s0/1793816114182280972.log"]}, {"case": {"strategy_id": "SP26_S045_v01", "fold": "F6", "seed": 1}, "phase": "generation", "reason": "Native worker ended without CURRENT; preserve failure", "logs": ["run/logs/round2_scorepush_E20261105_002_SP26_S045_v01_F6_s1/1793816115280132164.log"]}], "storage_workflow_scope": "score_push_20261103", "storage_limits_disabled": true, "status": "failed_retained"}') |
 | V5-181 | SP26_S043_v03 | 成绩单已齐 | 10/10 | 10/10 | -0.028964 | 否决 |
 | V5-182 | SP26_S046_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.142037 | 否决 |
-| V5-183 | XZK26_S171_v01 | 已停止，需重启：用户停止文件：run/E20261105_006/STOP_USER.json; run/E20261105_006/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_006/STOP_USER.json; run/E20261105_006/STOP_USER.json |
-| V5-184 | XZK26_S173_v01 | 已停止，需重启：用户停止文件：run/E20261105_007/STOP_USER.json; run/E20261105_007/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_007/STOP_USER.json; run/E20261105_007/STOP_USER.json |
-| V5-185 | XZK26_S174_v01 | 已停止，需重启：用户停止文件：run/E20261105_008/STOP_USER.json; run/E20261105_008/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_008/STOP_USER.json; run/E20261105_008/STOP_USER.json |
-| V5-186 | XZK26_S175_v01 | 已停止，需重启：用户停止文件：run/E20261105_009/STOP_USER.json; run/E20261105_009/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_009/STOP_USER.json; run/E20261105_009/STOP_USER.json |
-| V5-187 | XZK26_S176_v01 | 已停止，需重启：用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_010/STOP_USER.json; run/E20261105_010/STOP_USER.json |
-| V5-188 | XZK26_S177_v01 | 已停止，需重启：用户停止文件：run/E20261105_011/STOP_USER.json; run/E20261105_011/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_011/STOP_USER.json; run/E20261105_011/STOP_USER.json |
-| V5-189 | XZK26_S178_v01 | 已停止，需重启：用户停止文件：run/E20261105_012/STOP_USER.json; run/E20261105_012/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_012/STOP_USER.json; run/E20261105_012/STOP_USER.json |
-| V5-190 | XZK26_S179_v01 | 已停止，需重启：用户停止文件：run/E20261105_013/STOP_USER.json; run/E20261105_013/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_013/STOP_USER.json; run/E20261105_013/STOP_USER.json |
-| V5-191 | XZK26_S180_v01 | 已停止，需重启：用户停止文件：run/E20261105_014/STOP_USER.json; run/E20261105_014/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_014/STOP_USER.json; run/E20261105_014/STOP_USER.json |
-| V5-192 | XZK26_S181_v01 | 已停止，需重启：用户停止文件：run/E20261105_015/STOP_USER.json; run/E20261105_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_015/STOP_USER.json; run/E20261105_015/STOP_USER.json |
-| V5-193 | XZK26_S182_v01 | 已停止，需重启：用户停止文件：run/E20261105_016/STOP_USER.json; run/E20261105_016/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_016/STOP_USER.json; run/E20261105_016/STOP_USER.json |
-| V5-194 | XZK26_S183_v01 | 已停止，需重启：用户停止文件：run/E20261105_017/STOP_USER.json; run/E20261105_017/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_017/STOP_USER.json; run/E20261105_017/STOP_USER.json |
-| V5-195 | XZK26_S184_v01 | 已停止，需重启：用户停止文件：run/E20261105_018/STOP_USER.json; run/E20261105_018/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_018/STOP_USER.json; run/E20261105_018/STOP_USER.json |
-| V5-196 | XZK26_S185_v01 | 已停止，需重启：用户停止文件：run/E20261105_501/STOP_USER.json; run/E20261105_501/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_501/STOP_USER.json; run/E20261105_501/STOP_USER.json |
-| V5-197 | XZK26_S186_v01 | 已停止，需重启：用户停止文件：run/E20261105_502/STOP_USER.json; run/E20261105_502/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_502/STOP_USER.json; run/E20261105_502/STOP_USER.json |
-| V5-198 | XZK26_S187_v01 | 已停止，需重启：用户停止文件：run/E20261105_503/STOP_USER.json; run/E20261105_503/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_503/STOP_USER.json; run/E20261105_503/STOP_USER.json |
-| V5-199 | XZK26_S188_v01 | 已停止，需重启：用户停止文件：run/E20261105_504/STOP_USER.json; run/E20261105_504/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_504/STOP_USER.json; run/E20261105_504/STOP_USER.json |
-| V5-200 | XZK26_S189_v01 | 已停止，需重启：用户停止文件：run/E20261105_505/STOP_USER.json; run/E20261105_505/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_505/STOP_USER.json; run/E20261105_505/STOP_USER.json |
+| V5-183 | XZK26_S171_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_006/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_006/STOP_USER.json |
+| V5-184 | XZK26_S173_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_007/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_007/STOP_USER.json |
+| V5-185 | XZK26_S174_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_008/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_008/STOP_USER.json |
+| V5-186 | XZK26_S175_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_009/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_009/STOP_USER.json |
+| V5-187 | XZK26_S176_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_010/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_010/STOP_USER.json |
+| V5-188 | XZK26_S177_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_011/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_011/STOP_USER.json |
+| V5-189 | XZK26_S178_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_012/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_012/STOP_USER.json |
+| V5-190 | XZK26_S179_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_013/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_013/STOP_USER.json |
+| V5-191 | XZK26_S180_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_014/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_014/STOP_USER.json |
+| V5-192 | XZK26_S181_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_015/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_015/STOP_USER.json |
+| V5-193 | XZK26_S182_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_016/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_016/STOP_USER.json |
+| V5-194 | XZK26_S183_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_017/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_017/STOP_USER.json |
+| V5-195 | XZK26_S184_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_018/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_018/STOP_USER.json |
+| V5-196 | XZK26_S185_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_501/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_501/STOP_USER.json |
+| V5-197 | XZK26_S186_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_502/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_502/STOP_USER.json |
+| V5-198 | XZK26_S187_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_503/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_503/STOP_USER.json |
+| V5-199 | XZK26_S188_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_504/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_504/STOP_USER.json |
+| V5-200 | XZK26_S189_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_505/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_505/STOP_USER.json |
 | V5-201 | SP26_S047_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.145511 | 否决 |
-| V5-202 | XZK26_S190_v01 | 已停止，需重启：用户停止文件：run/E20261105_506/STOP_USER.json; run/E20261105_506/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_506/STOP_USER.json; run/E20261105_506/STOP_USER.json |
-| V5-203 | XZK26_S191_v01 | 已停止，需重启：用户停止文件：run/E20261105_507/STOP_USER.json; run/E20261105_507/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_507/STOP_USER.json; run/E20261105_507/STOP_USER.json |
-| V5-204 | XZK26_S192_v01 | 已停止，需重启：用户停止文件：run/E20261105_508/STOP_USER.json; run/E20261105_508/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_508/STOP_USER.json; run/E20261105_508/STOP_USER.json |
-| V5-205 | XZK26_S193_v01 | 已停止，需重启：用户停止文件：run/E20261105_509/STOP_USER.json; run/E20261105_509/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_509/STOP_USER.json; run/E20261105_509/STOP_USER.json |
-| V5-206 | XZK26_S194_v01 | 已停止，需重启：用户停止文件：run/E20261105_510/STOP_USER.json; run/E20261105_510/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_510/STOP_USER.json; run/E20261105_510/STOP_USER.json |
-| V5-207 | XZK26_S195_v01 | 已停止，需重启：用户停止文件：run/E20261105_511/STOP_USER.json; run/E20261105_511/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_511/STOP_USER.json; run/E20261105_511/STOP_USER.json |
-| V5-208 | XZK26_S196_v01 | 已停止，需重启：用户停止文件：run/E20261105_512/STOP_USER.json; run/E20261105_512/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_512/STOP_USER.json; run/E20261105_512/STOP_USER.json |
-| V5-209 | XZK26_S197_v01 | 已停止，需重启：用户停止文件：run/E20261105_513/STOP_USER.json; run/E20261105_513/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_513/STOP_USER.json; run/E20261105_513/STOP_USER.json |
-| V5-210 | XZK26_S198_v01 | 已停止，需重启：用户停止文件：run/E20261105_514/STOP_USER.json; run/E20261105_514/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_514/STOP_USER.json; run/E20261105_514/STOP_USER.json |
-| V5-211 | XZK26_S199_v01 | 已停止，需重启：用户停止文件：run/E20261105_515/STOP_USER.json; run/E20261105_515/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_515/STOP_USER.json; run/E20261105_515/STOP_USER.json |
-| V5-212 | XZK26_S200_v01 | 已停止，需重启：用户停止文件：run/E20261105_516/STOP_USER.json; run/E20261105_516/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_516/STOP_USER.json; run/E20261105_516/STOP_USER.json |
-| V5-213 | XZK26_S201_v01 | 已停止，需重启：用户停止文件：run/E20261105_517/STOP_USER.json; run/E20261105_517/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_517/STOP_USER.json; run/E20261105_517/STOP_USER.json |
-| V5-214 | XZK26_S202_v01 | 已停止，需重启：用户停止文件：run/E20261105_518/STOP_USER.json; run/E20261105_518/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_518/STOP_USER.json; run/E20261105_518/STOP_USER.json |
-| V5-215 | XZK26_S203_v01 | 已停止，需重启：用户停止文件：run/E20261105_519/STOP_USER.json; run/E20261105_519/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_519/STOP_USER.json; run/E20261105_519/STOP_USER.json |
-| V5-216 | XZK26_S204_v01 | 已停止，需重启：用户停止文件：run/E20261105_520/STOP_USER.json; run/E20261105_520/STOP_USER.json; run/strategies/XZK26_S204_v01/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_520/STOP_USER.json; run/E20261105_520/STOP_USER.json; run/strategies/XZK26_S204_v01/STOP_USER.json |
-| V5-217 | XZK26_S205_v01 | 已停止，需重启：用户停止文件：run/E20261105_521/STOP_USER.json; run/E20261105_521/STOP_USER.json; run/strategies/XZK26_S205_v01/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_521/STOP_USER.json; run/E20261105_521/STOP_USER.json; run/strategies/XZK26_S205_v01/STOP_USER.json |
-| V5-218 | XZK26_S204_v02 | 已停止，需重启：用户停止文件：run/E20261105_525/STOP_USER.json; run/E20261105_525/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_525/STOP_USER.json; run/E20261105_525/STOP_USER.json |
-| V5-219 | XZK26_S205_v02 | 已停止，需重启：用户停止文件：run/E20261105_526/STOP_USER.json; run/E20261105_526/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_526/STOP_USER.json; run/E20261105_526/STOP_USER.json |
-| V5-220 | XZK26_S206_v01 | 已停止，需重启：用户停止文件：run/E20261105_522/STOP_USER.json; run/E20261105_522/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_522/STOP_USER.json; run/E20261105_522/STOP_USER.json |
-| V5-221 | XZK26_S207_v01 | 已停止，需重启：用户停止文件：run/E20261105_523/STOP_USER.json; run/E20261105_523/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_523/STOP_USER.json; run/E20261105_523/STOP_USER.json |
-| V5-222 | XZK26_S208_v01 | 已停止，需重启：用户停止文件：run/E20261105_524/STOP_USER.json; run/E20261105_524/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_524/STOP_USER.json; run/E20261105_524/STOP_USER.json |
-| V5-223 | XZK26_S209_v01 | 已停止，需重启：用户停止文件：run/E20261105_527/STOP_USER.json; run/E20261105_527/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_527/STOP_USER.json; run/E20261105_527/STOP_USER.json |
-| V5-224 | XZK26_S210_v01 | 已停止，需重启：用户停止文件：run/E20261105_528/STOP_USER.json; run/E20261105_528/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_528/STOP_USER.json; run/E20261105_528/STOP_USER.json |
+| V5-202 | XZK26_S190_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_506/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_506/STOP_USER.json |
+| V5-203 | XZK26_S191_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_507/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_507/STOP_USER.json |
+| V5-204 | XZK26_S192_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_508/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_508/STOP_USER.json |
+| V5-205 | XZK26_S193_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_509/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_509/STOP_USER.json |
+| V5-206 | XZK26_S194_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_510/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_510/STOP_USER.json |
+| V5-207 | XZK26_S195_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_511/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_511/STOP_USER.json |
+| V5-208 | XZK26_S196_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_512/STOP_USER.json | 3/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_512/STOP_USER.json |
+| V5-209 | XZK26_S197_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_513/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_513/STOP_USER.json |
+| V5-210 | XZK26_S198_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_514/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_514/STOP_USER.json |
+| V5-211 | XZK26_S199_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_515/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_515/STOP_USER.json |
+| V5-212 | XZK26_S200_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_516/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_516/STOP_USER.json |
+| V5-213 | XZK26_S201_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_517/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_517/STOP_USER.json |
+| V5-214 | XZK26_S202_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_518/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_518/STOP_USER.json |
+| V5-215 | XZK26_S203_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_519/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_519/STOP_USER.json |
+| V5-216 | XZK26_S204_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_520/STOP_USER.json; run/strategies/XZK26_S204_v01/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_520/STOP_USER.json; run/strategies/XZK26_S204_v01/STOP_USER.json |
+| V5-217 | XZK26_S205_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_521/STOP_USER.json; run/strategies/XZK26_S205_v01/STOP_USER.json | 0/10 | 0/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_521/STOP_USER.json; run/strategies/XZK26_S205_v01/STOP_USER.json |
+| V5-218 | XZK26_S204_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_525/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_525/STOP_USER.json |
+| V5-219 | XZK26_S205_v02 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_526/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_526/STOP_USER.json |
+| V5-220 | XZK26_S206_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_522/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_522/STOP_USER.json |
+| V5-221 | XZK26_S207_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_523/STOP_USER.json | 5/10 | 5/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_523/STOP_USER.json |
+| V5-222 | XZK26_S208_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_524/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_524/STOP_USER.json |
+| V5-223 | XZK26_S209_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_527/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_527/STOP_USER.json |
+| V5-224 | XZK26_S210_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_528/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_528/STOP_USER.json |
 | V5-225 | SP26_S048_v02 | 成绩单已齐 | 10/10 | 10/10 | 0.221428 | 采用 |
-| V5-226 | XZK26_S211_v01 | 已停止，需重启：用户停止文件：run/E20261105_529/STOP_USER.json; run/E20261105_529/STOP_USER.json | 7/10 | 7/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_529/STOP_USER.json; run/E20261105_529/STOP_USER.json |
-| V5-227 | XZK26_S212_v01 | 已停止，需重启：用户停止文件：run/E20261105_530/STOP_USER.json; run/E20261105_530/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已停止，需重启：用户停止文件：run/E20261105_530/STOP_USER.json; run/E20261105_530/STOP_USER.json |
-| V5-228 | SP26_S048_v03 | 评分中 | 10/10 | 8/10 | 盲评中 | 评分中 |
+| V5-226 | XZK26_S211_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_529/STOP_USER.json | 7/10 | 7/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_529/STOP_USER.json |
+| V5-227 | XZK26_S212_v01 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_530/STOP_USER.json | 5/10 | 3/10 | 盲评中 | 已按早停规则停止（保留部分评分）：agent按预设早停规则结束；run/E20261105_530/STOP_USER.json |
+| V5-228 | SP26_S048_v03 | 等待资源/下一轮：existing batch workers/finalizer active: [3956264] | 10/10 | 10/10 | 盲评中 | 等待资源/下一轮：existing batch workers/finalizer active: [3956264] |
 | V5-229 | SP26_S049_v01 | 生成中 | 8/10 | 8/10 | 盲评中 | 生成中 |
-| V5-230 | XZK26_S213_v01 | 等待资源/下一轮：load1 138.5263671875 exceeds original96 | 5/10 | 3/10 | 盲评中 | 等待资源/下一轮：load1 138.5263671875 exceeds original96 |
-| V5-231 | XZK26_S214_v01 | 生成中 | 3/10 | 1/10 | 盲评中 | 生成中 |
+| V5-230 | XZK26_S213_v01 | 等待资源/下一轮：load1 99.78564453125 exceeds original96 | 5/10 | 3/10 | 盲评中 | 等待资源/下一轮：load1 99.78564453125 exceeds original96 |
+| V5-231 | XZK26_S214_v01 | 评分中 | 4/10 | 1/10 | 盲评中 | 评分中 |
 | V5-232 | SP26_S050_v01 | 生成中 | 2/10 | 2/10 | 盲评中 | 生成中 |
-| V5-233 | XZK26_S215_v01 | 等待资源/下一轮：load1 146.48193359375 exceeds original96 | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：load1 146.48193359375 exceeds original96 |
-| V5-234 | XZK26_S216_v01 | 已停止，需重启：未完成且没有活进程 | 0/10 | 0/10 | 盲评中 | 已停止，需重启：未完成且没有活进程 |
+| V5-233 | XZK26_S215_v01 | 等待资源/下一轮：load1 101.29833984375 exceeds original96 | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：load1 101.29833984375 exceeds original96 |
+| V5-234 | XZK26_S216_v01 | 等待资源/下一轮：load1 99.78564453125 exceeds original96 | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：load1 99.78564453125 exceeds original96 |
+| V5-235 | XZK26_S217_v01 | 待派发（当前无活进程） | 0/10 | 0/10 | 盲评中 | 待派发（当前无活进程） |
 
 </details>
 
@@ -693,6 +695,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-native-batch-visibility-v4`；快照SHA256：`00ce6e10ecb3f384e3d1ab687f700b2a62662eb7d31efe0891a61b4e8eb65852`。
+采集版本：`20261105-scoring-anomaly-audit-v5`；快照SHA256：`52e117d7d6c3885a40d96e7bce14473cd7b0861cf43fdf07f02fe356f0aae68e`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
