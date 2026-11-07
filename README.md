@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-07T19:29:21+08:00（北京时间）**
+**采集时间：2026-11-07T19:46:17+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 314 个，独立归档 8 个；采集时进程记录 17 条（生成 10、评分 1）。
+登记策略 314 个，独立归档 8 个；采集时进程记录 33 条（生成 20、评分 8）。
 
 ## 当前轮次
 
@@ -180,18 +180,18 @@
 | E20261107_001 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-07T16:48:46.228349+08:00 |
 | E20261107_002 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-07T17:05:45.665204+08:00 |
 | E20261107_003 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-07T18:58:00.589618+08:00 |
-| E20261107_004 | 10/10 | 10/10 | 9/10 | 0/1 | 2026-11-07T19:29:08.526388+08:00 |
-| E20261107_005 | 4/10 | 4/10 | 0/10 | 0/1 | 2026-11-07T19:29:34.979188+08:00 |
-| E20261107_006 | 6/10 | 6/10 | 0/10 | 0/1 | 2026-11-07T19:29:37.750113+08:00 |
-| E20261107_007 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-07T19:29:33.895760+08:00 |
-| E20261107_008 | 0/10 | 0/10 | 0/10 | 0/1 | 2026-11-07T19:29:35.957320+08:00 |
+| E20261107_004 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-07T19:39:03.290450+08:00 |
+| E20261107_005 | 8/10 | 8/10 | 4/10 | 0/1 | 2026-11-07T19:45:47.656168+08:00 |
+| E20261107_006 | 8/10 | 8/10 | 4/10 | 0/1 | 2026-11-07T19:46:28.419933+08:00 |
+| E20261107_007 | 2/10 | 2/10 | 0/10 | 0/1 | 2026-11-07T19:46:02.568413+08:00 |
+| E20261107_008 | 2/10 | 2/10 | 0/10 | 0/1 | 2026-11-07T19:46:10.502601+08:00 |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-07：预测 **51** 份，GREEN 50，RED 0，未盖章 1；实际评分 **39** 份（含已替代旧测量 0 份）；完整成绩单 **3** 份。
+2026-11-07：预测 **60** 份，GREEN 60，RED 0，未盖章 0；实际评分 **48** 份（含已替代旧测量 0 份）；完整成绩单 **4** 份。
 
-新成绩单：SP26_S092_v01、SP26_S093_v01、SP26_S094_v01。
+新成绩单：SP26_S092_v01、SP26_S093_v01、SP26_S094_v01、SP26_S095_v01。
 
 北京时间当日预测、印记与实际评分记录；保留已替代和停止分支，旧测量另注明。P正式包、连续值预检和分析不计入原生评分。
 
@@ -527,15 +527,15 @@
 
 - E20261107_003：成绩单与GREEN封存已齐
 
-- E20261107_004：等待资源/下一轮：existing batch workers/finalizer active: [3623001]；existing batch workers/finalizer active: [3623001]
+- E20261107_004：成绩单与GREEN封存已齐
 
-- E20261107_005：等待资源/下一轮：existing batch workers/finalizer active: [3601221, 3601235, 3601245, 3601319, 3601518, 3601530]；existing batch workers/finalizer active: [3601221, 3601235, 3601245, 3601319, 3601518, 3601530]
+- E20261107_005：批次运行中
 
-- E20261107_006：批次运行中
+- E20261107_006：等待资源/下一轮：existing batch workers/finalizer active: [3634920, 3634937, 3634959, 3635049, 3600615, 3600624]；existing batch workers/finalizer active: [3634920, 3634937, 3634959, 3635049, 3600615, 3600624]
 
-- E20261107_007：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
+- E20261107_007：等待资源/下一轮：existing batch workers/finalizer active: [3635494, 3635512, 3635520, 3635531, 3635551, 3635631, 3635637, 3635913]；existing batch workers/finalizer active: [3635494, 3635512, 3635520, 3635531, 3635551, 3635631, 3635637, 3635913]
 
-- E20261107_008：等待资源/下一轮：next native single-pass recheck scheduled；next native single-pass recheck scheduled
+- E20261107_008：等待资源/下一轮：existing batch workers/finalizer active: [3634542, 3634616, 3634627, 3634632, 3634644, 3634650, 3634654, 3636366]；existing batch workers/finalizer active: [3634542, 3634616, 3634627, 3634632, 3634644, 3634650, 3634654, 3636366]
 
 - public_repo_trials_E20261103_034：成绩及GREEN已齐；批次收尾未完成；未完成且没有活进程
 
@@ -548,23 +548,39 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 生成 · SP26_S097_v01 F1/seed0 | generate | 2016 |
-| 生成 · SP26_S097_v01 F1/seed1 | generate | 2015 |
-| 生成 · SP26_S097_v01 F2/seed0 | generate | 2014 |
-| 生成 · SP26_S097_v01 F2/seed1 | generate | 2012 |
-| 生成 · SP26_S096_v01 F1/seed0 | generate | 1982 |
-| 生成 · SP26_S096_v01 F1/seed1 | generate | 1981 |
-| 生成 · SP26_S096_v01 F2/seed0 | generate | 1979 |
-| 生成 · SP26_S096_v01 F2/seed1 | generate | 1978 |
-| 生成 · SP26_S096_v01 F5/seed0 | generate | 1974 |
-| 生成 · SP26_S096_v01 F5/seed1 | generate | 1973 |
-| 评分 · SP26_S095_v01 F1/seed1 | score | 421 |
-| 管线状态刷新 · board_refresh_resource_v4 | status | 598055 |
-| 调度/收尾 · task_io_v1 | controller | 7768 |
-| 调度/收尾 · task_io_v1 | controller | 5034 |
-| 调度/收尾 · task_io_v1 | controller | 2970 |
-| 调度/收尾 · task_io_v1 | controller | 732 |
-| 调度/收尾 · task_io_v1 | controller | 22 |
+| 生成 · SP26_S097_v01 F1/seed0 | generate | 3035 |
+| 生成 · SP26_S097_v01 F1/seed1 | generate | 3034 |
+| 生成 · SP26_S096_v01 F1/seed0 | generate | 3001 |
+| 生成 · SP26_S096_v01 F1/seed1 | generate | 3000 |
+| 生成 · SP26_S099_v01 F1/seed1 | generate | 560 |
+| 生成 · SP26_S099_v01 F2/seed0 | generate | 559 |
+| 生成 · SP26_S099_v01 F2/seed1 | generate | 558 |
+| 生成 · SP26_S099_v01 F3/seed0 | generate | 557 |
+| 生成 · SP26_S099_v01 F3/seed1 | generate | 556 |
+| 生成 · SP26_S099_v01 F5/seed0 | generate | 555 |
+| 生成 · SP26_S099_v01 F5/seed1 | generate | 553 |
+| 生成 · SP26_S098_v01 F1/seed0 | generate | 494 |
+| 生成 · SP26_S098_v01 F1/seed1 | generate | 492 |
+| 生成 · SP26_S098_v01 F2/seed0 | generate | 491 |
+| 生成 · SP26_S098_v01 F2/seed1 | generate | 490 |
+| 生成 · SP26_S098_v01 F3/seed0 | generate | 489 |
+| 生成 · SP26_S098_v01 F3/seed1 | generate | 488 |
+| 生成 · SP26_S098_v01 F5/seed0 | generate | 486 |
+| 生成 · SP26_S098_v01 F5/seed1 | generate | 485 |
+| 生成 · SP26_S099_v01 F1/seed0 | generate | 482 |
+| 评分 · SP26_S097_v01 F2/seed0 | score | 539 |
+| 评分 · SP26_S097_v01 F2/seed1 | score | 535 |
+| 评分 · SP26_S097_v01 F3/seed0 | score | 532 |
+| 评分 · SP26_S097_v01 F3/seed1 | score | 529 |
+| 评分 · SP26_S096_v01 F2/seed0 | score | 514 |
+| 评分 · SP26_S096_v01 F2/seed1 | score | 507 |
+| 评分 · SP26_S096_v01 F3/seed0 | score | 502 |
+| 评分 · SP26_S096_v01 F3/seed1 | score | 497 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 599074 |
+| 调度/收尾 · task_io_v1 | controller | 6053 |
+| 调度/收尾 · task_io_v1 | controller | 3989 |
+| 调度/收尾 · task_io_v1 | controller | 1751 |
+| 调度/收尾 · task_io_v1 | controller | 1041 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -888,11 +904,11 @@
 | V5-281 | SP26_S092_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.222726 | 采用 |
 | V5-282 | SP26_S093_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.218369 | 否决 |
 | V5-283 | SP26_S094_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.213971 | 否决 |
-| V5-284 | SP26_S095_v01 | 评分中 | 10/10 | 9/10 | 盲评中 | 评分中 |
-| V5-285 | SP26_S096_v01 | 生成中 | 4/10 | 0/10 | 盲评中 | 生成中 |
-| V5-286 | SP26_S097_v01 | 生成中 | 6/10 | 0/10 | 盲评中 | 生成中 |
-| V5-287 | SP26_S098_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
-| V5-288 | SP26_S099_v01 | 等待资源/下一轮：next native single-pass recheck scheduled | 0/10 | 0/10 | 盲评中 | 等待资源/下一轮：next native single-pass recheck scheduled |
+| V5-284 | SP26_S095_v01 | 成绩单已齐 | 10/10 | 10/10 | 0.214511 | 否决 |
+| V5-285 | SP26_S096_v01 | 评分中 | 8/10 | 4/10 | 盲评中 | 评分中 |
+| V5-286 | SP26_S097_v01 | 评分中 | 8/10 | 4/10 | 盲评中 | 评分中 |
+| V5-287 | SP26_S098_v01 | 生成中 | 2/10 | 0/10 | 盲评中 | 生成中 |
+| V5-288 | SP26_S099_v01 | 生成中 | 2/10 | 0/10 | 盲评中 | 生成中 |
 
 </details>
 
@@ -908,6 +924,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-scoring-anomaly-audit-v5`；快照SHA256：`105e2226e7397a2adb9ec1be6932948fb36efc2c0f8c4efce99c7df5e658c18c`。
+采集版本：`20261105-scoring-anomaly-audit-v5`；快照SHA256：`ee24752dff415f2867fc276c4358afbb519234db24fa02532a77d5cb75a58829`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
