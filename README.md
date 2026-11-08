@@ -1,12 +1,12 @@
 # H200 评分器 v5 · 远端快照
 
-**采集时间：2026-11-08T16:48:43+08:00（北京时间）**
+**采集时间：2026-11-08T18:12:21+08:00（北京时间）**
 
 **[打开完整看板](https://chemit797.github.io/Remote-Dashboard/)** · [精简原始数据](snapshot.json)
 
 每15分钟采集并上传；网页每分钟检查已上传的新快照。超过35分钟未更新，网页标为过期。刷新网页不会直接查询H200。同步失败保留上次成功版本，可按上述时间判断。
 
-登记策略 323 个，独立归档 8 个；采集时进程记录 7 条（生成 0、评分 0）。
+登记策略 327 个，独立归档 8 个；采集时进程记录 1 条（生成 0、评分 0）。
 
 ## 当前轮次
 
@@ -186,15 +186,16 @@
 | E20261107_007 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-07T21:29:32.931448+08:00 |
 | E20261107_008 | 10/10 | 10/10 | 10/10 | 1/1 | 2026-11-07T21:30:06.940683+08:00 |
 | E20261107_009 | 0/10 | 0/10 | 0/10 | 0/1 | — |
+| E20261108_301 | 40/40 | 40/40 | 40/40 | 4/4 | 2026-11-08T18:07:44.461973+08:00 |
 | E20261108_302 | 0/40 | 0/40 | 0/40 | 0/4 | 2026-11-08T14:33:53.538750+08:00 |
 | E20261108_303 | 40/40 | 40/40 | 40/40 | 4/4 | 2026-11-08T16:44:14.195556+08:00 |
 | public_repo_trials_E20261103_034 | 10/10 | 10/10 | 10/10 | 1/1 | — |
 
 ## 今日新增与核对（北京时间）
 
-2026-11-08：预测 **42** 份，GREEN 40，RED 0，未盖章 2；实际评分 **40** 份（含已替代旧测量 0 份）；完整成绩单 **4** 份。
+2026-11-08：预测 **82** 份，GREEN 80，RED 0，未盖章 2；实际评分 **80** 份（含已替代旧测量 0 份）；完整成绩单 **8** 份。
 
-新成绩单：CAL26_S301_v03、CAL26_S302_v03、CAL26_S303_v03、CAL26_S308_v02。
+新成绩单：CAL26_S301_v03、CAL26_S302_v03、CAL26_S303_v03、CAL26_S308_v02、TX26_S304_v01、TX26_S305_v01、TX26_S306_v01、TX26_S307_v01。
 
 北京时间当日预测、印记与实际评分记录；保留已替代和停止分支，旧测量另注明。P正式包、连续值预检和分析不计入原生评分。
 
@@ -542,6 +543,8 @@
 
 - E20261107_009：已停止，需重启；未完成且没有活进程
 
+- E20261108_301：成绩单与GREEN封存已齐
+
 - E20261108_302：已停止，需重启；RuntimeError('{"scope": "original_whole_batch", "created_bjt": "2026-11-08T14:33:52+08:00", "total": 40, "generated": 0, "green": 0, "scored": 0, "positions": [{"strategy_id": "CAL26_S301_v02", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S301_v02", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S302_v02", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S303_v02", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F1", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F1", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F2", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F2", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F3", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F3", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F5", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F5", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F6", "seed": 0, "generated": false, "green": false, "scored": false, "running": false}, {"strategy_id": "CAL26_S308_v01", "fold": "F6", "seed": 1, "generated": false, "green": false, "scored": false, "running": false}], "actions": [], "errors": [{"case": {"strategy_id": "CAL26_S302_v02", "fold": "F1", "seed": 0}, "phase": "generation", "reason": "Worker ended without CURRENT; preserved"}, {"case": {"strategy_id": "CAL26_S302_v02", "fold": "F1", "seed": 1}, "phase": "generation", "reason": "Worker ended without CURRENT; preserved"}], "storage_workflow_scope": "calibrated_deep_signal_20261107", "storage_limits_disabled": false, "status": "failed_retained"}')
 
 - E20261108_303：成绩单与GREEN封存已齐
@@ -557,13 +560,7 @@
 
 | 任务 | 类别 | 已运行（秒） |
 |---|---|---:|
-| 管线状态刷新 · board_refresh_resource_v4 | status | 674814 |
-| 调度/收尾 · run_source_validation | controller | 4966 |
-| 调度/收尾 · train_txpert | controller | 165 |
-| 调度/收尾 · train_txpert | controller | 162 |
-| 调度/收尾 · train_txpert | controller | 160 |
-| 调度/收尾 · train_txpert | controller | 157 |
-| 调度/收尾 · train_txpert | controller | 155 |
+| 管线状态刷新 · board_refresh_resource_v4 | status | 679833 |
 
 <details>
 <summary>全部样本状态与成绩摘要（展开）</summary>
@@ -901,6 +898,10 @@
 | V5-295 | CAL26_S302_v03 | 成绩单已齐 | 10/10 | 10/10 | -0.001041 | 否决 |
 | V5-296 | CAL26_S303_v03 | 成绩单已齐 | 10/10 | 10/10 | -0.015016 | 否决 |
 | V5-297 | CAL26_S308_v02 | 成绩单已齐 | 10/10 | 10/10 | -0.019559 | 否决 |
+| V5-298 | TX26_S304_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.010636 | 否决 |
+| V5-299 | TX26_S305_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.001939 | 否决 |
+| V5-300 | TX26_S306_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.002320 | 否决 |
+| V5-301 | TX26_S307_v01 | 成绩单已齐 | 10/10 | 10/10 | -0.004127 | 否决 |
 
 </details>
 
@@ -916,6 +917,6 @@
 
 **内网看板部署：** 修复版已部署。
 
-采集版本：`20261105-scoring-anomaly-audit-v5`；快照SHA256：`ae37e3df18324aef3333879a9f450e9090390ea1a883560223c7866f58c81ec0`。
+采集版本：`20261105-scoring-anomaly-audit-v5`；快照SHA256：`f801146a1412a6933eec68e134acb5ee29d882c42eb73ddfcc34d5eb4f54d29c`。
 
 定时更新由本次对话的Codex自动接续执行，需要运行Codex的电脑与H200网络可达；GitHub页面本身无需VPN。服务器或网络不可达时不会伪造新时间。
