@@ -25,11 +25,11 @@ def load(path):return json.loads(read(path))
 def csvrows(path):return list(csv.DictReader(read(path).splitlines()))
 def write_json(path,data):
     path.parent.mkdir(parents=True,exist_ok=True)
-    path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 def jsfile(path,var,data):
     path.parent.mkdir(parents=True,exist_ok=True)
     text=json.dumps(data,ensure_ascii=False,separators=(',',':'),allow_nan=False)
-    path.write_text(f'window.{var}='+text+';\n',encoding='utf-8')
+    path.write_text(f'window.{var}='+text+';\n',encoding='utf-8',newline='\n')
 def number(value):
     try:
         f=float(value)

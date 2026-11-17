@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-17T19:13:07.057267+00:00",
+  "built_at": "2026-11-17T19:21:12.592763+00:00",
   "checks": {
     "four_final_targets": true,
     "no_invented_scores_or_quota": true,
@@ -64,10 +64,10 @@
     "web_report_links_A14": true,
     "safe_report_A15": true,
     "web_report_links_A15": true,
-    "filter_type_Endothelial/endocardial": true,
-    "filter_type_Other mesoderm": true,
     "filter_type_Cardiomyocyte": true,
-    "filter_type_Cardiac progenitor/heart field": true
+    "filter_type_Endothelial/endocardial": true,
+    "filter_type_Cardiac progenitor/heart field": true,
+    "filter_type_Other mesoderm": true
   },
   "check_count": 67,
   "all_passed": true,
@@ -83,14 +83,19 @@
   },
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 45,
+      "sha256": "93699a1108fd9da226b06f84ee12e317f4ea4d2f18a8fd05260443fd1bf2faef"
+    },
+    {
       "path": "assets/app.js",
-      "bytes": 43426,
-      "sha256": "8135b226cdb3f3b3f1543364944c517e8f102d644f72445fc2b24b6c76c8e2fd"
+      "bytes": 43286,
+      "sha256": "572341fd1b049dffd0ae576bf347a5916b73b0979aa72ee4e2ab84f82ca60894"
     },
     {
       "path": "assets/data.js",
-      "bytes": 1042851,
-      "sha256": "e0659781d86e998729ce14c28dd894f1099b97a30713c66fc480a86d7670c941"
+      "bytes": 1042850,
+      "sha256": "40cdabc4821f4856d6b84d89123558d307520c61a0beb5d6553d3ed0ff8304b2"
     },
     {
       "path": "assets/favicon.svg",
@@ -124,38 +129,38 @@
     },
     {
       "path": "assets/neighbours.js",
-      "bytes": 1956341,
-      "sha256": "f9748a2aaf9c90f598412eb4b512e1f5cc4e6316795f83b6a96b27100531d546"
+      "bytes": 1956340,
+      "sha256": "cd6cb50e328bb31df780545bb3a003b1a7c8cf65f179d83d389613db679932dc"
     },
     {
       "path": "assets/site.css",
-      "bytes": 19564,
-      "sha256": "7a5357bf63bdeaeee453db7796e6679f4d792bf0e1a6b721830753444d103939"
+      "bytes": 19558,
+      "sha256": "4579a14f2dab4e06e7c49b326f41e6b325d996ee8fb769ae0f181de59bee9a41"
     },
     {
       "path": "data/file-counts.json",
-      "bytes": 4530,
-      "sha256": "0b6894d9836b3a623ad7f90849141743aaa0a7fa2fa8f726efb95b45cdf246a2"
+      "bytes": 4341,
+      "sha256": "df3468399a86522a076546f84860c44a759e519a7f310461d2f9c0e18a5935e2"
     },
     {
       "path": "data/official-inventory.json",
-      "bytes": 7300,
-      "sha256": "1e5a8eeabe8d4a62d83b2864bf486db2287a837e7f76ec5ac3ab234d6317203d"
+      "bytes": 7058,
+      "sha256": "fabc1665d0102bd155a34b5faf69dcfde8bde612785f1fa7a948a5fa10090fa8"
     },
     {
       "path": "data/official-timeline-source.json",
-      "bytes": 621,
-      "sha256": "ee6585526ccbdcdc9ec4da87cf547763695735a8349a4d8470e02e006689e5e9"
+      "bytes": 610,
+      "sha256": "e16e08fed441a6b4266ca85534b3f4bf1b3874d69bdbd9a0502353eafd53b566"
     },
     {
       "path": "data/research-catalog.json",
-      "bytes": 12759,
-      "sha256": "f8d24ebde1aa1392d78dd07ce352267bbb160802ac8d6ba56e73169784a9f555"
+      "bytes": 12492,
+      "sha256": "9b13ac9f01aa11d8d6c419d323a5a094d7ca77494919ca9519012374c2ba3896"
     },
     {
       "path": "data/source-manifest.json",
-      "bytes": 7334,
-      "sha256": "12ed45c1e626cc1ea747e3b098bdea8dafc1a3b0d4725221ab2e5d4601afdc18"
+      "bytes": 7163,
+      "sha256": "c74dc7e219f30fe9281928bbc713d3148bc6e4d276a4ea75d52d48a0f9f13274"
     },
     {
       "path": "index.html",
@@ -169,13 +174,13 @@
     },
     {
       "path": "scripts/build_data.py",
-      "bytes": 19495,
-      "sha256": "b9d2bde418091726740da2779963bd79ad7eb5074dd6cf32c405ec944ae232e7"
+      "bytes": 19521,
+      "sha256": "805872a1d6c2d2bdf9aa028d147229e9d97916e5f2a62ca7dfd9ed320b6cd279"
     },
     {
       "path": "scripts/verify_site.py",
-      "bytes": 5102,
-      "sha256": "ce16683a668fd03a37688f09b5e36bca113f11039dbc8e3479be524311fb6d6b"
+      "bytes": 5115,
+      "sha256": "432240a981620c43def2ed663211c3f956086c7863f2a86158236720c0d68459"
     }
   ]
 }

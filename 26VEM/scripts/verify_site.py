@@ -61,5 +61,5 @@ manifest={'built_at':D['built_at'],'checks':checks,'check_count':len(checks),'al
     'browser_checks':'See delivery receipt for desktop/mobile screenshots and interactive verification; not performed by this script.',
     'counts':{'analyses':15,'knowledge':108,'sources':43,'genes':500,'neighbour_rows':9500,'pairs':82,'metrics':369},
     'files':[{'path':p.relative_to(SITE).as_posix(),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(SITE.rglob('*')) if p.is_file() and p.name!='VERIFICATION.json' and '__pycache__' not in p.parts]}
-(SITE/'VERIFICATION.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(SITE/'VERIFICATION.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({'checks':len(checks),'all_passed':all(checks.values()),'files':len(manifest['files'])},ensure_ascii=False))
