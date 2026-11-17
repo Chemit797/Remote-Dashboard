@@ -1,0 +1,181 @@
+{
+  "built_at": "2026-11-17T19:13:07.057267+00:00",
+  "checks": {
+    "four_final_targets": true,
+    "no_invented_scores_or_quota": true,
+    "official_inventory_15_and_590352": true,
+    "validation_files_6": true,
+    "108_unique_claims": true,
+    "claim_statuses_match_summary": true,
+    "43_unique_external_identities": true,
+    "external_names_have_fixed_ids": true,
+    "15_unique_analyses": true,
+    "all_report_texts_present": true,
+    "500_unique_genes": true,
+    "type_markers_45": true,
+    "stage_axis_81": true,
+    "spatial_axis_140": true,
+    "9500_neighbour_rows_19_groups": true,
+    "neighbour_eligible_flags_recomputed": true,
+    "neighbour_candidate_flags_recomputed": true,
+    "236_candidate_gene_union": true,
+    "threshold_union_0.005": true,
+    "threshold_union_0.01": true,
+    "threshold_union_0.02": true,
+    "threshold_union_0.05": true,
+    "82_pairwise_rows_and_369_metric_rows": true,
+    "file_snapshot_present_and_error_free": true,
+    "file_summary_reconciles": true,
+    "exact_AoE_conversion": true,
+    "no_model_or_raw_data_assets": true,
+    "no_absolute_browser_file_links": true,
+    "asset_assets/favicon.svg": true,
+    "asset_assets/site.css": true,
+    "asset_assets/data.js": true,
+    "asset_assets/app.js": true,
+    "asset_README.md": true,
+    "safe_report_A01": true,
+    "web_report_links_A01": true,
+    "safe_report_A02": true,
+    "web_report_links_A02": true,
+    "safe_report_A03": true,
+    "web_report_links_A03": true,
+    "safe_report_A04": true,
+    "web_report_links_A04": true,
+    "safe_report_A05": true,
+    "web_report_links_A05": true,
+    "safe_report_A06": true,
+    "web_report_links_A06": true,
+    "safe_report_A07": true,
+    "web_report_links_A07": true,
+    "safe_report_A08": true,
+    "web_report_links_A08": true,
+    "safe_report_A09": true,
+    "web_report_links_A09": true,
+    "safe_report_A10": true,
+    "web_report_links_A10": true,
+    "safe_report_A11": true,
+    "web_report_links_A11": true,
+    "safe_report_A12": true,
+    "web_report_links_A12": true,
+    "safe_report_A13": true,
+    "web_report_links_A13": true,
+    "safe_report_A14": true,
+    "web_report_links_A14": true,
+    "safe_report_A15": true,
+    "web_report_links_A15": true,
+    "filter_type_Endothelial/endocardial": true,
+    "filter_type_Other mesoderm": true,
+    "filter_type_Cardiomyocyte": true,
+    "filter_type_Cardiac progenitor/heart field": true
+  },
+  "check_count": 67,
+  "all_passed": true,
+  "browser_checks": "See delivery receipt for desktop/mobile screenshots and interactive verification; not performed by this script.",
+  "counts": {
+    "analyses": 15,
+    "knowledge": 108,
+    "sources": 43,
+    "genes": 500,
+    "neighbour_rows": 9500,
+    "pairs": 82,
+    "metrics": 369
+  },
+  "files": [
+    {
+      "path": "assets/app.js",
+      "bytes": 43426,
+      "sha256": "8135b226cdb3f3b3f1543364944c517e8f102d644f72445fc2b24b6c76c8e2fd"
+    },
+    {
+      "path": "assets/data.js",
+      "bytes": 1042851,
+      "sha256": "e0659781d86e998729ce14c28dd894f1099b97a30713c66fc480a86d7670c941"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 243,
+      "sha256": "587122ad1dd11b9a9b9473c7a98f70fa0cf1bdcb47949e136cf00d00f33a3c41"
+    },
+    {
+      "path": "assets/figures/01_official_composition.png",
+      "bytes": 172485,
+      "sha256": "288fa0d6ea50f002e13d1fd89ca6e226e9cfd70b3cea38416b7f0862d06987a4"
+    },
+    {
+      "path": "assets/figures/02_source_similarity.png",
+      "bytes": 111143,
+      "sha256": "7b8ef43995f9e7a7f5b3cd8b3c16cab8e47466a3ebba069c63105e66858bd08d"
+    },
+    {
+      "path": "assets/figures/03_mapping_errors.png",
+      "bytes": 107351,
+      "sha256": "18b79133700a4cde8da2cd9c64bc839a3692827d110ff2683c11cd63c048cc51"
+    },
+    {
+      "path": "assets/figures/fig_source_timelines.png",
+      "bytes": 1424402,
+      "sha256": "fcd6f1375b9c985591d51dc35f4ae291f643f2898990037692392f0df0cbe35b"
+    },
+    {
+      "path": "assets/figures/fig_source_timelines_by_type.png",
+      "bytes": 731966,
+      "sha256": "99c7df7901eaacdad4aede701cd56dc20afde31ba928054d17b926a2c2a4fafc"
+    },
+    {
+      "path": "assets/neighbours.js",
+      "bytes": 1956341,
+      "sha256": "f9748a2aaf9c90f598412eb4b512e1f5cc4e6316795f83b6a96b27100531d546"
+    },
+    {
+      "path": "assets/site.css",
+      "bytes": 19564,
+      "sha256": "7a5357bf63bdeaeee453db7796e6679f4d792bf0e1a6b721830753444d103939"
+    },
+    {
+      "path": "data/file-counts.json",
+      "bytes": 4530,
+      "sha256": "0b6894d9836b3a623ad7f90849141743aaa0a7fa2fa8f726efb95b45cdf246a2"
+    },
+    {
+      "path": "data/official-inventory.json",
+      "bytes": 7300,
+      "sha256": "1e5a8eeabe8d4a62d83b2864bf486db2287a837e7f76ec5ac3ab234d6317203d"
+    },
+    {
+      "path": "data/official-timeline-source.json",
+      "bytes": 621,
+      "sha256": "ee6585526ccbdcdc9ec4da87cf547763695735a8349a4d8470e02e006689e5e9"
+    },
+    {
+      "path": "data/research-catalog.json",
+      "bytes": 12759,
+      "sha256": "f8d24ebde1aa1392d78dd07ce352267bbb160802ac8d6ba56e73169784a9f555"
+    },
+    {
+      "path": "data/source-manifest.json",
+      "bytes": 7334,
+      "sha256": "12ed45c1e626cc1ea747e3b098bdea8dafc1a3b0d4725221ab2e5d4601afdc18"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2511,
+      "sha256": "c780f6053a9d426df7fbce3375bde35e0753fe95f5606be423aba11362abbdd3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4367,
+      "sha256": "d86f91963a035789c37a79fbafc3642df76bcbbc03594461b96c8cabcfd0c026"
+    },
+    {
+      "path": "scripts/build_data.py",
+      "bytes": 19495,
+      "sha256": "b9d2bde418091726740da2779963bd79ad7eb5074dd6cf32c405ec944ae232e7"
+    },
+    {
+      "path": "scripts/verify_site.py",
+      "bytes": 5102,
+      "sha256": "ce16683a668fd03a37688f09b5e36bca113f11039dbc8e3479be524311fb6d6b"
+    }
+  ]
+}

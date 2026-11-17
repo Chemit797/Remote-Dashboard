@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "root": "/home/biocosmosx/work/virtualembryo_cym",
+  "started_at_utc": "2026-11-17T18:57:42.856968+00:00",
+  "finished_at_utc": "2026-11-17T19:00:04.622438+00:00",
+  "method": "Recursive metadata only; regular files; do not follow symlinks; live files may change during scan; snapshot output not included",
+  "items": [
+    {
+      "name": "Virtual_Embryo_External_Data",
+      "files": 14568,
+      "directories": 1586,
+      "symlinks": 1813,
+      "logical_bytes": 134690881388,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "assets",
+      "files": 0,
+      "directories": 0,
+      "symlinks": 1,
+      "logical_bytes": 0,
+      "errors": [],
+      "kind": "symlink",
+      "target": "/home/biocosmosx/work/virtualembryo/assets"
+    },
+    {
+      "name": "data",
+      "files": 0,
+      "directories": 0,
+      "symlinks": 1,
+      "logical_bytes": 0,
+      "errors": [],
+      "kind": "symlink",
+      "target": "/home/biocosmosx/work/virtualembryo/data"
+    },
+    {
+      "name": "docs",
+      "files": 26,
+      "directories": 4,
+      "symlinks": 0,
+      "logical_bytes": 863118,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "experiments",
+      "files": 383557,
+      "directories": 17395,
+      "symlinks": 2530,
+      "logical_bytes": 309217822718,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "external_references",
+      "files": 41,
+      "directories": 19,
+      "symlinks": 0,
+      "logical_bytes": 10706419,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "models",
+      "files": 0,
+      "directories": 0,
+      "symlinks": 0,
+      "logical_bytes": 0,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "official_data_analysis_20261114",
+      "files": 37,
+      "directories": 6,
+      "symlinks": 0,
+      "logical_bytes": 2106489569,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "ops",
+      "files": 96,
+      "directories": 18,
+      "symlinks": 0,
+      "logical_bytes": 573351,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "protocols",
+      "files": 21,
+      "directories": 0,
+      "symlinks": 0,
+      "logical_bytes": 76673,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "registry",
+      "files": 6,
+      "directories": 0,
+      "symlinks": 0,
+      "logical_bytes": 1060916,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "reports",
+      "files": 1240,
+      "directories": 304,
+      "symlinks": 178,
+      "logical_bytes": 5159765299,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "reproduction_20261020",
+      "files": 953,
+      "directories": 165,
+      "symlinks": 7,
+      "logical_bytes": 3177219024,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "scripts",
+      "files": 181,
+      "directories": 1,
+      "symlinks": 0,
+      "logical_bytes": 3623365,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "src",
+      "files": 310,
+      "directories": 11,
+      "symlinks": 0,
+      "logical_bytes": 3856261,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "submission",
+      "files": 74,
+      "directories": 21,
+      "symlinks": 5,
+      "logical_bytes": 147738039,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "team",
+      "files": 1565,
+      "directories": 194,
+      "symlinks": 12,
+      "logical_bytes": 1317135337,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "tests",
+      "files": 156,
+      "directories": 3,
+      "symlinks": 0,
+      "logical_bytes": 1157914,
+      "errors": [],
+      "kind": "directory"
+    },
+    {
+      "name": "其他目录、环境与根部文件",
+      "kind": "directory",
+      "files": 44895,
+      "directories": 7527,
+      "symlinks": 22,
+      "logical_bytes": 16302394891,
+      "errors": [],
+      "aggregate": true
+    }
+  ],
+  "total_files": 447726,
+  "total_logical_bytes": 472141364282,
+  "symlinks": 4569,
+  "errors": 0,
+  "top_level_directory_count": 40,
+  "display_scope": "Selected VEM directories; environment/cache and root files grouped as other. Original complete receipt remains local and on 5090."
+}

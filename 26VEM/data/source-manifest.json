@@ -1,0 +1,171 @@
+{
+  "built_at": "2026-11-17T19:13:07.057267+00:00",
+  "scope": "Selected reports, aggregate statistics and metadata only. No H5AD, model weights, credentials or submission payloads.",
+  "files": [
+    {
+      "path": "catalogs/external_dataset_names.json",
+      "bytes": 7233,
+      "sha256": "b20d97512edcb9b04e0b724943fe8cacc28f95005b305603613995aaf3463104"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/peer_analysis/official_data_analysis_20261114/tables/file_inventory.csv",
+      "bytes": 9718,
+      "sha256": "db699a134378117dd7ae85893b35acf98a7ab46b2e5f88da05bbb25f57e92ca4"
+    },
+    {
+      "path": "research/vem_prior_knowledge_v2/provenance/dataset_registry.json",
+      "bytes": 840975,
+      "sha256": "72ca344a077f4902ad8b3149d5e3289c7652e8cba8df4298ac010b568cc3d9fa"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/data_review/team/data_review_20261113/evidence/ved_stages.json",
+      "bytes": 15871,
+      "sha256": "656f1c435941176442ab4067417749baf3ed8ced95aa23242533a1127b63b928"
+    },
+    {
+      "path": "research/vem_prior_knowledge_v2/knowledge.jsonl",
+      "bytes": 1156241,
+      "sha256": "36f9a79ae76269ac4cd6602c1df51318c98aa5cd7099e0628603a25291ecbae8"
+    },
+    {
+      "path": "research/vem_prior_knowledge_v2/SUMMARY.json",
+      "bytes": 2331,
+      "sha256": "1996c5f1511caf6c267a81f9cb21c712a445ae087c6585ed482a6695014324fe"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/peer_analysis/t2_heart_analysis_20261116/tables/gene_500_axes_ledger.csv",
+      "bytes": 52549,
+      "sha256": "499860017e0ae69131220ff6d2d108689e56623d5f8d7cb0989bbe0b502a4c0b"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/peer_analysis/t2_heart_analysis_20261116/tables/all_gene_neighbour_scan.csv",
+      "bytes": 1816309,
+      "sha256": "d44ca4d0ea390e629b964a517c1f4378edbb896fb9b4d84ad0316af2b2d29bf5"
+    },
+    {
+      "path": "research/vem_pairwise_similarity_v3/results/all_comparisons.csv",
+      "bytes": 78686,
+      "sha256": "5de3b2a486ff23f019b75c148fd56e377cb5fb530869ccdb1921035017a19d60"
+    },
+    {
+      "path": "research/vem_official_metric_source_audit/results/outputs/metrics.csv",
+      "bytes": 150776,
+      "sha256": "b8e9c70fa1af93def632024baf0a53a6a88ee1ab6ffa273a88fbc202cc20fb76"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/hub/catalogs/analyses.json",
+      "bytes": 13740,
+      "sha256": "428c3fe32c9894bc65b7c1f5502042c721b7bb5c3e9c4a4ca500d9a5a938b96c"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/handbook/team/handbook_20261111/AGENT_HANDBOOK.md",
+      "bytes": 88563,
+      "sha256": "f93f3651ed6eff6c7cbd555d061b185172283dca2f642e953d5b0981ab984644"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/peer_analysis/official_data_analysis_20261114/REPORT_ZH.md",
+      "bytes": 34504,
+      "sha256": "7630c3d0cea6dd6dee35f6acda418052b81d260be8aba9c8c76dfbb48e3d5fd2"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/peer_analysis/t2_heart_analysis_20261116/REPORT_ZH.md",
+      "bytes": 17062,
+      "sha256": "13e09f6a16bd24954c367249a3c16235e71063fb21f47d0676cea84f6762ba94"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/peer_analysis/t2_heart_analysis_20261116/NEIGHBOUR_ALL_GENES_ZH.md",
+      "bytes": 4628,
+      "sha256": "65a836ad05394c96cd75ef07192136bc2a675802d485bae5da71070324546098"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/peer_analysis/t2_heart_prior_audit_v2/README_ZH.md",
+      "bytes": 3703,
+      "sha256": "23446f6992d1420f59d51104b78f0753d474716c954a77786cfca82eb54ba57d"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/peer_analysis/t2_heart_prior_followup_20261116/REPORT_ZH.md",
+      "bytes": 4932,
+      "sha256": "1de8220fa531b831d386a86c6a6ad90c3f6bfe609d06ed4d29bbf832c7ea1298"
+    },
+    {
+      "path": "research/early_embryo_prior_audit/README.md",
+      "bytes": 9462,
+      "sha256": "cc47f8c273bf9e99d556d23fe5c6fa20b39913c6825b16b57b3fc1ae71f363e8"
+    },
+    {
+      "path": "research/vem_prior_knowledge_v2/README.md",
+      "bytes": 7509,
+      "sha256": "00b329cb834bb6a51c3acc1f967bfdff517a2750406a4f9ddec735e81e8ff8c2"
+    },
+    {
+      "path": "research/vem_source_comparison_v2/README.md",
+      "bytes": 13910,
+      "sha256": "e5f7eba552faf3cbe34f1d445b62a3ff5bd801f12ec20abf54ebad832479c835"
+    },
+    {
+      "path": "research/vem_pairwise_similarity_v3/README.md",
+      "bytes": 18819,
+      "sha256": "346c1abfb9d888e34dcd54b05b11a2eaafa62c08d36aa2640658136fc9455768"
+    },
+    {
+      "path": "research/vem_t1_weighted_binary_v4/README.md",
+      "bytes": 6161,
+      "sha256": "6e53b682e9c59abb0675120a82e60e61480e0c75e9201c250e4358f8e7c1a1dd"
+    },
+    {
+      "path": "research/vem_official_metric_source_audit/FINDINGS.md",
+      "bytes": 2480,
+      "sha256": "8c906c0224c36d96324d13dfd89b71860097a594c9c3f953b4f45fc864cc4984"
+    },
+    {
+      "path": "notes/scoring_review_20261118/03_分任务评分过程与独立例子.md",
+      "bytes": 11305,
+      "sha256": "5782fec1e449afa62b54d2fb12387b65a28be8a74c845c5fd631e01cd981269f"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/older_comparison/team/official_external_comparison_20261115/REPORT_ZH.md",
+      "bytes": 16364,
+      "sha256": "ba4264785b27736244f87e1bf2dfb58b2fda4741c7b76adfa5838c2d274af97c"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/hub/reviews/20261118/01_联合审视与使用规划.md",
+      "bytes": 23692,
+      "sha256": "17d9c2b6098e44a7b2030e9a73071da0ac2256a8c27e88b6411e576e94eb2435"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/data_review/team/data_review_20261113/fig_source_timelines.png",
+      "bytes": 1424402,
+      "sha256": "fcd6f1375b9c985591d51dc35f4ae291f643f2898990037692392f0df0cbe35b"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/data_review/team/data_review_20261113/fig_source_timelines_by_type.png",
+      "bytes": 731966,
+      "sha256": "99c7df7901eaacdad4aede701cd56dc20afde31ba928054d17b926a2c2a4fafc"
+    },
+    {
+      "path": "research/early_embryo_prior_audit/figures/01_official_composition.png",
+      "bytes": 172485,
+      "sha256": "288fa0d6ea50f002e13d1fd89ca6e226e9cfd70b3cea38416b7f0862d06987a4"
+    },
+    {
+      "path": "research/early_embryo_prior_audit/figures/02_source_similarity.png",
+      "bytes": 111143,
+      "sha256": "7b8ef43995f9e7a7f5b3cd8b3c16cab8e47466a3ebba069c63105e66858bd08d"
+    },
+    {
+      "path": "research/early_embryo_prior_audit/figures/03_mapping_errors.png",
+      "bytes": 107351,
+      "sha256": "18b79133700a4cde8da2cd9c64bc839a3692827d110ff2683c11cd63c048cc51"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/dashboard_inventory/FILE_COUNTS.json",
+      "bytes": 13735,
+      "sha256": "22f1d14ac361d82f5116ac988499fb97287568df7bf3fb84412eba2addbaf4ed"
+    },
+    {
+      "path": "reports/analysis_integration_20261118/INDEPENDENT_TABLE_REVIEW.json",
+      "bytes": 2459,
+      "sha256": "d6710fffaad7fd39004d02249aae96e59129bd3d56d4df1529e9cc844647aa85"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "analyses": [
+    {
+      "analysis_id": "A01",
+      "title": "历史目录、模型与复现手册",
+      "topic": "history",
+      "tasks": [
+        "T1",
+        "T2_embryo",
+        "T2_heart",
+        "T3"
+      ],
+      "evidence_status": "历史原文",
+      "limitation": "2026-11-11快照；不代表当前合同、余额或新实验全貌",
+      "source_group": "history",
+      "finding": "旧方法与预测需要沿来源链查找。",
+      "use": "寻找父模型、生成脚本、复现状态和官方原始回执。",
+      "boundary": "历史手册不是实时状态；旧高分方法的来源边界仍要复核。",
+      "remote_reader": "../handbook_20261111/HUMAN_GUIDE.md",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym"
+    },
+    {
+      "analysis_id": "A02",
+      "title": "官方十五文件总览与预测误差",
+      "topic": "official",
+      "tasks": [
+        "T1",
+        "T2_embryo",
+        "T2_heart",
+        "T3"
+      ],
+      "evidence_status": "作者本地；已核输入表和六组诊断表",
+      "limitation": "已开放真值开发诊断；真值辅助类型重加权不可部署",
+      "source_group": "peer_official",
+      "finding": "15份官方文件、6份开放验证已被系统审计。",
+      "use": "按类型、基因和指标定位一个具体预测缺陷。",
+      "boundary": "开放真值已用于开发，诊断complete不等于生产评分器验收。",
+      "remote_reader": "../analysis_share_20261117/official_data_analysis_20261114/report.html",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114"
+    },
+    {
+      "analysis_id": "A03",
+      "title": "心脏五时期状态、零值和空间结构",
+      "topic": "heart",
+      "tasks": [
+        "T2_heart",
+        "T3"
+      ],
+      "evidence_status": "作者本地；已核源码和配置",
+      "limitation": "时期与标本混杂；相对表达不是绝对RNA",
+      "source_group": "peer_heart",
+      "finding": "心脏五时期的类型、检出、强度与空间各有不同变化。",
+      "use": "分开检出率与阳性强度，选定一个生成机制。",
+      "boundary": "时期与标本混杂；观察并非同一胚胎的连续跟踪。",
+      "remote_reader": "../analysis_share_20261117/t2_heart_analysis_20261116/report.html",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116"
+    },
+    {
+      "analysis_id": "A04",
+      "title": "心脏500基因交互台账",
+      "topic": "heart",
+      "tasks": [
+        "T2_heart",
+        "T3"
+      ],
+      "evidence_status": "台账计数已独立复算",
+      "limitation": "45/81/140类可重叠；类型指向不代表表达量恒定",
+      "source_group": "peer_heart",
+      "finding": "500基因中45个类型指向、81个时期关联、140个重复空间候选。",
+      "use": "先查基因适用的轴与类型，再决定是否建模。",
+      "boundary": "三类可重叠，57个多轴；严格稳定丰度子集为0。",
+      "remote_reader": "../analysis_share_20261117/t2_heart_analysis_20261116/gene_500_explorer.html",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116"
+    },
+    {
+      "analysis_id": "A05",
+      "title": "全基因邻域预测增量",
+      "topic": "heart",
+      "tasks": [
+        "T2_heart"
+      ],
+      "evidence_status": "候选计数独立复算；模型结果未重跑",
+      "limitation": "同标本二维空间块留出；实测标签与检测深度为输入；无缓冲",
+      "source_group": "peer_heart",
+      "finding": "236个基因在至少一个时期×类型组合显示邻域增量。",
+      "use": "先核生成时特征是否可得，再做更强位置对照与跨期试验。",
+      "boundary": "同标本二维空间留出；不是跨时期收益，也不等于官方NFS。",
+      "remote_reader": "../analysis_share_20261117/t2_heart_analysis_20261116/NEIGHBOUR_ALL_GENES_ZH.md",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116"
+    },
+    {
+      "analysis_id": "A06",
+      "title": "身份、原位与观测过程严格审计",
+      "topic": "prior",
+      "tasks": [
+        "T2_heart",
+        "T3"
+      ],
+      "evidence_status": "作者本地；已核严格版本、抽稀代码及汇总",
+      "limitation": "只有共享快照，未认证独立计算根；不自动矫正或删除细胞",
+      "source_group": "peer_strict",
+      "finding": "单基因抽稀可以吻合，联合检出仍有偏差。",
+      "use": "把观测过程设为对照，避免统一补零或删除边界细胞。",
+      "boundary": "不能分离技术效率与真实RNA量；A/B标记不等于统计独立。",
+      "remote_reader": "../analysis_share_20261117/t2_heart_prior_audit_v2/report.html",
+      "remote_compute_root": null
+    },
+    {
+      "analysis_id": "A07",
+      "title": "首轮边界与区域先验跟进",
+      "topic": "prior",
+      "tasks": [
+        "T2_heart"
+      ],
+      "evidence_status": "作者本地；已读报告和结果",
+      "limitation": "局部边界线索；广泛解释优先A06，保留独有区域证据",
+      "source_group": "peer_followup",
+      "finding": "心肌与内皮双谱系信号在部分边界富集。",
+      "use": "描述内部与边界的差异，保留局部证据。",
+      "boundary": "更广泛解释优先严格审计；没有统一扩散或清理规则。",
+      "remote_reader": "../analysis_share_20261117/t2_heart_prior_followup_20261116/report.html",
+      "remote_compute_root": null
+    },
+    {
+      "analysis_id": "A08",
+      "title": "早期胚胎先验首轮",
+      "topic": "prior",
+      "tasks": [
+        "T2_embryo"
+      ],
+      "evidence_status": "既有已验收分析；本次未重算",
+      "limitation": "34条是A09的前身，不增加34条独立知识",
+      "source_group": "local_prior",
+      "finding": "早期34条先验各有支持、不可比或明确缺口。",
+      "use": "查找早期胚胎比例、表达和取材的适用条件。",
+      "boundary": "已并入108条扩展库，不额外增加34条独立知识。",
+      "remote_reader": "publications/20261118/research/early_embryo_prior_audit/knowledge.html",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/early_embryo_prior_audit_20261116/run02"
+    },
+    {
+      "analysis_id": "A09",
+      "title": "扩展先验知识库",
+      "topic": "prior",
+      "tasks": [
+        "T1",
+        "T2_embryo",
+        "T2_heart",
+        "T3"
+      ],
+      "evidence_status": "既有已验收分析；本次核对版本摘要",
+      "limitation": "108条不等于108条验证成功；保留逐条条件和缺口",
+      "source_group": "local_prior",
+      "finding": "108条知识已逐条记录官方与外部核对。",
+      "use": "按细胞、基因、阶段和证据状态查找可用先验。",
+      "boundary": "官方只有3条观测一致；不可把条目数量当验证数量。",
+      "remote_reader": "publications/20261118/research/vem_prior_knowledge_v2/knowledge.html",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01"
+    },
+    {
+      "analysis_id": "A10",
+      "title": "跨来源表达与简单映射第二轮",
+      "topic": "transfer",
+      "tasks": [
+        "T1",
+        "T2_embryo",
+        "T2_heart"
+      ],
+      "evidence_status": "既有开发诊断",
+      "limitation": "与A09同轮派生；不是独立重复研究",
+      "source_group": "local_prior",
+      "finding": "跨来源平均轮廓和类型差异不能混为一谈。",
+      "use": "先排除标签、取材、尺度不一致的直接迁移。",
+      "boundary": "简单映射不稳定；多份分析共享同一原始输入。",
+      "remote_reader": "publications/20261118/research/vem_source_comparison_v2/README.md",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01"
+    },
+    {
+      "analysis_id": "A11",
+      "title": "逐对相似性、官方组成与时间趋势",
+      "topic": "transfer",
+      "tasks": [
+        "T1",
+        "T2_embryo",
+        "T2_heart"
+      ],
+      "evidence_status": "既有已验收比较；本次不重算",
+      "limitation": "相关与覆盖用于筛选；不直接指定供体权重",
+      "source_group": "local_pairwise",
+      "finding": "表达相关、检出差异和阶段变化提供不同信息。",
+      "use": "选择一个来源与细胞类型，查看差异具体发生在哪里。",
+      "boundary": "不同panel和表达表示的绝对距离不能混排。",
+      "remote_reader": "publications/20261118/research/vem_pairwise_similarity_v3/comparison.html",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_pairwise_similarity_v3_20261116/run01"
+    },
+    {
+      "analysis_id": "A12",
+      "title": "T1加权相似性与二进制检出比较",
+      "topic": "transfer",
+      "tasks": [
+        "T1"
+      ],
+      "evidence_status": "既有已验收比较",
+      "limitation": "S是自定义描述统计，不是官方分数；并入A11页面展示",
+      "source_group": "local_binary",
+      "finding": "T1检出结构与表达强度能分开比较。",
+      "use": "区分供体差异来自零值还是阳性表达。",
+      "boundary": "加权S是自定义描述统计，不是官网分数。",
+      "remote_reader": "publications/20261118/research/vem_pairwise_similarity_v3/comparison.html#t1-weighted-binary-appendix",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_t1_weighted_binary_v4_20261116/run01"
+    },
+    {
+      "analysis_id": "A13",
+      "title": "公开评分公式来源比较与迁移支线",
+      "topic": "metrics",
+      "tasks": [
+        "T1",
+        "T2_embryo"
+      ],
+      "evidence_status": "公开公式开发诊断",
+      "limitation": "独立496基因迁移支线不能与主表绝对距离混排；不是官网分",
+      "source_group": "local_metrics",
+      "finding": "静态均值接近不保证时间变化可迁移。",
+      "use": "用完整指标检验有限来源改动，保留迁移失败。",
+      "boundary": "分布距离改善可伴随均值误差恶化；没有通用换算。",
+      "remote_reader": "publications/20261118/research/vem_official_metric_source_audit/index.html",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_official_metric_source_audit_20261116"
+    },
+    {
+      "analysis_id": "A14",
+      "title": "现行评分规则与逐项代码审读",
+      "topic": "metrics",
+      "tasks": [
+        "T1",
+        "T2_embryo",
+        "T2_heart",
+        "T3"
+      ],
+      "evidence_status": "原文（代码）与独立教学可复算",
+      "limitation": "固定公开commit；后台版本和部分gate仍未知；教学不等于生产评分器",
+      "source_group": "local_scoring",
+      "finding": "三个任务比较的对象和指标权重不同。",
+      "use": "先明确参考、真值、预测的角色，再解释每项诊断。",
+      "boundary": "固定公开版本；线上后台与部分gate未完成等价验收。",
+      "remote_reader": "publications/20261118/notes/scoring_review_20261118/02_评分仓库逐项审读与矩阵实例.md",
+      "remote_compute_root": null
+    },
+    {
+      "analysis_id": "A15",
+      "title": "11月15日官方与外部比较历史补充",
+      "topic": "transfer",
+      "tasks": [
+        "T1",
+        "T2_embryo",
+        "T2_heart",
+        "T3"
+      ],
+      "evidence_status": "作者本地；本次已读报告、协议与完成收据",
+      "limitation": "不同面板/归一化/样本口径；特定来源许可未在本轮认证，不推广至其他任务",
+      "source_group": "older_comparison",
+      "finding": "历史比较保留了另一套来源与口径。",
+      "use": "查询旧分析、映射与来源记录，避免重复劳动。",
+      "boundary": "不能把旧归一化结果或特定子集许可推广到其他条件。",
+      "remote_reader": "../official_external_comparison_20261115/REPORT_ZH.md",
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115"
+    }
+  ]
+}
