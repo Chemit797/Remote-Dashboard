@@ -1,0 +1,1063 @@
+{
+  "all_pass": true,
+  "batches": 13,
+  "files": [
+    {
+      "path": "COMPLETE.json",
+      "bytes": 288,
+      "sha256": "c2d844bb524c27ce33908db7f18d16f4384f46d6d8821d1e3c324313d2b8b8b7"
+    },
+    {
+      "path": "EMTAB6967_6p75_counts.csv",
+      "bytes": 1411,
+      "sha256": "53a310e256862f3f09e2b3ed429b442f29f6bbc94e2134200f3ad98a85eefe27"
+    },
+    {
+      "path": "EMTAB6967_7p25_counts.csv",
+      "bytes": 6248,
+      "sha256": "d442a13686273374a721ad06692d85a31f8b5dbfcbc18cb69cfd63e55711e78e"
+    },
+    {
+      "path": "EMTAB6967_8p0_counts.csv",
+      "bytes": 11857,
+      "sha256": "07576385694befd8e7689de558a84b2258a235125c149c02028a7ec4cb1f18f6"
+    },
+    {
+      "path": "FENG193346_CD1_9p5_counts.csv",
+      "bytes": 2442,
+      "sha256": "b26a2d62d3ddb50225e8495c4ebaeac0573f6240b62d91a75675116566345247"
+    },
+    {
+      "path": "MOSTA_E9.5_9p5_counts.csv",
+      "bytes": 569,
+      "sha256": "046b5d3a54694a40f3f26e62d8223228b6028a08ea51f3781531f6df87cfaba2"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__FENG193346_CD1_9p5__ALL__common_genes.csv.gz",
+      "bytes": 495738,
+      "sha256": "65b48ccb810461536f31ad603dfb24b781ae7b0758986d4c641b537085ed807c"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__FENG193346_CD1_9p5__ALL__native_genes.csv.gz",
+      "bytes": 640013,
+      "sha256": "199a03f4ec225de935d7adeaf493fc69c505869229cb0866f37edca0eb901b8b"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__MOSTA_E9.5_9p5__ALL__common_genes.csv.gz",
+      "bytes": 464990,
+      "sha256": "86041675d4ed8cdb45c88821e50d7f7a6399287bbf7e76f63ad8882bb62fe6e8"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__MOSTA_E9.5_9p5__ALL__native_genes.csv.gz",
+      "bytes": 616411,
+      "sha256": "f47dc4e86fab8433266e6b98eaafab4a07394e4b471080ecb08c9783e5fe5777"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__OMIX014646_9p5__ALL__common_genes.csv.gz",
+      "bytes": 499735,
+      "sha256": "0828611514d68e4cd91907460035e84e20e135f42dc2591b6e0397834edbe88a"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__OMIX014646_9p5__ALL__native_genes.csv.gz",
+      "bytes": 596968,
+      "sha256": "d8d0686cf88d0377fa99918cf4e4ca7fc476353ef8180246b76f66008d213aac"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__QIU228590_9p5__ALL__common_genes.csv.gz",
+      "bytes": 504183,
+      "sha256": "ceaa1478d290ef5097e74244a703903d5c42eda2ea2c208d8caa80b106404138"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__QIU228590_9p5__ALL__native_genes.csv.gz",
+      "bytes": 649681,
+      "sha256": "fb0f300f456a9c67001aa99f8d37b21757e5c189bbb35d6a01360b23ab662069"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__VED-003_canonical_9p5__ALL__common_genes.csv.gz",
+      "bytes": 506612,
+      "sha256": "f8b3331175d18798dcb2f7756f635f4453e5f7adcc5dd46896b75b9ca2b31c02"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__VED-003_canonical_9p5__ALL__native_genes.csv.gz",
+      "bytes": 603924,
+      "sha256": "396d5adda890fa20518079f106c74f3aa4c37ef2107849a3d7a1a5e8e5ce2e1b"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__VED021_T1_9p5__ALL__common_genes.csv.gz",
+      "bytes": 505759,
+      "sha256": "5a12c9c07631bc720b0bd9a46ff673250a9a0e0e98bf6b5a3468862dcfcc68e1"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5__VED021_T1_9p5__ALL__native_genes.csv.gz",
+      "bytes": 602923,
+      "sha256": "c13b46e326b3be62b40d39599c94dd43226ab02b13e54faa501204c1d0438ea4"
+    },
+    {
+      "path": "OFF_T1_E10.5_RNA_10p5_counts.csv",
+      "bytes": 2532,
+      "sha256": "b564283c9281b18ba0feadc2c020c3f868154bbafc7cab6f6f5fef83b1836511"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__FENG193346_CD1_9p5__ALL__common_genes.csv.gz",
+      "bytes": 495222,
+      "sha256": "84673c2e8237f2a4ec08d9a893180d290a1cda9ec1be3961a209ce986efe7d15"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__FENG193346_CD1_9p5__ALL__native_genes.csv.gz",
+      "bytes": 639902,
+      "sha256": "79ae998ca7adeeaf9024eb9e15fd46934d24356538337d4b6f7388b004dada69"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__MOSTA_E9.5_9p5__ALL__common_genes.csv.gz",
+      "bytes": 463368,
+      "sha256": "b2c4737b6f5be8ec075d077b0f869e848c35bb4b6aebedc5c92f5f70509bc79d"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__MOSTA_E9.5_9p5__ALL__native_genes.csv.gz",
+      "bytes": 614449,
+      "sha256": "7cd85c3e033f1e98be68791a4f20e78af89f9369a18ed69be4f1dc8124be698c"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__OMIX014646_8p5__ALL__common_genes.csv.gz",
+      "bytes": 499416,
+      "sha256": "b186670cba1a537ac74f155fa631114787492afba70b4f5e16af8dcee706ba76"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__OMIX014646_8p5__ALL__native_genes.csv.gz",
+      "bytes": 596720,
+      "sha256": "02bb3b216dbab7bd625f54b5f990694a9d4367227efd467fc2a05b68816f0d40"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__OMIX014646_8p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 482907,
+      "sha256": "040def5c12b4e5495affa84000d5f815fe30875198287460047397a620101265"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__OMIX014646_8p5__neural_crest__common_genes.csv.gz",
+      "bytes": 435297,
+      "sha256": "e67e604696d098a0f57db4d0b705a7327b506b6be2d32167c36ae25d5f85d257"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__OMIX014646_8p5__paraxial_mesoderm__common_genes.csv.gz",
+      "bytes": 457486,
+      "sha256": "8be77d053a41f40e9ab967caf8fc00defce3023945c33891a1048b608fa21c83"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__OMIX014646_8p5__surface_ectoderm__common_genes.csv.gz",
+      "bytes": 465159,
+      "sha256": "6bdb7faed7c5310321eb2b7c310e536fc407ce42e715dcd0f6db26aad2f057cc"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__QIU228590_8p75__ALL__common_genes.csv.gz",
+      "bytes": 480369,
+      "sha256": "74c65e21fcc50394c1a9f385e11b07d8ec44062f2c58dac0d1a7fcc09a5fa999"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__QIU228590_8p75__ALL__native_genes.csv.gz",
+      "bytes": 630029,
+      "sha256": "2a5271b2e3afe7979524fdc68404656e0318359e4f7c84e50caf5677fe5e62e2"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__STEREO_E8_rep1_8p0_as_T1__ALL__common_genes.csv.gz",
+      "bytes": 468004,
+      "sha256": "e7c2dd17dcbacd5ed6e39e3fa63d9aec84395f699b7a71125b94394d08e9fcf2"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__STEREO_E8_rep1_8p0_as_T1__ALL__native_genes.csv.gz",
+      "bytes": 619601,
+      "sha256": "b7c18d2c68e2cb351958d2a356183ec89a79e15c4a102568664dbb6547583fa9"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__STEREO_E8_rep2_8p0_as_T1__ALL__common_genes.csv.gz",
+      "bytes": 486845,
+      "sha256": "9e8d13f33ca176759c43e3fdceb76028705c6a05e9918b9fa5d1ff0f7080ec2b"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__STEREO_E8_rep2_8p0_as_T1__ALL__native_genes.csv.gz",
+      "bytes": 635355,
+      "sha256": "c40cec10aa5aee1442e32770744e77b775546a3cbe0e7f9d8b61c3da6a96016d"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-001_canonical_8p5__ALL__common_genes.csv.gz",
+      "bytes": 501958,
+      "sha256": "f65ea2a8867097554f733e056c237d9b663a3e880a6ff0dda631fdc72657d59a"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-001_canonical_8p5__ALL__native_genes.csv.gz",
+      "bytes": 599451,
+      "sha256": "eedfc26efbf4b976e521241b8367f29dbc5abb8b89d3251611f8a1bf659caec6"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-001_canonical_8p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 479733,
+      "sha256": "45f9aa6f9998e36c32bfc5f73189bad024c311e566ce0e0321daced6da42d9eb"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-001_canonical_8p5__neural_crest__common_genes.csv.gz",
+      "bytes": 431919,
+      "sha256": "f3f44035d1a9dd117ea31406d8eb17ec76d50226c5e95b0d0e815de647d0bff4"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-001_canonical_8p5__paraxial_mesoderm__common_genes.csv.gz",
+      "bytes": 450371,
+      "sha256": "c1ed8dda2f1a6e15547cbb678d6c3736924562bbcc5062796b07d6f60fbd3785"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-001_canonical_8p5__surface_ectoderm__common_genes.csv.gz",
+      "bytes": 463662,
+      "sha256": "e824c779b2703848a5c259374d468646573d9ca93b07201ca35610bf9459a288"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-003_canonical_9p5__ALL__common_genes.csv.gz",
+      "bytes": 504914,
+      "sha256": "39fee94f95825ee393aa2356edf948812a0a1b274525c1830ef7fa440a5ae58f"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-003_canonical_9p5__ALL__native_genes.csv.gz",
+      "bytes": 602743,
+      "sha256": "700af535e56002d436be8a5264844a1fbd6bd4750c8a041bab38bb6832893cd6"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-004_canonical_8p5__ALL__common_genes.csv.gz",
+      "bytes": 500283,
+      "sha256": "5bd35f280a53abe648dfeacfdad92ddd8c396b0b4f9bf1151443f1da2b7b186e"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-004_canonical_8p5__ALL__native_genes.csv.gz",
+      "bytes": 597716,
+      "sha256": "806983b19ffe62892f8fbc54a802b59a8810a606ce75c2f158a3987a92d00201"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-004_canonical_8p5__neural_crest__common_genes.csv.gz",
+      "bytes": 446417,
+      "sha256": "fff17412ea1b9c747a215c86dc4e925271ac51c899008ac18f9894dd39015b24"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-004_canonical_8p5__paraxial_mesoderm__common_genes.csv.gz",
+      "bytes": 459267,
+      "sha256": "985251a3668e16fa96ba2db8c4c227e55aaf96766fa86d99b05ea7626248af2e"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-006_canonical_8p25__ALL__common_genes.csv.gz",
+      "bytes": 500886,
+      "sha256": "2b2836cad4a86ef1fbbcfaa2068c83d84aa1a0d7fa4811dce5c81b8a9cf5c6f0"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-006_canonical_8p25__ALL__native_genes.csv.gz",
+      "bytes": 597913,
+      "sha256": "c3b6495b8eee91c783417fdc6b248a05b0872188cbde4c50daf9addd4e8f81df"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-010_canonical_8p5__ALL__common_genes.csv.gz",
+      "bytes": 477725,
+      "sha256": "4889b0c5b96b6969e3527da052f122e12b22d495bc1063f3ef3ae302b426a2ab"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED-010_canonical_8p5__ALL__native_genes.csv.gz",
+      "bytes": 578128,
+      "sha256": "8cc3a77068b89a5de2d20f30462f8b1dd9484aeaecec5a856fa9bbf24352a34b"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED002_T1_8p25__ALL__common_genes.csv.gz",
+      "bytes": 480176,
+      "sha256": "09020982597c24a605091c51ad3809245a33345e83d2220dd7f581d766164edf"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED002_T1_8p25__ALL__native_genes.csv.gz",
+      "bytes": 579976,
+      "sha256": "f450c98339077a05fd83ac8d9a59d0bba85b35e9c03be3027334ca20c41d9ebe"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED021_T1_8p5__ALL__common_genes.csv.gz",
+      "bytes": 504758,
+      "sha256": "e9cd80fb227589de829b205020b69974833dea6729718d552eb9110a129e1dce"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5__VED021_T1_8p5__ALL__native_genes.csv.gz",
+      "bytes": 602130,
+      "sha256": "bf8ace3a0edcc3b0cb021b93683c33a5f6cf7a0fa8b955dd0276e8372eb19c26"
+    },
+    {
+      "path": "OFF_T1_E8.5_RNA_8p5_counts.csv",
+      "bytes": 1927,
+      "sha256": "47ea1758fc6bae30b3f943fdd4953657559025b1cae9667b3be05b9923cfea2f"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__FENG193346_CD1_9p5__ALL__common_genes.csv.gz",
+      "bytes": 495877,
+      "sha256": "44e618f1ea9eff16d129693f8948f49ce1f06c2896ed04861f975254dfc2d14a"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__FENG193346_CD1_9p5__ALL__native_genes.csv.gz",
+      "bytes": 640597,
+      "sha256": "3185d499e8a42dcd658d9abd254528934e50fadba6a821645dd2fc0c792ee725"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__FENG193346_CD1_9p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 485112,
+      "sha256": "6937b7be72983f56418e19cad213825b29b023d3d87e143e98739dd53d97fb84"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__FENG193346_CD1_9p5__endocardium__common_genes.csv.gz",
+      "bytes": 390787,
+      "sha256": "2d94f7026964d5eb6385a5f82b19ebd9d9abab6f72e516484f75ec202de80972"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__MOSTA_E9.5_9p5__ALL__common_genes.csv.gz",
+      "bytes": 463667,
+      "sha256": "1e2c8faf1231474a4a938644e12692ac9430633d6ff5cca56482b82985ce284f"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__MOSTA_E9.5_9p5__ALL__native_genes.csv.gz",
+      "bytes": 614747,
+      "sha256": "b59460c5f13fc0d288c8fc63e79caf3a8ea321c1de980ac0885eee11f5e54dc7"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__OMIX014646_9p5__ALL__common_genes.csv.gz",
+      "bytes": 500310,
+      "sha256": "c760568487f2b9782670f0fd3f70e76022245d694a0f792b0653bcfd88c7160e"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__OMIX014646_9p5__ALL__native_genes.csv.gz",
+      "bytes": 597668,
+      "sha256": "3fcd192c8e551815e23e981a3faf35abaccb30a2f52a855c318ce9ba81afc31b"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__OMIX014646_9p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 466700,
+      "sha256": "e54dfc2c9d586b03a71d53b48edfce91b5d97b3d5d67df09c5a6ae36bb182414"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__OMIX014646_9p5__neural_crest__common_genes.csv.gz",
+      "bytes": 418049,
+      "sha256": "486d8096590b9d5ac6ca1f0aa0fc84c616b1b3ca4c71a1b14b19acde92224914"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__QIU228590_9p5__ALL__common_genes.csv.gz",
+      "bytes": 503369,
+      "sha256": "5bbed415465526175b7e02cd0e635d4812ebc4288aaab5d59daaac26403f2ece"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__QIU228590_9p5__ALL__native_genes.csv.gz",
+      "bytes": 649042,
+      "sha256": "3f6d00345508100602e6deb904ce8e865730d8905ac1290457fc72c54a98b9dd"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__QIU228590_9p5__endocardium__common_genes.csv.gz",
+      "bytes": 455673,
+      "sha256": "267c6bb1a4e20d324c1b2750e5f2dcee735102dabd19d5fd68cb1928529baa48"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-001_canonical_8p5__ALL__common_genes.csv.gz",
+      "bytes": 502050,
+      "sha256": "11371cb29842a4e22af5878b94ae76aecd6bbda9c10a6fcd7ed6166b8791dbae"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-001_canonical_8p5__ALL__native_genes.csv.gz",
+      "bytes": 599710,
+      "sha256": "92e6fd90fe7cedb54eae6327c7ab50df06112ba54ca0b45c77a8215095e8a090"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-003_canonical_9p5__ALL__common_genes.csv.gz",
+      "bytes": 505312,
+      "sha256": "f2ca587084a50d3c43cf629849f8043424f0a450f455e02fc31f1ee60dc89952"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-003_canonical_9p5__ALL__native_genes.csv.gz",
+      "bytes": 602976,
+      "sha256": "06abe88951225c95fae5ca79920996d0ef031577944b26bb61783acefed7013c"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-004_canonical_8p5__ALL__common_genes.csv.gz",
+      "bytes": 500755,
+      "sha256": "eb9da0065e92bb653c890bc36d9c53ac6a966cd94cb29fd999c046e1e77f7ca7"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-004_canonical_8p5__ALL__native_genes.csv.gz",
+      "bytes": 598083,
+      "sha256": "376e04f465138860cefdbd8d9516f64bb5c589b652c32becd73fb93fb4a2f79c"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-006_canonical_9p25__ALL__common_genes.csv.gz",
+      "bytes": 501358,
+      "sha256": "c1cdd65e5378768fe8c717bda4f250303bbff586749ec92e155187cfac546474"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-006_canonical_9p25__ALL__native_genes.csv.gz",
+      "bytes": 598750,
+      "sha256": "f77a4fb2baa7e0825dd876df374469fd7ff117d0b0c5fd54caeda38fa2b7d96c"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-010_canonical_8p5__ALL__common_genes.csv.gz",
+      "bytes": 477985,
+      "sha256": "c1a96430e872117280af22ba54c4cfc5efcd6ae0d3afc276f14382917b61679d"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED-010_canonical_8p5__ALL__native_genes.csv.gz",
+      "bytes": 578393,
+      "sha256": "7e482560d1839a14539ec997345a3f7dee8632a4d7fdfb6c37e6174b5f8aff27"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED021_T1_9p5__ALL__common_genes.csv.gz",
+      "bytes": 504522,
+      "sha256": "357cc376648fe3ca258feff774decab63fb69595f24b650bb928546ed7b4a358"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5__VED021_T1_9p5__ALL__native_genes.csv.gz",
+      "bytes": 601897,
+      "sha256": "9b5d167fc1b053d8eebbd58a570c1237dd054e96190c029247d2555625fd84bc"
+    },
+    {
+      "path": "OFF_T1_E9.5_RNA_9p5_counts.csv",
+      "bytes": 2211,
+      "sha256": "dbe0ac02307d5a81ed0f9f85f2d23cccd1731f87f585db7ea398c6dc8eb4b5a3"
+    },
+    {
+      "path": "OFF_T2_embryo_E6.75_6p75__EMTAB6967_6p75__ALL__common_genes.csv.gz",
+      "bytes": 14866,
+      "sha256": "fda9761f45a41eaa031bd46daba3c950876adecf9ebd3d9f24c20a502b4ff6ab"
+    },
+    {
+      "path": "OFF_T2_embryo_E6.75_6p75__EMTAB6967_6p75__ALL__native_genes.csv.gz",
+      "bytes": 19906,
+      "sha256": "e7d362eedf3a53d9da38dce7fd8551161c45b180414550bb3a965f8fb3cc4b49"
+    },
+    {
+      "path": "OFF_T2_embryo_E6.75_6p75__EMTAB6967_6p75__extraembryonic_ectoderm__common_genes.csv.gz",
+      "bytes": 8937,
+      "sha256": "b648c99d131368796ad41cf6997aab10b957c2f3f97e4cac2b56f01de752c2d4"
+    },
+    {
+      "path": "OFF_T2_embryo_E6.75_6p75__EMTAB6967_6p75__extraembryonic_endoderm__common_genes.csv.gz",
+      "bytes": 10056,
+      "sha256": "cd397f59a4acc0c50a2dc81155fafa86f8135b7c658199fea5f43803f8662419"
+    },
+    {
+      "path": "OFF_T2_embryo_E6.75_6p75__EMTAB6967_6p75__primitive_streak__common_genes.csv.gz",
+      "bytes": 8628,
+      "sha256": "9bc79d1a0cb5dbbd617cd6bc3ff9b850aad12966a4f3a713add6969a867c8a3d"
+    },
+    {
+      "path": "OFF_T2_embryo_E6.75_6p75__VED002_allowed_7p25__ALL__common_genes.csv.gz",
+      "bytes": 15187,
+      "sha256": "26a70864513cb471c463ef7d7d9964e5b76207a02f095841155c58925956ec43"
+    },
+    {
+      "path": "OFF_T2_embryo_E6.75_6p75__VED002_allowed_7p25__ALL__native_genes.csv.gz",
+      "bytes": 18897,
+      "sha256": "3a665d4156943bcdcd0fd9b8204ff8d3651a4f9ca5b061fa1112146a79b7fb7d"
+    },
+    {
+      "path": "OFF_T2_embryo_E6.75_6p75_counts.csv",
+      "bytes": 2118,
+      "sha256": "4443ce79cada79bfb05efbcd6a62674735ccc0c9375efbfecf8a456920f4585a"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25__EMTAB6967_7p25__ALL__common_genes.csv.gz",
+      "bytes": 18416,
+      "sha256": "73607f91712b8523ea50165dcd5362807d1e8b5fbb2fbdec6feae38995f022dc"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25__EMTAB6967_7p25__ALL__native_genes.csv.gz",
+      "bytes": 23837,
+      "sha256": "17a1223e452ae13a1888c9cb814e1217c78fd29d937d77525c6b85e82f2ef633"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25__EMTAB6967_7p25__blood_progenitor__common_genes.csv.gz",
+      "bytes": 7591,
+      "sha256": "d21cf37f41df481f48a3fce4d876bc34eda3a13018ddc2809561d4041673620b"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25__EMTAB6967_7p25__extraembryonic_ectoderm__common_genes.csv.gz",
+      "bytes": 11445,
+      "sha256": "cd0ecbf13478a145f5045e20fa509f1104c8b2607c41624921f93d2b81a8994b"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25__EMTAB6967_7p25__extraembryonic_endoderm__common_genes.csv.gz",
+      "bytes": 13448,
+      "sha256": "40da5cf025740f64c326fa99b4bcd5602455c79028ab413e485d20b9e727b398"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25__EMTAB6967_7p25__primitive_streak__common_genes.csv.gz",
+      "bytes": 14149,
+      "sha256": "c278304afb439da672692dedb17a11fc63ee476f484dccce01c8b27314c62277"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25__VED002_allowed_7p25__ALL__common_genes.csv.gz",
+      "bytes": 15841,
+      "sha256": "95c065beffe2091cde39da0f4b3a35bcb443b198e001feefd3ab91cfc7d6fd8e"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25__VED002_allowed_7p25__ALL__native_genes.csv.gz",
+      "bytes": 19538,
+      "sha256": "b893cf4fbb7f3742d62cc9c8950cbf5e9a7a00c51dbdf6ebe200f077ce792cac"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.25_7p25_counts.csv",
+      "bytes": 2137,
+      "sha256": "262c2e3ce95349cbfc80f4ff48f07ae6580e86b14e0c3f8b44393a4bb720a0d4"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5__EMTAB6967_7p25__ALL__common_genes.csv.gz",
+      "bytes": 19016,
+      "sha256": "494d4929f909cd420882fb4c98b8710929bb6da0eacca10b7007c59383694693"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5__EMTAB6967_7p25__ALL__native_genes.csv.gz",
+      "bytes": 24510,
+      "sha256": "9d4594b7ede27f102e1103c5e1e701eb0372fa31bfa1fb4e02d8a07c3bcde813"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5__STEREO_E8_rep1_8p0__ALL__common_genes.csv.gz",
+      "bytes": 18041,
+      "sha256": "a6979409dfbd272e85aae06e7d6f90cfba004c0e6ff70b0a4df5ce441ac5ebf7"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5__STEREO_E8_rep1_8p0__ALL__native_genes.csv.gz",
+      "bytes": 23666,
+      "sha256": "87a4a8156ae49e812cacf8c43030280f1566709af760f20486d8c184e41635af"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5__STEREO_E8_rep2_8p0__ALL__common_genes.csv.gz",
+      "bytes": 18420,
+      "sha256": "c122eb09696e39ee177c1e2346b1de5d56d859d2b183cdeddb5a8d138adbdda0"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5__STEREO_E8_rep2_8p0__ALL__native_genes.csv.gz",
+      "bytes": 23910,
+      "sha256": "4578a61aae3fadad3fce683c1bbccd373307f7131ffc13ace60dba02a47998c7"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5__VED002_allowed_7p25__ALL__common_genes.csv.gz",
+      "bytes": 16524,
+      "sha256": "c2cbbb303025be6eeaef3f895a2d35a95e9eca48304720609075f3347f893f21"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5__VED002_allowed_7p25__ALL__native_genes.csv.gz",
+      "bytes": 20276,
+      "sha256": "c8c4a3cbbae60c5282fd43e99d94da24b4ff2e1f8e62693a53ba19db69af5c7d"
+    },
+    {
+      "path": "OFF_T2_embryo_E7.5_7p5_counts.csv",
+      "bytes": 2064,
+      "sha256": "7793eafecc33ea61ee84f03da704c979c2c392e69cfbc2feb157856105899744"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__EMTAB6967_8p0__ALL__common_genes.csv.gz",
+      "bytes": 19925,
+      "sha256": "49027cfbc88c8bb0b8f5c8efd143d38e420151b73f13cbc229c7ab0e19be33cf"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__EMTAB6967_8p0__ALL__native_genes.csv.gz",
+      "bytes": 25375,
+      "sha256": "4dff44e239c7eb6f2d6e4170a6cf6e22ae4e4a0f3db187a333a0b654b8dc182c"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__EMTAB6967_8p0__allantois__common_genes.csv.gz",
+      "bytes": 15919,
+      "sha256": "acf616b2e8aed36baa1912243ccb22d16c2ccce7b00e93a37acec2ec38430347"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__EMTAB6967_8p0__caudal_epiblast__common_genes.csv.gz",
+      "bytes": 14590,
+      "sha256": "6147c5af96204a86e7105d8716e10d282842b93145fab3306786be098da76b13"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__EMTAB6967_8p0__extraembryonic_endoderm__common_genes.csv.gz",
+      "bytes": 16804,
+      "sha256": "f1e0d462887c5ff34b8301db7f0beab0da716388aad800dc5c373e172545d176"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__OMIX014646_8p5_as_T2__ALL__common_genes.csv.gz",
+      "bytes": 19879,
+      "sha256": "29ba77f878dff52bdba69036a268bb9bfef961e93f0ca0cc868119946f603c33"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__OMIX014646_8p5_as_T2__ALL__native_genes.csv.gz",
+      "bytes": 23579,
+      "sha256": "729bca793bedb5b2be53263811f00443ecd36b126d06fa824b5d982e7921afa4"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep1_8p0__ALL__common_genes.csv.gz",
+      "bytes": 18743,
+      "sha256": "863edd591d7722ac4b50eef4427ee95b7a8221a502ef6e7aee2dbc8a5c05bed0"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep1_8p0__ALL__native_genes.csv.gz",
+      "bytes": 24298,
+      "sha256": "6720cf4c0e0dbfd1206bf4ca018d718923cc239a1119e6ab01e637e27c33626c"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep1_8p0__caudal_epiblast__common_genes.csv.gz",
+      "bytes": 11538,
+      "sha256": "8188a9190f427270d2cd3bf4bc20f174e114b29518c21d773d9cc7a772db1202"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep1_8p0__extraembryonic_endoderm__common_genes.csv.gz",
+      "bytes": 16246,
+      "sha256": "b3302386ef0d1fb0bee0780c45d6665f06de31350edf0257edb9d54b1ce047ae"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep2_8p0__ALL__common_genes.csv.gz",
+      "bytes": 19200,
+      "sha256": "1016f733f0e8c1273356cf1794f6a68a5d49dc45e4e08ba5b1d7e330780ac526"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep2_8p0__ALL__native_genes.csv.gz",
+      "bytes": 24533,
+      "sha256": "cbc1591dba7275d0c2fbeef6b80bff1c3d30ed5c8485ad5c1f6e55e6c0aa781c"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep2_8p0__allantois__common_genes.csv.gz",
+      "bytes": 10478,
+      "sha256": "8485b934497ddb9d25b0b732a4decaa14ca8245b8460bb1297b24f4b76eaa95d"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep2_8p0__caudal_epiblast__common_genes.csv.gz",
+      "bytes": 12254,
+      "sha256": "dc9f450908f9175e17997bd5336eefb246651ec5cc3c4d043a6901a9bbbc78f3"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__STEREO_E8_rep2_8p0__extraembryonic_endoderm__common_genes.csv.gz",
+      "bytes": 16702,
+      "sha256": "b01cfa4819e4c6fc1b3632a41946fac6355c2337b6c5a29b3a3768143eacdc36"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED-004_canonical_8p5_as_T2__ALL__common_genes.csv.gz",
+      "bytes": 19969,
+      "sha256": "30cd0f876c1d9c251f0c1a6eae74f7acf7fc193128127bd121095c2c09e8bb77"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED-004_canonical_8p5_as_T2__ALL__native_genes.csv.gz",
+      "bytes": 23574,
+      "sha256": "a4e29bc187c494c26f575ab3489a987c2433661e45f263f48f4655069b3dc9e2"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED-006_canonical_8p25_as_T2__ALL__common_genes.csv.gz",
+      "bytes": 19868,
+      "sha256": "cab59cd5d19effc9862e0c5033a90a62e69b8e042ad08c84d9943d7982d0fe04"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED-006_canonical_8p25_as_T2__ALL__native_genes.csv.gz",
+      "bytes": 23536,
+      "sha256": "458d00623e615d138471490e1fb776e43d9cb803811f76afd742e6664b114151"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED-010_canonical_8p5_as_T2__ALL__common_genes.csv.gz",
+      "bytes": 19027,
+      "sha256": "b6dd73b7a416b1733ba5a3f706bdcbf4d064aa9a050d65fd1a76b43931a248e3"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED-010_canonical_8p5_as_T2__ALL__native_genes.csv.gz",
+      "bytes": 22793,
+      "sha256": "0a64a4e398245edb7208b414878e4d20ebfa9b7c04c7d950817643919a7764db"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED002_allowed_8p25__ALL__common_genes.csv.gz",
+      "bytes": 19303,
+      "sha256": "7037eb4b6a0ce6fa1323c267eb1873b440a2b3016afe32dd1fc08aa73b8585b7"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED002_allowed_8p25__ALL__native_genes.csv.gz",
+      "bytes": 22993,
+      "sha256": "02d52edffff469ccc76cc728dfd73e2533e3b44c1afeba96a6c99b243ed39f29"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED021_T2_8p5__ALL__common_genes.csv.gz",
+      "bytes": 20103,
+      "sha256": "d5023976b6cb2e3d5575bfb30624a7a95bc08127b1b4615e9c13f95095a8eb2d"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0__VED021_T2_8p5__ALL__native_genes.csv.gz",
+      "bytes": 23688,
+      "sha256": "fe954336ab8d95645afcc267735c2a6e75da8f59fc5d23b603b0d69969d5ecf5"
+    },
+    {
+      "path": "OFF_T2_embryo_E8.0_8p0_counts.csv",
+      "bytes": 2871,
+      "sha256": "c3ca5a2d1792543b420b2c453c9d3c8c8c99c32686dd6318b62b15d73b1d1a37"
+    },
+    {
+      "path": "OMIX014646_8p5_as_T2_counts.csv",
+      "bytes": 22915,
+      "sha256": "d53b34b9ed7f64dfddf55d0097de3f4607658245fcfe01558be9563ea285a93d"
+    },
+    {
+      "path": "OMIX014646_8p5_counts.csv",
+      "bytes": 21715,
+      "sha256": "df943178891d861e30b22d893040a137d785eb78310dcb2c3203a2faf1432bcd"
+    },
+    {
+      "path": "OMIX014646_9p5_counts.csv",
+      "bytes": 40412,
+      "sha256": "42b6e3731dc197c02e4306c156695be0b8bbbab0fe4acce8d7e272c61ccd0683"
+    },
+    {
+      "path": "QIU228590_8p75_counts.csv",
+      "bytes": 675,
+      "sha256": "e7245c34c4eb367cc2f0563ec23bbc39b05d64acc19f62b6c31bd05b0b8b0840"
+    },
+    {
+      "path": "QIU228590_9p5_counts.csv",
+      "bytes": 950,
+      "sha256": "35e03a96d6bf3acdd115c3cf608ed0c989c44d903a1ceee5f2fe38fe3e743304"
+    },
+    {
+      "path": "RESULT_MANIFEST.json",
+      "bytes": 92935,
+      "sha256": "f39f6963808d64535f81befb45173fbb8e3c3590e3a9b0e2293daac2f2f752d7"
+    },
+    {
+      "path": "STEREO_E8_rep1_8p0_as_T1_counts.csv",
+      "bytes": 2814,
+      "sha256": "8192f8c2260499ad4999024de91c38ffd2e5a85b19bbf06f50d6cf71d0db7416"
+    },
+    {
+      "path": "STEREO_E8_rep1_8p0_counts.csv",
+      "bytes": 2670,
+      "sha256": "0d8b8b251349b7e9be94a7f4d629705a5fabccdc41c2493fa49c3a5b984bc628"
+    },
+    {
+      "path": "STEREO_E8_rep2_8p0_as_T1_counts.csv",
+      "bytes": 3044,
+      "sha256": "1d1c559c26ce0c185f5ec8f5c3c37de1b5392ec21635ade0756ed4f274edcf48"
+    },
+    {
+      "path": "STEREO_E8_rep2_8p0_counts.csv",
+      "bytes": 2888,
+      "sha256": "c8d68493801e8ade80188092fa63c7fcbd421481b7293b6eb433359b8239c21a"
+    },
+    {
+      "path": "T1_genes.json",
+      "bytes": 126646,
+      "sha256": "e686b5df21044b57c39a94f718ccfe45b9b89c0083aa99b0c42ca109d95dd4bf"
+    },
+    {
+      "path": "T2_genes.json",
+      "bytes": 4424,
+      "sha256": "4f8628acfd9d363eeaab18f51725e8c6d692a60cab2e92ca64c20f2802a06a40"
+    },
+    {
+      "path": "VED-001_canonical_8p5_counts.csv",
+      "bytes": 11128,
+      "sha256": "ef0a318c8e55661eb2fdd5fe3e16aa57a98d9f0c2c1e9f7f38df372f29cefc1a"
+    },
+    {
+      "path": "VED-003_canonical_9p5_counts.csv",
+      "bytes": 68859,
+      "sha256": "ab311dbf6dd3c6f2781c758d4c8817cff7e285179125b3e4856371230de4a775"
+    },
+    {
+      "path": "VED-004_canonical_8p5_as_T2_counts.csv",
+      "bytes": 40274,
+      "sha256": "b05b7d16f42e35ae5ad47f4f4031eeef499d1a3abc1c77ceb25ef7727b78f869"
+    },
+    {
+      "path": "VED-004_canonical_8p5_counts.csv",
+      "bytes": 38174,
+      "sha256": "bdad67cdeffe58c8f5c843ea5735cfe8de010b2f2f3950fc14df8b8b5356bcb1"
+    },
+    {
+      "path": "VED-006_canonical_8p25_as_T2_counts.csv",
+      "bytes": 288,
+      "sha256": "ad4e8ba879128d68bf650fa8a564456fb7ccd129ab874bbf21932dc2de68411b"
+    },
+    {
+      "path": "VED-006_canonical_8p25_counts.csv",
+      "bytes": 276,
+      "sha256": "764f650b0e771a1d9b2afc7864953e11f996bd85358f1afdd85db617ee84cea8"
+    },
+    {
+      "path": "VED-006_canonical_9p25_counts.csv",
+      "bytes": 278,
+      "sha256": "4f2e7a0a7a845dc9e6452d6425f8bca12310a94a923309896b2da97e394f2530"
+    },
+    {
+      "path": "VED-010_canonical_8p5_as_T2_counts.csv",
+      "bytes": 199,
+      "sha256": "51974d7c68fb14bc2cfbdbc61f5a52a3c039fad77f119e4d332763da000ee5da"
+    },
+    {
+      "path": "VED-010_canonical_8p5_counts.csv",
+      "bytes": 193,
+      "sha256": "78df82f7b0b351a87d592e2e10b59c2511feaf7b2d311e570a50dbd43072fb52"
+    },
+    {
+      "path": "VED002_T1_8p25_counts.csv",
+      "bytes": 176,
+      "sha256": "1bc1f9abfba7870dd459fc4c2f4686124846ea6c3e94b46db10350976cedde8f"
+    },
+    {
+      "path": "VED002_allowed_7p25_counts.csv",
+      "bytes": 179,
+      "sha256": "7ab8cded9451ea1396d6e151df8fccfb56a393ada9c2e068d783f97e7bf968f9"
+    },
+    {
+      "path": "VED002_allowed_8p25_counts.csv",
+      "bytes": 181,
+      "sha256": "e2aefc96d23075835df952a06e6c4ac5da2b53ee93c529b8c9a15a62c696c878"
+    },
+    {
+      "path": "VED021_T1_8p5_counts.csv",
+      "bytes": 1460,
+      "sha256": "d0cd5000555a1a09a65c96957b2f8cf225bd6163ca3e24efa5904fa456c90eed"
+    },
+    {
+      "path": "VED021_T1_9p5_counts.csv",
+      "bytes": 580,
+      "sha256": "b4c5d8473e8e9b2a7cb53e774f6b81da7cdd5fe4a9fdcd4d9e1c7d0c5d5084f7"
+    },
+    {
+      "path": "VED021_T2_8p5_counts.csv",
+      "bytes": 1511,
+      "sha256": "988ae37c86ed7cf52d0f6d68e30bdb0ac398cb9446f7f318126e6ae53af165f4"
+    },
+    {
+      "path": "dataset_stats.json",
+      "bytes": 50335,
+      "sha256": "5e2aa395dec118c00e9c0b5a101750743ff3aff7f33c0c6b9d3ecaf0c8907c67"
+    },
+    {
+      "path": "delta_COMPLETE.json",
+      "bytes": 267,
+      "sha256": "b933912d49c6746a6e8f939c866029ed2ad214307d56be9d9a3b4665216f1a94"
+    },
+    {
+      "path": "delta_audit/eligibility.json",
+      "bytes": 71856,
+      "sha256": "7673fa02f2e9370eeaf112c4fb74de4f3db244561a0c679ddd24a364f4f24026"
+    },
+    {
+      "path": "delta_audit/failures.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "delta_audit/gene_tables/T1__OMIX014646__E8p5_E9p5__ALL__common.csv.gz",
+      "bytes": 779161,
+      "sha256": "71a8dcbe60161ab2e90c745a4374a751d768324ed8060c81b3c50c57dfe5281e"
+    },
+    {
+      "path": "delta_audit/gene_tables/T1__OMIX014646__E8p5_E9p5__ALL__native.csv.gz",
+      "bytes": 779542,
+      "sha256": "1453b6aaa5bd6075086549ca5cd80b7407f5481e5638246a7f40c65ded542451"
+    },
+    {
+      "path": "delta_audit/gene_tables/T1__OMIX014646__E8p5_E9p5__cardiomyocyte__common.csv.gz",
+      "bytes": 772361,
+      "sha256": "4feeb27c40a2895355caa8e66a6cb62a95a5f2b020d9eca1da28b975f3273992"
+    },
+    {
+      "path": "delta_audit/gene_tables/T1__OMIX014646__E8p5_E9p5__cardiomyocyte__native.csv.gz",
+      "bytes": 772984,
+      "sha256": "12266c2ab0a58e6522c893cc07b50d8814eed114ef4d428286df4f3ee0c44541"
+    },
+    {
+      "path": "delta_audit/gene_tables/T1__OMIX014646__E8p5_E9p5__neural_crest__common.csv.gz",
+      "bytes": 758460,
+      "sha256": "ef1560d04a4c3f3801049035c26c1ed736f5beeb0a0f12dcf0b0976eee85f563"
+    },
+    {
+      "path": "delta_audit/gene_tables/T1__OMIX014646__E8p5_E9p5__neural_crest__native.csv.gz",
+      "bytes": 758589,
+      "sha256": "24d535f22206852caad0b3b67e2cfe6ce2ac96b610ac7dd5a15e224761869ff4"
+    },
+    {
+      "path": "delta_audit/gene_tables/T1__VED-021__E8p5_E9p5__ALL__common.csv.gz",
+      "bytes": 773813,
+      "sha256": "82130e468268550421a106357e4a1ae66c5212e0590334e921d1fe1299086903"
+    },
+    {
+      "path": "delta_audit/gene_tables/T1__VED-021__E8p5_E9p5__ALL__native.csv.gz",
+      "bytes": 774293,
+      "sha256": "e8a4ebccd3c62519939a6bfab23a5ae5c1eecf9fcd83cf628f9fde7a7ff06cec"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E6p75_E7p25__ALL__common.csv.gz",
+      "bytes": 28620,
+      "sha256": "ddbcf3f36f14707a9f4570ab141c8d095ff3d5a5b406c76d114e6044057155ca"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E6p75_E7p25__ALL__native.csv.gz",
+      "bytes": 28841,
+      "sha256": "a6d002861be8176b8ee09121e12d73e5609f166e7b6668ca091efd7c3d4f6740"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E6p75_E7p25__extraembryonic_ectoderm__common.csv.gz",
+      "bytes": 19595,
+      "sha256": "978a22040ba5be537c30541027b90eabf2ddb2c2b2cc82719d949779c46b767c"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E6p75_E7p25__extraembryonic_ectoderm__native.csv.gz",
+      "bytes": 19681,
+      "sha256": "7525bd64d0f668b3f8b1fd7771b3fa25099d74adef32547cbabee17b5ff22787"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E6p75_E7p25__extraembryonic_endoderm__common.csv.gz",
+      "bytes": 22334,
+      "sha256": "c1b5d3ace2ccaf0975410400a2e065180464af2f2fd49d2fc21cdfaf906197d5"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E6p75_E7p25__extraembryonic_endoderm__native.csv.gz",
+      "bytes": 22400,
+      "sha256": "3833ce11f51c146e848266b5b228539ab9785bee624b0f0674b93af3aae0d1fc"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E6p75_E7p25__primitive_streak__common.csv.gz",
+      "bytes": 21699,
+      "sha256": "1d710e925bd7f81a2836ec3a20106e9bdabc1d76fb4ca95a199be854199930eb"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E6p75_E7p25__primitive_streak__native.csv.gz",
+      "bytes": 21883,
+      "sha256": "39e2e02edd1507babc0f7b7ab02141c48bffa7c8094cf35422b3c0f417cc0184"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E7p25_E8__ALL__common.csv.gz",
+      "bytes": 29941,
+      "sha256": "9aab255254362ea64beea151af805cfe4dea00e894458acd5ce6480a7b759078"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E7p25_E8__ALL__native.csv.gz",
+      "bytes": 30115,
+      "sha256": "44b353b429ee4f54b1f338e757cef0bc7e33d2ac8e5e0676bdf18a18ebd5faf9"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E7p25_E8__extraembryonic_endoderm__common.csv.gz",
+      "bytes": 26153,
+      "sha256": "d00441431bf85eb554b3119abd2ac9d045bab405829b85fba86f39264a0d1689"
+    },
+    {
+      "path": "delta_audit/gene_tables/T2__VED-001__E7p25_E8__extraembryonic_endoderm__native.csv.gz",
+      "bytes": 26330,
+      "sha256": "3c6d41f6923b49243be5521261b72bdbc2da3140ef7af82a089b1381ee6a1ebd"
+    },
+    {
+      "path": "delta_audit/input_manifest.json",
+      "bytes": 48015,
+      "sha256": "01fd062bcb50e3ef1cba4c04eaee63daa7ea05d6994d989fbd22d8334b7a5d1c"
+    },
+    {
+      "path": "delta_audit/method.json",
+      "bytes": 1517,
+      "sha256": "1e61cb4169aae84f2f593a131d4d0016725c91b30a97aa6db4a8e29b444c0567"
+    },
+    {
+      "path": "delta_audit/planned_sources.json",
+      "bytes": 531,
+      "sha256": "1e6de9b472ad9bae8df0d4f47ffb96504a858827717423e4a3f0d9d0e3c03654"
+    },
+    {
+      "path": "delta_audit/run_identity.json",
+      "bytes": 880,
+      "sha256": "a0afcbb9420d4352b9b6b0e7db61dd1dcaa3d9f04a2e0a99dd5765079624ca26"
+    },
+    {
+      "path": "delta_audit/sample_group_coverage.csv",
+      "bytes": 25456,
+      "sha256": "82068eb03c37f0a9e1c725bf1e8b69bbabdc93567e5365fd6004e0f9dcc5a125"
+    },
+    {
+      "path": "delta_audit/verification.json",
+      "bytes": 10650,
+      "sha256": "3c2fbaf5adf56ad2bc23b3b290de26cfbee7d9df98b8f88cd01bb97bf50c9604"
+    },
+    {
+      "path": "delta_metrics.csv",
+      "bytes": 18487,
+      "sha256": "bc5a0ed8c36b69ef1fe73c03fa6c29b72b65f4252c8a8b4b114240d4ef871ed0"
+    },
+    {
+      "path": "delta_metrics.json",
+      "bytes": 484394,
+      "sha256": "67259062e3a0a24eab1c654884e1e6a3c677ce1774f2a3c9a2bf6a3d81b57bc9"
+    },
+    {
+      "path": "gene_details.json",
+      "bytes": 1692794,
+      "sha256": "0515144d11b46642eefdc50513a8cbc33b39e432cfbb9080e9dcac1655be196b"
+    },
+    {
+      "path": "independent_verification.json",
+      "bytes": 132346,
+      "sha256": "712e06fc08ba3099707d3e3ac027742c23cf44a883a6b856a315c0e592d60565"
+    },
+    {
+      "path": "input_manifest.json",
+      "bytes": 16423166,
+      "sha256": "0f9f84310a3cf9890f1bd79d58f2b975750f9f414e6949e465c444d066a0dd9d"
+    },
+    {
+      "path": "label_mapping.json",
+      "bytes": 10345,
+      "sha256": "5dd6843bbe812d61305fd1dba6b92b358dfbeb744e0aa4900738a4f6ee5d0245"
+    },
+    {
+      "path": "local_anchors.json",
+      "bytes": 43061,
+      "sha256": "bfab31f3ac6cd3dedf174a6de177fa9cb4c1cc87f4a872b6912e47d847bdf712"
+    },
+    {
+      "path": "metrics.csv",
+      "bytes": 150776,
+      "sha256": "b8e9c70fa1af93def632024baf0a53a6a88ee1ab6ffa273a88fbc202cc20fb76"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 434160,
+      "sha256": "48f875744a478a24b58e2539e5fcfff7a395e587823ba6023b678caea03f0da1"
+    },
+    {
+      "path": "pair_eligibility.json",
+      "bytes": 11045,
+      "sha256": "7a48b1bec759ce19be5fcdaf5885b4c5a5e97d5efb5c9f8f05111b30ef40b7a7"
+    },
+    {
+      "path": "panel_coverage.csv",
+      "bytes": 4621,
+      "sha256": "b81f02308a9c82de1bd369242d15400ccfd4c166f05457207389505a4b32e85f"
+    },
+    {
+      "path": "prepare_failures.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "related_task_views.json",
+      "bytes": 3203155,
+      "sha256": "a8f247f14aa81b80dc2d1d05abc20bba926c699fb3df2af761d33d5a64afa60a"
+    },
+    {
+      "path": "run_identity.json",
+      "bytes": 647,
+      "sha256": "44b4c642d3efb290478d0d5b57cfda7ce225d57280f19f631ee3fb75c917762d"
+    },
+    {
+      "path": "sample_metrics.json",
+      "bytes": 75627,
+      "sha256": "a85f7ce11af2992eacebef2faf0a88b276e6c8c1031d736b21a0a1e8e7ff13e6"
+    },
+    {
+      "path": "sampling_sensitivity.json",
+      "bytes": 864,
+      "sha256": "3cc7afa39d64f6ce565cc8dbefd0e036b54e63fb6d349b7c885ac472c74b37fb"
+    },
+    {
+      "path": "spatial_input_verification.json",
+      "bytes": 1949,
+      "sha256": "0d6f3fa9aa65f951f10a3db9a9cfd72383d5a730815a4f3d55dc4436e4e9f52a"
+    },
+    {
+      "path": "spatial_metrics.json",
+      "bytes": 9160,
+      "sha256": "b39469cb2b6289e488006b6a0f99fdf7ce2d6489e852a3f333e94ff9c7b5ae7f"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1222,
+      "sha256": "80f4f557369a6c9c8bfd7ae74370ee940aef0aaacfd8711f60068b257fbdf744"
+    }
+  ],
+  "remote_output_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_official_metric_source_audit_20261116/run01/outputs",
+  "skipped": []
+}

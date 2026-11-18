@@ -1,0 +1,546 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "seven_official_inputs",
+      "passed": true
+    },
+    {
+      "name": "no_test_truth_scored",
+      "passed": true
+    },
+    {
+      "name": "all_fixed_source_names",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OFF_T1_E10.5_RNA_10p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OFF_T1_E8.5_RNA_8p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OFF_T1_E9.5_RNA_9p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OFF_T2_embryo_E6.75_6p75",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OFF_T2_embryo_E7.25_7p25",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OFF_T2_embryo_E7.5_7p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OFF_T2_embryo_E8.0_8p0",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OMIX014646_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:QIU228590_8p75",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:STEREO_E8_rep1_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:STEREO_E8_rep2_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-004_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-006_canonical_8p25_as_T2",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-006_canonical_8p25",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-006_canonical_9p25",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-010_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED002_allowed_8p25",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED002_T1_8p25",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED021_T1_8p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "composition_sums_to_one:VED021_T2_8p5",
+      "passed": true
+    },
+    {
+      "name": "weights_visible",
+      "passed": true
+    },
+    {
+      "name": "two_timelines",
+      "passed": true
+    },
+    {
+      "name": "validation_marked",
+      "passed": true
+    },
+    {
+      "name": "test_marked",
+      "passed": true
+    },
+    {
+      "name": "desktop_no_page_overflow",
+      "passed": true
+    },
+    {
+      "name": "render_T1_8.5_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T1_8.5_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T1_9.5_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T1_9.5_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T1_10.5_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T1_10.5_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T1_12.5_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T1_12.5_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "test_no_rows:T1",
+      "passed": true
+    },
+    {
+      "name": "render_T2_6.75_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T2_6.75_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T2_7.25_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T2_7.25_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T2_7.5_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T2_7.5_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T2_7.75_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T2_7.75_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "test_no_rows:T2",
+      "passed": true
+    },
+    {
+      "name": "render_T2_8.0_common",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "render_T2_8.0_native",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "detail_tab_representation",
+      "passed": true
+    },
+    {
+      "name": "detail_tab_types",
+      "passed": true
+    },
+    {
+      "name": "detail_tab_samples",
+      "passed": true
+    },
+    {
+      "name": "detail_tab_genes",
+      "passed": true
+    },
+    {
+      "name": "detail_tab_audit",
+      "passed": true
+    },
+    {
+      "name": "dataset_detection_stats_visible",
+      "passed": true
+    },
+    {
+      "name": "unmapped_composition_visible",
+      "passed": true
+    },
+    {
+      "name": "source_search_works",
+      "passed": true
+    },
+    {
+      "name": "missing_search_empty",
+      "passed": true
+    },
+    {
+      "name": "T2_spatial_present",
+      "passed": true
+    },
+    {
+      "name": "mobile_no_page_overflow",
+      "passed": true
+    },
+    {
+      "name": "no_browser_errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "html_link:results/outputs/independent_verification.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/panel_coverage.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/source_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/delta_COMPLETE.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/metric_relationships.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:transfer/FINDINGS.md",
+      "passed": true
+    },
+    {
+      "name": "html_link:provenance/metric_spec/METRIC_SPEC.md",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/COMPLETE.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/transfer_coverage.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:transfer/results/outputs/overview.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:../vem_pairwise_similarity_v3/comparison.html",
+      "passed": true
+    },
+    {
+      "name": "html_link:README.md",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/verification.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:transfer/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/delta_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/OFF_T1_E9.5_RNA_9p5__OMIX014646_9p5__ALL__common_genes.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "html_link:transfer/results/outputs/fold_verdicts.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/representation_change.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:provenance/source_inventory/SOURCES.md",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/gene_details.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/input_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/spatial_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:transfer/results/outputs/fold_metric_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/local_anchors.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/sample_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/pair_eligibility.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:../../docs/EXTERNAL_DATASET_NAMES.md",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/delta_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "html_link:results/outputs/dataset_stats.json",
+      "passed": true
+    },
+    {
+      "name": "report_link:index.html",
+      "passed": true
+    },
+    {
+      "name": "report_link:FINDINGS.md",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/gene_difference_example.csv",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/OFF_T1_E9.5_RNA_9p5__OMIX014646_9p5__ALL__common_genes.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/OFF_T1_E9.5_RNA_9p5__OMIX014646_9p5__cardiomyocyte__common_genes.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/representation_change.csv",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/metric_relationships.csv",
+      "passed": true
+    },
+    {
+      "name": "report_link:transfer/results/outputs/REPORT_ZH.md",
+      "passed": true
+    },
+    {
+      "name": "report_link:PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "report_link:CLARIFICATIONS.md",
+      "passed": true
+    },
+    {
+      "name": "report_link:provenance/metric_spec/METRIC_SPEC.md",
+      "passed": true
+    },
+    {
+      "name": "report_link:provenance/source_inventory/SOURCES.md",
+      "passed": true
+    },
+    {
+      "name": "report_link:RUNS.md",
+      "passed": true
+    },
+    {
+      "name": "report_link:RESULT_RETRIEVAL_VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "name": "report_link:qa/VERIFICATION.json",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/source_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/delta_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/spatial_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/input_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/local_anchors.json",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/independent_verification.json",
+      "passed": true
+    },
+    {
+      "name": "report_link:results/outputs/metric_relationships.csv",
+      "passed": true
+    }
+  ],
+  "n_checks": 130,
+  "html_sha256": "a68531b9cd98cdff3c98889c65109a030999eb4f72d6343dfaec66a206e2530d"
+}

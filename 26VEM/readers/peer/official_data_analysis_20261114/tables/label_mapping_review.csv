@@ -1,0 +1,117 @@
+﻿raw_label,broad_label,mapping_status,note
+Allantois,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+Anterior Epiblast,Epiblast/streak,descriptive_mapping,Name-level grouping; not lineage tracing
+Blood Progenitor,Blood,descriptive_mapping,Name-level grouping; not lineage tracing
+CP,Unresolved,ambiguous,Abbreviation is not defined in the released metadata inspected here
+Caudal Epiblast,Epiblast/streak,descriptive_mapping,Name-level grouping; not lineage tracing
+EXE-Ectoderm,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+EXE-Endoderm,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+ExEM-1,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+ExEM-2,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+Gut Endoderm,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+HEM-Endoth,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+LPM,Other mesoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+PHM/PAM,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+Primitive Streak,Epiblast/streak,descriptive_mapping,Name-level grouping; not lineage tracing
+SOM,Other mesoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+Unknown,Unresolved,ambiguous,Publisher did not assign a biological label
+aSE,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+pSE,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+Allantois Endothelium,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+D-FG,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+EXE-Endothlium,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+FHF,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+Forebrain,Neural/NCC,descriptive_mapping,Name-level grouping; not lineage tracing
+Hindbrain,Neural/NCC,descriptive_mapping,Name-level grouping; not lineage tracing
+Intra-Endoth,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+JCF,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+SHF,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+V-FG,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+V-SE,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+aPHM,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+d-CSE,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+p-EXEM,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+pPHM,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+Endo,Unresolved,ambiguous,Could mean endocardial or endodermal in this context
+Hindgut,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+IFT-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+Intra-Endoth-1,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Intra-Endoth-2,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Lateral FG,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+NCC,Neural/NCC,descriptive_mapping,Name-level grouping; not lineage tracing
+Neural Tube,Neural/NCC,descriptive_mapping,Name-level grouping; not lineage tracing
+PAM-1,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+PAM-2,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+PAM-3,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+PAM-4,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+Peri,Pericardial/epicardial,descriptive_mapping,Name-level grouping; not lineage tracing
+V-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+V-CSE,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+a-FG,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+AVC-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+Blood,Blood,descriptive_mapping,Name-level grouping; not lineage tracing
+EXEM,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+Endothelium,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Foregut,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+LV-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+OFT/RV-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+Paraxial Mesoderm,Other mesoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+Pericardium,Pericardial/epicardial,descriptive_mapping,Name-level grouping; not lineage tracing
+RV-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+SV-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+Surface Ectoderm,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+aSHF,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+pSHF,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+A-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+BEC,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Branch Arch,Unresolved,ambiguous,Contains multiple possible lineages
+Chamber-Endo,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Cush-EndoMT-Endo,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+DMP,Other mesoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+Dorsal-PAM,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+Great Artery Endoth,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Hepatocytes,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+Lateral-PAM,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+OFT-CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+Proepi,Pericardial/epicardial,descriptive_mapping,Name-level grouping; not lineage tracing
+SE,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+ST,Other mesoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+early-VEC,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Endocardium,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Epithelium,Unresolved,ambiguous,Anatomical origin is not specified
+Hepatocyte,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+NCC-derived,Neural/NCC,descriptive_mapping,Name-level grouping; not lineage tracing
+Proepicardium,Pericardial/epicardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Branchial Arch,Unresolved,ambiguous,Contains multiple possible lineages
+DPM,Other mesoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+vCM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+Early VIC,Unresolved,unmapped,New label requires manual review
+EndoMT Endocardium,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Endocardium-1,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Endocardium-2,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Epicardium,Pericardial/epicardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Macrophage,Blood,descriptive_mapping,Name-level grouping; not lineage tracing
+BW,Unresolved,unmapped,New label requires manual review
+Bronchus,Unresolved,unmapped,New label requires manual review
+Epi,Unresolved,unmapped,New label requires manual review
+Late-a-PHM,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+Valve-EndoMT-Endo,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Anterior Pharyngeal Mesoderm,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+Artificial,Unresolved,ambiguous,Publisher label is not a biological lineage
+CM,Cardiomyocyte,descriptive_mapping,Name-level grouping; not lineage tracing
+Dorsal Foregut,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+Dorsal Surface Ectoderm,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+Endocardium/Intra-Embryonic Endothelium,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+Extra Endoderm,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+Extra-Embryonic Mesenchyme-1,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+Extra-Embryonic Mesenchyme-2,Extraembryonic,descriptive_mapping,Name-level grouping; not lineage tracing
+Haematopoetic Endothelium,Endothelial/endocardial,descriptive_mapping,Name-level grouping; not lineage tracing
+NCC-1,Neural/NCC,descriptive_mapping,Name-level grouping; not lineage tracing
+NCC-2,Neural/NCC,descriptive_mapping,Name-level grouping; not lineage tracing
+NCC-3,Neural/NCC,descriptive_mapping,Name-level grouping; not lineage tracing
+Paraxial Mesoderm-1,Other mesoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+Paraxial Mesoderm-2,Other mesoderm,descriptive_mapping,Name-level grouping; not lineage tracing
+Pericardium/Body Wall,Unresolved,ambiguous,Composite label spans pericardial and body-wall territories
+Posterior Pharyngeal Mesoderm,Cardiac progenitor/heart field,descriptive_mapping,Name-level grouping; not lineage tracing
+Ventral Foregut,Endoderm/hepatic,descriptive_mapping,Name-level grouping; not lineage tracing
+Ventral Surface Ectoderm,Surface ectoderm,descriptive_mapping,Name-level grouping; not lineage tracing

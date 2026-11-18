@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "official_index_url": "https://virtualembryo.ai/challenge/panels/index.json",
+  "source_snapshot_root": "/home/biocosmosx/work/virtualembryo_cym/reproduction_20261020/evidence/official_panels_p2",
+  "local_index_sha256": "b87d91b63dab7b3ace8e966f7dce4e5fd56111bb3b377b32b07155f9509c9c5f",
+  "boards": {
+    "T3:gata4": {
+      "axis_sha256": "a9a553108e19acb6cbf4323aa692e6bdc51b7192f7a7866307bc058a1573e1d6",
+      "file_sha256": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "n_genes": 500,
+      "declared_prefix": "a9a553108e19acb6"
+    },
+    "T1:val": {
+      "axis_sha256": "807549e15be019899fa83cbab864bec87ad278f60c272e39819c7302cc2285b8",
+      "file_sha256": "2aeae4cd284933956242bbc9c5ab4f565c1d2acc7cc3fd3037977e4bce8be4bf",
+      "n_genes": 32285,
+      "declared_prefix": "807549e15be01989"
+    },
+    "T2:heart:val_interp": {
+      "axis_sha256": "a9a553108e19acb6cbf4323aa692e6bdc51b7192f7a7866307bc058a1573e1d6",
+      "file_sha256": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "n_genes": 500,
+      "declared_prefix": "a9a553108e19acb6"
+    },
+    "T2:heart:val_extrap": {
+      "axis_sha256": "a9a553108e19acb6cbf4323aa692e6bdc51b7192f7a7866307bc058a1573e1d6",
+      "file_sha256": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "n_genes": 500,
+      "declared_prefix": "a9a553108e19acb6"
+    },
+    "T2:embryo:val_interp": {
+      "axis_sha256": "f8a2aaa79bf32cfb9d91732976da11494062cab360c687cf40580f316e40a1f8",
+      "file_sha256": "e20f726e623e04af289b434277187002150dbd5699a3ed09f5babfb633eddee7",
+      "n_genes": 498,
+      "declared_prefix": "f8a2aaa79bf32cfb"
+    }
+  },
+  "pairings": [
+    {
+      "case": "T1_E10p5",
+      "board": "T1:val",
+      "score_genes": 32285,
+      "truth_genes": 32285,
+      "prediction_genes": 32285,
+      "reference_genes": 32285,
+      "scored_genes_missing_by_role": {
+        "truth": [],
+        "prediction": [],
+        "reference": []
+      },
+      "truth_observed_but_not_scored": [],
+      "complete_official_scoring_axis": true
+    },
+    {
+      "case": "T2_embryo_E7p5",
+      "board": "T2:embryo:val_interp",
+      "score_genes": 498,
+      "truth_genes": 500,
+      "prediction_genes": 498,
+      "reference_genes": 498,
+      "scored_genes_missing_by_role": {
+        "truth": [],
+        "prediction": [],
+        "reference": []
+      },
+      "truth_observed_but_not_scored": [
+        "Casp4",
+        "Pnliprp1"
+      ],
+      "complete_official_scoring_axis": true
+    },
+    {
+      "case": "T2_heart_interp_E8p5",
+      "board": "T2:heart:val_interp",
+      "score_genes": 500,
+      "truth_genes": 500,
+      "prediction_genes": 500,
+      "reference_genes": 500,
+      "scored_genes_missing_by_role": {
+        "truth": [],
+        "prediction": [],
+        "reference": []
+      },
+      "truth_observed_but_not_scored": [],
+      "complete_official_scoring_axis": true
+    },
+    {
+      "case": "T2_heart_extrap_E10p5",
+      "board": "T2:heart:val_extrap",
+      "score_genes": 500,
+      "truth_genes": 500,
+      "prediction_genes": 500,
+      "reference_genes": 500,
+      "scored_genes_missing_by_role": {
+        "truth": [],
+        "prediction": [],
+        "reference": []
+      },
+      "truth_observed_but_not_scored": [],
+      "complete_official_scoring_axis": true
+    },
+    {
+      "case": "T3_Gata4_E8p75_KO1",
+      "board": "T3:gata4",
+      "score_genes": 500,
+      "truth_genes": 500,
+      "prediction_genes": 500,
+      "reference_genes": 500,
+      "scored_genes_missing_by_role": {
+        "truth": [],
+        "prediction": [],
+        "reference": []
+      },
+      "truth_observed_but_not_scored": [],
+      "complete_official_scoring_axis": true
+    },
+    {
+      "case": "T3_Gata4_E8p75_KO2",
+      "board": "T3:gata4",
+      "score_genes": 500,
+      "truth_genes": 500,
+      "prediction_genes": 500,
+      "reference_genes": 500,
+      "scored_genes_missing_by_role": {
+        "truth": [],
+        "prediction": [],
+        "reference": []
+      },
+      "truth_observed_but_not_scored": [],
+      "complete_official_scoring_axis": true
+    }
+  ],
+  "interpretation": "Official score axis is separate from released H5AD observation axis; complete axis does not imply official score reproduction."
+}

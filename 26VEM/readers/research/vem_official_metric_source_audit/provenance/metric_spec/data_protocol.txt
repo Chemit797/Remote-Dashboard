@@ -1,0 +1,205 @@
+Data Protocol · Virtual Embryo Challenge
+Virtual Embryo
+P3 is open:
+the test leaderboard is open, P2 standings are frozen, and validation answers are available by explicit opt-in.
+Next: Final submissions due on 2 December 2026.
+Full timeline →
+Virtual Embryo Challenge
+Annual competition
+Overview
+Competition
+Leaderboard
+Timeline
+Prizes
+FAQ
+Submit
+Sections
+Virtual Embryo Challenge™ 2026
+Data Protocol
+The samples you are scored against reflect how the material was collected, and until now the site has not said how that was done. This page describes it for the training inputs, the validation targets and the knockout controls. It describes the
+protocols
+that produced the held-out stages, but not what is measured in them: file properties of a held-out target are withheld until that target is released.
+Animals and staging
+Dissection and sampling
+3D MERFISH
+Single-cell Multiome
+Knockout lines
+Cell-type annotation
+Availability
+Animals and staging
+All embryos were obtained from Black Swiss mice, in strict compliance with protocols approved by the Institutional Animal Care and Use Committee of the University of California, San Diego (A3033-01) and the
+Guide for the Care and Use of Laboratory Animals
+published by the National Institutes of Health.
+Embryos were staged by timed mating, with the morning of the plug taken as E0.5. The assigned stage was then confirmed by comparing overall morphology and structural features with reference embryos from the EMAP database.
+Each released Multiome file contains material from a pool of more than five embryos or hearts. Where embryos were pooled, they were littermates. Embryo sex was not determined.
+The heart-scope MERFISH series ships one file per stage. The file named
+E8.25_late.h5ad
+is the E8.25 stage everywhere else on this site. Its embryos are about E8.3: a little older than the other E8.25 collection, with a much more developed heart tube, which is what the “late” in the name marks. In Task 3, the Gata4 and β-catenin conditions each ship two replicates, which are independent littermates.
+Dissection and sampling
+The two assays were not collected in the same way, and a MERFISH file and a Multiome file at the same stage do not come from the same embryos. The table gives the difference stage by stage; the sections after it give detail.
+Stage
+3D MERFISH (Tasks 2 and 3)
+Multiome (Task 1)
+E7.75 – E8.0
+Whole embryos embedded in OCT and sectioned. Only sections from the yolk sac–embryo boundary to the level where the cardiac crescent was no longer visible were collected.
+E7.75 only: whole embryos with the extraembryonic ectoderm and trophectoderm removed; most further trimmed to the anterior region.
+E8.25 – E9.5
+Whole embryos embedded in OCT. Only the portion containing the heart tube was sectioned, with the yolk sac retained.
+E8.5 and E9.5: brain, spinal cord, posterior region and most of the yolk sac removed; heart tube collected with surrounding tissue.
+E10.5
+Hearts dissected out of the embryo, and the entire heart sectioned.
+Heart tube collected with surrounding structures; five hearts pooled per biological replicate.
+E12.5
+Hearts dissected out of the embryo, and the entire heart sectioned.
+Hearts dissected specifically with most surrounding tissue removed; three hearts pooled per biological replicate.
+What this means for the heart tasks
+In the MERFISH heart series, sections from E7.75 to E9.5 were chosen to contain heart tissue, and so they also contain a substantial amount of non-cardiac tissue — at some stages potentially more non-heart cells than heart cells. By E10.5 the heart is large enough to dissect out before embedding, so the E10.5 and E12.5 samples are enriched for heart relative to the stages before them.
+The change in sampling falls exactly where the heart extrapolation task asks you to go. A difference between E9.5 and a later target therefore reflects both development and a change in what was sampled. The scoring is not altered by this, and no model is asked to reproduce our sectioning, but the targets carry it.
+3D MERFISH sections
+For E7.75 and E8.0, only the sections spanning from the yolk sac–embryo boundary to the level where the cardiac crescent was no longer visible were included. For E8.25 to E9.5, only the portion of the embryo containing the heart tube was sectioned, and the yolk sac was retained. For E10.5 and E12.5, the hearts were dissected directly from the embryos and the entire heart was sectioned.
+There is no machine-readable region-of-interest or mask definition for the MERFISH data. Selection was made at collection, as above.
+Multiome dissection
+E7.75.
+Two to three litters (about 15–25 embryos) were pooled. To enrich for cardiac tissue, the posterior region, brain and neural folds, and distal extraembryonic tissue were removed from about 75% of the embryos; the remaining 25% were kept whole.
+E8.5 to E10.5.
+The brain, spinal cord and posterior region were removed, along with most of the yolk sac, leaving a small portion of yolk sac next to the embryo. Ten embryos were pooled for each biological replicate. The developing heart tube was collected together with surrounding structures — the pericardium, chest wall and dorsal tissue next to the heart — and the neural tube and most of the yolk sac were removed. Because the heart is smaller and more closely associated with its surroundings at earlier stages, a greater share of non-cardiac tissue was retained at E8.5 than at E9.5 and E10.5. For E10.5, five hearts were pooled per biological replicate.
+E12.5.
+The hearts were dissected more specifically, with most of the surrounding tissue removed. A small amount of tissue at the junction between the esophagus and the heart may remain. Three hearts were pooled per biological replicate.
+E7.75, whole embryos.
+As the heart structure has not yet formed at E7.75, whole embryos were dissected and the extraembryonic ectoderm and trophectoderm removed to enrich for cardiac cells. For 20 embryos the yolk sac, posterior embryonic region and newly formed brain were also removed, leaving the anterior region enriched for cardiac progenitors. A further 10 embryos were kept whole for comparison: 30 embryos for each experiment.
+3D MERFISH (Tasks 2 and 3)
+Samples were profiled by 3D MERFISH on a Vizgen MERSCOPE using a 500-gene panel designed to cover all cardiac-related cell types and the cell types around them. The same panel was used at every stage and in both the heart and embryo settings.
+Two genes,
+Casp4
+and
+Pnliprp1
+, are absent from the E6.75 and E7.25 files, which is why the embryo boards carry 498 genes rather than 500. The panel itself is unchanged: both genes are expressed too lowly to be detected at those two stages.
+Sectioning and coordinates
+Every spatial metric in the Challenge is invariant to the coordinate frame a submission chooses, so coordinates are supplied in a per-embryo local frame and are not registered across time points.
+The registration method used to align sections into one volume, its residual error and the physical unit of the
+spatial_3D
+coordinates are not stated here yet.
+Sections were taken 14 µm apart at every stage, and the table gives the number of section levels in each released file. The z coordinate stored in
+spatial_3D
+steps by the amount in the last column. The files are released as they are, without rescaling, so use the stored coordinate as it is.
+Stage
+File
+Setting
+Section levels
+Stored z step
+E6.75
+E6.75.h5ad
+Embryo
+37
+10
+E7.25
+E7.25.h5ad
+Embryo
+40
+10
+E8.0
+E8.0.h5ad
+Embryo
+30
+15
+E8.25 (late)
+E8.25_late.h5ad
+Heart
+38
+15
+E8.75
+E8.75.h5ad
+Heart · Task 3 wild-type
+35
+14
+E9.5
+E9.5.h5ad
+Heart · Task 3 wild-type
+40
+15
+E9.5 Mab21l2 KO
+E9.5_mab21l2_ko.h5ad
+Task 3 training knockout
+36
+10
+Training and released stages only. A level is a distinct z value after rounding to 0.01.
+Segmentation and processing
+Cells were segmented from the nuclear DAPI signal with Cellpose 2. Decoded RNA molecules were then partitioned into individual cells to build single-cell count matrices. MERFISH cells with fewer than five unique genes were excluded from downstream analysis, and the remaining cells were processed with the standard Scanpy workflow.
+Expression in the released files is log-normalised: counts are divided by the total counts per cell, scaled to 10,000, and log1p-transformed. We checked this on every released MERFISH file: undoing the log1p gives per-cell totals of 10,000.
+Single-cell Multiome (Task 1)
+Task 1 material was profiled by 10x Single-cell Multiome (ATAC + gene expression), from nuclei. The Challenge files contain the RNA assay only; the chromatin accessibility assay is not part of the release.
+Library preparation
+Nuclei were isolated with the 10x Chromium Nuclei Isolation Kit (10x Genomics, PN-1000494) and resuspended in Resuspension Buffer to a concentration of 3,230–5,000 nuclei/µL. A total of 15,400 nuclei were loaded onto the 10x Genomics Chromium Controller and processed according to the manufacturer's recommendations. Libraries were generated with the Chromium Next GEM Single Cell Multiome ATAC + Gene Expression kit (PN-1000283). For the ATAC library, sample index PCR was amplified for 7 cycles; for the RNA library, cDNA was amplified for 6 cycles. SPRISelect reagent (Beckman Coulter) was used for all size selection and clean-up. Fragment size distributions were assessed on an Agilent TapeStation High Sensitivity D5000 assay, and RNA library concentrations were quantified with the Qubit dsDNA High Sensitivity Assay Kit (Thermo Fisher Scientific); the RNA libraries centred around about 500 bp. Libraries were sequenced at the Institute for Genomic Medicine at UC San Diego on an Illumina NovaSeq X Plus, to about 30,000 reads per cell for scRNA-seq and 30,000 reads per cell for ATAC-seq.
+Processing and clustering
+FASTQ files were aligned with the Cell Ranger ARC pipeline (v2.0.2) against the mouse mm10 reference to create a count matrix for each modality. Each sample was processed with Signac (v1.13.0) and Seurat (v4.3.0), filtered for doublets, and peak-called separately with MACS2. Scrublet and AMULET were used for doublet removal and SoupX for ambient contamination. Quality-control filtering was based on features, counts, mitochondrial percentage, TSS enrichment and fragments. After filtering, 16,787 (E8.5) and 17,057 (E9.5) cells were retained for the released training stages; counts for the held-out stages are withheld with their targets.
+Samples were combined and a consensus peak set was generated from all of them; peaks longer than 10 kb or shorter than 20 bp were removed. The gene-expression assay was processed with the standard Seurat pipeline and the chromatin assay with the standard Signac pipeline. The RNA assay was used for clustering, visualisation and identification of cell populations. Marker genes were identified per cluster with FindAllMarkers, differential cCREs with DESeq2, and cell populations were annotated from prior literature.
+The released matrices are log-normalised on the same terms as the MERFISH files: undoing the log1p gives per-cell totals of 10,000, over 32,285 genes, with cell type in
+obs["celltype"]
+and no spatial coordinates.
+Knockout lines (Task 3)
+The Gata4 and β-catenin knockouts are conditional and Mesp1-Cre driven, so deletion is restricted to the mesodermal lineage. The genotypes are:
+Gata4 condition:
+Mesp1-Cre; Gata4 F/F; Gata6 F/+. The heterozygous Gata6 allele acts as a sensitiser, most likely because of the dose-dependent relationship between Gata4 and Gata6: heterozygosity for Gata6 further lowers GATA factor dosage and so exacerbates the phenotype.
+β-catenin condition:
+Mesp1-Cre; β-catenin F/F.
+Mab21l2 condition:
+Mab21l2-null, with two copies of the CreERT2 knock-in allele, resulting in loss of functional MAB21L2 protein.
+Each knockout is released with a matched wild-type control at the same stage. Controls are a separate wild-type line. Knockout and control embryos were processed in separate runs.
+Cell-type annotation
+Cell types were annotated by clustering followed by manual naming, carried out by Yifan Lu, stage by stage. This was a choice, not an oversight: over a time window this wide, one annotation of the merged dataset cannot resolve fine-grained cell types and states, so each stage was annotated on its own to get the finer resolution.
+The cost is that the vocabulary is not harmonised across stages. In the Multiome files, ventricular cardiomyocytes appear as
+LV-CM
+and
+RV-CM
+at E8.5 and are merged into
+V-CM
+at E9.5; endocardium is a single
+Endocardium
+at E9.5 and is split at later stages. A label missing from one stage may therefore be present under a different name rather than biologically absent, and comparing label sets across stages overstates how much has changed.
+The two assays were annotated independently and report different numbers of cell types at the same stage: 33 and 22 for MERFISH at E8.5 and E9.5, against 18 and 21 for Multiome.
+The cm_celltype column
+The heart MERFISH files carry a second annotation column,
+cm_celltype
+, that gives a finer sub-classification of the cardiomyocyte lineage, including its progenitor populations at the earlier stages. Only some cells carry a label; the rest are
+Unknown
+. It is absent from the E6.75 and E7.25 files. Its vocabulary was also assigned per stage, and the three released heart stages have almost no labels in common — only
+pSHF
+, between E8.25 (late) and E8.75:
+E8.25 (late)
+CC/CM · FHF/JCF1 · FHF/JCF2 · aSHF1 · aSHF2 · pSHF
+E8.75
+FHF/JCF · JCF/SV-CM · OFT/RV-CM · Peri/BW · aCM1 · aCM2 · aPHM · aSHF · pPHM · pSHF · vCM1 · vCM2
+E9.5
+OFT-CM · SV-CM · aCM3 · aCM4 · aCM5 · vCM3 · vCM4 · vCM5
+This column is not used in scoring, and no correspondence table for its labels across stages is provided. We do not recommend relying on it.
+Availability and citation
+Competition datasets are provided for research and educational purposes. Any use, reuse, publication, presentation, or redistribution of the data outside the Challenge must appropriately acknowledge the Virtual Embryo Challenge and credit Dr. Neil Chi’s group at the University of California, San Diego (UCSD), which generated the dataset. As the dataset has not yet been published, any use of the data in a publication or public presentation must receive prior approval from Dr. Neil Chi and the data-generating team. Any publication using the dataset must also appropriately credit Dr. Qingquan Zhang and Dr. Neil Chi.
+The data are released for the Challenge. If you want to use them for anything else, email Dr. Neil Chi at
+[email protected]
+to confirm before you do.
+Virtual Embryo Challenge
+Join us in modelling how a single cell becomes an organism.
+Overview
+Tasks
+Data
+Evaluation
+Reference rows
+Community resources
+Leaderboard
+Timeline
+Prizes
+Community award
+Publish with us
+FAQ
+Submit
+Contact
+Back to the atlas
+Challenge Rules
+Terms of Use
+Privacy Policy
+© 2026 Qiu Lab, Stanford University. All rights reserved. Virtual Embryo Challenge is a NeurIPS 2026 competition.
+Rules
+|
+Terms
+|
+Privacy

@@ -1,0 +1,5 @@
+source,from_stage,to_stage,group,genes,spearman_delta,sign_agreement_nonzero,nonzero_genes,scope_limitation,analysis_tier
+EMTAB6967,E6.75,E7.25,ExE ectoderm,496,0.0544285627622694,0.5428571428571428,245,unknown individual variation,verified_counts
+EMTAB6967,E6.75,E7.25,ExE endoderm,496,0.0847795089079656,0.5218978102189781,274,unknown individual variation,verified_counts
+EMTAB6967,E6.75,E7.25,Primitive Streak,496,0.0657449702002016,0.5859872611464968,314,unknown individual variation,verified_counts
+EMTAB6967,E7.25,E8.0,ExE endoderm,496,0.220307964832404,0.7329842931937173,382,E8.0 selected sections confound stage change,released_weight_sensitivity

@@ -1,0 +1,15 @@
+{
+  "seed": 0,
+  "n_external": 403,
+  "n_official": 417,
+  "n_genes": 496,
+  "mmd_public": 0.39141847865106705,
+  "mmd_cdist": 0.39141847865106716,
+  "mmd_abs_error": 1.1102230246251565e-16,
+  "css_public": 0.37430460634024093,
+  "css_blocked": 0.374304606340241,
+  "css_abs_error": 5.551115123125783e-17,
+  "all_pass": true,
+  "record_id": "stage_00|identity|E6.75|ExE ectoderm|EMTAB_pool_7|0",
+  "note": "Same sampled observed cells; independent pairwise distance/kernel and gene-pair accumulation"
+}

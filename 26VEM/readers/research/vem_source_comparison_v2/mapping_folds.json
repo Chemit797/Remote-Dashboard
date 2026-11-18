@@ -1,0 +1,3944 @@
+[
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "stage",
+    "held_out": "E6.75",
+    "status": "insufficient_training_groups",
+    "train_stages": 1,
+    "train_types": 4,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "stage",
+    "held_out": "E7.25",
+    "status": "insufficient_training_groups",
+    "train_stages": 1,
+    "train_types": 3,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 0.9875159740867128,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.4865731461103443,
+    "independent_mse": 0.9875159740867128,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.5009978358942455,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": 0.4926686260872035,
+    "spearman": 0.4865731461103443,
+    "independent_mse": 0.5009978358942455,
+    "params": {
+      "intercept": 0.08012903719746792,
+      "slope": 0.2862624682695942
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 6.248770255989329,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": -5.32776625387594,
+    "spearman": 0.6398781528497465,
+    "independent_mse": 6.248770255989329,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.5110192080939331,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": 0.4825205652328405,
+    "spearman": 0.4865731461103443,
+    "independent_mse": 0.5110192080939331,
+    "params": {
+      "intercept": 0.0961326819923,
+      "slope": 0.24198564326882296
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 5.901016793537523,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": -4.975616545337383,
+    "spearman": 0.533133924775926,
+    "independent_mse": 5.901016793537523,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 1.1082157168099036,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.35249851402785354,
+    "independent_mse": 1.108215716809904,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.2741895379881513,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.752584687413178,
+    "spearman": 0.35249851402785354,
+    "independent_mse": 0.2741895379881514,
+    "params": {
+      "intercept": 0.09160831816424793,
+      "slope": 0.32706686303475985
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 0.33640776416360113,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.6964419841184165,
+    "spearman": 0.6729772789631658,
+    "independent_mse": 0.33640776416360113,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.2626732464016549,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.7629764292120104,
+    "spearman": 0.35249851402785354,
+    "independent_mse": 0.2626732464016549,
+    "params": {
+      "intercept": 0.12189525468694999,
+      "slope": 0.24165725239358302
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 0.4065929102348973,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.6331103195275819,
+    "spearman": 0.6529917543478698,
+    "independent_mse": 0.40659291023489724,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 0.9008904041507166,
+    "baseline_mse": 0.9008904041507166,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.3134524462010894,
+    "independent_mse": 0.9008904041507168,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.3745764477756125,
+    "baseline_mse": 0.9008904041507166,
+    "relative_MSE_improvement": 0.5842152984982324,
+    "spearman": 0.3134524462010894,
+    "independent_mse": 0.3745764477756125,
+    "params": {
+      "intercept": 0.0857695572782561,
+      "slope": 0.2647084161326312
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 0.7227019129281422,
+    "baseline_mse": 0.9008904041507166,
+    "relative_MSE_improvement": 0.19779152980384496,
+    "spearman": 0.6817910628839776,
+    "independent_mse": 0.7227019129281423,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.4079347893280732,
+    "baseline_mse": 0.9008904041507166,
+    "relative_MSE_improvement": 0.5471871079450117,
+    "spearman": 0.3134524462010894,
+    "independent_mse": 0.4079347893280731,
+    "params": {
+      "intercept": 0.11778311770877062,
+      "slope": 0.17665253660851402
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 0.9766160078797637,
+    "baseline_mse": 0.9008904041507166,
+    "relative_MSE_improvement": -0.0840563995133623,
+    "spearman": 0.609738720844082,
+    "independent_mse": 0.9766160078797634,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 0.9285607453791647,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.4387776824385245,
+    "independent_mse": 0.9285607453791647,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.40461897929947266,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": 0.56425147055484,
+    "spearman": 0.4387776824385245,
+    "independent_mse": 0.40461897929947266,
+    "params": {
+      "intercept": 0.07030400675355335,
+      "slope": 0.3111979389732715
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 3.212441165386247,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": -2.4595918267840324,
+    "spearman": 0.6239242053318189,
+    "independent_mse": 3.212441165386247,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.4015712535594939,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": 0.5675336744980342,
+    "spearman": 0.4387776824385245,
+    "independent_mse": 0.4015712535594939,
+    "params": {
+      "intercept": 0.08376522880140265,
+      "slope": 0.2762903910867347
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_primary",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 3,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 3.3535718886179455,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": -2.6115805081212664,
+    "spearman": 0.6401787315513994,
+    "independent_mse": 3.353571888617945,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E6.75",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 6,
+    "train_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 0.9264313090642593,
+    "baseline_mse": 0.9264313090642593,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.36295341683536747,
+    "independent_mse": 0.9264313090642595,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E6.75",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 6,
+    "train_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.3673137706262447,
+    "baseline_mse": 0.9264313090642593,
+    "relative_MSE_improvement": 0.6035175333212244,
+    "spearman": 0.36295341683536747,
+    "independent_mse": 0.3673137706262447,
+    "params": {
+      "intercept": 0.19385793283102595,
+      "slope": 0.4237268676122109
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E6.75",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 6,
+    "train_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 0.17899666671413156,
+    "baseline_mse": 0.9264313090642593,
+    "relative_MSE_improvement": 0.8067890571456109,
+    "spearman": 0.6535680789629351,
+    "independent_mse": 0.17899666671413156,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E6.75",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 6,
+    "train_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.3513571100857721,
+    "baseline_mse": 0.9264313090642593,
+    "relative_MSE_improvement": 0.6207413257215368,
+    "spearman": 0.36295341683536747,
+    "independent_mse": 0.3513571100857721,
+    "params": {
+      "intercept": 0.24430521953892959,
+      "slope": 0.2992606177880675
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E6.75",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 6,
+    "train_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 0.3018570237521572,
+    "baseline_mse": 0.9264313090642593,
+    "relative_MSE_improvement": 0.67417225562352,
+    "spearman": 0.6078809302098982,
+    "independent_mse": 0.3018570237521572,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E7.25",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 1.0208889448933764,
+    "baseline_mse": 1.0208889448933764,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.3892752298334205,
+    "independent_mse": 1.0208889448933764,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E7.25",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.4568910200258411,
+    "baseline_mse": 1.0208889448933764,
+    "relative_MSE_improvement": 0.5524576671034873,
+    "spearman": 0.3892752298334205,
+    "independent_mse": 0.45689102002584103,
+    "params": {
+      "intercept": 0.19976868021992453,
+      "slope": 0.44816593920802666
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E7.25",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 1.0090671708312948,
+    "baseline_mse": 1.0208889448933764,
+    "relative_MSE_improvement": 0.01157988253395803,
+    "spearman": 0.6443903608890859,
+    "independent_mse": 1.0090671708312946,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E7.25",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.4304414292076394,
+    "baseline_mse": 1.0208889448933764,
+    "relative_MSE_improvement": 0.5783660589520876,
+    "spearman": 0.3892752298334205,
+    "independent_mse": 0.4304414292076394,
+    "params": {
+      "intercept": 0.26308981299292594,
+      "slope": 0.28969904700105165
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E7.25",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 0.4632551643350023,
+    "baseline_mse": 1.0208889448933764,
+    "relative_MSE_improvement": 0.5462237428936156,
+    "spearman": 0.5973646494056581,
+    "independent_mse": 0.46325516433500236,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E8.0",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 4,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 1.0172673858156098,
+    "baseline_mse": 1.0172673858156098,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.5312057126790214,
+    "independent_mse": 1.0172673858156098,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E8.0",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 4,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.9876499370032329,
+    "baseline_mse": 1.0172673858156098,
+    "relative_MSE_improvement": 0.029114713816004945,
+    "spearman": 0.5312057126790214,
+    "independent_mse": 0.9876499370032328,
+    "params": {
+      "intercept": 0.08185003216367276,
+      "slope": 0.29687413120489525
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E8.0",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 4,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 6.804254253864477,
+    "baseline_mse": 1.0172673858156098,
+    "relative_MSE_improvement": -5.688756907712186,
+    "spearman": 0.5451588297686821,
+    "independent_mse": 6.804254253864476,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E8.0",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 4,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 1.0095584482938678,
+    "baseline_mse": 1.0172673858156098,
+    "relative_MSE_improvement": 0.0075780838245996796,
+    "spearman": 0.5312057126790214,
+    "independent_mse": 1.009558448293868,
+    "params": {
+      "intercept": 0.09181923415891036,
+      "slope": 0.26964166460808714
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "stage",
+    "held_out": "E8.0",
+    "status": "evaluated",
+    "train_stages": 2,
+    "train_types": 4,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 6.300410129063386,
+    "baseline_mse": 1.0172673858156098,
+    "relative_MSE_improvement": -5.193465176328183,
+    "spearman": 0.5161232517666713,
+    "independent_mse": 6.300410129063386,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Allantois",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 1.1659965495096765,
+    "baseline_mse": 1.1659965495096765,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.625670980911245,
+    "independent_mse": 1.1659965495096765,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Allantois",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 1.1299114346776968,
+    "baseline_mse": 1.1659965495096765,
+    "relative_MSE_improvement": 0.030947874457393665,
+    "spearman": 0.625670980911245,
+    "independent_mse": 1.1299114346776966,
+    "params": {
+      "intercept": 0.13422939875004242,
+      "slope": 0.3586114248517131
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Allantois",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 25.379068307909808,
+    "baseline_mse": 1.1659965495096765,
+    "relative_MSE_improvement": -20.765989203469072,
+    "spearman": 0.6347451924338111,
+    "independent_mse": 25.37906830790981,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Allantois",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 1.2344874484603643,
+    "baseline_mse": 1.1659965495096765,
+    "relative_MSE_improvement": -0.05874022438530324,
+    "spearman": 0.625670980911245,
+    "independent_mse": 1.2344874484603643,
+    "params": {
+      "intercept": 0.17735250822721488,
+      "slope": 0.24436187537416088
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Allantois",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Allantois"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 7.557759339480803,
+    "baseline_mse": 1.1659965495096765,
+    "relative_MSE_improvement": -5.481802491318678,
+    "spearman": 0.5496388042241428,
+    "independent_mse": 7.557759339480804,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 0.9875159740867128,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.4865731461103443,
+    "independent_mse": 0.9875159740867128,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.5015088473371119,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": 0.4921511545158308,
+    "spearman": 0.4865731461103443,
+    "independent_mse": 0.5015088473371118,
+    "params": {
+      "intercept": 0.163997290969246,
+      "slope": 0.3922970300997686
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 6.044526710457668,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": -5.120940692678764,
+    "spearman": 0.5651772132787913,
+    "independent_mse": 6.044526710457667,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.5127773812685702,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": 0.4807401655018253,
+    "spearman": 0.4865731461103443,
+    "independent_mse": 0.5127773812685702,
+    "params": {
+      "intercept": 0.21654874574863758,
+      "slope": 0.25734738957279435
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "Blood progenitors"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 5.357827666873968,
+    "baseline_mse": 0.9875159740867128,
+    "relative_MSE_improvement": -4.425560504810125,
+    "spearman": 0.5486827116296281,
+    "independent_mse": 5.35782766687397,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Caudal epiblast",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 1.1214763262839453,
+    "baseline_mse": 1.1214763262839453,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.5498315918559668,
+    "independent_mse": 1.1214763262839453,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Caudal epiblast",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.8657532949887096,
+    "baseline_mse": 1.1214763262839453,
+    "relative_MSE_improvement": 0.22802356617065989,
+    "spearman": 0.5498315918559668,
+    "independent_mse": 0.8657532949887095,
+    "params": {
+      "intercept": 0.13383169875716586,
+      "slope": 0.38114780523084024
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Caudal epiblast",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 1.424365959905815,
+    "baseline_mse": 1.1214763262839453,
+    "relative_MSE_improvement": -0.2700811658017839,
+    "spearman": 0.6682366841479397,
+    "independent_mse": 1.4243659599058152,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Caudal epiblast",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.9165461519629682,
+    "baseline_mse": 1.1214763262839453,
+    "relative_MSE_improvement": 0.18273250136275376,
+    "spearman": 0.5498315918559668,
+    "independent_mse": 0.9165461519629681,
+    "params": {
+      "intercept": 0.18886225056977804,
+      "slope": 0.23908514249231652
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Caudal epiblast",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 0.918452006490959,
+    "baseline_mse": 1.1214763262839453,
+    "relative_MSE_improvement": 0.1810330856164527,
+    "spearman": 0.6090991530237716,
+    "independent_mse": 0.918452006490959,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 1.1082157168099036,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.35249851402785354,
+    "independent_mse": 1.108215716809904,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.3514388585035768,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.6828786551455663,
+    "spearman": 0.35249851402785354,
+    "independent_mse": 0.3514388585035768,
+    "params": {
+      "intercept": 0.1800284512731061,
+      "slope": 0.43324568423469717
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 0.2823690174924166,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.7452039226575484,
+    "spearman": 0.6339201672131662,
+    "independent_mse": 0.2823690174924166,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.3101167104507587,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.7201657531590899,
+    "spearman": 0.35249851402785354,
+    "independent_mse": 0.3101167104507587,
+    "params": {
+      "intercept": 0.220954931894352,
+      "slope": 0.3279383244813746
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 0.35791489034816226,
+    "baseline_mse": 1.1082157168099036,
+    "relative_MSE_improvement": 0.6770349987649952,
+    "spearman": 0.6115600016419999,
+    "independent_mse": 0.3579148903481622,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 0.8553700299848804,
+    "baseline_mse": 0.8553700299848804,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.3806285952953964,
+    "independent_mse": 0.8553700299848804,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.4689037548965812,
+    "baseline_mse": 0.8553700299848804,
+    "relative_MSE_improvement": 0.45181180254249775,
+    "spearman": 0.3806285952953964,
+    "independent_mse": 0.46890375489658115,
+    "params": {
+      "intercept": 0.16347155600812274,
+      "slope": 0.35588275059496643
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 0.7171297108832879,
+    "baseline_mse": 0.8553700299848804,
+    "relative_MSE_improvement": 0.16161463957772293,
+    "spearman": 0.4981079787652407,
+    "independent_mse": 0.7171297108832879,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.49768299024144336,
+    "baseline_mse": 0.8553700299848804,
+    "relative_MSE_improvement": 0.4181664393242297,
+    "spearman": 0.3806285952953964,
+    "independent_mse": 0.4976829902414435,
+    "params": {
+      "intercept": 0.19341722882953422,
+      "slope": 0.27914640822287556
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 0.7473033773523678,
+    "baseline_mse": 0.8553700299848804,
+    "relative_MSE_improvement": 0.1263390682912081,
+    "spearman": 0.4918989753568341,
+    "independent_mse": 0.7473033773523678,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "identity",
+    "shuffled": false,
+    "mse": 0.9285607453791647,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": 0.0,
+    "spearman": 0.4387776824385245,
+    "independent_mse": 0.9285607453791647,
+    "params": {}
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": false,
+    "mse": 0.4370844310007981,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": 0.5292882741642058,
+    "spearman": 0.4387776824385245,
+    "independent_mse": 0.437084431000798,
+    "params": {
+      "intercept": 0.1692431025140847,
+      "slope": 0.4126271860406895
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": false,
+    "mse": 0.4821083386838716,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": 0.48080043111556536,
+    "spearman": 0.6449964996925048,
+    "independent_mse": 0.4821083386838716,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "affine",
+    "shuffled": true,
+    "mse": 0.4205687534403682,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": 0.5470745930912309,
+    "spearman": 0.4387776824385245,
+    "independent_mse": 0.4205687534403681,
+    "params": {
+      "intercept": 0.20186814223666347,
+      "slope": 0.3326685443164466
+    }
+  },
+  {
+    "pair": "embryo_EMTAB_E8_weight_sensitivity",
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "status": "evaluated",
+    "train_stages": 3,
+    "train_types": 5,
+    "train_groups": [
+      [
+        "E6.75",
+        "ExE ectoderm"
+      ],
+      [
+        "E6.75",
+        "ExE endoderm"
+      ],
+      [
+        "E7.25",
+        "Blood progenitors"
+      ],
+      [
+        "E7.25",
+        "ExE ectoderm"
+      ],
+      [
+        "E7.25",
+        "ExE endoderm"
+      ],
+      [
+        "E8.0",
+        "Allantois"
+      ],
+      [
+        "E8.0",
+        "Caudal epiblast"
+      ],
+      [
+        "E8.0",
+        "ExE endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "Primitive Streak"
+      ],
+      [
+        "E7.25",
+        "Primitive Streak"
+      ]
+    ],
+    "model": "ridge",
+    "shuffled": true,
+    "mse": 0.5501096895247106,
+    "baseline_mse": 0.9285607453791647,
+    "relative_MSE_improvement": 0.4075673645884297,
+    "spearman": 0.6083694119287872,
+    "independent_mse": 0.5501096895247106,
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    }
+  },
+  {
+    "pair": "embryo_STEREO_E8",
+    "split": "stage",
+    "held_out": "E8.0",
+    "status": "insufficient_training_groups",
+    "train_stages": 0,
+    "train_types": 0,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "embryo_STEREO_E8",
+    "split": "type",
+    "held_out": "Allantois",
+    "status": "insufficient_training_groups",
+    "train_stages": 1,
+    "train_types": 2,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "embryo_STEREO_E8",
+    "split": "type",
+    "held_out": "Caudal epiblast",
+    "status": "insufficient_training_groups",
+    "train_stages": 1,
+    "train_types": 2,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "embryo_STEREO_E8",
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "status": "insufficient_training_groups",
+    "train_stages": 1,
+    "train_types": 2,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "T1_QIU_E9",
+    "split": "stage",
+    "held_out": "E9.5",
+    "status": "insufficient_training_groups",
+    "train_stages": 0,
+    "train_types": 0,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "T1_QIU_E9",
+    "split": "type",
+    "held_out": "endocardial",
+    "status": "insufficient_training_groups",
+    "train_stages": 0,
+    "train_types": 0,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "heart_FENG_E9",
+    "split": "stage",
+    "held_out": "E9.5",
+    "status": "insufficient_training_groups",
+    "train_stages": 0,
+    "train_types": 0,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "heart_FENG_E9",
+    "split": "type",
+    "held_out": "ventricular_CM",
+    "status": "insufficient_training_groups",
+    "train_stages": 0,
+    "train_types": 0,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "T1_FENG_E9",
+    "split": "stage",
+    "held_out": "E9.5",
+    "status": "insufficient_training_groups",
+    "train_stages": 0,
+    "train_types": 0,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "T1_FENG_E9",
+    "split": "type",
+    "held_out": "blood",
+    "status": "insufficient_training_groups",
+    "train_stages": 1,
+    "train_types": 2,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "T1_FENG_E9",
+    "split": "type",
+    "held_out": "endocardial",
+    "status": "insufficient_training_groups",
+    "train_stages": 1,
+    "train_types": 2,
+    "required": "at least 2 stages and 3 types"
+  },
+  {
+    "pair": "T1_FENG_E9",
+    "split": "type",
+    "held_out": "ventricular_CM",
+    "status": "insufficient_training_groups",
+    "train_stages": 1,
+    "train_types": 2,
+    "required": "at least 2 stages and 3 types"
+  }
+]

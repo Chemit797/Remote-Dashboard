@@ -1,0 +1,43 @@
+﻿file_id,stage,broad_label,cells,fraction,unit,mapping_scope
+E8.25_late,E8.25,Unresolved,1193,0.0203181415627767,published_file,descriptive_name_level
+E8.25_late,E8.25,Neural/NCC,7472,0.1272566251107023,published_file,descriptive_name_level
+E8.25_late,E8.25,Endothelial/endocardial,6219,0.1059166155732679,published_file,descriptive_name_level
+E8.25_late,E8.25,Cardiomyocyte,1586,0.0270113767967845,published_file,descriptive_name_level
+E8.25_late,E8.25,Cardiac progenitor/heart field,7405,0.1261155392056679,published_file,descriptive_name_level
+E8.25_late,E8.25,Other mesoderm,5391,0.091814837522992,published_file,descriptive_name_level
+E8.75,E8.75,Unresolved,2346,0.094497704019979,published_file,descriptive_name_level
+E8.75,E8.75,Neural/NCC,5707,0.2298799645532909,published_file,descriptive_name_level
+E8.75,E8.75,Endothelial/endocardial,1535,0.0618303391605574,published_file,descriptive_name_level
+E8.75,E8.75,Cardiomyocyte,3401,0.1369934745830983,published_file,descriptive_name_level
+E8.75,E8.75,Cardiac progenitor/heart field,5422,0.218400064448562,published_file,descriptive_name_level
+E8.75,E8.75,Other mesoderm,82,0.0033029888020623,published_file,descriptive_name_level
+E9.5,E9.5,Cardiomyocyte,16291,0.3031334896356667,published_file,descriptive_name_level
+E9.5,E9.5,Endothelial/endocardial,8284,0.1541438725763834,published_file,descriptive_name_level
+E9.5,E9.5,Unresolved,1526,0.0283949238956495,published_file,descriptive_name_level
+E9.5,E9.5,Other mesoderm,2385,0.044378698224852,published_file,descriptive_name_level
+E9.5,E9.5,Cardiac progenitor/heart field,10463,0.1946894421495292,published_file,descriptive_name_level
+E9.5,E9.5,Neural/NCC,2601,0.0483979010829518,published_file,descriptive_name_level
+E10.5,E10.5,Cardiomyocyte,25036,0.1491445455845208,published_file,descriptive_name_level
+E10.5,E10.5,Endothelial/endocardial,25741,0.1533443740170614,published_file,descriptive_name_level
+E10.5,E10.5,Unresolved,30733,0.1830827336415193,published_file,descriptive_name_level
+E10.5,E10.5,Other mesoderm,9595,0.0571593671067054,published_file,descriptive_name_level
+E10.5,E10.5,Cardiac progenitor/heart field,49124,0.2926416622980508,published_file,descriptive_name_level
+E10.5,E10.5,Neural/NCC,4444,0.0264738121336319,published_file,descriptive_name_level
+E8.5,E8.5,Unresolved,775,0.032686630113876,published_file,descriptive_name_level
+E8.5,E8.5,Neural/NCC,2978,0.1256010122311261,published_file,descriptive_name_level
+E8.5,E8.5,Endothelial/endocardial,1190,0.050189793336145,published_file,descriptive_name_level
+E8.5,E8.5,Cardiomyocyte,1919,0.080936313791649,published_file,descriptive_name_level
+E8.5,E8.5,Cardiac progenitor/heart field,4788,0.201940109658372,published_file,descriptive_name_level
+E8.5,E8.5,Other mesoderm,2264,0.095487136229439,published_file,descriptive_name_level
+E8.75_gata4_ko_1,E8.75,Cardiac progenitor/heart field,4362,0.1032255011004094,published_file,descriptive_name_level
+E8.75_gata4_ko_1,E8.75,Unresolved,3469,0.082092907683934,published_file,descriptive_name_level
+E8.75_gata4_ko_1,E8.75,Cardiomyocyte,2795,0.0661428875689234,published_file,descriptive_name_level
+E8.75_gata4_ko_1,E8.75,Endothelial/endocardial,3488,0.082542537331093,published_file,descriptive_name_level
+E8.75_gata4_ko_1,E8.75,Neural/NCC,9694,0.2294057789242019,published_file,descriptive_name_level
+E8.75_gata4_ko_1,E8.75,Other mesoderm,6658,0.1575596942518399,published_file,descriptive_name_level
+E8.75_gata4_ko_2,E8.75,Cardiac progenitor/heart field,6108,0.1316492801103543,published_file,descriptive_name_level
+E8.75_gata4_ko_2,E8.75,Unresolved,5148,0.1109578411932063,published_file,descriptive_name_level
+E8.75_gata4_ko_2,E8.75,Cardiomyocyte,3811,0.0821407017846366,published_file,descriptive_name_level
+E8.75_gata4_ko_2,E8.75,Endothelial/endocardial,5691,0.1226614363307181,published_file,descriptive_name_level
+E8.75_gata4_ko_2,E8.75,Neural/NCC,5367,0.1156780756961807,published_file,descriptive_name_level
+E8.75_gata4_ko_2,E8.75,Other mesoderm,7600,0.1638072247607552,published_file,descriptive_name_level

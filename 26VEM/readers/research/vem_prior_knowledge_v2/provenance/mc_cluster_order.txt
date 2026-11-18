@@ -1,0 +1,462 @@
+"mc"	"cluster"	"color"	"annotation"	"mc_rank"
+"1"	289	47	"#635547"	"Epiblast"	1
+"2"	271	47	"#635547"	"Epiblast"	2
+"3"	248	47	"#635547"	"Epiblast"	3
+"4"	287	47	"#635547"	"Epiblast"	4
+"5"	310	47	"#635547"	"Epiblast"	5
+"6"	269	47	"#635547"	"Epiblast"	6
+"7"	267	47	"#635547"	"Epiblast"	7
+"8"	254	47	"#635547"	"Epiblast"	8
+"9"	305	47	"#635547"	"Epiblast"	9
+"10"	259	45	"#635547"	"Epiblast"	10
+"11"	262	45	"#635547"	"Epiblast"	11
+"12"	243	45	"#635547"	"Epiblast"	12
+"13"	288	45	"#635547"	"Epiblast"	13
+"14"	270	45	"#635547"	"Epiblast"	14
+"15"	293	45	"#635547"	"Epiblast"	15
+"16"	263	45	"#635547"	"Epiblast"	16
+"17"	260	44	"#635547"	"Epiblast"	17
+"18"	274	44	"#635547"	"Epiblast"	18
+"19"	261	44	"#635547"	"Epiblast"	19
+"20"	275	44	"#635547"	"Epiblast"	20
+"21"	307	44	"#635547"	"Epiblast"	21
+"22"	265	44	"#635547"	"Epiblast"	22
+"23"	291	44	"#635547"	"Epiblast"	23
+"24"	242	44	"#635547"	"Epiblast"	24
+"25"	292	44	"#635547"	"Epiblast"	25
+"26"	264	44	"#635547"	"Epiblast"	26
+"27"	256	41	"#635547"	"Epiblast"	27
+"28"	279	41	"#635547"	"Epiblast"	28
+"29"	230	41	"#635547"	"Epiblast"	29
+"30"	284	41	"#635547"	"Epiblast"	30
+"31"	268	41	"#635547"	"Epiblast"	31
+"32"	236	41	"#635547"	"Epiblast"	32
+"33"	240	41	"#635547"	"Epiblast"	33
+"34"	232	41	"#635547"	"Epiblast"	34
+"35"	229	41	"#635547"	"Epiblast"	35
+"36"	237	37	"#635547"	"Epiblast"	36
+"37"	239	37	"#635547"	"Epiblast"	37
+"38"	233	37	"#635547"	"Epiblast"	38
+"39"	238	37	"#635547"	"Epiblast"	39
+"40"	218	37	"#635547"	"Epiblast"	40
+"41"	221	37	"#635547"	"Epiblast"	41
+"42"	304	50	"#635547"	"Epiblast"	42
+"43"	308	50	"#635547"	"Epiblast"	43
+"44"	295	50	"#635547"	"Epiblast"	44
+"45"	290	50	"#635547"	"Epiblast"	45
+"46"	273	50	"#635547"	"Epiblast"	46
+"47"	302	50	"#635547"	"Epiblast"	47
+"48"	297	48	"#635547"	"Epiblast"	48
+"49"	255	48	"#635547"	"Epiblast"	49
+"50"	309	48	"#635547"	"Epiblast"	50
+"51"	249	48	"#635547"	"Epiblast"	51
+"52"	316	48	"#635547"	"Epiblast"	52
+"53"	272	49	"#635547"	"Epiblast"	53
+"54"	299	49	"#635547"	"Epiblast"	54
+"55"	276	49	"#635547"	"Epiblast"	55
+"56"	294	49	"#635547"	"Epiblast"	56
+"57"	282	49	"#635547"	"Epiblast"	57
+"58"	311	49	"#635547"	"Epiblast"	58
+"59"	296	49	"#635547"	"Epiblast"	59
+"60"	285	49	"#635547"	"Epiblast"	60
+"61"	298	49	"#635547"	"Epiblast"	61
+"62"	303	49	"#635547"	"Epiblast"	62
+"63"	281	49	"#635547"	"Epiblast"	63
+"64"	317	35	"#635547"	"Epiblast"	64
+"65"	250	35	"#635547"	"Epiblast"	65
+"66"	227	35	"#635547"	"Epiblast"	66
+"67"	216	35	"#635547"	"Epiblast"	67
+"68"	318	35	"#635547"	"Epiblast"	68
+"69"	257	36	"#635547"	"Epiblast"	69
+"70"	300	36	"#635547"	"Epiblast"	70
+"71"	258	36	"#635547"	"Epiblast"	71
+"72"	234	36	"#635547"	"Epiblast"	72
+"73"	244	36	"#635547"	"Epiblast"	73
+"74"	247	36	"#635547"	"Epiblast"	74
+"75"	217	36	"#635547"	"Epiblast"	75
+"82"	325	42	"#DABE99"	"Primitive streak"	76
+"76"	283	42	"#635547"	"Epiblast"	77
+"77"	280	42	"#635547"	"Epiblast"	78
+"78"	286	42	"#635547"	"Epiblast"	79
+"79"	278	42	"#635547"	"Epiblast"	80
+"80"	277	42	"#635547"	"Epiblast"	81
+"81"	231	42	"#635547"	"Epiblast"	82
+"83"	241	43	"#635547"	"Epiblast"	83
+"84"	253	43	"#635547"	"Epiblast"	84
+"85"	266	43	"#635547"	"Epiblast"	85
+"86"	252	43	"#635547"	"Epiblast"	86
+"87"	223	39	"#DABE99"	"Primitive streak"	87
+"88"	225	39	"#DABE99"	"Primitive streak"	88
+"89"	328	39	"#DABE99"	"Primitive streak"	89
+"90"	326	39	"#DABE99"	"Primitive streak"	90
+"91"	332	39	"#DABE99"	"Primitive streak"	91
+"92"	224	39	"#DABE99"	"Primitive streak"	92
+"93"	327	38	"#DABE99"	"Primitive streak"	93
+"94"	331	38	"#DABE99"	"Primitive streak"	94
+"95"	330	38	"#DABE99"	"Primitive streak"	95
+"96"	222	38	"#DABE99"	"Primitive streak"	96
+"98"	314	46	"#635547"	"Epiblast"	97
+"99"	301	46	"#635547"	"Epiblast"	98
+"100"	245	46	"#635547"	"Epiblast"	99
+"97"	313	46	"#635547"	"Epiblast"	100
+"101"	246	46	"#635547"	"Epiblast"	101
+"102"	306	46	"#635547"	"Epiblast"	102
+"103"	312	46	"#635547"	"Epiblast"	103
+"104"	251	46	"#635547"	"Epiblast"	104
+"105"	416	64	"#65A83E"	"Neurectoderm progenitors"	105
+"106"	411	64	"#65A83E"	"Neurectoderm progenitors"	106
+"107"	413	64	"#65A83E"	"Neurectoderm progenitors"	107
+"108"	412	64	"#65A83E"	"Neurectoderm progenitors"	108
+"109"	417	64	"#65A83E"	"Neurectoderm progenitors"	109
+"110"	419	64	"#65A83E"	"Neurectoderm progenitors"	110
+"111"	418	64	"#65A83E"	"Neurectoderm progenitors"	111
+"112"	420	64	"#65A83E"	"Neurectoderm progenitors"	112
+"113"	414	64	"#65A83E"	"Neurectoderm progenitors"	113
+"114"	415	64	"#65A83E"	"Neurectoderm progenitors"	114
+"115"	235	34	"#635547"	"Epiblast"	115
+"116"	220	34	"#635547"	"Epiblast"	116
+"117"	219	34	"#635547"	"Epiblast"	117
+"118"	215	34	"#635547"	"Epiblast"	118
+"119"	214	34	"#635547"	"Epiblast"	119
+"120"	213	34	"#635547"	"Epiblast"	120
+"121"	402	61	"#647a4f"	"Rostral neural plate"	121
+"122"	400	61	"#647a4f"	"Rostral neural plate"	122
+"123"	396	61	"#647a4f"	"Rostral neural plate"	123
+"124"	395	61	"#647a4f"	"Rostral neural plate"	124
+"125"	443	61	"#647a4f"	"Rostral neural plate"	125
+"126"	390	58	"#f7f79e"	"Surface ectoderm"	126
+"127"	405	58	"#f7f79e"	"Surface ectoderm"	127
+"128"	389	58	"#f7f79e"	"Surface ectoderm"	128
+"129"	387	58	"#f7f79e"	"Surface ectoderm"	129
+"130"	388	58	"#f7f79e"	"Surface ectoderm"	130
+"131"	438	58	"#f7f79e"	"Surface ectoderm"	131
+"134"	421	62	"#647a4f"	"Rostral neural plate"	132
+"135"	426	62	"#647a4f"	"Rostral neural plate"	133
+"132"	394	62	"#647a4f"	"Rostral neural plate"	134
+"136"	425	62	"#647a4f"	"Rostral neural plate"	135
+"137"	424	62	"#647a4f"	"Rostral neural plate"	136
+"138"	423	62	"#647a4f"	"Rostral neural plate"	137
+"139"	398	62	"#647a4f"	"Rostral neural plate"	138
+"140"	399	62	"#647a4f"	"Rostral neural plate"	139
+"133"	404	62	"#647a4f"	"Rostral neural plate"	140
+"141"	397	62	"#647a4f"	"Rostral neural plate"	141
+"142"	422	60	"#647a4f"	"Rostral neural plate"	142
+"143"	393	60	"#647a4f"	"Rostral neural plate"	143
+"144"	392	60	"#647a4f"	"Rostral neural plate"	144
+"148"	211	63	"#65A83E"	"Neurectoderm progenitors"	145
+"149"	212	63	"#65A83E"	"Neurectoderm progenitors"	146
+"150"	210	63	"#65A83E"	"Neurectoderm progenitors"	147
+"151"	407	63	"#65A83E"	"Neurectoderm progenitors"	148
+"152"	406	63	"#65A83E"	"Neurectoderm progenitors"	149
+"145"	409	63	"#65A83E"	"Neurectoderm progenitors"	150
+"146"	410	63	"#65A83E"	"Neurectoderm progenitors"	151
+"147"	408	63	"#65A83E"	"Neurectoderm progenitors"	152
+"153"	228	33	"#635547"	"Epiblast"	153
+"154"	445	33	"#DABE99"	"Primitive streak"	154
+"155"	446	33	"#DABE99"	"Primitive streak"	155
+"156"	401	59	"#354E23"	"Caudal neural plate"	156
+"157"	391	59	"#354E23"	"Caudal neural plate"	157
+"158"	403	59	"#354E23"	"Caudal neural plate"	158
+"159"	441	59	"#354E23"	"Caudal neural plate"	159
+"160"	440	59	"#354E23"	"Caudal neural plate"	160
+"161"	442	59	"#354E23"	"Caudal neural plate"	161
+"162"	428	21	"#9e6762"	"Caudal epiblast"	162
+"163"	439	21	"#9e6762"	"Caudal epiblast"	163
+"164"	429	21	"#9e6762"	"Caudal epiblast"	164
+"167"	107	21	"#9e6762"	"Caudal epiblast"	165
+"168"	116	21	"#9e6762"	"Caudal epiblast"	166
+"165"	433	21	"#9e6762"	"Caudal epiblast"	167
+"169"	431	21	"#9e6762"	"Caudal epiblast"	168
+"170"	432	21	"#9e6762"	"Caudal epiblast"	169
+"166"	430	21	"#9e6762"	"Caudal epiblast"	170
+"171"	105	21	"#9e6762"	"Caudal epiblast"	171
+"172"	434	21	"#9e6762"	"Caudal epiblast"	172
+"173"	437	21	"#9e6762"	"Caudal epiblast"	173
+"174"	427	19	"#9e6762"	"Caudal epiblast"	174
+"175"	101	19	"#9e6762"	"Caudal epiblast"	175
+"176"	102	19	"#9e6762"	"Caudal epiblast"	176
+"177"	113	19	"#9e6762"	"Caudal epiblast"	177
+"178"	111	19	"#9e6762"	"Caudal epiblast"	178
+"179"	110	19	"#9e6762"	"Caudal epiblast"	179
+"180"	115	19	"#9e6762"	"Caudal epiblast"	180
+"181"	122	19	"#9e6762"	"Caudal epiblast"	181
+"182"	435	19	"#9e6762"	"Caudal epiblast"	182
+"183"	109	19	"#9e6762"	"Caudal epiblast"	183
+"184"	436	19	"#9e6762"	"Caudal epiblast"	184
+"185"	112	19	"#9e6762"	"Caudal epiblast"	185
+"186"	114	19	"#9e6762"	"Caudal epiblast"	186
+"187"	121	19	"#9e6762"	"Caudal epiblast"	187
+"188"	106	20	"#FACB12"	"PGC"	188
+"189"	103	20	"#FACB12"	"PGC"	189
+"190"	104	20	"#FACB12"	"PGC"	190
+"191"	126	24	"#1a3f52"	"Caudal mesoderm"	191
+"192"	123	24	"#1a3f52"	"Caudal mesoderm"	192
+"193"	120	24	"#1a3f52"	"Caudal mesoderm"	193
+"194"	119	23	"#1a3f52"	"Caudal mesoderm"	194
+"195"	118	23	"#1a3f52"	"Caudal mesoderm"	195
+"196"	117	23	"#1a3f52"	"Caudal mesoderm"	196
+"197"	139	23	"#1a3f52"	"Caudal mesoderm"	197
+"198"	204	25	"#1a3f52"	"Caudal mesoderm"	198
+"199"	125	25	"#1a3f52"	"Caudal mesoderm"	199
+"200"	129	25	"#1a3f52"	"Caudal mesoderm"	200
+"201"	128	25	"#1a3f52"	"Caudal mesoderm"	201
+"202"	136	25	"#1a3f52"	"Caudal mesoderm"	202
+"203"	133	25	"#1a3f52"	"Caudal mesoderm"	203
+"204"	131	25	"#1a3f52"	"Caudal mesoderm"	204
+"205"	138	25	"#1a3f52"	"Caudal mesoderm"	205
+"206"	135	25	"#1a3f52"	"Caudal mesoderm"	206
+"207"	130	25	"#1a3f52"	"Caudal mesoderm"	207
+"208"	132	25	"#1a3f52"	"Caudal mesoderm"	208
+"209"	134	25	"#1a3f52"	"Caudal mesoderm"	209
+"210"	100	18	"#DFCDE4"	"Late nascent mesoderm"	210
+"211"	186	18	"#DFCDE4"	"Late nascent mesoderm"	211
+"212"	189	18	"#DFCDE4"	"Late nascent mesoderm"	212
+"213"	191	18	"#DFCDE4"	"Late nascent mesoderm"	213
+"214"	127	18	"#DFCDE4"	"Late nascent mesoderm"	214
+"215"	124	18	"#DFCDE4"	"Late nascent mesoderm"	215
+"217"	324	52	"#DABE99"	"Primitive streak"	216
+"218"	338	52	"#DABE99"	"Primitive streak"	217
+"219"	337	52	"#DABE99"	"Primitive streak"	218
+"220"	339	52	"#DABE99"	"Primitive streak"	219
+"221"	444	52	"#DABE99"	"Primitive streak"	220
+"216"	323	52	"#DABE99"	"Primitive streak"	221
+"222"	315	40	"#635547"	"Epiblast"	222
+"223"	319	40	"#635547"	"Epiblast"	223
+"224"	226	40	"#635547"	"Epiblast"	224
+"225"	320	51	"#DABE99"	"Primitive streak"	225
+"226"	329	51	"#DABE99"	"Primitive streak"	226
+"227"	334	51	"#DABE99"	"Primitive streak"	227
+"228"	321	51	"#DABE99"	"Primitive streak"	228
+"229"	333	51	"#DABE99"	"Primitive streak"	229
+"230"	322	51	"#DABE99"	"Primitive streak"	230
+"231"	340	51	"#DABE99"	"Primitive streak"	231
+"232"	450	14	"#C594BF"	"Early nascent mesoderm"	232
+"233"	447	14	"#C594BF"	"Early nascent mesoderm"	233
+"234"	451	14	"#C594BF"	"Early nascent mesoderm"	234
+"235"	449	14	"#C594BF"	"Early nascent mesoderm"	235
+"236"	456	14	"#C594BF"	"Early nascent mesoderm"	236
+"237"	454	14	"#C594BF"	"Early nascent mesoderm"	237
+"238"	455	14	"#C594BF"	"Early nascent mesoderm"	238
+"239"	74	14	"#C594BF"	"Early nascent mesoderm"	239
+"240"	452	13	"#C594BF"	"Early nascent mesoderm"	240
+"241"	73	13	"#C594BF"	"Early nascent mesoderm"	241
+"242"	72	13	"#C594BF"	"Early nascent mesoderm"	242
+"243"	453	13	"#C594BF"	"Early nascent mesoderm"	243
+"244"	80	13	"#C594BF"	"Early nascent mesoderm"	244
+"245"	76	13	"#C594BF"	"Early nascent mesoderm"	245
+"246"	77	15	"#C594BF"	"Early nascent mesoderm"	246
+"247"	89	15	"#C594BF"	"Early nascent mesoderm"	247
+"248"	78	15	"#C594BF"	"Early nascent mesoderm"	248
+"249"	90	15	"#C594BF"	"Early nascent mesoderm"	249
+"250"	93	15	"#C594BF"	"Early nascent mesoderm"	250
+"251"	92	15	"#C594BF"	"Early nascent mesoderm"	251
+"252"	91	15	"#C594BF"	"Early nascent mesoderm"	252
+"253"	188	15	"#C594BF"	"Early nascent mesoderm"	253
+"254"	71	12	"#C594BF"	"Early nascent mesoderm"	254
+"255"	79	12	"#C594BF"	"Early nascent mesoderm"	255
+"256"	75	12	"#C594BF"	"Early nascent mesoderm"	256
+"257"	83	12	"#C594BF"	"Early nascent mesoderm"	257
+"258"	81	12	"#C594BF"	"Early nascent mesoderm"	258
+"259"	82	12	"#C594BF"	"Early nascent mesoderm"	259
+"260"	95	12	"#C594BF"	"Early nascent mesoderm"	260
+"261"	96	12	"#C594BF"	"Early nascent mesoderm"	261
+"262"	98	12	"#C594BF"	"Early nascent mesoderm"	262
+"263"	85	12	"#C594BF"	"Early nascent mesoderm"	263
+"264"	177	30	"#C594BF"	"Early nascent mesoderm"	264
+"265"	170	30	"#DFCDE4"	"Late nascent mesoderm"	265
+"266"	164	30	"#DFCDE4"	"Late nascent mesoderm"	266
+"267"	163	30	"#DFCDE4"	"Late nascent mesoderm"	267
+"268"	192	30	"#DFCDE4"	"Late nascent mesoderm"	268
+"269"	171	30	"#DFCDE4"	"Late nascent mesoderm"	269
+"270"	88	11	"#C594BF"	"Early nascent mesoderm"	270
+"271"	87	11	"#C594BF"	"Early nascent mesoderm"	271
+"272"	86	11	"#C594BF"	"Early nascent mesoderm"	272
+"273"	84	11	"#C594BF"	"Early nascent mesoderm"	273
+"274"	61	11	"#DFCDE4"	"Late nascent mesoderm"	274
+"275"	202	32	"#8DB5CE"	"Rostral mesoderm"	275
+"276"	207	32	"#8DB5CE"	"Rostral mesoderm"	276
+"277"	206	32	"#8DB5CE"	"Rostral mesoderm"	277
+"278"	205	32	"#408DA1"	"Paraxial mesoderm"	278
+"279"	208	32	"#408DA1"	"Paraxial mesoderm"	279
+"280"	195	32	"#408DA1"	"Paraxial mesoderm"	280
+"281"	194	32	"#408DA1"	"Paraxial mesoderm"	281
+"282"	193	32	"#408DA1"	"Paraxial mesoderm"	282
+"283"	94	16	"#C594BF"	"Early nascent mesoderm"	283
+"284"	99	16	"#C594BF"	"Early nascent mesoderm"	284
+"285"	190	16	"#C594BF"	"Early nascent mesoderm"	285
+"286"	187	16	"#C594BF"	"Early nascent mesoderm"	286
+"287"	97	17	"#8DB5CE"	"Rostral mesoderm"	287
+"288"	201	17	"#8DB5CE"	"Rostral mesoderm"	288
+"289"	196	17	"#8DB5CE"	"Rostral mesoderm"	289
+"290"	165	17	"#8DB5CE"	"Rostral mesoderm"	290
+"291"	166	17	"#8DB5CE"	"Rostral mesoderm"	291
+"292"	200	17	"#8DB5CE"	"Rostral mesoderm"	292
+"293"	199	17	"#8DB5CE"	"Rostral mesoderm"	293
+"294"	167	17	"#8DB5CE"	"Rostral mesoderm"	294
+"295"	197	17	"#8DB5CE"	"Rostral mesoderm"	295
+"296"	203	17	"#8DB5CE"	"Rostral mesoderm"	296
+"297"	198	17	"#8DB5CE"	"Rostral mesoderm"	297
+"298"	145	28	"#8DB5CE"	"Rostral mesoderm"	298
+"299"	146	28	"#8DB5CE"	"Rostral mesoderm"	299
+"300"	144	28	"#8DB5CE"	"Rostral mesoderm"	300
+"301"	209	28	"#408DA1"	"Paraxial mesoderm"	301
+"302"	169	29	"#45d1c5"	"Lateral & intermediate mesoderm"	302
+"303"	161	29	"#45d1c5"	"Lateral & intermediate mesoderm"	303
+"304"	150	29	"#45d1c5"	"Lateral & intermediate mesoderm"	304
+"305"	174	29	"#45d1c5"	"Lateral & intermediate mesoderm"	305
+"306"	149	29	"#45d1c5"	"Lateral & intermediate mesoderm"	306
+"307"	168	29	"#45d1c5"	"Lateral & intermediate mesoderm"	307
+"308"	162	29	"#45d1c5"	"Lateral & intermediate mesoderm"	308
+"309"	160	29	"#45d1c5"	"Lateral & intermediate mesoderm"	309
+"310"	147	29	"#45d1c5"	"Lateral & intermediate mesoderm"	310
+"311"	137	26	"#45d1c5"	"Lateral & intermediate mesoderm"	311
+"312"	176	26	"#45d1c5"	"Lateral & intermediate mesoderm"	312
+"313"	175	26	"#45d1c5"	"Lateral & intermediate mesoderm"	313
+"314"	156	27	"#8DB5CE"	"Rostral mesoderm"	314
+"315"	143	27	"#8DB5CE"	"Rostral mesoderm"	315
+"316"	154	27	"#8DB5CE"	"Rostral mesoderm"	316
+"317"	142	27	"#8DB5CE"	"Rostral mesoderm"	317
+"318"	157	27	"#8DB5CE"	"Rostral mesoderm"	318
+"319"	158	27	"#8DB5CE"	"Rostral mesoderm"	319
+"320"	141	27	"#408DA1"	"Paraxial mesoderm"	320
+"321"	155	27	"#FBBE92"	"Haematoendothelial progenitors"	321
+"322"	153	27	"#8DB5CE"	"Rostral mesoderm"	322
+"323"	159	27	"#8DB5CE"	"Rostral mesoderm"	323
+"324"	140	27	"#408DA1"	"Paraxial mesoderm"	324
+"331"	63	10	"#53f1fc"	"Cardiac crescent"	325
+"325"	59	10	"#53f1fc"	"Cardiac crescent"	326
+"326"	148	10	"#53f1fc"	"Cardiac crescent"	327
+"327"	60	10	"#53f1fc"	"Cardiac crescent"	328
+"328"	151	10	"#53f1fc"	"Cardiac crescent"	329
+"329"	152	10	"#53f1fc"	"Cardiac crescent"	330
+"330"	57	10	"#B51D8D"	"Cardiomyocytes"	331
+"332"	58	6	"#53f1fc"	"Cardiac crescent"	332
+"333"	62	6	"#53f1fc"	"Cardiac crescent"	333
+"334"	56	6	"#53f1fc"	"Cardiac crescent"	334
+"335"	49	8	"#cc7818"	"Amnion/Chorion"	335
+"336"	43	8	"#cc7818"	"Amnion/Chorion"	336
+"337"	41	8	"#cc7818"	"Amnion/Chorion"	337
+"338"	42	8	"#cc7818"	"Amnion/Chorion"	338
+"339"	44	8	"#cc7818"	"Amnion/Chorion"	339
+"340"	32	8	"#cc7818"	"Amnion/Chorion"	340
+"341"	47	8	"#cc7818"	"Amnion/Chorion"	341
+"346"	31	7	"#cc7818"	"Amnion/Chorion"	342
+"347"	34	7	"#cc7818"	"Amnion/Chorion"	343
+"342"	30	7	"#cc7818"	"Amnion/Chorion"	344
+"343"	39	7	"#cc7818"	"Amnion/Chorion"	345
+"348"	38	7	"#cc7818"	"Amnion/Chorion"	346
+"349"	33	7	"#cc7818"	"Amnion/Chorion"	347
+"344"	40	7	"#cc7818"	"Amnion/Chorion"	348
+"350"	35	7	"#cc7818"	"Amnion/Chorion"	349
+"351"	37	7	"#cc7818"	"Amnion/Chorion"	350
+"345"	36	7	"#cc7818"	"Amnion/Chorion"	351
+"352"	179	31	"#8870ad"	"ExE mesoderm"	352
+"353"	178	31	"#8870ad"	"ExE mesoderm"	353
+"354"	183	31	"#8870ad"	"ExE mesoderm"	354
+"355"	172	31	"#8870ad"	"ExE mesoderm"	355
+"356"	184	31	"#8870ad"	"ExE mesoderm"	356
+"357"	185	31	"#8870ad"	"ExE mesoderm"	357
+"358"	173	31	"#8870ad"	"ExE mesoderm"	358
+"360"	181	9	"#8870ad"	"ExE mesoderm"	359
+"361"	64	9	"#8870ad"	"ExE mesoderm"	360
+"362"	182	9	"#8870ad"	"ExE mesoderm"	361
+"359"	48	9	"#8870ad"	"ExE mesoderm"	362
+"363"	65	9	"#8870ad"	"ExE mesoderm"	363
+"364"	50	9	"#8870ad"	"ExE mesoderm"	364
+"365"	69	9	"#8870ad"	"ExE mesoderm"	365
+"366"	180	9	"#8870ad"	"ExE mesoderm"	366
+"367"	66	9	"#8870ad"	"ExE mesoderm"	367
+"368"	51	9	"#8870ad"	"ExE mesoderm"	368
+"369"	68	9	"#8870ad"	"ExE mesoderm"	369
+"370"	70	9	"#8870ad"	"ExE mesoderm"	370
+"373"	46	5	"#532C8A"	"Allantois"	371
+"371"	54	5	"#532C8A"	"Allantois"	372
+"374"	55	5	"#532C8A"	"Allantois"	373
+"375"	45	5	"#532C8A"	"Allantois"	374
+"372"	67	5	"#532C8A"	"Allantois"	375
+"376"	21	5	"#FBBE92"	"Haematoendothelial progenitors"	376
+"377"	53	5	"#532C8A"	"Allantois"	377
+"378"	52	5	"#532C8A"	"Allantois"	378
+"379"	27	3	"#c9a997"	"Blood progenitors"	379
+"380"	28	3	"#c9a997"	"Blood progenitors"	380
+"381"	29	3	"#c9a997"	"Blood progenitors"	381
+"382"	22	3	"#c9a997"	"Blood progenitors"	382
+"383"	17	4	"#FBBE92"	"Haematoendothelial progenitors"	383
+"384"	18	4	"#FBBE92"	"Haematoendothelial progenitors"	384
+"385"	26	4	"#FBBE92"	"Haematoendothelial progenitors"	385
+"386"	19	4	"#FBBE92"	"Haematoendothelial progenitors"	386
+"387"	20	4	"#FBBE92"	"Haematoendothelial progenitors"	387
+"388"	23	4	"#FBBE92"	"Haematoendothelial progenitors"	388
+"389"	25	4	"#FBBE92"	"Haematoendothelial progenitors"	389
+"390"	24	4	"#FBBE92"	"Haematoendothelial progenitors"	390
+"391"	6	2	"#C72228"	"Erythroid 1"	391
+"392"	8	2	"#C72228"	"Erythroid 1"	392
+"393"	7	2	"#C72228"	"Erythroid 1"	393
+"394"	9	2	"#C72228"	"Erythroid 1"	394
+"395"	10	2	"#C72228"	"Erythroid 1"	395
+"396"	11	2	"#C72228"	"Erythroid 1"	396
+"397"	15	2	"#C72228"	"Erythroid 1"	397
+"398"	13	2	"#C72228"	"Erythroid 1"	398
+"399"	16	2	"#C72228"	"Erythroid 1"	399
+"400"	12	2	"#C72228"	"Erythroid 1"	400
+"401"	14	1	"#EF4E22"	"Erythroid 2"	401
+"402"	3	1	"#EF4E22"	"Erythroid 2"	402
+"403"	5	1	"#EF4E22"	"Erythroid 2"	403
+"404"	4	1	"#EF4E22"	"Erythroid 2"	404
+"405"	2	1	"#EF4E22"	"Erythroid 2"	405
+"406"	1	1	"#EF4E22"	"Erythroid 2"	406
+"407"	460	22	"#0F4A9C"	"Primitive node"	407
+"411"	461	22	"#0F4A9C"	"Primitive node"	408
+"408"	368	22	"#0F4A9C"	"Primitive node"	409
+"409"	108	22	"#0F4A9C"	"Primitive node"	410
+"410"	367	22	"#0F4A9C"	"Primitive node"	411
+"412"	336	65	"#c19f70"	"Anterior Primitive Streak"	412
+"413"	457	65	"#c19f70"	"Anterior Primitive Streak"	413
+"414"	459	65	"#c19f70"	"Anterior Primitive Streak"	414
+"415"	448	65	"#c19f70"	"Anterior Primitive Streak"	415
+"416"	335	65	"#c19f70"	"Anterior Primitive Streak"	416
+"417"	458	65	"#c19f70"	"Anterior Primitive Streak"	417
+"418"	366	65	"#0F4A9C"	"Primitive node"	418
+"419"	376	53	"#F397C0"	"Definitive endoderm"	419
+"420"	375	53	"#F397C0"	"Definitive endoderm"	420
+"421"	373	53	"#F397C0"	"Definitive endoderm"	421
+"422"	374	53	"#F397C0"	"Definitive endoderm"	422
+"423"	370	53	"#F397C0"	"Definitive endoderm"	423
+"424"	369	53	"#F397C0"	"Definitive endoderm"	424
+"425"	371	57	"#EF5A9D"	"Foregut"	425
+"426"	384	57	"#EF5A9D"	"Foregut"	426
+"427"	383	57	"#EF5A9D"	"Foregut"	427
+"428"	386	57	"#EF5A9D"	"Foregut"	428
+"429"	372	57	"#EF5A9D"	"Foregut"	429
+"430"	380	57	"#EF5A9D"	"Foregut"	430
+"431"	381	57	"#EF5A9D"	"Foregut"	431
+"432"	377	57	"#EF5A9D"	"Foregut"	432
+"433"	385	57	"#EF5A9D"	"Foregut"	433
+"434"	382	57	"#EF5A9D"	"Foregut"	434
+"435"	355	55	"#7F6874"	"ExE endoderm"	435
+"436"	352	55	"#7F6874"	"ExE endoderm"	436
+"437"	353	55	"#7F6874"	"ExE endoderm"	437
+"438"	356	55	"#7F6874"	"ExE endoderm"	438
+"439"	354	55	"#7F6874"	"ExE endoderm"	439
+"440"	361	55	"#7F6874"	"ExE endoderm"	440
+"441"	349	55	"#7F6874"	"ExE endoderm"	441
+"442"	350	55	"#7F6874"	"ExE endoderm"	442
+"443"	359	56	"#7F6874"	"ExE endoderm"	443
+"444"	362	56	"#7F6874"	"ExE endoderm"	444
+"445"	357	56	"#7F6874"	"ExE endoderm"	445
+"446"	358	56	"#7F6874"	"ExE endoderm"	446
+"447"	360	56	"#7F6874"	"ExE endoderm"	447
+"448"	364	56	"#7F6874"	"ExE endoderm"	448
+"449"	365	56	"#7F6874"	"ExE endoderm"	449
+"450"	363	56	"#7F6874"	"ExE endoderm"	450
+"451"	351	56	"#7F6874"	"ExE endoderm"	451
+"452"	345	54	"#F6BFCB"	"Visceral endoderm"	452
+"453"	346	54	"#F6BFCB"	"Visceral endoderm"	453
+"454"	347	54	"#F6BFCB"	"Visceral endoderm"	454
+"455"	342	54	"#F6BFCB"	"Visceral endoderm"	455
+"456"	344	54	"#F6BFCB"	"Visceral endoderm"	456
+"457"	343	54	"#F6BFCB"	"Visceral endoderm"	457
+"458"	341	54	"#F6BFCB"	"Visceral endoderm"	458
+"459"	378	54	"#F6BFCB"	"Visceral endoderm"	459
+"460"	348	54	"#F6BFCB"	"Visceral endoderm"	460
+"461"	379	54	"#F6BFCB"	"Visceral endoderm"	461

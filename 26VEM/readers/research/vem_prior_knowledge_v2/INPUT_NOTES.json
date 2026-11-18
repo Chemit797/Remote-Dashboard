@@ -1,0 +1,12 @@
+{
+  "E8.25_late": {
+    "file_key": "E8.25",
+    "meaning": "filename reference label; Data Protocol describes approximately E8.3, not exact E8.25",
+    "usage": "summary only; no exact-time main source pairing in this run"
+  },
+  "official_samples": "WT sample identifiers are file-level units; no embryo identity inferred. Gata4 two released inputs retain author embryo IDs.",
+  "FENG_samples": "name is MULTI-seq chamber sampling group; four groups are not four confirmed independent embryos.",
+  "MOSTA_samples": "one file-level summary unit; slices are technical sections, not biological replicates.",
+  "QIU_samples": "12 explicit embryo IDs in selected allowed E8.75-E9.5 rows; E8.0-E8.5 author range excluded because it is not an exact E8.5 collection label.",
+  "gene_identity_correction": "Sgol2 resolves through NCBI68549/MGI1098767/ENSMUSG00000026039 to historical Sgol2a; supplement_alias has one-gene projection and checks; original outputs retained."
+}

@@ -1,0 +1,1354 @@
+{
+  "version": "1.0",
+  "tests": [
+    {
+      "id": "L001_external",
+      "claim": "L001",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Epiblast"
+        ]
+      },
+      "genes": []
+    },
+    {
+      "id": "L002_external",
+      "claim": "L002",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75"
+      ],
+      "target": {
+        "label": [
+          "Nascent mesoderm",
+          "ExE mesoderm",
+          "Mixed mesoderm",
+          "Paraxial mesoderm",
+          "Intermediate mesoderm",
+          "Caudal Mesoderm"
+        ]
+      },
+      "genes": []
+    },
+    {
+      "id": "L003_external",
+      "claim": "L003",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75"
+      ],
+      "target": {
+        "label": [
+          "Def. endoderm"
+        ]
+      },
+      "genes": []
+    },
+    {
+      "id": "L004_Ttr",
+      "claim": "L004",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Visceral endoderm"
+        ]
+      },
+      "genes": [
+        "Ttr"
+      ],
+      "comparator": {
+        "label": [
+          "Def. endoderm"
+        ]
+      }
+    },
+    {
+      "id": "L004_Mixl1",
+      "claim": "L004",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Def. endoderm"
+        ]
+      },
+      "genes": [
+        "Mixl1"
+      ],
+      "comparator": {
+        "label": [
+          "Visceral endoderm"
+        ]
+      }
+    },
+    {
+      "id": "L007_external_expression",
+      "claim": "L007",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Primitive Streak",
+          "Anterior Primitive Streak"
+        ]
+      },
+      "genes": [
+        "Eomes",
+        "Foxa2",
+        "Mixl1",
+        "T"
+      ],
+      "scope": "partial",
+      "note": "仅核对允许实测阶段中作者粗标签的表达成分；不能复现原文Et动态或metacell定义"
+    },
+    {
+      "id": "L008_external_expression",
+      "claim": "L008",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Nascent mesoderm"
+        ]
+      },
+      "genes": [
+        "Mesp1",
+        "T",
+        "Mixl1",
+        "Lefty2",
+        "Snai1"
+      ],
+      "scope": "partial",
+      "note": "仅核对允许实测阶段中作者粗标签的表达成分；不能复现原文Et动态或metacell定义"
+    },
+    {
+      "id": "L009_external_expression",
+      "claim": "L009",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Haematoendothelial progenitors"
+        ]
+      },
+      "genes": [
+        "Tal1",
+        "Etv2"
+      ],
+      "scope": "partial",
+      "note": "仅核对允许实测阶段中作者粗标签的表达成分；不能复现原文Et动态或metacell定义"
+    },
+    {
+      "id": "L010_external_expression",
+      "claim": "L010",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "ExE mesoderm"
+        ]
+      },
+      "genes": [
+        "Msx1",
+        "Msx2",
+        "Hand1"
+      ],
+      "scope": "partial",
+      "note": "仅核对允许实测阶段中作者粗标签的表达成分；不能复现原文Et动态或metacell定义"
+    },
+    {
+      "id": "L011_external_expression",
+      "claim": "L011",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Pharyngeal mesoderm"
+        ]
+      },
+      "genes": [
+        "Foxc1",
+        "Foxc2",
+        "Twist1"
+      ],
+      "scope": "partial",
+      "note": "仅核对允许实测阶段中作者粗标签的表达成分；不能复现原文Et动态或metacell定义"
+    },
+    {
+      "id": "L012_external_expression",
+      "claim": "L012",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Caudal Mesoderm"
+        ]
+      },
+      "genes": [
+        "Cdx1",
+        "Hoxb1",
+        "Hoxa1"
+      ],
+      "scope": "partial",
+      "note": "仅核对允许实测阶段中作者粗标签的表达成分；不能复现原文Et动态或metacell定义"
+    },
+    {
+      "id": "L014_external_expression",
+      "claim": "L014",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "ExE endoderm"
+        ]
+      },
+      "genes": [
+        "Ttr",
+        "Apoe"
+      ],
+      "scope": "partial",
+      "note": "仅核对允许实测阶段中作者粗标签的表达成分；不能复现原文Et动态或metacell定义"
+    },
+    {
+      "id": "L015_external_expression",
+      "claim": "L015",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Visceral endoderm"
+        ]
+      },
+      "genes": [
+        "Cer1",
+        "Lefty1"
+      ],
+      "scope": "partial",
+      "note": "仅核对允许实测阶段中作者粗标签的表达成分；不能复现原文Et动态或metacell定义"
+    },
+    {
+      "id": "L020_external",
+      "claim": "L020",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Endothelium"
+        ]
+      },
+      "genes": [
+        "Kdr"
+      ]
+    },
+    {
+      "id": "L022_external",
+      "claim": "L022",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "joint",
+      "stages": [
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Endothelium"
+        ]
+      },
+      "genes": [
+        "Spi1",
+        "Itga2b"
+      ]
+    },
+    {
+      "id": "D001_reproduction",
+      "claim": "D001",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25",
+        "E8.0"
+      ],
+      "target": {
+        "label": [
+          "Allantois"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D007_reproduction",
+      "claim": "D007",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25"
+      ],
+      "target": {
+        "label": [
+          "Allantois"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D002_reproduction",
+      "claim": "D002",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25",
+        "E8.0"
+      ],
+      "target": {
+        "label": [
+          "Primitive Streak"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D008_reproduction",
+      "claim": "D008",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25"
+      ],
+      "target": {
+        "label": [
+          "Primitive Streak"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D003_reproduction",
+      "claim": "D003",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25",
+        "E8.0"
+      ],
+      "target": {
+        "label": [
+          "Caudal epiblast"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D009_reproduction",
+      "claim": "D009",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25"
+      ],
+      "target": {
+        "label": [
+          "Caudal epiblast"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D004_reproduction",
+      "claim": "D004",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25",
+        "E8.0"
+      ],
+      "target": {
+        "label": [
+          "ExE ectoderm"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D010_reproduction",
+      "claim": "D010",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25"
+      ],
+      "target": {
+        "label": [
+          "ExE ectoderm"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D005_reproduction",
+      "claim": "D005",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25",
+        "E8.0"
+      ],
+      "target": {
+        "label": [
+          "ExE endoderm"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D011_reproduction",
+      "claim": "D011",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25"
+      ],
+      "target": {
+        "label": [
+          "ExE endoderm"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D006_reproduction",
+      "claim": "D006",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25",
+        "E8.0"
+      ],
+      "target": {
+        "label": [
+          "Blood progenitors 1",
+          "Blood progenitors 2"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "D012_reproduction",
+      "claim": "D012",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "proportion",
+      "stages": [
+        "E6.75",
+        "E7.25"
+      ],
+      "target": {
+        "label": [
+          "Blood progenitors 1",
+          "Blood progenitors 2"
+        ]
+      },
+      "genes": [],
+      "source_relation": "原数据复现"
+    },
+    {
+      "id": "X002_independent",
+      "claim": "X002",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "module",
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Def. endoderm",
+          "ExE endoderm",
+          "Visceral endoderm",
+          "Parietal endoderm",
+          "Gut"
+        ]
+      },
+      "genes": [
+        "Mki67",
+        "Cenpf",
+        "Top2a",
+        "Smc4",
+        "Ube2c",
+        "Ccnb1",
+        "Cdk1",
+        "Arl6ip1",
+        "Ankrd11",
+        "Hmmr",
+        "Cenpa",
+        "Tpx2",
+        "Aurka",
+        "Kif4",
+        "Kif2c",
+        "Bub1b",
+        "Ccna2",
+        "Kif23",
+        "Kif20a",
+        "Sgol2",
+        "Smc2",
+        "Kif11",
+        "Cdca2",
+        "Incenp",
+        "Cenpe",
+        "Pcna",
+        "Rrm2",
+        "Mcm5",
+        "Mcm6",
+        "Mcm4",
+        "Ung",
+        "Mcm7",
+        "Mcm2",
+        "Uhrf1",
+        "Orc6",
+        "Tipin"
+      ],
+      "gene_sets": {
+        "M": [
+          "Mki67",
+          "Cenpf",
+          "Top2a",
+          "Smc4",
+          "Ube2c",
+          "Ccnb1",
+          "Cdk1",
+          "Arl6ip1",
+          "Ankrd11",
+          "Hmmr",
+          "Cenpa",
+          "Tpx2",
+          "Aurka",
+          "Kif4",
+          "Kif2c",
+          "Bub1b",
+          "Ccna2",
+          "Kif23",
+          "Kif20a",
+          "Sgol2",
+          "Smc2",
+          "Kif11",
+          "Cdca2",
+          "Incenp",
+          "Cenpe"
+        ],
+        "S": [
+          "Pcna",
+          "Rrm2",
+          "Mcm5",
+          "Mcm6",
+          "Mcm4",
+          "Ung",
+          "Mcm7",
+          "Mcm2",
+          "Uhrf1",
+          "Orc6",
+          "Tipin"
+        ]
+      },
+      "note": "独立研究粗内胚层与其余作者类型比较；分母为全转录组UMI，保留每pool，不估计分裂速率"
+    },
+    {
+      "id": "V2-H009_spatial_region",
+      "claim": "V2-H009",
+      "datasets": [
+        "MOSTA_E9.5"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E9.5"
+      ],
+      "target": {
+        "label": [
+          "Right ventricle"
+        ]
+      },
+      "genes": [
+        "Pln"
+      ],
+      "note": "空间bin比较：不同细胞组成也会改变区域表达；不解释为纯心肌细胞差异",
+      "comparator": {
+        "label": [
+          "Left ventricle"
+        ]
+      }
+    },
+    {
+      "id": "V2-H009_chamber_cells",
+      "claim": "V2-H009",
+      "datasets": [
+        "FENG193346_CD1"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E9.5"
+      ],
+      "target": {
+        "label": [
+          "ventricular_cm"
+        ],
+        "zone": [
+          "RV"
+        ]
+      },
+      "genes": [
+        "Pln"
+      ],
+      "aggregation": "stage_unpaired_sample_equal",
+      "comparator": {
+        "label": [
+          "ventricular_cm"
+        ],
+        "zone": [
+          "LV"
+        ]
+      }
+    },
+    {
+      "id": "V2-H017_official_LV-CM",
+      "claim": "V2-H017",
+      "datasets": [
+        "OFF_T1_E10.5_RNA"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E10.5"
+      ],
+      "target": {
+        "label": [
+          "AVC-CM"
+        ]
+      },
+      "genes": [
+        "Rspo3"
+      ],
+      "comparator": {
+        "label": [
+          "LV-CM"
+        ]
+      }
+    },
+    {
+      "id": "V2-H017_official_RV-CM",
+      "claim": "V2-H017",
+      "datasets": [
+        "OFF_T1_E10.5_RNA"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E10.5"
+      ],
+      "target": {
+        "label": [
+          "AVC-CM"
+        ]
+      },
+      "genes": [
+        "Rspo3"
+      ],
+      "comparator": {
+        "label": [
+          "RV-CM"
+        ]
+      }
+    },
+    {
+      "id": "V2-H020_official",
+      "claim": "V2-H020",
+      "datasets": [
+        "OFF_T1_E10.5_RNA",
+        "OFF_T2_heart_E10.5"
+      ],
+      "kind": "joint",
+      "stages": [
+        "E10.5"
+      ],
+      "target": {
+        "label": [
+          "Endocardium-1",
+          "Endocardium-2",
+          "Chamber-Endo"
+        ]
+      },
+      "genes": [
+        "Tgfb1",
+        "Cdh5"
+      ],
+      "scope": "partial",
+      "note": "同观测RNA联合检出不等同于原位图像共定位"
+    },
+    {
+      "id": "V2-H021_official",
+      "claim": "V2-H021",
+      "datasets": [
+        "OFF_T2_heart_E9.5"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E9.5"
+      ],
+      "target": {
+        "label": [
+          "V-CM"
+        ]
+      },
+      "genes": [
+        "Hey2",
+        "Pln"
+      ],
+      "comparator": {
+        "label": [
+          "A-CM"
+        ]
+      }
+    },
+    {
+      "id": "V2-H021_qiu",
+      "claim": "V2-H021",
+      "datasets": [
+        "QIU228590"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E9.5"
+      ],
+      "target": {
+        "label": [
+          "Ventricular cardiomyocytes"
+        ]
+      },
+      "genes": [
+        "Hey2",
+        "Pln"
+      ],
+      "comparator": {
+        "label": [
+          "Atrial cardiomyocytes"
+        ]
+      }
+    },
+    {
+      "id": "V2-H021_feng",
+      "claim": "V2-H021",
+      "datasets": [
+        "FENG193346_CD1"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E9.5"
+      ],
+      "target": {
+        "label": [
+          "ventricular_cm"
+        ]
+      },
+      "genes": [
+        "Hey2",
+        "Pln"
+      ],
+      "aggregation": "stage_unpaired_sample_equal",
+      "comparator": {
+        "label": [
+          "atrial_cm"
+        ]
+      }
+    },
+    {
+      "id": "V2-H031_official",
+      "claim": "V2-H031",
+      "datasets": [
+        "OFF_T1_E8.5_RNA",
+        "OFF_T2_heart_E8.5"
+      ],
+      "kind": "joint",
+      "stages": [
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "LV-CM",
+          "RV-CM",
+          "V-CM",
+          "AVC-CM",
+          "OFT/RV-CM",
+          "IFT-CM",
+          "SV-CM"
+        ]
+      },
+      "genes": [
+        "Gata4",
+        "Gata6"
+      ],
+      "scope": "partial",
+      "note": "仅共同检出，不代替6–8体节原位空间重叠"
+    },
+    {
+      "id": "X028_emtab",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "joint",
+      "stages": [
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "NMP"
+        ]
+      },
+      "genes": [
+        "T",
+        "Sox2",
+        "Nkx1-2"
+      ],
+      "scope": "full",
+      "claim": "X028"
+    },
+    {
+      "id": "X029_emtab",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "joint",
+      "stages": [
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Somitic mesoderm"
+        ]
+      },
+      "genes": [
+        "Tcf15",
+        "Meox1"
+      ],
+      "scope": "full",
+      "claim": "X029"
+    },
+    {
+      "id": "X030_emtab",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Pre-somitic"
+        ]
+      },
+      "genes": [
+        "Fgf17",
+        "Tbx6",
+        "Cyp26a1",
+        "T",
+        "Hes7",
+        "Dll3",
+        "Lef1",
+        "Rspo3",
+        "Dkk1"
+      ],
+      "scope": "full",
+      "claim": "X030"
+    },
+    {
+      "id": "X031_emtab",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Mesenchyme",
+          "Allantois",
+          "Paraxial mesoderm",
+          "Pharyngeal mesoderm",
+          "Intermediate mesoderm"
+        ]
+      },
+      "genes": [
+        "Pcolce",
+        "Tdo2",
+        "Plagl1"
+      ],
+      "scope": "full",
+      "claim": "X031"
+    },
+    {
+      "id": "X032_emtab",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Forebrain/Midbrain/Hindbrain",
+          "Midbrain/Hindbrain"
+        ]
+      },
+      "genes": [
+        "Six3",
+        "Lhx2",
+        "Otx2",
+        "Pou3f1"
+      ],
+      "scope": "full",
+      "claim": "X032"
+    },
+    {
+      "id": "X033_emtab",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Cardiomyocytes"
+        ]
+      },
+      "genes": [
+        "Ttn",
+        "Popdc2"
+      ],
+      "scope": "full",
+      "claim": "X033"
+    },
+    {
+      "id": "X034_emtab",
+      "datasets": [
+        "EMTAB6967"
+      ],
+      "kind": "diff",
+      "stages": [
+        "E8.5"
+      ],
+      "target": {
+        "label": [
+          "Gut"
+        ]
+      },
+      "genes": [
+        "Foxa1",
+        "Cldn4"
+      ],
+      "scope": "full",
+      "claim": "X034"
+    }
+  ],
+  "pairs": [
+    {
+      "id": "embryo_EMTAB_primary",
+      "official": [
+        "OFF_T2_embryo_E6.75",
+        "OFF_T2_embryo_E7.25"
+      ],
+      "external": [
+        "EMTAB6967"
+      ],
+      "stages": [
+        "E6.75",
+        "E7.25"
+      ],
+      "official_map": {
+        "Allantois": "Allantois",
+        "Primitive Streak": "Primitive Streak",
+        "Caudal Epiblast": "Caudal epiblast",
+        "EXE-Ectoderm": "ExE ectoderm",
+        "EXE-Endoderm": "ExE endoderm",
+        "Blood Progenitor": "Blood progenitors"
+      },
+      "external_map": {
+        "Allantois": "Allantois",
+        "Primitive Streak": "Primitive Streak",
+        "Caudal epiblast": "Caudal epiblast",
+        "ExE ectoderm": "ExE ectoderm",
+        "ExE endoderm": "ExE endoderm",
+        "Blood progenitors": "Blood progenitors",
+        "Blood progenitors 1": "Blood progenitors",
+        "Blood progenitors 2": "Blood progenitors"
+      },
+      "task": "T2_embryo",
+      "note": "原比较主分析复算；来源取材不同，比例差仅描述；未把差异归因纯技术批次"
+    },
+    {
+      "id": "embryo_EMTAB_E8_weight_sensitivity",
+      "official": [
+        "OFF_T2_embryo_E6.75",
+        "OFF_T2_embryo_E7.25",
+        "OFF_T2_embryo_E8.0"
+      ],
+      "external": [
+        "EMTAB6967"
+      ],
+      "stages": [
+        "E6.75",
+        "E7.25",
+        "E8.0"
+      ],
+      "official_map": {
+        "Allantois": "Allantois",
+        "Primitive Streak": "Primitive Streak",
+        "Caudal Epiblast": "Caudal epiblast",
+        "EXE-Ectoderm": "ExE ectoderm",
+        "EXE-Endoderm": "ExE endoderm",
+        "Blood Progenitor": "Blood progenitors"
+      },
+      "external_map": {
+        "Allantois": "Allantois",
+        "Primitive Streak": "Primitive Streak",
+        "Caudal epiblast": "Caudal epiblast",
+        "ExE ectoderm": "ExE ectoderm",
+        "ExE endoderm": "ExE endoderm",
+        "Blood progenitors": "Blood progenitors",
+        "Blood progenitors 1": "Blood progenitors",
+        "Blood progenitors 2": "Blood progenitors"
+      },
+      "task": "T2_embryo",
+      "note": "E8.0为发布小数权重，单列敏感性，不升级为原始计数主证据"
+    },
+    {
+      "id": "embryo_STEREO_E8",
+      "official": [
+        "OFF_T2_embryo_E8.0"
+      ],
+      "external": [
+        "STEREO_E8_rep1",
+        "STEREO_E8_rep2"
+      ],
+      "stages": [
+        "E8.0"
+      ],
+      "official_map": {
+        "Allantois": "Allantois",
+        "Primitive Streak": "Primitive Streak",
+        "Caudal Epiblast": "Caudal epiblast",
+        "EXE-Ectoderm": "ExE ectoderm",
+        "EXE-Endoderm": "ExE endoderm",
+        "Blood Progenitor": "Blood progenitors"
+      },
+      "external_map": {
+        "Allantois": "Allantois",
+        "Primitive Streak": "Primitive Streak",
+        "Caudal epiblast": "Caudal epiblast",
+        "ExE ectoderm": "ExE ectoderm",
+        "ExE endoderm": "ExE endoderm",
+        "Blood progenitors": "Blood progenitors",
+        "Blood progenitors 1": "Blood progenitors",
+        "Blood progenitors 2": "Blood progenitors"
+      },
+      "task": "T2_embryo",
+      "note": "重建对象与分割细胞不同；仅表达，比例不作同单位比较；官方发布权重"
+    },
+    {
+      "id": "heart_QIU",
+      "official": [
+        "OFF_T2_heart_E8.75",
+        "OFF_T2_heart_E9.5"
+      ],
+      "external": [
+        "QIU228590"
+      ],
+      "stages": [
+        "E8.75",
+        "E9.5"
+      ],
+      "official_map": {
+        "V-CM": "ventricular_CM",
+        "A-CM": "atrial_CM"
+      },
+      "external_map": {
+        "Ventricular cardiomyocytes": "ventricular_CM",
+        "Atrial cardiomyocytes": "atrial_CM"
+      },
+      "task": "T2_heart",
+      "note": "在心室/心房既有注释下比较；未把心场归为成熟心肌；Endo缺独立释义，Chamber-Endo为子集，均未纳入主配对；核与空间细胞不同"
+    },
+    {
+      "id": "T1_QIU_E9",
+      "official": [
+        "OFF_T1_E9.5_RNA"
+      ],
+      "external": [
+        "QIU228590"
+      ],
+      "stages": [
+        "E9.5"
+      ],
+      "official_map": {
+        "V-CM": "ventricular_CM",
+        "Endocardium": "endocardial"
+      },
+      "external_map": {
+        "Ventricular cardiomyocytes": "ventricular_CM",
+        "Endocardial cells": "endocardial"
+      },
+      "task": "T1",
+      "note": "两侧均为核RNA，取材范围不同；官方X逆变换只恢复相对表达质量，非raw counts；a/pSHF操作边界未核实，不并入第二心场主比较"
+    },
+    {
+      "id": "heart_FENG_E9",
+      "official": [
+        "OFF_T2_heart_E9.5"
+      ],
+      "external": [
+        "FENG193346_CD1"
+      ],
+      "stages": [
+        "E9.5"
+      ],
+      "official_map": {
+        "V-CM": "ventricular_CM",
+        "A-CM": "atrial_CM"
+      },
+      "external_map": {
+        "ventricular_cm": "ventricular_CM",
+        "atrial_cm": "atrial_CM"
+      },
+      "task": "T2_heart",
+      "note": "分心腔取材与空间切片不同；各心腔样本等权，不当生物重复；只比较已测群；Chamber-Endo与完整心内膜范围不等，不主配对"
+    },
+    {
+      "id": "T1_FENG_E9",
+      "official": [
+        "OFF_T1_E9.5_RNA"
+      ],
+      "external": [
+        "FENG193346_CD1"
+      ],
+      "stages": [
+        "E9.5"
+      ],
+      "official_map": {
+        "V-CM": "ventricular_CM",
+        "Endocardium": "endocardial",
+        "Blood": "blood"
+      },
+      "external_map": {
+        "ventricular_cm": "ventricular_CM",
+        "endocardial_ec": "endocardial",
+        "blood": "blood"
+      },
+      "task": "T1",
+      "note": "核与细胞，且分心腔取材不同；不推断全胚胎比例"
+    }
+  ],
+  "authority_aliases": {
+    "Sgol2": "Sgo2a"
+  },
+  "alias_evidence": "literature_early/authoritative_gene_aliases.json",
+  "classification": {
+    "diff": "逐sample列出基因差。全部所需差同预期且每组n>=30才观测一致；全部反向才观测相反；不同基因/样本方向冲突为结果混合。只有小组则证据不足。零差不算正向支持。",
+    "joint": "正联合检出只支持同对象共同检出；不能证明蛋白、直接调控或空间关系。没有联合检出不等同生物互斥。",
+    "proportion": "以全部保留对象为分母；没有原文比较容差时仅报告具体差值，不自设相似阈值。",
+    "partial": "仅原命题的一部分可计算时，保存数值，完整先验仍为证据不足或条件不可比。"
+  },
+  "minimum_n": 30,
+  "seed": 20261116,
+  "ridge_alpha": 1,
+  "known_history": "旧34条与早期来源比较已有结果；本轮不称盲测。新增先验和规则在对应新统计前冻结。"
+}

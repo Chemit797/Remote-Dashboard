@@ -219,11 +219,13 @@ tasks=[
  {'id':'T3','name':'T3 · 未知扰动','target':'Ctnnb1 KO','modality':'MERFISH · 表达 + 三维坐标','genes':500,'kind':'perturbation','description':'从正常发育及已知扰动，泛化到E8.75的β-catenin敲除。','train':[8.75,9.5],'validation':[8.75],'test':[8.75],'analysis':['A02','A06','A09','A14'],'next':'匹配WT和扰动身份；正常心脏先验不能代替Ctnnb1响应证据。','weights':[['DES',30],['DCS',25],['PSS',25],['MMD/CSS',20]]}
 ]
 timeline=[['2026-08-10','P1','门户与验证榜开放'],['2026-08-15','P2','Starter kit 与参考基线'],['2026-10-27','P3','隐藏测试榜开放'],['2026-11-25','FINAL','23:59 AoE 最终截止'],['2026-11-26','评估','官方隐藏测试评估'],['2026-12-12','公布','NeurIPS 公布优胜者']]
+readers=json.loads((SITE/'data/original-readers.json').read_text(encoding='utf-8'))
 data={'version':'2026-11-18','title':'26VEM · 虚拟胚胎研究工作台','built_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
  'snapshot_note':'研究结论与文件统计是标明时间的快照；刷新页面不会连接5090。倒计时在浏览器本地更新。',
  'deadline':deadline,'timeline':timeline,'tasks':tasks,'official':official,'external':external,
  'claims':claims,'knowledge_summary':summary,'analyses':analyses,'gene_axes':axis,'pairs':pairs,'metrics':metrics,
- 'audit':audit,'file_counts':file_counts,'plan_html':plan,
+ 'audit':audit,'file_counts':file_counts,'plan_html':plan,'readers':readers,
+ 'file_tree':(SITE/'data/5090-tree.txt').read_text(encoding='utf-8'),
  'remote_root':'/home/biocosmosx/work/virtualembryo_cym','remote_hub':'/home/biocosmosx/work/virtualembryo_cym/team/research_hub',
  'current_official_score':None,'remaining_attempts':None}
 jsfile(SITE/'assets/data.js','VEM_DATA',data)

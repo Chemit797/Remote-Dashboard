@@ -1,0 +1,187 @@
+Rules · Virtual Embryo Challenge
+Virtual Embryo
+P3 is open:
+the test leaderboard is open, P2 standings are frozen, and validation answers are available by explicit opt-in.
+Next: Final submissions due on 2 December 2026.
+Full timeline →
+Virtual Embryo Challenge
+Annual competition
+Overview
+Competition
+Leaderboard
+Timeline
+Prizes
+FAQ
+Submit
+Sections
+Virtual Embryo Challenge™ 2026
+Official Rules
+Participating in the EigenLab Yukon partner category? See the
+partner participation arrangements
+for its team-size exception, collaboration, individual allowances, one-way transfers and exclusion from official prizes. Ordinary-team rules are unchanged.
+1. Agreement
+By registering for or submitting to the Virtual Embryo Challenge (the “Challenge”), you agree to these Official Rules and to the Website Terms of Use, which form part of them. If you do not agree, do not register or submit.
+The Challenge is organised by the Qiu Lab at Stanford University together with its collaborators (the “Organisers”). The Organisers may amend these Rules; material changes are announced on this page and carry a new version, and continued participation after a change constitutes acceptance of it.
+2. Who Is Eligible To Enter
+Each team must designate one captain who is at least 18 years old, or the age of majority in the captain’s jurisdiction if that is higher, at the time of registration. Other team members are not subject to a minimum age requirement under these Rules, provided their participation is permitted by applicable law and by any school, employer, institution, parent or guardian whose permission is required.
+Only people who have made a genuine contribution to the team’s work may be listed as team members. Honorary, courtesy, placeholder and purely administrative membership is not permitted.
+The following may not enter, and entrants may not use their assistance:
+Members of the organising committee, and anyone with access to the held-out evaluation data.
+Employees, interns and students of the organising labs: the Qiu Lab at Stanford, and Professor Neil Chi’s group at UCSD, which generated the datasets.
+People advised formally or informally by members of those labs during or after January 2026.
+Service providers, consultants, vendors and contractors to the Organisers, and their employees.
+Anyone whom applicable law prevents from participating, or to whom the Organisers are legally unable to award a prize. This is a constraint the Organisers are subject to, not a judgement about any country or institution.
+Entry is void where prohibited. You are responsible for confirming that your employer or institution permits your participation.
+3. Participating As An Employee Or University Representative
+At registration you state whether you participate in a personal capacity, as an employee of an organisation, or as a representative of a university.
+A team whose members participate as employees must draw them from a single organisation. A team of university representatives may span more than one university.
+A team may not mix capacities. Some members as employees or representatives and others in a personal capacity.
+Registering in an employee or representative capacity confirms you are authorised to enter on that organisation’s behalf, and “you” in these Rules then also means that organisation.
+Tell us immediately if that authorisation is withdrawn. The Organisers may verify authority directly with the employer or university, and may disqualify you or your team if it is absent.
+4. Your Responsibility To Others
+Your participation must not breach any obligation you owe anyone else, including an employer, a client, or a school.
+You may not use property, know-how, code, information or data that you do not have the right to use for this purpose.
+You may not tamper with the administration of the Challenge, submit entries whose purpose is unrelated to it, collude with other teams in a way that undermines its integrity, or attempt to access another team’s work.
+5. Fees
+There is no entry fee. You are responsible for your own costs, including compute.
+6. Registering
+Registration requires a verified sign-in, your legal name, a contact email, and an affiliation. Affiliation may be “Independent researcher”; it may not be left blank or filled with placeholder text.
+One account per person. One person may belong to only one team. Registering on behalf of an organisation warrants that you are authorised to bind it to these Rules.
+Each member of a team accepts these Rules individually. A captain cannot accept on a teammate’s behalf, and each acceptance is recorded against the version in force at the time.
+7. Teams
+A team may have up to 10 members, including the captain.
+The captain may invite members, remove members, and transfer the captaincy. Removing a member does not remove the submissions they made; those remain the team’s.
+Members may join a team at any time before the final submission deadline.
+Prizes are awarded to the team, and it is the team’s responsibility to divide them.
+Teams form and manage themselves: choosing members, assigning roles, documenting contributions and dividing prizes are all the team’s own. The Organisers do not form teams and are not responsible for disputes about team formation, membership, contribution, authorship or prize-sharing, except so far as administering or enforcing these Rules requires it.
+8. Tracks
+A team enters one of two tracks and competes only within it. The prize pools are separate and equal.
+Human Team: a conventional workflow: people design, train and select the method.
+Agent Team: the method is developed by an autonomous agent. A person may write the starting prompt, but nobody may read intermediate results and steer the agent on the strength of them.
+A captain may change track before the final deadline. Doing so retires every score the team has earned: the entries keep their numbers in the team’s own history but stop counting on every board, and the team starts the new track from nothing. Entries are judged under the rules of the track they were submitted in, and a result cannot follow a team across.
+9. Agent Team Entries
+This section applies only to teams in the Agent Team track. It states what makes an entry an Agent Team entry, and what has to be filed alongside it.
+The distinction the track rests on is autonomy, not tooling, and the boundary is the moment a run starts. That moment is the configuration lock: the prompts, the harness, the model, the tools and permissions available to the agent, and the budget are fixed as the run begins, and from there the run is the agent’s.
+Before the lock, everything is permitted. Write and rewrite the harness, choose and change the model, draft prompts, set budgets, and run the agent as many times as you like. Read those results, decide the prompt was weak, and rewrite it. Human-led development is what the track expects to happen before a lock, and an entry is not disqualified because a person shaped the approach the agent then carried out.
+After the lock, the run is the agent’s own. A person may not read the agent’s intermediate results (scores, diagnostics, partial outputs) and steer the next step on the strength of them, may not change the configuration mid-run, and may not choose among the run’s own intermediate outputs on the agent’s behalf. Within a locked run, the agent evaluates and selects its own final output. An entry produced otherwise is a Human Team entry, whichever track it was submitted in.
+Choosing which completed run to submit is a person’s decision and always has been. You may launch many locked runs and submit whichever you judge best. What the track claims is that the submitted run, from its lock to its prediction, was the agent’s own.
+Two worked examples, because both have been asked. Pausing a locked run to change its configuration ends that run: if a run turns out to lack a tool permission or a capability it needed, fix the configuration and start a new run, which gets a new lock and is a valid entry. Continuing the original run under the new configuration is not, because the change was made in the knowledge of how the run was going. Restarting a run that crashed, configuration unchanged, is the same run and is fine. The test is whether the configuration moved, not whether the process restarted.
+The second: letting an agent make several trial runs, reading the results, identifying weaknesses in the prompt, adding methods or directions, then locking a configuration and letting the agent run end to end is Agent Team work. It becomes a Human Team entry only if the intervention continues past the lock.
+Every Agent Team submission must be accompanied by evidence of the run that produced it. A submission is accepted and held, but is not scored and does not appear on any board, until at least two distinct kinds of evidence have been uploaded against it, one of which must be the trajectory. It scores automatically once they land. Entries scored before this requirement took effect are unaffected; what a nominated entry has to show is governed by section 14.
+Every Agent Team submission must also state what ran the agent and on which model: the framework, whether that is a published one or your own, and the model string you actually ran. Both are free text and neither is judged. They are asked because the information otherwise exists only inside the trajectories, in a different shape for every team, and the Challenge report should be able to say which frameworks and models competed and how they did.
+The kinds are: the trajectory (what the agent tried, what it observed, what it did next), the prompts (every prompt given to the agent, including the initial one), the harness (the code that ran the agent. Orchestration, tools, evaluation loop), and other material needed to follow the run end to end. Any two distinct kinds satisfy the minimum; more is better and none is a substitute for another.
+Evidence is capped at 200 MiB per file and 2 GiB in total per submission, not per team. Evidence attached to other submissions, including P2 entries, does not reduce a new submission’s allowance. Trajectories compress well; a trace that does not fit is a trace that should be filed in full and summarised, not truncated silently.
+Evidence must correspond to the run that produced the submitted file. Evidence from a different run, edited to fit, or reconstructed after the fact is a misrepresentation and is treated under Conduct and Disqualification.
+Predictions must be written by the agent. A file the agent produced and a person then edited (by hand, by script, or by substituting a better result from elsewhere) is not an Agent Team entry.
+A final entry nominated for prizes must carry its evidence. An Agent Team entry without it may hold a leaderboard position but is not eligible for a prize, and the Organisers are not obliged to ask for the missing files before the deadline.
+The Organisers may audit any Agent Team entry: read the evidence, ask questions about the run, and ask for the harness to be run again on request. Refusing an audit, or an audit that cannot reconcile the evidence with the submission, is grounds for disqualification.
+Evidence is held privately and used to verify eligibility and to report aggregate findings about how agents performed. It is not published, and it is not shared with other participants. Ownership, Licence and Publication governs anything the Organisers do publish.
+If you are unsure whether a particular kind of human involvement crosses the line, ask before submitting rather than after. The Organisers would rather answer the question than adjudicate it.
+10. Data and What You May Use
+Competition data is released under the Terms of Use, clause 14, and is provided for research and educational purposes.
+Training stages are released at registration. Before P3, validation answers are withheld. Hidden test ground truth is never distributed.
+During P3, eligible participants can explicitly request the P2 validation answers for model development. Receiving access or submitting a first final P3 entry permanently stops further P2 submissions: for the entire ordinary team, or the individual Yukon member. Access does not consume a P3 attempt. The live Validation leaderboard remains separate from the immutable Frozen P2 standings captured at the P3 opening cutoff. Hidden test ground truth is never distributed.
+The official P2 validation files supplied through this opt-in are a specific exception to the held-out-data restrictions below, solely for preparing P3 predictions after access is granted. This exception does not permit hidden test data, additional external data from protected stages or genotypes, or redistribution outside the applicable data terms. Merely opening the data page does not grant access or end P2 eligibility.
+External public data, pre-trained models and published code may be used, provided their licences permit it and their use is described in the method summary. For Task 1 this is expressly encouraged.
+Every external source must be disclosed with the submission. An undisclosed source is a rules violation whether or not it changed the result, because the disclosure is what makes the previous condition checkable.
+No measured data from a held-out stage or genotype may be used, by any route: not directly, not through a model pre-trained on it, and not through a public dataset that contains it. The only exception is the official P2 validation release obtained through the P3 opt-in described above.
+The held-out stages and genotypes are: E10.5 and E12.5 for Task 1; E7.5 and E7.75 in the embryo setting and E8.5, E10.5 and E12.5 in the heart setting for Task 2; and the Gata4 and β-catenin knockouts at E8.75 for Task 3. Everything else is fair game, and for Task 1 external data is expressly encouraged.
+Nearness counts, and the stage label is not the test. External data is treated as a held-out stage when it sits closer to that stage than to the nearest stage we released for the same task: the midpoint between them is the boundary. Holding out E9.5 and training on an external E9.45 embryo is using the answer under a different name; so is a dataset labelled with a somite count or a Theiler stage that lands in the same window. Where a held-out stage lies beyond the last released one, as the extrapolation targets do, everything from the midpoint onwards is treated as held out.
+For the extrapolation targets the window is stated outright rather than derived, and it relaxes the midpoint rule above rather than following it: without it, everything from E10.0 onwards would be held out and no later development could be used at all. External data is excluded from after E9.5 up to and including E13.5. External data at E10.5 and E12.5 remains prohibited. The official E10.5 validation files may be used only after the P3 opt-in described above; E12.5 test ground truth remains prohibited. Anything after E13.5 may be used, provided the source and its stages are stated explicitly with the submission.
+The two ends are treated differently, and the reason is which of them we publish. External data measured at exactly E9.5 is permitted: E9.5 is a released training stage, and data at a stage everyone already holds tells nobody anything they were not given. External data measured at exactly E13.5 is not permitted: E13.5 is the far edge of the protected window rather than the first point outside it, and it sits one day from the test target.
+For interpolation targets, external data too close to a held-out stage is also treated as held out. The boundary is the released stage on either side of it: external data may not be used if it stages strictly between the two released stages that bracket a held-out one. In Task 2 that means heart data strictly between E8.25 and E8.75, and embryo data strictly between E7.25 and E8.0. The bracketing stages themselves are permitted — they are released training stages, and data at a stage everyone already holds tells nobody anything they were not given. Fractional stagings do arise in external data, from somite counts and Theiler stages, and they are placed on this scale and judged by the same boundary; the boundary itself stays on the stages we published.
+This restatement corrects the previous wording rather than tightening it, and it applies to submissions made from 26 August 2026. The embryo interval is wider than the text it replaces. Nothing already submitted is reopened.
+The same applies to genotype. Data from the held-out knockouts, from another allele of the same gene at a comparable stage, or from a perturbation that phenocopies them, is treated as the held-out condition.
+A general-purpose resource that happens to span a held-out stage is not banned outright: the cells inside the window must be removed before training, and the removal described in the method summary. Using the resource with them left in is using the held-out data.
+If a source sits near the boundary and you are unsure, ask before submitting. The Organisers will answer, and an answer given in advance is not a finding of misconduct afterwards.
+Attempting to recover held-out labels, probe the evaluation infrastructure, or otherwise circumvent fair evaluation is prohibited and is grounds for disqualification.
+Returned scores may be used to choose among predictions, not to compute them. Using score returns to solve for a property of a held-out target, by inverting the published skill map, by differencing scores across submissions, or by any similar construction, and then building a submission from the recovered value, is recovering held-out data by another route and is prohibited. The test is whether the truth enters your prediction’s content or only its selection. Trying a parameter value, seeing how it scores, and trying another is ordinary leaderboard work and remains permitted however many rounds it takes; what is prohibited is solving for a property of the target and building a submission out of the solution.
+11. Leaderboard Entries and Final Entries
+Each task is scored on its own boards, and a submission names the board it answers. P1 and P2 limits are per team, per task, per UTC day; P3 limits are per test board for the entire phase. The published partner arrangements specify the individual Yukon allowances.
+P1 · Development. 20 scored submissions per day.
+P2 · Baselines released. 8 scored submissions per day.
+P3 · Final test phase. 2 official submissions per board, for the whole phase rather than per day. Each is scored and published when it is made, and cannot be withdrawn; the board ranks a team by its best, so a second attempt improves on the first or does not.
+P3 opens on 27 October 2026 at 09:00 America/Los_Angeles (16:00 UTC). The default leaderboard becomes Test (P3). Live Validation (P2) remains available, and a separate Frozen P2 board preserves the standings from the opening cutoff.
+Only P2 submissions already scored before 09:00 at that cutoff enter Frozen P2. A submission uploaded before the cutoff but scored afterward enters only the live Validation board. Later scores or team changes do not revise the frozen snapshot.
+Participants may continue submitting to live Validation during P3 under the P2 allowances until they explicitly obtain validation-data access or their first P3 submission is accepted, whichever happens first. Either action permanently ends P2 submissions across all tasks for the entire ordinary team or, in Yukon, the individual member. Obtaining access commits this choice even if no file is downloaded and consumes no P3 submission attempt. Merely viewing the data page or running a format check does not commit this choice.
+Format checks are unlimited in every phase and spend nothing. They report whether a file is well formed (cell count, genes, coordinates, missing values, structure) and nothing about how it would score.
+A rejected submission does not consume a scored attempt, but every upload counts toward a separate daily upload limit, which exists to bound storage rather than to limit scoring.
+A single prediction file may not exceed 1200 MB.
+Agent Team submissions are held until at least two kinds of evidence are attached (trajectory, prompts, or harness) and only then enter the scoring queue.
+12. Service Availability
+The submission portal, the scoring service and the leaderboard are operated by the Organisers on their own infrastructure. They are provided as they are. We do not guarantee uninterrupted availability, and an outage, a scoring backlog, a failed upload or a lost queue position may happen at any time, including close to a deadline.
+What we undertake instead: we will say so publicly when the service is degraded, and where an interruption has cost a team submissions or attempts we may extend a deadline for everyone, credit the affected team with additional attempts, or rescore an entry. These are remedies at the Organisers’ discretion, applied so that no team is worse off for a fault of ours, and they are the only remedies available. The Organisers are not liable for a missed submission, a lost prize opportunity, or any other loss arising from the service being unavailable.
+Keep your own copy of everything you submit. A prediction that exists only on our disk is one you cannot send again.
+Do not leave a final submission to the last hour of a deadline. The remedy for an outage is discretionary; the deadline is not.
+13. Evaluation and Ranking
+Every submission is scored by the same published metric panel, on a scale where the floor model sits at 50 and the attainable ceiling at 100.
+A team’s position on a board is its best score on that board. The overall standing scores each task as the mean across its boards, and sums the three, so a board never attempted counts as zero.
+Ranking is within a team’s own track, so each track has its own first, second and third place.
+Final rankings are determined by the hidden test sets, not by the development leaderboard.
+The Organisers’ scoring is final, save for demonstrable error in the evaluation itself.
+14. Finalists, Winners and Prizes
+Prizes are awarded per track: one first prize, two second prizes and three third prizes in each, together with a single Generality Award across both tracks for the best method answering more than one task. Winners are announced at NeurIPS on 11 December 2026.
+Winning teams may be asked for documentation or code sufficient to reproduce the submitted result before a prize is paid. A result that cannot be reproduced is not eligible.
+Agent Team prizes additionally require evidence that the work was the agent’s: the trajectory, the prompts, and the harness. What cannot be verified is not eligible for a prize. It still scores and still ranks.
+A team is eligible for a prize only if its final standing exceeds the standing a floor entry would achieve on the same boards. The floor is published on every board and scores 50 there by construction, so a team entering all three tasks must total more than 150. An entry that does not beat the floor has not demonstrated a method, and the Organisers would rather award fewer prizes than award one for that.
+Places are awarded only where there are eligible entries to fill them. Where fewer than six entries in a track are eligible, the places are filled in order and the rest are not awarded. There is no third place among two.
+Prize money not awarded under the two conditions above is added to the Community Contribution Award pool. It does not transfer to the other track: the tracks are judged separately, and neither should gain from thin participation in the other.
+These two conditions apply identically to the Human Team and the Agent Team tracks.
+A separate Generality Award recognises a single method that answers more than one task. The overall standing is the sum of three task scores, so a set of unrelated per-task models is favoured by the arithmetic; this award exists because we would rather pay for the alternative than compel it. Entering with a different model per task remains entirely legitimate and costs a team nothing.
+A team is eligible if it enters at least two tasks and answers them with one shared architecture. The same model architecture must underlie every task it enters. Training it separately per task is allowed, and so are task-specific input and prediction heads, which is what the differing gene counts and the presence or absence of coordinates require. What does not qualify is an unrelated model per task. The floor condition above applies to this award as it does to the others.
+It is judged on the method summary rather than on the scores alone. A team that wants to be considered says so in its summary and describes the shared architecture there: what is common across the tasks it entered, what differs, and where the boundary between them falls. Among eligible entries the award follows final standing. As with any prize, the Organisers may ask to see code privately to confirm that the description holds.
+There is one Generality Award in the Challenge, not one per track: it is awarded once, to a Human Team or an Agent Team, whichever entry is the strongest on this measure. This is the only prize the two tracks compete for together, and it is the sole exception to the separation of the tracks stated above. It is worth $8,000, the same as a first prize, and is held in addition to any placed prize rather than instead of one. If no entry qualifies, the money is added to the Community Contribution Award pool.
+Prize recipients are responsible for taxes and for providing the information needed to make payment.
+15. Ownership, Licence and Publication
+You keep ownership of your method, your code and your models.
+You grant the Organisers a non-exclusive, royalty-free licence to evaluate your submissions, publish their scores, and describe your method in reports about the Challenge.
+The Organisers may publish aggregate results, leaderboards and technical summaries, respecting the intellectual property position above.
+Winning teams are invited to contribute to a joint report on the Challenge.
+Describing the method is a condition of receiving a prize, not an expectation. A winning team must, within 14 days of being notified, provide a written report of how their method works: the approach, the design decisions that mattered, what was trained on what, and enough detail that a competent reader understands why it performs as it does. The report is published alongside the results. A team that needs longer because of a patent or a paper in preparation may ask in writing, and the Organisers may agree a later date.
+Publishing code is not required. The Organisers may ask to see code, or ask for a run to be repeated, where something in a report cannot be checked any other way. Anything supplied for that purpose is held privately, is used only to verify the result, and is not published. A team that refuses a verification request without good reason is not eligible for a prize, and the Organisers may award it to the next eligible team.
+This applies to both tracks. For Agent Team entries it is in addition to the evidence already required at submission, not instead of it.
+None of this transfers ownership. The team keeps its method, its code and its models. What it grants is a description that others can learn from, so that the result means something to everyone who reads it.
+16. Conduct and Disqualification
+The Organisers may disqualify an entrant or a team, remove submissions, or withhold a prize, for:
+multiple accounts, or membership of more than one team;
+use of held-out data, or any attempt to recover it;
+misrepresenting how a submission was produced, including a Human Team entry presented as an Agent Team one or the reverse;
+interference with the evaluation service or with other entrants;
+or any other breach of these Rules or of the Terms of Use.
+Where a breach is found after a prize is announced, the Organisers may reassign it.
+17. Schedule
+The schedule is published on the timeline page and forms part of these Rules. Final submissions are due 2 December 2026, official evaluation begins 4 December 2026, and results are announced at NeurIPS.
+The Organisers may extend a deadline; a deadline is never brought forward without notice.
+18. Compliance, Liability and Governing Law
+The Challenge is provided as described in the Terms of Use, including its disclaimers and limitation of liability. These Rules are governed by the laws of the State of California, without regard to conflict-of-law principles.
+Questions about these Rules:
+[email protected]
+. See also the
+Terms of Use
+, accepted separately at registration.
+Virtual Embryo Challenge
+Join us in modelling how a single cell becomes an organism.
+Overview
+Tasks
+Data
+Evaluation
+Reference rows
+Community resources
+Leaderboard
+Timeline
+Prizes
+Community award
+Publish with us
+FAQ
+Submit
+Contact
+Back to the atlas
+Challenge Rules
+Terms of Use
+Privacy Policy
+© 2026 Qiu Lab, Stanford University. All rights reserved. Virtual Embryo Challenge is a NeurIPS 2026 competition.
+Rules
+|
+Terms
+|
+Privacy

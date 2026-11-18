@@ -1,0 +1,6135 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "complete_row_count",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:FENG193346_CD1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:MOSTA_E9.5_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:OMIX014646_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:OMIX014646_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:QIU228590_8p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:QIU228590_8p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:QIU228590_8p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:QIU228590_8p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:QIU228590_8p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:QIU228590_8p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:QIU228590_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep1_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep1_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep1_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep1_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep1_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep1_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep2_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep2_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep2_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep2_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep2_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:STEREO_E8_rep2_8p0_as_T1",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-001_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED-003_canonical_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-004_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-006_canonical_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-006_canonical_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-006_canonical_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-006_canonical_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-006_canonical_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-006_canonical_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-006_canonical_9p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-006_canonical_9p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-006_canonical_9p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-006_canonical_9p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-006_canonical_9p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-006_canonical_9p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED-010_canonical_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED002_T1_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED002_T1_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED002_T1_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED002_T1_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED002_T1_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED002_T1_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED021_T1_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED021_T1_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED021_T1_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED021_T1_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED021_T1_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E8.5_RNA_8p5:VED021_T1_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E9.5_RNA_9p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T1_E10.5_RNA_10p5:VED021_T1_9p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:EMTAB6967_6p75",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:EMTAB6967_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:EMTAB6967_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:OMIX014646_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:OMIX014646_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:OMIX014646_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:OMIX014646_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:OMIX014646_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:OMIX014646_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep1_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:STEREO_E8_rep2_8p0",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-004_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-004_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-004_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-004_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-004_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-004_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-006_canonical_8p25_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-006_canonical_8p25_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-006_canonical_8p25_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-006_canonical_8p25_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-006_canonical_8p25_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-006_canonical_8p25_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-010_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-010_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-010_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-010_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-010_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED-010_canonical_8p5_as_T2",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E6.75_6p75:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.25_7p25:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E7.5_7p5:VED002_allowed_7p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED002_allowed_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED002_allowed_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED002_allowed_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED002_allowed_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED002_allowed_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED002_allowed_8p25",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED021_T2_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED021_T2_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED021_T2_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED021_T2_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED021_T2_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "measured_gene_subset:OFF_T2_embryo_E8.0_8p0:VED021_T2_8p5",
+      "passed": true
+    },
+    {
+      "name": "no_protected_external_stage",
+      "passed": true
+    },
+    {
+      "name": "score_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:STEREO_E8_rep2_8p0_as_T1_counts:STEREO_E8.0_rep2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:EMTAB6967_6p75_counts:EMTAB_pool_7",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OFF_T2_embryo_E8.0_8p0_counts:OFF_T2_embryo_E8.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OFF_T2_embryo_E7.5_7p5_counts:OFF_T2_embryo_E7.5",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-006_canonical_8p25_as_T2_counts:GSM3592147",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-006_canonical_8p25_as_T2_counts:GSM3592148",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:MOSTA_E9.5_9p5_counts:MOSTA_E9.5",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:STEREO_E8_rep2_8p0_counts:STEREO_E8.0_rep2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_9p5_counts:GSM5915057",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_9p5_counts:GSM5915058",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_9p5_counts:GSM5915059",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_9p5_counts:GSM5915060",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_9p5_counts:GSM5915061",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_9p5_counts:GSM5915062",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test1-01",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test1-03",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test1-05",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test1-06",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test1-08",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test1-09",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test2-1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test2-2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test2-3",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test2-6",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test2-7",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_counts:E8.5_test2-8",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:STEREO_E8_rep1_8p0_as_T1_counts:STEREO_E8.0_rep1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_as_T2_counts:E8.5_20191126-1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_as_T2_counts:E8.5_20191126-2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_as_T2_counts:E8.5_20191126-3",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_as_T2_counts:E8.5_20191126-4",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_as_T2_counts:E8.5_20200425-1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_as_T2_counts:E8.5_20200425-2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OFF_T1_E9.5_RNA_9p5_counts:OFF_T1_E9.5_RNA",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OFF_T2_embryo_E6.75_6p75_counts:OFF_T2_embryo_E6.75",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED002_allowed_7p25_counts:pool_E7.25",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:EMTAB6967_7p25_counts:EMTAB_pool_23",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:EMTAB6967_7p25_counts:EMTAB_pool_26",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:EMTAB6967_7p25_counts:EMTAB_pool_27",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OFF_T1_E8.5_RNA_8p5_counts:OFF_T1_E8.5_RNA",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915040",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915041",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915042",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915043",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915044",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915045",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915046",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915047",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915048",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915049",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915050",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915051",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915052",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915053",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915054",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915055",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T2_8p5_counts:GSM5915056",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:FENG193346_CD1_9p5_counts:CD1_E9.5_LA",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:FENG193346_CD1_9p5_counts:CD1_E9.5_LV",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:FENG193346_CD1_9p5_counts:CD1_E9.5_RA",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:FENG193346_CD1_9p5_counts:CD1_E9.5_RV",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-006_canonical_9p25_counts:GSM3592149",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-006_canonical_9p25_counts:GSM3592150",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:STEREO_E8_rep1_8p0_counts:STEREO_E8.0_rep1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:QIU228590_9p5_counts:embryo_22",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:QIU228590_9p5_counts:embryo_23",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:QIU228590_9p5_counts:embryo_24",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED002_T1_8p25_counts:pool_E8.25",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo1.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo19.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo20.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo21.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo22.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo3.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo39.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo40.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo41.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo42.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo55.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo56.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo57.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo58.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-003_canonical_9p5_counts:embryo63.0",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:EMTAB6967_8p0_counts:EMTAB_pool_16",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:EMTAB6967_8p0_counts:EMTAB_pool_33",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:EMTAB6967_8p0_counts:EMTAB_pool_34",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:EMTAB6967_8p0_counts:EMTAB_pool_35",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-006_canonical_8p25_counts:GSM3592147",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-006_canonical_8p25_counts:GSM3592148",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:QIU228590_8p75_counts:embryo_13",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:QIU228590_8p75_counts:embryo_14",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OFF_T1_E10.5_RNA_10p5_counts:OFF_T1_E10.5_RNA",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-010_canonical_8p5_as_T2_counts:GSM7226269_E8_5_2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-001_canonical_8p5_counts:sample17",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-001_canonical_8p5_counts:sample29",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-001_canonical_8p5_counts:sample36",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-001_canonical_8p5_counts:sample37",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_9p5_counts:E9.5_20191218-1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_9p5_counts:E9.5_20191218-2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_9p5_counts:E9.5_20191218-3",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_9p5_counts:E9.5_20191218-4",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OFF_T2_embryo_E7.25_7p25_counts:OFF_T2_embryo_E7.25",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED002_allowed_8p25_counts:pool_E8.25",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test1-01",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test1-03",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test1-05",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test1-06",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test1-08",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test1-09",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test2-1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test2-2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test2-3",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test2-6",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test2-7",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-004_canonical_8p5_as_T2_counts:E8.5_test2-8",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_counts:E8.5_20191126-1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_counts:E8.5_20191126-2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_counts:E8.5_20191126-3",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_counts:E8.5_20191126-4",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_counts:E8.5_20200425-1",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:OMIX014646_8p5_counts:E8.5_20200425-2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915040",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915041",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915042",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915043",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915044",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915045",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915046",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915047",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915048",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915049",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915050",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915051",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915052",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915053",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915054",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915055",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED021_T1_8p5_counts:GSM5915056",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "count_reconstruction:VED-010_canonical_8p5_counts:GSM7226269_E8_5_2",
+      "passed": true
+    },
+    {
+      "name": "fractions_sum_to_one",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "ceiling_is_disjoint",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "unique_capped_rows",
+      "passed": true
+    },
+    {
+      "name": "public_equivalence_covers_ref_cases",
+      "passed": true
+    },
+    {
+      "name": "SDD_independent_CDF_integral",
+      "passed": true,
+      "public": 0.039706810761180336,
+      "independent": 0.03970681076118025
+    },
+    {
+      "name": "ODS_independent_eigen_and_set",
+      "passed": true,
+      "public": 0.7494145199063232,
+      "independent": 0.7494145199063232
+    },
+    {
+      "name": "TSR_unavailable",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_members_independent",
+      "passed": true
+    },
+    {
+      "name": "NFS_neighbor_check_has_examples",
+      "passed": true,
+      "checked": 25,
+      "tied_boundaries": 0
+    },
+    {
+      "name": "full_gene_mean_independent_sample_sum",
+      "passed": true,
+      "gene": "Actg1",
+      "difference": -2.1580551923250368e-07
+    },
+    {
+      "name": "full_gene_detection_independent",
+      "passed": true,
+      "gene": "Actg1"
+    }
+  ],
+  "n_checks": 1530
+}

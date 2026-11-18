@@ -1,0 +1,3551 @@
+{
+  "passed": true,
+  "checks": 709,
+  "items": [
+    {
+      "name": "P006 disjoint score types surface",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P006 official weight surface",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P006 disjoint score types endothelium",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P006 official weight endothelium",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P006 disjoint score types paraxial",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P006 official weight paraxial",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P006 disjoint score types neural_crest",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P006 official weight neural_crest",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P006 independent weighted sum",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P007 disjoint score types endothelium",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P007 official weight endothelium",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P007 disjoint score types paraxial",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P007 official weight paraxial",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P007 disjoint score types neural_crest",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P007 official weight neural_crest",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P007 independent weighted sum",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P009 disjoint score types endocardium",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P009 official weight endocardium",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P009 independent weighted sum",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P012 disjoint score types ventricular",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P012 official weight ventricular",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P012 disjoint score types endocardium",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P012 official weight endocardium",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P012 disjoint score types blood",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P012 official weight blood",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "P012 independent weighted sum",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E8.5_RNA independent equal-sample detection",
+      "passed": true,
+      "error": 6.140838226809109e-09
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E9.5_RNA independent equal-sample detection",
+      "passed": true,
+      "error": 1.8551971958657987e-08
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OFF_T1_E10.5_RNA independent equal-sample detection",
+      "passed": true,
+      "error": 1.4341001663975561e-08
+    },
+    {
+      "name": "EMTAB_FULL input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EMTAB_FULL input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EMTAB_FULL input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EMTAB_FULL input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EMTAB_FULL valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EMTAB_FULL stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EMTAB_FULL unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EMTAB_FULL binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "EMTAB_FULL independent equal-sample detection",
+      "passed": true,
+      "error": 2.2276743505411645e-08
+    },
+    {
+      "name": "B01_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B01_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME4_E85 independent equal-sample detection",
+      "passed": true,
+      "error": 4.234450001749934e-08
+    },
+    {
+      "name": "B02_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B02_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "TOME3_E95 independent equal-sample detection",
+      "passed": true,
+      "error": 2.7957118217680765e-09
+    },
+    {
+      "name": "B03_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B03_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "QIU228590 independent equal-sample detection",
+      "passed": true,
+      "error": 6.144975459032587e-09
+    },
+    {
+      "name": "B04_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B04_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "FENG193346_CD1 independent equal-sample detection",
+      "passed": true,
+      "error": 3.333871423372159e-08
+    },
+    {
+      "name": "B05_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B05_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT independent equal-sample detection",
+      "passed": true,
+      "error": 2.986318459186066e-08
+    },
+    {
+      "name": "B06_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B06_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "DESOYSA_WT independent equal-sample detection",
+      "passed": true,
+      "error": 3.577656582098854e-08
+    },
+    {
+      "name": "B07_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B07_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "MOSTA_E9.5 independent equal-sample detection",
+      "passed": true,
+      "error": 3.563321152033616e-09
+    },
+    {
+      "name": "B08_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B08_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "HEART230531_E85 independent equal-sample detection",
+      "passed": true,
+      "error": 2.864095438592784e-08
+    },
+    {
+      "name": "B09_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B09_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 input hash mass.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 input hash obs.csv",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 input hash info.json",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 input hash row_stats.npz",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 valid nonnegative data",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 stage retained",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 unique genes",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 binary probability bounds",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OSR1_E95 independent equal-sample detection",
+      "passed": true,
+      "error": 2.2365732266216298e-08
+    },
+    {
+      "name": "B10_E8.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E8.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E9.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 independent J01 total variation identity",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 official density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 external density two ways",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 empirical MMD nonnegative 2026111601",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111601 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111601 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 independent dense row-pattern error",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 empirical MMD nonnegative 2026111602",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111602 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111602 256",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Jaccard kernel range",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 empirical MMD nonnegative 2026111603",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111603 0",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "B10_E10.5 binary kernel sets 2026111603 256",
+      "passed": true,
+      "error": null
+    }
+  ]
+}

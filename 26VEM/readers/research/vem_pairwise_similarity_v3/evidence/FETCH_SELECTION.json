@@ -1,0 +1,433 @@
+{
+  "selected": [
+    {
+      "path": "INDEPENDENT_VERIFICATION.json",
+      "bytes": 53202,
+      "sha256": "03fc6dbfadab57d6e52f84352b10b998073c3e4364df0778f4aeaea3d9fbc7db"
+    },
+    {
+      "path": "P001_genes.csv.gz",
+      "bytes": 78421,
+      "sha256": "57a305552bbaa353a8f6d1e9d03bd9d8b746f6f30931f6f05721f8d48f5ee0eb"
+    },
+    {
+      "path": "P001_panel.json",
+      "bytes": 427080,
+      "sha256": "37149834c975549f1b54ba830cfb09cda06955b56b05c84b5b3194b58cbe1fbc"
+    },
+    {
+      "path": "P001_result.json",
+      "bytes": 50376,
+      "sha256": "d9abf7cbbb4dbdc0961b8cb491731cb9e0250a0cc8fcdcdf5f1ac8be4a02ddf0"
+    },
+    {
+      "path": "P002_genes.csv.gz",
+      "bytes": 130117,
+      "sha256": "05fcbb290dd3b2fd6e1f608b151de7804b7c07005c3d9f7ced08d2e3202fc91f"
+    },
+    {
+      "path": "P002_panel.json",
+      "bytes": 427080,
+      "sha256": "b8d9774c37c079aa574c5516128ee665784c3c02c6911be21706b46e1873f63a"
+    },
+    {
+      "path": "P002_result.json",
+      "bytes": 72522,
+      "sha256": "b57f9b5278bcfa85a3266647f8c0f8d1855bfd3cc0db1a566ae9420668d96a89"
+    },
+    {
+      "path": "P003_genes.csv.gz",
+      "bytes": 118730,
+      "sha256": "fab7a20428ca931687deed49f89e506cba5e9b9afe87e765b1df303b7fe96304"
+    },
+    {
+      "path": "P003_panel.json",
+      "bytes": 427067,
+      "sha256": "eb24b927876f49b5886c100bef0ded4d50bf5e7cba2e9a73a83f9c9d6d5cb40e"
+    },
+    {
+      "path": "P003_result.json",
+      "bytes": 53594,
+      "sha256": "30ada2a235078bfb3676ea36bd9d6e1d572a9f77209972280de158ae675e6bd3"
+    },
+    {
+      "path": "P004_genes.csv.gz",
+      "bytes": 96530,
+      "sha256": "ca1ef604f607a51075cec1b1f6d4f07631c59a3d3b84277987ac301bf530f35d"
+    },
+    {
+      "path": "P004_panel.json",
+      "bytes": 230873,
+      "sha256": "cc65423c4b3ca6849e74cfc772cef5bdd9f1b11889efebdcecd725497cfc75ad"
+    },
+    {
+      "path": "P004_result.json",
+      "bytes": 48925,
+      "sha256": "f5d2a0b2dece90c9b046560d2453b4271e3ac90697f6783d1989e5329c180ad9"
+    },
+    {
+      "path": "P005_genes.csv.gz",
+      "bytes": 103270,
+      "sha256": "71070bef389b2d735b66ee1e5dc540aa33cb620e54224eb6f89d466496e66898"
+    },
+    {
+      "path": "P005_panel.json",
+      "bytes": 266538,
+      "sha256": "7ea908106e11a695470c38bba1d25b0f9f4c3b25812639dd9f75452e3d37a78a"
+    },
+    {
+      "path": "P005_result.json",
+      "bytes": 51214,
+      "sha256": "4971595a5f0a32bd345a6d3ee3ca10b00228c937c594e427ad140954c0b05900"
+    },
+    {
+      "path": "P006_panel.json",
+      "bytes": 514113,
+      "sha256": "713a7ee7ba61a65930ff511e39e1ee3494a273e88ac1255013f4d3fa669f32bc"
+    },
+    {
+      "path": "P006_result.json",
+      "bytes": 92975,
+      "sha256": "c90c8348cc5d26eb22fe907235da168d836d2ade77c2e587f50c5fafe3d0ca01"
+    },
+    {
+      "path": "P007_panel.json",
+      "bytes": 799380,
+      "sha256": "df13372da8462ae44e6fe0e1c9ea83e69afe575a1d124490d8e32f247b2e2d83"
+    },
+    {
+      "path": "P007_result.json",
+      "bytes": 81699,
+      "sha256": "c95de286a7d8062d1baf3a851ca3d115bcba1a25859b1e4e373f7863765f4d61"
+    },
+    {
+      "path": "P008_genes.csv.gz",
+      "bytes": 3297163,
+      "sha256": "de06e431c97aad850d6eb915d4d21373583a0a68809eec2843a39c131ea20fcb"
+    },
+    {
+      "path": "P008_panel.json",
+      "bytes": 552971,
+      "sha256": "4b10676dc2c04b11e7f7db3ca40c8f7b2c928ccab081ffde195db4b5fb4de9c0"
+    },
+    {
+      "path": "P008_result.json",
+      "bytes": 49276,
+      "sha256": "8d9c9b1e0a8fc6a69501b4d2c902a4cd195bd8eecc6c2c3ebb4bce5ddc6effe6"
+    },
+    {
+      "path": "P009_genes.csv.gz",
+      "bytes": 3654451,
+      "sha256": "d25d197faa62de1e798feb8ea79cf5ed76883aad451a7bce408496d535061bc5"
+    },
+    {
+      "path": "P009_panel.json",
+      "bytes": 745410,
+      "sha256": "c34efa8c838cbac4e19ac65071490495c7a66b4fb1c5767be7e34b1f96595921"
+    },
+    {
+      "path": "P009_result.json",
+      "bytes": 47223,
+      "sha256": "40d4dc22378acd8f287bddf789f9b1072eb5f9e140000ea7a49c2078f8560267"
+    },
+    {
+      "path": "P010_genes.csv.gz",
+      "bytes": 33535,
+      "sha256": "b6ec49d8bfc25a7609506b831d79943971281e9b2d09d92a44e333e370b9f95d"
+    },
+    {
+      "path": "P010_panel.json",
+      "bytes": 676056,
+      "sha256": "2983328569bb8ed24ab637b82b395d94e95f3f7ba8cec099da03392c97e10908"
+    },
+    {
+      "path": "P010_result.json",
+      "bytes": 16172,
+      "sha256": "73b5761ffb29e0488c65fea8b2fb699e3356b03a161c3fd45a386f9132c92fb5"
+    },
+    {
+      "path": "P011_genes.csv.gz",
+      "bytes": 66588,
+      "sha256": "76b2931327eb6494cb2acef6aa5668c9641fd53277d1ff7ce6a4d46d70f190b5"
+    },
+    {
+      "path": "P011_panel.json",
+      "bytes": 676056,
+      "sha256": "c134eaddb49d91618969d671baf9bac3bf188aede3a85093774f6c6d976626ae"
+    },
+    {
+      "path": "P011_result.json",
+      "bytes": 27227,
+      "sha256": "ddaa5b6c89dac60546d7cbf42cb61e332dff8d1d0aa39caec480559e7746d6e9"
+    },
+    {
+      "path": "P012_genes.csv.gz",
+      "bytes": 4314481,
+      "sha256": "861dbdcf8962047ece506fa02a9c9a8c1bfa006d9c8535fefa05f2ef42f12a38"
+    },
+    {
+      "path": "P012_panel.json",
+      "bytes": 492763,
+      "sha256": "7fbcaa360bd2d29ab55d49ce9d16afcfcb6648a1640e17cb7507fd7391d9ccb5"
+    },
+    {
+      "path": "P012_result.json",
+      "bytes": 60449,
+      "sha256": "5b2c8188c02a897eadc85ac0549d79128d4c6249d2a8fdb1ba3da903ef307120"
+    },
+    {
+      "path": "P013_genes.csv.gz",
+      "bytes": 111734,
+      "sha256": "76f3509444bf2d662314ea7f7e8542da5e7d55a266107139e228fcd03c81e1a8"
+    },
+    {
+      "path": "P013_panel.json",
+      "bytes": 451372,
+      "sha256": "2c8563f1f281065ca03eafc308dee54f613db569a6c89a56374e2826c6e17b72"
+    },
+    {
+      "path": "P013_result.json",
+      "bytes": 47928,
+      "sha256": "5db8d12a3b5feab458577aed67200154710fb6185f4845dddf6dcc54cc412337"
+    },
+    {
+      "path": "P014_genes.csv.gz",
+      "bytes": 1165939,
+      "sha256": "2f8f440cc25ea5f872a3d4a53e548009ac7b6fc1212fed7244127612eef468e5"
+    },
+    {
+      "path": "P014_panel.json",
+      "bytes": 568656,
+      "sha256": "f188515f14f6a828d89cb04c497c4a7bdb08b310d21c49bb1498e351725b4b9f"
+    },
+    {
+      "path": "P014_result.json",
+      "bytes": 16516,
+      "sha256": "74de1d477617ac510e4d01373edda190797ac3c85cad08aad5763aae42690c65"
+    },
+    {
+      "path": "P015_genes.csv.gz",
+      "bytes": 1171911,
+      "sha256": "b19f6a473eaff2be7d104a6a3e33fb4af60201cdf5167228e1826eb84b08510e"
+    },
+    {
+      "path": "P015_panel.json",
+      "bytes": 568656,
+      "sha256": "b51d6ba2bd90431962081b9563a6bbf1bedf71e3413cefc211589de7e63016ca"
+    },
+    {
+      "path": "P015_result.json",
+      "bytes": 16536,
+      "sha256": "01b494cc8da68ceb25fca17807d860a50434659967d961c260e0a3a6670ee02c"
+    },
+    {
+      "path": "P016_genes.csv.gz",
+      "bytes": 33804,
+      "sha256": "23e7f7307d508c096c56ddf7c2ccd2e316152a4cfbf9239add9b6c20032cf7cb"
+    },
+    {
+      "path": "P016_panel.json",
+      "bytes": 338900,
+      "sha256": "f88b77f76392e86857ed7ded3c112d10b7e3465ce1aaf1aefd12b524011293ef"
+    },
+    {
+      "path": "P016_result.json",
+      "bytes": 12791,
+      "sha256": "f750e0a9359887c27745a562a8d17ee3269e8062d32a78b4b162df91512911f6"
+    },
+    {
+      "path": "P017_genes.csv.gz",
+      "bytes": 33917,
+      "sha256": "84fe2053bc748eeabf6a895dc2cd09c2a12987b1e19ed2336874b4a5f2e08d78"
+    },
+    {
+      "path": "P017_panel.json",
+      "bytes": 338900,
+      "sha256": "e8ba79c431a57619655d5efd2dbb7e802635fa4f7dd8cefe405d8b3c67098011"
+    },
+    {
+      "path": "P017_result.json",
+      "bytes": 13195,
+      "sha256": "7f1a5ff399108e451dd1cb0a87be93c2acd322fe55be8e0860ee28053da204bf"
+    },
+    {
+      "path": "P018_genes.csv.gz",
+      "bytes": 804493,
+      "sha256": "89c6975b09e49755b12f63426c278b8e48e6ace02f5a950358883aa9af19e0a0"
+    },
+    {
+      "path": "P018_panel.json",
+      "bytes": 473730,
+      "sha256": "ff9b69ea4f8110847925058f900651e93ed47f9d61eec2a8aa2df0e092937662"
+    },
+    {
+      "path": "P018_result.json",
+      "bytes": 14774,
+      "sha256": "163991580b8c0d219f7195342bc756fac00e2ebe0be504ad91f4626a42b3b17f"
+    },
+    {
+      "path": "P019_genes.csv.gz",
+      "bytes": 26530,
+      "sha256": "5be3bc703c131a1145af4abe4d6bade62e4e7e4faea16a014b061031633ac0d4"
+    },
+    {
+      "path": "P019_panel.json",
+      "bytes": 172612,
+      "sha256": "70b929ebea9efcbc6e1c8e51a1267f304812482cccdff9e2668d430a18777ea4"
+    },
+    {
+      "path": "P019_result.json",
+      "bytes": 12455,
+      "sha256": "ae58923426401dd3c30934f3e5cda7dea4b3afbeff19cd659d8aa547b3df958a"
+    },
+    {
+      "path": "P020_genes.csv.gz",
+      "bytes": 29826,
+      "sha256": "8c02395c4fcd24d1bbcc09c64e4e8a336479e58a14ee25cdb95f37c11c86a37a"
+    },
+    {
+      "path": "P020_panel.json",
+      "bytes": 404906,
+      "sha256": "8b8931a6122877cf190f08234e404aae1a948ae288ec8005242b39d0adcb57e9"
+    },
+    {
+      "path": "P020_result.json",
+      "bytes": 12922,
+      "sha256": "7a8335669c7fb0c5fedccfe889db75c1b8ddd9f78dc67be5113e5d78251736c3"
+    },
+    {
+      "path": "P021_genes.csv.gz",
+      "bytes": 34641,
+      "sha256": "c82060fee13068cc47613defed157e353291c22f7682665e2395741bce340be1"
+    },
+    {
+      "path": "P021_panel.json",
+      "bytes": 404893,
+      "sha256": "4b43e146144a348ecd408fb77321d1b2d417cb987c6c804b5f0453217e8bed28"
+    },
+    {
+      "path": "P021_result.json",
+      "bytes": 12897,
+      "sha256": "054f90e3375a2364be3abebf554419dcf0b834f09512f2cd0c34554773823c8b"
+    },
+    {
+      "path": "P022_genes.csv.gz",
+      "bytes": 1335154,
+      "sha256": "4c0696093477c51a210cc1a2fcde96d4c346f79e1060f005614953902528eaa3"
+    },
+    {
+      "path": "P022_panel.json",
+      "bytes": 503831,
+      "sha256": "543e986021c4acb19c347b631901c11bde00c745c59ff0618232819bca12f340"
+    },
+    {
+      "path": "P022_result.json",
+      "bytes": 16263,
+      "sha256": "a24be054945ecfb05ee7790e6258d5c3bc98226c360243684267c81e129f05f4"
+    },
+    {
+      "path": "P023_genes.csv.gz",
+      "bytes": 2038014,
+      "sha256": "a1acb289f7816e832435914975ef4c1e214fd2dfefafdd3965c830f48e1a997f"
+    },
+    {
+      "path": "P023_panel.json",
+      "bytes": 479207,
+      "sha256": "d16f5f6b72a745f78d86ce95c1b72b4709d4c378c6a9e041b8b3ffc2bee6ab1a"
+    },
+    {
+      "path": "P023_result.json",
+      "bytes": 30920,
+      "sha256": "50f4ec97d94b2a19f34ae8f700ee19f362a8bc7fdacfd58e35e5003350495e43"
+    },
+    {
+      "path": "P024_genes.csv.gz",
+      "bytes": 57491,
+      "sha256": "4e549f5da273f5f55760c4a1330aff81d3fbc6b5fed4beb66c12fd2a42c3caf3"
+    },
+    {
+      "path": "P024_panel.json",
+      "bytes": 378895,
+      "sha256": "926f6bf0b28122b3f2d06ca0fa5126e91824edaa993151b7bc4eb7d7ef865f3b"
+    },
+    {
+      "path": "P024_result.json",
+      "bytes": 29791,
+      "sha256": "0ec911b0927911a4a58f2eb7d55b1f6094f282d93c09aab3be389a242fa9e8e2"
+    },
+    {
+      "path": "all_comparisons.csv",
+      "bytes": 78686,
+      "sha256": "5de3b2a486ff23f019b75c148fd56e377cb5fb530869ccdb1921035017a19d60"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 54825,
+      "sha256": "c13d9b3c22495aa550a17146e947941d95a338ce139ede61b8c0fee3050f0f80"
+    },
+    {
+      "path": "mapping.json",
+      "bytes": 19754,
+      "sha256": "737ab5f8a79a331bebcd587f079a583652403501cb04f266d436674b6404496c"
+    },
+    {
+      "path": "mapping_group_errors.csv",
+      "bytes": 3726,
+      "sha256": "657281c606b45bbc6ac7cafdc1e56e1f283bc68a9e907abea1b0e43681b22de0"
+    },
+    {
+      "path": "mapping_inputs.npz",
+      "bytes": 57206,
+      "sha256": "6ee4ed20f2039400db3f05fc1d28930ab0c897ddfb537239de4a8ab72c524aa6"
+    },
+    {
+      "path": "original_label_composition.csv",
+      "bytes": 239754,
+      "sha256": "cdfc2e747f62d233534cca43e14dada2a019e90969738316e348fc312b7302dd"
+    },
+    {
+      "path": "pair_results.json",
+      "bytes": 939577,
+      "sha256": "895bdd25be5b1b907584db44c68440290dda8f4f68fe2617a6a92a86b09b06ae"
+    },
+    {
+      "path": "ranked_types.json",
+      "bytes": 316668,
+      "sha256": "9125e3b602999c7321a244f7cf271a5cebe9656d35b8d91e97812791382c7179"
+    },
+    {
+      "path": "runtime.json",
+      "bytes": 321,
+      "sha256": "acde3a7fb189a49a628866faa9c132d26ce6be5a99a26db5250b0211ac457c30"
+    },
+    {
+      "path": "sample_statistics.csv",
+      "bytes": 118486,
+      "sha256": "9df4c4b7944d1332c459c1853acec299806c5897beb720acd6b7b3dc1fb57333"
+    },
+    {
+      "path": "trends.json",
+      "bytes": 1992,
+      "sha256": "eda420f0863bc4430b5cd90fb1a0b75b217face2143f6919f25707ad68df940a"
+    }
+  ],
+  "retained_remote": [
+    {
+      "path": "MANIFEST.json",
+      "bytes": 11852,
+      "sha256": "79a29f00df6bb1786aaeb693d656c9ac794df4b73ee9ef086058580b2277e381"
+    },
+    {
+      "path": "P006_genes.csv.gz",
+      "bytes": 7063355,
+      "sha256": "45fcdba7f094ab69a5f102e41236a983869c9cbde976dc10396d14a98cc65c79"
+    },
+    {
+      "path": "P007_genes.csv.gz",
+      "bytes": 7021938,
+      "sha256": "5c297193a3e0cfc87be71f16c3f55ea8c9501f1a10d7fb22a83a621f7cfc9a78"
+    }
+  ],
+  "bytes": 32829522,
+  "batches": 9
+}

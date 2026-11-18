@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-16",
+  "source": "../early_embryo_prior_audit/provenance/snapshots/current_data-protocol.txt",
+  "url": "https://virtualembryo.ai/challenge/data-protocol",
+  "evidence": "The file named E8.25_late.h5ad is the E8.25 stage everywhere else on this site. Its embryos are about E8.3",
+  "pairs": ["P016", "P021"],
+  "original_kind": "same_stage_untyped",
+  "display_kind": "near_stage",
+  "official_stage_key": "E8.25",
+  "official_stage_display": "E8.25_late（方法约E8.3）",
+  "reason": "文件名不是精确实测日龄；外部E8.25和官方约E8.3不能称严格同阶段。原始冻结与统计输出保留，展示补充条件。两条本来都不在主排序中，数字及27条主排序不变。"
+}

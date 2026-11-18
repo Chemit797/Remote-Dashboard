@@ -1,0 +1,17 @@
+[
+  {
+    "member": "data/external_data/single_embryo_morphology_size_information.txt",
+    "local_file": "single_embryo_morphology_size_information.txt",
+    "sha256": "707ec8a26deebcc4c3b87b9b6439bc216d351e9914db9f202330ff3cd23a3228"
+  },
+  {
+    "member": "data/fig_s3/mc_cluster_order.txt",
+    "local_file": "mc_cluster_order.txt",
+    "sha256": "326e459d19720da174712e2f9fd5adecb712d0819ad8be34b3c5bfbe4192340b"
+  },
+  {
+    "member": "data/chimera_tetraploid_analysis/wt10_transcriptional_rank_developmental_time.txt",
+    "local_file": "wt10_transcriptional_rank_developmental_time.txt",
+    "sha256": "35a595a1035e21c5ebf4707ae21188b6b9754286a5064be6097ca3f66269b75a"
+  }
+]

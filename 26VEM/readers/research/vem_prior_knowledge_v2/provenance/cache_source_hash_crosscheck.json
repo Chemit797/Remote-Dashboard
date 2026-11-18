@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "VED-002",
+    "canonical_report": "experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/report.json",
+    "source_sha256_recorded": "7c0d7b20ba7be3752c75f51e8bde0f1ddec361e7151a6178bda2d7ab8c394c9e",
+    "matching_historical_audit_files": [
+      "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-02__VED-002__GSE176306/raw/official_geo/suppl/GSE176306_combined.Rdata.gz"
+    ],
+    "recorded_hash_match": true,
+    "large_source_rehashed_this_round": false
+  },
+  {
+    "dataset": "VED-012/CD1",
+    "canonical_report": "experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/report.json",
+    "source_sha256_recorded": "65a06446bb90c933c7bf0d0ad66a152c6091e7e0607431be2bcf54b45c577834",
+    "matching_historical_audit_files": [
+      "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-12__VED-012__GSE193346/raw/official_geo/suppl/GSE193346_CD1_seurat_object.rds.gz"
+    ],
+    "recorded_hash_match": true,
+    "large_source_rehashed_this_round": false
+  }
+]

@@ -1,0 +1,136 @@
+pair,split,held_out,stage,group,model,shuffled,mse,baseline_mse,spearman
+embryo_EMTAB_primary,type,Blood progenitors,E7.25,Blood progenitors,identity,False,0.9875159740867128,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_primary,type,Blood progenitors,E7.25,Blood progenitors,affine,False,0.5009978358942455,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_primary,type,Blood progenitors,E7.25,Blood progenitors,ridge,False,6.248770255989329,0.9875159740867128,0.6398781528497465
+embryo_EMTAB_primary,type,Blood progenitors,E7.25,Blood progenitors,affine,True,0.5110192080939331,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_primary,type,Blood progenitors,E7.25,Blood progenitors,ridge,True,5.901016793537523,0.9875159740867128,0.533133924775926
+embryo_EMTAB_primary,type,ExE ectoderm,E6.75,ExE ectoderm,identity,False,1.0906315590614388,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_primary,type,ExE ectoderm,E7.25,ExE ectoderm,identity,False,1.1257998745583686,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_primary,type,ExE ectoderm,E6.75,ExE ectoderm,affine,False,0.27466610225618737,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_primary,type,ExE ectoderm,E7.25,ExE ectoderm,affine,False,0.2737129737201153,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_primary,type,ExE ectoderm,E6.75,ExE ectoderm,ridge,False,0.3262496176935443,1.0906315590614388,0.6717817235777033
+embryo_EMTAB_primary,type,ExE ectoderm,E7.25,ExE ectoderm,ridge,False,0.34656591063365794,1.1257998745583686,0.6740430106100943
+embryo_EMTAB_primary,type,ExE ectoderm,E6.75,ExE ectoderm,affine,True,0.26544660779264445,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_primary,type,ExE ectoderm,E7.25,ExE ectoderm,affine,True,0.2598998850106654,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_primary,type,ExE ectoderm,E6.75,ExE ectoderm,ridge,True,0.3990549532624852,1.0906315590614388,0.6268561965935686
+embryo_EMTAB_primary,type,ExE ectoderm,E7.25,ExE ectoderm,ridge,True,0.4141308672073094,1.1257998745583686,0.6814585418384964
+embryo_EMTAB_primary,type,ExE endoderm,E6.75,ExE endoderm,identity,False,0.9178486480167016,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_primary,type,ExE endoderm,E7.25,ExE endoderm,identity,False,0.8839321602847319,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_primary,type,ExE endoderm,E6.75,ExE endoderm,affine,False,0.3669839421310257,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_primary,type,ExE endoderm,E7.25,ExE endoderm,affine,False,0.38216895342019924,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_primary,type,ExE endoderm,E6.75,ExE endoderm,ridge,False,0.7086373328010928,0.9178486480167016,0.6898930863247058
+embryo_EMTAB_primary,type,ExE endoderm,E7.25,ExE endoderm,ridge,False,0.7367664930551918,0.8839321602847319,0.6739223791225756
+embryo_EMTAB_primary,type,ExE endoderm,E6.75,ExE endoderm,affine,True,0.39792861948151415,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_primary,type,ExE endoderm,E7.25,ExE endoderm,affine,True,0.4179409591746322,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_primary,type,ExE endoderm,E6.75,ExE endoderm,ridge,True,0.9715351970929522,0.9178486480167016,0.6032554372577725
+embryo_EMTAB_primary,type,ExE endoderm,E7.25,ExE endoderm,ridge,True,0.981696818666575,0.8839321602847319,0.6162385156096246
+embryo_EMTAB_primary,type,Primitive Streak,E6.75,Primitive Streak,identity,False,0.7708137201146374,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_primary,type,Primitive Streak,E7.25,Primitive Streak,identity,False,1.0863077706436919,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_primary,type,Primitive Streak,E6.75,Primitive Streak,affine,False,0.3355293482468432,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_primary,type,Primitive Streak,E7.25,Primitive Streak,affine,False,0.4737086103521021,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_primary,type,Primitive Streak,E6.75,Primitive Streak,ridge,False,2.455411198725753,0.7708137201146374,0.5897026360891103
+embryo_EMTAB_primary,type,Primitive Streak,E7.25,Primitive Streak,ridge,False,3.969471132046741,1.0863077706436919,0.6728349266162043
+embryo_EMTAB_primary,type,Primitive Streak,E6.75,Primitive Streak,affine,True,0.3356710151318334,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_primary,type,Primitive Streak,E7.25,Primitive Streak,affine,True,0.46747149198715443,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_primary,type,Primitive Streak,E6.75,Primitive Streak,ridge,True,2.5826465237237413,0.7708137201146374,0.6084900521551809
+embryo_EMTAB_primary,type,Primitive Streak,E7.25,Primitive Streak,ridge,True,4.12449725351215,1.0863077706436919,0.6878729283619281
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE ectoderm,identity,False,1.0906315590614388,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE endoderm,identity,False,0.9178486480167016,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,Primitive Streak,identity,False,0.7708137201146374,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE ectoderm,affine,False,0.34977795949092644,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE endoderm,affine,False,0.38358937106359303,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,Primitive Streak,affine,False,0.3685739813242146,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE ectoderm,ridge,False,0.1313704709538831,1.0906315590614388,0.643996659774105
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE endoderm,ridge,False,0.17717418439329258,0.9178486480167016,0.7010565659981921
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,Primitive Streak,ridge,False,0.22844534479521905,0.7708137201146374,0.6436860935433444
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE ectoderm,affine,True,0.31186013991226197,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE endoderm,affine,True,0.3832330862626915,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,Primitive Streak,affine,True,0.3589781040823627,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE ectoderm,ridge,True,0.24633205103632047,1.0906315590614388,0.5870993272294354
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,ExE endoderm,ridge,True,0.25766235106825336,0.9178486480167016,0.660123148269012
+embryo_EMTAB_E8_weight_sensitivity,stage,E6.75,E6.75,Primitive Streak,ridge,True,0.4015766691518979,0.7708137201146374,0.610080351795402
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Blood progenitors,identity,False,0.9875159740867128,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE ectoderm,identity,False,1.1257998745583686,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE endoderm,identity,False,0.8839321602847319,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Primitive Streak,identity,False,1.0863077706436919,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Blood progenitors,affine,False,0.5223702470252177,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE ectoderm,affine,False,0.3722380741138669,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE endoderm,affine,False,0.391743278674004,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Primitive Streak,affine,False,0.5412124802902757,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Blood progenitors,ridge,False,3.39042895892106,0.9875159740867128,0.5584876484066378
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE ectoderm,ridge,False,0.14530184251482256,1.1257998745583686,0.6397855967397588
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE endoderm,ridge,False,0.17250724848576343,0.8839321602847319,0.72780491283727
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Primitive Streak,ridge,False,0.32803063340353344,1.0863077706436919,0.6898554222237787
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Blood progenitors,affine,True,0.5199241682678262,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE ectoderm,affine,True,0.31119458852714543,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE endoderm,affine,True,0.3970137727915689,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Primitive Streak,affine,True,0.49363318724401706,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Blood progenitors,ridge,True,0.7832222777915113,0.9875159740867128,0.5478280943759603
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE ectoderm,ridge,True,0.2393784230953341,1.1257998745583686,0.6150238719108692
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,ExE endoderm,ridge,True,0.3502636297109157,0.8839321602847319,0.657885711646207
+embryo_EMTAB_E8_weight_sensitivity,stage,E7.25,E7.25,Primitive Streak,ridge,True,0.4801563267422481,1.0863077706436919,0.6061691017682135
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Allantois,identity,False,1.1659965495096765,1.1659965495096765,0.625670980911245
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Caudal epiblast,identity,False,1.1214763262839453,1.1214763262839453,0.5498315918559668
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,ExE endoderm,identity,False,0.764329281653208,0.764329281653208,0.4418140997849057
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Allantois,affine,False,1.2406983854044666,1.1659965495096765,0.625670980911245
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Caudal epiblast,affine,False,0.9418424219112788,1.1214763262839453,0.5498315918559668
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,ExE endoderm,affine,False,0.7804090036939528,0.764329281653208,0.4418140997849057
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Allantois,ridge,False,4.871307342265517,1.1659965495096765,0.508013887004576
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Caudal epiblast,ridge,False,14.358779325999308,1.1214763262839453,0.5470567651314763
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,ExE endoderm,ridge,False,1.1826760933286062,0.764329281653208,0.5875334130541495
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Allantois,affine,True,1.2677716944569117,1.1659965495096765,0.625670980911245
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Caudal epiblast,affine,True,0.9537027037049137,1.1214763262839453,0.5498315918559668
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,ExE endoderm,affine,True,0.8072009467197779,0.764329281653208,0.4418140997849057
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Allantois,ridge,True,3.392331086668586,1.1659965495096765,0.4533111982506751
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,Caudal epiblast,ridge,True,14.229540067832097,1.1214763262839453,0.5376910348871871
+embryo_EMTAB_E8_weight_sensitivity,stage,E8.0,E8.0,ExE endoderm,ridge,True,1.279359232689472,0.764329281653208,0.5666363528530581
+embryo_EMTAB_E8_weight_sensitivity,type,Allantois,E8.0,Allantois,identity,False,1.1659965495096765,1.1659965495096765,0.625670980911245
+embryo_EMTAB_E8_weight_sensitivity,type,Allantois,E8.0,Allantois,affine,False,1.1299114346776968,1.1659965495096765,0.625670980911245
+embryo_EMTAB_E8_weight_sensitivity,type,Allantois,E8.0,Allantois,ridge,False,25.379068307909808,1.1659965495096765,0.6347451924338111
+embryo_EMTAB_E8_weight_sensitivity,type,Allantois,E8.0,Allantois,affine,True,1.2344874484603643,1.1659965495096765,0.625670980911245
+embryo_EMTAB_E8_weight_sensitivity,type,Allantois,E8.0,Allantois,ridge,True,7.557759339480803,1.1659965495096765,0.5496388042241428
+embryo_EMTAB_E8_weight_sensitivity,type,Blood progenitors,E7.25,Blood progenitors,identity,False,0.9875159740867128,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_E8_weight_sensitivity,type,Blood progenitors,E7.25,Blood progenitors,affine,False,0.5015088473371119,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_E8_weight_sensitivity,type,Blood progenitors,E7.25,Blood progenitors,ridge,False,6.044526710457668,0.9875159740867128,0.5651772132787913
+embryo_EMTAB_E8_weight_sensitivity,type,Blood progenitors,E7.25,Blood progenitors,affine,True,0.5127773812685702,0.9875159740867128,0.4865731461103443
+embryo_EMTAB_E8_weight_sensitivity,type,Blood progenitors,E7.25,Blood progenitors,ridge,True,5.357827666873968,0.9875159740867128,0.5486827116296281
+embryo_EMTAB_E8_weight_sensitivity,type,Caudal epiblast,E8.0,Caudal epiblast,identity,False,1.1214763262839453,1.1214763262839453,0.5498315918559668
+embryo_EMTAB_E8_weight_sensitivity,type,Caudal epiblast,E8.0,Caudal epiblast,affine,False,0.8657532949887096,1.1214763262839453,0.5498315918559668
+embryo_EMTAB_E8_weight_sensitivity,type,Caudal epiblast,E8.0,Caudal epiblast,ridge,False,1.424365959905815,1.1214763262839453,0.6682366841479397
+embryo_EMTAB_E8_weight_sensitivity,type,Caudal epiblast,E8.0,Caudal epiblast,affine,True,0.9165461519629682,1.1214763262839453,0.5498315918559668
+embryo_EMTAB_E8_weight_sensitivity,type,Caudal epiblast,E8.0,Caudal epiblast,ridge,True,0.918452006490959,1.1214763262839453,0.6090991530237716
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E6.75,ExE ectoderm,identity,False,1.0906315590614388,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E7.25,ExE ectoderm,identity,False,1.1257998745583686,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E6.75,ExE ectoderm,affine,False,0.3501659543725492,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E7.25,ExE ectoderm,affine,False,0.3527117626346043,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E6.75,ExE ectoderm,ridge,False,0.2633400673202722,1.0906315590614388,0.642921381165027
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E7.25,ExE ectoderm,ridge,False,0.301397967664561,1.1257998745583686,0.6283486352154187
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E6.75,ExE ectoderm,affine,True,0.3118693730890691,1.0906315590614388,0.3813286687385562
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E7.25,ExE ectoderm,affine,True,0.30836404781244836,1.1257998745583686,0.3261187654147051
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E6.75,ExE ectoderm,ridge,True,0.38737602343193817,1.0906315590614388,0.5990129693171791
+embryo_EMTAB_E8_weight_sensitivity,type,ExE ectoderm,E7.25,ExE ectoderm,ridge,True,0.32845375726438636,1.1257998745583686,0.6287671776364141
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E6.75,ExE endoderm,identity,False,0.9178486480167016,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E7.25,ExE endoderm,identity,False,0.8839321602847319,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E8.0,ExE endoderm,identity,False,0.764329281653208,0.764329281653208,0.4418140997849057
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E6.75,ExE endoderm,affine,False,0.3643265037374252,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E7.25,ExE endoderm,affine,False,0.3705703127496897,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E8.0,ExE endoderm,affine,False,0.6718144482026287,0.764329281653208,0.4418140997849057
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E6.75,ExE endoderm,ridge,False,0.6093057839873817,0.9178486480167016,0.5616247157607823
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E7.25,ExE endoderm,ridge,False,0.7127239721901003,0.8839321602847319,0.574300111148714
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E8.0,ExE endoderm,ridge,False,0.8293593764723819,0.764329281653208,0.5294369344119457
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E6.75,ExE endoderm,affine,True,0.37232415618065184,0.9178486480167016,0.30916196331958107
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E7.25,ExE endoderm,affine,True,0.38283306889063307,0.8839321602847319,0.31899324205700313
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E8.0,ExE endoderm,affine,True,0.7378917456530454,0.764329281653208,0.4418140997849057
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E6.75,ExE endoderm,ridge,True,0.6444446876770726,0.9178486480167016,0.5687997315479141
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E7.25,ExE endoderm,ridge,True,0.6626708750824847,0.8839321602847319,0.5726506680010499
+embryo_EMTAB_E8_weight_sensitivity,type,ExE endoderm,E8.0,ExE endoderm,ridge,True,0.9347945692975463,0.764329281653208,0.517645953924918
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E6.75,Primitive Streak,identity,False,0.7708137201146374,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E7.25,Primitive Streak,identity,False,1.0863077706436919,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E6.75,Primitive Streak,affine,False,0.35919872726892943,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E7.25,Primitive Streak,affine,False,0.5149701347326666,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E6.75,Primitive Streak,ridge,False,0.37089636770301704,0.7708137201146374,0.6164162104540771
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E7.25,Primitive Streak,ridge,False,0.5933203096647262,1.0863077706436919,0.6821095519647078
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E6.75,Primitive Streak,affine,True,0.35103479783973873,0.7708137201146374,0.4377213624101324
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E7.25,Primitive Streak,affine,True,0.49010270904099756,1.0863077706436919,0.42292099766804114
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E6.75,Primitive Streak,ridge,True,0.4388939806187869,0.7708137201146374,0.5953453179307496
+embryo_EMTAB_E8_weight_sensitivity,type,Primitive Streak,E7.25,Primitive Streak,ridge,True,0.6613253984306343,1.0863077706436919,0.6268728462092099

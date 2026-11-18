@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "freeze_date_asia_shanghai": "2026-11-14",
+  "freeze_state": "before_current_round_P2_quantitative_analysis",
+  "basis": [
+    "ANALYSIS_PLAN_ZH.md",
+    "REPORT_SPEC_ZH.md",
+    "HYPOTHESIS_REGISTRY.json",
+    "results_20261112/marker_modules.json (module membership only; no old result imported)"
+  ],
+  "primary_unit": "independent embryo or documented independent pooled embryo sample; otherwise descriptive file-level unit only",
+  "expression_views": {
+    "primary": "published log1p(CP10k), per-file observed gene axis",
+    "linear_relative": "expm1(published X), interpreted only as relative normalized expression after scale verification",
+    "cross_file": "explicit intersection of observed genes; missing columns never become zero",
+    "sensitivity": "intersection-only renormalization, labeled as a changed estimand"
+  },
+  "modules": {
+    "contractile": ["Tnnt2", "Tnni1", "Actc1", "Myh6", "Myh7", "Myl2", "Myl3", "Myl4", "Myl7", "Actn2", "Tpm1", "Ttn"],
+    "cardiac_regulators": ["Nkx2-5", "Tbx5", "Gata4", "Hand1", "Hand2", "Mef2c"],
+    "endothelial_identity": ["Pecam1", "Cdh5", "Kdr", "Flt1", "Esam", "Eng", "Emcn", "Tek"],
+    "S_phase": ["Mcm2", "Mcm3", "Mcm4", "Mcm5", "Mcm6", "Mcm7", "Pcna", "Tyms", "Rrm2"],
+    "G2M": ["Mki67", "Top2a", "Cdk1", "Ccnb1", "Ccnb2", "Ube2c", "Cenpf", "Birc5"],
+    "neuronal_differentiation": ["Tubb3", "Dcx", "Elavl3", "Elavl4", "Map2", "Stmn2"]
+  },
+  "module_rule": "Intersect with each file's measured columns; report numerator/denominator; do not compare a score when fewer than 3 measured members or less than one third of the module is covered. This rule applies before viewing P2 values.",
+  "comparisons": [
+    {"id":"C01","hypotheses":["H02","H03","H04"],"contrast":"T2 heart E9.5 WT versus E10.5 P2 WT","strata":"original labels, harmonized broad lineage, cardiac-only and available common regions","controls":"whole sampled field versus common-support labels; original full-axis normalization versus intersection-only sensitivity"},
+    {"id":"C02","hypotheses":["H03","H05"],"contrast":"each T2 embryo and heart file across z slices","strata":"sample and broad lineage","controls":"within-sample slice center versus edge and neighboring slices"},
+    {"id":"C03","hypotheses":["H06"],"contrast":"stage/genotype versus documented run or batch","strata":"sample identifiers","controls":"design rank and overlap audit before any coefficient"},
+    {"id":"C04","hypotheses":["H07"],"contrast":"WT T2 heart E8.25_late to E8.75 to E9.5, with E8.5/E10.5 P2 held for later assessment","strata":"broad lineage, especially cardiomyocyte/endothelial","controls":"unrelated neuronal and cell-cycle modules; measured coverage; type-restricted versus whole-field trends"},
+    {"id":"C05","hypotheses":["H08"],"contrast":"T1 RNA and T2 heart at E9.5, and adjacent training/P2 windows where valid","strata":"common genes and matched broad lineages","controls":"within-modality ranks/directions; do not compare absolute magnitudes"},
+    {"id":"C06","hypotheses":["H09"],"contrast":"each E8.75 Gata4 conditional KO replicate versus its documented WT","strata":"broad lineage and available region","controls":"WT-only developmental direction, per-replicate effects, orthogonal residual"},
+    {"id":"C07","hypotheses":["H10"],"contrast":"one provenance-verified prediction per P2 task versus matched official truth","strata":"gene/module, broad type, and spatial region where available","controls":"composition, marginal distribution, joint structure, and position single-factor diagnostics labeled truth-assisted when using P2 truth"}
+  ],
+  "effect_statistics": "sample-level proportions and module mean of expm1(X); per-gene detection fraction (X>0), positive median, and mean log expression; composition/state symmetric decomposition only on common labels",
+  "inference_policy": "No biological p-values or confidence intervals without at least two documented independent units per side; cell and slice resampling may be shown only as within-sample sensitivity. BH-FDR separately for predeclared module families when valid replication permits.",
+  "changes_after_freeze": "Record actual-schema-driven deviations and exploratory analyses in evidence/DEVIATIONS.json; do not silently replace a research question."
+}

@@ -1,0 +1,281 @@
+stage,view,type,cells,denominator,fraction
+E8.25_late,whole,Cardiac progenitor/heart field,7405,58716,0.1261155392056679
+E8.25_late,whole,Cardiomyocyte,1586,58716,0.0270113767967845
+E8.25_late,whole,Endoderm/hepatic,3248,58716,0.055317119694802
+E8.25_late,whole,Endothelial/endocardial,6219,58716,0.1059166155732679
+E8.25_late,whole,Epiblast/streak,1358,58716,0.0231282784930853
+E8.25_late,whole,Extraembryonic,19301,58716,0.3287178963144628
+E8.25_late,whole,Neural/NCC,7472,58716,0.1272566251107023
+E8.25_late,whole,Other mesoderm,5391,58716,0.091814837522992
+E8.25_late,whole,Pericardial/epicardial,510,58716,0.0086858777845902
+E8.25_late,whole,Surface ectoderm,5033,58716,0.0857176919408679
+E8.25_late,whole,Unresolved,1193,58716,0.0203181415627767
+E8.25_late,whole,CM_union_cm_annotation,1596,58716,0.0271816881258941
+E8.25_late,cardiac_label_support,Cardiac progenitor/heart field,7405,15720,0.4710559796437659
+E8.25_late,cardiac_label_support,Cardiomyocyte,1586,15720,0.1008905852417302
+E8.25_late,cardiac_label_support,Endoderm/hepatic,0,15720,0.0
+E8.25_late,cardiac_label_support,Endothelial/endocardial,6219,15720,0.3956106870229007
+E8.25_late,cardiac_label_support,Epiblast/streak,0,15720,0.0
+E8.25_late,cardiac_label_support,Extraembryonic,0,15720,0.0
+E8.25_late,cardiac_label_support,Neural/NCC,0,15720,0.0
+E8.25_late,cardiac_label_support,Other mesoderm,0,15720,0.0
+E8.25_late,cardiac_label_support,Pericardial/epicardial,510,15720,0.032442748091603
+E8.25_late,cardiac_label_support,Surface ectoderm,0,15720,0.0
+E8.25_late,cardiac_label_support,Unresolved,0,15720,0.0
+E8.25_late,cardiac_label_support,CM_union_cm_annotation,1586,15720,0.1008905852417302
+E8.25_late,CM_neighbourhood15,Cardiac progenitor/heart field,396,3126,0.1266794625719769
+E8.25_late,CM_neighbourhood15,Cardiomyocyte,1586,3126,0.5073576455534229
+E8.25_late,CM_neighbourhood15,Endoderm/hepatic,407,3126,0.1301983365323096
+E8.25_late,CM_neighbourhood15,Endothelial/endocardial,15,3126,0.0047984644913627
+E8.25_late,CM_neighbourhood15,Epiblast/streak,0,3126,0.0
+E8.25_late,CM_neighbourhood15,Extraembryonic,27,3126,0.0086372360844529
+E8.25_late,CM_neighbourhood15,Neural/NCC,6,3126,0.0019193857965451
+E8.25_late,CM_neighbourhood15,Other mesoderm,1,3126,0.0003198976327575
+E8.25_late,CM_neighbourhood15,Pericardial/epicardial,46,3126,0.0147152911068458
+E8.25_late,CM_neighbourhood15,Surface ectoderm,11,3126,0.0035188739603326
+E8.25_late,CM_neighbourhood15,Unresolved,631,3126,0.2018554062699936
+E8.25_late,CM_neighbourhood15,CM_union_cm_annotation,1596,3126,0.510556621880998
+E8.25_late,CM_neighbourhood40,Cardiac progenitor/heart field,468,3476,0.1346375143843498
+E8.25_late,CM_neighbourhood40,Cardiomyocyte,1586,3476,0.4562715765247411
+E8.25_late,CM_neighbourhood40,Endoderm/hepatic,541,3476,0.155638665132336
+E8.25_late,CM_neighbourhood40,Endothelial/endocardial,22,3476,0.0063291139240506
+E8.25_late,CM_neighbourhood40,Epiblast/streak,0,3476,0.0
+E8.25_late,CM_neighbourhood40,Extraembryonic,53,3476,0.015247410817031
+E8.25_late,CM_neighbourhood40,Neural/NCC,7,3476,0.0020138089758342
+E8.25_late,CM_neighbourhood40,Other mesoderm,2,3476,0.0005753739930955
+E8.25_late,CM_neighbourhood40,Pericardial/epicardial,73,3476,0.0210011507479861
+E8.25_late,CM_neighbourhood40,Surface ectoderm,26,3476,0.0074798619102416
+E8.25_late,CM_neighbourhood40,Unresolved,698,3476,0.2008055235903337
+E8.25_late,CM_neighbourhood40,CM_union_cm_annotation,1596,3476,0.4591484464902186
+E8.25_late,central_z50,Cardiac progenitor/heart field,4081,32392,0.1259878982464806
+E8.25_late,central_z50,Cardiomyocyte,1385,32392,0.042757470980489
+E8.25_late,central_z50,Endoderm/hepatic,2316,32392,0.0714991355890343
+E8.25_late,central_z50,Endothelial/endocardial,3026,32392,0.0934181279328229
+E8.25_late,central_z50,Epiblast/streak,655,32392,0.02022104223265
+E8.25_late,central_z50,Extraembryonic,10290,32392,0.3176710298839219
+E8.25_late,central_z50,Neural/NCC,3867,32392,0.1193813287231415
+E8.25_late,central_z50,Other mesoderm,2651,32392,0.0818411953568782
+E8.25_late,central_z50,Pericardial/epicardial,368,32392,0.011360829834527
+E8.25_late,central_z50,Surface ectoderm,2787,32392,0.0860397629044208
+E8.25_late,central_z50,Unresolved,966,32392,0.0298221783156334
+E8.25_late,central_z50,CM_union_cm_annotation,1395,32392,0.0430661891825142
+E8.5,whole,Cardiac progenitor/heart field,4788,23710,0.201940109658372
+E8.5,whole,Cardiomyocyte,1919,23710,0.080936313791649
+E8.5,whole,Endoderm/hepatic,1820,23710,0.0767608603964571
+E8.5,whole,Endothelial/endocardial,1190,23710,0.050189793336145
+E8.5,whole,Epiblast/streak,1148,23710,0.0484183888654576
+E8.5,whole,Extraembryonic,3925,23710,0.1655419654154365
+E8.5,whole,Neural/NCC,2978,23710,0.1256010122311261
+E8.5,whole,Other mesoderm,2264,23710,0.095487136229439
+E8.5,whole,Pericardial/epicardial,310,23710,0.0130746520455504
+E8.5,whole,Surface ectoderm,2593,23710,0.1093631379164909
+E8.5,whole,Unresolved,775,23710,0.032686630113876
+E8.5,whole,CM_union_cm_annotation,1975,23710,0.0832981864192324
+E8.5,cardiac_label_support,Cardiac progenitor/heart field,4788,8207,0.5834044108687706
+E8.5,cardiac_label_support,Cardiomyocyte,1919,8207,0.2338247837212136
+E8.5,cardiac_label_support,Endoderm/hepatic,0,8207,0.0
+E8.5,cardiac_label_support,Endothelial/endocardial,1190,8207,0.1449981722919459
+E8.5,cardiac_label_support,Epiblast/streak,0,8207,0.0
+E8.5,cardiac_label_support,Extraembryonic,0,8207,0.0
+E8.5,cardiac_label_support,Neural/NCC,0,8207,0.0
+E8.5,cardiac_label_support,Other mesoderm,0,8207,0.0
+E8.5,cardiac_label_support,Pericardial/epicardial,310,8207,0.0377726331180699
+E8.5,cardiac_label_support,Surface ectoderm,0,8207,0.0
+E8.5,cardiac_label_support,Unresolved,0,8207,0.0
+E8.5,cardiac_label_support,CM_union_cm_annotation,1965,8207,0.2394297550871207
+E8.5,CM_neighbourhood15,Cardiac progenitor/heart field,466,3308,0.1408706166868198
+E8.5,CM_neighbourhood15,Cardiomyocyte,1919,3308,0.5801088270858524
+E8.5,CM_neighbourhood15,Endoderm/hepatic,166,3308,0.0501813784764208
+E8.5,CM_neighbourhood15,Endothelial/endocardial,67,3308,0.0202539298669891
+E8.5,CM_neighbourhood15,Epiblast/streak,0,3308,0.0
+E8.5,CM_neighbourhood15,Extraembryonic,194,3308,0.058645707376058
+E8.5,CM_neighbourhood15,Neural/NCC,4,3308,0.0012091898428053
+E8.5,CM_neighbourhood15,Other mesoderm,2,3308,0.0006045949214026
+E8.5,CM_neighbourhood15,Pericardial/epicardial,58,3308,0.0175332527206771
+E8.5,CM_neighbourhood15,Surface ectoderm,18,3308,0.0054413542926239
+E8.5,CM_neighbourhood15,Unresolved,414,3308,0.1251511487303506
+E8.5,CM_neighbourhood15,CM_union_cm_annotation,1966,3308,0.594316807738815
+E8.5,CM_neighbourhood40,Cardiac progenitor/heart field,672,3924,0.1712538226299694
+E8.5,CM_neighbourhood40,Cardiomyocyte,1919,3924,0.4890417940876656
+E8.5,CM_neighbourhood40,Endoderm/hepatic,245,3924,0.0624362895005096
+E8.5,CM_neighbourhood40,Endothelial/endocardial,81,3924,0.0206422018348623
+E8.5,CM_neighbourhood40,Epiblast/streak,1,3924,0.0002548419979612
+E8.5,CM_neighbourhood40,Extraembryonic,375,3924,0.095565749235474
+E8.5,CM_neighbourhood40,Neural/NCC,7,3924,0.0017838939857288
+E8.5,CM_neighbourhood40,Other mesoderm,2,3924,0.0005096839959225
+E8.5,CM_neighbourhood40,Pericardial/epicardial,106,3924,0.0270132517838939
+E8.5,CM_neighbourhood40,Surface ectoderm,34,3924,0.0086646279306829
+E8.5,CM_neighbourhood40,Unresolved,482,3924,0.1228338430173292
+E8.5,CM_neighbourhood40,CM_union_cm_annotation,1967,3924,0.5012742099898063
+E8.5,central_z50,Cardiac progenitor/heart field,2325,12653,0.1837508891172054
+E8.5,central_z50,Cardiomyocyte,1408,12653,0.1112779577965699
+E8.5,central_z50,Endoderm/hepatic,942,12653,0.0744487473326483
+E8.5,central_z50,Endothelial/endocardial,519,12653,0.041017940409389
+E8.5,central_z50,Epiblast/streak,796,12653,0.0629099818224926
+E8.5,central_z50,Extraembryonic,2133,12653,0.1685766221449458
+E8.5,central_z50,Neural/NCC,1117,12653,0.0882794594167391
+E8.5,central_z50,Other mesoderm,1357,12653,0.1072472931320635
+E8.5,central_z50,Pericardial/epicardial,171,12653,0.0135145815221686
+E8.5,central_z50,Surface ectoderm,1339,12653,0.1058247056034142
+E8.5,central_z50,Unresolved,546,12653,0.043151821702363
+E8.5,central_z50,CM_union_cm_annotation,1435,12653,0.1134118390895439
+E8.75,whole,Cardiac progenitor/heart field,5422,24826,0.218400064448562
+E8.75,whole,Cardiomyocyte,3401,24826,0.1369934745830983
+E8.75,whole,Endoderm/hepatic,1901,24826,0.076572947716104
+E8.75,whole,Endothelial/endocardial,1535,24826,0.0618303391605574
+E8.75,whole,Epiblast/streak,47,24826,0.0018931765084991
+E8.75,whole,Extraembryonic,1173,24826,0.0472488520099895
+E8.75,whole,Neural/NCC,5707,24826,0.2298799645532909
+E8.75,whole,Other mesoderm,82,24826,0.0033029888020623
+E8.75,whole,Pericardial/epicardial,432,24826,0.0174011117376943
+E8.75,whole,Surface ectoderm,2780,24826,0.1119793764601627
+E8.75,whole,Unresolved,2346,24826,0.094497704019979
+E8.75,whole,CM_union_cm_annotation,3434,24826,0.1383227261741722
+E8.75,cardiac_label_support,Cardiac progenitor/heart field,5422,10790,0.5025023169601482
+E8.75,cardiac_label_support,Cardiomyocyte,3401,10790,0.3151992585727525
+E8.75,cardiac_label_support,Endoderm/hepatic,0,10790,0.0
+E8.75,cardiac_label_support,Endothelial/endocardial,1535,10790,0.1422613531047266
+E8.75,cardiac_label_support,Epiblast/streak,0,10790,0.0
+E8.75,cardiac_label_support,Extraembryonic,0,10790,0.0
+E8.75,cardiac_label_support,Neural/NCC,0,10790,0.0
+E8.75,cardiac_label_support,Other mesoderm,0,10790,0.0
+E8.75,cardiac_label_support,Pericardial/epicardial,432,10790,0.0400370713623725
+E8.75,cardiac_label_support,Surface ectoderm,0,10790,0.0
+E8.75,cardiac_label_support,Unresolved,0,10790,0.0
+E8.75,cardiac_label_support,CM_union_cm_annotation,3424,10790,0.3173308619091751
+E8.75,CM_neighbourhood15,Cardiac progenitor/heart field,558,6216,0.0897683397683397
+E8.75,CM_neighbourhood15,Cardiomyocyte,3401,6216,0.5471364221364221
+E8.75,CM_neighbourhood15,Endoderm/hepatic,80,6216,0.0128700128700128
+E8.75,CM_neighbourhood15,Endothelial/endocardial,143,6216,0.023005148005148
+E8.75,CM_neighbourhood15,Epiblast/streak,0,6216,0.0
+E8.75,CM_neighbourhood15,Extraembryonic,398,6216,0.064028314028314
+E8.75,CM_neighbourhood15,Neural/NCC,4,6216,0.0006435006435006
+E8.75,CM_neighbourhood15,Other mesoderm,13,6216,0.002091377091377
+E8.75,CM_neighbourhood15,Pericardial/epicardial,259,6216,0.0416666666666666
+E8.75,CM_neighbourhood15,Surface ectoderm,19,6216,0.003056628056628
+E8.75,CM_neighbourhood15,Unresolved,1341,6216,0.2157335907335907
+E8.75,CM_neighbourhood15,CM_union_cm_annotation,3428,6216,0.5514800514800515
+E8.75,CM_neighbourhood40,Cardiac progenitor/heart field,690,6729,0.1025412394115024
+E8.75,CM_neighbourhood40,Cardiomyocyte,3401,6729,0.5054242829543766
+E8.75,CM_neighbourhood40,Endoderm/hepatic,149,6729,0.0221429632932085
+E8.75,CM_neighbourhood40,Endothelial/endocardial,190,6729,0.0282359934611383
+E8.75,CM_neighbourhood40,Epiblast/streak,0,6729,0.0
+E8.75,CM_neighbourhood40,Extraembryonic,463,6729,0.0688066577500371
+E8.75,CM_neighbourhood40,Neural/NCC,5,6729,0.0007430524595036
+E8.75,CM_neighbourhood40,Other mesoderm,17,6729,0.0025263783623123
+E8.75,CM_neighbourhood40,Pericardial/epicardial,299,6729,0.0444345370783177
+E8.75,CM_neighbourhood40,Surface ectoderm,67,6729,0.0099569029573487
+E8.75,CM_neighbourhood40,Unresolved,1448,6729,0.2151879922722544
+E8.75,CM_neighbourhood40,CM_union_cm_annotation,3425,6729,0.508990934759994
+E8.75,central_z50,Cardiac progenitor/heart field,3119,13294,0.2346171205054912
+E8.75,central_z50,Cardiomyocyte,2369,13294,0.1782006920415225
+E8.75,central_z50,Endoderm/hepatic,1026,13294,0.0771776741387092
+E8.75,central_z50,Endothelial/endocardial,871,13294,0.0655182789228223
+E8.75,central_z50,Epiblast/streak,25,13294,0.0018805476154656
+E8.75,central_z50,Extraembryonic,440,13294,0.0330976380321949
+E8.75,central_z50,Neural/NCC,2305,13294,0.1733864901459305
+E8.75,central_z50,Other mesoderm,37,13294,0.0027832104708891
+E8.75,central_z50,Pericardial/epicardial,269,13294,0.0202346923424101
+E8.75,central_z50,Surface ectoderm,1339,13294,0.1007221302843388
+E8.75,central_z50,Unresolved,1494,13294,0.1123815255002256
+E8.75,central_z50,CM_union_cm_annotation,2377,13294,0.1788024672784715
+E9.5,whole,Cardiac progenitor/heart field,10463,53742,0.1946894421495292
+E9.5,whole,Cardiomyocyte,16291,53742,0.3031334896356667
+E9.5,whole,Endoderm/hepatic,3096,53742,0.0576085742994306
+E9.5,whole,Endothelial/endocardial,8284,53742,0.1541438725763834
+E9.5,whole,Neural/NCC,2601,53742,0.0483979010829518
+E9.5,whole,Other mesoderm,2385,53742,0.044378698224852
+E9.5,whole,Pericardial/epicardial,6201,53742,0.1153846153846153
+E9.5,whole,Surface ectoderm,2895,53742,0.053868482750921
+E9.5,whole,Unresolved,1526,53742,0.0283949238956495
+E9.5,whole,CM_union_cm_annotation,16291,53742,0.3031334896356667
+E9.5,cardiac_label_support,Cardiac progenitor/heart field,10463,41239,0.2537161424864812
+E9.5,cardiac_label_support,Cardiomyocyte,16291,41239,0.3950386769805281
+E9.5,cardiac_label_support,Endoderm/hepatic,0,41239,0.0
+E9.5,cardiac_label_support,Endothelial/endocardial,8284,41239,0.2008778098401998
+E9.5,cardiac_label_support,Neural/NCC,0,41239,0.0
+E9.5,cardiac_label_support,Other mesoderm,0,41239,0.0
+E9.5,cardiac_label_support,Pericardial/epicardial,6201,41239,0.1503673706927908
+E9.5,cardiac_label_support,Surface ectoderm,0,41239,0.0
+E9.5,cardiac_label_support,Unresolved,0,41239,0.0
+E9.5,cardiac_label_support,CM_union_cm_annotation,16291,41239,0.3950386769805281
+E9.5,CM_neighbourhood15,Cardiac progenitor/heart field,345,23462,0.0147046287614014
+E9.5,CM_neighbourhood15,Cardiomyocyte,16291,23462,0.69435683232461
+E9.5,CM_neighbourhood15,Endoderm/hepatic,50,23462,0.0021311056175944
+E9.5,CM_neighbourhood15,Endothelial/endocardial,4255,23462,0.1813570880572841
+E9.5,CM_neighbourhood15,Neural/NCC,55,23462,0.0023442161793538
+E9.5,CM_neighbourhood15,Other mesoderm,571,23462,0.0243372261529281
+E9.5,CM_neighbourhood15,Pericardial/epicardial,1692,23462,0.0721166140993947
+E9.5,CM_neighbourhood15,Surface ectoderm,38,23462,0.0016196402693717
+E9.5,CM_neighbourhood15,Unresolved,165,23462,0.0070326485380615
+E9.5,CM_neighbourhood15,CM_union_cm_annotation,16291,23462,0.69435683232461
+E9.5,CM_neighbourhood40,Cardiac progenitor/heart field,405,25309,0.0160022126516259
+E9.5,CM_neighbourhood40,Cardiomyocyte,16291,25309,0.6436840649571298
+E9.5,CM_neighbourhood40,Endoderm/hepatic,82,25309,0.003239954166502
+E9.5,CM_neighbourhood40,Endothelial/endocardial,4776,25309,0.1887075743806551
+E9.5,CM_neighbourhood40,Neural/NCC,70,25309,0.0027658145323797
+E9.5,CM_neighbourhood40,Other mesoderm,647,25309,0.0255640286064245
+E9.5,CM_neighbourhood40,Pericardial/epicardial,2788,25309,0.1101584416610691
+E9.5,CM_neighbourhood40,Surface ectoderm,51,25309,0.0020150934450195
+E9.5,CM_neighbourhood40,Unresolved,199,25309,0.0078628155991939
+E9.5,CM_neighbourhood40,CM_union_cm_annotation,16291,25309,0.6436840649571298
+E9.5,central_z50,Cardiac progenitor/heart field,5888,27559,0.2136507130157117
+E9.5,central_z50,Cardiomyocyte,10906,27559,0.3957327914655829
+E9.5,central_z50,Endoderm/hepatic,1119,27559,0.0406037954933052
+E9.5,central_z50,Endothelial/endocardial,4585,27559,0.1663703327406654
+E9.5,central_z50,Neural/NCC,1150,27559,0.0417286548858812
+E9.5,central_z50,Other mesoderm,814,27559,0.0295366305018324
+E9.5,central_z50,Pericardial/epicardial,2026,27559,0.0735150041728655
+E9.5,central_z50,Surface ectoderm,1037,27559,0.0376283609710076
+E9.5,central_z50,Unresolved,34,27559,0.0012337167531477
+E9.5,central_z50,CM_union_cm_annotation,10906,27559,0.3957327914655829
+E10.5,whole,Cardiac progenitor/heart field,49124,167864,0.2926416622980508
+E10.5,whole,Cardiomyocyte,25036,167864,0.1491445455845208
+E10.5,whole,Endoderm/hepatic,5533,167864,0.0329612066911309
+E10.5,whole,Endothelial/endocardial,25741,167864,0.1533443740170614
+E10.5,whole,Neural/NCC,4444,167864,0.0264738121336319
+E10.5,whole,Other mesoderm,9595,167864,0.0571593671067054
+E10.5,whole,Pericardial/epicardial,15816,167864,0.0942191297717199
+E10.5,whole,Surface ectoderm,1842,167864,0.0109731687556593
+E10.5,whole,Unresolved,30733,167864,0.1830827336415193
+E10.5,whole,CM_union_cm_annotation,25039,167864,0.149162417194872
+E10.5,cardiac_label_support,Cardiac progenitor/heart field,49124,115717,0.4245184372218429
+E10.5,cardiac_label_support,Cardiomyocyte,25036,115717,0.2163554188235091
+E10.5,cardiac_label_support,Endoderm/hepatic,0,115717,0.0
+E10.5,cardiac_label_support,Endothelial/endocardial,25741,115717,0.2224478685067881
+E10.5,cardiac_label_support,Neural/NCC,0,115717,0.0
+E10.5,cardiac_label_support,Other mesoderm,0,115717,0.0
+E10.5,cardiac_label_support,Pericardial/epicardial,15816,115717,0.1366782754478598
+E10.5,cardiac_label_support,Surface ectoderm,0,115717,0.0
+E10.5,cardiac_label_support,Unresolved,0,115717,0.0
+E10.5,cardiac_label_support,CM_union_cm_annotation,25036,115717,0.2163554188235091
+E10.5,CM_neighbourhood15,Cardiac progenitor/heart field,440,43163,0.0101939160855362
+E10.5,CM_neighbourhood15,Cardiomyocyte,25036,43163,0.5800338252670111
+E10.5,CM_neighbourhood15,Endoderm/hepatic,35,43163,0.0008108796886221
+E10.5,CM_neighbourhood15,Endothelial/endocardial,8644,43163,0.2002641150985798
+E10.5,CM_neighbourhood15,Neural/NCC,52,43163,0.0012047355373815
+E10.5,CM_neighbourhood15,Other mesoderm,997,43163,0.0230984871301809
+E10.5,CM_neighbourhood15,Pericardial/epicardial,2448,43163,0.0567152422213469
+E10.5,CM_neighbourhood15,Surface ectoderm,62,43163,0.0014364154484164
+E10.5,CM_neighbourhood15,Unresolved,5449,43163,0.1262423835229247
+E10.5,CM_neighbourhood15,CM_union_cm_annotation,25038,43163,0.5800801612492181
+E10.5,CM_neighbourhood40,Cardiac progenitor/heart field,508,47389,0.0107197872924096
+E10.5,CM_neighbourhood40,Cardiomyocyte,25036,47389,0.5283082571904872
+E10.5,CM_neighbourhood40,Endoderm/hepatic,36,47389,0.0007596699656038
+E10.5,CM_neighbourhood40,Endothelial/endocardial,9637,47389,0.203359429403448
+E10.5,CM_neighbourhood40,Neural/NCC,46,47389,0.0009706894004937
+E10.5,CM_neighbourhood40,Other mesoderm,1098,47389,0.0231699339509168
+E10.5,CM_neighbourhood40,Pericardial/epicardial,5180,47389,0.1093080672729958
+E10.5,CM_neighbourhood40,Surface ectoderm,127,47389,0.0026799468231024
+E10.5,CM_neighbourhood40,Unresolved,5721,47389,0.1207242187005423
+E10.5,CM_neighbourhood40,CM_union_cm_annotation,25038,47389,0.5283504610774652
+E10.5,central_z50,Cardiac progenitor/heart field,17531,85419,0.2052353691801589
+E10.5,central_z50,Cardiomyocyte,20399,85419,0.2388110373570283
+E10.5,central_z50,Endoderm/hepatic,118,85419,0.0013814256781278
+E10.5,central_z50,Endothelial/endocardial,15666,85419,0.1834018192673761
+E10.5,central_z50,Neural/NCC,1944,85419,0.0227584026972921
+E10.5,central_z50,Other mesoderm,7683,85419,0.0899448600428476
+E10.5,central_z50,Pericardial/epicardial,7243,85419,0.0847937812430489
+E10.5,central_z50,Surface ectoderm,1113,85419,0.0130298879640361
+E10.5,central_z50,Unresolved,13722,85419,0.1606434165700839
+E10.5,central_z50,CM_union_cm_annotation,20401,85419,0.2388344513515728

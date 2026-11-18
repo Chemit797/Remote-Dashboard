@@ -1,0 +1,249 @@
+[
+  {
+    "official_label": "Allantois",
+    "meaning_zh": "尿囊",
+    "definition_status": "原标签为明确解剖名称",
+    "external_pijuan_candidates": "Allantois",
+    "mapping_basis": "同名标签对应；不等于独立实验证实身份",
+    "primary_mapping_permitted": true,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "Primitive Streak",
+    "meaning_zh": "原条",
+    "definition_status": "原标签为明确结构名称",
+    "external_pijuan_candidates": "Primitive Streak",
+    "mapping_basis": "同名标签对应；不自动合并 Anterior Primitive Streak",
+    "primary_mapping_permitted": true,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "Caudal Epiblast",
+    "meaning_zh": "尾侧上胚层",
+    "definition_status": "原标签为明确区域名称",
+    "external_pijuan_candidates": "Caudal epiblast",
+    "mapping_basis": "仅大小写差异的名称对应",
+    "primary_mapping_permitted": true,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "Anterior Epiblast",
+    "meaning_zh": "前侧上胚层",
+    "definition_status": "原标签为明确区域名称",
+    "external_pijuan_candidates": "Epiblast",
+    "mapping_basis": "外部更宽泛，不能默认其全部是Anterior；主分析不映射",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "EXE-Ectoderm",
+    "meaning_zh": "胚外外胚层（按ExE惯用缩写）",
+    "definition_status": "术语惯例解释；未找到官方独立释义表",
+    "external_pijuan_candidates": "ExE ectoderm",
+    "mapping_basis": "大小写及标点一致化可作命名层面的粗对应；需披露没有官方跨库对应表",
+    "primary_mapping_permitted": true,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "EXE-Endoderm",
+    "meaning_zh": "胚外内胚层（按ExE惯用缩写）",
+    "definition_status": "术语惯例解释；未找到官方独立释义表",
+    "external_pijuan_candidates": "ExE endoderm",
+    "mapping_basis": "仅同缩写和同词根对应；不合并 Visceral/Parietal endoderm",
+    "primary_mapping_permitted": true,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "ExEM-1;ExEM-2;p-EXEM",
+    "meaning_zh": "可能为胚外中胚层及亚群",
+    "definition_status": "缩写推断；亚群边界未核实",
+    "external_pijuan_candidates": "ExE mesoderm",
+    "mapping_basis": "仅在显式宽层级敏感性分析中合并；不作为已确认精确映射",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "Gut Endoderm",
+    "meaning_zh": "肠内胚层",
+    "definition_status": "原标签为明确组织名称",
+    "external_pijuan_candidates": "Gut;Def. endoderm",
+    "mapping_basis": "Gut为词义近似；Def. endoderm包含前体且范围不同，不自动合并",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "Blood Progenitor",
+    "meaning_zh": "血液祖细胞",
+    "definition_status": "原标签为明确细胞状态名称",
+    "external_pijuan_candidates": "Blood progenitors 1;Blood progenitors 2",
+    "mapping_basis": "可把外部两个同名前缀子类合并为命名层面的Blood progenitor；不含Erythroid",
+    "primary_mapping_permitted": true,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "HEM-Endoth",
+    "meaning_zh": "可能为血生/造血相关内皮",
+    "definition_status": "HEM缩写未找到官方释义",
+    "external_pijuan_candidates": "Haematoendothelial progenitors;Endothelium",
+    "mapping_basis": "内皮、血内皮祖细胞和血生内皮不等价；不建立主映射",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "SOM",
+    "meaning_zh": "SOM 缩写未核实，不能确认是体节/体节中胚层还是其他含义",
+    "definition_status": "缩写未找到官方释义",
+    "external_pijuan_candidates": "Somitic mesoderm",
+    "mapping_basis": "不得直接把SOM扩成Somitic mesoderm作为确认事实；仅候选",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "LPM",
+    "meaning_zh": "可能为侧板中胚层",
+    "definition_status": "缩写惯例解释；未找到官方释义",
+    "external_pijuan_candidates": "Mixed mesoderm;Mesenchyme",
+    "mapping_basis": "外部候选范围不同，不合并",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "PHM/PAM",
+    "meaning_zh": "可能包含咽中胚层与轴旁中胚层",
+    "definition_status": "组合标签未找到官方释义",
+    "external_pijuan_candidates": "Pharyngeal mesoderm;Paraxial mesoderm",
+    "mapping_basis": "组合标签组成和边界不明，不拆分或自动合并",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "CP",
+    "meaning_zh": "可能为心脏前体，但不能排除其他缩写含义",
+    "definition_status": "官方定义未核实",
+    "external_pijuan_candidates": "Cardiomyocytes",
+    "mapping_basis": "前体不等于成熟心肌细胞，禁止此直接映射",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "aSE;pSE;V-SE;d-CSE",
+    "meaning_zh": "可能为带区域限定的表面外胚层类群",
+    "definition_status": "官方缩写/区域含义未核实",
+    "external_pijuan_candidates": "Surface ectoderm",
+    "mapping_basis": "不因SE字母串相似就直接并入主分析",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "FHF;SHF;JCF",
+    "meaning_zh": "领域常用为第一/第二/juxta-cardiac心场",
+    "definition_status": "领域术语明确；在本数据中的操作性分类边界未公开",
+    "external_pijuan_candidates": "Cardiomyocytes",
+    "mapping_basis": "心场/前体与心肌细胞不是同一层级，不直接映射",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "D-FG;V-FG",
+    "meaning_zh": "可能为背侧/腹侧前肠",
+    "definition_status": "官方缩写未核实",
+    "external_pijuan_candidates": "Gut",
+    "mapping_basis": "暂不主映射",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "Forebrain;Hindbrain",
+    "meaning_zh": "前脑/后脑",
+    "definition_status": "原标签明确，但外部有合并中脑",
+    "external_pijuan_candidates": "Forebrain/Midbrain/Hindbrain",
+    "mapping_basis": "范围不对等；合并后仍缺中脑明确信息，不当精确匹配",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  },
+  {
+    "official_label": "Unknown",
+    "meaning_zh": "未知/未确定标签",
+    "definition_status": "原始未知类别",
+    "external_pijuan_candidates": "NA",
+    "mapping_basis": "保留数量；Unknown与NA只标未映射，不赋生物类型",
+    "primary_mapping_permitted": false,
+    "evidence_ids": [
+      "PV006",
+      "PV020",
+      "PV025"
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "claims": 34,
+  "statuses": {
+    "条件不可比": 20,
+    "面板未覆盖": 5,
+    "证据不足": 6,
+    "观测一致": 2,
+    "结果混合": 1
+  },
+  "graph_nodes": 170,
+  "graph_edges": 392,
+  "sqlite_integrity": "ok",
+  "sqlite_foreign_keys": "ok",
+  "all_claims_have_evaluation": true,
+  "all_edges_have_conditions_and_evidence": true,
+  "raw_pipeline_checks_pass": true,
+  "json_html_payload_records": 34,
+  "visual_check": "passed; figures and desktop/mobile screenshots inspected",
+  "all_final_checks": [
+    {
+      "check": "received_results_hashes",
+      "passed": true,
+      "files": 29
+    },
+    {
+      "check": "received_supplement_hashes",
+      "passed": true,
+      "files": 7
+    },
+    {
+      "check": "jsonl_csv_sqlite_graphml_graph_values_agree",
+      "passed": true,
+      "claims": 34,
+      "nodes": 170,
+      "edges": 392
+    },
+    {
+      "check": "reading_copy_matches_frozen_knowledge",
+      "passed": true,
+      "claims": 34,
+      "knowledge_sha256": "db50f5e632a232429a3979e751fbd442a0a8f4bab86db216d8311dda34e5e868"
+    },
+    {
+      "check": "generated_reports_and_links",
+      "passed": true,
+      "documents": 8,
+      "local_links": 119
+    }
+  ],
+  "independent_result_checks": 228,
+  "independent_checks_all_passed": true,
+  "source_freeze_fields_preserved": true,
+  "claim_testability_rows": 136,
+  "frozen_run02_result_files_unchanged": true,
+  "scientific_limits": [
+    "no individual IDs in official files",
+    "E8.0 fractional count-weight origin unverified",
+    "verified-count stage holdout ineligible"
+  ],
+  "completed_at_utc": "2026-11-16T05:32:37.266801+00:00"
+}

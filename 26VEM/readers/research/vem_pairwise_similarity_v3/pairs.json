@@ -1,0 +1,1114 @@
+[
+  {
+    "id": "P001",
+    "task": "T2 胚胎",
+    "official": "OFF_T2_embryo_E6.75",
+    "official_stage": "E6.75",
+    "external": "EMTAB_FULL",
+    "external_stage": "E6.75",
+    "external_ids": [
+      "VED-001"
+    ],
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "groups": [
+      {
+        "key": "allantois",
+        "name": "尿囊",
+        "official": [
+          "Allantois"
+        ],
+        "external": [
+          "Allantois"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "streak",
+        "name": "原条",
+        "official": [
+          "Primitive Streak"
+        ],
+        "external": [
+          "Primitive Streak"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "caudal_epiblast",
+        "name": "尾侧上胚层",
+        "official": [
+          "Caudal Epiblast"
+        ],
+        "external": [
+          "Caudal epiblast"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_ectoderm",
+        "name": "胚外外胚层",
+        "official": [
+          "EXE-Ectoderm"
+        ],
+        "external": [
+          "ExE ectoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_endoderm",
+        "name": "胚外内胚层",
+        "official": [
+          "EXE-Endoderm"
+        ],
+        "external": [
+          "ExE endoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "blood_progenitor",
+        "name": "血液祖细胞",
+        "official": [
+          "Blood Progenitor"
+        ],
+        "external": [
+          "Blood progenitors 1",
+          "Blood progenitors 2"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P002",
+    "task": "T2 胚胎",
+    "official": "OFF_T2_embryo_E7.25",
+    "official_stage": "E7.25",
+    "external": "EMTAB_FULL",
+    "external_stage": "E7.25",
+    "external_ids": [
+      "VED-001"
+    ],
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "groups": [
+      {
+        "key": "allantois",
+        "name": "尿囊",
+        "official": [
+          "Allantois"
+        ],
+        "external": [
+          "Allantois"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "streak",
+        "name": "原条",
+        "official": [
+          "Primitive Streak"
+        ],
+        "external": [
+          "Primitive Streak"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "caudal_epiblast",
+        "name": "尾侧上胚层",
+        "official": [
+          "Caudal Epiblast"
+        ],
+        "external": [
+          "Caudal epiblast"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_ectoderm",
+        "name": "胚外外胚层",
+        "official": [
+          "EXE-Ectoderm"
+        ],
+        "external": [
+          "ExE ectoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_endoderm",
+        "name": "胚外内胚层",
+        "official": [
+          "EXE-Endoderm"
+        ],
+        "external": [
+          "ExE endoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "blood_progenitor",
+        "name": "血液祖细胞",
+        "official": [
+          "Blood Progenitor"
+        ],
+        "external": [
+          "Blood progenitors 1",
+          "Blood progenitors 2"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P003",
+    "task": "T2 胚胎",
+    "official": "OFF_T2_embryo_E8.0",
+    "official_stage": "E8.0",
+    "external": "EMTAB_FULL",
+    "external_stage": "E8.0",
+    "external_ids": [
+      "VED-001"
+    ],
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "groups": [
+      {
+        "key": "allantois",
+        "name": "尿囊",
+        "official": [
+          "Allantois"
+        ],
+        "external": [
+          "Allantois"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "streak",
+        "name": "原条",
+        "official": [
+          "Primitive Streak"
+        ],
+        "external": [
+          "Primitive Streak"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "caudal_epiblast",
+        "name": "尾侧上胚层",
+        "official": [
+          "Caudal Epiblast"
+        ],
+        "external": [
+          "Caudal epiblast"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_ectoderm",
+        "name": "胚外外胚层",
+        "official": [
+          "EXE-Ectoderm"
+        ],
+        "external": [
+          "ExE ectoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_endoderm",
+        "name": "胚外内胚层",
+        "official": [
+          "EXE-Endoderm"
+        ],
+        "external": [
+          "ExE endoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "blood_progenitor",
+        "name": "血液祖细胞",
+        "official": [
+          "Blood Progenitor"
+        ],
+        "external": [
+          "Blood progenitors 1",
+          "Blood progenitors 2"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P004",
+    "task": "T2 胚胎",
+    "official": "OFF_T2_embryo_E8.0",
+    "official_stage": "E8.0",
+    "external": "STEREO_E8_rep1",
+    "external_stage": "E8.0",
+    "external_ids": [
+      "VED-020"
+    ],
+    "external_name": "VED-020 · Stereo-seq 胚胎三维重建图谱｜重复1",
+    "groups": [
+      {
+        "key": "allantois",
+        "name": "尿囊",
+        "official": [
+          "Allantois"
+        ],
+        "external": [
+          "Allantois"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "streak",
+        "name": "原条",
+        "official": [
+          "Primitive Streak"
+        ],
+        "external": [
+          "Primitive Streak"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "caudal_epiblast",
+        "name": "尾侧上胚层",
+        "official": [
+          "Caudal Epiblast"
+        ],
+        "external": [
+          "Caudal epiblast"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_ectoderm",
+        "name": "胚外外胚层",
+        "official": [
+          "EXE-Ectoderm"
+        ],
+        "external": [
+          "ExE ectoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_endoderm",
+        "name": "胚外内胚层",
+        "official": [
+          "EXE-Endoderm"
+        ],
+        "external": [
+          "ExE endoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "blood_progenitor",
+        "name": "血液祖细胞",
+        "official": [
+          "Blood Progenitor"
+        ],
+        "external": [
+          "Blood progenitors 1",
+          "Blood progenitors 2"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "外部是全胚切片重建对象；官方为心脏新月的分割细胞，非同单位占比",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P005",
+    "task": "T2 胚胎",
+    "official": "OFF_T2_embryo_E8.0",
+    "official_stage": "E8.0",
+    "external": "STEREO_E8_rep2",
+    "external_stage": "E8.0",
+    "external_ids": [
+      "VED-020"
+    ],
+    "external_name": "VED-020 · Stereo-seq 胚胎三维重建图谱｜重复2",
+    "groups": [
+      {
+        "key": "allantois",
+        "name": "尿囊",
+        "official": [
+          "Allantois"
+        ],
+        "external": [
+          "Allantois"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "streak",
+        "name": "原条",
+        "official": [
+          "Primitive Streak"
+        ],
+        "external": [
+          "Primitive Streak"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "caudal_epiblast",
+        "name": "尾侧上胚层",
+        "official": [
+          "Caudal Epiblast"
+        ],
+        "external": [
+          "Caudal epiblast"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_ectoderm",
+        "name": "胚外外胚层",
+        "official": [
+          "EXE-Ectoderm"
+        ],
+        "external": [
+          "ExE ectoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "exe_endoderm",
+        "name": "胚外内胚层",
+        "official": [
+          "EXE-Endoderm"
+        ],
+        "external": [
+          "ExE endoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "blood_progenitor",
+        "name": "血液祖细胞",
+        "official": [
+          "Blood Progenitor"
+        ],
+        "external": [
+          "Blood progenitors 1",
+          "Blood progenitors 2"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "外部是全胚切片重建对象；官方为心脏新月的分割细胞，非同单位占比",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P006",
+    "task": "T1",
+    "official": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external": "EMTAB_FULL",
+    "external_stage": "E8.5",
+    "external_ids": [
+      "VED-001"
+    ],
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "groups": [
+      {
+        "key": "surface",
+        "name": "表面外胚层",
+        "official": [
+          "Surface Ectoderm"
+        ],
+        "external": [
+          "Surface ectoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "endothelium",
+        "name": "内皮",
+        "official": [
+          "Endothelium"
+        ],
+        "external": [
+          "Endothelium"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "paraxial",
+        "name": "轴旁中胚层",
+        "official": [
+          "Paraxial Mesoderm"
+        ],
+        "external": [
+          "Paraxial mesoderm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "neural_crest",
+        "name": "神经嵴",
+        "official": [
+          "NCC"
+        ],
+        "external": [
+          "Neural crest"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "cardiomyocyte",
+        "name": "心肌大类（范围敏感性）",
+        "official": [
+          "LV-CM",
+          "RV-CM",
+          "OFT/RV-CM",
+          "IFT-CM",
+          "AVC-CM",
+          "SV-CM"
+        ],
+        "external": [
+          "Cardiomyocytes"
+        ],
+        "primary": false,
+        "note": "官方多个命名心肌亚类合并；外部心肌大类可能有不同成熟度范围"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "官方为心脏及周边细胞核，外部为全胚解离细胞",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P007",
+    "task": "T1",
+    "official": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external": "TOME4_E85",
+    "external_stage": "E8.5",
+    "external_ids": [
+      "VED-004"
+    ],
+    "external_name": "VED-004 · TOME E8.5 全胚胎图谱",
+    "groups": [
+      {
+        "key": "endothelium",
+        "name": "内皮",
+        "official": [
+          "Endothelium"
+        ],
+        "external": [
+          "Endothelium"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "paraxial",
+        "name": "轴旁中胚层",
+        "official": [
+          "Paraxial Mesoderm"
+        ],
+        "external": [
+          "Paraxial mesoderm A",
+          "Paraxial mesoderm B"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "neural_crest",
+        "name": "神经嵴",
+        "official": [
+          "NCC"
+        ],
+        "external": [
+          "Neural crest"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "shf",
+        "name": "第二心场（范围敏感性）",
+        "official": [
+          "aSHF",
+          "pSHF"
+        ],
+        "external": [
+          "Second heart field"
+        ],
+        "primary": false,
+        "note": "官方前/后第二心场合并，与外部整体第二心场的操作边界未完全核实"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "双方均为核RNA；外部为全胚，样本字段为12个RT组",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P008",
+    "task": "T1",
+    "official": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external": "TOME3_E95",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-003",
+      "VED-008"
+    ],
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "groups": [
+      {
+        "key": "hepatocyte",
+        "name": "肝细胞",
+        "official": [
+          "Hepatocyte"
+        ],
+        "external": [
+          "Hepatocytes"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "shf",
+        "name": "第二心场（范围敏感性）",
+        "official": [
+          "aSHF",
+          "pSHF"
+        ],
+        "external": [
+          "Second heart field"
+        ],
+        "primary": false,
+        "note": "官方前/后第二心场合并，与外部整体第二心场的操作边界未完全核实"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "同一细胞ID连接VED-008计数和VED-003标签/QC，只算一份证据；全胚与官方心脏周边范围不同",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P009",
+    "task": "T1",
+    "official": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external": "QIU228590",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-007"
+    ],
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "groups": [
+      {
+        "key": "ventricular",
+        "name": "心室心肌",
+        "official": [
+          "V-CM"
+        ],
+        "external": [
+          "Ventricular cardiomyocytes"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "endocardium",
+        "name": "心内膜",
+        "official": [
+          "Endocardium"
+        ],
+        "external": [
+          "Endocardial cells"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "shf",
+        "name": "第二心场（范围敏感性）",
+        "official": [
+          "aSHF",
+          "pSHF"
+        ],
+        "external": [
+          "Second heart field"
+        ],
+        "primary": false,
+        "note": "官方前/后第二心场合并，与外部整体第二心场的操作边界未完全核实"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "外部是已筛出的心场和心内膜核，不能从此计算全胚组成",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P010",
+    "task": "T2 心脏",
+    "official": "OFF_T2_heart_E8.75",
+    "official_stage": "E8.75",
+    "external": "QIU228590",
+    "external_stage": "E8.75",
+    "external_ids": [
+      "VED-007"
+    ],
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "groups": [
+      {
+        "key": "ventricular",
+        "name": "心室心肌",
+        "official": [
+          "V-CM"
+        ],
+        "external": [
+          "Ventricular cardiomyocytes"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "atrial",
+        "name": "心房心肌",
+        "official": [
+          "A-CM"
+        ],
+        "external": [
+          "Atrial cardiomyocytes"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "endo_region",
+        "name": "心腔内皮／心内膜（范围敏感性）",
+        "official": [
+          "Chamber-Endo"
+        ],
+        "external": [
+          "Endocardial cells"
+        ],
+        "primary": false,
+        "note": "不能把心腔内皮子集当作整个心内膜"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P011",
+    "task": "T2 心脏",
+    "official": "OFF_T2_heart_E9.5",
+    "official_stage": "E9.5",
+    "external": "QIU228590",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-007"
+    ],
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "groups": [
+      {
+        "key": "ventricular",
+        "name": "心室心肌",
+        "official": [
+          "V-CM"
+        ],
+        "external": [
+          "Ventricular cardiomyocytes"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "atrial",
+        "name": "心房心肌",
+        "official": [
+          "A-CM"
+        ],
+        "external": [
+          "Atrial cardiomyocytes"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "endo_region",
+        "name": "心腔内皮／心内膜（范围敏感性）",
+        "official": [
+          "Chamber-Endo"
+        ],
+        "external": [
+          "Endocardial cells"
+        ],
+        "primary": false,
+        "note": "不能把心腔内皮子集当作整个心内膜"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P012",
+    "task": "T1",
+    "official": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external": "FENG193346_CD1",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-012"
+    ],
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "groups": [
+      {
+        "key": "ventricular",
+        "name": "心室心肌",
+        "official": [
+          "V-CM"
+        ],
+        "external": [
+          "ventricular_cm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "endocardium",
+        "name": "心内膜",
+        "official": [
+          "Endocardium"
+        ],
+        "external": [
+          "endocardial_ec"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "blood",
+        "name": "血液细胞",
+        "official": [
+          "Blood"
+        ],
+        "external": [
+          "blood"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "CD1分心腔样本；与官方细胞核的观测单位不同",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P013",
+    "task": "T2 心脏",
+    "official": "OFF_T2_heart_E9.5",
+    "official_stage": "E9.5",
+    "external": "FENG193346_CD1",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-012"
+    ],
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "groups": [
+      {
+        "key": "ventricular",
+        "name": "心室心肌",
+        "official": [
+          "V-CM"
+        ],
+        "external": [
+          "ventricular_cm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "atrial",
+        "name": "心房心肌",
+        "official": [
+          "A-CM"
+        ],
+        "external": [
+          "atrial_cm"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      },
+      {
+        "key": "endo_region",
+        "name": "心腔内皮／心内膜（范围敏感性）",
+        "official": [
+          "Chamber-Endo"
+        ],
+        "external": [
+          "endocardial_ec"
+        ],
+        "primary": false,
+        "note": "官方仅心腔内皮；外部为心内膜大类"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "分心腔解离细胞与空间分割细胞不同；心房小样本保留",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P014",
+    "task": "T1",
+    "official": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external": "DESOYSA_WT",
+    "external_stage": "E8.25",
+    "external_ids": [
+      "VED-006"
+    ],
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "groups": [],
+    "kind": "near_stage",
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P015",
+    "task": "T1",
+    "official": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external": "DESOYSA_WT",
+    "external_stage": "E9.25",
+    "external_ids": [
+      "VED-006"
+    ],
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "groups": [],
+    "kind": "near_stage",
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P016",
+    "task": "T2 心脏",
+    "official": "OFF_T2_heart_E8.25_late",
+    "official_stage": "E8.25",
+    "external": "DESOYSA_WT",
+    "external_stage": "E8.25",
+    "external_ids": [
+      "VED-006"
+    ],
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "groups": [],
+    "kind": "same_stage_untyped",
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P017",
+    "task": "T2 心脏",
+    "official": "OFF_T2_heart_E9.5",
+    "official_stage": "E9.5",
+    "external": "DESOYSA_WT",
+    "external_stage": "E9.25",
+    "external_ids": [
+      "VED-006"
+    ],
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "groups": [],
+    "kind": "near_stage",
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P018",
+    "task": "T1",
+    "official": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external": "MOSTA_E9.5",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-009"
+    ],
+    "external_name": "VED-009 · MOSTA 心脏空间图谱",
+    "groups": [],
+    "kind": "spatial_background",
+    "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P019",
+    "task": "T2 心脏",
+    "official": "OFF_T2_heart_E9.5",
+    "official_stage": "E9.5",
+    "external": "MOSTA_E9.5",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-009"
+    ],
+    "external_name": "VED-009 · MOSTA 心脏空间图谱",
+    "groups": [],
+    "kind": "spatial_background",
+    "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P020",
+    "task": "T2 胚胎",
+    "official": "OFF_T2_embryo_E7.25",
+    "official_stage": "E7.25",
+    "external": "MESP1_ALLOWED",
+    "external_stage": "E7.25",
+    "external_ids": [
+      "VED-002"
+    ],
+    "external_name": "VED-002 · Mesp1 早期心脏谱系图谱",
+    "groups": [],
+    "kind": "same_stage_untyped",
+    "note": "外部FACS富集Mesp1谱系、缺细胞类型，不代表全胚或全心脏",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P021",
+    "task": "T2 心脏",
+    "official": "OFF_T2_heart_E8.25_late",
+    "official_stage": "E8.25",
+    "external": "MESP1_ALLOWED",
+    "external_stage": "E8.25",
+    "external_ids": [
+      "VED-002"
+    ],
+    "external_name": "VED-002 · Mesp1 早期心脏谱系图谱",
+    "groups": [],
+    "kind": "same_stage_untyped",
+    "note": "外部FACS富集Mesp1谱系、缺细胞类型，不代表全胚或全心脏",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P022",
+    "task": "T1",
+    "official": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external": "HEART230531_E85",
+    "external_stage": "E8.5",
+    "external_ids": [
+      "VED-010"
+    ],
+    "external_name": "VED-010 · 胚胎与心脏单细胞图谱",
+    "groups": [],
+    "kind": "qc_sensitivity",
+    "note": "旧knee筛选的第2份E8.5；第1份文件损坏；无类型标签，整体结果仅作筛选敏感性",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P023",
+    "task": "T1",
+    "official": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external": "OSR1_E95",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-019"
+    ],
+    "external_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+    "groups": [
+      {
+        "key": "shf_subset",
+        "name": "第二心场／Osr1阳性子集",
+        "official": [
+          "aSHF",
+          "pSHF"
+        ],
+        "external": [
+          "Osr1+ SHF"
+        ],
+        "primary": false,
+        "note": "Osr1阳性只覆盖第二心场子集；不能把同名区域视为相同细胞组成"
+      }
+    ],
+    "kind": "selection_sensitivity",
+    "note": "整数样式未充分证明原始UMI，归一化结果仅作权重敏感性",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  },
+  {
+    "id": "P024",
+    "task": "T2 心脏",
+    "official": "OFF_T2_heart_E9.5",
+    "official_stage": "E9.5",
+    "external": "TOME3_E95",
+    "external_stage": "E9.5",
+    "external_ids": [
+      "VED-003",
+      "VED-008"
+    ],
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "groups": [
+      {
+        "key": "hepatocyte",
+        "name": "肝细胞",
+        "official": [
+          "Hepatocytes"
+        ],
+        "external": [
+          "Hepatocytes"
+        ],
+        "primary": true,
+        "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+      }
+    ],
+    "kind": "same_stage",
+    "note": "计数/注释来自两项共享数据的研究，只算一份证据",
+    "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证"
+  }
+]

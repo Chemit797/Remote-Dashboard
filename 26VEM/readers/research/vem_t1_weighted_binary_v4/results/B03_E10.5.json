@@ -1,0 +1,174 @@
+{
+  "id": "B03_E10.5",
+  "row_id": "B03",
+  "external_dataset": "TOME3_E95",
+  "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+  "external_ids": [
+    "VED-003",
+    "VED-008"
+  ],
+  "official_dataset": "OFF_T1_E10.5_RNA",
+  "official_stage": "E10.5",
+  "external_stage": "E9.5",
+  "same_stage": false,
+  "note": "同一细胞ID连接VED-008计数和VED-003标签/QC，只算一份证据；全胚与官方心脏周边范围不同",
+  "kind": "same_stage",
+  "common_genes": 20998,
+  "official_genes": 32285,
+  "external_genes": 26133,
+  "official_coverage": 0.6503949202415983,
+  "external_coverage": 0.8035051467493208,
+  "official_n": 24979,
+  "external_n": 110229,
+  "official_unit": "nucleus",
+  "external_unit": "nucleus",
+  "official_samples": [
+    {
+      "sample": "OFF_T1_E10.5_RNA",
+      "n": 24979
+    }
+  ],
+  "external_samples": [
+    {
+      "sample": "embryo1.0",
+      "n": 14915
+    },
+    {
+      "sample": "embryo19.0",
+      "n": 3970
+    },
+    {
+      "sample": "embryo20.0",
+      "n": 2686
+    },
+    {
+      "sample": "embryo21.0",
+      "n": 11836
+    },
+    {
+      "sample": "embryo22.0",
+      "n": 5428
+    },
+    {
+      "sample": "embryo3.0",
+      "n": 7661
+    },
+    {
+      "sample": "embryo39.0",
+      "n": 6601
+    },
+    {
+      "sample": "embryo40.0",
+      "n": 7153
+    },
+    {
+      "sample": "embryo41.0",
+      "n": 3538
+    },
+    {
+      "sample": "embryo42.0",
+      "n": 8090
+    },
+    {
+      "sample": "embryo55.0",
+      "n": 3839
+    },
+    {
+      "sample": "embryo56.0",
+      "n": 7647
+    },
+    {
+      "sample": "embryo57.0",
+      "n": 9228
+    },
+    {
+      "sample": "embryo58.0",
+      "n": 7533
+    },
+    {
+      "sample": "embryo63.0",
+      "n": 10104
+    }
+  ],
+  "j01": 0.24664233825623857,
+  "b01": 0.8968904157979635,
+  "detection_mean_abs_pp": 10.310958420203654,
+  "detection_spearman": 0.8784828383548107,
+  "official_zero_fraction": 0.8638534929203373,
+  "external_zero_fraction": 0.9655226723811104,
+  "official_zero_rows": 0,
+  "external_zero_rows": 0,
+  "both_all_zero_genes": 21,
+  "both_detected_genes": 20620,
+  "official_only_detected_genes": 69,
+  "external_only_detected_genes": 288,
+  "cell_detection_quantiles": {
+    "official": {
+      "p10": 0.06619678064577579,
+      "median": 0.13263167920754357,
+      "p90": 0.21221068673206972
+    },
+    "external": {
+      "p10": 0.017096866368225546,
+      "median": 0.0313363177445471,
+      "p90": 0.056957805505286216
+    }
+  },
+  "cell_detection_wasserstein_pp": 10.166917946080932,
+  "shuffled_j01_median": 0.10550982079001534,
+  "shuffled_j01_all": [
+    0.10519599758631862,
+    0.1058161000647781,
+    0.10527335837818234,
+    0.10752436760141922,
+    0.10749304500774955,
+    0.10518270073110056,
+    0.10544621689961224,
+    0.10758632678856843,
+    0.10491694191002542,
+    0.10510968634761732,
+    0.10421780137251625,
+    0.10645825217132328,
+    0.10557342468041842,
+    0.10431732759152613,
+    0.1043139396832971,
+    0.10450527107843914,
+    0.10642097571090309,
+    0.1074809937352161,
+    0.10773466630624158,
+    0.10732345116953865
+  ],
+  "binary_pattern": {
+    "n_draw": 256,
+    "seeds": [
+      2026111601,
+      2026111602,
+      2026111603
+    ],
+    "runs": [
+      {
+        "seed": 2026111601,
+        "cross": 0.15481147510988583,
+        "within_official": 0.0068643362121938445,
+        "within_external": 0.007039331774804591
+      },
+      {
+        "seed": 2026111602,
+        "cross": 0.1535494318987184,
+        "within_official": 0.005847803548663211,
+        "within_external": 0.007181102934949085
+      },
+      {
+        "seed": 2026111603,
+        "cross": 0.15558989501246895,
+        "within_official": 0.006037869785755046,
+        "within_external": 0.006977547144958907
+      }
+    ],
+    "cross_mean": 0.15465026734035772,
+    "cross_min": 0.1535494318987184,
+    "cross_max": 0.15558989501246895,
+    "within_official_mean": 0.006250003182204034,
+    "within_external_mean": 0.007065993951570861
+  }
+}

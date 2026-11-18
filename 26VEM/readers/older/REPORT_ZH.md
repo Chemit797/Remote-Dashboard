@@ -1,0 +1,161 @@
+# 官方与同任务外部数据的基因面板、表达相似度实测
+
+2026-11-15，在 5090 上完成。两项请求都已处理：本报告回答“外部数据到底有多像官方”，[第二份报告](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/OFFICIAL_GENE_TARGET_SELECTION_ZH.md)回答“官方如何选择测量基因、阶段目标和敲除靶点”。
+
+**主要结论：外部数据通常能覆盖大部分空间 panel，但这并不代表它们具有相同的表达分布。T1 找到了同阶段、同类型上较接近的外部 RNA；T2 的跨测量差异仍很大；T3 即使同为 Gata4 KO，也不能忽略年龄、Cre、背景等位和对照基因型。**
+
+## 本次实际做了什么
+
+读取 15 个官方文件（9 个训练、6 个已释放验证文件），对照 13 个 VED 来源条目的 30 个外部阶段/样本组，共 45 个分析组。完成 **224 项主比较与对照**，另有固定基因集、同基因三方比较和稳定基因 ID 核对。MOCA/TOME/Qiu 等相关资源不能视为独立生物重复。
+
+验证文件位置仍是 `/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1`。这些答案此前已做过诊断，本次用途是描述性研究，不是新盲测。
+
+每组均匀抽最多 4,000 个细胞/细胞核/空间单位；有作者标签时，另按心肌、广义心脏谱系或内皮抽最多 1,600 个。额外类型抽样不混入全部细胞样本。种子固定为 20261115，原始行号与样本 ID 全部保存。
+
+## 1. 基因覆盖：按可用阶段的真实矩阵重算
+
+| 实际外部文件/表示 | 对 T1 的精确名称覆盖 | 对 500 空间 panel 的精确名称覆盖 | 稳定 ID 补充核对后的空间覆盖 |
+|---|---:|---:|---:|
+| Pijuan-Sala E8.25，单细胞 | 26,800/32,285（83.0%） | 498/500（99.6%） | 500/500 |
+| Mesp1 谱系 E8.25，单细胞 | 25,954/32,285（80.4%） | 495/500（99.0%） | 未做原生 ID 核对 |
+| MOCA/TOME-QC E9.5，细胞核 | 21,019/32,285（65.1%） | 493/500（98.6%） | 496/500 |
+| TOME E8.5，细胞核（表达仅用于 T1） | 28,314/32,285（87.7%） | 497/500（99.4%） | 500/500 |
+| de Soysa E9.25，单细胞 | 17,405/32,285（53.9%） | 467/500（93.4%） | 未做原生 ID 核对 |
+| Qiu 心场 E9.5，细胞核 | 26,983/32,285（83.6%） | 494/500（98.8%） | 500/500 |
+| Feng 心脏 E9.5，单细胞 | 29,715/32,285（92.0%） | 498/500（99.6%） | 未做原生 ID 核对 |
+| MOSTA 心脏 E9.5，cell-bin | 12,418/32,285（38.5%） | 380/500（76.0%） | 未做原生 ID 核对 |
+| Stereo-seq E8.0，重复 1 | 16,098/32,285（49.9%） | 450/500（90.0%） | 未做原生 ID 核对 |
+| Stereo-seq E8.0，重复 2 | 18,358/32,285（56.9%） | 480/500（96.0%） | 未做原生 ID 核对 |
+| MERSCOPE E9.5，区域 1 | 296/32,285（0.9%） | 68/500（13.6%） | 未做原生 ID 核对 |
+| GSE216970 E9.5，内皮富集 | 25,943/32,285（80.4%） | 495/500（99.0%） | 500/500 |
+| GSE208162 E12.5（表达仅用于 T3） | 31,899/32,285（98.8%） | 500/500（100.0%） | 未做原生 ID 核对 |
+| Visium E16，心脏 spot | 32,245/32,285（99.9%） | 500/500（100.0%） | 未做原生 ID 核对 |
+
+表中覆盖的是**文件的基因轴**，不是“这些基因在每个细胞都被检出”。T1/空间两列是名单核对；不是给每个来源授权跨任务使用。TOME E8.5 表达只作 T1 比较，GSE208162 E12.5 表达只作有特定许可的 T3 比较。
+
+![实际基因覆盖](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/panel_coverage.png)
+
+这次纠正了三类容易混淆的数字：
+
+- **MOSTA E9.5 实际是 380/500（76%）**。旧汇总的 491/500 是多阶段合并的覆盖，不能当成允许使用的 E9.5 文件覆盖；本次没有使用受保护的 E11.5 表达。
+- **Stereo-seq E8.0 两个重复分别为 450/500、480/500**；若按当前胚胎 test 的 497 列，则是 448/497、478/497。按实际重复计算，比一个全数据集汇总值更有意义。
+- **外部 MERSCOPE 315 列里有 19 个 Blank 控制，真正的基因列是 296 个**；与官方 500 面板重合 68 个（13.6%）。同一仪器品牌/同类测量并不意味着同一 panel。
+
+### 一些“缺失”只是命名不同
+
+主分析先固定精确名称匹配；随后用外部原生 Ensembl ID 与现代 10x feature 注释做了补充核对。例如：
+
+| 官方符号 | 外部符号 | 稳定 ID |
+|---|---|---|
+| Ccn5 | Wisp2 | ENSMUSG00000027656 |
+| Cemip2 | Tmem2 | ENSMUSG00000024754 |
+| Cnmd | Lect1 | ENSMUSG00000022025 |
+| AI646519 | Pax1dt | ENSMUSG00000087521 |
+| Pifo | Cimap3 | ENSMUSG00000010136 |
+
+因此 Pijuan 498、TOME 497、Qiu 494、GSE216970 495 的空间覆盖，均可在这份参考 ID 映射下补齐到 **500/500**；MOCA 从 493 补到 496。T1 也受命名影响：例如 Pijuan 从 26,800 补到 28,707，Qiu 从 26,983 补到 28,989。
+
+官方 H5AD 的 var 只有符号，未附对应 Ensembl ID。上述补充是**有外部稳定 ID 支持的敏感性核对**，不是官方发布的 ID 对照表，也没有悄悄改写主分析。没有原生 ID 的来源未强行套别名；特别是不能把每个缺列都当作改名。
+
+明细：[panel_coverage.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/panel_coverage.csv)、[missing_genes.json](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/missing_genes.json)、[alias_coverage_sensitivity.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/alias_coverage_sensitivity.csv)、[alias_examples.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/alias_examples.csv)。
+
+## 2. 表达相似度：相同基因不等于相同分布
+
+对每一对数据，只使用共同的实测基因，先将每个细胞的线性表达在该共同面板上归一化至和为 1，再取各基因的细胞均值。这里的“表达 Spearman”比较这些均值的排序，使用至少在任一侧 1% 抽样细胞中检出的基因，避免大量双方不表达的基因把相关性抬高。JS 距离比较整个共同面板上的平均表达份额；0 表示相同，越大差异越大。
+
+**ρ 不是相似百分比，JS 也不是官方分数。** 两个指标可能给出不同次序，不合成一个总分；本次没有拟合预测模型或据此宣称官方得分会提高。
+
+| 对照 | 使用的共同基因数 | 表达 Spearman ρ | JS 距离 |
+|---|---:|---:|---:|
+| T1 E9.5 ↔ Feng E9.5，全部细胞 | 29,715 | 0.858 | 0.336 |
+| T1 E9.5 ↔ Feng E9.5，心肌细胞 | 29,715 | 0.894 | 0.279 |
+| T1 E8.5 ↔ Pijuan E8.5，心肌细胞 | 26,800 | 0.819 | 0.392 |
+| T1 E8.5 ↔ TOME E8.5，广义心脏谱系 | 28,314 | 0.840 | 0.482 |
+| T2 胚胎 E8.0 ↔ Stereo-seq 重复 1，全部单位 | 448 | 0.448 | 0.677 |
+| T2 胚胎 E8.0 ↔ Stereo-seq 重复 2，全部单位 | 478 | 0.488 | 0.651 |
+| T2 心脏 E9.5 ↔ Feng E9.5，心肌细胞 | 498 | 0.443 | 0.642 |
+| T2 心脏 E9.5 ↔ MOSTA E9.5，全部单位 | 380 | 0.359 | 0.616 |
+| T2 心脏 E9.5 ↔ MERSCOPE E9.5 区域 1 | 68 | 0.598 | 0.523 |
+| 官方 Gata4 KO1 ↔ 外部 E12.5 Gata4 KO1 | 500 | 0.211 | 0.720 |
+| 官方 Gata4 KO1 ↔ 官方 KO2，生物重复 | 500 | 0.942 | 0.151 |
+
+各对共同基因不同，因此此表不能直接当作外部数据排行榜。广义心脏谱系包含心场/前体，与成熟心肌标签不完全等价；全部细胞比较还混合取材和组成差异。
+
+![表达比较](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/expression_similarity.png)
+
+### 最重要的公平对照：三方固定同一组基因
+
+把官方 E9.5 核 RNA、官方 E9.5 MERFISH、Feng E9.5 都限制在**同一批 498 个共同基因、同为心肌细胞**；再统一用三方至少一方达到 1% 检出的 **437 个基因**计算相关性：
+
+| 同基因、同名阶段、同类型比较 | Spearman ρ | JS（498 基因） |
+|---|---:|---:|
+| 官方 T1 核 RNA ↔ Feng RNA | 0.792 | 0.411 |
+| 官方 MERFISH ↔ Feng RNA | 0.479 | 0.642 |
+| 官方 T1 核 RNA ↔ 官方 MERFISH | 0.454 | 0.581 |
+
+这排除了“只是 T1 用三万基因、T2 用五百基因”这一解释。**即使同一官方实验团队、同阶段、同粗类型，两种测量的平均基因份额也差异明显。** 官方明确说明两种实验不来自同一批胚胎；细胞核与分割细胞、取材、测量、注释及群内状态都可能参与，不能将差异单独归因于平台。
+
+该三方样本中，每个心肌单位在 498 基因上的检出基因数中位数为：官方核 RNA 99、MERFISH 37、Feng 103。这是观察到的检出模式差异，不是基因轴是否存在的差异。
+
+其他固定交集核对也保留主要现象：T1 多来源共同 15,388 基因上，官方–Feng 心肌 ρ=0.893；E8.0 胚胎各来源统一 448 基因后，官方–Stereo 两重复 ρ=0.448/0.482。详见 [fixed_panel_sensitivity.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/fixed_panel_sensitivity.csv)、[same_panel_control.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/same_panel_control.csv)。
+
+## 3. 分任务怎么理解
+
+### T1
+
+Feng E9.5 是本轮同阶段、同细胞大类的清晰对照：心肌 705 个、内皮 70 个，因此心肌证据比小样本内皮更稳。官方是 Black Swiss 的 Multiome 核 RNA，Feng E9.5 是 CD1；两者不是完全匹配的采样。
+
+Pijuan E8.5 心肌与官方 T1 的 ρ=0.819；TOME E8.5 广义心脏谱系为 0.840，说明外部早期心脏 RNA 有可用的相近表达信息。MOCA 整胚全部细胞 ρ=0.725，按广义心脏谱系提高至 0.776，也提醒我们不能把整胚组成直接照搬到官方心脏周围取材。
+
+这些是**状态相似性**，没有验证“从早期推到 E12.5 的发育变化是否正确”。外部 E14.5/E16 对 E10.5 的对照在完整结果中保留为明确的阶段错位诊断，不能称作同阶段验证。
+
+### T2 胚胎
+
+E8.0 Stereo-seq 两重复对官方的 ρ=0.448/0.488，而两个外部重复彼此 ρ=0.939。官方 E8.0 随机分半的 ρ=0.992。这说明主要差距远超过本次抽样噪声，但不能只凭这些对照把原因分解为平台、区域或标签差异。
+
+还要注意官方最新具体协议：E8.0 只收从卵黄囊–胚胎边界到心月牙消失层面的切片，不能把“whole embryo setting”理解成与外部整胚采样严格相同。Stereo-seq 的标签也有参考映射成分，不是独立的细胞类型真值。
+
+E7.25 官方的检出较浅，按 497 面板每个单位约 16–17 个基因；对 Pijuan 同名阶段的 ρ 只有 0.157。这种低检出和区域差异需要先解释，不能因覆盖接近 100% 就把外部表达直接作为官方答案的替身。
+
+### T2 心脏
+
+RNA 数据很容易在符号/ID 上覆盖整个 500 panel，实际表达份额仍有明显差距。MOSTA E9.5 保留空间信息，却只剩 380 个共同基因，而且单位是 cell-bin；其相对官方 ρ=0.359，不能简单认为“空间数据必然更像空间数据”。
+
+MERSCOPE E9.5 区域 1 的 ρ=0.598 是在 68 个共同基因上得到的；区域 0 是 0.267。少量精选基因、不同区域和 500 基因全局分布不是同一个问题，因此不能凭 0.598 将它列为最佳全 panel 教师。
+
+3D 坐标属于各胚胎局部坐标系，本轮未做跨文件最近邻、未宣称外部位置更接近真实解剖。MOSTA 的 X 数值呈计数兼容，但其归一化说明未完全确认，相关结果应保留这项限制。
+
+### T3
+
+有组织方专项许可的 GSE208162 覆盖 500/500，但它是 **E12.5、Cdh5-CreERT2、KO 对 Het**；官方是 **E8.75、Mesp1-Cre、Gata4 F/F; Gata6 F/+、KO 对 WT**。外部 KO 对官方 KO 的全部细胞表达 ρ 仅 0.211–0.226；官方两 KO 生物重复之间为 0.942，心肌为 0.957。
+
+额外做了相对表达响应的描述性核对：外部 KO–Het 对官方 KO–WT，ρ=-0.094，符号一致率 43.3%（478 个有检出支持的基因，份额加 1e-6 后算 log2 比值）。这是被年龄、驱动、背景、组成和对照类别共同混杂的结果，**不能据此断言 Gata4 机制相反**；它说明这份外部数据不能不经验证就替代官方扰动响应。
+
+## 4. 官方“怎么选基因和靶点”的关键答案
+
+- T1 是 RNA 全转录组 32,285 列，不是预挑 500 marker；官方本日协议明确测量对象为细胞核，释放的是 Multiome 的 RNA 通道。
+- T2/T3 的 500 基因设计目标是覆盖心脏及周围细胞类型；目前公开了覆盖目标，没有逐基因选择阈值或探针设计表。
+- 赛道最终提交 panel 再取相关阶段的有序交集，所以胚胎训练/旧提交为 498，E7.5 真值文件为 500，当前 test 要求 497。
+- T1/T2 的预测目标按时间外推/插值切分；T3 是 Mab21l2 训练、Gata4 验证、β-catenin 测试，后者更广泛、作用更分散。
+- **Ctnnb1 不在 500 panel 内**，但在 T1 全转录组内。敲除靶点与测量读出基因不是同一个集合。
+
+详细基因型、阶段表、官方原文和未公开的信息见 [OFFICIAL_GENE_TARGET_SELECTION_ZH.md](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/OFFICIAL_GENE_TARGET_SELECTION_ZH.md)。新协议还说明 Casp4/Pnliprp1 在最早两个阶段是表达过低未检出，设计 panel 本身并未改变；AI646519 缺列的具体原因未公开到同样程度。
+
+## 5. 这轮证据支持的下一步
+
+先统一可信基因 ID 和计数语义，再按阶段与细胞大类建立对照。T1 可以优先用 Feng/Pijuan/TOME 的匹配群体研究生物状态；T2 应先解释官方 RNA 与 MERFISH 的检出/表达差异，外部 RNA 的绝对均值不宜直接移植；T3 先把同阶段官方 WT/KO 和两个 KO 重复当作响应与噪声参照。
+
+本轮没有证明任何外部来源能提升官方预测成绩，也没有验证完整单细胞联合分布、空间绑定或未来发育动力学。以往模型负例和来源隔离记录均保持不变。
+
+## 6. 复核、可复现文件与限制
+
+- 独立复算全部 224 项主比较的 Spearman/JS，最大数值偏差 2.7e-14；6 个原始 H5AD 的行回读与投影结果一致，45 组矩阵和抽样/阶段检查通过。
+- 原始 counts 优先使用已记录的 counts/raw 层；T1/Pijuan/de Soysa 的 expm1 结果只称线性归一化表达，不伪称 UMI counts。共同 panel 归一化不消除 dropout、捕获效率或组成差异。
+- 原始输入 SHA、矩阵轴、样本行号、作者标签和映射均保留。表达比较没有用受保护外部时间窗；T3 特例未扩展到 T1/T2，隔离的 E8.5/E9.0 注册 Slide-seq 来源未纳入。
+- ρ 的技术分半对照不是独立胚胎；跨来源的多个条目也不是多个独立研究。这里只报告描述性数值，不用细胞数制造生物学显著性。
+
+主要文件：[similarity.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/similarity.csv)、[cohort_summary.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/cohort_summary.csv)、[catalog.json](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/catalog.json)、[sources.json](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/sources.json)、[AUDIT.json](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/AUDIT.json)。各 pair 的完整基因均值/检出率在 `gene_profiles/`；抽样矩阵、原始行号与样本 ID 在 `cohorts/`。
+
+复现入口：`extract.py` → `curate_metadata.py` → `compare.py` → `same_panel_control.py` / `alias_check.py` → `audit.py` → `make_plots.py` → `write_report.py`。使用 `/home/biocosmosx/miniconda3/envs/model_py310/bin/python`。首次提取的精确脚本另存 `extract_at_run.py`，与启动时 SHA 一致；后续修改只将新核验的官方核 RNA/取材元数据写入清单，未修改矩阵。
+
+官方来源：[Data](https://virtualembryo.ai/challenge/data)、[Data Protocol](https://virtualembryo.ai/challenge/data-protocol)。所有新产物均在本目录，未覆盖历史实验或同行文件。

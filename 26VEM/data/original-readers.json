@@ -1,0 +1,626 @@
+[
+  {
+    "analysis_id": "A01",
+    "group": "工程与历史",
+    "title": "VEM 项目全景与策略回顾",
+    "url": "readers/handbook/HUMAN_GUIDE.html",
+    "source_path": "handbook/HUMAN_GUIDE.md",
+    "sections": [
+      {
+        "title": "一、文件现在分布在哪里",
+        "anchor": "_1",
+        "heading_index": 0
+      },
+      {
+        "title": "二、任务、成绩和阶段",
+        "anchor": "_2",
+        "heading_index": 1
+      },
+      {
+        "title": "三、T1 的迭代与当前方法",
+        "anchor": "t1",
+        "heading_index": 2
+      },
+      {
+        "title": "四、T2 胚胎插值",
+        "anchor": "t2",
+        "heading_index": 3
+      },
+      {
+        "title": "五、T2 心脏插值",
+        "anchor": "t2_1",
+        "heading_index": 4
+      },
+      {
+        "title": "六、T2 心脏外推",
+        "anchor": "t2_2",
+        "heading_index": 5
+      },
+      {
+        "title": "七、T3",
+        "anchor": "t3",
+        "heading_index": 6
+      },
+      {
+        "title": "八、共享研究路线",
+        "anchor": "_3",
+        "heading_index": 7
+      },
+      {
+        "title": "九、跨任务经验和下一阶段重点",
+        "anchor": "_4",
+        "heading_index": 8
+      },
+      {
+        "title": "十、如何查原始材料",
+        "anchor": "_5",
+        "heading_index": 9
+      }
+    ]
+  },
+  {
+    "analysis_id": "A02",
+    "group": "官方数据分析",
+    "title": "官方数据全面分析｜训练与验证真值实算报告",
+    "url": "readers/peer/official_data_analysis_20261114/report.html",
+    "source_path": "peer/official_data_analysis_20261114/report.html",
+    "sections": [
+      {
+        "title": "先读这里：这份数据告诉了我们什么？",
+        "anchor": "",
+        "heading_index": 0
+      },
+      {
+        "title": "关键发现的定量依据",
+        "anchor": "",
+        "heading_index": 1
+      },
+      {
+        "title": "目前仍不知道",
+        "anchor": "",
+        "heading_index": 2
+      },
+      {
+        "title": "已核验文件",
+        "anchor": "inventory",
+        "heading_index": 3
+      },
+      {
+        "title": "我们真正分析了哪些官方数据？",
+        "anchor": "F01",
+        "heading_index": 4
+      },
+      {
+        "title": "哪些比较真正可行？",
+        "anchor": "F02",
+        "heading_index": 5
+      },
+      {
+        "title": "官方为什么选择这些基因？",
+        "anchor": "F03",
+        "heading_index": 6
+      },
+      {
+        "title": "面板偏向与盲区是什么？",
+        "anchor": "F04",
+        "heading_index": 7
+      },
+      {
+        "title": "基因在何时何地被观察？",
+        "anchor": "F05",
+        "heading_index": 8
+      },
+      {
+        "title": "各样本表达分布有何差异？",
+        "anchor": "F06",
+        "heading_index": 9
+      },
+      {
+        "title": "是否存在面板归一化效应？",
+        "anchor": "F07",
+        "heading_index": 10
+      },
+      {
+        "title": "细胞组成与取材如何变化？",
+        "anchor": "F08",
+        "heading_index": 11
+      },
+      {
+        "title": "整体变化来自组成还是类型内部？",
+        "anchor": "F09",
+        "heading_index": 12
+      },
+      {
+        "title": "空间结构和切片是否连续？",
+        "anchor": "F10",
+        "heading_index": 13
+      },
+      {
+        "title": "哪些异常可能与技术有关？",
+        "anchor": "F11",
+        "heading_index": 14
+      },
+      {
+        "title": "能否区分批次和生物学？",
+        "anchor": "F12",
+        "heading_index": 15
+      },
+      {
+        "title": "哪些发育先验成立？",
+        "anchor": "F13",
+        "heading_index": 16
+      },
+      {
+        "title": "核 RNA 与 MERFISH 是否相互支持？",
+        "anchor": "F14",
+        "heading_index": 17
+      },
+      {
+        "title": "KO 是发育偏移还是特异扰动？",
+        "anchor": "F15",
+        "heading_index": 18
+      },
+      {
+        "title": "现有模型到底错在哪里？",
+        "anchor": "F16",
+        "heading_index": 19
+      },
+      {
+        "title": "下一步应怎样改？",
+        "anchor": "F17",
+        "heading_index": 20
+      },
+      {
+        "title": "来源、计算与复现",
+        "anchor": "sources",
+        "heading_index": 21
+      }
+    ]
+  },
+  {
+    "analysis_id": "A03",
+    "group": "心脏专项分析",
+    "title": "从细胞状态到观察过程 读懂官方心脏数据",
+    "url": "readers/peer/t2_heart_analysis_20261116/report.html",
+    "source_path": "peer/t2_heart_analysis_20261116/report.html",
+    "sections": [
+      {
+        "title": "数据呈现基因特异的状态转换，适合用多种程序共同描述",
+        "anchor": "q1",
+        "heading_index": 0
+      },
+      {
+        "title": "我们找到比例变化的范围依赖性：组成应与采样范围一起解释",
+        "anchor": "q2",
+        "heading_index": 1
+      },
+      {
+        "title": "晚期心肌的局部邻域为状态差异提供额外解释",
+        "anchor": "q3",
+        "heading_index": 2
+      },
+      {
+        "title": "均值背后有两层信息：哪些细胞检出，以及检出后表达多强",
+        "anchor": "q4",
+        "heading_index": 3
+      },
+      {
+        "title": "我们识别了检测、处理和切片层面的系统差异，并定位到可追查的环节",
+        "anchor": "q5",
+        "heading_index": 4
+      },
+      {
+        "title": "面板支持成员级状态比较；覆盖表与剔除检查帮助确定结论强度",
+        "anchor": "q6",
+        "heading_index": 5
+      },
+      {
+        "title": "500 基因：类型、时间与位置三条轴",
+        "anchor": "gene-axes",
+        "heading_index": 6
+      },
+      {
+        "title": "把发现转成六条数据使用原则",
+        "anchor": "",
+        "heading_index": 7
+      }
+    ]
+  },
+  {
+    "analysis_id": "A04",
+    "group": "心脏专项分析",
+    "title": "500 基因交互总表",
+    "url": "readers/peer/t2_heart_analysis_20261116/gene_500_explorer.html",
+    "source_path": "peer/t2_heart_analysis_20261116/gene_500_explorer.html",
+    "sections": [
+      {
+        "title": "整体统计",
+        "anchor": "overview-title",
+        "heading_index": 0
+      },
+      {
+        "title": "分类分布",
+        "anchor": "distribution-title",
+        "heading_index": 1
+      },
+      {
+        "title": "逐基因结果",
+        "anchor": "table-title",
+        "heading_index": 2
+      }
+    ]
+  },
+  {
+    "analysis_id": "A05",
+    "group": "心脏专项分析",
+    "title": "500 基因邻域分析：哪些基因真的获得额外解释？",
+    "url": "readers/peer/t2_heart_analysis_20261116/NEIGHBOUR_ALL_GENES_ZH.html",
+    "source_path": "peer/t2_heart_analysis_20261116/NEIGHBOUR_ALL_GENES_ZH.md",
+    "sections": [
+      {
+        "title": "结果",
+        "anchor": "_1",
+        "heading_index": 0
+      },
+      {
+        "title": "怎么做的",
+        "anchor": "_2",
+        "heading_index": 1
+      },
+      {
+        "title": "下一步可做什么",
+        "anchor": "_3",
+        "heading_index": 2
+      }
+    ]
+  },
+  {
+    "analysis_id": "A06",
+    "group": "心脏专项分析",
+    "title": "T2心脏：独立参照、空间条件与机制检验",
+    "url": "readers/peer/t2_heart_prior_audit_v2/report.html",
+    "source_path": "peer/t2_heart_prior_audit_v2/report.html",
+    "sections": [
+      {
+        "title": "1. 先建立参照，再检查官方数据",
+        "anchor": "",
+        "heading_index": 0
+      },
+      {
+        "title": "同类交叉验证：只用A组筛选，再检查同类B组",
+        "anchor": "",
+        "heading_index": 1
+      },
+      {
+        "title": "2. 对每项生物学参照逐项判定",
+        "anchor": "",
+        "heading_index": 2
+      },
+      {
+        "title": "3. 原心外膜：先验支持身份，零值不支持否定身份",
+        "anchor": "",
+        "heading_index": 3
+      },
+      {
+        "title": "4. 定位冲突候选：Nfatc1在非心内膜标签中的信号",
+        "anchor": "",
+        "heading_index": 4
+      },
+      {
+        "title": "5. 不只检查心肌—内皮一个边界",
+        "anchor": "",
+        "heading_index": 5
+      },
+      {
+        "title": "6. 同一时期内检验技术过程，避免把发育当误差",
+        "anchor": "",
+        "heading_index": 6
+      },
+      {
+        "title": "7. 单基因脱离与切片残差的界限",
+        "anchor": "",
+        "heading_index": 7
+      },
+      {
+        "title": "8. 能保留的认知与仍未完成的问题",
+        "anchor": "",
+        "heading_index": 8
+      },
+      {
+        "title": "原始依据与复核",
+        "anchor": "",
+        "heading_index": 9
+      }
+    ]
+  },
+  {
+    "analysis_id": "A07",
+    "group": "心脏专项分析",
+    "title": "生物学参照与观察偏差检验",
+    "url": "readers/peer/t2_heart_prior_followup_20261116/report.html",
+    "source_path": "peer/t2_heart_prior_followup_20261116/report.html",
+    "sections": [
+      {
+        "title": "1. 高可信定位先验：Nppa 与 Tbx2",
+        "anchor": "",
+        "heading_index": 0
+      },
+      {
+        "title": "2. 心肌与内皮双标记：是否集中在边界",
+        "anchor": "",
+        "heading_index": 1
+      },
+      {
+        "title": "3. 内皮标记的时期变化：描述性结果",
+        "anchor": "",
+        "heading_index": 2
+      },
+      {
+        "title": "4. 统一抽稀：仅检验一个简单计数模型",
+        "anchor": "",
+        "heading_index": 3
+      },
+      {
+        "title": "证据判定",
+        "anchor": "",
+        "heading_index": 4
+      },
+      {
+        "title": "适用范围与下一项关键证据",
+        "anchor": "",
+        "heading_index": 5
+      }
+    ]
+  },
+  {
+    "analysis_id": "A08",
+    "group": "先验知识",
+    "title": "胚胎发育：文献与官方数据是否对得上",
+    "url": "readers/research/early_embryo_prior_audit/knowledge.html",
+    "source_path": "research/early_embryo_prior_audit/knowledge.html",
+    "sections": []
+  },
+  {
+    "analysis_id": "A09",
+    "group": "先验知识",
+    "title": "胚胎先验：每一条分别看官方和外部证据",
+    "url": "readers/research/vem_prior_knowledge_v2/knowledge.html",
+    "source_path": "research/vem_prior_knowledge_v2/knowledge.html",
+    "sections": [
+      {
+        "title": "官方数据时间线",
+        "anchor": "timeline-title",
+        "heading_index": 0
+      },
+      {
+        "title": "新增：官方与外部数据逐对比较",
+        "anchor": "pairwise-comparison-entry",
+        "heading_index": 1
+      },
+      {
+        "title": "外部数据：认准“编号 + 名称”",
+        "anchor": "source-key-title",
+        "heading_index": 2
+      }
+    ]
+  },
+  {
+    "analysis_id": "A10",
+    "group": "官方与外部数据比较",
+    "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
+    "url": "readers/research/vem_source_comparison_v2/README.html",
+    "source_path": "research/vem_source_comparison_v2/README.md",
+    "sections": [
+      {
+        "title": "1. 比较覆盖与基本口径",
+        "anchor": "1",
+        "heading_index": 0
+      },
+      {
+        "title": "2. 表达的稀疏程度确实不同",
+        "anchor": "2",
+        "heading_index": 1
+      },
+      {
+        "title": "3. 共同特征和具体差异",
+        "anchor": "3",
+        "heading_index": 2
+      },
+      {
+        "title": "4. 类型特异性和阶段变化",
+        "anchor": "4",
+        "heading_index": 3
+      },
+      {
+        "title": "5. 简单换算能解释多少",
+        "anchor": "5",
+        "heading_index": 4
+      },
+      {
+        "title": "6. 复现与边界",
+        "anchor": "6",
+        "heading_index": 5
+      }
+    ]
+  },
+  {
+    "analysis_id": "A11",
+    "group": "官方与外部数据比较",
+    "title": "官方与外部数据，究竟哪里像、哪里不像？",
+    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html",
+    "source_path": "research/vem_pairwise_similarity_v3/comparison.html",
+    "sections": [
+      {
+        "title": "官方数据时间线",
+        "anchor": "timeline-title",
+        "heading_index": 0
+      },
+      {
+        "title": "这个时间点，究竟有哪些细胞？",
+        "anchor": "official-overview-title",
+        "heading_index": 1
+      },
+      {
+        "title": "先看表达排序相关较高的组合",
+        "anchor": "ranking-panel",
+        "heading_index": 2
+      },
+      {
+        "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+        "anchor": "t1wb-title",
+        "heading_index": 3
+      }
+    ]
+  },
+  {
+    "analysis_id": "A12",
+    "group": "官方与外部数据比较",
+    "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#t1-weighted-binary-appendix",
+    "source_path": "research/vem_pairwise_similarity_v3/comparison.html#t1-weighted-binary-appendix",
+    "sections": [
+      {
+        "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+        "anchor": "t1wb-title",
+        "heading_index": 3
+      }
+    ]
+  },
+  {
+    "analysis_id": "A13",
+    "group": "官方与外部数据比较",
+    "title": "官方与外部数据，具体像在哪里？",
+    "url": "readers/research/vem_official_metric_source_audit/index.html",
+    "source_path": "research/vem_official_metric_source_audit/index.html",
+    "sections": [
+      {
+        "title": "官方数据时间线",
+        "anchor": "timeline-title",
+        "heading_index": 0
+      },
+      {
+        "title": "先看四个具体结果",
+        "anchor": "findings-title",
+        "heading_index": 1
+      },
+      {
+        "title": "官网究竟在评什么？",
+        "anchor": "weights-title",
+        "heading_index": 2
+      },
+      {
+        "title": "选择官方参照",
+        "anchor": "comparison-title",
+        "heading_index": 3
+      },
+      {
+        "title": "这些指标是否在说同一件事？",
+        "anchor": "relationship-title",
+        "heading_index": 5
+      },
+      {
+        "title": "空间方面能比较哪些？",
+        "anchor": "spatial-title",
+        "heading_index": 6
+      },
+      {
+        "title": "同一段发育时间，两边变化是否一致？",
+        "anchor": "delta-title",
+        "heading_index": 7
+      },
+      {
+        "title": "简单换算后，能迁移到没参与拟合的数据吗？",
+        "anchor": "transfer-title",
+        "heading_index": 8
+      },
+      {
+        "title": "所有相关来源，包括本轮算不了的",
+        "anchor": "inventory-title",
+        "heading_index": 9
+      },
+      {
+        "title": "公式、证据和可下载结果",
+        "anchor": "methods-title",
+        "heading_index": 10
+      }
+    ]
+  },
+  {
+    "analysis_id": "A14",
+    "group": "评分规则与例子",
+    "title": "按任务理解VEM评分：三份输入、矩阵运算、结果",
+    "url": "readers/notes/scoring_review_20261118/03_分任务评分过程与独立例子.html",
+    "source_path": "notes/scoring_review_20261118/03_分任务评分过程与独立例子.md",
+    "sections": [
+      {
+        "title": "T1：预测未来阶段的细胞表达",
+        "anchor": "t1",
+        "heading_index": 0
+      },
+      {
+        "title": "T2：预测表达与三维空间",
+        "anchor": "t2",
+        "heading_index": 1
+      },
+      {
+        "title": "T3：预测基因敲除后的细胞群",
+        "anchor": "t3",
+        "heading_index": 2
+      },
+      {
+        "title": "三个任务最后共有的校准步骤",
+        "anchor": "_9",
+        "heading_index": 3
+      },
+      {
+        "title": "证据、复算与交接",
+        "anchor": "_10",
+        "heading_index": 4
+      }
+    ]
+  },
+  {
+    "analysis_id": "A15",
+    "group": "官方与外部数据比较",
+    "title": "官方与同任务外部数据的基因面板、表达相似度实测",
+    "url": "readers/older/REPORT_ZH.html",
+    "source_path": "older/REPORT_ZH.md",
+    "sections": [
+      {
+        "title": "本次实际做了什么",
+        "anchor": "_2",
+        "heading_index": 0
+      },
+      {
+        "title": "1. 基因覆盖：按可用阶段的真实矩阵重算",
+        "anchor": "1",
+        "heading_index": 1
+      },
+      {
+        "title": "2. 表达相似度：相同基因不等于相同分布",
+        "anchor": "2",
+        "heading_index": 2
+      },
+      {
+        "title": "3. 分任务怎么理解",
+        "anchor": "3",
+        "heading_index": 3
+      },
+      {
+        "title": "4. 官方“怎么选基因和靶点”的关键答案",
+        "anchor": "4",
+        "heading_index": 4
+      },
+      {
+        "title": "5. 这轮证据支持的下一步",
+        "anchor": "5",
+        "heading_index": 5
+      },
+      {
+        "title": "6. 复核、可复现文件与限制",
+        "anchor": "6",
+        "heading_index": 6
+      }
+    ]
+  }
+]

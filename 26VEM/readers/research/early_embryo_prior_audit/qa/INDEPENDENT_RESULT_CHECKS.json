@@ -1,0 +1,1765 @@
+{
+  "time_utc": "2026-11-16T05:12:26.168598+00:00",
+  "scope": "saved local aggregate tables, metadata, hashes and code only; no raw matrices; no production artifacts changed",
+  "checks": [
+    {
+      "check": "all_downloaded_file_hashes_match",
+      "passed": true,
+      "files": 29
+    },
+    {
+      "check": "claim_freeze_hash",
+      "passed": true
+    },
+    {
+      "check": "executed_v3_sources_match_local",
+      "passed": true
+    },
+    {
+      "check": "all_34_claims_have_matching_knowledge_and_evaluation",
+      "passed": true
+    },
+    {
+      "check": "knowledge_preserves_all_frozen_fields",
+      "passed": true
+    },
+    {
+      "check": "knowledge_evaluations_identical",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_1",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_10",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_14",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_15",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_16",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_17",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_18",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_23",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_24",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_25",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_26",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_27",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_28",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_29",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_30",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_31",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_32",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_33",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_34",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_35",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_36",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_37",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_5",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:EMTAB_pool_7",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:STEREO_E8.0_rep1",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:STEREO_E8.0_rep2",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:OFF_E6.75",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:OFF_E7.25",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:OFF_E7.5",
+      "passed": true
+    },
+    {
+      "check": "sample_denominator:OFF_E8.0",
+      "passed": true
+    },
+    {
+      "check": "composition_no_duplicate_labels",
+      "passed": true
+    },
+    {
+      "check": "no_protected_external_stage_in_results",
+      "passed": true,
+      "stages": [
+        "E6.5",
+        "E6.75",
+        "E7.0",
+        "E7.25",
+        "E8.0",
+        "E8.25",
+        "E8.5"
+      ]
+    },
+    {
+      "check": "external_author_QC_and_no_label_drop",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D001",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D001:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D001:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D001:E8.0",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D002",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D002:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D002:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D002:E8.0",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D003",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D003:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D003:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D003:E8.0",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D004",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D004:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D004:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D004:E8.0",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D005",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D005:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D005:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D005:E8.0",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D006",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D006:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D006:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D006:E8.0",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D007",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D007:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D007:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_trend_arithmetic:D007",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D008",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D008:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D008:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_trend_arithmetic:D008",
+      "passed": true
+    },
+    {
+      "check": "strong_trend_prerequisites:D008",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D009",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D009:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D009:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_trend_arithmetic:D009",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D010",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D010:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D010:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_trend_arithmetic:D010",
+      "passed": true
+    },
+    {
+      "check": "strong_trend_prerequisites:D010",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D011",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D011:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D011:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_trend_arithmetic:D011",
+      "passed": true
+    },
+    {
+      "check": "derived_source:D012",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D012:E6.75",
+      "passed": true
+    },
+    {
+      "check": "derived_official:D012:E7.25",
+      "passed": true
+    },
+    {
+      "check": "derived_trend_arithmetic:D012",
+      "passed": true
+    },
+    {
+      "check": "panel_four_stage_rows_per_claim",
+      "passed": true
+    },
+    {
+      "check": "unmeasured_not_zero:L004",
+      "passed": true
+    },
+    {
+      "check": "unmeasured_not_zero:L005",
+      "passed": true
+    },
+    {
+      "check": "unmeasured_not_zero:L016",
+      "passed": true
+    },
+    {
+      "check": "unmeasured_not_zero:L020",
+      "passed": true
+    },
+    {
+      "check": "unmeasured_not_zero:L021",
+      "passed": true
+    },
+    {
+      "check": "activation_and_classifier_claims_not_substituted_by_presence",
+      "passed": true
+    },
+    {
+      "check": "marker_detection_and_auc_valid",
+      "passed": true
+    },
+    {
+      "check": "marker_count_matches_composition",
+      "passed": true
+    },
+    {
+      "check": "similarity_E8_rows_are_sensitivity",
+      "passed": true
+    },
+    {
+      "check": "no_E8_primary_mapping_targets",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:verified_counts:leave_stage_out:E6.75",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:verified_counts:leave_stage_out:E7.25",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:verified_counts:leave_type_out:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:verified_counts:leave_type_out:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:verified_counts:leave_type_out:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:verified_counts:leave_type_out:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:verified_counts:leave_type_out:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:verified_counts:leave_type_out:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:verified_counts:leave_type_out:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:verified_counts:leave_type_out:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_stage_out:E6.75",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_stage_out:E6.75",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_stage_out:E7.25",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_stage_out:E7.25",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_stage_out:E8.0",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_stage_out:E8.0",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_type_out:Allantois",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_type_out:Allantois",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_type_out:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_type_out:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_type_out:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_type_out:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_type_out:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_type_out:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_type_out:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_type_out:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:EMTAB6967:released_weight_sensitivity:leave_type_out:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "split_membership:EMTAB6967:released_weight_sensitivity:leave_type_out:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:GSE278603:released_weight_sensitivity:leave_stage_out:E8.0",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:GSE278603:released_weight_sensitivity:leave_type_out:Allantois",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:GSE278603:released_weight_sensitivity:leave_type_out:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "split_eligibility:GSE278603:released_weight_sensitivity:leave_type_out:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "independent_saved_profile_similarity",
+      "passed": true,
+      "comparisons": 39,
+      "max_error": 0.0
+    },
+    {
+      "check": "independent_saved_profile_mapping_mse",
+      "passed": true,
+      "comparisons": 135,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "check": "independent_saved_profile_mapping_mae",
+      "passed": true,
+      "comparisons": 135,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "check": "independent_saved_profile_specificity",
+      "passed": true,
+      "comparisons": 8,
+      "max_error": 0.0
+    },
+    {
+      "check": "independent_saved_profile_changes",
+      "passed": true,
+      "comparisons": 8,
+      "max_error": 0.0
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_stage_out:affine",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_stage_out:affine_shuffled_type",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_stage_out:identity",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_stage_out:ridge_gene",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_stage_out:ridge_shuffled_type",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_type_out:affine",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_type_out:affine_shuffled_type",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_type_out:identity",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_type_out:ridge_gene",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__released_weight_sensitivity:leave_type_out:ridge_shuffled_type",
+      "passed": true
+    },
+    {
+      "check": "mapping_support_rule:EMTAB6967__released_weight_sensitivity",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__verified_counts:leave_type_out:affine",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__verified_counts:leave_type_out:affine_shuffled_type",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__verified_counts:leave_type_out:identity",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__verified_counts:leave_type_out:ridge_gene",
+      "passed": true
+    },
+    {
+      "check": "mapping_summary:EMTAB6967__verified_counts:leave_type_out:ridge_shuffled_type",
+      "passed": true
+    },
+    {
+      "check": "mapping_support_rule:EMTAB6967__verified_counts",
+      "passed": true
+    },
+    {
+      "check": "graph_all_claim_results_identical",
+      "passed": true
+    },
+    {
+      "check": "graph_claim_numbers_and_conditions_match",
+      "passed": true
+    },
+    {
+      "check": "graph_edges_resolve",
+      "passed": true
+    },
+    {
+      "check": "graph_no_isolated_sources",
+      "passed": true
+    },
+    {
+      "check": "sqlite_integrity_and_foreign_keys",
+      "passed": true
+    },
+    {
+      "check": "sqlite_claim_evaluations_identical",
+      "passed": true
+    },
+    {
+      "check": "supplement_downloaded_hashes",
+      "passed": true,
+      "files": 7
+    },
+    {
+      "check": "supplement_preserves_original:official_marker_profiles.csv",
+      "passed": true
+    },
+    {
+      "check": "supplement_E8_tier:official_marker_profiles.csv",
+      "passed": true
+    },
+    {
+      "check": "supplement_preserves_original:type_specificity.csv",
+      "passed": true
+    },
+    {
+      "check": "supplement_E8_tier:type_specificity.csv",
+      "passed": true
+    },
+    {
+      "check": "supplement_preserves_original:stage_change_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "supplement_E8_tier:stage_change_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "supplement_E8_native_X_explicit",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_6310_rows_unique",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_differences_with_declared_float_tolerance",
+      "passed": true,
+      "range_tolerance": 1e-12
+    },
+    {
+      "check": "gene_detail_mean_differences",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E6.75:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E6.75:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E6.75:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E6.75:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E6.75:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E6.75:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E6.75:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E6.75:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E6.75:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E7.25:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E7.25:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E7.25:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E7.25:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E7.25:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E7.25:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E7.25:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E7.25:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E7.25:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E7.25:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E7.25:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E7.25:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E8.0:Allantois",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E8.0:Allantois",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E8.0:Allantois",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E8.0:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E8.0:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E8.0:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:EMTAB6967:E8.0:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:EMTAB6967:E8.0:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:EMTAB6967:E8.0:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:GSE278603:E8.0:Allantois",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:GSE278603:E8.0:Allantois",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:GSE278603:E8.0:Allantois",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:GSE278603:E8.0:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:GSE278603:E8.0:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:GSE278603:E8.0:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_means:GSE278603:E8.0:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_detection_mae:GSE278603:E8.0:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "gene_detail_ranks:GSE278603:E8.0:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "stage_gene_details_1984_unique",
+      "passed": true
+    },
+    {
+      "check": "stage_gene_details:EMTAB6967:E6.75:E7.25:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "stage_gene_details:EMTAB6967:E6.75:E7.25:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "stage_gene_details:EMTAB6967:E6.75:E7.25:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "stage_gene_details:EMTAB6967:E7.25:E8.0:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:verified_counts:leave_type_out:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:verified_counts:leave_type_out:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:verified_counts:leave_type_out:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:verified_counts:leave_type_out:Primitive Streak",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_stage_out:E6.75",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_stage_out:E7.25",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_stage_out:E8.0",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_type_out:Allantois",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_type_out:Blood progenitors",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_type_out:Caudal epiblast",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_type_out:ExE ectoderm",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_type_out:ExE endoderm",
+      "passed": true
+    },
+    {
+      "check": "supplement_affine_split:released_weight_sensitivity:leave_type_out:Primitive Streak",
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "statuses": {
+      "条件不可比": 20,
+      "面板未覆盖": 5,
+      "证据不足": 6,
+      "观测一致": 2,
+      "结果混合": 1
+    },
+    "official_totals_and_unknown": [
+      {
+        "dataset": "OFFICIAL",
+        "sample": "OFF_E6.75",
+        "stage": "E6.75",
+        "n": 7093,
+        "unmapped": 4196,
+        "unknown": 1271
+      },
+      {
+        "dataset": "OFFICIAL",
+        "sample": "OFF_E7.25",
+        "stage": "E7.25",
+        "n": 13295,
+        "unmapped": 8449,
+        "unknown": 1638
+      },
+      {
+        "dataset": "OFFICIAL",
+        "sample": "OFF_E7.5",
+        "stage": "E7.5",
+        "n": 11665,
+        "unmapped": 7139,
+        "unknown": 457
+      },
+      {
+        "dataset": "OFFICIAL",
+        "sample": "OFF_E8.0",
+        "stage": "E8.0",
+        "n": 31671,
+        "unmapped": 23932,
+        "unknown": 594
+      }
+    ],
+    "splits": [
+      {
+        "source": "EMTAB6967",
+        "tier": "verified_counts",
+        "mode": "leave_type_out",
+        "held": "Blood progenitors",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          }
+        ],
+        "test": [
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          }
+        ],
+        "shuffle_changed_fraction": 0.6666666666666666,
+        "intercept": 0.08012903719746789,
+        "slope": 0.28626246826959423,
+        "split_hash": "2b504c7cb79a1d0c5de7b6871f3ec343267ad0332551fb9ca3d6730438e85bd6"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "verified_counts",
+        "mode": "leave_type_out",
+        "held": "ExE ectoderm",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          }
+        ],
+        "test": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          }
+        ],
+        "shuffle_changed_fraction": 1.0,
+        "intercept": 0.09160831816424785,
+        "slope": 0.3270668630347602,
+        "split_hash": "e2be31652494a454150c11321cbd55e0c05bd5e9b4b84fabb70c80c68b039631"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "verified_counts",
+        "mode": "leave_type_out",
+        "held": "ExE endoderm",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          }
+        ],
+        "test": [
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          }
+        ],
+        "shuffle_changed_fraction": 1.0,
+        "intercept": 0.08576955727825591,
+        "slope": 0.2647084161326317,
+        "split_hash": "a19e7a08d79e097aee32462099aeb9d9ece885488afb0b257c02d0e1964dfac3"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "verified_counts",
+        "mode": "leave_type_out",
+        "held": "Primitive Streak",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          }
+        ],
+        "test": [
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          }
+        ],
+        "shuffle_changed_fraction": 1.0,
+        "intercept": 0.07030400675355349,
+        "slope": 0.31119793897327097,
+        "split_hash": "5e072c423b0c943fc2a747ac9b267dbca05e1f9bc9da7cb43f222a295b4b0579"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_stage_out",
+        "held": "E6.75",
+        "train": [
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          },
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "test": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          }
+        ],
+        "shuffle_changed_fraction": 0.8571428571428571,
+        "intercept": 0.19385793283102595,
+        "slope": 0.4237268676122108,
+        "split_hash": "1b4cf68a2b5710162c2aaf5f28fa5cc5d37167a617597b82f3583639666ff96d"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_stage_out",
+        "held": "E7.25",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "test": [
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          }
+        ],
+        "shuffle_changed_fraction": 0.6666666666666666,
+        "intercept": 0.19976868021992464,
+        "slope": 0.44816593920802633,
+        "split_hash": "6c496e4f0bf0603ef78d64e90901b1f8346be25bc7065fcf9a1ace173bbe46e8"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_stage_out",
+        "held": "E8.0",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          }
+        ],
+        "test": [
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "shuffle_changed_fraction": 0.8571428571428571,
+        "intercept": 0.08185003216367252,
+        "slope": 0.2968741312048958,
+        "split_hash": "54cf6ce3637dc1f572d8b362b3176af5ebfd248709f104abf5e4d3b93968975d"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_type_out",
+        "held": "Allantois",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          },
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "test": [
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          }
+        ],
+        "shuffle_changed_fraction": 0.8888888888888888,
+        "intercept": 0.13422939875004233,
+        "slope": 0.35861142485171305,
+        "split_hash": "e275fa6656c8937a41dbe159b0c13c548eccf1d413a761f8758c64391c645424"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_type_out",
+        "held": "Blood progenitors",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          },
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "test": [
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          }
+        ],
+        "shuffle_changed_fraction": 0.7777777777777778,
+        "intercept": 0.16399729096924567,
+        "slope": 0.3922970300997696,
+        "split_hash": "dafc6b354b1505303791fea2ee0aa27378cd764328f5707597783186642bb54e"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_type_out",
+        "held": "Caudal epiblast",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          },
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "test": [
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          }
+        ],
+        "shuffle_changed_fraction": 0.8888888888888888,
+        "intercept": 0.13383169875716627,
+        "slope": 0.3811478052308389,
+        "split_hash": "61127ed34d104297800601e00ef5bffff530537d9c799b1b1faad514d724b4be"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_type_out",
+        "held": "ExE ectoderm",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          },
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "test": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          }
+        ],
+        "shuffle_changed_fraction": 0.875,
+        "intercept": 0.180028451273106,
+        "slope": 0.43324568423469767,
+        "split_hash": "d080969b190f6e892a9cff0aecc5033e4bdad4f2b01b11ff8f4759e966cdff2a"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_type_out",
+        "held": "ExE endoderm",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          },
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          }
+        ],
+        "test": [
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "shuffle_changed_fraction": 0.7142857142857143,
+        "intercept": 0.1634715560081226,
+        "slope": 0.3558827505949663,
+        "split_hash": "9ba20aaf69a5969218c17987ea3c07b21d7b1ed5f94c9225070f51f0404dc0c7"
+      },
+      {
+        "source": "EMTAB6967",
+        "tier": "released_weight_sensitivity",
+        "mode": "leave_type_out",
+        "held": "Primitive Streak",
+        "train": [
+          {
+            "stage": "E6.75",
+            "group": "ExE ectoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E6.75",
+            "group": "ExE endoderm",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Blood progenitors",
+            "external_samples": 2
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE ectoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E7.25",
+            "group": "ExE endoderm",
+            "external_samples": 3
+          },
+          {
+            "stage": "E8.0",
+            "group": "Allantois",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "Caudal epiblast",
+            "external_samples": 4
+          },
+          {
+            "stage": "E8.0",
+            "group": "ExE endoderm",
+            "external_samples": 4
+          }
+        ],
+        "test": [
+          {
+            "stage": "E6.75",
+            "group": "Primitive Streak",
+            "external_samples": 1
+          },
+          {
+            "stage": "E7.25",
+            "group": "Primitive Streak",
+            "external_samples": 3
+          }
+        ],
+        "shuffle_changed_fraction": 0.875,
+        "intercept": 0.16924310251408461,
+        "slope": 0.4126271860406899,
+        "split_hash": "78130d25aa0a56a1788d1ca84dd14314a5750e32d8db51ff0b63baab551fd26d"
+      }
+    ],
+    "detection_roundoff": {
+      "external_values_strictly_above_one": 39,
+      "official_values_strictly_above_one": 1,
+      "maximum_excess": 1.9095836023552692e-14,
+      "range_tolerance": 1e-12,
+      "original_values_unchanged": true
+    }
+  },
+  "all_pass": true
+}

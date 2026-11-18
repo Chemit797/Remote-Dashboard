@@ -1,0 +1,16 @@
+{
+  "source": "https://virtualembryo.ai/challenge/data",
+  "retrieved_date_asia_shanghai": "2026-11-14",
+  "source_section": "File checksums",
+  "files": {
+    "E8.5_RNA.h5ad": {"bytes": 570917395, "sha256": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504"},
+    "E9.5_RNA.h5ad": {"bytes": 589907081, "sha256": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361"},
+    "E8.25_late.h5ad": {"bytes": 225091568, "sha256": "d56f94d3e2d719ed3074d86c03eae457ccf90b24145d33300f9958f0e8078593"},
+    "E9.5.h5ad": {"bytes": 163640212, "sha256": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a"},
+    "E6.75.h5ad": {"bytes": 17454701, "sha256": "ab58b9217d1b9a18b0181f498475a9eb821ac2c92ab2b7e45a623da0e4fffe70"},
+    "E7.25.h5ad": {"bytes": 33572151, "sha256": "c34192a31036b783b97ce1877ac50fc920b39faa3e00dc3c637b3e7e04255ee6"},
+    "E8.0.h5ad": {"bytes": 117703446, "sha256": "17530e23fbfa6a139ff68d0353a489d83790f5b60f036b7d2f58303a1ff8a810"},
+    "E8.75.h5ad": {"bytes": 83750668, "sha256": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c"},
+    "E9.5_mab21l2_ko.h5ad": {"bytes": 457667084, "sha256": "5b1668ab982e64f7683fbf5f905218fab311c63548de5f5bc18a74f9d4d357e0"}
+  }
+}

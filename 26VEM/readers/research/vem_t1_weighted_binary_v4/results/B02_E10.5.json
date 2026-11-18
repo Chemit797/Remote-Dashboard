@@ -1,0 +1,161 @@
+{
+  "id": "B02_E10.5",
+  "row_id": "B02",
+  "external_dataset": "TOME4_E85",
+  "external_name": "VED-004 · TOME E8.5 全胚胎图谱",
+  "external_ids": [
+    "VED-004"
+  ],
+  "official_dataset": "OFF_T1_E10.5_RNA",
+  "official_stage": "E10.5",
+  "external_stage": "E8.5",
+  "same_stage": false,
+  "note": "双方均为核RNA；外部为全胚，样本字段为12个RT组",
+  "kind": "same_stage",
+  "common_genes": 28276,
+  "official_genes": 32285,
+  "external_genes": 49399,
+  "official_coverage": 0.875824686386867,
+  "external_coverage": 0.572400251017227,
+  "official_n": 24979,
+  "external_n": 154313,
+  "official_unit": "nucleus",
+  "external_unit": "nucleus",
+  "official_samples": [
+    {
+      "sample": "OFF_T1_E10.5_RNA",
+      "n": 24979
+    }
+  ],
+  "external_samples": [
+    {
+      "sample": "E8.5_test1-01",
+      "n": 7354
+    },
+    {
+      "sample": "E8.5_test1-03",
+      "n": 8393
+    },
+    {
+      "sample": "E8.5_test1-05",
+      "n": 6903
+    },
+    {
+      "sample": "E8.5_test1-06",
+      "n": 1686
+    },
+    {
+      "sample": "E8.5_test1-08",
+      "n": 4617
+    },
+    {
+      "sample": "E8.5_test1-09",
+      "n": 9337
+    },
+    {
+      "sample": "E8.5_test2-1",
+      "n": 20233
+    },
+    {
+      "sample": "E8.5_test2-2",
+      "n": 13777
+    },
+    {
+      "sample": "E8.5_test2-3",
+      "n": 24661
+    },
+    {
+      "sample": "E8.5_test2-6",
+      "n": 17255
+    },
+    {
+      "sample": "E8.5_test2-7",
+      "n": 19487
+    },
+    {
+      "sample": "E8.5_test2-8",
+      "n": 20610
+    }
+  ],
+  "j01": 0.6026607062803296,
+  "b01": 0.945327567485732,
+  "detection_mean_abs_pp": 5.467243251426801,
+  "detection_spearman": 0.9236159963951877,
+  "official_zero_fraction": 0.8985678143639807,
+  "external_zero_fraction": 0.880911938350336,
+  "official_zero_rows": 0,
+  "external_zero_rows": 0,
+  "both_all_zero_genes": 2620,
+  "both_detected_genes": 23209,
+  "official_only_detected_genes": 319,
+  "external_only_detected_genes": 2128,
+  "cell_detection_quantiles": {
+    "official": {
+      "p10": 0.04937049087565427,
+      "median": 0.09881171311359457,
+      "p90": 0.1580845947092941
+    },
+    "external": {
+      "p10": 0.06648748054887538,
+      "median": 0.11695430753996322,
+      "p90": 0.17290281510821898
+    }
+  },
+  "cell_detection_wasserstein_pp": 1.768975515965205,
+  "shuffled_j01_median": 0.1363551729472665,
+  "shuffled_j01_all": [
+    0.1378602712067249,
+    0.1320217982869447,
+    0.13693895035053483,
+    0.13619423573652603,
+    0.13783006164148823,
+    0.1366711694358074,
+    0.1351452009224412,
+    0.1374012658330724,
+    0.1368570115689938,
+    0.13555393625798878,
+    0.1341825827315023,
+    0.1361938552634102,
+    0.1393729542628069,
+    0.13723882635032866,
+    0.1337566315964138,
+    0.13472938991179467,
+    0.1355297554996683,
+    0.13651611015800696,
+    0.13202110057336575,
+    0.13806399127590194
+  ],
+  "binary_pattern": {
+    "n_draw": 256,
+    "seeds": [
+      2026111601,
+      2026111602,
+      2026111603
+    ],
+    "runs": [
+      {
+        "seed": 2026111601,
+        "cross": 0.09350776673701805,
+        "within_official": 0.006857768249273699,
+        "within_external": 0.005407512130392034
+      },
+      {
+        "seed": 2026111602,
+        "cross": 0.08866210908285,
+        "within_official": 0.005845060821264625,
+        "within_external": 0.005457400773382304
+      },
+      {
+        "seed": 2026111603,
+        "cross": 0.08926047060908171,
+        "within_official": 0.00603344240651027,
+        "within_external": 0.005330809139118098
+      }
+    ],
+    "cross_mean": 0.09047678214298326,
+    "cross_min": 0.08866210908285,
+    "cross_max": 0.09350776673701805,
+    "within_official_mean": 0.006245423825682865,
+    "within_external_mean": 0.005398574014297479
+  }
+}

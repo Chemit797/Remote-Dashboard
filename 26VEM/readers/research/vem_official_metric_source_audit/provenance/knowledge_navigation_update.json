@@ -1,0 +1,16 @@
+[
+  {
+    "path": "research/vem_prior_knowledge_v2/knowledge.html",
+    "before_sha256": "2010424542e1cfb17f4fc871e2e8b3f27fcc19ec8ac065780edde94d915706d1",
+    "after_sha256": "da2ad19e677932ff5205aea39f195daaa6ee4eb57d01f3a52fdecb400f80808e",
+    "only_added_a_navigation_link": true,
+    "ordinary_comparison_link_preserved": true
+  },
+  {
+    "path": "research/vem_prior_knowledge_v2/src/viewer.html",
+    "before_sha256": "6f102601944bde96f634912b007b64a31423e333a49884914a61173c2ad70e79",
+    "after_sha256": "a538401570310aa03a0636496a70c502fd91465db8bd9b04873bfe5d4dc8680c",
+    "only_added_a_navigation_link": true,
+    "ordinary_comparison_link_preserved": true
+  }
+]

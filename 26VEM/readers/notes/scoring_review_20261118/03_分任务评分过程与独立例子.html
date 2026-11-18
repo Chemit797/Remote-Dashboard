@@ -1,0 +1,319 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>按任务理解VEM评分：三份输入、矩阵运算、结果</title><link rel="stylesheet" href="../../../assets/site.css"></head><body><main class="prose"><h1 id="vem">按任务理解VEM评分：三份输入、矩阵运算、结果</h1>
+<p>日期：2026-11-18，Asia/Shanghai。以下三个例子全部是人为教学数据，依据已审读公开代码独立复算；不是生物数据分析、官方CLI运行或比赛成绩。各文件内细胞是独立观测，没有跨文件逐行对应。矩阵列是同一顺序的基因，行是细胞。这里展示验证任务以说明规则，不混入隐藏test目标或其未公开anchors。</p>
+<h2 id="t1">T1：预测未来阶段的细胞表达</h2>
+<h3 id="_1">第一步：明确评分器用哪三份文件</h3>
+<table>
+<thead>
+<tr>
+<th>文件角色</th>
+<th>本例任务中的身份</th>
+<th>读取内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>已知阶段R</td>
+<td>E9.5真实单细胞RNA数据</td>
+<td>表达矩阵X</td>
+</tr>
+<tr>
+<td>真实目标T</td>
+<td>E10.5真实单细胞RNA数据</td>
+<td>表达矩阵X</td>
+</tr>
+<tr>
+<td>你的预测P</td>
+<td>模型生成的E10.5细胞</td>
+<td>表达矩阵X</td>
+</tr>
+</tbody>
+</table>
+<p>R是整份已知阶段数据，不是一个标准细胞。它仅为表达变化提供起点；最终预测还要与真实目标T比较。训练模型可以利用更多许可输入，这张表只讲评分的三个角色。</p>
+<h3 id="203">第二步：用一个20细胞、3基因的小例子表示三份矩阵</h3>
+<p>下表相同行按数量展开，每份文件都是20×3。</p>
+<table>
+<thead>
+<tr>
+<th>文件中的行型</th>
+<th style="text-align: right;">A</th>
+<th style="text-align: right;">B</th>
+<th style="text-align: right;">C</th>
+<th style="text-align: right;">这种行的数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R中的唯一行型</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>T中的状态1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>T中的状态2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>P中的状态1</td>
+<td style="text-align: right;">2.5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>P中的状态2</td>
+<td style="text-align: right;">1.5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">10</td>
+</tr>
+</tbody>
+</table>
+<p>为方便算术，本例R刻意设为相同行；真实参考数据有异质性，不能据此理解成官方用一个标准细胞评分。</p>
+<h3 id="desdcs">第三步：算表达变化DES/DCS</h3>
+<p>对各自矩阵按列平均，即X.mean(axis=0)。例如T中A均值=(10×3+10×1)/20=2。</p>
+<table>
+<thead>
+<tr>
+<th>数量</th>
+<th style="text-align: right;">A</th>
+<th style="text-align: right;">B</th>
+<th style="text-align: right;">C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R均值</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>T均值</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>P均值</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>真实变化=T均值−R均值</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>预测变化=P均值−R均值</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>DES先用T与R的逐细胞数据进行双侧Mann–Whitney U检验、BH校正和绝对均值变化≥0.25筛选。本例A、B的p值约0.000334与4.68e−10，C为1；因此真实上调只有A，下调只有B。</p>
+<p>预测端把均值变化从大到小排序，最高1个选A，最低1个选B，命中2/2=1。按R均值正序或反序排名可达到的最大命中为1/2，因此chance=.5。DES=(1−.5)/(1−.5)=1。</p>
+<p>DCS对两条变化向量和R均值做秩变换，再控制R秩的偏相关。本例两条变化相同且不与R秩共线，DCS=1。没有用细胞编号，没有先按celltype分组。</p>
+<h3 id="ptmmdcss">第四步：检查P和T的细胞分布MMD/CSS</h3>
+<p>前面的均值相同，但T的A有两档3和1，P变成2.5和1.5，起伏变小。因此不能由DES/DCS=1判定细胞群正确。</p>
+<p>MMD在T拟合PCA，投影P和T；每侧最多抽2000细胞，算内部及跨群RBF核相似度，使用去对角的无偏MMD²，在五种带宽上平均。本例MMD=0.0888333。它不指定P第几行对应T第几行。</p>
+<p>CSS对随机基因对比较v=平均sqrt(abs(X_i−X_j))。以A/C为例，T的v=(sqrt0+sqrt2)/2≈.7071；P的v=(sqrt.5+sqrt1.5)/2≈.9659；这一对平方误差约.0669873。随机采样各基因对后完整CSS=.0442158。</p>
+<p>所以本例原始结果是DES=1、DCS=1、MMD=.0888333、CSS=.0442158：平均变化正确，群体分布不完全正确。</p>
+<h3 id="t1_1">第五步：按T1权重合成分数</h3>
+<p>先按这个榜单的各项floor/ceiling，将raw换成skill（0到1）。记换算后的值为s，则：</p>
+<p>S_T1=100×(.25s_DES+.25s_DCS+.30s_MMD+.20s_CSS)。</p>
+<p>小例子的统计口径不同，不能将其raw直接套到正式榜单anchors。这一公式说明实际榜单如何组合，不给本例伪造官方总分。</p>
+<h2 id="t2">T2：预测表达与三维空间</h2>
+<h3 id="_2">第一步：明确三份文件</h3>
+<p>本节用心脏E10.5外推验证任务。R为E9.5真实MERFISH，T为E10.5真实MERFISH，P为预测E10.5。它们与T1的RNA文件不同。每份文件读取X与同样行数的spatial_3D坐标，文件内同一行的表达和坐标属于同一细胞。</p>
+<h3 id="_3">第二步：构造独立小例子</h3>
+<p>为方便阅读，本节表达数字再次取R每行[1,2,3]，T前10行[3,1,3]、后10行[1,1,3]。P的表达与T完全相同。但P的坐标全部放大2倍。</p>
+<p>用一条线上的20点单独演示空间运算；这不是胚胎形状模型。第i个点的i从0到19：T坐标=(i,0,0)，P坐标=(2i,0,0)。因此真实点从x=0到19，预测从0到38。</p>
+<h3 id="_4">第三步：表达部分分别比较什么</h3>
+<p>DES/DCS仍用T均值−R均值及P均值−R均值，结果各1。MMD/CSS直接比较P与T表达，完全不需要R。P与T具有同样表达细胞群，本例CSS约0、MMD约−.0325593。MMD是去对角的无偏有限样本估计，可为负；不应强行当作非负物理距离。</p>
+<h3 id="_5">第四步：形状与大小分别计算</h3>
+<p>先计算自身中心，再计算每个细胞到中心的距离平方，平均后开平方，得到RMS半径。真实RMS=5.766281，预测=11.532563。</p>
+<ul>
+<li>TSR=log(预测RMS/真实RMS)=log2=.693147。官网校准时按绝对值，大小错了。</li>
+<li>SDD将内部点距除以各自RMS再比较距离分布；放大被消去，归一化形状相同。源码每侧独立随机采点对，本例200000候选点对产生SDD=.00209698，而非保证恰好0。</li>
+<li>ODS各自中心化、规范主轴、按RMS缩放后比较空间网格占据。本例规范化坐标一致，所以占据Dice=1。</li>
+</ul>
+<p>SDD/ODS检查形状，TSR单独检查大小，因此形状相同不等于空间部分全对。</p>
+<h3 id="nfs">第五步：邻域NFS计算</h3>
+<p>对每个真实细胞，在真实坐标中找15个最近点；对每个预测细胞，在预测坐标中找15个最近点。当前实现包含自己。</p>
+<p>真实第0点找到编号0到14，包含10个[3,1,3]、5个[1,1,3]；邻域平均表达=[(10×3+5×1)/15,1,3]=[2.333333,1,3]。</p>
+<p>P仅放大坐标，最近邻关系不变，这个邻域平均也相同。对全部20个细胞做完得到20×3邻域矩阵，再比较两份邻域矩阵的MMD。本例NFS约−.0373735，两批邻域轮廓相同。没有要求预测第0细胞必须对应真实第0细胞；本例编号只是为了展示邻居怎么算。</p>
+<h3 id="_6">第六步：按四组权重合成</h3>
+<p>各raw先分别换成skill：</p>
+<ul>
+<li>表达变化组=.5s_DES+.5s_DCS；</li>
+<li>细胞分布组=.6s_MMD+.4s_CSS；</li>
+<li>形状与大小组=(s_SDD+s_ODS+s_TSR)/3；</li>
+<li>邻域组=s_NFS。</li>
+</ul>
+<p>官网评分表的总分=100×四组的平均。本例说明表达、形状和邻域正确，但大小错误会由TSR体现。基线网页另提shape gate，未给出与总公式衔接的完整实现，不能声称公开CLI已完整复现线上T2总分。</p>
+<p>其他T2目标只是R/T阶段及榜单合同不同；例如胚胎E7.5验证使用E7.25作为变化参考，不改为T1的RNA数据。最终test有胚胎E7.75与心脏E12.5两个榜单，没有心脏插值test。</p>
+<h2 id="t3">T3：预测基因敲除后的细胞群</h2>
+<h3 id="_7">第一步：明确三份文件</h3>
+<p>用Gata4 E8.75验证任务说明：R是E8.75正常WT真实数据，T是E8.75 Gata4 KO真实数据，P是预测的E8.75 Gata4 KO。三者同阶段，变化从WT到KO，不从更早阶段算。这里的WT只表示正常对照群体。</p>
+<h3 id="_8">第二步：完整小矩阵</h3>
+<p>用20细胞、6基因；下表按数量展开三份20×6矩阵。</p>
+<table>
+<thead>
+<tr>
+<th>文件/行型</th>
+<th style="text-align: right;">A</th>
+<th style="text-align: right;">B</th>
+<th style="text-align: right;">C</th>
+<th style="text-align: right;">D</th>
+<th style="text-align: right;">E</th>
+<th style="text-align: right;">F</th>
+<th style="text-align: right;">数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R正常WT行</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr>
+<td>T真实KO状态1</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">3.8</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">5.5</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>T真实KO状态2</td>
+<td style="text-align: right;">1.5</td>
+<td style="text-align: right;">1.6</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">3.7</td>
+<td style="text-align: right;">5.3</td>
+<td style="text-align: right;">6.1</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>P预测KO状态1</td>
+<td style="text-align: right;">1.7</td>
+<td style="text-align: right;">1.35</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">3.55</td>
+<td style="text-align: right;">5.3</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>P预测KO状态2</td>
+<td style="text-align: right;">1.1</td>
+<td style="text-align: right;">1.95</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: right;">3.95</td>
+<td style="text-align: right;">5.1</td>
+<td style="text-align: right;">6.1</td>
+<td style="text-align: right;">10</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ko">第三步：从各自均值计算KO响应</h3>
+<table>
+<thead>
+<tr>
+<th>基因</th>
+<th style="text-align: right;">R正常均值</th>
+<th style="text-align: right;">T真实KO均值</th>
+<th style="text-align: right;">P预测KO均值</th>
+<th style="text-align: right;">真实响应T−R</th>
+<th style="text-align: right;">预测响应P−R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.8</td>
+<td style="text-align: right;">1.4</td>
+<td style="text-align: right;">+.8</td>
+<td style="text-align: right;">+.4</td>
+</tr>
+<tr>
+<td>B</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1.3</td>
+<td style="text-align: right;">1.65</td>
+<td style="text-align: right;">−.7</td>
+<td style="text-align: right;">−.35</td>
+</tr>
+<tr>
+<td>C</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3.6</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: right;">+.6</td>
+<td style="text-align: right;">+.3</td>
+</tr>
+<tr>
+<td>D</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3.5</td>
+<td style="text-align: right;">3.75</td>
+<td style="text-align: right;">−.5</td>
+<td style="text-align: right;">−.25</td>
+</tr>
+<tr>
+<td>E</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">5.2</td>
+<td style="text-align: right;">+.4</td>
+<td style="text-align: right;">+.2</td>
+</tr>
+<tr>
+<td>F</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="desdcs_1">第四步：DES/DCS检查哪些、向哪边响应</h3>
+<p>真实KO与WT的统计检验选出A/C/E上调、B/D下调；预测变化排序也选出同样名单。raw overlap=1，本例chance=.4，DES=1。预测响应为真实的一半，排序不变，DCS=1。</p>
+<h3 id="pss">第五步：PSS检查响应强度</h3>
+<p>在五个真实DE基因上，将真实响应向量作为x，预测响应作为y，拟合过原点直线y=beta*x。beta=(x·y)/(x·x)。本例y=.5x，所以beta=.5；R²=1，通过beta&gt;0且R²&gt;.01门槛，PSS=log(.5)=−.693147。</p>
+<p>若预测响应强度正确则beta=1、PSS=0。完全复制WT则预测响应为0，源码返回有限最差值log(.001)≈−6.907755，而非理想0。真正没有足够真实DE时则可能是NaN。PSS是有门槛的log回归斜率，不是两个细胞的差。</p>
+<h3 id="mmdcssko">第六步：MMD/CSS比较完整KO细胞群</h3>
+<p>这两项直接比较P的KO表达矩阵和T的KO表达矩阵，<strong>不先减WT</strong>。本例MMD=.2688162、CSS=.0150999。至此原始结果为DES=1、DCS=1、PSS=−.693147、MMD=.2688162、CSS=.0150999。它表达的是：响应基因及排序正确，响应强度太弱，KO群体分布也不完全正确。</p>
+<h3 id="t3_1">第七步：按T3权重合成</h3>
+<p>各项按T3该榜单的anchors转换skill；PSS先取绝对值，理想为0。S_T3=100×(.30s_DES+.25s_DCS+.25s_PSS+.12s_MMD+.08s_CSS)。现行官网T3排名没有shape项，尽管提交要求坐标，公开工具也可能额外返回空间诊断。</p>
+<p>Gata4验证有两个真实重复，官网按固定重复计排名、另一重复用于差异提示；上例只讲一次P对某个T的计算，不将两个重复混合成一份矩阵。最终β-catenin同样以同阶段WT为响应起点，不能把Gata4真值当它的目标。</p>
+<h2 id="_9">三个任务最后共有的校准步骤</h2>
+<p>不同指标数值尺度不同，先用榜单自己的floor和ceiling转换为skill。令df=abs(floor−ceiling)，d为当前raw距ceiling的劣化误差；skill=df/(df+d)，优于ceiling封顶1。越小越好的d=raw−ceiling，越大越好的d=ceiling−raw。缺失/NaN按官网规则skill=0。</p>
+<p>例如另取T1验证榜MMD raw=.04（此数字不属于上面小矩阵），官网floor=.08359、ceiling=.00406：df=.07953，d=.03594，skill=.688750。该项贡献100×.30×.688750=20.6625分。所有指标分别转换后，才代入各任务的加权式。不能对raw直接加权。</p>
+<h2 id="_10">证据、复算与交接</h2>
+<p>本说明按用户要求独立分任务重写，细节依据<a href="02_评分仓库逐项审读与矩阵实例.md">上轮源码审读</a>、<a href="SOURCES.json">官方评分快照</a>。代码固定commit与原文见repository_review。新脚本<a href="task_examples.py">task_examples.py</a>及<a href="TASK_EXAMPLES.json">TASK_EXAMPLES.json</a>复算本轮T1/T2算术，T3复用已审计20×6结果；<a href="TASK_EXAMPLE_ARRAYS.npz">数组</a>保存本轮矩阵。</p>
+<p>本轮只做本地独立教学计算。没有执行下载的仓库、官方CLI、模型训练、真实数据评分或比赛提交；不需要远端作业，无额外授权问题。首次检查因CSS理论0与浮点极小值精确相等断言中止，改为容差断言后通过；此为教学脚本自检修正，非模型失败。</p>
+<p>下一步仅需按读者指定的任务继续解释；线上后台版本、T2 shape gate与诊断门控的证据缺口仍由后续评分器维护者核对。本说明不自动触发评分器实现、训练或提交。</p></main></body></html>

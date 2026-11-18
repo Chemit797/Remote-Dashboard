@@ -1,0 +1,412 @@
+{
+  "source": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/outputs/mapping_folds.json",
+  "sha256": "4723df7bb7cfab5054d3e85cfb6fdd16958f4c5026cbee1eeb58c4ce0617aae1",
+  "rows": [
+    {
+      "split": "stage",
+      "held_out": "E6.75",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 0.9264313090642593,
+      "current_mse": 0.9264313090642593,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E6.75",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 0.3673137706262447,
+      "current_mse": 0.3673137706262447,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E6.75",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 0.17899666671413156,
+      "current_mse": 0.17899666671413156,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E6.75",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 0.3513571100857721,
+      "current_mse": 0.3513571100857721,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E6.75",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 0.3018570237521572,
+      "current_mse": 0.3018570237521572,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E7.25",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 1.0208889448933764,
+      "current_mse": 1.0208889448933764,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E7.25",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 0.4568910200258411,
+      "current_mse": 0.4568910200258411,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E7.25",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 1.0090671708312948,
+      "current_mse": 1.0090671708312948,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E7.25",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 0.4304414292076394,
+      "current_mse": 0.4304414292076394,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E7.25",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 0.4632551643350023,
+      "current_mse": 0.4632551643350023,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E8.0",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 1.0172673858156098,
+      "current_mse": 1.0172673858156098,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E8.0",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 0.9876499370032329,
+      "current_mse": 0.9876499370032329,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E8.0",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 6.804254253864477,
+      "current_mse": 6.804254253864477,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E8.0",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 1.0095584482938678,
+      "current_mse": 1.0095584482938678,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "stage",
+      "held_out": "E8.0",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 6.300410129063386,
+      "current_mse": 6.300410129063386,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Allantois",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 1.1659965495096765,
+      "current_mse": 1.1659965495096765,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Allantois",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 1.1299114346776968,
+      "current_mse": 1.1299114346776968,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Allantois",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 25.379068307909808,
+      "current_mse": 25.379068307909808,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Allantois",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 1.2344874484603643,
+      "current_mse": 1.2344874484603643,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Allantois",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 7.557759339480803,
+      "current_mse": 7.557759339480803,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Blood progenitors",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 0.9875159740867128,
+      "current_mse": 0.9875159740867128,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Blood progenitors",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 0.5015088473371119,
+      "current_mse": 0.5015088473371119,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Blood progenitors",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 6.044526710457668,
+      "current_mse": 6.044526710457668,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Blood progenitors",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 0.5127773812685702,
+      "current_mse": 0.5127773812685702,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Blood progenitors",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 5.357827666873968,
+      "current_mse": 5.357827666873968,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Caudal epiblast",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 1.1214763262839453,
+      "current_mse": 1.1214763262839453,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Caudal epiblast",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 0.8657532949887096,
+      "current_mse": 0.8657532949887096,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Caudal epiblast",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 1.424365959905815,
+      "current_mse": 1.424365959905815,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Caudal epiblast",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 0.9165461519629682,
+      "current_mse": 0.9165461519629682,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Caudal epiblast",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 0.918452006490959,
+      "current_mse": 0.918452006490959,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE ectoderm",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 1.1082157168099036,
+      "current_mse": 1.1082157168099036,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE ectoderm",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 0.3514388585035768,
+      "current_mse": 0.3514388585035768,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE ectoderm",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 0.2823690174924166,
+      "current_mse": 0.2823690174924166,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE ectoderm",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 0.3101167104507587,
+      "current_mse": 0.3101167104507587,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE ectoderm",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 0.35791489034816226,
+      "current_mse": 0.35791489034816226,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE endoderm",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 0.8553700299848804,
+      "current_mse": 0.8553700299848804,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE endoderm",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 0.4689037548965812,
+      "current_mse": 0.4689037548965812,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE endoderm",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 0.7171297108832879,
+      "current_mse": 0.7171297108832879,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE endoderm",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 0.49768299024144336,
+      "current_mse": 0.49768299024144336,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "ExE endoderm",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 0.7473033773523678,
+      "current_mse": 0.7473033773523678,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Primitive Streak",
+      "model": "identity",
+      "shuffled": false,
+      "previous_mse": 0.9285607453791647,
+      "current_mse": 0.9285607453791647,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Primitive Streak",
+      "model": "affine",
+      "shuffled": false,
+      "previous_mse": 0.4370844310007981,
+      "current_mse": 0.4370844310007981,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Primitive Streak",
+      "model": "ridge",
+      "shuffled": false,
+      "previous_mse": 0.4821083386838716,
+      "current_mse": 0.4821083386838716,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Primitive Streak",
+      "model": "affine",
+      "shuffled": true,
+      "previous_mse": 0.4205687534403682,
+      "current_mse": 0.4205687534403682,
+      "abs_difference": 0.0
+    },
+    {
+      "split": "type",
+      "held_out": "Primitive Streak",
+      "model": "ridge",
+      "shuffled": true,
+      "previous_mse": 0.5501096895247106,
+      "current_mse": 0.5501096895247106,
+      "abs_difference": 0.0
+    }
+  ],
+  "all_pass": true
+}

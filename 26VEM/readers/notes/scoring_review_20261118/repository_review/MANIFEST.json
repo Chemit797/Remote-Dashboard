@@ -1,0 +1,126 @@
+{
+  "commit": "cc3859ab2a2305efc4544815d3f44f660efa77d4",
+  "files": [
+    {
+      "path": ".gitignore",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/.gitignore",
+      "bytes": 68,
+      "sha256": "b238ac2e5933a1ce80ddecd8ac735db3a9e29441c763cf3b27d2c8ba532a4121"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/LICENSE",
+      "bytes": 1092,
+      "sha256": "22325e2f0ed62f603feb6b5888cad1f891fcd9b89b1cfab3c70b1dca0ac974f4"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/README.md",
+      "bytes": 2583,
+      "sha256": "088e62cd3d528804dd3c3e5ed42fac44b154aedcf82104c30d8fa22975152a09"
+    },
+    {
+      "path": "T1/__init__.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T1/__init__.py",
+      "bytes": 369,
+      "sha256": "e4fd7d8b631c0d6ac761c08e0891aa9318822b9152627c1224987ce627339689"
+    },
+    {
+      "path": "T1/metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T1/metrics.py",
+      "bytes": 5192,
+      "sha256": "c6252f964e782b4bb20f8b66352eb43ee244de402dafea5d3a0864ad5ed2fab8"
+    },
+    {
+      "path": "T1/metrics_v2.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T1/metrics_v2.py",
+      "bytes": 3219,
+      "sha256": "8d49a59cb853da0763e48236a07f2b141e485437314e69812f27bf8aa53ba313"
+    },
+    {
+      "path": "T2/__init__.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T2/__init__.py",
+      "bytes": 369,
+      "sha256": "8e09c15e4a206457e6c385a2eac0e35e688a23031a35155d5a2e24c6df40a908"
+    },
+    {
+      "path": "T2/metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T2/metrics.py",
+      "bytes": 8662,
+      "sha256": "2c8aeb720aa44661d0d05bfd6d389093b8d879601a41ac7280a1da506a64bd13"
+    },
+    {
+      "path": "T2/metrics_v2.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T2/metrics_v2.py",
+      "bytes": 4777,
+      "sha256": "5d06e68f6d6848f64eb7b798ea42ca31d8c1f9a61084c174a4f50eaf88bdd878"
+    },
+    {
+      "path": "T3/__init__.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T3/__init__.py",
+      "bytes": 369,
+      "sha256": "8c2b643df37d8e7c4d9013915a3a60235341fb87a789c52ef0efa71e502b6679"
+    },
+    {
+      "path": "T3/metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T3/metrics.py",
+      "bytes": 6373,
+      "sha256": "b338d3ff6e977f093922ec5de2dd05c07faa472b29d44d901ce9a7cb432d1376"
+    },
+    {
+      "path": "T3/metrics_v2.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T3/metrics_v2.py",
+      "bytes": 6548,
+      "sha256": "ebc0882a1c1d3a83f05b577ef0084e5fb2e9075faad065304d094df1727f67a2"
+    },
+    {
+      "path": "common/__init__.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/__init__.py",
+      "bytes": 69,
+      "sha256": "10587826cd419dcaad46b4742ee35e12a1f6b34589e08b411c9cd7c5b35a6b4c"
+    },
+    {
+      "path": "common/core_metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py",
+      "bytes": 27701,
+      "sha256": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31"
+    },
+    {
+      "path": "common/shape_metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/shape_metrics.py",
+      "bytes": 11206,
+      "sha256": "d5750df276d99541602cbf01680992955bf01edd951e1d96908987b69fb6e92f"
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/pyproject.toml",
+      "bytes": 706,
+      "sha256": "763c2670bd5ae014a5f04b640b9f854e228397c3af7ea4fb37ffbb776d77a320"
+    },
+    {
+      "path": "score_h5ad.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/score_h5ad.py",
+      "bytes": 12177,
+      "sha256": "52034554f03aec10193cb09baa2c78a1de04218ef678f327eb63acc58fa28add"
+    },
+    {
+      "path": "tests/test_shape_rotation_invariance.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/tests/test_shape_rotation_invariance.py",
+      "bytes": 2472,
+      "sha256": "4ade6c2f8e08f940d8fdb362a8c7892960b4b07ad8f8f4e13498db346f4d67d0"
+    },
+    {
+      "path": "veckit.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/veckit.py",
+      "bytes": 2942,
+      "sha256": "b991dc27e1b169b732721f4d79ff183c29879f6c4fee9ceb7e897a63172b4108"
+    },
+    {
+      "path": "veckit_tutorial.ipynb",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/veckit_tutorial.ipynb",
+      "bytes": 18279,
+      "sha256": "32b86382d43d337e41979e81e0b4d70ddd6b960226213261b11c7890f1237404"
+    }
+  ],
+  "excluded": "six binary H5AD samples"
+}

@@ -1,0 +1,432 @@
+{
+  "version": "2.0",
+  "basis": "nine audited official training files plus six downloaded validation-release-v1 truth files",
+  "results": [
+    {
+      "hypothesis_id": "H01",
+      "question": "面板是否偏向特定谱系与功能，且覆盖不均超过表达水平所能解释的程度？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/panel_functional.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "supported_within_scope",
+      "evidence_grade": "B",
+      "sample_units": "T1 E8.5 and E9.5 published pools define expressed background; functional annotations are external gene-level evidence",
+      "comparison": "500 MERFISH design genes versus T1-expressed GO-annotated genes and expression/detection-matched random sets",
+      "observed_gene_mask": "422 of 500 panel genes both expressed and directly BP annotated",
+      "controls": "GO-annotated T1-expressed background 12,611 genes; 1000 matched random panels; non-IEA sensitivity",
+      "effect_size": "heart development 47 hits, OR 6.21, BH q 2.1e-16, matched mean 23.27; blood vessel development 25 hits, OR 14.83",
+      "sensitivity_results": "heart, vessel and outflow tract enrichment persists after IEA exclusion; matched balance and exact p in panel_GO tables",
+      "counterevidence": "Six frozen modules have uneven coverage; S-phase 0/9 and contractile 4/12 in MERFISH. GO terms are redundant.",
+      "identifiability": "functional panel bias is estimable; author per-gene selection motive is not",
+      "limitations": "No candidate design pool or probe-feature table; GO annotations are not design records.",
+      "figure_ids": [
+        "F03",
+        "F04",
+        "F04_GO",
+        "F05"
+      ],
+      "result_table_paths": [
+        "tables/panel_GO_BP_enrichment.csv",
+        "tables/panel_GO_matched_sensitivity.csv",
+        "tables/module_coverage.csv"
+      ],
+      "model_implication": "Represent absent programs as unobserved; use panel-aware modules and avoid interpreting missing S-phase as inactivity.",
+      "input_hashes": {
+        "E8.5_RNA": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+        "E9.5_RNA": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "MOUSE-mod.gaf.gz": "6cbefce3a2efd9862f102a2732e923fde525c8fa59a3e5ce22e8178c3ebb0093",
+        "go-basic.obo": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc"
+      }
+    },
+    {
+      "hypothesis_id": "H02",
+      "question": "E9.5 到 E10.5 的整体心脏表达变化是否有较大的组成/取材相关分量？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "supported_descriptively",
+      "evidence_grade": "C",
+      "sample_units": "one E9.5 and one E10.5 published heart specimen; no embryo-level interval",
+      "comparison": "pre-registered E9.5 to E10.5 heart contrast on four common contractile genes and broad labels",
+      "observed_gene_mask": "500 common observed genes; contractile module 4/12; E10.5 unresolved labels 18.3%",
+      "controls": "original labels retained; broad label mapping review; all, resolved-only and cardiac-core common label support",
+      "effect_size": "CM fraction 0.303 to 0.149; four-gene net -413.25, C -253.22, S -160.03",
+      "sensitivity_results": "all/resolved/cardiac-core four-gene net -413.2/-392.7/-515.0; C and S remain negative; common-region ROI unavailable",
+      "counterevidence": "Myl4 rises while Ttn falls; absolute CM cell count rises despite fraction falling",
+      "identifiability": "composition and within-broad-type algebra identified; sampling and biology causal shares not identified",
+      "limitations": "E10.5 is dissected heart while earlier samples include heart-tube sections; one specimen per WT stage",
+      "figure_ids": [
+        "F08",
+        "F09",
+        "F09S"
+      ],
+      "result_table_paths": [
+        "tables/validation_key_composition.csv",
+        "tables/composition_state_decomposition.csv",
+        "tables/label_support_decomposition_sensitivity.csv",
+        "tables/label_mapping_review.csv"
+      ],
+      "model_implication": "separate target tissue support, composition and within-type states; assess label mapping sensitivity",
+      "input_hashes": {
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      }
+    },
+    {
+      "hypothesis_id": "H03",
+      "question": "部分表达差异是否与检出模式变化有关，而不是仅有阳性强度变化？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "mixed",
+      "evidence_grade": "C",
+      "sample_units": "one E9.5 and one E10.5 heart specimen; cell percentages descriptive",
+      "comparison": "within cardiomyocyte, detection and positive intensity in E9.5 to E10.5",
+      "observed_gene_mask": "500 common genes; four contractile members present",
+      "controls": "same broad label; exact detection-plus-positive decomposition",
+      "effect_size": "Myh7 detection 0.57 to 0.34; Ttn 0.94 to 0.84; Ttn fall dominated by positive-intensity component, Myl4 rises",
+      "sensitivity_results": "gene-level decomposition table and exact reconstruction supplied",
+      "counterevidence": "not all genes decrease and not all declines have the same zero/positive structure",
+      "identifiability": "normalized zero and positive views identified; molecule loss versus true RNA not identified",
+      "limitations": "no raw molecule counts or probe QC; broad type contains subtypes",
+      "figure_ids": [
+        "F05",
+        "F06"
+      ],
+      "result_table_paths": [
+        "tables/validation_key_hurdle.csv",
+        "tables/detection_positive_decomposition.csv"
+      ],
+      "model_implication": "calibrate zero fractions and positive expression separately by gene",
+      "input_hashes": {
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      }
+    },
+    {
+      "hypothesis_id": "H04",
+      "question": "少数高占比模块变化是否伴随其余基因的归一化相对下降？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "compatible_not_identifiable",
+      "evidence_grade": "C",
+      "sample_units": "one E9.5 and one E10.5 specimen",
+      "comparison": "four-gene contractile share of the common 500-gene published normalization axis",
+      "observed_gene_mask": "four of twelve frozen contractile genes measured",
+      "controls": "same ordered 500-gene axis; full-axis published CP10k; no independent intersection renormalization",
+      "effect_size": "relative share 6.45% to 2.31%",
+      "sensitivity_results": "complement changes arithmetically under CP10k; absolute count sensitivity unavailable",
+      "counterevidence": "Myl4 rises; a common multiplicative decline is not observed",
+      "identifiability": "relative shares only; absolute RNA and detection efficiency not identified",
+      "limitations": "expm1(X) is not raw count and cannot undo library closure",
+      "figure_ids": [
+        "F07",
+        "F09"
+      ],
+      "result_table_paths": [
+        "tables/module_share_by_file.csv",
+        "tables/validation_key_hurdle.csv"
+      ],
+      "model_implication": "preserve publication scale and avoid absolute-RNA interpretation",
+      "input_hashes": {
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      }
+    },
+    {
+      "hypothesis_id": "H05",
+      "question": "部分空间不连续是否与切片、坐标表示或分割质量相关？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/spatial_remote.py",
+        "src/build_spatial_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "anomaly_located_cause_unknown",
+      "evidence_grade": "C",
+      "sample_units": "12 spatial files, 449 sections nested within specimens",
+      "comparison": "within-file z slice detection after conditioning on original labels, including five validation spatial files",
+      "observed_gene_mask": "498/500 observed spatial genes by file",
+      "controls": "within-raw-label expected detection and supported-cell fraction",
+      "effect_size": "largest validation residual -13.14 detected genes at E8.5 slice 0",
+      "sensitivity_results": "published coordinates retained; 6-decimal z grouping; full cells for sections",
+      "counterevidence": "anatomical subregion and subtype shifts also fit the residual",
+      "identifiability": "slice-associated pattern locatable; segmentation, probe and physical-coordinate causes not separable",
+      "limitations": "no FOV, raw spots, segmentation mask, probe/round fields or certified physical axes",
+      "figure_ids": [
+        "F10V",
+        "F11V"
+      ],
+      "result_table_paths": [
+        "tables/validation_slice_anomalies.csv",
+        "tables/slice_conditioned_quality.csv"
+      ],
+      "model_implication": "investigate flagged sections before applying coordinate or intensity correction",
+      "input_hashes": {
+        "E6.75": "ab58b9217d1b9a18b0181f498475a9eb821ac2c92ab2b7e45a623da0e4fffe70",
+        "E7.25": "c34192a31036b783b97ce1877ac50fc920b39faa3e00dc3c637b3e7e04255ee6",
+        "E8.0": "17530e23fbfa6a139ff68d0353a489d83790f5b60f036b7d2f58303a1ff8a810",
+        "E8.25_late": "d56f94d3e2d719ed3074d86c03eae457ccf90b24145d33300f9958f0e8078593",
+        "E8.75": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E9.5_mab21l2_ko": "5b1668ab982e64f7683fbf5f905218fab311c63548de5f5bc18a74f9d4d357e0",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+        "E7.5": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+        "E8.5": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+        "E8.75_gata4_ko_1": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+        "E8.75_gata4_ko_2": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4"
+      }
+    },
+    {
+      "hypothesis_id": "H06",
+      "question": "是否存在可与生物学区分的批次或基因特异技术偏移？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "not_estimable",
+      "evidence_grade": "不可估计",
+      "sample_units": "two independent Gata4 KO embryos, one shared WT file; other stages one specimen or pool",
+      "comparison": "stage/genotype and documented run/batch design including validation truth",
+      "observed_gene_mask": "500 spatial genes, but probe/round fields absent",
+      "controls": "design-rank/field-availability audit",
+      "effect_size": "No batch coefficient or technical variance fraction estimated",
+      "sensitivity_results": "KO embryo and perturb_batch fields present, matched WT run field absent",
+      "counterevidence": "any KO/WT shift is equally compatible with batch, sampling or genotype in this design",
+      "identifiability": "genotype and batch non-crossed; stage and sample identity one-to-one",
+      "limitations": "KO/WT run separation and no crossed independent WT embryos",
+      "figure_ids": [
+        "F02",
+        "F12"
+      ],
+      "result_table_paths": [
+        "tables/field_availability.csv",
+        "tables/file_inventory.csv"
+      ],
+      "model_implication": "collect crossed batches; do not estimate a biological-only KO coefficient",
+      "input_hashes": {
+        "E6.75": "ab58b9217d1b9a18b0181f498475a9eb821ac2c92ab2b7e45a623da0e4fffe70",
+        "E7.25": "c34192a31036b783b97ce1877ac50fc920b39faa3e00dc3c637b3e7e04255ee6",
+        "E8.0": "17530e23fbfa6a139ff68d0353a489d83790f5b60f036b7d2f58303a1ff8a810",
+        "E8.25_late": "d56f94d3e2d719ed3074d86c03eae457ccf90b24145d33300f9958f0e8078593",
+        "E8.5_RNA": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+        "E8.75": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E9.5_RNA": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+        "E9.5_mab21l2_ko": "5b1668ab982e64f7683fbf5f905218fab311c63548de5f5bc18a74f9d4d357e0",
+        "E10.5_RNA": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+        "E7.5": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+        "E8.5": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+        "E8.75_gata4_ko_1": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+        "E8.75_gata4_ko_2": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4"
+      }
+    },
+    {
+      "hypothesis_id": "H07",
+      "question": "预定义发育程序是否在指定时期与谱系中呈现预期变化？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "mixed",
+      "evidence_grade": "C",
+      "sample_units": "five WT heart published specimens from E8.25 to E10.5, one per stage",
+      "comparison": "frozen modules within conservative broad types across training and validation windows",
+      "observed_gene_mask": "contractile 4/12, cardiac regulators 5/6, endothelial 4/8; S phase 0/9 in MERFISH",
+      "controls": "fixed module membership and coverage; unrelated modules; one file per stage",
+      "effect_size": "CM contractile relative mean E8.25/E8.5/E8.75/E9.5/E10.5 = 622.5/639.4/725.5/507.1/334.3",
+      "sensitivity_results": "same four observed contractile members across five stages",
+      "counterevidence": "simple monotonic contractile rise is not supported",
+      "identifiability": "descriptive relative module trajectory only; stage and sample effects confounded",
+      "limitations": "only 4/12 contractile members; annotation may reuse marker genes",
+      "figure_ids": [
+        "F09",
+        "F13"
+      ],
+      "result_table_paths": [
+        "tables/validation_key_modules.csv",
+        "tables/module_coverage.csv"
+      ],
+      "model_implication": "use lineage/window-specific weak priors instead of one maturity clock",
+      "input_hashes": {
+        "E8.25_late": "d56f94d3e2d719ed3074d86c03eae457ccf90b24145d33300f9958f0e8078593",
+        "E8.5": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+        "E8.75": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      }
+    },
+    {
+      "hypothesis_id": "H08",
+      "question": "官方核 RNA 与 MERFISH 是否支持相同的类型特异性和发育变化方向？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "mixed",
+      "evidence_grade": "C",
+      "sample_units": "E9.5 and E10.5 each one separate T1 pool and T2 spatial specimen",
+      "comparison": "frozen E9.5 same-stage specificity; exploratory E10.5 specificity and E9.5-to-E10.5 within-modality temporal directions",
+      "observed_gene_mask": "410 informative CM genes, 429 endothelial genes from 500 common panel genes",
+      "controls": "exclude ten T2-abundant genes; rank/direction only, not absolute expression",
+      "effect_size": "E9.5 CM specificity rho 0.650; E10.5 rho 0.447; temporal CM rho 0.352 and sign agreement 0.610 across 100 genes",
+      "sensitivity_results": "E10.5 exclusion of ten abundant T2 genes retains positive specificity rank correlation; temporal directions use genes with max relative mean >=1 in each modality; exploratory after truth unlock",
+      "counterevidence": "temporal CM concordance is modest; nuclear/whole-cell and sampling differences remain",
+      "identifiability": "type specificity partially comparable; absolute RNA and modality-specific efficiency not separable",
+      "limitations": "different specimens, one per stage/modal combination; relative expression and label composition differ",
+      "figure_ids": [
+        "F14",
+        "F14V",
+        "F14T"
+      ],
+      "result_table_paths": [
+        "tables/cross_modal_specificity.csv",
+        "tables/cross_modal_specificity_gene.csv",
+        "tables/cross_modal_temporal_summary.csv",
+        "tables/cross_modal_temporal_gene.csv"
+      ],
+      "model_implication": "Transfer type-rank priors cautiously; keep assay-specific scale and zero patterns.",
+      "input_hashes": {
+        "E9.5_RNA": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E10.5_RNA": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      }
+    },
+    {
+      "hypothesis_id": "H09",
+      "question": "Gata4 条件 KO 的部分响应是否与正常发育方向的偏移相容，并有额外特异残差？",
+      "code_version": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "consistent_descriptive_signal_causality_unidentified",
+      "evidence_grade": "C",
+      "sample_units": "Gata4 KO1 and KO2 are two independent littermate embryos; shared WT one published specimen",
+      "comparison": "each KO versus shared E8.75 WT, broad CM fraction and frozen within-CM contractile module",
+      "observed_gene_mask": "500 observed genes in WT and both KO files; contractile 4/12",
+      "controls": "two KO embryos shown separately; common broad label and fixed module members",
+      "effect_size": "CM fraction WT/KO1/KO2 0.137/0.066/0.082; within-CM contractile 725.5/512.3/496.0; CM WT-direction projection KO1/KO2 -0.025/+0.045",
+      "sensitivity_results": "both KO embryos show same contractile direction; WT-only E8.5-to-E9.5 four-module projection performed per KO, with residual; sampling/batch confounding remains",
+      "counterevidence": "KO label and mesoderm composition differ greatly from WT; no matched WT run",
+      "identifiability": "directional sample contrast; pure Gata4 causal response or developmental delay not identified",
+      "limitations": "Mesp1-Cre; Gata4 F/F; Gata6 F/+ condition, separate KO/WT runs, one WT specimen",
+      "figure_ids": [
+        "F15",
+        "F15P"
+      ],
+      "result_table_paths": [
+        "tables/validation_gata4_modules.csv",
+        "tables/validation_key_composition.csv",
+        "tables/gata4_wt_direction_projection.csv",
+        "tables/gata4_wt_direction_components.csv"
+      ],
+      "model_implication": "treat KO signal as hypothesis and acquire crossed WT/KO embryos before causal model correction",
+      "input_hashes": {
+        "E8.75": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c",
+        "E8.75_gata4_ko_1": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+        "E8.75_gata4_ko_2": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4"
+      }
+    },
+    {
+      "hypothesis_id": "H10",
+      "question": "数据诊断识别的分布或空间因素能否定位现有模型的主要失真？",
+      "code_version": [
+        "src/model_diagnostics_remote.py",
+        "src/build_evidence.py"
+      ],
+      "matrix_scale": "published log1p(CP10k); expm1(X) only relative normalized linear view",
+      "uncertainty_type": "single published specimen or pool per stage; no biological confidence interval",
+      "test_family_if_applicable": "no sample-level test; GO uses 2730 BP terms with BH-FDR, matched panels are sensitivity",
+      "status": "diagnostic_complete_development_data",
+      "evidence_grade": "C",
+      "sample_units": "five versioned predictions, six truth pairings; fixed cell subsamples are technical only",
+      "comparison": "each representative prediction versus matched official validation truth, KO prediction against two embryos",
+      "observed_gene_mask": "all six official score axes complete; E7.5 board scores 498 genes while truth also observes two unscored genes",
+      "controls": "pinned public raw scorer, three fixed 700-cell samples; truth-assisted reweighting labeled diagnostic",
+      "effect_size": "E10.5 heart mean absolute per-gene log1p mean error 0.165, detection fraction error 0.032",
+      "sensitivity_results": "all applicable raw metric components recorded per fixed seed; E7.5 three-way intersection exactly matches its official 498-gene board",
+      "counterevidence": "most predictions lack cell labels, so type-specific and composition-reweighting errors cannot be estimated",
+      "identifiability": "marginal gene and available spatial diagnostic identified; independent generalization not identified",
+      "limitations": "validation answers used in development; fixed cell subsamples and reference choices do not reproduce official scores",
+      "figure_ids": [
+        "F16",
+        "F16M"
+      ],
+      "result_table_paths": [
+        "tables/model_validation_diagnostics.csv",
+        "tables/model_gene_error_top.csv",
+        "tables/model_module_errors.csv",
+        "tables/score_gene_mask.csv"
+      ],
+      "model_implication": "prioritize large gene/zero/shape errors and test changes on independent embryos",
+      "input_hashes": {
+        "E10.5_RNA": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+        "E7.5": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+        "E8.5": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+        "E8.75_gata4_ko_1": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+        "E8.75_gata4_ko_2": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4",
+        "T1_E10p5_prediction": "2a816eb2857378320e1d677a10a9234c14e5f96d9e22b165eb2674e9149b951f",
+        "T2_embryo_E7p5_prediction": "2c85c13a7ce9449e45afad68aab89a0df46a7cd314ee1e4ca018815ad7121ccc",
+        "T2_heart_interp_E8p5_prediction": "b7a594ddd6f1d2464d1495f5476088ff4ed31f1550dd1d3a7e783e86176d8af2",
+        "T2_heart_extrap_E10p5_prediction": "de2265b965af5784385b2bd70218bcae33e85ac8f81f50aad99973ec67deae47",
+        "T3_Gata4_E8p75_prediction": "f5b45c6906c2165f305455d709978a0fdd52b4ac47e92040a14b41cc4ee0625f",
+        "scorer_entry": "52034554f03aec10193cb09baa2c78a1de04218ef678f327eb63acc58fa28add",
+        "scorer_core": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31",
+        "scorer_shape": "bd80ef2705f9be93fe1538e77445d4eb217d4b955c6cd38c69b26b0671be91c0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "W1",
+    "question": "不同程序不共享单调上升，且粗类型变化可能由多状态更替解释",
+    "comparison": "类型×程序分位数/原始及cm亚标签；检测四分位等权；逐标记剔除与检测/均值匹配随机模块",
+    "support": "多个成员、独立留出标记和不同分层仍有相异方向",
+    "refutation": "方向由单成员或标签构成解释",
+    "exposure": "旧总体组成及四收缩基因均值已暴露；细分及条件分析探索性",
+    "unit": "每时期一发布样本；不计算细胞级发育显著性",
+    "confounders": [
+      "样本与时期",
+      "取材与标签",
+      "面板闭合",
+      "检测与真实生物学"
+    ],
+    "status": "computed_with_stated_limits",
+    "result": "partial_support_nonmonotonic_not_latent_axis_proof",
+    "evidence_claims": [
+      "C1",
+      "C3"
+    ]
+  },
+  {
+    "id": "W2",
+    "question": "心肌比例变化对组织支持和映射敏感",
+    "comparison": "全文件、心脏标签支持、同切片心肌邻域、cm替代映射；四基因对称分解",
+    "support": "相对比例跨合理定义稳定",
+    "refutation": "更换支持/映射后效应反向或显著缩小",
+    "exposure": "旧总体组成及四收缩基因均值已暴露；细分及条件分析探索性",
+    "unit": "每时期一发布样本；不计算细胞级发育显著性",
+    "confounders": [
+      "样本与时期",
+      "取材与标签",
+      "面板闭合",
+      "检测与真实生物学"
+    ],
+    "status": "computed_with_stated_limits",
+    "result": "support_sensitive_not_universal_quota",
+    "evidence_claims": [
+      "C2"
+    ]
+  },
+  {
+    "id": "W3",
+    "question": "同类型状态与位置和邻域有条件关联",
+    "comparison": "切片内k=15/40；空间块留出；质量+标签/加位置/加邻域；区域约束置换与边界敏感性",
+    "support": "多数留出块和两个尺度有正增量",
+    "refutation": "负增量或仅边界/单块支持",
+    "exposure": "旧总体组成及四收缩基因均值已暴露；细分及条件分析探索性",
+    "unit": "每时期一发布样本；不计算细胞级发育显著性",
+    "confounders": [
+      "样本与时期",
+      "取材与标签",
+      "面板闭合",
+      "检测与真实生物学"
+    ],
+    "status": "computed_with_stated_limits",
+    "result": "late_sample_internal_support_early_counterexample",
+    "evidence_claims": [
+      "C5"
+    ]
+  },
+  {
+    "id": "W4",
+    "question": "联合结构超出单基因边缘和零位",
+    "comparison": "原始标签×区域×检测分层置换整列；仅阳性值置换；共检出及阳性秩相关",
+    "support": "观察统计超过两个条件对照并跨块稳定",
+    "refutation": "只有零位相关或调整后消失",
+    "exposure": "旧总体组成及四收缩基因均值已暴露；细分及条件分析探索性",
+    "unit": "每时期一发布样本；不计算细胞级发育显著性",
+    "confounders": [
+      "样本与时期",
+      "取材与标签",
+      "面板闭合",
+      "检测与真实生物学"
+    ],
+    "status": "computed_with_stated_limits",
+    "result": "pair_stage_specific_zero_vs_positive_structure",
+    "evidence_claims": [
+      "C4",
+      "C6"
+    ]
+  },
+  {
+    "id": "W5",
+    "question": "切片和归一化影响观察趋势",
+    "comparison": "类型+XY区域条件残差；多类型同步；counts层语义；原尺度/去收缩分母/比值",
+    "support": "残差跨类型且替代尺度改变趋势",
+    "refutation": "空间/类型解释残差或替代尺度不变",
+    "exposure": "旧总体组成及四收缩基因均值已暴露；细分及条件分析探索性",
+    "unit": "每时期一发布样本；不计算细胞级发育显著性",
+    "confounders": [
+      "样本与时期",
+      "取材与标签",
+      "面板闭合",
+      "检测与真实生物学"
+    ],
+    "status": "computed_with_stated_limits",
+    "result": "counts_and_slice_effects_identified_technical_cause_unidentified",
+    "evidence_claims": [
+      "C7",
+      "C9"
+    ]
+  },
+  {
+    "id": "W6",
+    "question": "标记与面板覆盖限制上述结论",
+    "comparison": "逐成员方向/剔除、非重叠标记与面板覆盖",
+    "support": "至少两个独立观测成员方向一致",
+    "refutation": "单成员主导或没有覆盖",
+    "exposure": "旧总体组成及四收缩基因均值已暴露；细分及条件分析探索性",
+    "unit": "每时期一发布样本；不计算细胞级发育显著性",
+    "confounders": [
+      "样本与时期",
+      "取材与标签",
+      "面板闭合",
+      "检测与真实生物学"
+    ],
+    "status": "computed_with_stated_limits",
+    "result": "partial_coverage_loo_complete_independent_label_validation_unknown",
+    "evidence_claims": [
+      "C8"
+    ]
+  }
+]

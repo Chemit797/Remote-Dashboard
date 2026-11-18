@@ -1,0 +1,2431 @@
+{
+  "all_pass": true,
+  "checks": 76,
+  "details": [
+    {
+      "check": "completed",
+      "passed": true,
+      "evidence": {
+        "elapsed_seconds": 229.20669960975647,
+        "metric_rows": 780,
+        "fold_model_rows": 45,
+        "stage_type_groups": 10,
+        "completed": true
+      }
+    },
+    {
+      "check": "row count",
+      "passed": true,
+      "evidence": 780
+    },
+    {
+      "check": "unique metric records",
+      "passed": true,
+      "evidence": 780
+    },
+    {
+      "check": "45 frozen fold-model rows",
+      "passed": true,
+      "evidence": 45
+    },
+    {
+      "check": "496 fixed measured genes",
+      "passed": true,
+      "evidence": "b69bf951eb0cf36272c1247c039a48e27662bfb6bcd77a3febf26db14be2fdee"
+    },
+    {
+      "check": "legacy MSE reproduced",
+      "passed": true,
+      "evidence": 0.0
+    },
+    {
+      "check": "independent metric arithmetic",
+      "passed": true,
+      "evidence": {
+        "seed": 0,
+        "n_external": 403,
+        "n_official": 417,
+        "n_genes": 496,
+        "mmd_public": 0.39141847865106705,
+        "mmd_cdist": 0.39141847865106716,
+        "mmd_abs_error": 1.1102230246251565e-16,
+        "css_public": 0.37430460634024093,
+        "css_blocked": 0.374304606340241,
+        "css_abs_error": 5.551115123125783e-17,
+        "all_pass": true,
+        "record_id": "stage_00|identity|E6.75|ExE ectoderm|EMTAB_pool_7|0",
+        "note": "Same sampled observed cells; independent pairwise distance/kernel and gene-pair accumulation"
+      }
+    },
+    {
+      "check": "training exclusions stage_00 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_00 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_00 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_00 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_00 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_01 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_01 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_01 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_01 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_01 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_02 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_02 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_02 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_02 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions stage_02 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_00 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_00 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_00 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_00 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_00 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Allantois"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_01 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_01 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_01 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_01 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_01 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E7.25",
+            "Blood progenitors"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_02 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_02 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_02 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_02 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_02 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_03 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_03 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_03 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_03 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_03 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_04 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_04 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_04 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_04 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_04 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_05 identity",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_05 affine",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_05 ridge",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_05 affine_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "training exclusions type_05 ridge_shuffled",
+      "passed": true,
+      "evidence": {
+        "train": [
+          [
+            "E6.75",
+            "ExE ectoderm"
+          ],
+          [
+            "E6.75",
+            "ExE endoderm"
+          ],
+          [
+            "E7.25",
+            "Blood progenitors"
+          ],
+          [
+            "E7.25",
+            "ExE ectoderm"
+          ],
+          [
+            "E7.25",
+            "ExE endoderm"
+          ],
+          [
+            "E8.0",
+            "Allantois"
+          ],
+          [
+            "E8.0",
+            "Caudal epiblast"
+          ],
+          [
+            "E8.0",
+            "ExE endoderm"
+          ]
+        ],
+        "test": [
+          [
+            "E6.75",
+            "Primitive Streak"
+          ],
+          [
+            "E7.25",
+            "Primitive Streak"
+          ]
+        ]
+      }
+    },
+    {
+      "check": "same sampled cells in all arms and both holdouts",
+      "passed": true,
+      "evidence": 78
+    },
+    {
+      "check": "sample limits and eligibility",
+      "passed": true,
+      "evidence": 1000
+    },
+    {
+      "check": "valid clipping fraction",
+      "passed": true,
+      "evidence": 0.09134712923513898
+    },
+    {
+      "check": "independent equal-sample aggregation",
+      "passed": true,
+      "evidence": 1.1102230246251565e-16
+    },
+    {
+      "check": "retrieved SHA outputs/REPORT_ZH.md",
+      "passed": true,
+      "evidence": "900a28f2dfbb4a7748bd5365771718f07b83180430b97490d445d15c71e8cbec"
+    },
+    {
+      "check": "retrieved SHA outputs/overview.csv",
+      "passed": true,
+      "evidence": "2882c2fa0abbcafd8e6e0ef884b28dd95dda95075dc519bd291108b0319894d2"
+    },
+    {
+      "check": "retrieved SHA outputs/fold_metric_summary.csv",
+      "passed": true,
+      "evidence": "14d2dbf76d6c2bb149eeeb32d7bd3ad50e60ca8a643a263f3f2f45e84deb8e80"
+    },
+    {
+      "check": "retrieved SHA outputs/group_metric_summary.csv",
+      "passed": true,
+      "evidence": "922748b22c5fa998541e5c1f582849f680146f899614aec60a72cf3352f423c9"
+    },
+    {
+      "check": "retrieved SHA outputs/sample_metric_summary.csv",
+      "passed": true,
+      "evidence": "099d0ce8ee262c26a361e0e7c3135c9564d0282864af33841cac912e565c1f81"
+    },
+    {
+      "check": "retrieved SHA outputs/cell_metrics.jsonl",
+      "passed": true,
+      "evidence": "4b68b9348f6c2722e1685860086218908e2947c20e7a143744869dc84cbd7755"
+    },
+    {
+      "check": "retrieved SHA outputs/cell_metrics.csv",
+      "passed": true,
+      "evidence": "4efdaac97db141b2575f220deacc62b31e9bfc93f83aa1623cc140fa211cf498"
+    },
+    {
+      "check": "retrieved SHA outputs/folds.json",
+      "passed": true,
+      "evidence": "12334b70b4c36e8952686e091d0f56aacdb5d697333f909362f2f195188c225c"
+    },
+    {
+      "check": "retrieved SHA outputs/fold_verdicts.json",
+      "passed": true,
+      "evidence": "38fd4ec034196b141569fc8d29772146372944a8fd22601950492e5059bf5717"
+    },
+    {
+      "check": "retrieved SHA outputs/group_aggregate_mse.csv",
+      "passed": true,
+      "evidence": "2ecffba4179673a70f19bae7b84b77a827d365dd89931ec183a3d99d8bc8b9bc"
+    },
+    {
+      "check": "retrieved SHA outputs/legacy_mse_reproduction.json",
+      "passed": true,
+      "evidence": "feacde12467cc3368e2ff7e8e1db4028236f7bc37e20fe03f7182da591df823e"
+    },
+    {
+      "check": "retrieved SHA outputs/arithmetic_verification.json",
+      "passed": true,
+      "evidence": "1a4724c44163ff2fe6f58f3a903b27b10084c5b239e3720fffbb725f95e6c53a"
+    },
+    {
+      "check": "retrieved SHA outputs/metric_independent_verification.json",
+      "passed": true,
+      "evidence": "8ffc72da462804f913b3056915189c5b8b50c65726861a22a97ee36f1f20c853"
+    },
+    {
+      "check": "retrieved SHA outputs/inputs.json",
+      "passed": true,
+      "evidence": "0ffebace151957702e0bbb7094c6bcb69802b2647c2c1df57ee1326f2eefbe00"
+    },
+    {
+      "check": "retrieved SHA outputs/coverage.csv",
+      "passed": true,
+      "evidence": "711e00454873c01aa2fdc05cb18f904e731b2f93d5dbaf6de4dc4d511413b12e"
+    },
+    {
+      "check": "retrieved SHA outputs/groups.json",
+      "passed": true,
+      "evidence": "ebad124a913f7b3ab968587fd60019805b0fd14bc96c80aa232edd91152c7674"
+    },
+    {
+      "check": "retrieved SHA outputs/run_identity.json",
+      "passed": true,
+      "evidence": "cdf875c9f5dbf590777efd43fdfcc444c38f1b07e6aa15c04cb39ec62c17322d"
+    },
+    {
+      "check": "retrieved SHA outputs/runtime.json",
+      "passed": true,
+      "evidence": "847d3091edac7a68debd40873769401909ee7f6968a1c2c2ff82ba685360e65b"
+    },
+    {
+      "check": "retrieved SHA outputs/genes.txt",
+      "passed": true,
+      "evidence": "b69bf951eb0cf36272c1247c039a48e27662bfb6bcd77a3febf26db14be2fdee"
+    },
+    {
+      "check": "retrieved SHA outputs/MANIFEST.json",
+      "passed": true,
+      "evidence": "89f18a24c2b60d4d3c5d4782428f22953a238b84d6f8daf3ad6f9bb8ea30a518"
+    }
+  ]
+}

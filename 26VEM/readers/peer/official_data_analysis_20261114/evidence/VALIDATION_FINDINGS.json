@@ -1,0 +1,564 @@
+{
+  "version": "1.0",
+  "status": "observed_official_validation_release_v1",
+  "input_audit": "evidence/VALIDATION_RELEASE_AUDIT.json",
+  "n_training_files": 9,
+  "n_validation_files": 6,
+  "training_cells": 273481,
+  "validation_cells": 316871,
+  "validation_file_ids": [
+    "E10.5_RNA",
+    "E10.5",
+    "E7.5",
+    "E8.5",
+    "E8.75_gata4_ko_1",
+    "E8.75_gata4_ko_2"
+  ],
+  "validation_inventory": [
+    {
+      "file_id": "E10.5_RNA",
+      "role": "T1_RNA_validation",
+      "cells": 24979,
+      "genes": 32285,
+      "median_detected_genes": 2869.0,
+      "spatial_z_levels": NaN
+    },
+    {
+      "file_id": "E10.5",
+      "role": "T2_heart_validation",
+      "cells": 167864,
+      "genes": 500,
+      "median_detected_genes": 30.0,
+      "spatial_z_levels": 44.0
+    },
+    {
+      "file_id": "E7.5",
+      "role": "T2_embryo_validation",
+      "cells": 11665,
+      "genes": 500,
+      "median_detected_genes": 29.0,
+      "spatial_z_levels": 34.0
+    },
+    {
+      "file_id": "E8.5",
+      "role": "T2_heart_validation",
+      "cells": 23710,
+      "genes": 500,
+      "median_detected_genes": 61.0,
+      "spatial_z_levels": 25.0
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "role": "T3_Gata4_KO_validation",
+      "cells": 42257,
+      "genes": 500,
+      "median_detected_genes": 38.0,
+      "spatial_z_levels": 46.0
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "role": "T3_Gata4_KO_validation",
+      "cells": 46396,
+      "genes": 500,
+      "median_detected_genes": 34.0,
+      "spatial_z_levels": 44.0
+    }
+  ],
+  "key_composition": [
+    {
+      "file_id": "E8.25_late",
+      "broad_label": "Unresolved",
+      "cells": 1193,
+      "fraction": 0.0203181415627767
+    },
+    {
+      "file_id": "E8.25_late",
+      "broad_label": "Neural/NCC",
+      "cells": 7472,
+      "fraction": 0.1272566251107023
+    },
+    {
+      "file_id": "E8.25_late",
+      "broad_label": "Endothelial/endocardial",
+      "cells": 6219,
+      "fraction": 0.1059166155732679
+    },
+    {
+      "file_id": "E8.25_late",
+      "broad_label": "Cardiomyocyte",
+      "cells": 1586,
+      "fraction": 0.0270113767967845
+    },
+    {
+      "file_id": "E8.25_late",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 7405,
+      "fraction": 0.1261155392056679
+    },
+    {
+      "file_id": "E8.25_late",
+      "broad_label": "Other mesoderm",
+      "cells": 5391,
+      "fraction": 0.091814837522992
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Unresolved",
+      "cells": 2346,
+      "fraction": 0.094497704019979
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Neural/NCC",
+      "cells": 5707,
+      "fraction": 0.2298799645532909
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Endothelial/endocardial",
+      "cells": 1535,
+      "fraction": 0.0618303391605574
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Cardiomyocyte",
+      "cells": 3401,
+      "fraction": 0.1369934745830983
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 5422,
+      "fraction": 0.218400064448562
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Other mesoderm",
+      "cells": 82,
+      "fraction": 0.0033029888020623
+    },
+    {
+      "file_id": "E9.5",
+      "broad_label": "Cardiomyocyte",
+      "cells": 16291,
+      "fraction": 0.3031334896356667
+    },
+    {
+      "file_id": "E9.5",
+      "broad_label": "Endothelial/endocardial",
+      "cells": 8284,
+      "fraction": 0.1541438725763834
+    },
+    {
+      "file_id": "E9.5",
+      "broad_label": "Unresolved",
+      "cells": 1526,
+      "fraction": 0.0283949238956495
+    },
+    {
+      "file_id": "E9.5",
+      "broad_label": "Other mesoderm",
+      "cells": 2385,
+      "fraction": 0.044378698224852
+    },
+    {
+      "file_id": "E9.5",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 10463,
+      "fraction": 0.1946894421495292
+    },
+    {
+      "file_id": "E9.5",
+      "broad_label": "Neural/NCC",
+      "cells": 2601,
+      "fraction": 0.0483979010829518
+    },
+    {
+      "file_id": "E10.5",
+      "broad_label": "Cardiomyocyte",
+      "cells": 25036,
+      "fraction": 0.1491445455845208
+    },
+    {
+      "file_id": "E10.5",
+      "broad_label": "Endothelial/endocardial",
+      "cells": 25741,
+      "fraction": 0.1533443740170614
+    },
+    {
+      "file_id": "E10.5",
+      "broad_label": "Unresolved",
+      "cells": 30733,
+      "fraction": 0.1830827336415193
+    },
+    {
+      "file_id": "E10.5",
+      "broad_label": "Other mesoderm",
+      "cells": 9595,
+      "fraction": 0.0571593671067054
+    },
+    {
+      "file_id": "E10.5",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 49124,
+      "fraction": 0.2926416622980508
+    },
+    {
+      "file_id": "E10.5",
+      "broad_label": "Neural/NCC",
+      "cells": 4444,
+      "fraction": 0.0264738121336319
+    },
+    {
+      "file_id": "E8.5",
+      "broad_label": "Unresolved",
+      "cells": 775,
+      "fraction": 0.032686630113876
+    },
+    {
+      "file_id": "E8.5",
+      "broad_label": "Neural/NCC",
+      "cells": 2978,
+      "fraction": 0.1256010122311261
+    },
+    {
+      "file_id": "E8.5",
+      "broad_label": "Endothelial/endocardial",
+      "cells": 1190,
+      "fraction": 0.050189793336145
+    },
+    {
+      "file_id": "E8.5",
+      "broad_label": "Cardiomyocyte",
+      "cells": 1919,
+      "fraction": 0.080936313791649
+    },
+    {
+      "file_id": "E8.5",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 4788,
+      "fraction": 0.201940109658372
+    },
+    {
+      "file_id": "E8.5",
+      "broad_label": "Other mesoderm",
+      "cells": 2264,
+      "fraction": 0.095487136229439
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 4362,
+      "fraction": 0.1032255011004094
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Unresolved",
+      "cells": 3469,
+      "fraction": 0.082092907683934
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Cardiomyocyte",
+      "cells": 2795,
+      "fraction": 0.0661428875689234
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Endothelial/endocardial",
+      "cells": 3488,
+      "fraction": 0.082542537331093
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Neural/NCC",
+      "cells": 9694,
+      "fraction": 0.2294057789242019
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Other mesoderm",
+      "cells": 6658,
+      "fraction": 0.1575596942518399
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 6108,
+      "fraction": 0.1316492801103543
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Unresolved",
+      "cells": 5148,
+      "fraction": 0.1109578411932063
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Cardiomyocyte",
+      "cells": 3811,
+      "fraction": 0.0821407017846366
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Endothelial/endocardial",
+      "cells": 5691,
+      "fraction": 0.1226614363307181
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Neural/NCC",
+      "cells": 5367,
+      "fraction": 0.1156780756961807
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Other mesoderm",
+      "cells": 7600,
+      "fraction": 0.1638072247607552
+    }
+  ],
+  "E9p5_to_E10p5_four_gene_decomposition": {
+    "net_delta": -413.2463451473726,
+    "composition_C": -253.21742975482002,
+    "within_type_S": -160.02891539255262,
+    "one_sided_arrival": 0.0,
+    "one_sided_departure": 0.0
+  },
+  "E9p5_to_E10p5_four_genes": [
+    "Myh7",
+    "Myl4",
+    "Myl7",
+    "Ttn"
+  ],
+  "E9p5_to_E10p5_hurdle": [
+    {
+      "gene": "Myh7",
+      "detection_rate_a": 0.5664477318764962,
+      "detection_rate_b": 0.3379932896628854,
+      "positive_mean_expm1_X_relative_a": 583.9547361409814,
+      "positive_mean_expm1_X_relative_b": 388.5769808037225,
+      "mean_linear_delta": -199.44342377647465,
+      "detection_component": -111.08959546482376,
+      "positive_intensity_component": -88.35382831165089
+    },
+    {
+      "gene": "Myl4",
+      "detection_rate_a": 0.5384568166472286,
+      "detection_rate_b": 0.6259785908292059,
+      "positive_mean_expm1_X_relative_a": 205.9333151271808,
+      "positive_mean_expm1_X_relative_b": 353.8081623399906,
+      "mean_linear_delta": 110.59013758046594,
+      "detection_component": 24.49478359558407,
+      "positive_intensity_component": 86.09535398488184
+    },
+    {
+      "gene": "Myl7",
+      "detection_rate_a": 0.8771100607697502,
+      "detection_rate_b": 0.7776801405975395,
+      "positive_mean_expm1_X_relative_a": 570.6559403001379,
+      "positive_mean_expm1_X_relative_b": 561.1481630391239,
+      "mean_linear_delta": -64.13428414695596,
+      "detection_component": -56.26759582280162,
+      "positive_intensity_component": -7.866688324154335
+    },
+    {
+      "gene": "Ttn",
+      "detection_rate_a": 0.9409489902400098,
+      "detection_rate_b": 0.8407093784949673,
+      "positive_mean_expm1_X_relative_a": 1154.4323511021355,
+      "positive_mean_expm1_X_relative_b": 651.9997337749227,
+      "mean_linear_delta": -538.1196641091557,
+      "detection_component": -90.53802541593198,
+      "positive_intensity_component": -447.5816386932237
+    }
+  ],
+  "Gata4_composition": [
+    {
+      "file_id": "E8.75",
+      "broad_label": "Neural/NCC",
+      "cells": 5707,
+      "fraction": 0.2298799645532909
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Cardiomyocyte",
+      "cells": 3401,
+      "fraction": 0.1369934745830983
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 5422,
+      "fraction": 0.218400064448562
+    },
+    {
+      "file_id": "E8.75",
+      "broad_label": "Other mesoderm",
+      "cells": 82,
+      "fraction": 0.0033029888020623
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 4362,
+      "fraction": 0.1032255011004094
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Cardiomyocyte",
+      "cells": 2795,
+      "fraction": 0.0661428875689234
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Neural/NCC",
+      "cells": 9694,
+      "fraction": 0.2294057789242019
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "broad_label": "Other mesoderm",
+      "cells": 6658,
+      "fraction": 0.1575596942518399
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Cardiac progenitor/heart field",
+      "cells": 6108,
+      "fraction": 0.1316492801103543
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Cardiomyocyte",
+      "cells": 3811,
+      "fraction": 0.0821407017846366
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Neural/NCC",
+      "cells": 5367,
+      "fraction": 0.1156780756961807
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "broad_label": "Other mesoderm",
+      "cells": 7600,
+      "fraction": 0.1638072247607552
+    }
+  ],
+  "Gata4_CM_modules": [
+    {
+      "file_id": "E8.75",
+      "module": "G2M",
+      "observed_genes": 3,
+      "defined_genes": 8,
+      "mean_gene_linear_relative": 8.582372895556984
+    },
+    {
+      "file_id": "E8.75",
+      "module": "cardiac_regulators",
+      "observed_genes": 5,
+      "defined_genes": 6,
+      "mean_gene_linear_relative": 55.29779533041756
+    },
+    {
+      "file_id": "E8.75",
+      "module": "contractile",
+      "observed_genes": 4,
+      "defined_genes": 12,
+      "mean_gene_linear_relative": 725.5442039359366
+    },
+    {
+      "file_id": "E8.75",
+      "module": "endothelial_identity",
+      "observed_genes": 4,
+      "defined_genes": 8,
+      "mean_gene_linear_relative": 1.9714361451553517
+    },
+    {
+      "file_id": "E8.75",
+      "module": "neuronal_differentiation",
+      "observed_genes": 2,
+      "defined_genes": 6,
+      "mean_gene_linear_relative": 6.361350028705369
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "module": "G2M",
+      "observed_genes": 3,
+      "defined_genes": 8,
+      "mean_gene_linear_relative": 9.469799601409806
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "module": "cardiac_regulators",
+      "observed_genes": 5,
+      "defined_genes": 6,
+      "mean_gene_linear_relative": 42.16894066435878
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "module": "contractile",
+      "observed_genes": 4,
+      "defined_genes": 12,
+      "mean_gene_linear_relative": 512.3023989349447
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "module": "endothelial_identity",
+      "observed_genes": 4,
+      "defined_genes": 8,
+      "mean_gene_linear_relative": 2.25271895875208
+    },
+    {
+      "file_id": "E8.75_gata4_ko_1",
+      "module": "neuronal_differentiation",
+      "observed_genes": 2,
+      "defined_genes": 6,
+      "mean_gene_linear_relative": 6.658847662875549
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "module": "G2M",
+      "observed_genes": 3,
+      "defined_genes": 8,
+      "mean_gene_linear_relative": 8.548449399101896
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "module": "cardiac_regulators",
+      "observed_genes": 5,
+      "defined_genes": 6,
+      "mean_gene_linear_relative": 42.56177198521125
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "module": "contractile",
+      "observed_genes": 4,
+      "defined_genes": 12,
+      "mean_gene_linear_relative": 496.03189555483857
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "module": "endothelial_identity",
+      "observed_genes": 4,
+      "defined_genes": 8,
+      "mean_gene_linear_relative": 2.3959350490890445
+    },
+    {
+      "file_id": "E8.75_gata4_ko_2",
+      "module": "neuronal_differentiation",
+      "observed_genes": 2,
+      "defined_genes": 6,
+      "mean_gene_linear_relative": 5.627947246144047
+    }
+  ],
+  "spatial_slice_peak_table": "tables/validation_slice_anomalies.csv",
+  "limitations": [
+    "one published sample per WT stage",
+    "KO1/KO2 are two embryos but share batch/genotype",
+    "relative log1p(CP10k), not raw molecules",
+    "published spatial coordinates lack certified physical units"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "B05_E10.5",
+  "row_id": "B05",
+  "external_dataset": "FENG193346_CD1",
+  "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+  "external_ids": [
+    "VED-012"
+  ],
+  "official_dataset": "OFF_T1_E10.5_RNA",
+  "official_stage": "E10.5",
+  "external_stage": "E9.5",
+  "same_stage": false,
+  "note": "CD1分心腔样本；与官方细胞核的观测单位不同",
+  "kind": "same_stage",
+  "common_genes": 29715,
+  "official_genes": 32285,
+  "external_genes": 30976,
+  "official_coverage": 0.9203964689484281,
+  "external_coverage": 0.9592910640495868,
+  "official_n": 24979,
+  "external_n": 887,
+  "official_unit": "nucleus",
+  "external_unit": "cell",
+  "official_samples": [
+    {
+      "sample": "OFF_T1_E10.5_RNA",
+      "n": 24979
+    }
+  ],
+  "external_samples": [
+    {
+      "sample": "CD1_E9.5_LA",
+      "n": 76
+    },
+    {
+      "sample": "CD1_E9.5_LV",
+      "n": 615
+    },
+    {
+      "sample": "CD1_E9.5_RA",
+      "n": 73
+    },
+    {
+      "sample": "CD1_E9.5_RV",
+      "n": 123
+    }
+  ],
+  "j01": 0.5268281351987925,
+  "b01": 0.9197724178124868,
+  "detection_mean_abs_pp": 8.022758218751322,
+  "detection_spearman": 0.9110886392887789,
+  "official_zero_fraction": 0.9028645937061301,
+  "external_zero_fraction": 0.8382575253058875,
+  "official_zero_rows": 0,
+  "external_zero_rows": 0,
+  "both_all_zero_genes": 5070,
+  "both_detected_genes": 17049,
+  "official_only_detected_genes": 7534,
+  "external_only_detected_genes": 62,
+  "cell_detection_quantiles": {
+    "official": {
+      "p10": 0.047248864209994954,
+      "median": 0.09459868753154972,
+      "p90": 0.15153962645128724
+    },
+    "external": {
+      "p10": 0.10368500757193337,
+      "median": 0.16930843008581525,
+      "p90": 0.210937237085647
+    }
+  },
+  "cell_detection_wasserstein_pp": 6.46426547457184,
+  "shuffled_j01_median": 0.12112478126726359,
+  "shuffled_j01_all": [
+    0.12124373279402871,
+    0.11974397263994496,
+    0.12252378041608551,
+    0.12124607788286211,
+    0.12028164796379322,
+    0.12269005070011871,
+    0.12464399684045048,
+    0.12076064819014072,
+    0.12313791798713002,
+    0.12097102885394743,
+    0.12421230451039462,
+    0.1192741643579635,
+    0.12187683636910861,
+    0.12029838507005243,
+    0.1225547962377284,
+    0.12097467299828611,
+    0.12100582974049845,
+    0.12075706438699055,
+    0.12261479478653753,
+    0.1202626355019174
+  ],
+  "binary_pattern": {
+    "n_draw": 256,
+    "seeds": [
+      2026111601,
+      2026111602,
+      2026111603
+    ],
+    "runs": [
+      {
+        "seed": 2026111601,
+        "cross": 0.14520669646087347,
+        "within_official": 0.0068635184838301555,
+        "within_external": 0.004209919118958849
+      },
+      {
+        "seed": 2026111602,
+        "cross": 0.1601439416144924,
+        "within_official": 0.005853803561174209,
+        "within_external": 0.004643508529816209
+      },
+      {
+        "seed": 2026111603,
+        "cross": 0.13843480283681509,
+        "within_official": 0.0060326002060405726,
+        "within_external": 0.003970722847750574
+      }
+    ],
+    "cross_mean": 0.14792848030406033,
+    "cross_min": 0.13843480283681509,
+    "cross_max": 0.1601439416144924,
+    "within_official_mean": 0.006249974083681646,
+    "within_external_mean": 0.004274716832175211
+  }
+}

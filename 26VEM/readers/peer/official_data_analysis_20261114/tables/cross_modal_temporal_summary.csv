@@ -1,0 +1,10 @@
+﻿broad_label,common_genes,informative_genes,direction_spearman,sign_agreement,definition,unit
+Cardiac progenitor/heart field,500,90,0.25416306539902045,0.5888888888888889,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"
+Cardiomyocyte,500,100,0.35225922592259223,0.61,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"
+Endoderm/hepatic,500,58,0.3206189055338522,0.5689655172413793,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"
+Endothelial/endocardial,500,93,0.3309062695831219,0.5698924731182796,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"
+Neural/NCC,500,76,0.45686944634313054,0.7105263157894737,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"
+Other mesoderm,500,95,0.2190929451287794,0.5894736842105263,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"
+Pericardial/epicardial,500,90,-0.05366094579577725,0.45555555555555555,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"
+Surface ectoderm,500,66,0.1084437950109592,0.5909090909090909,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"
+Unresolved,500,100,-0.04664866486648664,0.53,log2((E10.5 mean expm1(X)+0.1)/(E9.5 mean expm1(X)+0.1)); both modalities max >=1,"one T1 pool and one T2 specimen per stage; descriptive, no biological CI"

@@ -1,0 +1,117 @@
+{
+  "scope": "independent task-separated local teaching arithmetic, not official scores",
+  "T1": {
+    "reference_mean": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "truth_mean": [
+      2.0,
+      1.0,
+      3.0
+    ],
+    "prediction_mean": [
+      2.0,
+      1.0,
+      3.0
+    ],
+    "delta_true": [
+      1.0,
+      -1.0,
+      0.0
+    ],
+    "delta_pred": [
+      1.0,
+      -1.0,
+      0.0
+    ],
+    "p_values": [
+      0.00033383362894626184,
+      4.682682358742056e-10,
+      1.0
+    ],
+    "up": [
+      0
+    ],
+    "down": [
+      1
+    ],
+    "overlap": 1.0,
+    "chance": 0.5,
+    "DES": 1.0,
+    "DCS": 1.0,
+    "MMD": 0.08883330789271796,
+    "CSS": 0.04421583927330311
+  },
+  "T2": {
+    "expression_metrics": {
+      "MMD": -0.032559349406491835,
+      "CSS": 4.120674964308034e-33
+    },
+    "radius_true": 5.766281297335398,
+    "radius_pred": 11.532562594670797,
+    "TSR": 0.6931471805599453,
+    "SDD": 0.002096975049338799,
+    "normalized_coords_identical": true,
+    "ODS": 1.0,
+    "first_cell_neighborhood_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "first_cell_neighborhood_mean": [
+      2.3333333333333335,
+      1.0,
+      3.0
+    ],
+    "neighborhood_profiles_identical": true,
+    "NFS": -0.03737345352385461
+  },
+  "T3_half_response": {
+    "mean": [
+      1.4,
+      1.65,
+      3.3,
+      3.75,
+      5.199999999999998,
+      6.0
+    ],
+    "delta": [
+      0.3999999999999999,
+      -0.3500000000000001,
+      0.2999999999999998,
+      -0.25,
+      0.1999999999999984,
+      0.0
+    ],
+    "overlap": 1.0,
+    "DES": 1.0,
+    "DCS": 1.0,
+    "beta": 0.49999999999999983,
+    "PSS": -0.6931471805599456,
+    "R2": 1.0,
+    "MMD": 0.2688162162833427,
+    "CSS": 0.015099879302802465,
+    "variance_ratio": 1.0000000000000004
+  },
+  "calibration_example": {
+    "metric": "T1 validation MMD, synthetic raw unrelated to toy matrix",
+    "raw": 0.04,
+    "floor": 0.08359,
+    "ceiling": 0.00406,
+    "skill": 0.6887503247596779
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "STEREO_E8_rep1_8p0",
+    "source_id": "VED-020",
+    "source_name": "VED-020 · Stereo-seq 胚胎三维重建图谱",
+    "raw_file": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046247_Embryo_E8.0_stereo_rep1.h5ad",
+    "raw_sha256": "bfef8ebd62ea70944704a9b408410593f6698ca0ef0126274fabe32ff3cb2225",
+    "coordinate_keys": [
+      "obs/x",
+      "obs/y",
+      "obs/z"
+    ],
+    "layer": "layers/counts",
+    "n": 11048,
+    "expression_all_entries_equal": true,
+    "coordinates_all_entries_equal": true,
+    "labels_all_entries_equal": true,
+    "original_id_array_sha256": "f3035246a49c2863273fe72e61828fd3789e1fd467264cd2fc6226125aff93cd",
+    "prepared_cell_id_note": "synthetic row IDs inherited from cache; original row order independently verified against every measured entry",
+    "passed": true
+  },
+  {
+    "dataset": "STEREO_E8_rep2_8p0",
+    "source_id": "VED-020",
+    "source_name": "VED-020 · Stereo-seq 胚胎三维重建图谱",
+    "raw_file": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046248_Embryo_E8.0_stereo_rep2.h5ad",
+    "raw_sha256": "b913d8221e9e4788c9db1d44a8bf05083e3acb834ef392d31ba574174b182374",
+    "coordinate_keys": [
+      "obs/x",
+      "obs/y",
+      "obs/z"
+    ],
+    "layer": "raw/X",
+    "n": 27266,
+    "expression_all_entries_equal": true,
+    "coordinates_all_entries_equal": true,
+    "labels_all_entries_equal": true,
+    "original_id_array_sha256": "9dac67da9b9e47f08ba6252cd8d1fe25adb8417e11e0d4b143a2002948b18e03",
+    "prepared_cell_id_note": "synthetic row IDs inherited from cache; original row order independently verified against every measured entry",
+    "passed": true
+  }
+]

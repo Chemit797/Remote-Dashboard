@@ -1,0 +1,909 @@
+{
+  "id": "P024",
+  "task": "T2 心脏",
+  "official": "OFF_T2_heart_E9.5",
+  "official_stage": "E9.5",
+  "external": "TOME3_E95",
+  "external_stage": "E9.5",
+  "external_ids": [
+    "VED-003",
+    "VED-008"
+  ],
+  "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+  "groups": [
+    {
+      "key": "hepatocyte",
+      "name": "肝细胞",
+      "official": [
+        "Hepatocytes"
+      ],
+      "external": [
+        "Hepatocytes"
+      ],
+      "primary": true,
+      "note": "依据原标签的命名层级对应；不能独立证明细胞身份"
+    }
+  ],
+  "kind": "same_stage",
+  "note": "计数/注释来自两项共享数据的研究，只算一份证据",
+  "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证",
+  "panel": {
+    "pair": "P024",
+    "official_genes": 500,
+    "external_genes": 26133,
+    "common": 493,
+    "official_coverage": 0.986,
+    "external_coverage": 0.018865036543833466,
+    "jaccard": 0.01885998469778118
+  },
+  "composition": {
+    "official": {
+      "groups": [
+        "hepatocyte"
+      ],
+      "proportions": [
+        0.008522198652822745,
+        0.9914778013471772
+      ],
+      "sample_rows": [
+        {
+          "sample": "OFF_T2_heart_E9.5",
+          "n": 53742,
+          "known_mapped": 458,
+          "unmapped": 53284,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 458,
+            "UNMAPPED": 53284
+          }
+        }
+      ],
+      "samples": 1
+    },
+    "external": {
+      "groups": [
+        "hepatocyte"
+      ],
+      "proportions": [
+        0.0016271482249265751,
+        0.9983728517750735
+      ],
+      "sample_rows": [
+        {
+          "sample": "embryo1.0",
+          "n": 14915,
+          "known_mapped": 24,
+          "unmapped": 14891,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 24,
+            "UNMAPPED": 14891
+          }
+        },
+        {
+          "sample": "embryo19.0",
+          "n": 3970,
+          "known_mapped": 9,
+          "unmapped": 3961,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 9,
+            "UNMAPPED": 3961
+          }
+        },
+        {
+          "sample": "embryo20.0",
+          "n": 2686,
+          "known_mapped": 8,
+          "unmapped": 2678,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 8,
+            "UNMAPPED": 2678
+          }
+        },
+        {
+          "sample": "embryo21.0",
+          "n": 11836,
+          "known_mapped": 12,
+          "unmapped": 11824,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 12,
+            "UNMAPPED": 11824
+          }
+        },
+        {
+          "sample": "embryo22.0",
+          "n": 5428,
+          "known_mapped": 5,
+          "unmapped": 5423,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 5,
+            "UNMAPPED": 5423
+          }
+        },
+        {
+          "sample": "embryo3.0",
+          "n": 7661,
+          "known_mapped": 6,
+          "unmapped": 7655,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 6,
+            "UNMAPPED": 7655
+          }
+        },
+        {
+          "sample": "embryo39.0",
+          "n": 6601,
+          "known_mapped": 19,
+          "unmapped": 6582,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 19,
+            "UNMAPPED": 6582
+          }
+        },
+        {
+          "sample": "embryo40.0",
+          "n": 7153,
+          "known_mapped": 11,
+          "unmapped": 7142,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 11,
+            "UNMAPPED": 7142
+          }
+        },
+        {
+          "sample": "embryo41.0",
+          "n": 3538,
+          "known_mapped": 2,
+          "unmapped": 3536,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 2,
+            "UNMAPPED": 3536
+          }
+        },
+        {
+          "sample": "embryo42.0",
+          "n": 8090,
+          "known_mapped": 10,
+          "unmapped": 8080,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 10,
+            "UNMAPPED": 8080
+          }
+        },
+        {
+          "sample": "embryo55.0",
+          "n": 3839,
+          "known_mapped": 10,
+          "unmapped": 3829,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 10,
+            "UNMAPPED": 3829
+          }
+        },
+        {
+          "sample": "embryo56.0",
+          "n": 7647,
+          "known_mapped": 5,
+          "unmapped": 7642,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 5,
+            "UNMAPPED": 7642
+          }
+        },
+        {
+          "sample": "embryo57.0",
+          "n": 9228,
+          "known_mapped": 11,
+          "unmapped": 9217,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 11,
+            "UNMAPPED": 9217
+          }
+        },
+        {
+          "sample": "embryo58.0",
+          "n": 7533,
+          "known_mapped": 12,
+          "unmapped": 7521,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 12,
+            "UNMAPPED": 7521
+          }
+        },
+        {
+          "sample": "embryo63.0",
+          "n": 10104,
+          "known_mapped": 26,
+          "unmapped": 10078,
+          "unknown_explicit": 0,
+          "counts": {
+            "hepatocyte": 26,
+            "UNMAPPED": 10078
+          }
+        }
+      ],
+      "samples": 15
+    },
+    "coverage_official": 0.008522198652822777,
+    "coverage_external": 0.001627148224926489,
+    "descriptive_all_TV": 0.9983728517750734,
+    "descriptive_all_JS_distance": 0.998387298683387,
+    "conditional_TV": 0.0,
+    "conditional_JS_distance": 0.0
+  },
+  "specificity": {
+    "status": "insufficient_types",
+    "n_types": 0,
+    "reason": "至少3个命名层级可对应且样本量合格的共同类型"
+  },
+  "records": [
+    {
+      "pair": "P024",
+      "task": "T2 心脏",
+      "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+      "official_stage": "E9.5",
+      "external_stage": "E9.5",
+      "group": "ALL",
+      "group_name": "全部采集对象",
+      "primary": false,
+      "kind": "same_stage",
+      "note": "计数/注释来自两项共享数据的研究，只算一份证据",
+      "n_genes": 493,
+      "both_all_zero": 0,
+      "external_only_detected": 0,
+      "official_only_detected": 0,
+      "both_detected": 493,
+      "detected_jaccard": 1.0,
+      "spearman_all": 0.331177113538387,
+      "spearman_nonzero_union": 0.331177113538387,
+      "spearman_both_detected": 0.331177113538387,
+      "pearson": 0.15840648254008222,
+      "kendall": 0.23094048384702914,
+      "cosine": 0.347364707494482,
+      "rmse": 0.8078163135627455,
+      "detection_spearman": 0.3368066022421702,
+      "detection_mean_abs_pp": 8.111401549830672,
+      "detection_signed_mean_pp": 3.09723316137344,
+      "detection_p90_abs_pp": 23.005088183905347,
+      "linear_mean_log_spearman": 0.3058587981318793,
+      "variance_spearman": 0.32244110346269717,
+      "top100_intersection": 30,
+      "top100_jaccard": 0.17647058823529413,
+      "gene_mean_distribution_wasserstein": 0.13398803521748828,
+      "cell_detection_wasserstein_pp": 3.0972331613703807,
+      "cell_detection_ks": 0.41924736258961676,
+      "external_cell_detection_quantiles": {
+        "p10": 0.02231237322515213,
+        "median": 0.04462474645030426,
+        "p90": 0.07707910750507099
+      },
+      "official_cell_detection_quantiles": {
+        "p10": 0.04462474645030426,
+        "median": 0.07099391480730223,
+        "p90": 0.11967545638945233
+      },
+      "external_sample_spearman": [
+        0.31715613355115935,
+        0.3339290661136835,
+        0.3296607683985391,
+        0.33551691327839067,
+        0.34139774183835764,
+        0.31494277517856806,
+        0.3204299358319345,
+        0.3288797129759943,
+        0.3162194998089514,
+        0.32420458351739107,
+        0.34394013202585005,
+        0.33324609728074306,
+        0.33216061979272,
+        0.33704316656864175,
+        0.322260617234986
+      ],
+      "external_mean_detection": 0.04744888800191404,
+      "official_mean_detection": 0.07842121961564845,
+      "status": "calculated",
+      "eligible": true,
+      "external_n": 110229,
+      "official_n": 53742,
+      "external_n_used": 110229,
+      "official_n_used": 53742,
+      "external_samples": 15,
+      "official_samples": 1,
+      "external_samples_used": 15,
+      "official_samples_used": 1,
+      "external_small_samples": 0,
+      "official_small_samples": 0,
+      "external_zero_total": 11,
+      "official_zero_total": 0,
+      "external_sample_names": [
+        "embryo1.0",
+        "embryo19.0",
+        "embryo20.0",
+        "embryo21.0",
+        "embryo22.0",
+        "embryo3.0",
+        "embryo39.0",
+        "embryo40.0",
+        "embryo41.0",
+        "embryo42.0",
+        "embryo55.0",
+        "embryo56.0",
+        "embryo57.0",
+        "embryo58.0",
+        "embryo63.0"
+      ],
+      "official_sample_names": [
+        "OFF_T2_heart_E9.5"
+      ],
+      "ranking_eligible": false,
+      "profile_rho_ge_08": false,
+      "gene_examples": [
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Arhgap31",
+          "external_mean": 0.4379817750994046,
+          "official_mean": 3.6804585268016203,
+          "external_detection": 0.07967137665535724,
+          "official_detection": 0.6565442298388597,
+          "detection_difference_pp": 57.68728531835025,
+          "external_variance": 2.25197882731587,
+          "official_variance": 7.47316237294522
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Cdh5",
+          "external_mean": 0.07214065870127115,
+          "official_mean": 0.6013410724191499,
+          "external_detection": 0.01293183152435062,
+          "official_detection": 0.12105987867961743,
+          "detection_difference_pp": 10.812804715526681,
+          "external_variance": 0.4022689060979739,
+          "official_variance": 2.6743726163995785
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Efna5",
+          "external_mean": 4.358220802098407,
+          "official_mean": 0.6515112351323892,
+          "external_detection": 0.6863701715455545,
+          "official_detection": 0.13609467455621302,
+          "detection_difference_pp": -55.027549698934145,
+          "external_variance": 9.032311836949642,
+          "official_variance": 2.754544557085419
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Foxa2",
+          "external_mean": 0.023830382668796547,
+          "official_mean": 0.06038087569237072,
+          "external_detection": 0.004345824973521113,
+          "official_detection": 0.013174053812660489,
+          "detection_difference_pp": 0.8828228839139376,
+          "external_variance": 0.13205594729380477,
+          "official_variance": 0.27833233678977704
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Gata4",
+          "external_mean": 0.16622344997355257,
+          "official_mean": 2.0859156811892907,
+          "external_detection": 0.02998455526435355,
+          "official_detection": 0.3845781697741059,
+          "detection_difference_pp": 35.45936145097524,
+          "external_variance": 0.9082349933082051,
+          "official_variance": 7.14864296043094
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Gata6",
+          "external_mean": 0.1944996877605049,
+          "official_mean": 0.3983003170253755,
+          "external_detection": 0.03712174689486936,
+          "official_detection": 0.08834803319563841,
+          "detection_difference_pp": 5.122628630076905,
+          "external_variance": 0.9979255844761179,
+          "official_variance": 1.6695761215345353
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "H19",
+          "external_mean": 0.4787184861119456,
+          "official_mean": 6.678464997948108,
+          "external_detection": 0.08678543715448894,
+          "official_detection": 0.969093074318038,
+          "detection_difference_pp": 88.23076371635491,
+          "external_variance": 2.454692660335029,
+          "official_variance": 2.066573267702367
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Hey2",
+          "external_mean": 0.0348963056630139,
+          "official_mean": 0.3663200267932434,
+          "external_detection": 0.006578210751246356,
+          "official_detection": 0.07896989319340553,
+          "detection_difference_pp": 7.239168244215917,
+          "external_variance": 0.1868226519306077,
+          "official_variance": 1.5969491027225486
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Isl1",
+          "external_mean": 0.12864477604930633,
+          "official_mean": 0.18042921505357906,
+          "external_detection": 0.023802253893451482,
+          "official_detection": 0.039652413382456925,
+          "detection_difference_pp": 1.5850159489005442,
+          "external_variance": 0.6895776835574589,
+          "official_variance": 0.8055198637597811
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Magi1",
+          "external_mean": 3.5621501814504213,
+          "official_mean": 0.034283903082485995,
+          "external_detection": 0.5914395043178847,
+          "official_detection": 0.007722079565330654,
+          "detection_difference_pp": -58.3717424752554,
+          "external_variance": 8.999957532270866,
+          "official_variance": 0.15428629898321533
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Myh7",
+          "external_mean": 0.04196623899562228,
+          "official_mean": 1.1535657989705992,
+          "external_detection": 0.007764988611095524,
+          "official_detection": 0.19513602024487364,
+          "detection_difference_pp": 18.73710316337781,
+          "external_variance": 0.2287076402064434,
+          "official_variance": 5.659335104882167
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Myl7",
+          "external_mean": 0.047137139482118236,
+          "official_mean": 1.9700037932852301,
+          "external_detection": 0.009025618172740087,
+          "official_detection": 0.33571508317517024,
+          "detection_difference_pp": 32.66894650024301,
+          "external_variance": 0.24874959927059373,
+          "official_variance": 7.931115406495177
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Pecam1",
+          "external_mean": 0.14079086271822974,
+          "official_mean": 0.7871831073182707,
+          "external_detection": 0.025413458132479746,
+          "official_detection": 0.1554277846004987,
+          "detection_difference_pp": 13.001432646801895,
+          "external_variance": 0.7720536864837457,
+          "official_variance": 3.4365369298230175
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Pln",
+          "external_mean": 0.013070140058764165,
+          "official_mean": 0.03160949570059795,
+          "external_detection": 0.00249499383646003,
+          "official_detection": 0.0069963901603959655,
+          "detection_difference_pp": 0.4501396323935935,
+          "external_variance": 0.06988479035183986,
+          "official_variance": 0.14484788236180712
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Rspo3",
+          "external_mean": 0.3365435857449957,
+          "official_mean": 0.04007637344373552,
+          "external_detection": 0.05865869731094022,
+          "official_detection": 0.008838524803691713,
+          "detection_difference_pp": -4.982017250724851,
+          "external_variance": 1.8519549379219111,
+          "official_variance": 0.18319926304927237
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Sox17",
+          "external_mean": 0.010913201991213537,
+          "official_mean": 0.07648843442491043,
+          "external_detection": 0.002041624039356856,
+          "official_detection": 0.01700718246436679,
+          "detection_difference_pp": 1.4965558425009933,
+          "external_variance": 0.05896408112775009,
+          "official_variance": 0.34549241199440184
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Sox2",
+          "external_mean": 0.22713374236756717,
+          "official_mean": 0.31239781554070023,
+          "external_detection": 0.0415831097454187,
+          "official_detection": 0.05755275203751256,
+          "detection_difference_pp": 1.5969642292093862,
+          "external_variance": 1.2051489762643868,
+          "official_variance": 1.6295454974476948
+        },
+        {
+          "pair": "P024",
+          "group": "ALL",
+          "gene": "Sptbn1",
+          "external_mean": 1.210810264495492,
+          "official_mean": 3.7694785966674407,
+          "external_detection": 0.2180208712113429,
+          "official_detection": 0.6908190986565442,
+          "detection_difference_pp": 47.27982274452013,
+          "external_variance": 5.35513086961777,
+          "official_variance": 6.647753607956236
+        }
+      ],
+      "largest_detection_gap_genes": [
+        "H19",
+        "Magi1",
+        "Arhgap31",
+        "Efna5",
+        "Sptbn1"
+      ]
+    },
+    {
+      "pair": "P024",
+      "task": "T2 心脏",
+      "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+      "official_stage": "E9.5",
+      "external_stage": "E9.5",
+      "group": "hepatocyte",
+      "group_name": "肝细胞",
+      "primary": true,
+      "kind": "same_stage",
+      "note": "依据原标签的命名层级对应；不能独立证明细胞身份",
+      "n_genes": 493,
+      "both_all_zero": 33,
+      "external_only_detected": 16,
+      "official_only_detected": 204,
+      "both_detected": 240,
+      "detected_jaccard": 0.5217391304347826,
+      "spearman_all": 0.3984280247040406,
+      "spearman_nonzero_union": 0.3393880243088507,
+      "spearman_both_detected": 0.3120218512966816,
+      "pearson": 0.5419947291149949,
+      "kendall": 0.2472396066435387,
+      "cosine": 0.5915268030719745,
+      "rmse": 0.7419370053371328,
+      "detection_spearman": 0.4007367517271586,
+      "detection_mean_abs_pp": 5.764929262398544,
+      "detection_signed_mean_pp": 2.113640257467211,
+      "detection_p90_abs_pp": 15.502183406113538,
+      "linear_mean_log_spearman": 0.3876349423734235,
+      "variance_spearman": 0.3814111388302906,
+      "top100_intersection": 47,
+      "top100_jaccard": 0.30718954248366015,
+      "gene_mean_distribution_wasserstein": 0.0945152146447379,
+      "cell_detection_wasserstein_pp": 2.113640257467195,
+      "cell_detection_ks": 0.576518870737441,
+      "external_cell_detection_quantiles": {
+        "p10": 0.02028397565922921,
+        "median": 0.036511156186612576,
+        "p90": 0.06490872210953347
+      },
+      "official_cell_detection_quantiles": {
+        "p10": 0.04259634888438134,
+        "median": 0.05476673427991886,
+        "p90": 0.08519269776876268
+      },
+      "external_sample_spearman": [
+        0.283561361360683,
+        0.25694592215515066,
+        0.301373577215025,
+        0.27673505028066125,
+        0.22804114361707783,
+        0.19435280686375825,
+        0.23810801373744747,
+        0.22415016373385171,
+        0.19024953346947698,
+        0.27489000043912915,
+        0.2998466399646541,
+        0.19571798101020513,
+        0.24718775308176194,
+        0.23795942348659901,
+        0.2652384897234415
+      ],
+      "external_mean_detection": 0.03941436493907937,
+      "official_mean_detection": 0.06055076751375147,
+      "status": "small_group",
+      "eligible": false,
+      "external_n": 170,
+      "official_n": 458,
+      "external_n_used": 170,
+      "official_n_used": 458,
+      "external_samples": 15,
+      "official_samples": 1,
+      "external_samples_used": 15,
+      "official_samples_used": 1,
+      "external_small_samples": 15,
+      "official_small_samples": 0,
+      "external_zero_total": 0,
+      "official_zero_total": 0,
+      "external_sample_names": [
+        "embryo1.0",
+        "embryo19.0",
+        "embryo20.0",
+        "embryo21.0",
+        "embryo22.0",
+        "embryo3.0",
+        "embryo39.0",
+        "embryo40.0",
+        "embryo41.0",
+        "embryo42.0",
+        "embryo55.0",
+        "embryo56.0",
+        "embryo57.0",
+        "embryo58.0",
+        "embryo63.0"
+      ],
+      "official_sample_names": [
+        "OFF_T2_heart_E9.5"
+      ],
+      "ranking_eligible": false,
+      "profile_rho_ge_08": false,
+      "gene_examples": [
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Apoe",
+          "external_mean": 1.4437816770437952,
+          "official_mean": 6.613239678387843,
+          "external_detection": 0.2543168527379054,
+          "official_detection": 0.9978165938864629,
+          "detection_difference_pp": 74.34997411485575,
+          "external_variance": 4.984886035831403,
+          "official_variance": 0.42223065493105594
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Cdh5",
+          "external_mean": 0.0678584912800823,
+          "official_mean": 0.31851140768799857,
+          "external_detection": 0.013333333333333334,
+          "official_detection": 0.06768558951965066,
+          "detection_difference_pp": 5.4352256186317325,
+          "external_variance": 0.2762864903285403,
+          "official_variance": 1.4107897459730672
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Foxa2",
+          "external_mean": 0.21366483772868386,
+          "official_mean": 0.08836113212463345,
+          "external_detection": 0.04123604465709729,
+          "official_detection": 0.019650655021834062,
+          "detection_difference_pp": -2.1585389635263232,
+          "external_variance": 0.9888028108999454,
+          "official_variance": 0.39267077177933774
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Gata4",
+          "external_mean": 0.07507354437522283,
+          "official_mean": 1.330003156273108,
+          "external_detection": 0.01368421052631579,
+          "official_detection": 0.2663755458515284,
+          "detection_difference_pp": 25.26913353252126,
+          "external_variance": 0.3706300598141203,
+          "official_variance": 4.964205722418093
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Gata6",
+          "external_mean": 0.8048782600230298,
+          "official_mean": 0.5115758916072664,
+          "external_detection": 0.1452348723401355,
+          "official_detection": 0.10698689956331878,
+          "detection_difference_pp": -3.824797277681671,
+          "external_variance": 3.335354041029372,
+          "official_variance": 2.206921722237225
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "H19",
+          "external_mean": 1.2812134808423847,
+          "official_mean": 7.921893067055818,
+          "external_detection": 0.2381817500238553,
+          "official_detection": 1.0,
+          "detection_difference_pp": 76.18182499761447,
+          "external_variance": 4.865890916316003,
+          "official_variance": 0.10861615138976077
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Hey2",
+          "external_mean": 0.0,
+          "official_mean": 0.05883996176067484,
+          "external_detection": 0.0,
+          "official_detection": 0.013100436681222707,
+          "detection_difference_pp": 1.3100436681222707,
+          "external_variance": 0.0,
+          "official_variance": 0.2639285785856271
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Isl1",
+          "external_mean": 0.013176116900586203,
+          "official_mean": 0.043295986693862434,
+          "external_detection": 0.002564102564102564,
+          "official_detection": 0.008733624454148471,
+          "detection_difference_pp": 0.6169521890045907,
+          "external_variance": 0.0651037712167175,
+          "official_variance": 0.21338503368557885
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Magi1",
+          "external_mean": 4.193245682294175,
+          "official_mean": 0.030470857011320438,
+          "external_detection": 0.68737332842596,
+          "official_detection": 0.006550218340611353,
+          "detection_difference_pp": -68.08231100853487,
+          "external_variance": 7.602408647330795,
+          "official_variance": 0.14107373543165977
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Myh7",
+          "external_mean": 0.0,
+          "official_mean": 0.02062668907562148,
+          "external_detection": 0.0,
+          "official_detection": 0.004366812227074236,
+          "detection_difference_pp": 0.43668122270742354,
+          "external_variance": 0.0,
+          "official_variance": 0.09837482133323781
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Myl7",
+          "external_mean": 0.11308532824028905,
+          "official_mean": 0.3151829278653121,
+          "external_detection": 0.02074074074074074,
+          "official_detection": 0.06550218340611354,
+          "detection_difference_pp": 4.47614426653728,
+          "external_variance": 0.5125387734147557,
+          "official_variance": 1.4269590522960072
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Pecam1",
+          "external_mean": 0.19059414234943034,
+          "official_mean": 0.4294314206858836,
+          "external_detection": 0.03383838383838384,
+          "official_detection": 0.08951965065502183,
+          "detection_difference_pp": 5.5681266816637995,
+          "external_variance": 0.8218677832824669,
+          "official_variance": 1.8901643868913247
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Pln",
+          "external_mean": 0.014731402522386323,
+          "official_mean": 0.022186162475718266,
+          "external_detection": 0.0027777777777777775,
+          "official_detection": 0.004366812227074236,
+          "detection_difference_pp": 0.1589034449296458,
+          "external_variance": 0.0748699059954167,
+          "official_variance": 0.11269595617066515
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Rspo3",
+          "external_mean": 0.0678584912800823,
+          "official_mean": 0.03147050970942119,
+          "external_detection": 0.013333333333333334,
+          "official_detection": 0.006550218340611353,
+          "detection_difference_pp": -0.6783114992721981,
+          "external_variance": 0.2762864903285403,
+          "official_variance": 0.15322916561460667
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Selenop",
+          "external_mean": 0.27692863455508104,
+          "official_mean": 3.39249653258614,
+          "external_detection": 0.04912975912975913,
+          "official_detection": 0.6506550218340611,
+          "detection_difference_pp": 60.152526270430194,
+          "external_variance": 1.3904070834639541,
+          "official_variance": 6.372463644018405
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Sox17",
+          "external_mean": 0.03605445191652477,
+          "official_mean": 0.175220156639735,
+          "external_detection": 0.006666666666666667,
+          "official_detection": 0.03711790393013101,
+          "detection_difference_pp": 3.045123726346434,
+          "external_variance": 0.1754896729051345,
+          "official_variance": 0.8053397019120123
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Sox2",
+          "external_mean": 0.02646975725768424,
+          "official_mean": 0.05325657627167168,
+          "external_detection": 0.005555555555555555,
+          "official_detection": 0.010917030567685589,
+          "detection_difference_pp": 0.5361475012130034,
+          "external_variance": 0.11560692813132005,
+          "official_variance": 0.258313023771723
+        },
+        {
+          "pair": "P024",
+          "group": "hepatocyte",
+          "gene": "Stard10",
+          "external_mean": 0.24890449709692422,
+          "official_mean": 3.6031776233082002,
+          "external_detection": 0.04931494431494431,
+          "official_detection": 0.6855895196506551,
+          "detection_difference_pp": 63.627457533571075,
+          "external_variance": 1.1382135485117089,
+          "official_variance": 6.154536122743972
+        }
+      ],
+      "largest_detection_gap_genes": [
+        "H19",
+        "Apoe",
+        "Magi1",
+        "Stard10",
+        "Selenop"
+      ],
+      "official_proportion": 0.008522198652822745,
+      "external_proportion": 0.0016271482249265751,
+      "proportion_difference_pp": 0.6895050427896171
+    }
+  ]
+}

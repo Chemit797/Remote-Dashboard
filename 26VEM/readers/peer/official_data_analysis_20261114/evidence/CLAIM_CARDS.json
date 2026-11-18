@@ -1,0 +1,332 @@
+{
+  "version": "1.0",
+  "cards": [
+    {
+      "id": "C01",
+      "claim": "九个训练文件匹配官方发布哈希；六份验证答案已从解锁页面下载到 5090server 并记录本轮 SHA-256。",
+      "grade": "A for file identity; not a biological claim",
+      "figures": [
+        "F01"
+      ],
+      "tables": [
+        "tables/file_inventory.csv"
+      ],
+      "source": [
+        "S2",
+        "S8",
+        "S9"
+      ],
+      "hypotheses": [],
+      "input_hashes": {
+        "E6.75": "ab58b9217d1b9a18b0181f498475a9eb821ac2c92ab2b7e45a623da0e4fffe70",
+        "E7.25": "c34192a31036b783b97ce1877ac50fc920b39faa3e00dc3c637b3e7e04255ee6",
+        "E8.0": "17530e23fbfa6a139ff68d0353a489d83790f5b60f036b7d2f58303a1ff8a810",
+        "E8.25_late": "d56f94d3e2d719ed3074d86c03eae457ccf90b24145d33300f9958f0e8078593",
+        "E8.5_RNA": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+        "E8.75": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E9.5_RNA": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+        "E9.5_mab21l2_ko": "5b1668ab982e64f7683fbf5f905218fab311c63548de5f5bc18a74f9d4d357e0",
+        "E10.5_RNA": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+        "E7.5": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+        "E8.5": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+        "E8.75_gata4_ko_1": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+        "E8.75_gata4_ko_2": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4"
+      },
+      "code": [
+        "src/audit_remote.py",
+        "src/build_tables.py"
+      ],
+      "controls": "Published official bytes and SHA-256 for every training file",
+      "result_rows": "file_inventory.csv: all fifteen verified rows",
+      "limitations": "File identity is not a biological effect; validation release SHA was recorded on download",
+      "recommendation": "Use validation truth as development data and preserve raw server files",
+      "evidence_files": [
+        "evidence/VALIDATION_RELEASE_AUDIT.json"
+      ]
+    },
+    {
+      "id": "C02",
+      "claim": "500 基因面板富集心脏和血管发育注释，逐基因入选动机仍未知。",
+      "grade": "B",
+      "figures": [
+        "F03",
+        "F04_GO"
+      ],
+      "tables": [
+        "tables/panel_GO_BP_enrichment.csv",
+        "tables/panel_GO_matched_sensitivity.csv"
+      ],
+      "source": [
+        "S1",
+        "S6"
+      ],
+      "hypotheses": [
+        "H01"
+      ],
+      "input_hashes": {
+        "E8.5_RNA": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+        "E9.5_RNA": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "MOUSE-mod.gaf.gz": "6cbefce3a2efd9862f102a2732e923fde525c8fa59a3e5ce22e8178c3ebb0093",
+        "go-basic.obo": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc"
+      },
+      "code": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/panel_functional.py",
+        "src/build_evidence.py"
+      ],
+      "controls": "GO-annotated T1-expressed background 12,611 genes; 1000 matched random panels; non-IEA sensitivity",
+      "result_rows": "H01: 500 MERFISH design genes versus T1-expressed GO-annotated genes and expression/detection-matched random sets",
+      "limitations": "No candidate design pool or probe-feature table; GO annotations are not design records.",
+      "recommendation": "Represent absent programs as unobserved; use panel-aware modules and avoid interpreting missing S-phase as inactivity.",
+      "evidence_files": []
+    },
+    {
+      "id": "C03",
+      "claim": "MERFISH 对预定义 S 期程序无列覆盖，收缩装置只覆盖 4/12。",
+      "grade": "A for panel identity",
+      "figures": [
+        "F04",
+        "F05"
+      ],
+      "tables": [
+        "tables/module_coverage.csv",
+        "tables/gene_observation_mask.csv"
+      ],
+      "source": [
+        "S2",
+        "S7"
+      ],
+      "hypotheses": [
+        "H01"
+      ],
+      "input_hashes": {
+        "E8.5_RNA": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+        "E9.5_RNA": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "MOUSE-mod.gaf.gz": "6cbefce3a2efd9862f102a2732e923fde525c8fa59a3e5ce22e8178c3ebb0093",
+        "go-basic.obo": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc"
+      },
+      "code": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/panel_functional.py",
+        "src/build_evidence.py"
+      ],
+      "controls": "GO-annotated T1-expressed background 12,611 genes; 1000 matched random panels; non-IEA sensitivity",
+      "result_rows": "H01: 500 MERFISH design genes versus T1-expressed GO-annotated genes and expression/detection-matched random sets",
+      "limitations": "No candidate design pool or probe-feature table; GO annotations are not design records.",
+      "recommendation": "Represent absent programs as unobserved; use panel-aware modules and avoid interpreting missing S-phase as inactivity.",
+      "evidence_files": []
+    },
+    {
+      "id": "C04",
+      "claim": "E9.5 到 E10.5 四基因相对下降由组成项和粗类型内项共同构成，不能作因果比例。",
+      "grade": "C",
+      "figures": [
+        "F08",
+        "F09"
+      ],
+      "tables": [
+        "tables/composition_state_decomposition.csv"
+      ],
+      "source": [
+        "S1"
+      ],
+      "hypotheses": [
+        "H02"
+      ],
+      "input_hashes": {
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      },
+      "code": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "controls": "original labels retained; broad label mapping review; all, resolved-only and cardiac-core common label support",
+      "result_rows": "H02: pre-registered E9.5 to E10.5 heart contrast on four common contractile genes and broad labels",
+      "limitations": "E10.5 is dissected heart while earlier samples include heart-tube sections; one specimen per WT stage",
+      "recommendation": "separate target tissue support, composition and within-type states; assess label mapping sensitivity",
+      "evidence_files": []
+    },
+    {
+      "id": "C05",
+      "claim": "E9.5 到 E10.5 心肌内 Myh7、Ttn 检出与阳性强度变化不同；不是统一检测效率。",
+      "grade": "C",
+      "figures": [
+        "F05",
+        "F06"
+      ],
+      "tables": [
+        "tables/validation_key_hurdle.csv"
+      ],
+      "source": [
+        "S1"
+      ],
+      "hypotheses": [
+        "H03"
+      ],
+      "input_hashes": {
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      },
+      "code": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "controls": "same broad label; exact detection-plus-positive decomposition",
+      "result_rows": "H03: within cardiomyocyte, detection and positive intensity in E9.5 to E10.5",
+      "limitations": "no raw molecule counts or probe QC; broad type contains subtypes",
+      "recommendation": "calibrate zero fractions and positive expression separately by gene",
+      "evidence_files": []
+    },
+    {
+      "id": "C06",
+      "claim": "逐层检出差异在原始类型条件化后仍可见，具体技术成因未确定。",
+      "grade": "C",
+      "figures": [
+        "F10",
+        "F11"
+      ],
+      "tables": [
+        "tables/slice_conditioned_quality.csv"
+      ],
+      "source": [
+        "S1"
+      ],
+      "hypotheses": [
+        "H05"
+      ],
+      "input_hashes": {
+        "E6.75": "ab58b9217d1b9a18b0181f498475a9eb821ac2c92ab2b7e45a623da0e4fffe70",
+        "E7.25": "c34192a31036b783b97ce1877ac50fc920b39faa3e00dc3c637b3e7e04255ee6",
+        "E8.0": "17530e23fbfa6a139ff68d0353a489d83790f5b60f036b7d2f58303a1ff8a810",
+        "E8.25_late": "d56f94d3e2d719ed3074d86c03eae457ccf90b24145d33300f9958f0e8078593",
+        "E8.75": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E9.5_mab21l2_ko": "5b1668ab982e64f7683fbf5f905218fab311c63548de5f5bc18a74f9d4d357e0",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+        "E7.5": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+        "E8.5": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+        "E8.75_gata4_ko_1": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+        "E8.75_gata4_ko_2": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4"
+      },
+      "code": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/spatial_remote.py",
+        "src/build_spatial_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "controls": "within-raw-label expected detection and supported-cell fraction",
+      "result_rows": "H05: within-file z slice detection after conditioning on original labels, including five validation spatial files",
+      "limitations": "no FOV, raw spots, segmentation mask, probe/round fields or certified physical axes",
+      "recommendation": "investigate flagged sections before applying coordinate or intensity correction",
+      "evidence_files": []
+    },
+    {
+      "id": "C07",
+      "claim": "E9.5 和探索性 E10.5 的核 RNA 与 MERFISH 有部分类型特异性一致；E10.5 心肌一致性较弱。",
+      "grade": "C",
+      "figures": [
+        "F14",
+        "F14V"
+      ],
+      "tables": [
+        "tables/cross_modal_specificity.csv"
+      ],
+      "source": [
+        "S1",
+        "S2"
+      ],
+      "hypotheses": [
+        "H08"
+      ],
+      "input_hashes": {
+        "E9.5_RNA": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E10.5_RNA": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      },
+      "code": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/analyze_tables.py",
+        "src/build_evidence.py"
+      ],
+      "controls": "exclude ten T2-abundant genes; rank/direction only, not absolute expression",
+      "result_rows": "H08: frozen E9.5 same-stage specificity; exploratory E10.5 specificity and E9.5-to-E10.5 within-modality temporal directions",
+      "limitations": "different specimens, one per stage/modal combination; relative expression and label composition differ",
+      "recommendation": "Transfer type-rank priors cautiously; keep assay-specific scale and zero patterns.",
+      "evidence_files": []
+    },
+    {
+      "id": "C08",
+      "claim": "六个代表预测与官方真值已配对诊断；批次与生物学仍不可分。",
+      "grade": "C for diagnostic; batch not estimable",
+      "figures": [
+        "F12",
+        "F16"
+      ],
+      "tables": [
+        "tables/field_availability.csv",
+        "tables/model_validation_diagnostics.csv"
+      ],
+      "source": [
+        "S1"
+      ],
+      "hypotheses": [
+        "H06",
+        "H10"
+      ],
+      "input_hashes": {
+        "E6.75": "ab58b9217d1b9a18b0181f498475a9eb821ac2c92ab2b7e45a623da0e4fffe70",
+        "E7.25": "c34192a31036b783b97ce1877ac50fc920b39faa3e00dc3c637b3e7e04255ee6",
+        "E8.0": "17530e23fbfa6a139ff68d0353a489d83790f5b60f036b7d2f58303a1ff8a810",
+        "E8.25_late": "d56f94d3e2d719ed3074d86c03eae457ccf90b24145d33300f9958f0e8078593",
+        "E8.5_RNA": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+        "E8.75": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c",
+        "E9.5": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a",
+        "E9.5_RNA": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+        "E9.5_mab21l2_ko": "5b1668ab982e64f7683fbf5f905218fab311c63548de5f5bc18a74f9d4d357e0",
+        "E10.5_RNA": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+        "E10.5": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+        "E7.5": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+        "E8.5": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+        "E8.75_gata4_ko_1": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+        "E8.75_gata4_ko_2": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4",
+        "T1_E10p5_prediction": "2a816eb2857378320e1d677a10a9234c14e5f96d9e22b165eb2674e9149b951f",
+        "T2_embryo_E7p5_prediction": "2c85c13a7ce9449e45afad68aab89a0df46a7cd314ee1e4ca018815ad7121ccc",
+        "T2_heart_interp_E8p5_prediction": "b7a594ddd6f1d2464d1495f5476088ff4ed31f1550dd1d3a7e783e86176d8af2",
+        "T2_heart_extrap_E10p5_prediction": "de2265b965af5784385b2bd70218bcae33e85ac8f81f50aad99973ec67deae47",
+        "T3_Gata4_E8p75_prediction": "f5b45c6906c2165f305455d709978a0fdd52b4ac47e92040a14b41cc4ee0625f",
+        "scorer_entry": "52034554f03aec10193cb09baa2c78a1de04218ef678f327eb63acc58fa28add",
+        "scorer_core": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31",
+        "scorer_shape": "bd80ef2705f9be93fe1538e77445d4eb217d4b955c6cd38c69b26b0671be91c0"
+      },
+      "code": [
+        "src/audit_remote.py",
+        "src/build_tables.py",
+        "src/build_evidence.py",
+        "src/model_diagnostics_remote.py"
+      ],
+      "controls": "design-rank/field-availability audit; pinned public raw scorer, three fixed 700-cell samples; truth-assisted reweighting labeled diagnostic",
+      "result_rows": "H06: stage/genotype and documented run/batch design including validation truth; H10: each representative prediction versus matched official validation truth, KO prediction against two embryos",
+      "limitations": "KO/WT run separation and no crossed independent WT embryos; validation answers used in development; fixed cell subsamples and reference choices do not reproduce official scores",
+      "recommendation": "collect crossed batches; do not estimate a biological-only KO coefficient; prioritize large gene/zero/shape errors and test changes on independent embryos",
+      "evidence_files": [
+        "evidence/MODEL_VALIDATION_FINDINGS.json",
+        "evidence/VALIDATION_RELEASE_AUDIT.json"
+      ]
+    }
+  ]
+}

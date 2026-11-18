@@ -1,0 +1,174 @@
+{
+  "id": "B03_E9.5",
+  "row_id": "B03",
+  "external_dataset": "TOME3_E95",
+  "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+  "external_ids": [
+    "VED-003",
+    "VED-008"
+  ],
+  "official_dataset": "OFF_T1_E9.5_RNA",
+  "official_stage": "E9.5",
+  "external_stage": "E9.5",
+  "same_stage": true,
+  "note": "同一细胞ID连接VED-008计数和VED-003标签/QC，只算一份证据；全胚与官方心脏周边范围不同",
+  "kind": "same_stage",
+  "common_genes": 20998,
+  "official_genes": 32285,
+  "external_genes": 26133,
+  "official_coverage": 0.6503949202415983,
+  "external_coverage": 0.8035051467493208,
+  "official_n": 17057,
+  "external_n": 110229,
+  "official_unit": "nucleus",
+  "external_unit": "nucleus",
+  "official_samples": [
+    {
+      "sample": "OFF_T1_E9.5_RNA",
+      "n": 17057
+    }
+  ],
+  "external_samples": [
+    {
+      "sample": "embryo1.0",
+      "n": 14915
+    },
+    {
+      "sample": "embryo19.0",
+      "n": 3970
+    },
+    {
+      "sample": "embryo20.0",
+      "n": 2686
+    },
+    {
+      "sample": "embryo21.0",
+      "n": 11836
+    },
+    {
+      "sample": "embryo22.0",
+      "n": 5428
+    },
+    {
+      "sample": "embryo3.0",
+      "n": 7661
+    },
+    {
+      "sample": "embryo39.0",
+      "n": 6601
+    },
+    {
+      "sample": "embryo40.0",
+      "n": 7153
+    },
+    {
+      "sample": "embryo41.0",
+      "n": 3538
+    },
+    {
+      "sample": "embryo42.0",
+      "n": 8090
+    },
+    {
+      "sample": "embryo55.0",
+      "n": 3839
+    },
+    {
+      "sample": "embryo56.0",
+      "n": 7647
+    },
+    {
+      "sample": "embryo57.0",
+      "n": 9228
+    },
+    {
+      "sample": "embryo58.0",
+      "n": 7533
+    },
+    {
+      "sample": "embryo63.0",
+      "n": 10104
+    }
+  ],
+  "j01": 0.1862473649958615,
+  "b01": 0.8514048992205067,
+  "detection_mean_abs_pp": 14.859510077949334,
+  "detection_spearman": 0.8742049781544626,
+  "official_zero_fraction": 0.8178629178233723,
+  "external_zero_fraction": 0.9655226723811104,
+  "official_zero_rows": 0,
+  "external_zero_rows": 0,
+  "both_all_zero_genes": 25,
+  "both_detected_genes": 20570,
+  "official_only_detected_genes": 65,
+  "external_only_detected_genes": 338,
+  "cell_detection_quantiles": {
+    "official": {
+      "p10": 0.1254881417277836,
+      "median": 0.17906467282598343,
+      "p90": 0.24507095913896562
+    },
+    "external": {
+      "p10": 0.017096866368225546,
+      "median": 0.0313363177445471,
+      "p90": 0.056957805505286216
+    }
+  },
+  "cell_detection_wasserstein_pp": 14.765975455774253,
+  "shuffled_j01_median": 0.08859732066181458,
+  "shuffled_j01_all": [
+    0.0874252652749543,
+    0.08917057172648749,
+    0.08927311467110773,
+    0.08867480834810314,
+    0.09028843240375067,
+    0.09076647351045262,
+    0.0891991383284057,
+    0.08837655644731454,
+    0.09000849675521791,
+    0.08787345871371224,
+    0.08863067735641393,
+    0.08765087136930161,
+    0.08745360325259492,
+    0.08889092229281942,
+    0.08723960128150912,
+    0.08841502447787357,
+    0.08856396396721522,
+    0.0873642851657479,
+    0.08887563056704109,
+    0.08694628698454304
+  ],
+  "binary_pattern": {
+    "n_draw": 256,
+    "seeds": [
+      2026111601,
+      2026111602,
+      2026111603
+    ],
+    "runs": [
+      {
+        "seed": 2026111601,
+        "cross": 0.2516327337200364,
+        "within_official": 0.005609690898652597,
+        "within_external": 0.007039331774804591
+      },
+      {
+        "seed": 2026111602,
+        "cross": 0.2527364733229358,
+        "within_official": 0.005582355586720267,
+        "within_external": 0.007181102934949085
+      },
+      {
+        "seed": 2026111603,
+        "cross": 0.2515146283677138,
+        "within_official": 0.005224048004233706,
+        "within_external": 0.006977547144958907
+      }
+    ],
+    "cross_mean": 0.2519612784702287,
+    "cross_min": 0.2515146283677138,
+    "cross_max": 0.2527364733229358,
+    "within_official_mean": 0.005472031496535523,
+    "within_external_mean": 0.007065993951570861
+  }
+}

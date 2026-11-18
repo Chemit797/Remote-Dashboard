@@ -1,0 +1,118 @@
+{
+  "retrieved_date": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "scope": "本轮官方数据分析使用的公开方法、先验和验证答案解锁来源；定量结果另见 tables 与 HYPOTHESIS_RESULTS.json。",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Virtual Embryo Challenge Data Protocol",
+      "url": "https://virtualembryo.ai/challenge/data-protocol",
+      "type": "官方实验协议",
+      "claims": [
+        {"locator": "3D MERFISH, lines 44-47", "claim": "Vizgen MERSCOPE 的 500 基因面板旨在覆盖心脏相关细胞类型及周围细胞类型；各时期及胚胎/心脏设置使用同一面板。", "inference_limit": "页面未逐基因给出入选理由；功能注释和数据内特异性不能代替设计记录。"},
+        {"locator": "Dissection and sampling, lines 20-36", "claim": "E8.25–E9.5 MERFISH 只收集含心管的整胚切片并保留卵黄囊；E10.5 改为分离心脏后完整切片，没有机器可读的取材 ROI。", "inference_limit": "跨时期组成差异同时含生物学和取材变化，不能从现有发布文件唯一分解为因果份额。"},
+        {"locator": "Sectioning and coordinates, lines 48-63", "claim": "实际切片间隔为 14 微米；发布 z 步长因文件而异；发布坐标在各胚胎局部框架中，物理单位、配准方法及残差未公布。", "inference_limit": "不得将发布 x/y/z 直接标为微米，或凭 z 步长自动重缩放三轴。"},
+        {"locator": "Segmentation and processing, lines 64-67", "claim": "按 DAPI 用 Cellpose 2 分割，将解码 RNA 分配到细胞，排除少于五个检出基因的 MERFISH 细胞；发布矩阵是逐细胞总量归一到 10000 后 log1p。", "inference_limit": "expm1(X) 是线性归一化表达，不是原始分子计数；已过滤细胞的分布无法从发布文件估计。"},
+        {"locator": "Animals and staging / Multiome, lines 13-19 and 68-80", "claim": "Multiome 取自细胞核，发布 RNA 部分；每个发布文件来自多于五个胚胎或心脏的混样，E8.5/E9.5 训练阶段分别保留 16787/17057 个细胞；发布 RNA 同样采用 log1p(CP10k)。", "inference_limit": "混在同一生物池的细胞和技术文库不是独立胚胎重复；发布文件数不等于独立池数。"},
+        {"locator": "Knockout lines, lines 81-87", "claim": "Gata4 条件为 Mesp1-Cre; Gata4 F/F; Gata6 F/+，β-catenin 条件为 Mesp1-Cre; β-catenin F/F；Mab21l2 为 CreERT2 敲入的功能缺失背景。KO 和匹配 WT 在不同运行批次处理。", "inference_limit": "Gata4 条件不等于无条件单基因 KO；若批次与基因型完全混杂，不可唯一归因技术或基因型。"},
+        {"locator": "Animals and staging, lines 18-19; Cell-type annotation, lines 88-105", "claim": "Gata4 的两个重复为独立同窝胚胎；细胞类型逐时期独立聚类和人工命名，心肌细分类 cm_celltype 也未跨时期统一。", "inference_limit": "细胞和切片不能替代胚胎重复；标签缺失不等于谱系消失，跨时期需显式映射。"}
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Virtual Embryo Challenge Data",
+      "url": "https://virtualembryo.ai/challenge/data",
+      "type": "官方数据及面板说明",
+      "claims": [
+        {"locator": "File checksums, lines 20-33", "claim": "公布了九个训练文件的字节数及 SHA-256，可逐文件校验。", "inference_limit": "网页未公布用户取得的 P2 文件 SHA-256；其来源和版本须单独核对。"},
+        {"locator": "Gene panel, per board, lines 34-50", "claim": "各评分面板是对应 board 实际载入时期的有序基因交集；胚胎 P2 为 498、P3 为 497，心脏和 T3 为 500，T1 为 32285。", "inference_limit": "原始设计面板、文件观测轴和评分纳入轴需分别保存；评分排除不等于未测量。"},
+        {"locator": "Task 1 and Task 2, lines 59-85 and 110-248", "claim": "T1 为心脏中心取材而非整胚或纯心脏；MERFISH 为每胚局部坐标，时期之间未配准。", "inference_limit": "不同时期细胞比例既受发育也受取材影响，不能把整个坐标系当共同物理参考。"},
+        {"locator": "Task 3, lines 249-305", "claim": "Gata4 P2 为两个重复，E8.75 WT 与 T2 共享；扰动差异指标以同阶段匹配 WT 为对照。", "inference_limit": "共享 WT 只算一次来源；两个 KO 重复不能消除共同的条件与批次混杂。"}
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Virtual Embryo Challenge panel index",
+      "url": "https://virtualembryo.ai/challenge/panels/index.json",
+      "type": "官方机器可读评分合同",
+      "claims": [
+        {"locator": "T1:val, T2:*:val_*, T3:gata4 entries", "claim": "列出各验证 board 的有序基因文件、基因轴校验前缀、坐标要求、允许的细胞数和公开校准锚点。", "inference_limit": "其中 truth_cells/ref_cells 是评分工作副本数量，不是原始胚胎或发布文件总细胞数。"}
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Virtual Embryo Challenge Evaluation",
+      "url": "https://virtualembryo.ai/challenge/evaluation",
+      "type": "官方评估说明",
+      "claims": [
+        {"locator": "Splits, lines 22-39", "claim": "P2 答案在 P3 阶段经显式获取后可用于开发；隐藏 P3 真值仍不发布。", "inference_limit": "用 P2 发现、选择或校正的规律不再有独立 P2 泛化资格。"}
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Klaus et al., PNAS 2012, Wnt/beta-catenin and Bmp signals control distinct sets of transcription factors in cardiac progenitor cells",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3390862/",
+      "doi": "10.1073/pnas.1121236109",
+      "type": "原始扰动研究",
+      "claims": [
+        {"locator": "Abstract", "claim": "E9.0 心脏祖细胞的该实验背景中，Wnt/beta-catenin 支持 Nkx2-5、Isl1、Baf60c（Smarcd3）；Bmp 支持 Gata4、Srf、Mef2c，两组作用不同。", "inference_limit": "该研究不证明这些基因因此被挑战面板选入；也不证明 WT 各时期单调变化或本挑战 Gata4 条件的相同效应量。"}
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Gene Ontology mouse annotations and ontology downloads",
+      "url": "https://geneontology.org/docs/download-go-annotations/downloads/",
+      "ontology_url": "https://geneontology.org/page/download-ontology",
+      "type": "官方功能注释资源",
+      "downloaded_files": [
+        {"path": "evidence/MOUSE-mod.gaf.gz", "url": "https://current.geneontology.org/annotations/gaf/MOUSE-mod.gaf.gz", "sha256": "6cbefce3a2efd9862f102a2732e923fde525c8fa59a3e5ce22e8178c3ebb0093", "header_date": "2026-08-04", "go_version_header": "2026-08-02"},
+        {"path": "evidence/go-basic.obo", "url": "https://current.geneontology.org/ontology/go-basic.obo", "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc", "data_version": "2026-07-26"}
+      ],
+      "claims": [
+        {"locator": "Mus musculus / go-basic", "claim": "GO 提供小鼠物种注释文件 MOUSE-mod.gaf.gz 和 go-basic 本体供功能覆盖分析。", "inference_limit": "须记录实际下载文件日期与哈希、基因映射率及证据代码；GO 成员资格不是作者入选动机或该时期通路活性证据。"}
+      ]
+    },
+    {
+      "id": "S7",
+      "title": "本地既有模块定义 marker_modules.json",
+      "path": "results_20261112/marker_modules.json",
+      "sha256": "c1bf5f000b02ac1c54a941d7f17742c30d6ff14da4b1b7b7382db6dba7a8788f",
+      "type": "本轮前固定的探索性模块定义，非官方面板设计资料",
+      "claims": [
+        {"locator": "six named gene lists", "claim": "包含收缩、心脏调控、内皮身份、S 期、G2/M 和神经分化六组基因，可作为明确注明来源的先验成员。", "inference_limit": "旧分析的效应值不得作为本轮 P2 结果；MERFISH 只分析真实观测到的成员并报告分母。"}
+      ]
+    },
+    {
+      "id": "S8",
+      "title": "Virtual Embryo Challenge Timeline",
+      "url": "https://virtualembryo.ai/challenge/timeline",
+      "type": "官方赛段与验证答案发布规则",
+      "claims": [
+        {"locator": "P1/P2/P3 timeline entries", "claim": "P1 开放 validation 评分榜且不发答案；P2 发布 starter kit 和参考基线；两阶段使用同一验证目标。P3 开放后经显式申请可取得 validation 答案。", "inference_limit": "用户口语所称 P1 验证集不能仅凭赛段名判定文件是真值；需核验下载来源、manifest 与 H5AD 内容。"}
+      ]
+    },
+    {
+      "id": "S9",
+      "title": "Virtual Embryo Challenge validation answers for P3",
+      "url": "https://virtualembryo.ai/challenge/data#validation-answers",
+      "type": "官方账户解锁下载页面",
+      "claims": [
+        {"locator": "Validation answers for P3, account BioCosmos X, 2026-11-15", "claim": "页面显示 validation data unlocked、P2 submissions permanently disabled，并提供 T1 E10.5、T2 E7.5/E8.5/E10.5、T3 两份 Gata4 KO 的下载按钮。", "inference_limit": "页面浏览状态与下载文件身份须另以本轮路径、大小、SHA-256、H5AD 字段和轴记录；公开页面未列验证 SHA。"}
+      ]
+    }
+  ],
+  "source_conflicts": [
+    {
+      "topic": "Casp4 与 Pnliprp1 在 E6.75/E7.25 的缺列原因",
+      "source_1": "S1, 3D MERFISH lines 46-47: 低表达而未检出",
+      "source_2": "S2, Gene panel lines 37-38: 未测量",
+      "handling": "保持两种公开说法；文件层面只记录为缺列，不能把其缺失编码成观测零值，也不能自行确认探针设计状态。"
+    }
+  ],
+  "not_publicly_documented": [
+    "500 基因逐基因入选理由或候选设计池",
+    "探针序列、每基因探针数、成像轮次/通道、blank probes 的逐基因表",
+    "MERFISH 发布坐标的物理单位、轴映射和切片配准残差",
+    "逐细胞原始 MERFISH 分子点位及被过滤细胞"
+  ]
+}

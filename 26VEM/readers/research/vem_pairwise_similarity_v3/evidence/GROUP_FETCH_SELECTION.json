@@ -1,0 +1,101 @@
+[
+  {
+    "path": "P006__ALL_genes.csv.gz",
+    "bytes": 1469223,
+    "sha256": "73f51376ca4f85665604beef8aaf8121a23ea1982fde301a45c90079f72a5903",
+    "rows": 26800,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P006_genes.csv.gz",
+    "source_sha256": "45fcdba7f094ab69a5f102e41236a983869c9cbde976dc10396d14a98cc65c79",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P006__surface_genes.csv.gz",
+    "bytes": 1167796,
+    "sha256": "2e6672f78578e25d91836b3946405f402b8cd89b39841c7332260bef1f19ee4f",
+    "rows": 26800,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P006_genes.csv.gz",
+    "source_sha256": "45fcdba7f094ab69a5f102e41236a983869c9cbde976dc10396d14a98cc65c79",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P006__endothelium_genes.csv.gz",
+    "bytes": 1095269,
+    "sha256": "280db14555aa8411239a301c552cc93f4a0298dc513eec072cad01c162a6b448",
+    "rows": 26800,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P006_genes.csv.gz",
+    "source_sha256": "45fcdba7f094ab69a5f102e41236a983869c9cbde976dc10396d14a98cc65c79",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P006__paraxial_genes.csv.gz",
+    "bytes": 1109488,
+    "sha256": "5e850f440d673e1a0b44ee48ab78001f8223fd40fcb083a547268be5c934cb38",
+    "rows": 26800,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P006_genes.csv.gz",
+    "source_sha256": "45fcdba7f094ab69a5f102e41236a983869c9cbde976dc10396d14a98cc65c79",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P006__neural_crest_genes.csv.gz",
+    "bytes": 1009842,
+    "sha256": "83e83eb8926273a83cbd203009831b5bac32464974888b1832949825955130c5",
+    "rows": 26800,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P006_genes.csv.gz",
+    "source_sha256": "45fcdba7f094ab69a5f102e41236a983869c9cbde976dc10396d14a98cc65c79",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P006__cardiomyocyte_genes.csv.gz",
+    "bytes": 1214725,
+    "sha256": "8cd59d7f7886931cdc30c104e0a7ae9151983a8ae418c49404ae47a5631d3fd9",
+    "rows": 26800,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P006_genes.csv.gz",
+    "source_sha256": "45fcdba7f094ab69a5f102e41236a983869c9cbde976dc10396d14a98cc65c79",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P007__ALL_genes.csv.gz",
+    "bytes": 1688735,
+    "sha256": "38e105d8601eac595d6d7efd233b5a6b27e13e770417a503bf1d22ab43366db9",
+    "rows": 28276,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P007_genes.csv.gz",
+    "source_sha256": "5c297193a3e0cfc87be71f16c3f55ea8c9501f1a10d7fb22a83a621f7cfc9a78",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P007__endothelium_genes.csv.gz",
+    "bytes": 1312511,
+    "sha256": "abeb4f84248b7c75bec1eebfa585a9665409b4d97e0a0bcab612157f4c5aaafa",
+    "rows": 28276,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P007_genes.csv.gz",
+    "source_sha256": "5c297193a3e0cfc87be71f16c3f55ea8c9501f1a10d7fb22a83a621f7cfc9a78",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P007__paraxial_genes.csv.gz",
+    "bytes": 1416299,
+    "sha256": "92813a2f9f894ebd6f372dc52702e2f6ba7efd530f3f06e8e07f7aaee63dfe97",
+    "rows": 28276,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P007_genes.csv.gz",
+    "source_sha256": "5c297193a3e0cfc87be71f16c3f55ea8c9501f1a10d7fb22a83a621f7cfc9a78",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P007__neural_crest_genes.csv.gz",
+    "bytes": 1270360,
+    "sha256": "11339133210c3c1de1302e326ab5b2422018fe54b0bf514f302e7d0eb06b55f2",
+    "rows": 28276,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P007_genes.csv.gz",
+    "source_sha256": "5c297193a3e0cfc87be71f16c3f55ea8c9501f1a10d7fb22a83a621f7cfc9a78",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  },
+  {
+    "path": "P007__shf_genes.csv.gz",
+    "bytes": 1336623,
+    "sha256": "87961d93d6c08e69f8ae824c3fe5825d8a7a87ad7ba4d35daa468abf085cc3a2",
+    "rows": 28276,
+    "source_file": "experiments/vem_pairwise_similarity_v3_20261116/run01/outputs/P007_genes.csv.gz",
+    "source_sha256": "5c297193a3e0cfc87be71f16c3f55ea8c9501f1a10d7fb22a83a621f7cfc9a78",
+    "transformation": "Literal CSV lines grouped; numeric strings unchanged"
+  }
+]

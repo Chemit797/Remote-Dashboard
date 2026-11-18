@@ -1,0 +1,56 @@
+{
+  "dictionary_metacells": 461,
+  "dictionary_labels": 29,
+  "dictionary_key": "mc (not the R row index)",
+  "dictionary_source": "https://embflow.s3.eu-west-1.amazonaws.com/data_embflow.tar.gz :: data/fig_s3/mc_cluster_order.txt",
+  "author_repository_tree": "9f0c2a704d586bad09a6022b363fc02ba61f4f9f",
+  "morphology_rows": 153,
+  "metadata_rows_total": 44544,
+  "metadata_metacell_na_rows": 10844,
+  "metadata_labeled_rows": 33700,
+  "cohorts": [
+    {
+      "path": "Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_wt_bl6_single_cell_metadata.txt.gz",
+      "metadata_sha256": "4f50d8587039b2a8356d60497bc8bcb799d6b4a92b4fcb5b005813d7cb78eb2f",
+      "rows": 30336,
+      "metacell_na_rows": 8673,
+      "metacell_labeled_rows": 21663,
+      "unmapped": {},
+      "embryo_field_unique_values_including_empty": 126,
+      "embryos_with_morphology": 111,
+      "embryo_values_without_morphology": [
+        "181209_R_11",
+        "190304_TKO_1_P6",
+        "190304_W_wt04",
+        "190304_W_wt09",
+        "190527_2B",
+        "190527_2C",
+        "190527_7B",
+        "EXE11_e2",
+        "EXE12_e6",
+        "EXE1_E1",
+        "EXE1_E2",
+        "EXE3_m1_e5",
+        "EXE5_E1",
+        "EXE5_E7",
+        "empty"
+      ]
+    },
+    {
+      "path": "Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_wt_icr_single_cell_metadata.txt.gz",
+      "metadata_sha256": "cd995919faa0c36006431f1bac7c4eb29da7f61849476928aa3233757c70bbea",
+      "rows": 14208,
+      "metacell_na_rows": 2171,
+      "metacell_labeled_rows": 12037,
+      "unmapped": {},
+      "embryo_field_unique_values_including_empty": 43,
+      "embryos_with_morphology": 42,
+      "embryo_values_without_morphology": [
+        "empty"
+      ]
+    }
+  ],
+  "stage_resolution": "No literal per-embryo collection E-day was found. Et is model-derived; morphology labels are separate. Do not use Et as observed embryonic day or as an unverified competition-window selector.",
+  "metadata_rows_are_not_qc_cell_count": true,
+  "metadata_expression_values_read": false
+}

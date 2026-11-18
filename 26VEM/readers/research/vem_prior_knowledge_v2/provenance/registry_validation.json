@@ -1,0 +1,23 @@
+{
+  "unique_ved": 43,
+  "historical_task_relations": 71,
+  "all_canonical_directories_exist": true,
+  "recorded_file_stat_entries": 350,
+  "missing_recorded_file_paths": [],
+  "historical_status_counts": {
+    "AUDITED": 37,
+    "RAW_ONLY_RECONSTRUCTION_REQUIRED": 1,
+    "METADATA_AUDITED": 5
+  },
+  "matrix_only_metadata_records": [
+    "VED-022",
+    "VED-026",
+    "VED-027",
+    "VED-028",
+    "VED-041"
+  ],
+  "all_records_have_sampling_and_exclusion_reasons": true,
+  "GSE169210_all_nonmissing_metacells_mapped": true,
+  "cache_source_hash_records_agree": true,
+  "expression_values_read": false
+}

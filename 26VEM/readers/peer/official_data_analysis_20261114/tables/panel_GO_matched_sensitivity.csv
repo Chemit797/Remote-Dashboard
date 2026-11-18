@@ -1,0 +1,61 @@
+﻿GO_id,GO_name,term_panel_hits,matched_null_mean_hits,matched_null_q025_hits,matched_null_q975_hits,p_empirical_matched_enrichment,q_full_GO_family,status
+GO:0007507,heart development,47,23.265,16,31,0.000999000999000999,2.1418117314059353e-16,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0010628,positive regulation of gene expression,59,26.204,17,35,0.000999000999000999,2.1418117314059353e-16,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001568,blood vessel development,25,6.975,3,11,0.000999000999000999,1.371269431775825e-15,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0045165,cell fate commitment,22,6.744,3,11,0.000999000999000999,6.473259080777935e-14,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0045944,positive regulation of transcription by RNA polymerase II,89,44.106,33,56,0.000999000999000999,6.64692656564074e-14,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0030154,cell differentiation,39,17.533,11,24,0.000999000999000999,6.899511543828235e-12,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001656,metanephros development,16,3.946,1,7,0.000999000999000999,3.483233130888438e-11,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0003151,outflow tract morphogenesis,19,5.881,2,10,0.000999000999000999,6.323850755626064e-11,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001525,angiogenesis,30,15.503,10,22,0.000999000999000999,6.779748697389245e-11,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0008285,negative regulation of cell population proliferation,42,17.2,9,25,0.000999000999000999,7.383171273688466e-11,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0006357,regulation of transcription by RNA polymerase II,83,41.623,31,53,0.000999000999000999,3.0139118190425333e-10,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0045893,positive regulation of DNA-templated transcription,62,28.699,20,38,0.000999000999000999,4.838820472565605e-10,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0042472,inner ear morphogenesis,17,3.594,1,7,0.000999000999000999,9.630751078356034e-10,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0000122,negative regulation of transcription by RNA polymerase II,68,32.677,24,42,0.000999000999000999,1.1921589156376998e-09,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0035050,embryonic heart tube development,13,4.108,1,7,0.000999000999000999,1.9314247888643133e-09,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0009952,anterior/posterior pattern specification,21,6.707,3,11,0.000999000999000999,1.9314247888643133e-09,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0008284,positive regulation of cell population proliferation,45,23.789,16,32,0.000999000999000999,4.119393685776277e-09,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0060045,positive regulation of cardiac muscle cell proliferation,12,3.751,1,7,0.000999000999000999,1.2828206229685789e-08,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0003007,heart morphogenesis,17,7.102,3,12,0.000999000999000999,1.6995926026417073e-08,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0030326,embryonic limb morphogenesis,15,5.23,2,9,0.000999000999000999,2.7517742170721187e-08,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0014898,cardiac muscle hypertrophy in response to stress,10,3.314,1,6,0.000999000999000999,5.22242817133686e-08,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0006355,regulation of DNA-templated transcription,76,41.144,31,52,0.000999000999000999,5.491341635554837e-08,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001822,kidney development,24,8.531,4,14,0.000999000999000999,7.554644853839225e-08,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0003180,aortic valve morphogenesis,11,4.108,1,8,0.000999000999000999,1.1357080925654405e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0048738,cardiac muscle tissue development,11,4.323,1,8,0.001998001998001998,1.1357080925654405e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0009887,animal organ morphogenesis,19,8.174,3,14,0.000999000999000999,1.6868117681052477e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001974,blood vessel remodeling,13,4.404,1,8,0.000999000999000999,2.7711382215124066e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0048646,anatomical structure formation involved in morphogenesis,11,2.955,0,6,0.000999000999000999,3.453365495141301e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0055007,cardiac muscle cell differentiation,12,3.661,1,7,0.000999000999000999,5.203741530520172e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0007267,cell-cell signaling,14,5.558,2,10,0.000999000999000999,5.448474023616328e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0051145,smooth muscle cell differentiation,9,3.059,1,6,0.000999000999000999,8.754511630509395e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:1902895,positive regulation of miRNA transcription,13,3.652,1,7,0.000999000999000999,9.011996548319039e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001701,in utero embryonic development,33,15.377,9,22,0.000999000999000999,9.011996548319039e-07,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0009653,anatomical structure morphogenesis,14,3.975,1,8,0.000999000999000999,1.1959390979156036e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001570,vasculogenesis,15,9.381,5,15,0.026973026973026972,1.3458351170551837e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0003148,outflow tract septum morphogenesis,10,3.91,1,7,0.002997002997002997,1.3598918297840004e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001947,heart looping,13,4.333,1,8,0.000999000999000999,1.6344227374182447e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001657,ureteric bud development,12,3.186,0,7,0.000999000999000999,1.6806317553899722e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0030182,neuron differentiation,23,9.479,4,15,0.000999000999000999,1.6997142056662172e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0035115,embryonic forelimb morphogenesis,10,3.141,0,6,0.000999000999000999,1.78148678458612e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0042475,odontogenesis of dentin-containing tooth,13,4.973,1,9,0.000999000999000999,1.828939143326113e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0050679,positive regulation of epithelial cell proliferation,14,5.741,2,10,0.000999000999000999,1.828939143326113e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0071560,cellular response to transforming growth factor beta stimulus,14,6.165,2,11,0.001998001998001998,2.1903012666610315e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001764,neuron migration,20,9.696,5,15,0.000999000999000999,2.2238960259552654e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0086091,regulation of heart rate by cardiac conduction,10,3.24,0,6,0.000999000999000999,2.268400300141573e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0060412,ventricular septum morphogenesis,11,3.444,1,7,0.000999000999000999,3.920974039970687e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001708,cell fate specification,10,2.521,0,5,0.001998001998001998,4.268256186815304e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0007411,axon guidance,22,13.644,8,20,0.00999000999000999,4.56866034349513e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001756,somitogenesis,12,2.8,0,6,0.000999000999000999,4.56866034349513e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0030335,positive regulation of cell migration,27,14.692,8,21,0.000999000999000999,4.655274609830017e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0090090,negative regulation of canonical Wnt signaling pathway,19,8.32,4,14,0.001998001998001998,4.739640509315403e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0048663,neuron fate commitment,9,2.875,0,6,0.000999000999000999,4.739640509315403e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0007155,cell adhesion,26,18.679,12,26,0.03496503496503497,4.739640509315403e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0098609,cell-cell adhesion,22,17.565,11,24,0.12887112887112886,5.55696276427727e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001755,neural crest cell migration,10,3.043,0,6,0.000999000999000999,6.812323466911623e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0090103,cochlea morphogenesis,9,2.11,0,5,0.000999000999000999,9.242068395229187e-06,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0048706,embryonic skeletal system development,11,3.316,1,7,0.000999000999000999,1.4309635555118224e-05,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0048513,animal organ development,14,5.612,2,10,0.000999000999000999,1.4309635555118224e-05,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0021983,pituitary gland development,8,2.324,0,5,0.001998001998001998,1.4415190448472642e-05,selected_by_full_family_hypergeometric; matched_result_is_sensitivity
+GO:0001501,skeletal system development,16,6.649,3,11,0.000999000999000999,1.706143635006912e-05,selected_by_full_family_hypergeometric; matched_result_is_sensitivity

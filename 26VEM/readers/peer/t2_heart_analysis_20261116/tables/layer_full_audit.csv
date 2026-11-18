@@ -1,0 +1,6 @@
+stage,positive_entries,fractional_positive_entries,fractional_positive_fraction,max_log1p_counts_reconstruction_error,count_layer_total_q10,count_layer_total_median,count_layer_total_q90,fractional_examples,interpretation
+E8.25_late,4197310,174097,0.04147823248699763,9.5367431640625e-07,93.0,233.0,454.0,"[1.5, 0.5, 8.5, 5.5, 0.5, 0.5, 2.5, 8.5, 3.5, 2.5]",released counts layer; molecule provenance not independently certified
+E8.5,1457968,0,0.0,9.5367431640625e-07,64.0,166.0,357.0,[],released counts layer; molecule provenance not independently certified
+E8.75,1303158,34324,0.026339093187472278,9.5367431640625e-07,39.0,131.0,287.0,"[0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 3.5, 0.5, 2.5, 0.5]",released counts layer; molecule provenance not independently certified
+E9.5,2094906,0,0.0,9.5367431640625e-07,39.0,75.0,172.0,[],released counts layer; molecule provenance not independently certified
+E10.5,5434277,0,0.0,9.5367431640625e-07,33.0,56.0,111.0,[],released counts layer; molecule provenance not independently certified

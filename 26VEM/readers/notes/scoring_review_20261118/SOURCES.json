@@ -1,0 +1,74 @@
+[
+  {
+    "name": "evaluation_t1",
+    "url": "https://virtualembryo.ai/challenge/evaluation?task=1&section=scoring",
+    "status": 200,
+    "retrieved_utc": "2026-11-17T17:47:01.145822+00:00",
+    "file": "evidence\\evaluation_t1.html",
+    "bytes": 261034,
+    "sha256": "b6c615e6236f50da5673dd0d399c02ac5bcb39584d7f2dba5b05737be2f02fce"
+  },
+  {
+    "name": "evaluation_t2",
+    "url": "https://virtualembryo.ai/challenge/evaluation?task=2&section=scoring",
+    "status": 200,
+    "retrieved_utc": "2026-11-17T17:47:01.015819+00:00",
+    "file": "evidence\\evaluation_t2.html",
+    "bytes": 316236,
+    "sha256": "287a18661b318dabcd2207912e3f9039a523939d15582939ece74b41e014b889"
+  },
+  {
+    "name": "evaluation_t3",
+    "url": "https://virtualembryo.ai/challenge/evaluation?task=3&section=scoring",
+    "status": 200,
+    "retrieved_utc": "2026-11-17T17:47:01.145822+00:00",
+    "file": "evidence\\evaluation_t3.html",
+    "bytes": 282894,
+    "sha256": "948e4a9160846f9d408b05f2d53afbedc243f922ab01e4d31610dd0452918182"
+  },
+  {
+    "name": "panels",
+    "url": "https://virtualembryo.ai/challenge/panels/index.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-17T17:47:00.976336+00:00",
+    "file": "evidence\\panels.json",
+    "bytes": 7283,
+    "sha256": "b03b6dea5f74e159a37c1261b330d56e5f8ee199f6014247c5b4c5402c01f0d9"
+  },
+  {
+    "name": "baselines",
+    "url": "https://virtualembryo.ai/challenge/baselines",
+    "status": 200,
+    "retrieved_utc": "2026-11-17T17:47:01.015819+00:00",
+    "file": "evidence\\baselines.html",
+    "bytes": 159863,
+    "sha256": "81a01c88348285aba1a48dac74519db70abac2722c25ec41ff7c249b65aa8a62"
+  },
+  {
+    "name": "tasks",
+    "url": "https://virtualembryo.ai/challenge/tasks",
+    "status": 200,
+    "retrieved_utc": "2026-11-17T17:47:00.940442+00:00",
+    "file": "evidence\\tasks.html",
+    "bytes": 137054,
+    "sha256": "cb17631ef7080b50034f38ddc44f4249bd54c8543863c3e2fe807bd71391413b"
+  },
+  {
+    "name": "rules",
+    "url": "https://virtualembryo.ai/challenge/rules",
+    "status": 200,
+    "retrieved_utc": "2026-11-17T17:47:01.157184+00:00",
+    "file": "evidence\\rules.html",
+    "bytes": 169066,
+    "sha256": "e33e4393dd69bb8b655fde5da867243871c3b8c0d645cfcee80c5e20258af605"
+  },
+  {
+    "name": "public_commit",
+    "url": "https://api.github.com/repos/aristoteleo/veckit/commits/main",
+    "status": 200,
+    "retrieved_utc": "2026-11-17T17:47:01.604805+00:00",
+    "file": "evidence\\public_commit.json",
+    "bytes": 10887,
+    "sha256": "6164d13660485602aa063bd3495d75e06ebc99d1c9fcc7441a9956d27dfe5e3f"
+  }
+]

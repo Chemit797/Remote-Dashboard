@@ -1,0 +1,200 @@
+[
+  {
+    "split": "stage",
+    "held_out": "E6.75",
+    "model": "affine",
+    "mmd_reduction": 0.032411627843536274,
+    "css_reduction": 0.1716858851898938,
+    "mmd_better_than_shuffled": 0.015830405513270196,
+    "css_better_than_shuffled": -0.028876499103692235,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": false
+  },
+  {
+    "split": "stage",
+    "held_out": "E7.25",
+    "model": "affine",
+    "mmd_reduction": 0.0023679422129981864,
+    "css_reduction": 0.17089002341700416,
+    "mmd_better_than_shuffled": 0.024832564952558422,
+    "css_better_than_shuffled": -0.03764835405172906,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": false
+  },
+  {
+    "split": "stage",
+    "held_out": "E8.0",
+    "model": "affine",
+    "mmd_reduction": -0.24835640141450144,
+    "css_reduction": 0.03514124323448189,
+    "mmd_better_than_shuffled": 0.010864036488372197,
+    "css_better_than_shuffled": 0.005151366319442574,
+    "both_better_than_identity": false,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "type",
+    "held_out": "Allantois",
+    "model": "affine",
+    "mmd_reduction": -0.3073574282751372,
+    "css_reduction": 0.017839887797443,
+    "mmd_better_than_shuffled": 0.059261062212331295,
+    "css_better_than_shuffled": 0.02807031362515916,
+    "both_better_than_identity": false,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "model": "affine",
+    "mmd_reduction": -0.10731029700741757,
+    "css_reduction": 0.16216900543588408,
+    "mmd_better_than_shuffled": 0.040678455527562885,
+    "css_better_than_shuffled": -0.022441892088940874,
+    "both_better_than_identity": false,
+    "both_better_than_shuffled": false
+  },
+  {
+    "split": "type",
+    "held_out": "Caudal epiblast",
+    "model": "affine",
+    "mmd_reduction": -0.1088366439722242,
+    "css_reduction": 0.06434204834699186,
+    "mmd_better_than_shuffled": 0.02760281412431037,
+    "css_better_than_shuffled": 0.011204012682323738,
+    "both_better_than_identity": false,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "model": "affine",
+    "mmd_reduction": 0.03693106431873669,
+    "css_reduction": 0.22136439861225185,
+    "mmd_better_than_shuffled": 0.0148562793199436,
+    "css_better_than_shuffled": -0.03508773555769623,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": false
+  },
+  {
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "model": "affine",
+    "mmd_reduction": -0.02530483465629152,
+    "css_reduction": 0.13547460610599352,
+    "mmd_better_than_shuffled": 0.020586587810467682,
+    "css_better_than_shuffled": -0.005227847043190598,
+    "both_better_than_identity": false,
+    "both_better_than_shuffled": false
+  },
+  {
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "model": "affine",
+    "mmd_reduction": -0.0014399675181980265,
+    "css_reduction": 0.14731396088662524,
+    "mmd_better_than_shuffled": 0.008693048581144502,
+    "css_better_than_shuffled": -0.016321334709701013,
+    "both_better_than_identity": false,
+    "both_better_than_shuffled": false
+  },
+  {
+    "split": "stage",
+    "held_out": "E6.75",
+    "model": "ridge",
+    "mmd_reduction": 0.17830511445149555,
+    "css_reduction": 0.10725029873787191,
+    "mmd_better_than_shuffled": 0.12964248441672982,
+    "css_better_than_shuffled": 0.0635775739016283,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "stage",
+    "held_out": "E7.25",
+    "model": "ridge",
+    "mmd_reduction": 0.105989966593981,
+    "css_reduction": 0.10511195102454352,
+    "mmd_better_than_shuffled": 0.0015016350717451665,
+    "css_better_than_shuffled": 0.0703195318203898,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "stage",
+    "held_out": "E8.0",
+    "model": "ridge",
+    "mmd_reduction": 0.04471879189171033,
+    "css_reduction": 0.03061021099911158,
+    "mmd_better_than_shuffled": 0.0068314626363150666,
+    "css_better_than_shuffled": 0.00016912412841557645,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "type",
+    "held_out": "Allantois",
+    "model": "ridge",
+    "mmd_reduction": 0.07330703027822633,
+    "css_reduction": -0.07328695339694008,
+    "mmd_better_than_shuffled": -0.04084940722592412,
+    "css_better_than_shuffled": -0.061735472263446944,
+    "both_better_than_identity": false,
+    "both_better_than_shuffled": false
+  },
+  {
+    "split": "type",
+    "held_out": "Blood progenitors",
+    "model": "ridge",
+    "mmd_reduction": -0.2633595903974646,
+    "css_reduction": 0.04834669060865282,
+    "mmd_better_than_shuffled": -0.35306595509160477,
+    "css_better_than_shuffled": -0.003083196009717626,
+    "both_better_than_identity": false,
+    "both_better_than_shuffled": false
+  },
+  {
+    "split": "type",
+    "held_out": "Caudal epiblast",
+    "model": "ridge",
+    "mmd_reduction": 0.1829948986409229,
+    "css_reduction": 0.179780529520968,
+    "mmd_better_than_shuffled": 0.1790935517606413,
+    "css_better_than_shuffled": 0.02885075577079141,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "type",
+    "held_out": "ExE ectoderm",
+    "model": "ridge",
+    "mmd_reduction": 0.1991217600969477,
+    "css_reduction": 0.12796195980714142,
+    "mmd_better_than_shuffled": 0.06550235864276804,
+    "css_better_than_shuffled": 0.03769431681908453,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "type",
+    "held_out": "ExE endoderm",
+    "model": "ridge",
+    "mmd_reduction": 0.06801529589749983,
+    "css_reduction": 0.07360743390126291,
+    "mmd_better_than_shuffled": 0.018985241397959596,
+    "css_better_than_shuffled": 0.05547782799434198,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": true
+  },
+  {
+    "split": "type",
+    "held_out": "Primitive Streak",
+    "model": "ridge",
+    "mmd_reduction": 0.13407332827230428,
+    "css_reduction": 0.06757832477061039,
+    "mmd_better_than_shuffled": 0.07928504269916875,
+    "css_better_than_shuffled": 0.04450903802832806,
+    "both_better_than_identity": true,
+    "both_better_than_shuffled": true
+  }
+]

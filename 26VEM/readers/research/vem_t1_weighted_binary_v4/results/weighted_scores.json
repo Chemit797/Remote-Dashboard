@@ -1,0 +1,360 @@
+[
+  {
+    "dataset": "EMTAB_FULL",
+    "name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "external_ids": [
+      "VED-001"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "calculated",
+        "pair": "P006",
+        "S": 0.19639274542191537,
+        "terms": [
+          {
+            "group": "surface",
+            "name": "表面外胚层",
+            "labels": [
+              "Surface Ectoderm"
+            ],
+            "n": 1423,
+            "denominator": 16787,
+            "weight": 0.0847679752189194,
+            "rho": 0.8784147301949331,
+            "contribution": 0.07446143808109787
+          },
+          {
+            "group": "endothelium",
+            "name": "内皮",
+            "labels": [
+              "Endothelium"
+            ],
+            "n": 1139,
+            "denominator": 16787,
+            "weight": 0.06785012211830584,
+            "rho": 0.8737813334585849,
+            "contribution": 0.0592861701798611
+          },
+          {
+            "group": "paraxial",
+            "name": "轴旁中胚层",
+            "labels": [
+              "Paraxial Mesoderm"
+            ],
+            "n": 934,
+            "denominator": 16787,
+            "weight": 0.05563829153511646,
+            "rho": 0.8679145593268197,
+            "contribution": 0.04828928327939772
+          },
+          {
+            "group": "neural_crest",
+            "name": "神经嵴",
+            "labels": [
+              "NCC"
+            ],
+            "n": 287,
+            "denominator": 16787,
+            "weight": 0.01709656281646512,
+            "rho": 0.8396924010791831,
+            "contribution": 0.014355853881558679
+          }
+        ],
+        "qualified_official_fraction": 0.22535295168880684,
+        "evaluated_official_fraction": 0.22535295168880684,
+        "evaluated_types": 4,
+        "included_types": 4,
+        "excluded_below_threshold": []
+      },
+      "E9.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  },
+  {
+    "dataset": "TOME4_E85",
+    "name": "VED-004 · TOME E8.5 全胚胎图谱",
+    "external_ids": [
+      "VED-004"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "calculated",
+        "pair": "P007",
+        "S": 0.12833951081255593,
+        "terms": [
+          {
+            "group": "endothelium",
+            "name": "内皮",
+            "labels": [
+              "Endothelium"
+            ],
+            "n": 1139,
+            "denominator": 16787,
+            "weight": 0.06785012211830584,
+            "rho": 0.9098270735395851,
+            "contribution": 0.06173187804620168
+          },
+          {
+            "group": "paraxial",
+            "name": "轴旁中胚层",
+            "labels": [
+              "Paraxial Mesoderm"
+            ],
+            "n": 934,
+            "denominator": 16787,
+            "weight": 0.05563829153511646,
+            "rho": 0.9207614975156964,
+            "contribution": 0.05122959663308872
+          },
+          {
+            "group": "neural_crest",
+            "name": "神经嵴",
+            "labels": [
+              "NCC"
+            ],
+            "n": 287,
+            "denominator": 16787,
+            "weight": 0.01709656281646512,
+            "rho": 0.8994811587774505,
+            "contribution": 0.01537803613326552
+          }
+        ],
+        "qualified_official_fraction": 0.1405849764698874,
+        "evaluated_official_fraction": 0.1405849764698874,
+        "evaluated_types": 3,
+        "included_types": 3,
+        "excluded_below_threshold": []
+      },
+      "E9.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  },
+  {
+    "dataset": "TOME3_E95",
+    "name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "external_ids": [
+      "VED-003",
+      "VED-008"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E9.5": {
+        "status": "unavailable",
+        "pair": "P008",
+        "reason": "没有进入同阶段主比较的对应细胞类型；不以全部细胞或富集子集相关代替。"
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  },
+  {
+    "dataset": "QIU228590",
+    "name": "VED-007 · Qiu 产前细胞核图谱",
+    "external_ids": [
+      "VED-007"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E9.5": {
+        "status": "calculated",
+        "pair": "P009",
+        "S": 0.08105359365630292,
+        "terms": [
+          {
+            "group": "endocardium",
+            "name": "心内膜",
+            "labels": [
+              "Endocardium"
+            ],
+            "n": 1555,
+            "denominator": 17057,
+            "weight": 0.09116491762912587,
+            "rho": 0.88908755433798,
+            "contribution": 0.08105359365630292
+          }
+        ],
+        "qualified_official_fraction": 0.09116491762912587,
+        "evaluated_official_fraction": 0.09116491762912587,
+        "evaluated_types": 1,
+        "included_types": 1,
+        "excluded_below_threshold": []
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  },
+  {
+    "dataset": "FENG193346_CD1",
+    "name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "external_ids": [
+      "VED-012"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E9.5": {
+        "status": "calculated",
+        "pair": "P012",
+        "S": 0.15433579398576583,
+        "terms": [
+          {
+            "group": "ventricular",
+            "name": "心室心肌",
+            "labels": [
+              "V-CM"
+            ],
+            "n": 1144,
+            "denominator": 17057,
+            "weight": 0.06706923843583279,
+            "rho": 0.9201213571948182,
+            "contribution": 0.06171183869560134
+          },
+          {
+            "group": "endocardium",
+            "name": "心内膜",
+            "labels": [
+              "Endocardium"
+            ],
+            "n": 1555,
+            "denominator": 17057,
+            "weight": 0.09116491762912587,
+            "rho": 0.9049394950515353,
+            "contribution": 0.08249873452571597
+          },
+          {
+            "group": "blood",
+            "name": "血液细胞",
+            "labels": [
+              "Blood"
+            ],
+            "n": 213,
+            "denominator": 17057,
+            "weight": 0.01248754177170663,
+            "rho": 0.8108257773671285,
+            "contribution": 0.010125220764448517
+          }
+        ],
+        "qualified_official_fraction": 0.1707216978366653,
+        "evaluated_official_fraction": 0.1707216978366653,
+        "evaluated_types": 3,
+        "included_types": 3,
+        "excluded_below_threshold": []
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  },
+  {
+    "dataset": "DESOYSA_WT",
+    "name": "VED-006 · de Soysa 早期心脏图谱",
+    "external_ids": [
+      "VED-006"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E9.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  },
+  {
+    "dataset": "MOSTA_E9.5",
+    "name": "VED-009 · MOSTA 心脏空间图谱",
+    "external_ids": [
+      "VED-009"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E9.5": {
+        "status": "unavailable",
+        "pair": "P018",
+        "reason": "没有进入同阶段主比较的对应细胞类型；不以全部细胞或富集子集相关代替。"
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  },
+  {
+    "dataset": "HEART230531_E85",
+    "name": "VED-010 · 胚胎与心脏单细胞图谱",
+    "external_ids": [
+      "VED-010"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "unavailable",
+        "pair": "P022",
+        "reason": "没有进入同阶段主比较的对应细胞类型；不以全部细胞或富集子集相关代替。"
+      },
+      "E9.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  },
+  {
+    "dataset": "OSR1_E95",
+    "name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+    "external_ids": [
+      "VED-019"
+    ],
+    "cells": {
+      "E8.5": {
+        "status": "unavailable",
+        "reason": "没有已分析且同阶段的外部数据。"
+      },
+      "E9.5": {
+        "status": "unavailable",
+        "pair": "P023",
+        "reason": "没有进入同阶段主比较的对应细胞类型；不以全部细胞或富集子集相关代替。"
+      },
+      "E10.5": {
+        "status": "unavailable",
+        "reason": "外部E10.5处于既定保护区间；无本轮允许的同阶段比较。"
+      }
+    }
+  }
+]

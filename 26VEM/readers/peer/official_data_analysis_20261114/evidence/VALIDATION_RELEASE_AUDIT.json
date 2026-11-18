@@ -1,0 +1,187 @@
+{
+  "source": "https://virtualembryo.ai/challenge/data#validation-answers",
+  "release": "validation-release-v1",
+  "root": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1",
+  "audited_at_utc": "2026-11-14T16:22:52.037078+00:00",
+  "files": [
+    {
+      "relative_path": "T1/E10.5_RNA.h5ad",
+      "bytes": 647176723,
+      "sha256": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+      "x_storage": "sparse",
+      "x_encoding": "csc_matrix",
+      "x_shape": [
+        24979,
+        32285
+      ],
+      "obs_columns": [
+        "celltype"
+      ],
+      "var_columns": [],
+      "obsm_keys": [
+        "X_umap.harmony.rna"
+      ],
+      "uns_keys": [
+        "celltype_palette"
+      ]
+    },
+    {
+      "relative_path": "T2/E8.5.h5ad",
+      "bytes": 85209108,
+      "sha256": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+      "x_storage": "sparse",
+      "x_encoding": "csc_matrix",
+      "x_shape": [
+        23710,
+        500
+      ],
+      "obs_columns": [
+        "celltype",
+        "cm_celltype"
+      ],
+      "var_columns": [],
+      "obsm_keys": [
+        "spatial_2D",
+        "spatial_3D"
+      ],
+      "uns_keys": [
+        "celltype_palette",
+        "cm_celltype_palette",
+        "log1p"
+      ]
+    },
+    {
+      "relative_path": "T2/E10.5.h5ad",
+      "bytes": 484175760,
+      "sha256": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+      "x_storage": "sparse",
+      "x_encoding": "csc_matrix",
+      "x_shape": [
+        167864,
+        500
+      ],
+      "obs_columns": [
+        "celltype",
+        "cm_celltype"
+      ],
+      "var_columns": [],
+      "obsm_keys": [
+        "spatial_2D",
+        "spatial_3D"
+      ],
+      "uns_keys": [
+        "celltype_palette",
+        "cm_celltype_palette",
+        "log1p"
+      ]
+    },
+    {
+      "relative_path": "T2/E7.5.h5ad",
+      "bytes": 94538489,
+      "sha256": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+      "x_storage": "dense",
+      "x_encoding": "array",
+      "x_shape": [
+        11665,
+        500
+      ],
+      "obs_columns": [
+        "celltype"
+      ],
+      "var_columns": [],
+      "obsm_keys": [
+        "spatial_2D",
+        "spatial_3D"
+      ],
+      "uns_keys": [
+        "celltype_palette",
+        "log1p"
+      ]
+    },
+    {
+      "relative_path": "T3/E8.75_gata4_ko_1.h5ad",
+      "bytes": 373752585,
+      "sha256": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+      "x_storage": "dense",
+      "x_encoding": "array",
+      "x_shape": [
+        42257,
+        500
+      ],
+      "obs_columns": [
+        "celltype",
+        "celltype_clean",
+        "condition",
+        "embryo",
+        "embryo_section",
+        "genotype",
+        "leiden",
+        "n_counts",
+        "n_genes",
+        "perturb_batch",
+        "sample_id",
+        "section",
+        "slide",
+        "time",
+        "z_coord"
+      ],
+      "var_columns": [],
+      "obsm_keys": [
+        "X_pca",
+        "X_umap",
+        "spatial",
+        "spatial_3D"
+      ],
+      "uns_keys": [
+        "celltype_colors",
+        "log1p",
+        "name",
+        "neighbors",
+        "pca",
+        "umap"
+      ]
+    },
+    {
+      "relative_path": "T3/E8.75_gata4_ko_2.h5ad",
+      "bytes": 409190040,
+      "sha256": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4",
+      "x_storage": "dense",
+      "x_encoding": "array",
+      "x_shape": [
+        46396,
+        500
+      ],
+      "obs_columns": [
+        "celltype",
+        "condition",
+        "embryo",
+        "embryo_section",
+        "genotype",
+        "leiden",
+        "n_counts",
+        "n_genes",
+        "perturb_batch",
+        "sample_id",
+        "section",
+        "slide",
+        "time",
+        "z_coord"
+      ],
+      "var_columns": [],
+      "obsm_keys": [
+        "X_pca",
+        "X_umap",
+        "spatial",
+        "spatial_3D"
+      ],
+      "uns_keys": [
+        "celltype_colors",
+        "log1p",
+        "name",
+        "neighbors",
+        "pca",
+        "umap"
+      ]
+    }
+  ]
+}

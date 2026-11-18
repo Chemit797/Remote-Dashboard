@@ -1,0 +1,37 @@
+{
+  "PROTOCOL_scoring.md": {
+    "local": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\PROTOCOL.md",
+    "bytes": 6628,
+    "sha256": "7f401f0f1d4a08c1eb4faf2b6c86e6be172b67fdb501e912d86e2da83c7badcb"
+  },
+  "src/score_sources_v2.py": {
+    "local": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\src\\score_sources.py",
+    "bytes": 21352,
+    "sha256": "bf84b0be1ca86c776149c1e9dcdf2a19fc2ac8ecfc3b7df0656b402d3db15736"
+  },
+  "src/add_related_views.py": {
+    "local": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\src\\add_related_views.py",
+    "bytes": 1779,
+    "sha256": "a0639bf95c5dad692cf248ed7ab5ee9ede95aedcbd4a5cce3e49404fada52e94"
+  },
+  "src/delta_audit.py": {
+    "local": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\src\\delta_audit.py",
+    "bytes": 32809,
+    "sha256": "539858e3c080a5dcc1d33632da4b3d95307d7bcbfe8b905d0797549347a0899e"
+  },
+  "src/verify_outputs.py": {
+    "local": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\src\\verify_outputs.py",
+    "bytes": 6582,
+    "sha256": "76ca1d346e6d9f62bcf2b23b8cdbcd578d060b002fc192bf562904273179c0a8"
+  },
+  "src/export_small_results.py": {
+    "local": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\src\\export_small_results.py",
+    "bytes": 2161,
+    "sha256": "4a3a65fbe3a8a4042d844872d2aa57fb781d77479ce73eeec0f9a3262ce0c640"
+  },
+  "src/verify_spatial_input.py": {
+    "local": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\src\\verify_spatial_input.py",
+    "bytes": 2252,
+    "sha256": "c88a5440a9ea7f2b23bf1b5aaa0607333e967e1c79b2761404942e5588642dc7"
+  }
+}

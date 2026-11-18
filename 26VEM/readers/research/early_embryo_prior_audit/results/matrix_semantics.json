@@ -1,0 +1,54 @@
+[
+  {
+    "stage": "E6.75",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/data/E6.75.h5ad",
+    "slot": "layers/counts",
+    "fractional_entries": 0,
+    "nonzero_entries": 103191,
+    "counts_confirmed_for_primary_analysis": true,
+    "semantics": "documented integer count layer",
+    "X_matches_log_normalization_max_error": 5.442338579797479e-07,
+    "all_weights_half_integer": true,
+    "cells_below_five_detected_genes": 448,
+    "primary_filter": "all released observations"
+  },
+  {
+    "stage": "E7.25",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/data/E7.25.h5ad",
+    "slot": "layers/counts",
+    "fractional_entries": 0,
+    "nonzero_entries": 232736,
+    "counts_confirmed_for_primary_analysis": true,
+    "semantics": "documented integer count layer",
+    "X_matches_log_normalization_max_error": 5.423579469976403e-07,
+    "all_weights_half_integer": true,
+    "cells_below_five_detected_genes": 749,
+    "primary_filter": "all released observations"
+  },
+  {
+    "stage": "E7.5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E7.5.h5ad",
+    "slot": "layers/counts",
+    "fractional_entries": 0,
+    "nonzero_entries": 400576,
+    "counts_confirmed_for_primary_analysis": true,
+    "semantics": "documented integer count layer",
+    "X_matches_log_normalization_max_error": 5.442338579797479e-07,
+    "all_weights_half_integer": true,
+    "cells_below_five_detected_genes": 0,
+    "primary_filter": "all released observations"
+  },
+  {
+    "stage": "E8.0",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/data/E8.0.h5ad",
+    "slot": "layers/counts",
+    "fractional_entries": 13573,
+    "nonzero_entries": 2112484,
+    "counts_confirmed_for_primary_analysis": false,
+    "semantics": "released pre-normalization expression weights; fractional origin unverified; native X used for marker diagnostics",
+    "X_matches_log_normalization_max_error": 5.251751691304207e-07,
+    "all_weights_half_integer": true,
+    "cells_below_five_detected_genes": 0,
+    "primary_filter": "all released observations"
+  }
+]

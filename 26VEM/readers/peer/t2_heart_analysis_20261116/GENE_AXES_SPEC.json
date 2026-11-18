@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "initial_axes_registered_before_gene_axis_computation": true,
+  "version_note": "The initial axis definitions preceded computation. This version also documents the minimum peak-block cell count used during derivation and corrects the observed number of eligible G1 types; the reported G3 classifications use that refined rule.",
+  "scope": "Five official T2 heart files, common measured 500 genes. One file per stage, descriptive effects only.",
+  "axes_are_not_mutually_exclusive": true,
+  "comparisons": [
+    {
+      "id": "G1",
+      "name": "persistent_type_specificity",
+      "view": "Seven common resolved broad types with at least 300 cells at every stage",
+      "effect": "At each stage, mean log1p(CP10k) in the leading type minus the second-highest type; equal type weighting avoids file composition weights",
+      "support": "Same leading type at all five stages, minimum gap >= 0.4 log units, minimum detection in that type >= 0.10",
+      "counter": "Leader changes, gap shrinks, or detection becomes sparse",
+      "interpretation": "Persistent relative cell-type association in these files, not constant expression or a reason for official panel inclusion"
+    },
+    {
+      "id": "G2",
+      "name": "within_type_stage_association",
+      "view": "Resolved broad type with >=500 cells at all five stages; published X and detected-gene-quartile equal-weight sensitivity",
+      "effect": "Spearman correlation of five stage ranks with type-conditional mean log1p(CP10k), and five-stage range; detection and positive intensity tracked separately",
+      "support": "Absolute rank correlation >=0.9, equal-weight range >=0.5 log units, same direction after detection-stratum equal weighting, minimum absolute leave-one-stage rank correlation >=0.8, detection >=0.10 at one stage",
+      "counter": "Sign changes under quality equal weighting or the pattern is driven by one isolated stage",
+      "interpretation": "Candidate stage association among five released specimens, not an embryo-replicated developmental trajectory"
+    },
+    {
+      "id": "G3",
+      "name": "within_type_spatial_localization",
+      "view": "Within each specimen and resolved broad type with >=500 cells; XY quadrants x z quartiles in that file only",
+      "effect": "Fraction of log-expression residual variance attributable to the 16 candidate spatial blocks after raw fine-label and detected-gene quartile adjustment; nearest same-type within-slice residual correlation minus same-slice raw-label random-neighbor correlation",
+      "support": "Block eta squared >=0.03 and fine-neighbor correlation gain >=0.05 in at least two stages of the same broad type, with gene detection >=0.10 and at least 50 cells in the peak block; the peak-block minimum was added during derivation",
+      "counter": "Adjustment removes regional effect, nearest neighbors resemble matched random cells, or signal appears in only one stage",
+      "interpretation": "Recurrent local organization within type; coordinate frames are unregistered, so location is not carried across stages"
+    }
+  ],
+  "technical_checks": [
+    "Each input SHA-256 matches config.json before read",
+    "Original fine-label and detection-quartile residualization",
+    "Count-layer contrast direction shown separately from normalized contrast",
+    "All 500 measured genes retained in ledger, including genes with insufficient support",
+    "No cell-level developmental p values or pathway activity labels"
+  ]
+}

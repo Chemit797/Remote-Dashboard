@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "cases": [
+    "T1_E10p5",
+    "T2_embryo_E7p5",
+    "T2_heart_interp_E8p5",
+    "T2_heart_extrap_E10p5",
+    "T3_Gata4_E8p75_KO1",
+    "T3_Gata4_E8p75_KO2"
+  ],
+  "remote_derived_root": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/derived/model_diagnostics",
+  "local_diagnostic_table": "tables/model_validation_diagnostics.csv",
+  "local_gene_error_table": "tables/model_gene_error_top.csv",
+  "local_module_error_table": "tables/model_module_errors.csv",
+  "fixed_cell_subsample_seeds": [
+    0,
+    17,
+    43
+  ],
+  "metric_interpretation": "raw public scorer components on 700 sampled cells per role; not an official score or independent repeat",
+  "truth_assisted_reweighting": "T1 exact shared labels only; truth coverage 53.2%, mean log1p MAE 0.0211 to 0.0162; diagnostic only, not deployable",
+  "caveats": [
+    "P2/P1 validation truth is development data after unlock",
+    "T2 embryo E7.5 has all 498 official score genes; Casp4 and Pnliprp1 occur in truth but are outside that board's score axis",
+    "no independent biological uncertainty from fixed cell subsamples"
+  ]
+}

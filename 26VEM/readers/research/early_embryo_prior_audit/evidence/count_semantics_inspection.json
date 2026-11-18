@@ -1,0 +1,463 @@
+{
+  "E6.75": {
+    "counts_dtype": "float32",
+    "obs_columns": [
+      "_index",
+      "celltype"
+    ],
+    "var_columns": [
+      "_index"
+    ],
+    "uns_keys": [
+      "celltype_palette/Allantois",
+      "celltype_palette/Anterior Epiblast",
+      "celltype_palette/Blood Progenitor",
+      "celltype_palette/CP",
+      "celltype_palette/Caudal Epiblast",
+      "celltype_palette/EXE-Ectoderm",
+      "celltype_palette/EXE-Endoderm",
+      "celltype_palette/ExEM-1",
+      "celltype_palette/ExEM-2",
+      "celltype_palette/Gut Endoderm",
+      "celltype_palette/HEM-Endoth",
+      "celltype_palette/LPM",
+      "celltype_palette/PHM_PAM",
+      "celltype_palette/Primitive Streak",
+      "celltype_palette/SOM",
+      "celltype_palette/Unknown",
+      "celltype_palette/aSE",
+      "celltype_palette/pSE"
+    ],
+    "fractional_n": 0,
+    "nonzero_entries": 103191,
+    "fractional_examples": [],
+    "nonzero_quantiles": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      5.0,
+      24.0,
+      101.0
+    ],
+    "row_total_quantiles": [
+      1.0,
+      9.0,
+      30.0,
+      74.0,
+      275.0
+    ],
+    "counts_equals_expm1_X_error": 9999.0029296875,
+    "X_matches_documented_log_normalization_error": 5.442338579797479e-07,
+    "cells_below_five_detected_genes": 448
+  },
+  "E7.25": {
+    "counts_dtype": "float32",
+    "obs_columns": [
+      "_index",
+      "celltype"
+    ],
+    "var_columns": [
+      "_index"
+    ],
+    "uns_keys": [
+      "celltype_palette/Allantois",
+      "celltype_palette/Anterior Epiblast",
+      "celltype_palette/Blood Progenitor",
+      "celltype_palette/CP",
+      "celltype_palette/Caudal Epiblast",
+      "celltype_palette/EXE-Ectoderm",
+      "celltype_palette/EXE-Endoderm",
+      "celltype_palette/ExEM-1",
+      "celltype_palette/ExEM-2",
+      "celltype_palette/Gut Endoderm",
+      "celltype_palette/HEM-Endoth",
+      "celltype_palette/LPM",
+      "celltype_palette/PHM_PAM",
+      "celltype_palette/Primitive Streak",
+      "celltype_palette/SOM",
+      "celltype_palette/Unknown",
+      "celltype_palette/aSE",
+      "celltype_palette/pSE"
+    ],
+    "fractional_n": 0,
+    "nonzero_entries": 232736,
+    "fractional_examples": [],
+    "nonzero_quantiles": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      5.0,
+      24.0,
+      155.0
+    ],
+    "row_total_quantiles": [
+      1.0,
+      10.0,
+      35.0,
+      92.0,
+      353.0
+    ],
+    "counts_equals_expm1_X_error": 9999.0029296875,
+    "X_matches_documented_log_normalization_error": 5.423579469976403e-07,
+    "cells_below_five_detected_genes": 749
+  },
+  "E7.5": {
+    "counts_dtype": "float32",
+    "obs_columns": [
+      "_index",
+      "celltype"
+    ],
+    "var_columns": [
+      "_index"
+    ],
+    "uns_keys": [
+      "celltype_palette/Allantois",
+      "celltype_palette/Anterior Epiblast",
+      "celltype_palette/Blood Progenitor",
+      "celltype_palette/CP",
+      "celltype_palette/Caudal Epiblast",
+      "celltype_palette/EXE-Ectoderm",
+      "celltype_palette/EXE-Endoderm",
+      "celltype_palette/ExEM-1",
+      "celltype_palette/ExEM-2",
+      "celltype_palette/Gut Endoderm",
+      "celltype_palette/HEM-Endoth",
+      "celltype_palette/LPM",
+      "celltype_palette/PHM_PAM",
+      "celltype_palette/Primitive Streak",
+      "celltype_palette/SOM",
+      "celltype_palette/Unknown",
+      "celltype_palette/aSE",
+      "celltype_palette/pSE"
+    ],
+    "fractional_n": 0,
+    "nonzero_entries": 400576,
+    "fractional_examples": [],
+    "nonzero_quantiles": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      5.0,
+      22.0,
+      145.0
+    ],
+    "row_total_quantiles": [
+      20.0,
+      26.0,
+      62.0,
+      174.0,
+      698.0
+    ],
+    "counts_equals_expm1_X_error": 8154.82177734375,
+    "X_matches_documented_log_normalization_error": 5.442338579797479e-07,
+    "cells_below_five_detected_genes": 0
+  },
+  "E8.0": {
+    "counts_dtype": "float32",
+    "obs_columns": [
+      "_index",
+      "celltype",
+      "cm_celltype"
+    ],
+    "var_columns": [
+      "_index"
+    ],
+    "uns_keys": [
+      "celltype_palette/Allantois",
+      "celltype_palette/Allantois Endothelium",
+      "celltype_palette/Caudal Epiblast",
+      "celltype_palette/D-FG",
+      "celltype_palette/EXE-Endoderm",
+      "celltype_palette/EXE-Endothlium",
+      "celltype_palette/ExEM-1",
+      "celltype_palette/ExEM-2",
+      "celltype_palette/FHF",
+      "celltype_palette/Forebrain",
+      "celltype_palette/HEM-Endoth",
+      "celltype_palette/Hindbrain",
+      "celltype_palette/Intra-Endoth",
+      "celltype_palette/JCF",
+      "celltype_palette/LPM",
+      "celltype_palette/Primitive Streak",
+      "celltype_palette/SHF",
+      "celltype_palette/SOM",
+      "celltype_palette/Unknown",
+      "celltype_palette/V-FG",
+      "celltype_palette/V-SE",
+      "celltype_palette/aPHM",
+      "celltype_palette/d-CSE",
+      "celltype_palette/p-EXEM",
+      "celltype_palette/pPHM",
+      "celltype_palette/pSE",
+      "cm_celltype_palette/CC_CM",
+      "cm_celltype_palette/FHF_JCF1",
+      "cm_celltype_palette/FHF_JCF2",
+      "cm_celltype_palette/Unknown",
+      "cm_celltype_palette/aSHF1",
+      "cm_celltype_palette/aSHF2",
+      "cm_celltype_palette/pSHF"
+    ],
+    "fractional_n": 13573,
+    "nonzero_entries": 2112484,
+    "fractional_examples": [
+      4.5,
+      0.5,
+      4.5,
+      1.5,
+      32.5,
+      3.5,
+      0.5,
+      3.5,
+      0.5,
+      1.5,
+      1.5,
+      5.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      2.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      56.5,
+      0.5,
+      0.5,
+      2.5,
+      0.5,
+      0.5,
+      0.5,
+      3.5,
+      0.5,
+      0.5,
+      1.5,
+      0.5,
+      0.5
+    ],
+    "nonzero_quantiles": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      7.0,
+      36.0,
+      349.0
+    ],
+    "row_total_quantiles": [
+      12.0,
+      87.0,
+      213.0,
+      415.0,
+      2158.0
+    ],
+    "counts_equals_expm1_X_error": 6256.525390625,
+    "X_matches_documented_log_normalization_error": 5.251751691304207e-07,
+    "cells_below_five_detected_genes": 0
+  },
+  "GSE278603_rep1": {
+    "slot": "layers/counts",
+    "shape": [
+      11048,
+      16636
+    ],
+    "fractional_n": 0,
+    "nonfinite": 0,
+    "negative": 0,
+    "nonzero_quantiles": [
+      1.0,
+      1.0,
+      1.0,
+      8.0,
+      267.0
+    ],
+    "obs_columns": [
+      "_index",
+      "cell_name",
+      "celltype",
+      "chip",
+      "germ_layer",
+      "id",
+      "image_x",
+      "image_y",
+      "nCount_RNA",
+      "nCount_SCT",
+      "nFeature_RNA",
+      "nFeature_SCT",
+      "orig.ident",
+      "predicted.id",
+      "x",
+      "y",
+      "z"
+    ]
+  },
+  "GSE278603_rep2": {
+    "slot": "raw/X",
+    "shape": [
+      27266,
+      19046
+    ],
+    "fractional_n": 0,
+    "nonfinite": 0,
+    "negative": 0,
+    "nonzero_quantiles": [
+      1.0,
+      1.0,
+      1.0,
+      9.0,
+      359.0
+    ],
+    "obs_columns": [
+      "_index",
+      "cell_name",
+      "celltype",
+      "chip",
+      "germ_layer",
+      "id",
+      "image_x",
+      "image_y",
+      "nCount_RNA",
+      "nCount_SCT",
+      "nFeature_RNA",
+      "nFeature_SCT",
+      "n_genes",
+      "orig.ident",
+      "predicted.id",
+      "side",
+      "x",
+      "x_flatten",
+      "y",
+      "y_flatten",
+      "z"
+    ]
+  },
+  "GSE169210_metadata": [
+    {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_chimera_control_single_cell_metadata.txt.gz",
+      "header": [
+        "\"cell_id\"",
+        "\"plate\"",
+        "\"embryo_id\"",
+        "\"well_barcode\"",
+        "\"pool_barcode\"",
+        "\"external_barcode\"",
+        "\"fsc_a\"",
+        "\"fsc_w\"",
+        "\"fsc_h\"",
+        "\"ssc_a\"",
+        "\"ssc_w\"",
+        "\"ssc_h\"",
+        "\"gfp_a\""
+      ],
+      "sha256": "3ac796f26ed9bce689b6a22d3cdf28221cf45e96a5dcb6056b4a7d1f67b3f2b2"
+    },
+    {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_chimera_foxc12_dko_single_cell_metadata.txt.gz",
+      "header": [
+        "\"cell_id\"",
+        "\"plate\"",
+        "\"embryo_id\"",
+        "\"well_barcode\"",
+        "\"pool_barcode\"",
+        "\"external_barcode\"",
+        "\"fsc_a\"",
+        "\"fsc_w\"",
+        "\"fsc_h\"",
+        "\"ssc_a\"",
+        "\"ssc_w\"",
+        "\"ssc_h\"",
+        "\"gfp_a\""
+      ],
+      "sha256": "fe4771be80ddb8a86bace005fd1dee0b2a87e3c7244a3e7624595e9e5345330a"
+    },
+    {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_mixed_plate_single_cell_metadata.txt.gz",
+      "header": [
+        "\"cell_id\"",
+        "\"plate\"",
+        "\"embryo_id\"",
+        "\"well_barcode\"",
+        "\"pool_barcode\"",
+        "\"external_barcode\"",
+        "\"fsc_a\"",
+        "\"fsc_w\"",
+        "\"fsc_h\"",
+        "\"ssc_a\"",
+        "\"ssc_w\"",
+        "\"ssc_h\"",
+        "\"gfp_a\""
+      ],
+      "sha256": "9a242bdea1ac917fade0e723bb580d950cf3e8de268752ae55ac9d5122e0eeec"
+    },
+    {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_tetraploid_control_single_cell_metadata.txt.gz",
+      "header": [
+        "\"cell_id\"",
+        "\"plate\"",
+        "\"embryo_id\"",
+        "\"well_barcode\"",
+        "\"pool_barcode\"",
+        "\"external_barcode\"",
+        "\"fsc_a\"",
+        "\"fsc_w\"",
+        "\"fsc_h\"",
+        "\"ssc_a\"",
+        "\"ssc_w\"",
+        "\"ssc_h\"",
+        "\"gfp_a\""
+      ],
+      "sha256": "dd0d88d1dd8dd814e32abd864c9a2ed68cba888abe90b1306555b3a765389968"
+    },
+    {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_tetraploid_foxc_dko_single_cell_metadata.txt.gz",
+      "header": [
+        "\"cell_id\"",
+        "\"plate\"",
+        "\"embryo_id\"",
+        "\"well_barcode\"",
+        "\"pool_barcode\"",
+        "\"external_barcode\"",
+        "\"fsc_a\"",
+        "\"fsc_w\"",
+        "\"fsc_h\"",
+        "\"ssc_a\"",
+        "\"ssc_w\"",
+        "\"ssc_h\"",
+        "\"gfp_a\""
+      ],
+      "sha256": "5fe5aebcd54a8481b6a8a2ec3de364e2cc979c8070da696eddc180d60200aaa8"
+    },
+    {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_wt_bl6_single_cell_metadata.txt.gz",
+      "header": [
+        "\"cell_id\"",
+        "\"plate\"",
+        "\"embryo_id\"",
+        "\"developmental_time\"",
+        "\"metacell_id\"",
+        "\"well_barcode\"",
+        "\"pool_barcode\"",
+        "\"external_barcode\""
+      ],
+      "sha256": "4f50d8587039b2a8356d60497bc8bcb799d6b4a92b4fcb5b005813d7cb78eb2f"
+    },
+    {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-05__VED-005__GSE169210/raw/official_geo/suppl/GSE169210_wt_icr_single_cell_metadata.txt.gz",
+      "header": [
+        "\"cell_id\"",
+        "\"plate\"",
+        "\"embryo_id\"",
+        "\"developmental_time\"",
+        "\"metacell_id\"",
+        "\"well_barcode\"",
+        "\"pool_barcode\"",
+        "\"external_barcode\""
+      ],
+      "sha256": "cd995919faa0c36006431f1bac7c4eb29da7f61849476928aa3233757c70bbea"
+    }
+  ]
+}

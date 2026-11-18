@@ -1,0 +1,21 @@
+task,official_stage,x,y,source_families,spearman,source_ids,note
+T1,8.5,MMD,CSS,4,0.19999999999999998,OMIX014646;VED-001;VED-004;VED-021,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T1,8.5,pseudobulk_pearson,MMD,4,-0.39999999999999997,OMIX014646;VED-001;VED-004;VED-021,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T1,8.5,pseudobulk_pearson,CSS,4,-0.7999999999999999,OMIX014646;VED-001;VED-004;VED-021,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T1,8.5,DES,DCS,0,,,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T1,9.5,MMD,CSS,6,0.7142857142857143,OMIX014646;VED-003;VED-007;VED-009;VED-012;VED-021,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T1,9.5,pseudobulk_pearson,MMD,6,-0.4285714285714286,OMIX014646;VED-003;VED-007;VED-009;VED-012;VED-021,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T1,9.5,pseudobulk_pearson,CSS,6,-0.6,OMIX014646;VED-003;VED-007;VED-009;VED-012;VED-021,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T1,9.5,DES,DCS,6,0.4058397249567139,OMIX014646;VED-003;VED-007;VED-009;VED-012;VED-021,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,6.75,MMD,CSS,1,,VED-001,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,6.75,pseudobulk_pearson,MMD,1,,VED-001,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,6.75,pseudobulk_pearson,CSS,1,,VED-001,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,6.75,DES,DCS,0,,,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,7.25,MMD,CSS,2,,VED-001;VED-002,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,7.25,pseudobulk_pearson,MMD,2,,VED-001;VED-002,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,7.25,pseudobulk_pearson,CSS,2,,VED-001;VED-002,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,7.25,DES,DCS,2,,VED-001;VED-002,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,8.0,MMD,CSS,2,,VED-001;VED-020,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,8.0,pseudobulk_pearson,MMD,2,,VED-001;VED-020,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,8.0,pseudobulk_pearson,CSS,2,,VED-001;VED-020,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value
+T2,8.0,DES,DCS,2,,VED-001;VED-020,descriptive only; known shared cells collapsed; source-family means do not prove study independence; no p-value

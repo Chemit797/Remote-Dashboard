@@ -1,0 +1,1193 @@
+[
+  {
+    "split": "stage",
+    "held_out": "E6.75",
+    "train_groups": [
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ]
+    ],
+    "train_stages": 1,
+    "train_types": 4,
+    "status": "insufficient_training_groups"
+  },
+  {
+    "split": "stage",
+    "held_out": "E7.25",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "train_stages": 1,
+    "train_types": 3,
+    "status": "insufficient_training_groups"
+  },
+  {
+    "split": "type",
+    "held_out": "blood_progenitor",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "identity",
+    "shuffled": false,
+    "permutation": [
+      2,
+      1,
+      0,
+      5,
+      4,
+      3
+    ],
+    "params": {},
+    "mse": 0.9875159740867128,
+    "baseline_mse": 0.9875159740867128,
+    "relative_improvement": 0.0,
+    "spearman": 0.4865731461103443
+  },
+  {
+    "split": "type",
+    "held_out": "blood_progenitor",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "affine",
+    "shuffled": false,
+    "permutation": [
+      2,
+      1,
+      0,
+      5,
+      4,
+      3
+    ],
+    "params": {
+      "intercept": 0.0801290371974678,
+      "slope": 0.2862624682695944
+    },
+    "mse": 0.5009978358942454,
+    "baseline_mse": 0.9875159740867128,
+    "relative_improvement": 0.49266862608720363,
+    "spearman": 0.4865731461103443
+  },
+  {
+    "split": "type",
+    "held_out": "blood_progenitor",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "ridge",
+    "shuffled": false,
+    "permutation": [
+      2,
+      1,
+      0,
+      5,
+      4,
+      3
+    ],
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    },
+    "mse": 6.24877025598933,
+    "baseline_mse": 0.9875159740867128,
+    "relative_improvement": -5.327766253875941,
+    "spearman": 0.6398781528497465
+  },
+  {
+    "split": "type",
+    "held_out": "blood_progenitor",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "affine",
+    "shuffled": true,
+    "permutation": [
+      2,
+      1,
+      0,
+      5,
+      4,
+      3
+    ],
+    "params": {
+      "intercept": 0.11016949768741419,
+      "slope": 0.20315038792115672
+    },
+    "mse": 0.5235206742853351,
+    "baseline_mse": 0.9875159740867128,
+    "relative_improvement": 0.46986105741782636,
+    "spearman": 0.4865731461103443
+  },
+  {
+    "split": "type",
+    "held_out": "blood_progenitor",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "ridge",
+    "shuffled": true,
+    "permutation": [
+      2,
+      1,
+      0,
+      5,
+      4,
+      3
+    ],
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    },
+    "mse": 9.16687247921975,
+    "baseline_mse": 0.9875159740867128,
+    "relative_improvement": -8.282758679116634,
+    "spearman": 0.561611333414947
+  },
+  {
+    "split": "type",
+    "held_out": "exe_ectoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "identity",
+    "shuffled": false,
+    "permutation": [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    "params": {},
+    "mse": 1.1082157168099036,
+    "baseline_mse": 1.1082157168099036,
+    "relative_improvement": 0.0,
+    "spearman": 0.35249851402785354
+  },
+  {
+    "split": "type",
+    "held_out": "exe_ectoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "affine",
+    "shuffled": false,
+    "permutation": [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    "params": {
+      "intercept": 0.09160831816424798,
+      "slope": 0.3270668630347599
+    },
+    "mse": 0.27418953798815143,
+    "baseline_mse": 1.1082157168099036,
+    "relative_improvement": 0.7525846874131779,
+    "spearman": 0.35249851402785354
+  },
+  {
+    "split": "type",
+    "held_out": "exe_ectoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "ridge",
+    "shuffled": false,
+    "permutation": [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    },
+    "mse": 0.33640776416360146,
+    "baseline_mse": 1.1082157168099036,
+    "relative_improvement": 0.6964419841184162,
+    "spearman": 0.6729772789631658
+  },
+  {
+    "split": "type",
+    "held_out": "exe_ectoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "affine",
+    "shuffled": true,
+    "permutation": [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    "params": {
+      "intercept": 0.11811050090271408,
+      "slope": 0.2523303142544953
+    },
+    "mse": 0.2630302070588272,
+    "baseline_mse": 1.1082157168099036,
+    "relative_improvement": 0.7626543252644145,
+    "spearman": 0.35249851402785354
+  },
+  {
+    "split": "type",
+    "held_out": "exe_ectoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "ridge",
+    "shuffled": true,
+    "permutation": [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    },
+    "mse": 0.24412997925842947,
+    "baseline_mse": 1.1082157168099036,
+    "relative_improvement": 0.7797089722196152,
+    "spearman": 0.6810952544294059
+  },
+  {
+    "split": "type",
+    "held_out": "exe_endoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "identity",
+    "shuffled": false,
+    "permutation": [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    "params": {},
+    "mse": 0.9008904041507166,
+    "baseline_mse": 0.9008904041507166,
+    "relative_improvement": 0.0,
+    "spearman": 0.3134524462010894
+  },
+  {
+    "split": "type",
+    "held_out": "exe_endoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "affine",
+    "shuffled": false,
+    "permutation": [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    "params": {
+      "intercept": 0.08576955727825601,
+      "slope": 0.2647084161326315
+    },
+    "mse": 0.37457644777561133,
+    "baseline_mse": 0.9008904041507166,
+    "relative_improvement": 0.5842152984982336,
+    "spearman": 0.3134524462010894
+  },
+  {
+    "split": "type",
+    "held_out": "exe_endoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "ridge",
+    "shuffled": false,
+    "permutation": [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    },
+    "mse": 0.7227019129281412,
+    "baseline_mse": 0.9008904041507166,
+    "relative_improvement": 0.19779152980384607,
+    "spearman": 0.6817910628839776
+  },
+  {
+    "split": "type",
+    "held_out": "exe_endoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "affine",
+    "shuffled": true,
+    "permutation": [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    "params": {
+      "intercept": 0.11497488417270146,
+      "slope": 0.18437680940423803
+    },
+    "mse": 0.40420961008170964,
+    "baseline_mse": 0.9008904041507166,
+    "relative_improvement": 0.5513221050869508,
+    "spearman": 0.3134524462010894
+  },
+  {
+    "split": "type",
+    "held_out": "exe_endoderm",
+    "train_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "ridge",
+    "shuffled": true,
+    "permutation": [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    },
+    "mse": 0.7194422096255658,
+    "baseline_mse": 0.9008904041507166,
+    "relative_improvement": 0.20140984262808848,
+    "spearman": 0.6734217173860467
+  },
+  {
+    "split": "type",
+    "held_out": "streak",
+    "train_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "identity",
+    "shuffled": false,
+    "permutation": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "params": {},
+    "mse": 0.9285607453791643,
+    "baseline_mse": 0.9285607453791643,
+    "relative_improvement": 0.0,
+    "spearman": 0.4387776824385245
+  },
+  {
+    "split": "type",
+    "held_out": "streak",
+    "train_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "affine",
+    "shuffled": false,
+    "permutation": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "params": {
+      "intercept": 0.07030400675355329,
+      "slope": 0.31119793897327136
+    },
+    "mse": 0.4046189792994726,
+    "baseline_mse": 0.9285607453791643,
+    "relative_improvement": 0.5642514705548398,
+    "spearman": 0.4387776824385245
+  },
+  {
+    "split": "type",
+    "held_out": "streak",
+    "train_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "ridge",
+    "shuffled": false,
+    "permutation": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    },
+    "mse": 3.2124411653862563,
+    "baseline_mse": 0.9285607453791643,
+    "relative_improvement": -2.4595918267840435,
+    "spearman": 0.6239242053318189
+  },
+  {
+    "split": "type",
+    "held_out": "streak",
+    "train_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "affine",
+    "shuffled": true,
+    "permutation": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "params": {
+      "intercept": 0.08376522880140257,
+      "slope": 0.2762903910867347
+    },
+    "mse": 0.40157125355949386,
+    "baseline_mse": 0.9285607453791643,
+    "relative_improvement": 0.5675336744980339,
+    "spearman": 0.4387776824385245
+  },
+  {
+    "split": "type",
+    "held_out": "streak",
+    "train_groups": [
+      [
+        "E6.75",
+        "exe_ectoderm"
+      ],
+      [
+        "E6.75",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "exe_ectoderm"
+      ],
+      [
+        "E7.25",
+        "exe_endoderm"
+      ],
+      [
+        "E7.25",
+        "blood_progenitor"
+      ]
+    ],
+    "test_groups": [
+      [
+        "E6.75",
+        "streak"
+      ],
+      [
+        "E7.25",
+        "streak"
+      ]
+    ],
+    "train_stages": 2,
+    "train_types": 3,
+    "status": "calculated",
+    "model": "ridge",
+    "shuffled": true,
+    "permutation": [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    "params": {
+      "alpha": 1,
+      "training_only_standardization": true
+    },
+    "mse": 3.3535718886179544,
+    "baseline_mse": 0.9285607453791643,
+    "relative_improvement": -2.6115805081212775,
+    "spearman": 0.6401787315513994
+  }
+]

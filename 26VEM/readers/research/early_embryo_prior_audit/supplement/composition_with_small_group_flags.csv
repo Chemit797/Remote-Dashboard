@@ -1,0 +1,652 @@
+﻿dataset,sample,stage,label,group,n,denominator,proportion,unit,scope,small_n_under_30
+EMTAB6967,EMTAB_pool_1,E6.5,Epiblast,UNMAPPED,186,337,0.5519287833827893,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_1,E6.5,ExE ectoderm,ExE ectoderm,58,337,0.172106824925816,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_1,E6.5,Primitive Streak,Primitive Streak,45,337,0.1335311572700296,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_1,E6.5,ExE endoderm,ExE endoderm,35,337,0.1038575667655786,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_1,E6.5,Visceral endoderm,UNMAPPED,12,337,0.0356083086053412,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_1,E6.5,Nascent mesoderm,UNMAPPED,1,337,0.0029673590504451,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_10,E7.0,Epiblast,UNMAPPED,752,2166,0.3471837488457987,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_10,E7.0,ExE ectoderm,ExE ectoderm,417,2166,0.1925207756232687,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_10,E7.0,Primitive Streak,Primitive Streak,399,2166,0.1842105263157894,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_10,E7.0,ExE endoderm,ExE endoderm,254,2166,0.1172668513388735,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_10,E7.0,Nascent mesoderm,UNMAPPED,161,2166,0.0743305632502308,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_10,E7.0,Visceral endoderm,UNMAPPED,107,2166,0.0493998153277931,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_10,E7.0,Anterior Primitive Streak,UNMAPPED,41,2166,0.0189289012003693,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_10,E7.0,Parietal endoderm,UNMAPPED,11,2166,0.0050784856879039,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_10,E7.0,Mixed mesoderm,UNMAPPED,9,2166,0.0041551246537396,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_10,E7.0,Haematoendothelial progenitors,UNMAPPED,6,2166,0.002770083102493,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_10,E7.0,Surface ectoderm,UNMAPPED,4,2166,0.0018467220683287,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_10,E7.0,Def. endoderm,UNMAPPED,3,2166,0.0013850415512465,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_10,E7.0,Mesenchyme,UNMAPPED,1,2166,0.0004616805170821,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_10,E7.0,PGC,UNMAPPED,1,2166,0.0004616805170821,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Epiblast,UNMAPPED,398,1186,0.3355817875210792,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_14,E7.0,ExE ectoderm,ExE ectoderm,246,1186,0.2074198988195615,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_14,E7.0,Primitive Streak,Primitive Streak,202,1186,0.1703204047217538,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_14,E7.0,Nascent mesoderm,UNMAPPED,107,1186,0.0902192242833052,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_14,E7.0,ExE endoderm,ExE endoderm,103,1186,0.0868465430016863,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_14,E7.0,Anterior Primitive Streak,UNMAPPED,37,1186,0.0311973018549747,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_14,E7.0,Mixed mesoderm,UNMAPPED,20,1186,0.0168634064080944,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Haematoendothelial progenitors,UNMAPPED,18,1186,0.0151770657672849,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Visceral endoderm,UNMAPPED,12,1186,0.0101180438448566,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Def. endoderm,UNMAPPED,11,1186,0.0092748735244519,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Blood progenitors 1,Blood progenitors,9,1186,0.0075885328836424,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Mesenchyme,UNMAPPED,8,1186,0.0067453625632377,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Blood progenitors 2,Blood progenitors,7,1186,0.005902192242833,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Rostral neurectoderm,UNMAPPED,3,1186,0.0025295109612141,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,PGC,UNMAPPED,1,1186,0.0008431703204047,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Gut,UNMAPPED,1,1186,0.0008431703204047,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,ExE mesoderm,UNMAPPED,1,1186,0.0008431703204047,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Surface ectoderm,UNMAPPED,1,1186,0.0008431703204047,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_14,E7.0,Caudal epiblast,Caudal epiblast,1,1186,0.0008431703204047,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Epiblast,UNMAPPED,522,1479,0.3529411764705882,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_15,E7.0,ExE ectoderm,ExE ectoderm,268,1479,0.1812035158891142,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_15,E7.0,Primitive Streak,Primitive Streak,227,1479,0.1534820824881677,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_15,E7.0,ExE endoderm,ExE endoderm,131,1479,0.0885733603786342,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_15,E7.0,Nascent mesoderm,UNMAPPED,129,1479,0.0872210953346856,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_15,E7.0,Anterior Primitive Streak,UNMAPPED,49,1479,0.033130493576741,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_15,E7.0,Mixed mesoderm,UNMAPPED,36,1479,0.024340770791075,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_15,E7.0,Haematoendothelial progenitors,UNMAPPED,29,1479,0.0196078431372549,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Def. endoderm,UNMAPPED,19,1479,0.0128465179175118,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Visceral endoderm,UNMAPPED,18,1479,0.0121703853955375,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Blood progenitors 2,Blood progenitors,17,1479,0.0114942528735632,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Mesenchyme,UNMAPPED,12,1479,0.0081135902636916,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Blood progenitors 1,Blood progenitors,9,1479,0.0060851926977687,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,PGC,UNMAPPED,4,1479,0.0027045300878972,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Rostral neurectoderm,UNMAPPED,3,1479,0.0020283975659229,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Parietal endoderm,UNMAPPED,2,1479,0.0013522650439486,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Surface ectoderm,UNMAPPED,2,1479,0.0013522650439486,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,Gut,UNMAPPED,1,1479,0.0006761325219743,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_15,E7.0,ExE mesoderm,UNMAPPED,1,1479,0.0006761325219743,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_16,E8.0,Erythroid1,UNMAPPED,784,4479,0.1750390712212547,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,ExE endoderm,ExE endoderm,578,4479,0.1290466622013842,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Mesenchyme,UNMAPPED,240,4479,0.0535833891493637,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Blood progenitors 2,Blood progenitors,219,4479,0.0488948425987943,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Intermediate mesoderm,UNMAPPED,217,4479,0.048448314355883,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Pharyngeal mesoderm,UNMAPPED,190,4479,0.0424201830765796,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,ExE ectoderm,ExE ectoderm,188,4479,0.0419736548336682,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Rostral neurectoderm,UNMAPPED,176,4479,0.0392944853762,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Paraxial mesoderm,UNMAPPED,176,4479,0.0392944853762,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Erythroid2,UNMAPPED,167,4479,0.0372851082830989,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Allantois,Allantois,161,4479,0.0359455235543648,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Caudal epiblast,Caudal epiblast,159,4479,0.0354989953114534,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Haematoendothelial progenitors,UNMAPPED,156,4479,0.0348292029470864,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Surface ectoderm,UNMAPPED,152,4479,0.0339361464612636,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Forebrain/Midbrain/Hindbrain,UNMAPPED,116,4479,0.0258986380888591,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Gut,UNMAPPED,108,4479,0.0241125251172136,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Endothelium,UNMAPPED,92,4479,0.0205402991739227,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,ExE mesoderm,UNMAPPED,89,4479,0.0198705068095557,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Somitic mesoderm,UNMAPPED,78,4479,0.0174146014735432,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Cardiomyocytes,UNMAPPED,76,4479,0.0169680732306318,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Caudal Mesoderm,UNMAPPED,73,4479,0.0162982808662647,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Spinal cord,UNMAPPED,68,4479,0.0151819602589863,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,NMP,UNMAPPED,58,4479,0.0129493190444295,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Caudal neurectoderm,UNMAPPED,57,4479,0.0127260549229738,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Blood progenitors 1,Blood progenitors,34,4479,0.0075909801294931,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_16,E8.0,Visceral endoderm,UNMAPPED,20,4479,0.0044652824291136,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_16,E8.0,Notochord,UNMAPPED,18,4479,0.0040187541862022,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_16,E8.0,PGC,UNMAPPED,13,4479,0.0029024335789238,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_16,E8.0,Def. endoderm,UNMAPPED,9,4479,0.0020093770931011,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_16,E8.0,Erythroid3,UNMAPPED,6,4479,0.001339584728734,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_16,E8.0,Mixed mesoderm,UNMAPPED,1,4479,0.0002232641214556,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,Forebrain/Midbrain/Hindbrain,UNMAPPED,585,3611,0.1620049847687621,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Erythroid3,UNMAPPED,491,3611,0.135973414566602,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Mesenchyme,UNMAPPED,316,3611,0.087510384934921,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Paraxial mesoderm,UNMAPPED,252,3611,0.0697867626696206,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Spinal cord,UNMAPPED,244,3611,0.067571309886458,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Surface ectoderm,UNMAPPED,222,3611,0.061478814732761,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,NMP,UNMAPPED,192,3611,0.0531708667959014,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Endothelium,UNMAPPED,186,3611,0.0515092772085294,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Gut,UNMAPPED,169,3611,0.046801440044309,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Pharyngeal mesoderm,UNMAPPED,151,3611,0.0418166712821932,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,ExE mesoderm,UNMAPPED,133,3611,0.0368319025200775,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Cardiomyocytes,UNMAPPED,109,3611,0.0301855441705898,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Allantois,Allantois,101,3611,0.0279700913874273,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Somitic mesoderm,UNMAPPED,99,3611,0.0274162281916366,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Neural crest,UNMAPPED,87,3611,0.0240930490168928,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Haematoendothelial progenitors,UNMAPPED,80,3611,0.0221545278316255,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Intermediate mesoderm,UNMAPPED,48,3611,0.0132927166989753,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,ExE endoderm,ExE endoderm,39,3611,0.0108003323179174,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Blood progenitors 2,Blood progenitors,30,3611,0.0083079479368595,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_17,E8.5,Def. endoderm,UNMAPPED,20,3611,0.0055386319579063,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,Erythroid2,UNMAPPED,14,3611,0.0038770423705344,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,Blood progenitors 1,Blood progenitors,14,3611,0.0038770423705344,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,Caudal Mesoderm,UNMAPPED,8,3611,0.0022154527831625,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,Erythroid1,UNMAPPED,8,3611,0.0022154527831625,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,Visceral endoderm,UNMAPPED,6,3611,0.0016615895873719,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,PGC,UNMAPPED,4,3611,0.0011077263915812,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,Parietal endoderm,UNMAPPED,2,3611,0.0005538631957906,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_17,E8.5,Rostral neurectoderm,UNMAPPED,1,3611,0.0002769315978953,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_18,E6.5,Epiblast,UNMAPPED,1466,2041,0.7182753552180304,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_18,E6.5,ExE ectoderm,ExE ectoderm,322,2041,0.157765801077903,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_18,E6.5,Primitive Streak,Primitive Streak,204,2041,0.0999510044096031,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_18,E6.5,ExE endoderm,ExE endoderm,26,2041,0.0127388535031847,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_18,E6.5,Visceral endoderm,UNMAPPED,17,2041,0.0083292503674669,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_18,E6.5,Nascent mesoderm,UNMAPPED,3,2041,0.0014698677119059,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_18,E6.5,Rostral neurectoderm,UNMAPPED,1,2041,0.0004899559039686,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_18,E6.5,Surface ectoderm,UNMAPPED,1,2041,0.0004899559039686,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_18,E6.5,Parietal endoderm,UNMAPPED,1,2041,0.0004899559039686,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Epiblast,UNMAPPED,490,1313,0.3731911652703732,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_23,E7.25,Primitive Streak,Primitive Streak,252,1313,0.1919268849961919,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_23,E7.25,Nascent mesoderm,UNMAPPED,180,1313,0.1370906321401371,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_23,E7.25,ExE ectoderm,ExE ectoderm,164,1313,0.1249047981721249,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_23,E7.25,ExE endoderm,ExE endoderm,101,1313,0.0769230769230769,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_23,E7.25,Anterior Primitive Streak,UNMAPPED,37,1313,0.0281797410510281,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_23,E7.25,Mixed mesoderm,UNMAPPED,29,1313,0.022086824067022,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Visceral endoderm,UNMAPPED,25,1313,0.019040365575019,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Haematoendothelial progenitors,UNMAPPED,13,1313,0.0099009900990099,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Def. endoderm,UNMAPPED,10,1313,0.0076161462300076,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Rostral neurectoderm,UNMAPPED,3,1313,0.0022848438690022,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,PGC,UNMAPPED,3,1313,0.0022848438690022,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,ExE mesoderm,UNMAPPED,2,1313,0.0015232292460015,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Parietal endoderm,UNMAPPED,1,1313,0.0007616146230007,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Erythroid3,UNMAPPED,1,1313,0.0007616146230007,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Surface ectoderm,UNMAPPED,1,1313,0.0007616146230007,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_23,E7.25,Erythroid2,UNMAPPED,1,1313,0.0007616146230007,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_24,E8.25,Forebrain/Midbrain/Hindbrain,UNMAPPED,830,5717,0.1451810390064719,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Paraxial mesoderm,UNMAPPED,464,5717,0.0811614483120517,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,NMP,UNMAPPED,417,5717,0.0729403533321672,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Surface ectoderm,UNMAPPED,409,5717,0.0715410180164421,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Mesenchyme,UNMAPPED,325,5717,0.0568479972013293,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Pharyngeal mesoderm,UNMAPPED,312,5717,0.0545740773132761,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Somitic mesoderm,UNMAPPED,294,5717,0.0514255728528948,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Intermediate mesoderm,UNMAPPED,272,5717,0.047577400734651,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,ExE mesoderm,UNMAPPED,254,5717,0.0444288962742697,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Erythroid2,UNMAPPED,254,5717,0.0444288962742697,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Erythroid1,UNMAPPED,251,5717,0.0439041455308728,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Spinal cord,UNMAPPED,250,5717,0.0437292286164072,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Allantois,Allantois,185,5717,0.0323596291761413,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Cardiomyocytes,UNMAPPED,183,5717,0.03200979534721,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Haematoendothelial progenitors,UNMAPPED,164,5717,0.0286863739723631,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Gut,UNMAPPED,131,5717,0.0229141157949973,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Endothelium,UNMAPPED,120,5717,0.0209900297358754,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Rostral neurectoderm,UNMAPPED,106,5717,0.0185411929333566,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,ExE ectoderm,ExE ectoderm,82,5717,0.0143431869861815,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Erythroid3,UNMAPPED,81,5717,0.0141682700717159,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,ExE endoderm,ExE endoderm,80,5717,0.0139933531572503,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Caudal Mesoderm,UNMAPPED,61,5717,0.0106699317824033,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Caudal epiblast,Caudal epiblast,40,5717,0.0069966765786251,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Blood progenitors 2,Blood progenitors,40,5717,0.0069966765786251,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Neural crest,UNMAPPED,34,5717,0.0059471750918313,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_24,E8.25,Def. endoderm,UNMAPPED,23,5717,0.0040230890327094,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_24,E8.25,Caudal neurectoderm,UNMAPPED,20,5717,0.0034983382893125,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_24,E8.25,Blood progenitors 1,Blood progenitors,13,5717,0.0022739198880531,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_24,E8.25,PGC,UNMAPPED,13,5717,0.0022739198880531,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_24,E8.25,Notochord,UNMAPPED,4,5717,0.0006996676578625,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_24,E8.25,Visceral endoderm,UNMAPPED,2,5717,0.0003498338289312,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_24,E8.25,Parietal endoderm,UNMAPPED,2,5717,0.0003498338289312,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_24,E8.25,Anterior Primitive Streak,UNMAPPED,1,5717,0.0001749169144656,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_25,E8.25,Forebrain/Midbrain/Hindbrain,UNMAPPED,882,6244,0.1412556053811659,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Paraxial mesoderm,UNMAPPED,480,6244,0.076873798846893,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,NMP,UNMAPPED,455,6244,0.0728699551569506,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Surface ectoderm,UNMAPPED,440,6244,0.0704676489429852,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Mesenchyme,UNMAPPED,410,6244,0.0656630365150544,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Pharyngeal mesoderm,UNMAPPED,336,6244,0.0538116591928251,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Intermediate mesoderm,UNMAPPED,326,6244,0.0522101217168481,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Spinal cord,UNMAPPED,299,6244,0.0478859705317104,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Erythroid2,UNMAPPED,281,6244,0.0450032030749519,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Somitic mesoderm,UNMAPPED,270,6244,0.0432415118513773,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Erythroid1,UNMAPPED,250,6244,0.0400384368994234,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,ExE mesoderm,UNMAPPED,246,6244,0.0393978219090326,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Allantois,Allantois,216,6244,0.0345932094811018,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Cardiomyocytes,UNMAPPED,182,6244,0.0291479820627802,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Haematoendothelial progenitors,UNMAPPED,178,6244,0.0285073670723894,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Gut,UNMAPPED,140,6244,0.0224215246636771,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Endothelium,UNMAPPED,131,6244,0.0209801409352978,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,ExE endoderm,ExE endoderm,129,6244,0.0206598334401025,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Rostral neurectoderm,UNMAPPED,125,6244,0.0200192184497117,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,ExE ectoderm,ExE ectoderm,85,6244,0.0136130685458039,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Erythroid3,UNMAPPED,84,6244,0.0134529147982062,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Caudal Mesoderm,UNMAPPED,77,6244,0.0123318385650224,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Blood progenitors 2,Blood progenitors,56,6244,0.0089686098654708,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Neural crest,UNMAPPED,43,6244,0.0068866111467008,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Caudal epiblast,Caudal epiblast,34,6244,0.0054452274183215,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_25,E8.25,Caudal neurectoderm,UNMAPPED,24,6244,0.0038436899423446,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_25,E8.25,Def. endoderm,UNMAPPED,23,6244,0.0036835361947469,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_25,E8.25,Notochord,UNMAPPED,11,6244,0.0017616912235746,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_25,E8.25,Blood progenitors 1,Blood progenitors,10,6244,0.0016015374759769,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_25,E8.25,PGC,UNMAPPED,10,6244,0.0016015374759769,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_25,E8.25,Visceral endoderm,UNMAPPED,8,6244,0.0012812299807815,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_25,E8.25,Parietal endoderm,UNMAPPED,3,6244,0.000480461242793,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_26,E7.25,Epiblast,UNMAPPED,1890,5896,0.3205563093622795,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Primitive Streak,Primitive Streak,928,5896,0.1573948439620081,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Nascent mesoderm,UNMAPPED,869,5896,0.1473880597014925,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,ExE ectoderm,ExE ectoderm,687,5896,0.1165196743554952,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,ExE endoderm,ExE endoderm,572,5896,0.0970149253731343,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Mixed mesoderm,UNMAPPED,212,5896,0.0359565807327001,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Anterior Primitive Streak,UNMAPPED,158,5896,0.026797829036635,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Def. endoderm,UNMAPPED,150,5896,0.0254409769335142,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Haematoendothelial progenitors,UNMAPPED,103,5896,0.0174694708276797,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Visceral endoderm,UNMAPPED,90,5896,0.0152645861601085,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Mesenchyme,UNMAPPED,61,5896,0.0103459972862957,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Parietal endoderm,UNMAPPED,33,5896,0.0055970149253731,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,ExE mesoderm,UNMAPPED,32,5896,0.005427408412483,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Blood progenitors 1,Blood progenitors,32,5896,0.005427408412483,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_26,E7.25,Rostral neurectoderm,UNMAPPED,25,5896,0.0042401628222523,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_26,E7.25,PGC,UNMAPPED,24,5896,0.0040705563093622,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_26,E7.25,Surface ectoderm,UNMAPPED,19,5896,0.0032225237449118,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_26,E7.25,Notochord,UNMAPPED,5,5896,0.0008480325644504,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_26,E7.25,Caudal epiblast,Caudal epiblast,3,5896,0.0005088195386702,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_26,E7.25,Intermediate mesoderm,UNMAPPED,2,5896,0.0003392130257801,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_26,E7.25,Gut,UNMAPPED,1,5896,0.00016960651289,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,Epiblast,UNMAPPED,1775,6328,0.2804993678887484,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Primitive Streak,Primitive Streak,1049,6328,0.1657711757269279,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Nascent mesoderm,UNMAPPED,895,6328,0.1414348925410872,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,ExE ectoderm,ExE ectoderm,780,6328,0.1232616940581542,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,ExE endoderm,ExE endoderm,639,6328,0.1009797724399494,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Mixed mesoderm,UNMAPPED,264,6328,0.0417193426042983,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Anterior Primitive Streak,UNMAPPED,201,6328,0.0317635903919089,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Def. endoderm,UNMAPPED,187,6328,0.029551201011378,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Haematoendothelial progenitors,UNMAPPED,129,6328,0.0203855878634639,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Visceral endoderm,UNMAPPED,115,6328,0.0181731984829329,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Mesenchyme,UNMAPPED,68,6328,0.0107458912768647,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Parietal endoderm,UNMAPPED,52,6328,0.0082174462705436,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,ExE mesoderm,UNMAPPED,40,6328,0.0063211125158027,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Rostral neurectoderm,UNMAPPED,35,6328,0.0055309734513274,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_27,E7.25,Blood progenitors 1,Blood progenitors,29,6328,0.004582806573957,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,PGC,UNMAPPED,27,6328,0.0042667509481668,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,Surface ectoderm,UNMAPPED,25,6328,0.0039506953223767,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,Caudal epiblast,Caudal epiblast,5,6328,0.0007901390644753,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,Notochord,UNMAPPED,5,6328,0.0007901390644753,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,Gut,UNMAPPED,4,6328,0.0006321112515802,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,Blood progenitors 2,Blood progenitors,2,6328,0.0003160556257901,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,Intermediate mesoderm,UNMAPPED,1,6328,0.000158027812895,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_27,E7.25,Caudal Mesoderm,UNMAPPED,1,6328,0.000158027812895,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_28,E8.25,ExE endoderm,ExE endoderm,390,3974,0.0981378963261197,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Forebrain/Midbrain/Hindbrain,UNMAPPED,287,3974,0.0722194262707599,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Paraxial mesoderm,UNMAPPED,280,3974,0.0704579768495218,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Mesenchyme,UNMAPPED,241,3974,0.0606441872169099,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Intermediate mesoderm,UNMAPPED,240,3974,0.0603925515853044,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Erythroid1,UNMAPPED,227,3974,0.0571212883744338,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Surface ectoderm,UNMAPPED,221,3974,0.0556114745848012,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Pharyngeal mesoderm,UNMAPPED,196,3974,0.0493205837946653,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,NMP,UNMAPPED,173,3974,0.0435329642677403,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Somitic mesoderm,UNMAPPED,154,3974,0.038751887267237,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Spinal cord,UNMAPPED,153,3974,0.0385002516356316,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Rostral neurectoderm,UNMAPPED,153,3974,0.0385002516356316,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,ExE mesoderm,UNMAPPED,151,3974,0.0379969803724207,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Allantois,Allantois,125,3974,0.0314544539506794,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,ExE ectoderm,ExE ectoderm,122,3974,0.0306995470558631,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Gut,UNMAPPED,113,3974,0.0284348263714141,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Haematoendothelial progenitors,UNMAPPED,109,3974,0.0274282838449924,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Caudal epiblast,Caudal epiblast,109,3974,0.0274282838449924,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Endothelium,UNMAPPED,107,3974,0.0269250125817815,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Cardiomyocytes,UNMAPPED,99,3974,0.0249119275289381,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Caudal Mesoderm,UNMAPPED,71,3974,0.0178661298439859,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Erythroid2,UNMAPPED,70,3974,0.0176144942123804,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Blood progenitors 2,Blood progenitors,60,3974,0.0150981378963261,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Caudal neurectoderm,UNMAPPED,47,3974,0.0118268746854554,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_28,E8.25,Notochord,UNMAPPED,18,3974,0.0045294413688978,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_28,E8.25,Def. endoderm,UNMAPPED,16,3974,0.0040261701056869,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_28,E8.25,Visceral endoderm,UNMAPPED,12,3974,0.0030196275792652,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_28,E8.25,Blood progenitors 1,Blood progenitors,11,3974,0.0027679919476597,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_28,E8.25,PGC,UNMAPPED,11,3974,0.0027679919476597,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_28,E8.25,Erythroid3,UNMAPPED,7,3974,0.001761449421238,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_28,E8.25,Neural crest,UNMAPPED,1,3974,0.0002516356316054,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_29,E8.5,Forebrain/Midbrain/Hindbrain,UNMAPPED,991,6460,0.1534055727554179,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Erythroid3,UNMAPPED,550,6460,0.0851393188854489,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Paraxial mesoderm,UNMAPPED,507,6460,0.0784829721362229,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Surface ectoderm,UNMAPPED,374,6460,0.0578947368421052,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Mesenchyme,UNMAPPED,356,6460,0.0551083591331269,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Pharyngeal mesoderm,UNMAPPED,354,6460,0.0547987616099071,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Spinal cord,UNMAPPED,346,6460,0.0535603715170278,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,NMP,UNMAPPED,342,6460,0.0529411764705882,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,ExE mesoderm,UNMAPPED,332,6460,0.0513931888544891,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Allantois,Allantois,322,6460,0.04984520123839,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,ExE endoderm,ExE endoderm,294,6460,0.0455108359133126,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Neural crest,UNMAPPED,241,6460,0.0373065015479876,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Cardiomyocytes,UNMAPPED,241,6460,0.0373065015479876,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Somitic mesoderm,UNMAPPED,225,6460,0.0348297213622291,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Gut,UNMAPPED,214,6460,0.0331269349845201,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Intermediate mesoderm,UNMAPPED,198,6460,0.0306501547987616,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Haematoendothelial progenitors,UNMAPPED,197,6460,0.0304953560371517,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Endothelium,UNMAPPED,169,6460,0.0261609907120743,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Erythroid2,UNMAPPED,71,6460,0.0109907120743034,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Blood progenitors 2,Blood progenitors,33,6460,0.0051083591331269,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Def. endoderm,UNMAPPED,30,6460,0.0046439628482972,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_29,E8.5,Erythroid1,UNMAPPED,23,6460,0.0035603715170278,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_29,E8.5,Caudal Mesoderm,UNMAPPED,21,6460,0.003250773993808,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_29,E8.5,Blood progenitors 1,Blood progenitors,12,6460,0.0018575851393188,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_29,E8.5,PGC,UNMAPPED,10,6460,0.001547987616099,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_29,E8.5,Rostral neurectoderm,UNMAPPED,6,6460,0.0009287925696594,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_29,E8.5,Visceral endoderm,UNMAPPED,1,6460,0.0001547987616099,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_30,E7.0,Epiblast,UNMAPPED,1133,3352,0.3380071599045346,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,Primitive Streak,Primitive Streak,724,3352,0.2159904534606205,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,Nascent mesoderm,UNMAPPED,398,3352,0.1187350835322195,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,ExE ectoderm,ExE ectoderm,361,3352,0.1076968973747016,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,ExE endoderm,ExE endoderm,299,3352,0.0892004773269689,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,Anterior Primitive Streak,UNMAPPED,161,3352,0.0480310262529832,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,Mixed mesoderm,UNMAPPED,91,3352,0.0271479713603818,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,Visceral endoderm,UNMAPPED,63,3352,0.0187947494033412,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,Haematoendothelial progenitors,UNMAPPED,56,3352,0.0167064439140811,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_30,E7.0,Parietal endoderm,UNMAPPED,29,3352,0.0086515513126491,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_30,E7.0,Surface ectoderm,UNMAPPED,11,3352,0.0032816229116945,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_30,E7.0,PGC,UNMAPPED,11,3352,0.0032816229116945,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_30,E7.0,Def. endoderm,UNMAPPED,10,3352,0.0029832935560859,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_30,E7.0,Rostral neurectoderm,UNMAPPED,3,3352,0.0008949880668257,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_30,E7.0,ExE mesoderm,UNMAPPED,2,3352,0.0005966587112171,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_31,E7.0,Epiblast,UNMAPPED,1143,3275,0.3490076335877862,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,Primitive Streak,Primitive Streak,682,3275,0.2082442748091603,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,Nascent mesoderm,UNMAPPED,400,3275,0.1221374045801526,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,ExE ectoderm,ExE ectoderm,372,3275,0.1135877862595419,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,ExE endoderm,ExE endoderm,259,3275,0.0790839694656488,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,Anterior Primitive Streak,UNMAPPED,140,3275,0.0427480916030534,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,Mixed mesoderm,UNMAPPED,90,3275,0.0274809160305343,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,Visceral endoderm,UNMAPPED,70,3275,0.0213740458015267,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,Haematoendothelial progenitors,UNMAPPED,53,3275,0.0161832061068702,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,Parietal endoderm,UNMAPPED,31,3275,0.0094656488549618,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_31,E7.0,Def. endoderm,UNMAPPED,12,3275,0.0036641221374045,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_31,E7.0,Surface ectoderm,UNMAPPED,9,3275,0.0027480916030534,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_31,E7.0,PGC,UNMAPPED,7,3275,0.0021374045801526,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_31,E7.0,Rostral neurectoderm,UNMAPPED,3,3275,0.0009160305343511,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_31,E7.0,Mesenchyme,UNMAPPED,2,3275,0.0006106870229007,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_31,E7.0,ExE mesoderm,UNMAPPED,1,3275,0.0003053435114503,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_31,E7.0,Blood progenitors 1,Blood progenitors,1,3275,0.0003053435114503,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_32,E7.0,Epiblast,UNMAPPED,1120,3291,0.3403220905499848,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,Primitive Streak,Primitive Streak,723,3291,0.2196900638103919,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,Nascent mesoderm,UNMAPPED,393,3291,0.1194165907019143,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,ExE ectoderm,ExE ectoderm,363,3291,0.1103008204193254,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,ExE endoderm,ExE endoderm,290,3291,0.0881191127316925,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,Anterior Primitive Streak,UNMAPPED,149,3291,0.0452749924035247,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,Visceral endoderm,UNMAPPED,77,3291,0.0233971437253114,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,Mixed mesoderm,UNMAPPED,63,3291,0.0191431175934366,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,Haematoendothelial progenitors,UNMAPPED,44,3291,0.0133697964144636,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,Parietal endoderm,UNMAPPED,36,3291,0.0109389243391066,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_32,E7.0,PGC,UNMAPPED,11,3291,0.0033424491036159,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_32,E7.0,Surface ectoderm,UNMAPPED,9,3291,0.0027347310847766,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_32,E7.0,Def. endoderm,UNMAPPED,6,3291,0.0018231540565177,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_32,E7.0,ExE mesoderm,UNMAPPED,5,3291,0.0015192950470981,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_32,E7.0,Rostral neurectoderm,UNMAPPED,1,3291,0.0003038590094196,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_32,E7.0,Mesenchyme,UNMAPPED,1,3291,0.0003038590094196,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_33,E8.0,Rostral neurectoderm,UNMAPPED,448,4193,0.1068447412353923,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Intermediate mesoderm,UNMAPPED,403,4193,0.0961125685666587,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Erythroid1,UNMAPPED,282,4193,0.0672549487240639,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Blood progenitors 2,Blood progenitors,277,4193,0.0660624850942046,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Mesenchyme,UNMAPPED,265,4193,0.0632005723825423,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,ExE ectoderm,ExE ectoderm,264,4193,0.0629620796565704,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Caudal epiblast,Caudal epiblast,259,4193,0.0617696160267111,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,ExE endoderm,ExE endoderm,235,4193,0.0560457906033865,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Paraxial mesoderm,UNMAPPED,232,4193,0.055330312425471,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Pharyngeal mesoderm,UNMAPPED,207,4193,0.0493679942761745,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Surface ectoderm,UNMAPPED,189,4193,0.0450751252086811,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Somitic mesoderm,UNMAPPED,160,4193,0.0381588361554972,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Caudal Mesoderm,UNMAPPED,146,4193,0.0348199379918912,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Caudal neurectoderm,UNMAPPED,138,4193,0.0329119961841163,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,ExE mesoderm,UNMAPPED,135,4193,0.0321965180062008,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Haematoendothelial progenitors,UNMAPPED,135,4193,0.0321965180062008,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Gut,UNMAPPED,91,4193,0.021702838063439,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Allantois,Allantois,86,4193,0.0205103744335797,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Spinal cord,UNMAPPED,39,4193,0.0093012163129024,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Notochord,UNMAPPED,35,4193,0.008347245409015,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Endothelium,UNMAPPED,34,4193,0.0081087526830431,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Cardiomyocytes,UNMAPPED,30,4193,0.0071547817791557,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Blood progenitors 1,Blood progenitors,30,4193,0.0071547817791557,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_33,E8.0,Forebrain/Midbrain/Hindbrain,UNMAPPED,21,4193,0.005008347245409,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_33,E8.0,Def. endoderm,UNMAPPED,17,4193,0.0040543763415215,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_33,E8.0,PGC,UNMAPPED,12,4193,0.0028619127116622,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_33,E8.0,Visceral endoderm,UNMAPPED,11,4193,0.0026234199856904,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_33,E8.0,Parietal endoderm,UNMAPPED,8,4193,0.0019079418077748,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_33,E8.0,NMP,UNMAPPED,4,4193,0.0009539709038874,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Rostral neurectoderm,UNMAPPED,457,4098,0.1115178135675939,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Intermediate mesoderm,UNMAPPED,384,4098,0.0937042459736456,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Caudal epiblast,Caudal epiblast,308,4098,0.0751586139580283,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,ExE ectoderm,ExE ectoderm,260,4098,0.0634455832113226,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Erythroid1,UNMAPPED,245,4098,0.059785261102977,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Paraxial mesoderm,UNMAPPED,242,4098,0.0590531966813079,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Blood progenitors 2,Blood progenitors,236,4098,0.0575890678379697,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Mesenchyme,UNMAPPED,234,4098,0.0571010248901903,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,ExE endoderm,ExE endoderm,211,4098,0.0514885309907271,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Pharyngeal mesoderm,UNMAPPED,204,4098,0.0497803806734992,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Surface ectoderm,UNMAPPED,174,4098,0.0424597364568082,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Somitic mesoderm,UNMAPPED,160,4098,0.0390434358223523,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Haematoendothelial progenitors,UNMAPPED,139,4098,0.0339189848706686,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Caudal Mesoderm,UNMAPPED,138,4098,0.0336749633967789,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,ExE mesoderm,UNMAPPED,138,4098,0.0336749633967789,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Caudal neurectoderm,UNMAPPED,134,4098,0.0326988775012201,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Allantois,Allantois,95,4098,0.0231820400195217,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Gut,UNMAPPED,94,4098,0.022938018545632,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Notochord,UNMAPPED,60,4098,0.0146412884333821,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Spinal cord,UNMAPPED,48,4098,0.0117130307467057,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_34,E8.0,Endothelium,UNMAPPED,23,4098,0.0056124938994631,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Blood progenitors 1,Blood progenitors,23,4098,0.0056124938994631,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,PGC,UNMAPPED,19,4098,0.0046364080039043,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Visceral endoderm,UNMAPPED,17,4098,0.0041483650561249,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Def. endoderm,UNMAPPED,15,4098,0.0036603221083455,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Cardiomyocytes,UNMAPPED,13,4098,0.0031722791605661,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Forebrain/Midbrain/Hindbrain,UNMAPPED,13,4098,0.0031722791605661,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Parietal endoderm,UNMAPPED,7,4098,0.0017081503172279,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,NMP,UNMAPPED,4,4098,0.0009760858955588,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Mixed mesoderm,UNMAPPED,2,4098,0.0004880429477794,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_34,E8.0,Erythroid2,UNMAPPED,1,4098,0.0002440214738897,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,Rostral neurectoderm,UNMAPPED,488,3911,0.1247762720531833,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Intermediate mesoderm,UNMAPPED,366,3911,0.0935822040398875,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Caudal epiblast,Caudal epiblast,294,3911,0.0751725901304014,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Blood progenitors 2,Blood progenitors,251,3911,0.064177959601125,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,ExE ectoderm,ExE ectoderm,248,3911,0.0634108923548964,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Erythroid1,UNMAPPED,233,3911,0.0595755561237535,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Pharyngeal mesoderm,UNMAPPED,229,3911,0.0585527997954487,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Mesenchyme,UNMAPPED,227,3911,0.0580414216312963,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Paraxial mesoderm,UNMAPPED,207,3911,0.0529276399897724,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Surface ectoderm,UNMAPPED,167,3911,0.0427000767067246,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Caudal Mesoderm,UNMAPPED,147,3911,0.0375862950652007,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Somitic mesoderm,UNMAPPED,146,3911,0.0373306059831245,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,ExE endoderm,ExE endoderm,141,3911,0.0360521605727435,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Haematoendothelial progenitors,UNMAPPED,137,3911,0.0350294042444387,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Caudal neurectoderm,UNMAPPED,129,3911,0.0329838915878291,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,ExE mesoderm,UNMAPPED,126,3911,0.0322168243416006,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Gut,UNMAPPED,88,3911,0.0225006392227051,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Allantois,Allantois,76,3911,0.0194323702377908,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Spinal cord,UNMAPPED,53,3911,0.0135515213500383,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Notochord,UNMAPPED,44,3911,0.0112503196113525,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_35,E8.0,Endothelium,UNMAPPED,25,3911,0.0063922270519048,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,Blood progenitors 1,Blood progenitors,22,3911,0.0056251598056762,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,Cardiomyocytes,UNMAPPED,19,3911,0.0048580925594477,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,Def. endoderm,UNMAPPED,16,3911,0.0040910253132191,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,Visceral endoderm,UNMAPPED,11,3911,0.0028125799028381,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,PGC,UNMAPPED,10,3911,0.0025568908207619,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,Parietal endoderm,UNMAPPED,7,3911,0.0017898235745333,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,Forebrain/Midbrain/Hindbrain,UNMAPPED,3,3911,0.0007670672462285,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_35,E8.0,Erythroid2,UNMAPPED,1,3911,0.0002556890820761,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_36,E8.5,Erythroid3,UNMAPPED,805,3652,0.2204271631982475,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Forebrain/Midbrain/Hindbrain,UNMAPPED,497,3652,0.1360898138006571,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Surface ectoderm,UNMAPPED,231,3652,0.0632530120481927,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,NMP,UNMAPPED,224,3652,0.0613362541073384,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Paraxial mesoderm,UNMAPPED,210,3652,0.0575027382256297,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Mesenchyme,UNMAPPED,200,3652,0.0547645125958378,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Pharyngeal mesoderm,UNMAPPED,180,3652,0.0492880613362541,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,ExE mesoderm,UNMAPPED,174,3652,0.0476451259583789,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Erythroid2,UNMAPPED,130,3652,0.0355969331872946,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Neural crest,UNMAPPED,126,3652,0.0345016429353778,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Allantois,Allantois,122,3652,0.0334063526834611,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Spinal cord,UNMAPPED,118,3652,0.0323110624315443,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Somitic mesoderm,UNMAPPED,100,3652,0.0273822562979189,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Intermediate mesoderm,UNMAPPED,80,3652,0.0219058050383351,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Gut,UNMAPPED,79,3652,0.0216319824753559,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Endothelium,UNMAPPED,77,3652,0.0210843373493975,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Haematoendothelial progenitors,UNMAPPED,71,3652,0.0194414019715224,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Cardiomyocytes,UNMAPPED,71,3652,0.0194414019715224,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,ExE endoderm,ExE endoderm,67,3652,0.0183461117196056,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_36,E8.5,Caudal Mesoderm,UNMAPPED,25,3652,0.0068455640744797,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_36,E8.5,Erythroid1,UNMAPPED,18,3652,0.0049288061336254,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_36,E8.5,Def. endoderm,UNMAPPED,17,3652,0.0046549835706462,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_36,E8.5,Blood progenitors 2,Blood progenitors,16,3652,0.004381161007667,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_36,E8.5,Blood progenitors 1,Blood progenitors,6,3652,0.0016429353778751,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_36,E8.5,PGC,UNMAPPED,4,3652,0.0010952902519167,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_36,E8.5,Visceral endoderm,UNMAPPED,3,3652,0.0008214676889375,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_36,E8.5,Rostral neurectoderm,UNMAPPED,1,3652,0.0002738225629791,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,Erythroid3,UNMAPPED,672,3186,0.2109227871939736,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Forebrain/Midbrain/Hindbrain,UNMAPPED,463,3186,0.145323289391086,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Paraxial mesoderm,UNMAPPED,208,3186,0.0652856246076585,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Surface ectoderm,UNMAPPED,191,3186,0.0599497802887633,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,ExE mesoderm,UNMAPPED,175,3186,0.0549278091650973,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,NMP,UNMAPPED,160,3186,0.0502197112366603,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,ExE endoderm,ExE endoderm,146,3186,0.0458254865034526,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Mesenchyme,UNMAPPED,144,3186,0.0451977401129943,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Spinal cord,UNMAPPED,121,3186,0.0379786566227244,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Pharyngeal mesoderm,UNMAPPED,119,3186,0.0373509102322661,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Somitic mesoderm,UNMAPPED,101,3186,0.0317011927181418,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Gut,UNMAPPED,101,3186,0.0317011927181418,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Erythroid2,UNMAPPED,91,3186,0.0285624607658505,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Neural crest,UNMAPPED,90,3186,0.0282485875706214,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Intermediate mesoderm,UNMAPPED,88,3186,0.0276208411801632,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Cardiomyocytes,UNMAPPED,81,3186,0.0254237288135593,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Allantois,Allantois,73,3186,0.0229127432517263,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Haematoendothelial progenitors,UNMAPPED,57,3186,0.0178907721280602,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Endothelium,UNMAPPED,34,3186,0.0106716886377903,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_37,E8.5,Erythroid1,UNMAPPED,24,3186,0.007532956685499,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,Def. endoderm,UNMAPPED,14,3186,0.0043942247332077,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,Caudal Mesoderm,UNMAPPED,10,3186,0.0031387319522912,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,Blood progenitors 2,Blood progenitors,8,3186,0.002510985561833,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,Blood progenitors 1,Blood progenitors,5,3186,0.0015693659761456,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,Visceral endoderm,UNMAPPED,4,3186,0.0012554927809165,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,PGC,UNMAPPED,3,3186,0.0009416195856873,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,Notochord,UNMAPPED,2,3186,0.0006277463904582,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_37,E8.5,Rostral neurectoderm,UNMAPPED,1,3186,0.0003138731952291,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_5,E6.5,Epiblast,UNMAPPED,624,1106,0.5641952983725136,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_5,E6.5,ExE ectoderm,ExE ectoderm,253,1106,0.22875226039783,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_5,E6.5,Primitive Streak,Primitive Streak,132,1106,0.1193490054249547,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_5,E6.5,ExE endoderm,ExE endoderm,65,1106,0.0587703435804701,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_5,E6.5,Visceral endoderm,UNMAPPED,23,1106,0.0207956600361663,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_5,E6.5,Parietal endoderm,UNMAPPED,9,1106,0.0081374321880651,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_7,E6.75,Epiblast,UNMAPPED,856,2075,0.4125301204819277,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_7,E6.75,ExE ectoderm,ExE ectoderm,403,2075,0.1942168674698795,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_7,E6.75,Primitive Streak,Primitive Streak,326,2075,0.1571084337349397,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_7,E6.75,ExE endoderm,ExE endoderm,197,2075,0.0949397590361445,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_7,E6.75,Nascent mesoderm,UNMAPPED,138,2075,0.0665060240963855,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_7,E6.75,Visceral endoderm,UNMAPPED,109,2075,0.0525301204819277,single cell / independent embryo pool,whole embryo; source protocol,False
+EMTAB6967,EMTAB_pool_7,E6.75,Mixed mesoderm,UNMAPPED,20,2075,0.0096385542168674,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_7,E6.75,Anterior Primitive Streak,UNMAPPED,13,2075,0.0062650602409638,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_7,E6.75,PGC,UNMAPPED,3,2075,0.0014457831325301,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_7,E6.75,Surface ectoderm,UNMAPPED,3,2075,0.0014457831325301,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_7,E6.75,Haematoendothelial progenitors,UNMAPPED,3,2075,0.0014457831325301,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_7,E6.75,Rostral neurectoderm,UNMAPPED,2,2075,0.0009638554216867,single cell / independent embryo pool,whole embryo; source protocol,True
+EMTAB6967,EMTAB_pool_7,E6.75,Def. endoderm,UNMAPPED,2,2075,0.0009638554216867,single cell / independent embryo pool,whole embryo; source protocol,True
+OFFICIAL,OFF_E6.75,E6.75,EXE-Endoderm,ExE endoderm,1728,7093,0.2436204708867898,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,Unknown,UNMAPPED,1271,7093,0.1791907514450867,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,Anterior Epiblast,UNMAPPED,729,7093,0.1027773861553644,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,ExEM-2,UNMAPPED,615,7093,0.0867052023121387,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,EXE-Ectoderm,ExE ectoderm,417,7093,0.058790356689694,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,Gut Endoderm,UNMAPPED,322,7093,0.0453968701536726,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,Caudal Epiblast,Caudal epiblast,317,7093,0.0446919498096715,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,ExEM-1,UNMAPPED,297,7093,0.0418722684336669,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,PHM/PAM,UNMAPPED,261,7093,0.0367968419568588,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,Primitive Streak,Primitive Streak,204,7093,0.028760750035246,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,HEM-Endoth,UNMAPPED,187,7093,0.0263640208656421,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,SOM,UNMAPPED,186,7093,0.0262230367968419,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,Allantois,Allantois,170,7093,0.0239672916960383,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,aSE,UNMAPPED,135,7093,0.0190328492880304,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,CP,UNMAPPED,95,7093,0.0133934865360214,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,LPM,UNMAPPED,90,7093,0.0126885661920203,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,Blood Progenitor,Blood progenitors,61,7093,0.0086000281968137,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E6.75,E6.75,pSE,UNMAPPED,8,7093,0.0011278725504018,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,True
+OFFICIAL,OFF_E7.25,E7.25,EXE-Endoderm,ExE endoderm,1941,13295,0.1459947348627303,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,Unknown,UNMAPPED,1638,13295,0.1232042121098157,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,ExEM-2,UNMAPPED,1304,13295,0.0980819857089131,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,Anterior Epiblast,UNMAPPED,1166,13295,0.0877021436630312,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,Caudal Epiblast,Caudal epiblast,1162,13295,0.087401278676194,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,PHM/PAM,UNMAPPED,997,13295,0.0749905979691613,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,Gut Endoderm,UNMAPPED,691,13295,0.0519744264761188,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,Primitive Streak,Primitive Streak,685,13295,0.0515231289958631,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,ExEM-1,UNMAPPED,680,13295,0.0511470477623166,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,Allantois,Allantois,587,13295,0.0441519368183527,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,SOM,UNMAPPED,472,13295,0.0355020684467845,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,aSE,UNMAPPED,421,13295,0.0316660398646107,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,CP,UNMAPPED,393,13295,0.0295599849567506,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,LPM,UNMAPPED,335,13295,0.0251974426476118,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,HEM-Endoth,UNMAPPED,303,13295,0.0227905227529146,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,EXE-Ectoderm,ExE ectoderm,295,13295,0.0221887927792403,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,Blood Progenitor,Blood progenitors,176,13295,0.0132380594208349,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.25,E7.25,pSE,UNMAPPED,49,13295,0.0036855960887551,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,EXE-Endoderm,ExE endoderm,1976,11665,0.1693956279468495,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,Anterior Epiblast,UNMAPPED,1126,11665,0.0965280754393484,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,Caudal Epiblast,Caudal epiblast,923,11665,0.0791255893699099,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,ExEM-2,UNMAPPED,904,11665,0.0774967852550364,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,PHM/PAM,UNMAPPED,893,11665,0.076553793399057,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,Gut Endoderm,UNMAPPED,865,11665,0.0741534504929275,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,Allantois,Allantois,649,11665,0.0556365195027861,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,CP,UNMAPPED,643,11665,0.0551221603086155,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,SOM,UNMAPPED,635,11665,0.0544363480497213,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,Primitive Streak,Primitive Streak,607,11665,0.0520360051435919,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,aSE,UNMAPPED,486,11665,0.0416630947278182,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,Unknown,UNMAPPED,457,11665,0.039177025289327,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,ExEM-1,UNMAPPED,457,11665,0.039177025289327,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,LPM,UNMAPPED,346,11665,0.029661380197171,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,HEM-Endoth,UNMAPPED,288,11665,0.0246892413201886,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,EXE-Ectoderm,ExE ectoderm,241,11665,0.0206600942991855,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,Blood Progenitor,Blood progenitors,130,11665,0.0111444492070295,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E7.5,E7.5,pSE,UNMAPPED,39,11665,0.0033433347621088,MERFISH segmented cell; file is not a replicate series,embryo setting; exact ROI not published,False
+OFFICIAL,OFF_E8.0,E8.0,EXE-Endoderm,ExE endoderm,5528,31671,0.1745445360108616,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,Forebrain,UNMAPPED,2726,31671,0.0860724321934893,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,HEM-Endoth,UNMAPPED,2485,31671,0.0784629471756496,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,ExEM-2,UNMAPPED,2422,31671,0.0764737456979571,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,ExEM-1,UNMAPPED,2291,31671,0.0723374696094218,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,aPHM,UNMAPPED,1881,31671,0.0593918726911054,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,Allantois,Allantois,1815,31671,0.0573079473335227,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,V-SE,UNMAPPED,1378,31671,0.0435098354961952,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,Intra-Endoth,UNMAPPED,1211,31671,0.0382368728489785,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,V-FG,UNMAPPED,1056,31671,0.0333428057213223,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,d-CSE,UNMAPPED,1051,31671,0.0331849325881721,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,SHF,UNMAPPED,813,31671,0.0256701714502226,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,FHF,UNMAPPED,772,31671,0.0243756117583909,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,Allantois Endothelium,UNMAPPED,736,31671,0.0232389251997095,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,EXE-Endothlium,UNMAPPED,734,31671,0.0231757759464494,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,D-FG,UNMAPPED,726,31671,0.0229231789334091,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,pPHM,UNMAPPED,699,31671,0.022070664014398,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,JCF,UNMAPPED,642,31671,0.0202709102964857,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,Unknown,UNMAPPED,594,31671,0.0187553282182438,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,p-EXEM,UNMAPPED,511,31671,0.0161346342079504,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,pSE,UNMAPPED,381,31671,0.0120299327460452,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,Hindbrain,UNMAPPED,298,31671,0.0094092387357519,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,LPM,UNMAPPED,297,31671,0.0093776641091219,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,Primitive Streak,Primitive Streak,284,31671,0.0089671939629313,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,SOM,UNMAPPED,228,31671,0.0071990148716491,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+OFFICIAL,OFF_E8.0,E8.0,Caudal Epiblast,Caudal epiblast,112,31671,0.0035363581825644,MERFISH segmented cell; file is not a replicate series,selected cardiac-crescent sections (official protocol),False
+GSE278603,STEREO_E8.0_rep1,E8.0,Paraxial mesoderm,UNMAPPED,2227,11048,0.2015749456915278,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,ExE endoderm,ExE endoderm,1355,11048,0.1226466328747284,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Pharyngeal mesoderm,UNMAPPED,1179,11048,0.1067161477190441,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Rostral neurectoderm,UNMAPPED,1148,11048,0.1039102099927588,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Caudal neurectoderm,UNMAPPED,808,11048,0.0731354091238233,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Gut,UNMAPPED,788,11048,0.0713251267197682,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,pre-somitic,UNMAPPED,744,11048,0.0673425054308472,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Surface ectoderm,UNMAPPED,589,11048,0.0533128167994207,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Caudal epiblast,Caudal epiblast,561,11048,0.0507784214337436,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Mesenchyme,UNMAPPED,536,11048,0.0485155684286748,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Parietal endoderm,UNMAPPED,370,11048,0.0334902244750181,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Cardiomyocytes,UNMAPPED,248,11048,0.0224475018102824,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Haematoendothelial progenitors,UNMAPPED,100,11048,0.0090514120202751,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Spinal cord,UNMAPPED,90,11048,0.0081462708182476,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,NMP,UNMAPPED,79,11048,0.0071506154960173,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Endothelium,UNMAPPED,59,11048,0.0053403330919623,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Erythroid1,UNMAPPED,55,11048,0.0049782766111513,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Blood progenitors 1,Blood progenitors,46,11048,0.0041636495293265,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep1,E8.0,Allantois,Allantois,25,11048,0.0022628530050687,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep1,E8.0,Blood progenitors 2,Blood progenitors,14,11048,0.0012671976828385,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep1,E8.0,PGC,UNMAPPED,12,11048,0.001086169442433,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep1,E8.0,ExE mesoderm,UNMAPPED,8,11048,0.000724112961622,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep1,E8.0,Forebrain/Midbrain/Hindbrain,UNMAPPED,5,11048,0.0004525706010137,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep1,E8.0,Def. endoderm,UNMAPPED,2,11048,0.0001810282404055,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep2,E8.0,ExE endoderm,ExE endoderm,4821,27266,0.1768136140247928,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Paraxial mesoderm,UNMAPPED,3887,27266,0.1425584977627814,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Gut,UNMAPPED,2761,27266,0.1012616445389862,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Rostral neurectoderm,UNMAPPED,2347,27266,0.0860778992151397,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Pharyngeal mesoderm,UNMAPPED,1987,27266,0.0728746424117949,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Caudal epiblast,Caudal epiblast,1814,27266,0.0665297440035208,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Surface ectoderm,UNMAPPED,1643,27266,0.060258197021932,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Mesenchyme,UNMAPPED,1519,27266,0.0557104085674466,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Pre-somitic,UNMAPPED,1474,27266,0.0540600014670285,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Parietal endoderm,UNMAPPED,1181,27266,0.0433140174576395,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Caudal neurectoderm,UNMAPPED,1123,27266,0.0411868260837673,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Cardiomyocytes,UNMAPPED,974,27266,0.0357221447957162,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Haematoendothelial progenitors,UNMAPPED,342,27266,0.0125430939631775,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Spinal cord,UNMAPPED,320,27266,0.0117362282696398,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Forebrain/Midbrain/Hindbrain,UNMAPPED,278,27266,0.0101958483092496,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,ExE mesoderm,UNMAPPED,203,27266,0.0074451698085527,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Endothelium,UNMAPPED,125,27266,0.004584464167828,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,PGC,UNMAPPED,117,27266,0.004291058461087,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,NMP,UNMAPPED,116,27266,0.0042543827477444,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Caudal Mesoderm,UNMAPPED,86,27266,0.0031541113474657,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Allantois,Allantois,48,27266,0.0017604342404459,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Def. endoderm,UNMAPPED,33,27266,0.0012102985403066,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,False
+GSE278603,STEREO_E8.0_rep2,E8.0,Blood progenitors 1,Blood progenitors,28,27266,0.0010269199735934,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep2,E8.0,Intermediate mesoderm,UNMAPPED,18,27266,0.0006601628401672,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep2,E8.0,Erythroid2,UNMAPPED,18,27266,0.0006601628401672,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True
+GSE278603,STEREO_E8.0_rep2,E8.0,Notochord,UNMAPPED,3,27266,0.0001100271400278,cell-centric reconstructed object; not verified segmented cell,whole embryo reconstructed; labels may be reference-transferred,True

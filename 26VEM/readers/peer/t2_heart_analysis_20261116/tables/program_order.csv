@@ -1,0 +1,73 @@
+type,module,monotonic_up,monotonic_down,max_stage,min_stage,last_delta,quality_last_delta
+Cardiac progenitor/heart field,G2M,False,False,E8.5,E10.5,-0.11744469404220581,-0.13900893926620483
+Cardiac progenitor/heart field,cardiac_regulators,False,False,E8.5,E10.5,-0.2380954027175904,-0.22684291005134588
+Cardiac progenitor/heart field,chamber,False,False,E8.25_late,E9.5,0.19895434379577637,0.20344460010528564
+Cardiac progenitor/heart field,contractile,False,False,E8.75,E10.5,-0.08448907732963559,-0.0897315219044685
+Cardiac progenitor/heart field,endothelial_identity,False,False,E9.5,E8.75,-0.004815593361854581,-0.02385434508323675
+Cardiac progenitor/heart field,heart_field,False,False,E8.5,E10.5,-0.3487048447132111,-0.37014216184616094
+Cardiac progenitor/heart field,matrix,False,False,E10.5,E8.5,0.3109049797058101,0.27323126792907715
+Cardiac progenitor/heart field,neuronal_differentiation,False,False,E10.5,E9.5,0.06712549924850461,0.07069951295852661
+Cardiomyocyte,G2M,False,False,E8.5,E10.5,-0.198828786611557,-0.19451966881752009
+Cardiomyocyte,cardiac_regulators,False,True,E8.25_late,E10.5,-0.9212082624435425,-0.913332462310791
+Cardiomyocyte,chamber,False,False,E8.5,E8.75,-0.06808161735534657,-0.06642049551010132
+Cardiomyocyte,contractile,False,False,E8.75,E10.5,-0.6344494819641113,-0.621997594833374
+Cardiomyocyte,endothelial_identity,False,False,E10.5,E8.75,0.2219496369361878,0.2219795286655426
+Cardiomyocyte,heart_field,False,True,E8.25_late,E10.5,-0.04250558465719219,-0.042012631893158
+Cardiomyocyte,matrix,False,False,E10.5,E8.5,0.20681476593017578,0.2009318470954895
+Cardiomyocyte,neuronal_differentiation,False,False,E10.5,E8.5,0.0392784178256988,0.03766608238220209
+Endoderm/hepatic,G2M,False,False,E8.5,E10.5,-0.4584727883338928,-0.4927486181259155
+Endoderm/hepatic,cardiac_regulators,False,False,E10.5,E8.75,0.40754127502441406,0.5585306882858276
+Endoderm/hepatic,chamber,False,True,E8.25_late,E10.5,-0.09029948711395264,-0.03143244981765747
+Endoderm/hepatic,contractile,False,True,E8.25_late,E10.5,-0.2082421593368054,-0.23732862249016756
+Endoderm/hepatic,endothelial_identity,False,False,E10.5,E9.5,0.37931264936923986,0.41405168175697327
+Endoderm/hepatic,heart_field,False,False,E8.75,E10.5,-0.6466892138123513,-0.7136746197938919
+Endoderm/hepatic,matrix,False,False,E10.5,E8.5,0.9637540578842163,1.1876152157783513
+Endoderm/hepatic,neuronal_differentiation,False,False,E10.5,E8.75,0.1911277025938034,0.1918683201074601
+Endothelial/endocardial,G2M,False,True,E8.25_late,E10.5,-0.17498730123043063,-0.19013118743896493
+Endothelial/endocardial,cardiac_regulators,False,False,E9.5,E8.75,-0.3291642069816587,-0.3593175411224365
+Endothelial/endocardial,chamber,False,False,E10.5,E8.25_late,0.21195131540298462,0.19371438026428223
+Endothelial/endocardial,contractile,False,False,E9.5,E8.25_late,-0.0043111443519592285,-0.028184890747070312
+Endothelial/endocardial,endothelial_identity,False,False,E8.5,E9.5,0.01907956600189209,-0.02656352519989058
+Endothelial/endocardial,heart_field,False,False,E8.5,E10.5,-0.020288057625293704,-0.023797631263733007
+Endothelial/endocardial,matrix,False,False,E10.5,E8.5,0.7966973781585696,0.7536987066268921
+Endothelial/endocardial,neuronal_differentiation,False,False,E10.5,E8.25_late,0.07623825967311859,0.06858305633068079
+Neural/NCC,G2M,False,True,E8.25_late,E10.5,-0.17513537406921387,-0.2106134295463562
+Neural/NCC,cardiac_regulators,False,False,E10.5,E8.75,0.5226670205593109,0.4991104006767273
+Neural/NCC,chamber,False,False,E10.5,E8.25_late,0.027832984924316406,-0.03544354438781727
+Neural/NCC,contractile,False,False,E8.25_late,E10.5,-0.0473202466964722,-0.058408178389072404
+Neural/NCC,endothelial_identity,False,False,E10.5,E8.75,0.014443382620811407,-0.018021702766418513
+Neural/NCC,heart_field,False,False,E9.5,E10.5,-0.27628853917121887,-0.30083365738391876
+Neural/NCC,matrix,False,False,E10.5,E8.75,0.6926097869873047,0.6475603580474851
+Neural/NCC,neuronal_differentiation,False,False,E10.5,E9.5,0.6980822533369065,0.6783108115196228
+Other mesoderm,G2M,False,False,E8.5,E10.5,-0.13295519351959229,-0.1995104849338532
+Other mesoderm,cardiac_regulators,False,False,E9.5,E8.75,-1.0493464469909668,-1.1927056312561037
+Other mesoderm,chamber,False,False,E10.5,E8.75,0.6058294177055359,0.5437930822372437
+Other mesoderm,contractile,False,False,E9.5,E8.25_late,-0.13418716192245492,-0.16130158305168152
+Other mesoderm,endothelial_identity,False,False,E10.5,E8.75,0.1705588847398758,0.14383901655673978
+Other mesoderm,heart_field,False,True,E8.25_late,E10.5,-0.0815870463848114,-0.0965385437011719
+Other mesoderm,matrix,False,False,E10.5,E8.5,0.7724995613098145,0.6364943981170654
+Other mesoderm,neuronal_differentiation,False,False,E8.5,E9.5,0.07847610116004941,0.0634665787220001
+Pericardial/epicardial,G2M,False,True,E8.25_late,E10.5,-0.5003494620323181,-0.3359583020210267
+Pericardial/epicardial,cardiac_regulators,False,False,E8.25_late,E10.5,-0.8955599069595337,-0.7205985784530639
+Pericardial/epicardial,chamber,False,False,E8.25_late,E8.75,0.059496402740478516,0.20318835973739635
+Pericardial/epicardial,contractile,False,False,E8.75,E10.5,-0.2564270794391632,-0.2313853502273559
+Pericardial/epicardial,endothelial_identity,False,False,E8.25_late,E9.5,0.0370117276906967,0.05816533416509631
+Pericardial/epicardial,heart_field,False,False,E8.75,E10.5,-0.0933310836553573,-0.0743928253650666
+Pericardial/epicardial,matrix,False,False,E10.5,E8.5,0.5567147731781006,0.7297675609588623
+Pericardial/epicardial,neuronal_differentiation,False,False,E8.75,E8.25_late,-0.0012439340353011807,0.02523401379585269
+Surface ectoderm,G2M,False,True,E8.25_late,E10.5,-0.3498585224151612,-0.33691987395286566
+Surface ectoderm,cardiac_regulators,False,False,E9.5,E8.75,-0.10486012697219849,-0.1060951501131058
+Surface ectoderm,chamber,False,False,E8.75,E9.5,0.20991963148117065,0.2304404377937317
+Surface ectoderm,contractile,False,False,E8.5,E10.5,-0.052107285708189004,-0.051111660897731795
+Surface ectoderm,endothelial_identity,False,False,E8.25_late,E9.5,0.008742004632949801,0.011210478842258398
+Surface ectoderm,heart_field,False,False,E8.75,E10.5,-0.4630996063351632,-0.47268021106719976
+Surface ectoderm,matrix,False,False,E10.5,E8.75,0.17739713191986084,0.21325922012329102
+Surface ectoderm,neuronal_differentiation,False,False,E8.25_late,E8.5,-0.04632063210010531,-0.043564796447753906
+Unresolved,G2M,False,False,E8.5,E10.5,-0.19607478380203247,-0.28104394674301153
+Unresolved,cardiac_regulators,False,True,E8.25_late,E10.5,-0.59391850233078,-0.6466065049171448
+Unresolved,chamber,False,False,E9.5,E8.5,-0.16489797830581665,-0.231858730316162
+Unresolved,contractile,False,False,E8.75,E9.5,0.18385489284992218,0.1689664721488953
+Unresolved,endothelial_identity,False,False,E8.5,E10.5,-0.012948751449584989,-0.04858665168285367
+Unresolved,heart_field,False,False,E8.25_late,E10.5,-0.04512554407119754,-0.07758459448814398
+Unresolved,matrix,False,False,E10.5,E8.5,0.36998057365417436,0.2974519729614258
+Unresolved,neuronal_differentiation,False,False,E8.75,E8.25_late,0.08109176158905029,0.09118396043777471

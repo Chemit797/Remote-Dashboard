@@ -1,0 +1,5 @@
+source,stage,types,spearman_type_centered,top_type_agreement,top_type_gene_denominator,excluded_constant_or_tied_genes,constant_genes_included_in_top_agreement,analysis_tier
+EMTAB6967,E6.75,3,0.3327097026780338,0.5103448275862069,290,206,False,verified_counts
+EMTAB6967,E7.25,4,0.3637350952304203,0.4668367346938775,392,104,False,verified_counts
+EMTAB6967,E8.0,3,0.4876584192399206,0.5230414746543779,434,62,False,released_weight_sensitivity
+GSE278603,E8.0,3,0.321171635410319,0.4648526077097505,441,9,False,released_weight_sensitivity

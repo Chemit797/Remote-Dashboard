@@ -1,0 +1,52 @@
+/home/biocosmosx/work/
+├── virtualembryo/                    最初工程
+│   ├── data/                        官方训练数据
+│   ├── assets/                      共用资源
+│   ├── checkpoints/                 早期模型
+│   └── outputs/                     早期预测
+├── virtualembryo_baseline/           早期最佳组合
+├── virtualembryo_csh/                旧基线分支
+├── virtualembryo_ct/                 旧基线分支
+└── virtualembryo_cym/                5090 主工程
+    ├── data -> ../virtualembryo/data
+    ├── assets -> ../virtualembryo/assets
+    ├── src/                         共用模型与评分实现
+    ├── scripts/                     执行、检查、交付工具
+    ├── protocols/                   数据角色与验证协议
+    ├── third_party/                 公开评分器与生成器
+    ├── experiments/                 训练、权重、预测、评分和日志
+    │   ├── T1-top10-20261026/        T1 主线
+    │   ├── T2-embryo-push-20261025/  胚胎插值
+    │   ├── T2-heart-extrap-top10-20261026/
+    │   ├── T2-heart-interp-top10-20261026/
+    │   ├── T3-top10-20261026/        扰动预测
+    │   ├── paper_lineage_20261108/   谱系相关研究
+    │   ├── whole_table_state_round2_20261025/
+    │   └── submission_feedback/     官方反馈账本与原始回执
+    ├── Virtual_Embryo_External_Data/
+    │   ├── 01_datasets/             外部数据
+    │   ├── 02_master/               总登记
+    │   ├── 03_review_records/       来源审阅
+    │   ├── 04_task_views/           任务视图
+    │   ├── 05_test_submissions/
+    │   ├── 06_vec_t2_reproduction_candidates/
+    │   └── 99_temp/
+    ├── reproduction_20261020/       公开方法复现
+    ├── reports/                     分析报告
+    ├── registry/                    既有索引
+    ├── submission/                  历史提交与统一索引
+    └── team/
+        ├── handbook_20261111/       历史工程手册
+        │   ├── HUMAN_GUIDE.md
+        │   ├── AGENT_HANDBOOK.md
+        │   ├── inventory/          全量路径与文档索引
+        │   ├── evidence/           成绩、来源、依赖证据
+        │   ├── tools/              路径查询与重放工具
+        │   └── reproduction/       五个历史最佳的构建重放
+        ├── data_review_20261113/    数据来源与时间轴
+        ├── official_external_comparison_20261115/
+        ├── analysis_share_20261117/ 志琨的分析与原网页
+        │   ├── README_ZH.md
+        │   └── AGENT_GUIDE.md
+        ├── research_hub/           联合研究索引与规划
+        └── 26VEM/                  比赛与研究网站

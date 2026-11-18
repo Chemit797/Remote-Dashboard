@@ -1,0 +1,880 @@
+{
+  "version": "2026-11-16",
+  "recorded_utc": "2026-11-16T12:04:37.128701+00:00",
+  "scope": "T1 and T2 embryo; public official metric formulas for local source-comparison diagnostics, not leaderboard submission",
+  "public_repo": "https://github.com/aristoteleo/veckit",
+  "public_commit": "cc3859ab2a2305efc4544815d3f44f660efa77d4",
+  "public_commit_date_utc": "2026-10-02T23:17:15Z",
+  "license": "MIT",
+  "code_was_executed_by_this_audit": false,
+  "evidence_strength": [
+    "官方数据",
+    "原文（代码）"
+  ],
+  "sources": [
+    {
+      "url": "https://virtualembryo.ai/challenge/evaluation?task=1&section=scoring",
+      "html": "evaluation_t1.html",
+      "text": "evaluation_t1.txt",
+      "sha256": "c65ec80e5da457eed56cd126fcf6351fc023fcc4ae32b98a9616be0a5af31cef"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/evaluation?task=2&section=scoring",
+      "html": "evaluation_t2.html",
+      "text": "evaluation_t2.txt",
+      "sha256": "314c88d7b469b570506eb471d71c3f064d70b17f1306380eb3be915686546a8e"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/evaluation?task=2&section=resources",
+      "html": "evaluation_resources.html",
+      "text": "evaluation_resources.txt",
+      "sha256": "dc211e9e5e1496cb26cf5dc9af160c67ff8b973d6e461aaf0f882328cb977955"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/evaluation?task=1&section=submissions",
+      "html": "evaluation_t1_submissions.html",
+      "text": "evaluation_t1_submissions.txt",
+      "sha256": "6f7c2e4efe22294e63bf0b1e1984dc0834088f12292980e20821061b89f1eaf1"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/evaluation?task=2&section=submissions",
+      "html": "evaluation_t2_submissions.html",
+      "text": "evaluation_t2_submissions.txt",
+      "sha256": "831ae2cf674976a63d702db40d4f535259c4b473433dfa982f36abc452cb9275"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/data-protocol",
+      "html": "data_protocol.html",
+      "text": "data_protocol.txt",
+      "sha256": "84eb17c3eff3ac22a95c161ecb55657e6c6e03a4f15f9f6e8cc3c10d3e8751bc"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/rules",
+      "html": "rules.html",
+      "text": "rules.txt",
+      "sha256": "1aab02f04232e87909b34216d3b8ab84fa7794c858bfe1f810c66e9d49fec160"
+    }
+  ],
+  "official_weights": {
+    "T1": {
+      "de_score": 0.25,
+      "de_direction": 0.25,
+      "mmd_u": 0.3,
+      "variogram": 0.2
+    },
+    "T2": {
+      "de_score": 0.125,
+      "de_direction": 0.125,
+      "mmd_u": 0.15,
+      "variogram": 0.1,
+      "d2_shape": 0.08333333333333333,
+      "occupancy_dice": 0.08333333333333333,
+      "scale_log_ratio": 0.08333333333333333,
+      "neighborhood_mmd": 0.25
+    }
+  },
+  "metrics": [
+    {
+      "key": "de_score",
+      "acronym": "DES",
+      "question_zh": "哪些基因应该升高、哪些应该降低，外部数据给出的方向和基因名单是否相符？",
+      "direction": "higher",
+      "inputs": [
+        "pred_X",
+        "true_X",
+        "ref_X"
+      ],
+      "parameters": {
+        "alpha": 0.05,
+        "min_abs_mean_log_shift": 0.25,
+        "min_cells": 10,
+        "test": "two-sided Mann-Whitney U + Benjamini-Hochberg",
+        "pseudobulk": "mean(log1p CP10k), not log1p(mean counts)"
+      },
+      "caveats_zh": [
+        "需要明确的参考阶段；同一个官方参考用于预测与真实变化。",
+        "外部单个阶段直接代入时包含来源偏移，并非外部时间变化迁移证据。",
+        "真实DE集合为空或经验chance=1时返回NaN；不可静默当0或丢弃。",
+        "预测无变化的判定为std(delta_pred)<0.01*std(delta_true)，此时得分0。",
+        "真实DE基因数来自当前基因集合与当前观测数；换panel/抽样后不能套用原board anchors。"
+      ],
+      "code": [
+        {
+          "file": "veckit/common/core_metrics.py",
+          "function": "de_genes",
+          "line_start": 99,
+          "line_end": 122,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py#L99"
+        },
+        {
+          "file": "veckit/common/core_metrics.py",
+          "function": "_signed_overlap",
+          "line_start": 125,
+          "line_end": 137,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py#L125"
+        },
+        {
+          "file": "veckit/common/core_metrics.py",
+          "function": "de_score",
+          "line_start": 140,
+          "line_end": 187,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py#L140"
+        }
+      ]
+    },
+    {
+      "key": "de_direction",
+      "acronym": "DCS",
+      "question_zh": "排除参考阶段高表达基因的影响后，整体表达变化方向是否相符？",
+      "direction": "higher",
+      "inputs": [
+        "pred_X",
+        "true_X",
+        "ref_X"
+      ],
+      "parameters": {
+        "statistic": "rank partial correlation of (mean pred - mean ref) vs (mean true - mean ref), controlling rank(mean ref)",
+        "no_change_relative_std": 0.01,
+        "collinearity_tolerance": 1e-06
+      },
+      "caveats_zh": [
+        "并非普通Spearman相关；必须扣除参考表达水平。",
+        "单阶段外部直接代入的来源效应仍不能被这个控制完全消除。",
+        "无变化、rank相关矩阵非有限、预测变化与参考共线时返回0。"
+      ],
+      "code": [
+        {
+          "file": "veckit/common/core_metrics.py",
+          "function": "de_direction",
+          "line_start": 190,
+          "line_end": 214,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py#L190"
+        }
+      ]
+    },
+    {
+      "key": "mmd_u",
+      "acronym": "MMD",
+      "question_zh": "两批细胞的整体表达分布有多不同？",
+      "direction": "lower",
+      "inputs": [
+        "pred_X",
+        "true_X"
+      ],
+      "parameters": {
+        "n": 2000,
+        "n_pc": 30,
+        "seed": 0,
+        "pca_fit": "all supplied target cells",
+        "pca_random_state": 0,
+        "n_components": "min(30, n_genes); NOT capped by n_true",
+        "kernel": "RBF",
+        "scales": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          4.0
+        ],
+        "gamma0": "1/(median positive squared distance among sampled target PCs + 1e-9)",
+        "estimator": "unbiased; zero within-cloud diagonals"
+      },
+      "caveats_zh": [
+        "官网概述可能读成先抽2000再做PCA；公开代码在全部传入true_X拟合PCA，只在核估计时每侧最多抽2000。",
+        "源与目标独立抽样，少于2000时不强制两侧数量相同。",
+        "细胞类型比例、取材、技术差异、类型内表达差异都会影响该数值。",
+        "少量负估计值可能由无偏估计的有限样本波动产生，不能强行补零。",
+        "true细胞数不足min(30,G)、任何一侧不足2或完全退化时不应强行评分。"
+      ],
+      "code": [
+        {
+          "file": "veckit/common/core_metrics.py",
+          "function": "mmd_unbiased",
+          "line_start": 264,
+          "line_end": 294,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py#L264"
+        }
+      ]
+    },
+    {
+      "key": "variogram",
+      "acronym": "CSS",
+      "question_zh": "基因两两表达差的统计关系是否相似？",
+      "direction": "lower",
+      "inputs": [
+        "pred_X",
+        "true_X"
+      ],
+      "parameters": {
+        "n_pairs": 20000,
+        "n_cells": 1500,
+        "p": 0.5,
+        "seed": 0,
+        "estimator": "mean[(E_pred |Xi-Xj|^0.5 - E_true |Xi-Xj|^0.5)^2]",
+        "pair_sampling": "sample 20000 index pairs with replacement; remove i=j; no deduplication"
+      },
+      "caveats_zh": [
+        "独立抽每侧最多1500细胞。",
+        "这不是直接的基因Pearson相关矩阵距离；边际表达水平和分布也会改变它。",
+        "实际基因对数量在删掉i=j后通常小于20000。"
+      ],
+      "code": [
+        {
+          "file": "veckit/common/core_metrics.py",
+          "function": "variogram_score",
+          "line_start": 316,
+          "line_end": 338,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py#L316"
+        }
+      ]
+    },
+    {
+      "key": "d2_shape",
+      "acronym": "SDD",
+      "question_zh": "去掉整体大小后，两份组织的三维形状有多不同？",
+      "direction": "lower",
+      "inputs": [
+        "pred_C[n,3]",
+        "true_C[n,3]"
+      ],
+      "parameters": {
+        "n_pairs": 200000,
+        "seed": 0,
+        "descriptor": "within-cloud pair distances / own RMS radius",
+        "distance": "Wasserstein-1 between two sampled distance distributions",
+        "match_n": false
+      },
+      "caveats_zh": [
+        "尺度、旋转、平移无关，无需配准和细胞对应。",
+        "D2没有先匹配两侧观测数；各侧采相同数量候选点对。",
+        "对镜像完全不敏感。",
+        "取材范围、切片重建方式及未知轴向比例仍会改变形状；分数不是全胚胎生长机制证据。"
+      ],
+      "code": [
+        {
+          "file": "veckit/common/shape_metrics.py",
+          "function": "d2_distance",
+          "line_start": 84,
+          "line_end": 107,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/shape_metrics.py#L84"
+        }
+      ]
+    },
+    {
+      "key": "occupancy_dice",
+      "acronym": "ODS",
+      "question_zh": "规范到相同朝向和大小后，两份组织占据的空间有多少重叠？",
+      "direction": "higher",
+      "inputs": [
+        "pred_C[n,3]",
+        "true_C[n,3]"
+      ],
+      "parameters": {
+        "n_grid": 16,
+        "extent": 3.0,
+        "seed": 0,
+        "match_n": "min(n_pred,n_true)",
+        "canonicalisation": "centre, right-handed PCA, divide own RMS radius",
+        "flips": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            1
+          ]
+        ],
+        "outside_grid": "clip to [-extent, extent-1e-9] before voxelisation"
+      },
+      "caveats_zh": [
+        "两侧先抽成相同观测数后重新计算PCA和尺度。",
+        "必须同时返回voxel edge / target median nearest-neighbour distance；不明显大于10时主要受采样密度影响。",
+        "最新公开代码强制右手PCA，旧本地shape_metrics缺这一步。",
+        "网页说所有形状指标镜像等分过强；最新ODS代码不必镜像不变，但也未校准为左右性检验。",
+        "虽然无需物理单位一致，仍需各坐标轴在同一真实欧氏比例；未知轴向缩放时只报告发布坐标形状诊断。"
+      ],
+      "code": [
+        {
+          "file": "veckit/common/shape_metrics.py",
+          "function": "_canonicalise",
+          "line_start": 47,
+          "line_end": 63,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/shape_metrics.py#L47"
+        },
+        {
+          "file": "veckit/common/shape_metrics.py",
+          "function": "_match_n",
+          "line_start": 69,
+          "line_end": 80,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/shape_metrics.py#L69"
+        },
+        {
+          "file": "veckit/common/shape_metrics.py",
+          "function": "occupancy_dice",
+          "line_start": 133,
+          "line_end": 163,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/shape_metrics.py#L133"
+        }
+      ]
+    },
+    {
+      "key": "scale_log_ratio",
+      "acronym": "TSR",
+      "question_zh": "两份组织的半径尺度差多少？",
+      "direction": "absolute_lower",
+      "inputs": [
+        "pred_C[n,3]",
+        "true_C[n,3]"
+      ],
+      "parameters": {
+        "estimator": "log(RMS radius(pred_C)/RMS radius(true_C))",
+        "ideal": 0,
+        "no_subsampling": true
+      },
+      "caveats_zh": [
+        "必须知道两来源坐标单位和轴向尺度。官网现明确尚未说明spatial_3D物理单位。",
+        "不可把外部物理微米坐标与官方未知单位直接相比后解释生长。",
+        "只能把未经校准的结果标为存储单位比，或不计算科学可比值。",
+        "若计算skill，value/floor/ceiling均先取绝对值。"
+      ],
+      "code": [
+        {
+          "file": "veckit/common/shape_metrics.py",
+          "function": "scale_log_ratio",
+          "line_start": 167,
+          "line_end": 178,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/shape_metrics.py#L167"
+        }
+      ]
+    },
+    {
+      "key": "neighborhood_mmd",
+      "acronym": "NFS",
+      "question_zh": "每个细胞周围的平均表达环境是否相似？",
+      "direction": "lower",
+      "inputs": [
+        "pred_X",
+        "pred_C[n,3]",
+        "true_X",
+        "true_C[n,3]"
+      ],
+      "parameters": {
+        "k": 15,
+        "n": 2000,
+        "effective_seed": 0,
+        "neighbors_include_self": true,
+        "neighborhood_before_sampling": true,
+        "neighborhood_weighting": "unweighted arithmetic mean",
+        "estimator": "mmd_unbiased on full per-cell neighborhood expression means"
+      },
+      "caveats_zh": [
+        "代码kneighbors(coords)返回的15个邻居包含自身；不能擅改成15个其他细胞还称原函数。",
+        "先用全部传入细胞建立邻域再做MMD的抽样。",
+        "wrapper不接seed，score_task2_v2的seed不传入此函数，所以官方NFS固定默认seed=0。",
+        "需要真实空间坐标，不能给解离数据编造坐标。",
+        "重建对象、分辨率和细胞密度改变15邻域的生物尺度，跨来源解释需保留这一限制。"
+      ],
+      "code": [
+        {
+          "file": "veckit/T2/metrics.py",
+          "function": "_knn_neighborhood_pb",
+          "line_start": 23,
+          "line_end": 27,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/T2/metrics.py#L23"
+        },
+        {
+          "file": "veckit/T2/metrics.py",
+          "function": "neighborhood_mmd",
+          "line_start": 29,
+          "line_end": 43,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/T2/metrics.py#L29"
+        },
+        {
+          "file": "veckit/common/core_metrics.py",
+          "function": "mmd_unbiased",
+          "line_start": 264,
+          "line_end": 294,
+          "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py#L264"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "code": {
+      "file": "veckit/common/core_metrics.py",
+      "function": "skill",
+      "line_start": 384,
+      "line_end": 415,
+      "url": "https://github.com/aristoteleo/veckit/blob/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py#L384"
+    },
+    "formula": "d_floor/(d_floor+d_value); cap above at 1",
+    "floor_skill": 0.5,
+    "ceiling_skill": 1,
+    "invalid_metric_policy": "website: declared missing/NaN metric contributes skill=0, never drop and renormalise; core.skill itself returns NaN",
+    "anchors": {
+      "T1:val": {
+        "key": "T1:val",
+        "label": "T1 · validation (E10.5)",
+        "task": "T1",
+        "setting": null,
+        "split": "val",
+        "target_ko": null,
+        "public": true,
+        "n_genes": 32285,
+        "genes_file": "T1__val.genes.txt",
+        "genes_sha256": "807549e15be01989",
+        "needs_coords": false,
+        "obs_required": [],
+        "obsm_required": [],
+        "min_cells": 1000,
+        "max_cells": 5118,
+        "truth_cells": 1249,
+        "ref_cells": 1706,
+        "floor_model": "copy_last",
+        "anchors": {
+          "de_score": {
+            "floor": 0.0,
+            "ceiling": 0.8464
+          },
+          "de_direction": {
+            "floor": 0.0,
+            "ceiling": 0.7901
+          },
+          "mmd_u": {
+            "floor": 0.08359,
+            "ceiling": 0.00406
+          },
+          "variogram": {
+            "floor": 0.005219,
+            "ceiling": 0.000158
+          }
+        }
+      },
+      "T2:embryo:val_interp": {
+        "key": "T2:embryo:val_interp",
+        "label": "T2 embryo · interpolation, validation (E7.5)",
+        "task": "T2",
+        "setting": "embryo",
+        "split": "val_interp",
+        "target_ko": null,
+        "public": true,
+        "n_genes": 498,
+        "genes_file": "T2__embryo__val_interp.genes.txt",
+        "genes_sha256": "f8a2aaa79bf32cfb",
+        "needs_coords": true,
+        "obs_required": [],
+        "obsm_required": [
+          "spatial_3D"
+        ],
+        "min_cells": 583,
+        "max_cells": 5000,
+        "truth_cells": 583,
+        "ref_cells": 1330,
+        "floor_model": "copy_last",
+        "anchors": {
+          "de_score": {
+            "floor": 0.0,
+            "ceiling": 0.8413
+          },
+          "de_direction": {
+            "floor": 0.0,
+            "ceiling": 0.9185
+          },
+          "mmd_u": {
+            "floor": 0.08571,
+            "ceiling": 0.00307
+          },
+          "variogram": {
+            "floor": 0.053533,
+            "ceiling": 0.001264
+          },
+          "d2_shape": {
+            "floor": 0.05306,
+            "ceiling": 0.00268
+          },
+          "occupancy_dice": {
+            "floor": 0.7047,
+            "ceiling": 0.7661
+          },
+          "scale_log_ratio": {
+            "floor": -0.3063,
+            "ceiling": 0.0053
+          },
+          "neighborhood_mmd": {
+            "floor": 0.21105,
+            "ceiling": 0.01128
+          }
+        }
+      },
+      "T2:heart:val_extrap": {
+        "key": "T2:heart:val_extrap",
+        "label": "T2 heart · extrapolation, validation (E10.5)",
+        "task": "T2",
+        "setting": "heart",
+        "split": "val_extrap",
+        "target_ko": null,
+        "public": true,
+        "n_genes": 500,
+        "genes_file": "T2__heart__val_extrap.genes.txt",
+        "genes_sha256": "a9a553108e19acb6",
+        "needs_coords": true,
+        "obs_required": [],
+        "obsm_required": [
+          "spatial_3D"
+        ],
+        "min_cells": 1000,
+        "max_cells": 25179,
+        "truth_cells": 8393,
+        "ref_cells": 5374,
+        "floor_model": "copy_last",
+        "anchors": {
+          "de_score": {
+            "floor": 0.0,
+            "ceiling": 0.942
+          },
+          "de_direction": {
+            "floor": 0.0,
+            "ceiling": 0.9915
+          },
+          "mmd_u": {
+            "floor": 0.02455,
+            "ceiling": 0.00011
+          },
+          "variogram": {
+            "floor": 0.031712,
+            "ceiling": 0.000696
+          },
+          "d2_shape": {
+            "floor": 0.00933,
+            "ceiling": 0.00342
+          },
+          "occupancy_dice": {
+            "floor": 0.7747,
+            "ceiling": 0.9465
+          },
+          "scale_log_ratio": {
+            "floor": -0.268,
+            "ceiling": 0.0074
+          },
+          "neighborhood_mmd": {
+            "floor": 0.07184,
+            "ceiling": 0.0004
+          }
+        }
+      },
+      "T2:heart:val_interp": {
+        "key": "T2:heart:val_interp",
+        "label": "T2 heart · interpolation, validation (E8.5)",
+        "task": "T2",
+        "setting": "heart",
+        "split": "val_interp",
+        "target_ko": null,
+        "public": true,
+        "n_genes": 500,
+        "genes_file": "T2__heart__val_interp.genes.txt",
+        "genes_sha256": "a9a553108e19acb6",
+        "needs_coords": true,
+        "obs_required": [],
+        "obsm_required": [
+          "spatial_3D"
+        ],
+        "min_cells": 1000,
+        "max_cells": 17616,
+        "truth_cells": 1185,
+        "ref_cells": 5872,
+        "floor_model": "copy_last",
+        "anchors": {
+          "de_score": {
+            "floor": 0.0,
+            "ceiling": 0.8182
+          },
+          "de_direction": {
+            "floor": 0.0,
+            "ceiling": 0.9553
+          },
+          "mmd_u": {
+            "floor": 0.0207,
+            "ceiling": 0.00087
+          },
+          "variogram": {
+            "floor": 0.023828,
+            "ceiling": 0.001021
+          },
+          "d2_shape": {
+            "floor": 0.03079,
+            "ceiling": 0.00412
+          },
+          "occupancy_dice": {
+            "floor": 0.6748,
+            "ceiling": 0.8796
+          },
+          "scale_log_ratio": {
+            "floor": 0.3284,
+            "ceiling": -0.0119
+          },
+          "neighborhood_mmd": {
+            "floor": 0.05728,
+            "ceiling": 0.00432
+          }
+        }
+      },
+      "T3:gata4": {
+        "key": "T3:gata4",
+        "label": "T3 · validation (Gata4 KO)",
+        "task": "T3",
+        "setting": null,
+        "split": "val",
+        "target_ko": "gata4",
+        "public": true,
+        "n_genes": 500,
+        "genes_file": "T3__gata4.genes.txt",
+        "genes_sha256": "a9a553108e19acb6",
+        "needs_coords": true,
+        "obs_required": [],
+        "obsm_required": [
+          "spatial_3D"
+        ],
+        "min_cells": 1000,
+        "max_cells": 7449,
+        "truth_cells": 2320,
+        "ref_cells": 2483,
+        "floor_model": "wt_identity",
+        "anchors": {
+          "de_score": {
+            "floor": 0.0,
+            "ceiling": 0.8696
+          },
+          "de_direction": {
+            "floor": 0.0,
+            "ceiling": 0.9247
+          },
+          "severity_slope": {
+            "floor": -6.9078,
+            "ceiling": -0.0088
+          },
+          "mmd_u": {
+            "floor": 0.03141,
+            "ceiling": 0.00039
+          },
+          "variogram": {
+            "floor": 0.032212,
+            "ceiling": 0.000737
+          }
+        }
+      },
+      "T1:test": {
+        "key": "T1:test",
+        "label": "T1 · test (E12.5)",
+        "task": "T1",
+        "setting": null,
+        "split": "test",
+        "n_genes": 32285,
+        "genes_file": "T1__test.genes.txt",
+        "genes_sha256": "807549e15be01989",
+        "needs_coords": false,
+        "obs_required": [],
+        "obsm_required": [],
+        "min_cells": 638,
+        "max_cells": 5118
+      },
+      "T2:heart:test_extrap": {
+        "key": "T2:heart:test_extrap",
+        "label": "T2 heart · extrapolation, test (E12.5)",
+        "task": "T2",
+        "setting": "heart",
+        "split": "test",
+        "n_genes": 500,
+        "genes_file": "T2__heart__test_extrap.genes.txt",
+        "genes_sha256": "a9a553108e19acb6",
+        "needs_coords": true,
+        "obs_required": [],
+        "obsm_required": [
+          "spatial_3D"
+        ],
+        "min_cells": 1000,
+        "max_cells": 34641
+      },
+      "T2:embryo:test_interp": {
+        "key": "T2:embryo:test_interp",
+        "label": "T2 embryo · interpolation, test (E7.75)",
+        "task": "T2",
+        "setting": "embryo",
+        "split": "test",
+        "n_genes": 497,
+        "genes_file": "T2__embryo__test_interp.genes.txt",
+        "genes_sha256": "68d63317ac18edac",
+        "needs_coords": true,
+        "obs_required": [],
+        "obsm_required": [
+          "spatial_3D"
+        ],
+        "min_cells": 1000,
+        "max_cells": 5000
+      },
+      "T3:bcatenin": {
+        "key": "T3:bcatenin",
+        "label": "T3 · test (beta-catenin KO)",
+        "task": "T3",
+        "setting": null,
+        "split": "test",
+        "n_genes": 500,
+        "genes_file": "T3__bcatenin.genes.txt",
+        "genes_sha256": "a9a553108e19acb6",
+        "needs_coords": true,
+        "obs_required": [],
+        "obsm_required": [
+          "spatial_3D"
+        ],
+        "min_cells": 1000,
+        "max_cells": 7449
+      }
+    },
+    "cross_source_anchor_policy": "Public anchors apply only to the matching original board/view/panel. Recomputed full-data or gene-intersection metrics must not be advertised as official board scores. A separate local calibration is a research convention.",
+    "seed_summary": "Any extra seed variation is technical sampling variation, not embryo biological replication."
+  },
+  "input_contract": {
+    "expression": "nonnegative finite log1p(counts/row_total*10000), same named genes and exact order across pred/true/ref",
+    "input_normalization_is_not_automatic": true,
+    "official_t1_gene_count": 32285,
+    "official_t2_embryo_validation_genes": 498,
+    "official_t2_embryo_test_genes": 497,
+    "full_current_board_index": "panels_index.json",
+    "no_missing_gene_zero_imputation": true,
+    "cell_count_not_a_weighted_metric": true,
+    "raw_counts_are_not_valid_inputs": true,
+    "submitted_celltype_not_used_by_primary_metrics": true
+  },
+  "sampling_and_scope": {
+    "official_t1": "Black Swiss; nuclei; cardiac-enriched dissections, not an unbiased whole-embryo atlas. E8.5/E9.5 pool 10 embryos per biological replicate; E10.5 pool 5 hearts per biological replicate. No per-individual field assumed.",
+    "official_t1_dissection": "E8.5–E10.5 brain, spinal cord, posterior region and most yolk sac removed; heart tube plus pericardium, chest wall and nearby dorsal tissue. More surrounding non-cardiac tissue retained at E8.5 than E9.5/E10.5.",
+    "official_t2_embryo_e8": "E8.0 sections from yolk-sac/embryo boundary to the level where cardiac crescent no longer visible; not an asserted complete whole-embryo volume.",
+    "official_t2_e675_e725": "Section levels 37/40 and stored z step 10 disclosed, but exact dissection scope not specified on this page.",
+    "panel_design_goal": "500-gene panel designed to cover cardiac-related cell types and cells around them; exact gene selection algorithm/probe design not disclosed here.",
+    "coordinate_unit": "not stated by official data protocol; physical section spacing 14 µm while stored z step 10 at E6.75/E7.25 and 15 at E8.0; do not rescale by inference."
+  },
+  "external_data_rules": {
+    "source": "rules.txt / section 10",
+    "t1_excluded": "9.5 < E <= 13.5",
+    "t2_embryo_excluded": "7.25 < E < 8.0",
+    "endpoints": {
+      "t1_e95": "permitted",
+      "t1_e135": "excluded",
+      "t2_e725": "permitted",
+      "t2_e80": "permitted"
+    },
+    "official_validation_exception": "Only official P2 validation files obtained by P3 opt-in; does not permit external protected-stage numerical data.",
+    "time_inference": "Somite/Theiler or alternative stage labels judged by same biological time window, not name alone."
+  },
+  "local_source_code_comparison": [
+    {
+      "file": "common/core_metrics.py",
+      "current_sha256": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31",
+      "remote_snapshot_exists": true,
+      "remote_snapshot_sha256": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31",
+      "same_bytes": true
+    },
+    {
+      "file": "common/shape_metrics.py",
+      "current_sha256": "d5750df276d99541602cbf01680992955bf01edd951e1d96908987b69fb6e92f",
+      "remote_snapshot_exists": true,
+      "remote_snapshot_sha256": "bd80ef2705f9be93fe1538e77445d4eb217d4b955c6cd38c69b26b0671be91c0",
+      "same_bytes": false
+    },
+    {
+      "file": "LICENSE",
+      "current_sha256": "22325e2f0ed62f603feb6b5888cad1f891fcd9b89b1cfab3c70b1dca0ac974f4",
+      "remote_snapshot_exists": true,
+      "remote_snapshot_sha256": "22325e2f0ed62f603feb6b5888cad1f891fcd9b89b1cfab3c70b1dca0ac974f4",
+      "same_bytes": true
+    },
+    {
+      "file": "pyproject.toml",
+      "current_sha256": "763c2670bd5ae014a5f04b640b9f854e228397c3af7ea4fb37ffbb776d77a320",
+      "remote_snapshot_exists": false,
+      "remote_snapshot_sha256": null,
+      "same_bytes": null
+    },
+    {
+      "file": "README.md",
+      "current_sha256": "088e62cd3d528804dd3c3e5ed42fac44b154aedcf82104c30d8fa22975152a09",
+      "remote_snapshot_exists": true,
+      "remote_snapshot_sha256": "088e62cd3d528804dd3c3e5ed42fac44b154aedcf82104c30d8fa22975152a09",
+      "same_bytes": true
+    },
+    {
+      "file": "score_h5ad.py",
+      "current_sha256": "52034554f03aec10193cb09baa2c78a1de04218ef678f327eb63acc58fa28add",
+      "remote_snapshot_exists": true,
+      "remote_snapshot_sha256": "52034554f03aec10193cb09baa2c78a1de04218ef678f327eb63acc58fa28add",
+      "same_bytes": true
+    },
+    {
+      "file": "T1/metrics.py",
+      "current_sha256": "c6252f964e782b4bb20f8b66352eb43ee244de402dafea5d3a0864ad5ed2fab8",
+      "remote_snapshot_exists": false,
+      "remote_snapshot_sha256": null,
+      "same_bytes": null
+    },
+    {
+      "file": "T1/metrics_v2.py",
+      "current_sha256": "8d49a59cb853da0763e48236a07f2b141e485437314e69812f27bf8aa53ba313",
+      "remote_snapshot_exists": true,
+      "remote_snapshot_sha256": "8d49a59cb853da0763e48236a07f2b141e485437314e69812f27bf8aa53ba313",
+      "same_bytes": true
+    },
+    {
+      "file": "T2/metrics.py",
+      "current_sha256": "2c8aeb720aa44661d0d05bfd6d389093b8d879601a41ac7280a1da506a64bd13",
+      "remote_snapshot_exists": false,
+      "remote_snapshot_sha256": null,
+      "same_bytes": null
+    },
+    {
+      "file": "T2/metrics_v2.py",
+      "current_sha256": "5d06e68f6d6848f64eb7b798ea42ca31d8c1f9a61084c174a4f50eaf88bdd878",
+      "remote_snapshot_exists": true,
+      "remote_snapshot_sha256": "5d06e68f6d6848f64eb7b798ea42ca31d8c1f9a61084c174a4f50eaf88bdd878",
+      "same_bytes": true
+    },
+    {
+      "file": "tests/test_shape_rotation_invariance.py",
+      "current_sha256": "4ade6c2f8e08f940d8fdb362a8c7892960b4b07ad8f8f4e13498db346f4d67d0",
+      "remote_snapshot_exists": false,
+      "remote_snapshot_sha256": null,
+      "same_bytes": null
+    },
+    {
+      "file": "veckit.py",
+      "current_sha256": "b991dc27e1b169b732721f4d79ff183c29879f6c4fee9ceb7e897a63172b4108",
+      "remote_snapshot_exists": true,
+      "remote_snapshot_sha256": "b991dc27e1b169b732721f4d79ff183c29879f6c4fee9ceb7e897a63172b4108",
+      "same_bytes": true
+    }
+  ],
+  "discrepancies": [
+    "Remote shape_metrics snapshot lacks the right-handed PCA fix present in latest public commit.",
+    "Website all-shape mirror equivalence is too broad for latest ODS implementation; laterality is still uncalibrated.",
+    "Website generic 500-gene T2 submission description differs from current embryo validation/test contracts (498/497); use board index.",
+    "Website local command example omits --target and says real target auto-loaded; public package requires supplied --target and intentionally never loads hidden official targets.",
+    "Generic pooled-material statement says more than five embryos/hearts; detailed E10.5 method says five hearts and E12.5 three. Preserve detailed stage-specific text, do not invent individual sample count."
+  ],
+  "execution_guidance": [
+    "Import score_h5ad._load_task_metrics('T2') to construct _reuse shim, or call core/shape functions with an explicit minimal wrapper; do not import T2.metrics directly without its shim.",
+    "Use primary metric functions only for official weighted questions; energy_distance, composition_JSD, pseudobulk_pearson, variance_ratio and count_log_ratio are not in current T1/T2 leaderboard weights.",
+    "Keep direct same-stage source similarity separate from external temporal-delta transfer and held-out transfer tests.",
+    "Treat cross-study differences as source differences, including sampled tissues, nuclear versus whole-cell RNA and spatial reconstruction units."
+  ]
+}

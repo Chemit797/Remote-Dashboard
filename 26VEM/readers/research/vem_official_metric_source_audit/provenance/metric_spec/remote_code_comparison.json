@@ -1,0 +1,86 @@
+[
+  {
+    "file": "common/core_metrics.py",
+    "current_sha256": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31",
+    "remote_snapshot_exists": true,
+    "remote_snapshot_sha256": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31",
+    "same_bytes": true
+  },
+  {
+    "file": "common/shape_metrics.py",
+    "current_sha256": "d5750df276d99541602cbf01680992955bf01edd951e1d96908987b69fb6e92f",
+    "remote_snapshot_exists": true,
+    "remote_snapshot_sha256": "bd80ef2705f9be93fe1538e77445d4eb217d4b955c6cd38c69b26b0671be91c0",
+    "same_bytes": false
+  },
+  {
+    "file": "LICENSE",
+    "current_sha256": "22325e2f0ed62f603feb6b5888cad1f891fcd9b89b1cfab3c70b1dca0ac974f4",
+    "remote_snapshot_exists": true,
+    "remote_snapshot_sha256": "22325e2f0ed62f603feb6b5888cad1f891fcd9b89b1cfab3c70b1dca0ac974f4",
+    "same_bytes": true
+  },
+  {
+    "file": "pyproject.toml",
+    "current_sha256": "763c2670bd5ae014a5f04b640b9f854e228397c3af7ea4fb37ffbb776d77a320",
+    "remote_snapshot_exists": false,
+    "remote_snapshot_sha256": null,
+    "same_bytes": null
+  },
+  {
+    "file": "README.md",
+    "current_sha256": "088e62cd3d528804dd3c3e5ed42fac44b154aedcf82104c30d8fa22975152a09",
+    "remote_snapshot_exists": true,
+    "remote_snapshot_sha256": "088e62cd3d528804dd3c3e5ed42fac44b154aedcf82104c30d8fa22975152a09",
+    "same_bytes": true
+  },
+  {
+    "file": "score_h5ad.py",
+    "current_sha256": "52034554f03aec10193cb09baa2c78a1de04218ef678f327eb63acc58fa28add",
+    "remote_snapshot_exists": true,
+    "remote_snapshot_sha256": "52034554f03aec10193cb09baa2c78a1de04218ef678f327eb63acc58fa28add",
+    "same_bytes": true
+  },
+  {
+    "file": "T1/metrics.py",
+    "current_sha256": "c6252f964e782b4bb20f8b66352eb43ee244de402dafea5d3a0864ad5ed2fab8",
+    "remote_snapshot_exists": false,
+    "remote_snapshot_sha256": null,
+    "same_bytes": null
+  },
+  {
+    "file": "T1/metrics_v2.py",
+    "current_sha256": "8d49a59cb853da0763e48236a07f2b141e485437314e69812f27bf8aa53ba313",
+    "remote_snapshot_exists": true,
+    "remote_snapshot_sha256": "8d49a59cb853da0763e48236a07f2b141e485437314e69812f27bf8aa53ba313",
+    "same_bytes": true
+  },
+  {
+    "file": "T2/metrics.py",
+    "current_sha256": "2c8aeb720aa44661d0d05bfd6d389093b8d879601a41ac7280a1da506a64bd13",
+    "remote_snapshot_exists": false,
+    "remote_snapshot_sha256": null,
+    "same_bytes": null
+  },
+  {
+    "file": "T2/metrics_v2.py",
+    "current_sha256": "5d06e68f6d6848f64eb7b798ea42ca31d8c1f9a61084c174a4f50eaf88bdd878",
+    "remote_snapshot_exists": true,
+    "remote_snapshot_sha256": "5d06e68f6d6848f64eb7b798ea42ca31d8c1f9a61084c174a4f50eaf88bdd878",
+    "same_bytes": true
+  },
+  {
+    "file": "tests/test_shape_rotation_invariance.py",
+    "current_sha256": "4ade6c2f8e08f940d8fdb362a8c7892960b4b07ad8f8f4e13498db346f4d67d0",
+    "remote_snapshot_exists": false,
+    "remote_snapshot_sha256": null,
+    "same_bytes": null
+  },
+  {
+    "file": "veckit.py",
+    "current_sha256": "b991dc27e1b169b732721f4d79ff183c29879f6c4fee9ceb7e897a63172b4108",
+    "remote_snapshot_exists": true,
+    "remote_snapshot_sha256": "b991dc27e1b169b732721f4d79ff183c29879f6c4fee9ceb7e897a63172b4108",
+    "same_bytes": true
+  }
+]

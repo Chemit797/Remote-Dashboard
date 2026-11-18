@@ -1,0 +1,90 @@
+{
+  "commit": "cc3859ab2a2305efc4544815d3f44f660efa77d4",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/LICENSE",
+      "status": 200,
+      "sha256": "22325e2f0ed62f603feb6b5888cad1f891fcd9b89b1cfab3c70b1dca0ac974f4",
+      "retrieved_utc": "2026-11-16T11:56:44.229022+00:00"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/README.md",
+      "status": 200,
+      "sha256": "088e62cd3d528804dd3c3e5ed42fac44b154aedcf82104c30d8fa22975152a09",
+      "retrieved_utc": "2026-11-16T11:56:44.582081+00:00"
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/pyproject.toml",
+      "status": 200,
+      "sha256": "763c2670bd5ae014a5f04b640b9f854e228397c3af7ea4fb37ffbb776d77a320",
+      "retrieved_utc": "2026-11-16T11:56:44.915132+00:00"
+    },
+    {
+      "path": "common/core_metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/core_metrics.py",
+      "status": 200,
+      "sha256": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31",
+      "retrieved_utc": "2026-11-16T11:56:45.490057+00:00"
+    },
+    {
+      "path": "common/shape_metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/common/shape_metrics.py",
+      "status": 200,
+      "sha256": "d5750df276d99541602cbf01680992955bf01edd951e1d96908987b69fb6e92f",
+      "retrieved_utc": "2026-11-16T11:56:45.811393+00:00"
+    },
+    {
+      "path": "T1/metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T1/metrics.py",
+      "status": 200,
+      "sha256": "c6252f964e782b4bb20f8b66352eb43ee244de402dafea5d3a0864ad5ed2fab8",
+      "retrieved_utc": "2026-11-16T11:56:46.173963+00:00"
+    },
+    {
+      "path": "T1/metrics_v2.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T1/metrics_v2.py",
+      "status": 200,
+      "sha256": "8d49a59cb853da0763e48236a07f2b141e485437314e69812f27bf8aa53ba313",
+      "retrieved_utc": "2026-11-16T11:56:46.510715+00:00"
+    },
+    {
+      "path": "T2/metrics.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T2/metrics.py",
+      "status": 200,
+      "sha256": "2c8aeb720aa44661d0d05bfd6d389093b8d879601a41ac7280a1da506a64bd13",
+      "retrieved_utc": "2026-11-16T11:56:46.825845+00:00"
+    },
+    {
+      "path": "T2/metrics_v2.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/T2/metrics_v2.py",
+      "status": 200,
+      "sha256": "5d06e68f6d6848f64eb7b798ea42ca31d8c1f9a61084c174a4f50eaf88bdd878",
+      "retrieved_utc": "2026-11-16T11:56:47.149801+00:00"
+    },
+    {
+      "path": "veckit.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/veckit.py",
+      "status": 200,
+      "sha256": "b991dc27e1b169b732721f4d79ff183c29879f6c4fee9ceb7e897a63172b4108",
+      "retrieved_utc": "2026-11-16T11:56:47.495250+00:00"
+    },
+    {
+      "path": "score_h5ad.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/score_h5ad.py",
+      "status": 200,
+      "sha256": "52034554f03aec10193cb09baa2c78a1de04218ef678f327eb63acc58fa28add",
+      "retrieved_utc": "2026-11-16T11:56:47.827405+00:00"
+    },
+    {
+      "path": "tests/test_shape_rotation_invariance.py",
+      "url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/tests/test_shape_rotation_invariance.py",
+      "status": 200,
+      "sha256": "4ade6c2f8e08f940d8fdb362a8c7892960b4b07ad8f8f4e13498db346f4d67d0",
+      "retrieved_utc": "2026-11-16T11:56:48.151913+00:00"
+    }
+  ]
+}

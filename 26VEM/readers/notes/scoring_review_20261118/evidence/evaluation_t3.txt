@@ -1,0 +1,740 @@
+Evaluation · Virtual Embryo Challenge
+Virtual Embryo
+P3 is open:
+the test leaderboard is open, P2 standings are frozen, and validation answers are available by explicit opt-in.
+Next: Final submissions due at 23:59 AoE on 25 November 2026.
+Full timeline →
+Evaluation
+Task 1
+Temporal
+Task 2
+Spatial-temporal
+Task 3
+Perturbation
+T3. Mutant perturbation prediction.
+3D MERFISH (500-gene panel) · predicts expression + 3D coordinates.
+Task
+Submissions
+Scoring
+Resources
+Scoring
+These metrics should reflect what a virtual embryo is for: predicting in silico what an embryo does that is otherwise only knowable by running the experiment. Each answers one biological question; how the questions combine into a single leaderboard number is set out at the end of this section.
+Five metrics rank Task 3: response gene recovery 30%, response direction 25%, response magnitude 25%, cell-state distribution 20%. Tissue shape is deliberately not scored here. It would compare absolute post-knockout geometry, while the meaningful question is whether the perturbation changed shape correctly, and no shift-based spatial term exists yet to sit beside the shift-based expression one.
+Notation
+pred_X, true_X and ref_X are [n_cells, n_genes] log-normalised expression matrices. The submission, the held-out target, and the reference the change is measured against (the preceding stage for Tasks 1 and 2, the matched wild type for Task 3). An overbar denotes the pseudobulk, the mean over cells, a vector of length n_genes. pred_C and true_C are [n_cells, 3] coordinate matrices, Tasks 2 and 3 only.
+Two properties hold by construction across the whole panel. A submission chooses its own coordinate frame: every spatial term is invariant to translation and rotation, and outside the stated laterality gap to reflection. And a submission chooses its own cell count: nothing requires n_pred = n_true, and where a count difference would otherwise confound a comparison both clouds are first subsampled to a shared size. No submission ever carries cell-type labels; every metric that needs a type uses a frozen probe q(·) trained once on the real target and applied identically to every entry.
+Response gene recovery
+30% of the score
+Which genes the knockout actually moved.
+Differential Expression Score
+(DES)
+T1 · T2 · T3
+higher is better
+common/core_metrics.py::de_score, de_genes, _signed_overlap
+The differential expression score evaluates how accurately a model recovers the genes that development, or a knockout, actually moved. A differential-expression call is the readout most single-cell experiments are run for and the input to everything downstream, so a model that cannot reproduce it has not reproduced the finding, whatever else it got right.
+First, the truth declares its own DE genes. For each gene we test the target against the reference with a two-sided Mann-Whitney U test, control the false discovery rate with the Benjamini-Hochberg procedure at α = 0.05, and apply an effect-size floor that removes changes too small to mean anything biologically:
+DE
+=
+{
+g
+:
+q
+g
+​
+≤
+α
+,
+​
+true
+g
+​
+−
+ref
+g
+​
+​
+≥
+0.25
+}
+and split that set by direction into up- and down-regulated genes:
+U
+true
+​
+=
+{
+g
+∈
+DE
+:
+true
+g
+​
+>
+ref
+g
+​
+}
+,
+D
+true
+​
+=
+DE
+∖
+U
+true
+​
+Next, the prediction is given no say in how many genes it names. It is asked for exactly n_u = |U_true| up-genes and n_d = |D_true| down-genes, chosen by its own log fold change, so that naming a thousand genes to catch fifty cannot help:
+Δ
+p
+​
+=
+pred
+​
+−
+ref
+,
+U
+p
+​
+=
+top-
+n
+u
+​
+of
+Δ
+p
+​
+,
+D
+p
+​
+=
+bottom-
+n
+d
+​
+of
+Δ
+p
+​
+We then match the two sets sign for sign and normalise to the size of the true set:
+overlap
+=
+n
+u
+​
++
+n
+d
+​
+​
+U
+p
+​
+∩
+U
+true
+​
+​
++
+​
+D
+p
+​
+∩
+D
+true
+​
+​
+​
+Finally, that overlap is scored against a measured null rather than against zero. Highly-expressed genes are mechanically easier to call differentially expressed, and they overlap substantially with the genes that really are developmental DEGs, so a submission that has learned nothing except which genes are highly expressed scored 0.61 on a naive overlap, against 0.17 for the best real baseline. The null is the same construction applied to a prediction that knows only the reference’s own expression level, in both directions, since scaling the reference down games the score as readily as scaling it up:
+chance
+=
+max
+(
+overlap with
+Δ
+p
+​
+=
++
+ref
+,
+overlap with
+Δ
+p
+​
+=
+−
+ref
+)
+DES
+=
+1
+−
+chance
+overlap
+−
+chance
+​
+0 means no better than knowing gene expression level alone, 1 means the truth’s own DE call was recovered exactly, and a negative score means the prediction is pointing the wrong genes in the wrong direction.
+Response direction
+25% of the score
+Whether they moved the way the real knockout moves them.
+Directional Concordance Score
+(DCS)
+T1 · T2 · T3
+higher is better
+common/core_metrics.py::de_direction
+The directional concordance score measures whether a model moved genes in the direction the real embryo moves them, across the whole transcriptome rather than only the called set. Where DES asks which genes changed, this asks whether the change went the right way, so a model that has the shape of the response right but its magnitude wrong still scores.
+First, we take the predicted and observed log fold changes against the reference, and rank-transform both along with the reference’s own expression profile:
+Δ
+p
+​
+=
+pred
+​
+−
+ref
+,
+Δ
+t
+​
+=
+true
+−
+ref
+r
+p
+​
+=
+rank
+(
+Δ
+p
+​
+)
+,
+r
+t
+​
+=
+rank
+(
+Δ
+t
+​
+)
+,
+r
+r
+​
+=
+rank
+(
+ref
+)
+Next, letting C be the 3 × 3 Pearson correlation matrix of those three rank vectors, we take the partial correlation of predicted against observed change, controlling for reference expression level:
+DCS
+=
+(
+1
+−
+C
+p
+r
+2
+​
+)
+(
+1
+−
+C
+t
+r
+2
+​
+)
+​
+C
+pt
+​
+−
+C
+p
+r
+​
+C
+t
+r
+​
+​
+That control is not a refinement, it is the metric. A real developmental or perturbation response is itself correlated with how highly a gene is already expressed, because highly-expressed genes tend to be the ones under active regulation at that stage. A plain correlation therefore pays a submission for reproducing a relationship that carries no model signal at all: submitting 0.99× the reference scored 0.31 before the control was added. Partialling the reference out leaves only the agreement its own expression level cannot already explain.
+A no-change prediction returns 0, as does the degenerate case where the prediction’s entire signal is collinear with reference expression level and there is nothing left to credit.
+Response magnitude
+25% of the score
+How strong the predicted phenotype is, scored on the absolute value.
+Perturbation Severity Score
+(PSS)
+T3
+0 is correct
+common/core_metrics.py::severity_slope
+The perturbation severity score measures how strong the predicted phenotype is relative to the real one. Two knockouts can move the same genes in the same direction and still be different phenotypes — one mild, one severe — so a prediction can score well on DES and DCS and still be wrong about how hard the embryo was hit.
+First, we restrict to the truth’s own DE gene set, defined as above. We then fit a zero-intercept least-squares slope of predicted log fold change on observed log fold change, and record how much of the variance that fit explains:
+β
+=
+Δ
+t
+DE
+​
+⋅
+Δ
+t
+DE
+​
+Δ
+t
+DE
+​
+⋅
+Δ
+p
+DE
+​
+​
+,
+R
+2
+=
+1
+−
+​
+Δ
+p
+DE
+​
+−
+Δ
+p
+DE
+​
+​
+​
+2
+​
+Δ
+p
+DE
+​
+−
+β
+Δ
+t
+DE
+​
+​
+2
+​
+Finally, the score is the signed log of that slope, gated on the fit explaining something and the direction not being inverted:
+PSS
+=
+{
+lo
+g
+β
+undefined
+​
+β
+>
+0
+and
+R
+2
+>
+0.01
+otherwise
+​
+β = 1, so log β = 0, means the predicted effect size tracks the true one gene for gene on average. Positive is overshoot, negative undershoot.
+The gate is why this is a regression slope rather than a ratio of the two response vectors’ norms: norms do not care about direction, so any rotation of a correctly-sized but randomly-directed delta wins a norm ratio outright. A direction unrelated to the truth regresses toward β → 0, and is reported as an honest “undefined” rather than credited with a number.
+Cell-state distribution
+20% of the score
+The same question Tasks 1 and 2 ask, computed the same way. Directly against the target, with no wild-type-relative construction.
+Maximum Mean Discrepancy
+(MMD)
+T1 · T2 · T3
+lower is better
+60% of this group
+common/core_metrics.py::mmd_unbiased
+Maximum mean discrepancy measures whether the predicted population of cells is the same population as the observed one: the right cell states in the right proportions. A stage of development is a mixture of progenitors, differentiating cells and terminal types all at once, not one average cell, and this is the term that holds a submission to that.
+First, both the prediction and the target, up to 2000 cells each, are projected into a 30-component PCA basis fitted on the target alone, so that a submission cannot bend the space it is scored in to its own advantage.
+Next, for each of five RBF kernel bandwidths γ_s = s · γ₀ with s ∈ {0.25, 0.5, 1, 2, 4}, spread around the target’s own median-heuristic bandwidth γ₀, we compute the squared discrepancy between the two sets of cells:
+MMD
+s
+2
+​
+=
+n
+a
+​
+(
+n
+a
+​
+−
+1
+)
+1
+​
+i
+
+=
+i
+′
+∑
+​
+k
+s
+​
+(
+a
+i
+​
+,
+a
+i
+′
+​
+)
++
+n
+b
+​
+(
+n
+b
+​
+−
+1
+)
+1
+​
+j
+
+=
+j
+′
+∑
+​
+k
+s
+​
+(
+b
+j
+​
+,
+b
+j
+′
+​
+)
+−
+n
+a
+​
+n
+b
+​
+2
+​
+i
+,
+j
+∑
+​
+k
+s
+​
+(
+a
+i
+​
+,
+b
+j
+​
+)
+Finally, we average over the five bandwidths, so the score sees both coarse population shifts and fine within-population structure rather than committing to one length scale:
+MMD
+=
+5
+1
+​
+s
+∑
+​
+MMD
+s
+2
+​
+,
+k
+s
+​
+(
+x
+,
+y
+)
+=
+exp
+(
+−
+γ
+s
+​
+∥
+x
+−
+y
+∥
+2
+)
+Dropping the kernel diagonal, the i ≠ i′ and j ≠ j′ conditions, makes this an unbiased estimator. The biased version put a perfect prediction at roughly 2/n rather than 0, a finite-sample artefact that a naive rescaling then mistook for the attainable ceiling.
+Co-expression Structure Score
+(CSS)
+T1 · T2 · T3
+lower is better
+40% of this group
+common/core_metrics.py::variogram_score
+The co-expression structure score measures whether genes that move together in the real embryo still move together in the prediction. A cell-fate programme is a set of co-regulated genes, a transcription factor and its targets rising in step, and this is the only term in the panel that constrains it. Every other expression metric here is a function of per-gene marginals or lives in a PCA space, so a submission can get every gene’s individual distribution exactly right while scrambling which genes co-vary with which, and pass all of them.
+First, we sample 20,000 random gene pairs (i, j) with i ≠ j. For each pair, in each dataset, we take the geostatistical variogram at p = 0.5. Applied across gene pairs instead of spatial lags:
+v
+(
+i
+,
+j
+)
+=
+E
+cells
+​
+​
+x
+i
+​
+−
+x
+j
+​
+​
+0.5
+Finally, the score is the mean squared difference between the predicted and observed variograms over those pairs: a direct measurement of whether pairwise gene-gene covariance structure survived the prediction:
+CSS
+=
+E
+(
+i
+,
+j
+)
+​
+[
+(
+v
+pred
+​
+(
+i
+,
+j
+)
+−
+v
+true
+​
+(
+i
+,
+j
+)
+)
+2
+]
+0 for a perfect match.
+Overall score
+Everything above measures one question. This is how they become the number on the leaderboard.
+Per-metric skill
+A raw metric value is not comparable across tasks, or even across metrics (some are bounded correlations, some are unbounded distances. Each one is therefore rescaled against two published anchors: a floor model (copy_last for Tasks 1 and 2, wt_identity for Task 3) and the attainable ceiling (half the held-out target scored against its other, disjoint half) deliberately not the target resubmitted verbatim, which no honest generative model can reach).
+Let d(m) be a metric’s distance from the ceiling, and d_floor the floor’s own distance from the ceiling: one fixed “floor-unit” per metric:
+d
+(
+m
+)
+=
+{
+m
+−
+m
+ceiling
+​
+m
+ceiling
+​
+−
+m
+​
+lower is better
+higher is better
+​
+,
+d
+floor
+​
+=
+​
+m
+ceiling
+​
+−
+m
+floor
+​
+​
+The rescaling is hyperbolic rather than linear, which bounds the result to (0, 1] by construction instead of by clipping:
+skill
+(
+m
+)
+=
+min
+(
+d
+floor
+​
++
+d
+(
+m
+)
+d
+floor
+​
+​
+,
+1
+)
+At the ceiling, d = 0 and skill = 1. At the floor, d = d_floor and skill = 0.5: the floor sits at the midpoint of the scale, not at zero. As a model gets arbitrarily worse, skill approaches zero asymptotically without ever reaching it, so two very different degrees of failure stay numerically distinct instead of both flattening onto the same value. A model that beats the ceiling is clipped to exactly 1, since the ceiling is a half-versus-half estimate rather than a true optimum.
+An earlier linear ratio was unbounded below, so a model well past the floor could read as −500% skill. Fixing it at the root rather than clipping afterwards matters: clipping would have collapsed every failure past the floor onto an identical flat zero, throwing away real information.
+Two rules attach here. A metric whose ideal value is 0 rather than an extreme, a signed log ratio or log slope, is scored on its absolute value first, as a lower-is-better term. And a metric that is declared but comes back missing or NaN counts as skill 0, the worst case on this scale, never quietly dropped from the average; otherwise a model would be judged on an easier subset of questions than its competitors.
+Combining the questions
+Turning the panel into a single ranking has to keep the metric count from doubling as a weight. Task 2’s shape question happens to need three distance functions; averaging every metric flat would silently give “is the shape right” three times the say of “did you get the change right”, for no reason other than that shape is harder to capture in one number.
+So metrics are combined by an explicit within-group weight that sums to 1, and groups by an explicit group weight that also sums to 1:
+S
+task
+​
+=
+(
+groups
+g
+∑
+​
+w
+g
+​
+⋅
+(
+m
+∈
+g
+∑
+​
+w
+m
+∣
+g
+​
+⋅
+skill
+(
+m
+)
+)
+)
+×
+100
+,
+g
+∑
+​
+w
+g
+​
+=
+1
+,
+m
+∈
+g
+∑
+​
+w
+m
+∣
+g
+​
+=
+1
+Because every skill(m) already lies in (0, 1], every weighted average of them (within a group, and again across groups) is automatically in (0, 100] on the printed scale. No clipping appears anywhere in the aggregation. A task score of 50 reads as “exactly matches the floor” on every task; above 50 is real improvement, below 50 real regression, and the scale never runs out of room in either direction.
+Task 3 in full
+The weights that apply to this task, as declared in the scoring table.
+Question
+Weight
+Metrics
+Response gene recovery
+30%
+DES
+Response direction
+25%
+DCS
+Response magnitude
+25%
+PSS
+Cell-state distribution
+20%
+MMD
+(0.60)
+,
+CSS
+(0.40)
+Calibration anchors
+The floor and ceiling in raw metric units, per board: the two numbers the transform above is built from. With these you can reproduce any leaderboard score from a raw metric value and check a local scorer against ours, rather than inferring the mapping.
+Validation boards only. The hidden test boards decide the final ranking and nothing about them is published.
+Two-sided metrics. Scale_log_ratio among them. Are compared on absolute value, anchors included, before the transform.
+T3:gata4
+· floor = wt_identity
+Metric
+Floor
+Ceiling
+de_score
+0
+0.8696
+de_direction
+0
+0.9247
+severity_slope
+-6.9078
+-0.0088
+mmd_u
+0.03141
+0.00039
+variogram
+0.032212
+0.000737
+Also in
+index.json
+under
+anchors
+, beside each board's gene panel and cell limits.

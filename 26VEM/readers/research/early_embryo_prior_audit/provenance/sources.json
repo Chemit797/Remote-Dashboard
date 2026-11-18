@@ -1,0 +1,146 @@
+[
+  {
+    "source_id": "PV001",
+    "path": "snapshots\\official_20261110_data_page.txt",
+    "origin": "D:\\Project\\virtualembryo_biocosmosX\\handoffs\\from_5090_20261115\\received\\local_control_handoff_20261115\\reference\\team\\evidence\\public_20261110\\data_page.txt",
+    "kind": "dated official-page snapshot",
+    "source_date": "2026-11-10",
+    "retrieved_at": "2026-11-16T04:27:07.988599+00:00",
+    "bytes": 24863,
+    "sha256": "70ce80272d3e26fa91d91111c5c5836852c045bce50c2fcafc4e0cbe5645bae9"
+  },
+  {
+    "source_id": "PV002",
+    "path": "snapshots\\official_20261110_rules_page.txt",
+    "origin": "D:\\Project\\virtualembryo_biocosmosX\\handoffs\\from_5090_20261115\\received\\local_control_handoff_20261115\\reference\\team\\evidence\\public_20261110\\rules_page.txt",
+    "kind": "dated official-page snapshot",
+    "source_date": "2026-11-10",
+    "retrieved_at": "2026-11-16T04:27:07.990598+00:00",
+    "bytes": 29128,
+    "sha256": "d8ba494d4aa52c68216d8433a5640894d15041fb70d1bac81ca7f73861a67c23"
+  },
+  {
+    "source_id": "PV003",
+    "path": "snapshots\\official_live_data.html",
+    "origin": "https://virtualembryo.ai/challenge/data",
+    "kind": "current official HTTP response",
+    "source_date": null,
+    "retrieved_at": "2026-11-16T04:27:08.755169+00:00",
+    "bytes": 194848,
+    "sha256": "dd080de6c76d46676606dc5fd9bf30a3407a2f1ed958b578d42bf295ed4548a1"
+  },
+  {
+    "source_id": "PV004",
+    "path": "snapshots\\official_live_rules.html",
+    "origin": "https://virtualembryo.ai/challenge/rules",
+    "kind": "current official HTTP response",
+    "source_date": null,
+    "retrieved_at": "2026-11-16T04:27:09.033025+00:00",
+    "bytes": 169411,
+    "sha256": "a217120afdd85e3e0912329e72281fe6edf94b8ef24ebf2d8ca265cc1b0046af"
+  },
+  {
+    "source_id": "PV005",
+    "path": "snapshots\\official_live_panels_index.json",
+    "origin": "https://virtualembryo.ai/challenge/panels/index.json",
+    "kind": "current official HTTP response",
+    "source_date": null,
+    "retrieved_at": "2026-11-16T04:27:09.429553+00:00",
+    "bytes": 7283,
+    "sha256": "b03b6dea5f74e159a37c1261b330d56e5f8ee199f6014247c5b4c5402c01f0d9"
+  },
+  {
+    "source_id": "PV006",
+    "path": "snapshots\\remote_panel_and_source_metadata.json",
+    "origin": "/home/biocosmosx/work/virtualembryo_cym",
+    "kind": "read-only source metadata",
+    "source_date": "2026-11-16",
+    "retrieved_at": "2026-11-16T04:27:15.340839+00:00",
+    "bytes": 52052,
+    "sha256": "6a6b8fe9c6e8d0327cd9c220c12a89afcd0cdb7a4a46964a7c93fe1e0156f07b"
+  },
+  {
+    "source_id": "PV0100",
+    "path": "snapshots\\official_remote_live_data.html",
+    "origin": "https://virtualembryo.ai/challenge/data",
+    "kind": "current official HTTP response via wsl5090",
+    "source_date": null,
+    "retrieved_at": "2026-11-16T04:27:15.345284+00:00",
+    "bytes": 194848,
+    "sha256": "9583f6422c1606ecb44971685b2d5c60ea3d1f8b95170963e045a92156cae310"
+  },
+  {
+    "source_id": "PV0101",
+    "path": "snapshots\\official_remote_live_rules.html",
+    "origin": "https://virtualembryo.ai/challenge/rules",
+    "kind": "current official HTTP response via wsl5090",
+    "source_date": null,
+    "retrieved_at": "2026-11-16T04:27:15.348805+00:00",
+    "bytes": 169411,
+    "sha256": "4cf2d148d03f591f853fff9cf745cf366485904266b579ae1962e76994aab716"
+  },
+  {
+    "source_id": "PV0102",
+    "path": "snapshots\\official_remote_live_index.json",
+    "origin": "https://virtualembryo.ai/challenge/panels/index.json",
+    "kind": "current official HTTP response via wsl5090",
+    "source_date": null,
+    "retrieved_at": "2026-11-16T04:27:15.349800+00:00",
+    "bytes": 7283,
+    "sha256": "b03b6dea5f74e159a37c1261b330d56e5f8ee199f6014247c5b4c5402c01f0d9"
+  },
+  {
+    "source_id": "PV020",
+    "path": "snapshots/current_data-protocol.html",
+    "origin": "https://virtualembryo.ai/challenge/data-protocol",
+    "kind": "current official HTTP response",
+    "retrieved_at": "2026-11-16T04:29:06.537364+00:00",
+    "bytes": 148551,
+    "sha256": "d6e4908ef947a25778c98e4b1ceafee7b01c85109afc9c5bc1eb00c2a3fef34c"
+  },
+  {
+    "source_id": "PV021",
+    "path": "snapshots/current_tasks_spatial.html",
+    "origin": "https://virtualembryo.ai/challenge/tasks/spatial",
+    "kind": "current official HTTP response",
+    "retrieved_at": "2026-11-16T04:29:06.875164+00:00",
+    "bytes": 142948,
+    "sha256": "0dc58115d1303675901117cf41b7a03ae4d9df756af1f2f12e74e6f78e7a3dbf"
+  },
+  {
+    "source_id": "PV022",
+    "path": "snapshots/current_panels_T2__embryo__test_interp.genes.txt",
+    "origin": "https://virtualembryo.ai/challenge/panels/T2__embryo__test_interp.genes.txt",
+    "kind": "current official HTTP response",
+    "retrieved_at": "2026-11-16T04:29:07.033309+00:00",
+    "bytes": 2984,
+    "sha256": "2721f3cf33946baba630ce22e91e8023e9ba89931c5b9848c9c80a5986cbb77b"
+  },
+  {
+    "source_id": "PV023",
+    "path": "snapshots/current_panels_T2__embryo__val_interp.genes.txt",
+    "origin": "https://virtualembryo.ai/challenge/panels/T2__embryo__val_interp.genes.txt",
+    "kind": "current official HTTP response",
+    "retrieved_at": "2026-11-16T04:29:07.350411+00:00",
+    "bytes": 2993,
+    "sha256": "e20f726e623e04af289b434277187002150dbd5699a3ed09f5babfb633eddee7"
+  },
+  {
+    "source_id": "PV024",
+    "path": "snapshots/current_GSE278603_series.soft.txt",
+    "origin": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278603&targ=self&form=text&view=full",
+    "kind": "current GEO series metadata",
+    "retrieved_at": "2026-11-16T04:31:25.418786+00:00",
+    "bytes": 2869,
+    "sha256": "389237e2af3fc89eca4fca81e15c987212c442fb6e6bbd2c116ab0af0cfb4e8b"
+  },
+  {
+    "source_id": "PV025",
+    "path": "snapshots\\pijuan_label_vocabulary.json",
+    "origin": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-01__VED-001__E-MTAB-6967/raw/preexisting_official_asset/meta.csv",
+    "kind": "author label vocabulary from local original metadata",
+    "retrieved_at": "2026-11-16T04:31:59.294602+00:00",
+    "bytes": 1461,
+    "sha256": "0879c180dd764f27a057972b79468ecfc46ad2eb38cabe785bc2023a8145064c"
+  }
+]

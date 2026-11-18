@@ -1,0 +1,137 @@
+﻿claim_id,official_stage,claim_stage_definition,panel_coverage,required_gene_n,provided_gene_n,testability,overall_verdict,reason,claim_stage_alignment,result_path,profile_semantics
+L001,E6.75,E6.5;E6.75;E7.0;E7.25;E7.5;E7.75;E8.0;E8.25;E8.5,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L001,E7.25,E6.5;E6.75;E7.0;E7.25;E7.5;E7.75;E8.0;E8.25;E8.5,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L001,E7.5,E6.5;E6.75;E7.0;E7.25;E7.5;E7.75;E8.0;E8.25;E8.5,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L001,E8.0,E6.5;E6.75;E7.0;E7.25;E7.5;E7.75;E8.0;E8.25;E8.5,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L002,E6.75,E6.75,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L002,E7.25,E6.75,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L002,E7.5,E6.75,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L002,E8.0,E6.75,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L003,E6.75,E6.75,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L003,E7.25,E6.75,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L003,E7.5,E6.75,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L003,E8.0,E6.75,不依赖基因,0,0,当前无法直接检验,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L004,E6.75,E6.5–E8.5,未覆盖,2,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L004,E7.25,E6.5–E8.5,未覆盖,2,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L004,E7.5,E6.5–E8.5,未覆盖,2,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L004,E8.0,E6.5–E8.5,未覆盖,2,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L005,E6.75,Et6.5–Et7.6,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L005,E7.25,Et6.5–Et7.6,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L005,E7.5,Et6.5–Et7.6,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L005,E8.0,Et6.5–Et7.6,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L006,E6.75,Et6.5–Et7.6,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L006,E7.25,Et6.5–Et7.6,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L006,E7.5,Et6.5–Et7.6,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L006,E8.0,Et6.5–Et7.6,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L007,E6.75,Et6.5–Et8.1,部分覆盖,4,1,仅部分诊断,证据不足,已给出同名候选类群的检测率、表达和区分度；有检出不等于原文激活过程或二维metacell判定规则成立。缺少同定义前态/阈值及Et对应，原命题尚不能直接判定。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L007,E7.25,Et6.5–Et8.1,部分覆盖,4,1,仅部分诊断,证据不足,已给出同名候选类群的检测率、表达和区分度；有检出不等于原文激活过程或二维metacell判定规则成立。缺少同定义前态/阈值及Et对应，原命题尚不能直接判定。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L007,E7.5,Et6.5–Et8.1,部分覆盖,4,1,仅部分诊断,证据不足,已给出同名候选类群的检测率、表达和区分度；有检出不等于原文激活过程或二维metacell判定规则成立。缺少同定义前态/阈值及Et对应，原命题尚不能直接判定。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L007,E8.0,Et6.5–Et8.1,部分覆盖,4,1,仅部分诊断,证据不足,已给出同名候选类群的检测率、表达和区分度；有检出不等于原文激活过程或二维metacell判定规则成立。缺少同定义前态/阈值及Et对应，原命题尚不能直接判定。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L008,E6.75,Et6.7–Et7.8,部分覆盖,5,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L008,E7.25,Et6.7–Et7.8,部分覆盖,5,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L008,E7.5,Et6.7–Et7.8,部分覆盖,5,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L008,E8.0,Et6.7–Et7.8,部分覆盖,5,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L009,E6.75,Et6.7–Et7.8,完全覆盖,2,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L009,E7.25,Et6.7–Et7.8,完全覆盖,2,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L009,E7.5,Et6.7–Et7.8,完全覆盖,2,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L009,E8.0,Et6.7–Et7.8,完全覆盖,2,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L010,E6.75,Et6.5–Et8.1,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L010,E7.25,Et6.5–Et8.1,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L010,E7.5,Et6.5–Et8.1,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L010,E8.0,Et6.5–Et8.1,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L011,E6.75,Et6.5–Et8.1,完全覆盖,3,3,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L011,E7.25,Et6.5–Et8.1,完全覆盖,3,3,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L011,E7.5,Et6.5–Et8.1,完全覆盖,3,3,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L011,E8.0,Et6.5–Et8.1,完全覆盖,3,3,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L012,E6.75,Et6.5–Et8.1,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L012,E7.25,Et6.5–Et8.1,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L012,E7.5,Et6.5–Et8.1,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L012,E8.0,Et6.5–Et8.1,部分覆盖,3,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L013,E6.75,Et6.5–Et8.1,部分覆盖,2,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L013,E7.25,Et6.5–Et8.1,部分覆盖,2,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L013,E7.5,Et6.5–Et8.1,部分覆盖,2,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L013,E8.0,Et6.5–Et8.1,部分覆盖,2,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L014,E6.75,Et6.5–Et8.1,部分覆盖,2,1,仅部分诊断,证据不足,已给出同名候选类群的检测率、表达和区分度；有检出不等于原文激活过程或二维metacell判定规则成立。缺少同定义前态/阈值及Et对应，原命题尚不能直接判定。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L014,E7.25,Et6.5–Et8.1,部分覆盖,2,1,仅部分诊断,证据不足,已给出同名候选类群的检测率、表达和区分度；有检出不等于原文激活过程或二维metacell判定规则成立。缺少同定义前态/阈值及Et对应，原命题尚不能直接判定。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L014,E7.5,Et6.5–Et8.1,部分覆盖,2,1,仅部分诊断,证据不足,已给出同名候选类群的检测率、表达和区分度；有检出不等于原文激活过程或二维metacell判定规则成立。缺少同定义前态/阈值及Et对应，原命题尚不能直接判定。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L014,E8.0,Et6.5–Et8.1,部分覆盖,2,1,仅部分诊断,证据不足,已给出同名候选类群的检测率、表达和区分度；有检出不等于原文激活过程或二维metacell判定规则成立。缺少同定义前态/阈值及Et对应，原命题尚不能直接判定。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L015,E6.75,Et6.5–Et7.6,完全覆盖,2,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L015,E7.25,Et6.5–Et7.6,完全覆盖,2,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L015,E7.5,Et6.5–Et7.6,完全覆盖,2,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L015,E8.0,Et6.5–Et7.6,完全覆盖,2,2,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L016,E6.75,Et6.9–Et8.1,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L016,E7.25,Et6.9–Et8.1,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L016,E7.5,Et6.9–Et8.1,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L016,E8.0,Et6.9–Et8.1,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L017,E6.75,Et6.5–Et8.1,完全覆盖,1,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L017,E7.25,Et6.5–Et8.1,完全覆盖,1,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L017,E7.5,Et6.5–Et8.1,完全覆盖,1,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L017,E8.0,Et6.5–Et8.1,完全覆盖,1,1,仅部分诊断,条件不可比,官方没有与原命题同定义且经确认的对应类型/状态。候选标签的表达另列为诊断，不替换原命题。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L018,E6.75,Et6.7–Et8.0,不依赖基因,0,0,当前无法直接检验,证据不足,原文为模型流量/命运推断；横断面组成与表达不能验证真实命运或分化速度。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L018,E7.25,Et6.7–Et8.0,不依赖基因,0,0,当前无法直接检验,证据不足,原文为模型流量/命运推断；横断面组成与表达不能验证真实命运或分化速度。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L018,E7.5,Et6.7–Et8.0,不依赖基因,0,0,当前无法直接检验,证据不足,原文为模型流量/命运推断；横断面组成与表达不能验证真实命运或分化速度。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L018,E8.0,Et6.7–Et8.0,不依赖基因,0,0,当前无法直接检验,证据不足,原文为模型流量/命运推断；横断面组成与表达不能验证真实命运或分化速度。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L019,E6.75,Et8.1,不依赖基因,0,0,当前无法直接检验,条件不可比,原命题阶段晚于官方已观测E8.0，不能把更晚或模型Et8.1的事实迁移为E8.0真值。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L019,E7.25,Et8.1,不依赖基因,0,0,当前无法直接检验,条件不可比,原命题阶段晚于官方已观测E8.0，不能把更晚或模型Et8.1的事实迁移为E8.0真值。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L019,E7.5,Et8.1,不依赖基因,0,0,当前无法直接检验,条件不可比,原命题阶段晚于官方已观测E8.0，不能把更晚或模型Et8.1的事实迁移为E8.0真值。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L019,E8.0,Et8.1,不依赖基因,0,0,当前无法直接检验,条件不可比,原命题阶段晚于官方已观测E8.0，不能把更晚或模型Et8.1的事实迁移为E8.0真值。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L020,E6.75,E8.25;E8.5,未覆盖,1,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L020,E7.25,E8.25;E8.5,未覆盖,1,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L020,E7.5,E8.25;E8.5,未覆盖,1,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L020,E8.0,E8.25;E8.5,未覆盖,1,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L021,E6.75,E8.25;E8.5,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L021,E7.25,E8.25;E8.5,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L021,E7.5,E8.25;E8.5,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L021,E8.0,E8.25;E8.5,未覆盖,4,0,当前无法直接检验,面板未覆盖,该知识所需基因均不在本轮官方实际基因集合中。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+L022,E6.75,E8.25;E8.5,部分覆盖,2,1,当前无法直接检验,条件不可比,原命题阶段晚于官方已观测E8.0，不能把更晚或模型Et8.1的事实迁移为E8.0真值。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L022,E7.25,E8.25;E8.5,部分覆盖,2,1,当前无法直接检验,条件不可比,原命题阶段晚于官方已观测E8.0，不能把更晚或模型Et8.1的事实迁移为E8.0真值。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L022,E7.5,E8.25;E8.5,部分覆盖,2,1,当前无法直接检验,条件不可比,原命题阶段晚于官方已观测E8.0，不能把更晚或模型Et8.1的事实迁移为E8.0真值。,must not equate Et/range with literal E,claim_checks.jsonl,verified integer count layer
+L022,E8.0,E8.25;E8.5,部分覆盖,2,1,当前无法直接检验,条件不可比,原命题阶段晚于官方已观测E8.0，不能把更晚或模型Et8.1的事实迁移为E8.0真值。,must not equate Et/range with literal E,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D001,E6.75,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D001,E7.25,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D001,E7.5,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D001,E8.0,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D002,E6.75,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D002,E7.25,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D002,E7.5,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D002,E8.0,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D003,E6.75,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D003,E7.25,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D003,E7.5,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D003,E8.0,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D004,E6.75,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D004,E7.25,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D004,E7.5,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D004,E8.0,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D005,E6.75,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D005,E7.25,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D005,E7.5,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D005,E8.0,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D006,E6.75,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D006,E7.25,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D006,E7.5,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,verified integer count layer
+D006,E8.0,E6.75;E7.25;E8.0,不依赖基因,0,0,仅部分诊断,条件不可比,逐样本差值已报告；E8.0切片取材不等同整胚，其他阶段精确ROI未提供。不存在可证明吻合的原文范围，不能据接近阈值判定。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D007,E6.75,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D007,E7.25,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D007,E7.5,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D007,E8.0,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D008,E6.75,E6.75;E7.25,不依赖基因,0,0,可检验（观测方向）,观测一致,仅指E6.75→E7.25给定名称对应的观测比例变化方向；不是生物重复或分化速度验证。,collection day stated,claim_checks.jsonl,verified integer count layer
+D008,E7.25,E6.75;E7.25,不依赖基因,0,0,可检验（观测方向）,观测一致,仅指E6.75→E7.25给定名称对应的观测比例变化方向；不是生物重复或分化速度验证。,collection day stated,claim_checks.jsonl,verified integer count layer
+D008,E7.5,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,观测一致,仅指E6.75→E7.25给定名称对应的观测比例变化方向；不是生物重复或分化速度验证。,collection day stated,claim_checks.jsonl,verified integer count layer
+D008,E8.0,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,观测一致,仅指E6.75→E7.25给定名称对应的观测比例变化方向；不是生物重复或分化速度验证。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D009,E6.75,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D009,E7.25,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D009,E7.5,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D009,E8.0,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D010,E6.75,E6.75;E7.25,不依赖基因,0,0,可检验（观测方向）,观测一致,仅指E6.75→E7.25给定名称对应的观测比例变化方向；不是生物重复或分化速度验证。,collection day stated,claim_checks.jsonl,verified integer count layer
+D010,E7.25,E6.75;E7.25,不依赖基因,0,0,可检验（观测方向）,观测一致,仅指E6.75→E7.25给定名称对应的观测比例变化方向；不是生物重复或分化速度验证。,collection day stated,claim_checks.jsonl,verified integer count layer
+D010,E7.5,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,观测一致,仅指E6.75→E7.25给定名称对应的观测比例变化方向；不是生物重复或分化速度验证。,collection day stated,claim_checks.jsonl,verified integer count layer
+D010,E8.0,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,观测一致,仅指E6.75→E7.25给定名称对应的观测比例变化方向；不是生物重复或分化速度验证。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D011,E6.75,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,结果混合,来源不同混合样本间的方向不一致，等权平均方向不足以视为稳定先验。,collection day stated,claim_checks.jsonl,verified integer count layer
+D011,E7.25,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,结果混合,来源不同混合样本间的方向不一致，等权平均方向不足以视为稳定先验。,collection day stated,claim_checks.jsonl,verified integer count layer
+D011,E7.5,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,结果混合,来源不同混合样本间的方向不一致，等权平均方向不足以视为稳定先验。,collection day stated,claim_checks.jsonl,verified integer count layer
+D011,E8.0,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,结果混合,来源不同混合样本间的方向不一致，等权平均方向不足以视为稳定先验。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified
+D012,E6.75,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D012,E7.25,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D012,E7.5,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,verified integer count layer
+D012,E8.0,E6.75;E7.25,不依赖基因,0,0,仅部分诊断,证据不足,官方或来源至少一个样本该类型少于30个观测；保留差值，不做强方向判断。,collection day stated,claim_checks.jsonl,E8.0 native X diagnostics; fractional weights unverified

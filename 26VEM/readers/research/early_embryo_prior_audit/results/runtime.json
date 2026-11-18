@@ -1,0 +1,12 @@
+{
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "versions": {
+    "numpy": "2.1.2",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0",
+    "scikit-learn": "1.6.1"
+  },
+  "seed": 20261116
+}

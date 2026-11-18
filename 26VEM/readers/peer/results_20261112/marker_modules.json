@@ -1,0 +1,63 @@
+{
+  "contractile": [
+    "Tnnt2",
+    "Tnni1",
+    "Actc1",
+    "Myh6",
+    "Myh7",
+    "Myl2",
+    "Myl3",
+    "Myl4",
+    "Myl7",
+    "Actn2",
+    "Tpm1",
+    "Ttn"
+  ],
+  "cardiac_regulators": [
+    "Nkx2-5",
+    "Tbx5",
+    "Gata4",
+    "Hand1",
+    "Hand2",
+    "Mef2c"
+  ],
+  "endothelial_identity": [
+    "Pecam1",
+    "Cdh5",
+    "Kdr",
+    "Flt1",
+    "Esam",
+    "Eng",
+    "Emcn",
+    "Tek"
+  ],
+  "S_phase": [
+    "Mcm2",
+    "Mcm3",
+    "Mcm4",
+    "Mcm5",
+    "Mcm6",
+    "Mcm7",
+    "Pcna",
+    "Tyms",
+    "Rrm2"
+  ],
+  "G2M": [
+    "Mki67",
+    "Top2a",
+    "Cdk1",
+    "Ccnb1",
+    "Ccnb2",
+    "Ube2c",
+    "Cenpf",
+    "Birc5"
+  ],
+  "neuronal_differentiation": [
+    "Tubb3",
+    "Dcx",
+    "Elavl3",
+    "Elavl4",
+    "Map2",
+    "Stmn2"
+  ]
+}

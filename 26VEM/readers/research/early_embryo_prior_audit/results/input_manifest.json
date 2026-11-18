@@ -1,0 +1,100 @@
+[
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-01__VED-001__E-MTAB-6967/raw/preexisting_official_asset/meta.csv",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/extracted/atlas/meta.csv",
+    "bytes": 23096948,
+    "sha256": "032750d2f442e9ddb0d76594dbb3e3e2740fdb333421903a2b7fd4b05769ad31",
+    "role": "external sample metadata"
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-01__VED-001__E-MTAB-6967/raw/preexisting_official_asset/genes.tsv",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/extracted/atlas/genes.tsv",
+    "bytes": 781332,
+    "sha256": "bb7fef37df6aee4aa197ad2251a1d57446c836cbab8c14f00e83d87c95464d44",
+    "role": "external features"
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-01__VED-001__E-MTAB-6967/raw/preexisting_official_asset/raw_counts.mtx",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/extracted/atlas/raw_counts.mtx",
+    "bytes": 6733199349,
+    "sha256": "b8f27d1e55bf88e0c47f33308489840216a732d4387ca1c7718ce40b5d4d740b",
+    "role": "external count source; protected values not parsed"
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-01__VED-001__E-MTAB-6967/audit/sample_inventory.csv",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-01__VED-001__E-MTAB-6967/audit/sample_inventory.csv",
+    "bytes": 33725,
+    "sha256": "2c8270a74bbf9c5963563b40635339a34846c6fd4a1a1ef6f81f6b1fab7254f2",
+    "role": "sample/pool provenance"
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/data/E6.75.h5ad",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E6.75.h5ad",
+    "bytes": 17454701,
+    "sha256": "ab58b9217d1b9a18b0181f498475a9eb821ac2c92ab2b7e45a623da0e4fffe70",
+    "role": "official released descriptive research",
+    "stage": "E6.75",
+    "matrix_layer": "layers/counts",
+    "annotation": "obs/celltype",
+    "filter": "all released observations",
+    "individual_id": null
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/data/E7.25.h5ad",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E7.25.h5ad",
+    "bytes": 33572151,
+    "sha256": "c34192a31036b783b97ce1877ac50fc920b39faa3e00dc3c637b3e7e04255ee6",
+    "role": "official released descriptive research",
+    "stage": "E7.25",
+    "matrix_layer": "layers/counts",
+    "annotation": "obs/celltype",
+    "filter": "all released observations",
+    "individual_id": null
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E7.5.h5ad",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E7.5.h5ad",
+    "bytes": 94538489,
+    "sha256": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+    "role": "official released descriptive research",
+    "stage": "E7.5",
+    "matrix_layer": "layers/counts",
+    "annotation": "obs/celltype",
+    "filter": "all released observations",
+    "individual_id": null
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/data/E8.0.h5ad",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E8.0.h5ad",
+    "bytes": 117703446,
+    "sha256": "17530e23fbfa6a139ff68d0353a489d83790f5b60f036b7d2f58303a1ff8a810",
+    "role": "official released descriptive research",
+    "stage": "E8.0",
+    "matrix_layer": "layers/counts",
+    "annotation": "obs/celltype",
+    "filter": "all released observations",
+    "individual_id": null
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046247_Embryo_E8.0_stereo_rep1.h5ad",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046247_Embryo_E8.0_stereo_rep1.h5ad",
+    "bytes": 37405785,
+    "sha256": "bfef8ebd62ea70944704a9b408410593f6698ca0ef0126274fabe32ff3cb2225",
+    "role": "external E8.0 expression comparison; reconstructed objects",
+    "replicate": 1,
+    "matrix_layer": "layers/counts",
+    "annotation": "obs/celltype",
+    "filter": "all released reconstructed objects"
+  },
+  {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046248_Embryo_E8.0_stereo_rep2.h5ad",
+    "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046248_Embryo_E8.0_stereo_rep2.h5ad",
+    "bytes": 107749798,
+    "sha256": "b913d8221e9e4788c9db1d44a8bf05083e3acb834ef392d31ba574174b182374",
+    "role": "external E8.0 expression comparison; reconstructed objects",
+    "replicate": 2,
+    "matrix_layer": "raw/X",
+    "annotation": "obs/celltype",
+    "filter": "all released reconstructed objects"
+  }
+]

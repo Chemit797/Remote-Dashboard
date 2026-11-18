@@ -1,0 +1,35 @@
+{
+  "at_utc": "2026-11-16T12:03:32.018251+00:00",
+  "pairs": 24,
+  "planned_type_comparisons": 58,
+  "files": {
+    "pairs.json": "728343743c109684b7fcad653203af7d28938aadb8d25a62d67932e387ef690b",
+    "PROTOCOL.md": "8dcca79e309c29e6e04f2adf0d4329773bf0d10a3d6c8b86ac64480ded207a87"
+  },
+  "label_basis": [
+    "../vem_prior_knowledge_v2/provenance/label_definition_crosswalk.json",
+    "candidate_metadata.jsonl"
+  ],
+  "marker_focus": [
+    "T",
+    "Sox2",
+    "Sox17",
+    "Foxa2",
+    "Mesp1",
+    "Isl1",
+    "Nkx2-5",
+    "Tnnt2",
+    "Myh6",
+    "Myh7",
+    "Myl2",
+    "Myl7",
+    "Pln",
+    "Hey2",
+    "Kdr",
+    "Cdh5",
+    "Pecam1",
+    "Gata4",
+    "Gata6",
+    "Rspo3"
+  ]
+}

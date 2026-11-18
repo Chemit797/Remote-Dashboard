@@ -1,0 +1,3935 @@
+[
+  {
+    "id": "B01_E8.5",
+    "row_id": "B01",
+    "external_dataset": "EMTAB_FULL",
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "external_ids": [
+      "VED-001"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E8.5",
+    "same_stage": true,
+    "note": "官方为心脏及周边细胞核，外部为全胚解离细胞",
+    "kind": "same_stage",
+    "common_genes": 26800,
+    "official_genes": 32285,
+    "external_genes": 29374,
+    "official_coverage": 0.830106860771256,
+    "external_coverage": 0.9123714849867229,
+    "official_n": 16787,
+    "external_n": 16909,
+    "official_unit": "nucleus",
+    "external_unit": "cell_in_embryo_pool",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "EMTAB_pool_17",
+        "n": 3611
+      },
+      {
+        "sample": "EMTAB_pool_29",
+        "n": 6460
+      },
+      {
+        "sample": "EMTAB_pool_36",
+        "n": 3652
+      },
+      {
+        "sample": "EMTAB_pool_37",
+        "n": 3186
+      }
+    ],
+    "j01": 0.5871623223922993,
+    "b01": 0.9302058603422787,
+    "detection_mean_abs_pp": 6.9794139657721255,
+    "detection_spearman": 0.9058074635703173,
+    "official_zero_fraction": 0.858922907206981,
+    "external_zero_fraction": 0.8727521922402526,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 3695,
+    "both_detected_genes": 19667,
+    "official_only_detected_genes": 3036,
+    "external_only_detected_genes": 402,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.10100746268656717,
+        "median": 0.1389179104477612,
+        "p90": 0.18522388059701492
+      },
+      "external": {
+        "p10": 0.09858208955223881,
+        "median": 0.12585820895522387,
+        "p90": 0.1578731343283582
+      }
+    },
+    "cell_detection_wasserstein_pp": 1.4150264149190694,
+    "shuffled_j01_median": 0.1322186814352062,
+    "shuffled_j01_all": [
+      0.13247919312366063,
+      0.13088824549318606,
+      0.13123537137662122,
+      0.1295432970823626,
+      0.13101676687414465,
+      0.1324617970207627,
+      0.1282264268309251,
+      0.1330006682729062,
+      0.13230299741793292,
+      0.13334073840615188,
+      0.13392247250922176,
+      0.13214511542049956,
+      0.1289787408020452,
+      0.13371407844143315,
+      0.13047846887510137,
+      0.12780883337922802,
+      0.13004856777226453,
+      0.1342615850052248,
+      0.13229224744991286,
+      0.13274704488716588
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.1393241580440373,
+          "within_official": 0.00541611516270557,
+          "within_external": 0.004560267423585507
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.14141544205501388,
+          "within_official": 0.005258756546170806,
+          "within_external": 0.0043874543398809696
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.13814461472528028,
+          "within_official": 0.0053052527825805385,
+          "within_external": 0.004613286649752135
+        }
+      ],
+      "cross_mean": 0.1396280716081105,
+      "cross_min": 0.13814461472528028,
+      "cross_max": 0.14141544205501388,
+      "within_official_mean": 0.005326708163818972,
+      "within_external_mean": 0.0045203361377395375
+    }
+  },
+  {
+    "id": "B01_E9.5",
+    "row_id": "B01",
+    "external_dataset": "EMTAB_FULL",
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "external_ids": [
+      "VED-001"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E8.5",
+    "same_stage": false,
+    "note": "官方为心脏及周边细胞核，外部为全胚解离细胞",
+    "kind": "same_stage",
+    "common_genes": 26800,
+    "official_genes": 32285,
+    "external_genes": 29374,
+    "official_coverage": 0.830106860771256,
+    "external_coverage": 0.9123714849867229,
+    "official_n": 17057,
+    "external_n": 16909,
+    "official_unit": "nucleus",
+    "external_unit": "cell_in_embryo_pool",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "EMTAB_pool_17",
+        "n": 3611
+      },
+      {
+        "sample": "EMTAB_pool_29",
+        "n": 6460
+      },
+      {
+        "sample": "EMTAB_pool_36",
+        "n": 3652
+      },
+      {
+        "sample": "EMTAB_pool_37",
+        "n": 3186
+      }
+    ],
+    "j01": 0.5840621097060898,
+    "b01": 0.9290936171864597,
+    "detection_mean_abs_pp": 7.090638281354036,
+    "detection_spearman": 0.9002480103665812,
+    "official_zero_fraction": 0.8572072152283079,
+    "external_zero_fraction": 0.8727521922402526,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 3749,
+    "both_detected_genes": 19663,
+    "official_only_detected_genes": 2982,
+    "external_only_detected_genes": 406,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.09847014925373135,
+        "median": 0.14041044776119402,
+        "p90": 0.19208955223880597
+      },
+      "external": {
+        "p10": 0.09858208955223881,
+        "median": 0.12585820895522387,
+        "p90": 0.1578731343283582
+      }
+    },
+    "cell_detection_wasserstein_pp": 1.6438149437274185,
+    "shuffled_j01_median": 0.1309026214692754,
+    "shuffled_j01_all": [
+      0.13227831426609118,
+      0.130502411698492,
+      0.13278329790570387,
+      0.13484852427171853,
+      0.1309540764629759,
+      0.1302018723796931,
+      0.13141562835832873,
+      0.13098439087289526,
+      0.13085116647557488,
+      0.13017693700026733,
+      0.13045232404714904,
+      0.12963325273976076,
+      0.1304508197919182,
+      0.12978290676026516,
+      0.13280163874831066,
+      0.12941243930076482,
+      0.13079565493924147,
+      0.1359561480991719,
+      0.13272210551755292,
+      0.13335748391015928
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.1392303997547496,
+          "within_official": 0.005591280959756806,
+          "within_external": 0.004560267423585507
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.1396293951017673,
+          "within_official": 0.005572497009394217,
+          "within_external": 0.0043874543398809696
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.1378824551250598,
+          "within_official": 0.005206102084882702,
+          "within_external": 0.004613286649752135
+        }
+      ],
+      "cross_mean": 0.13891408332719224,
+      "cross_min": 0.1378824551250598,
+      "cross_max": 0.1396293951017673,
+      "within_official_mean": 0.005456626684677908,
+      "within_external_mean": 0.0045203361377395375
+    }
+  },
+  {
+    "id": "B01_E10.5",
+    "row_id": "B01",
+    "external_dataset": "EMTAB_FULL",
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "external_ids": [
+      "VED-001"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E8.5",
+    "same_stage": false,
+    "note": "官方为心脏及周边细胞核，外部为全胚解离细胞",
+    "kind": "same_stage",
+    "common_genes": 26800,
+    "official_genes": 32285,
+    "external_genes": 29374,
+    "official_coverage": 0.830106860771256,
+    "external_coverage": 0.9123714849867229,
+    "official_n": 24979,
+    "external_n": 16909,
+    "official_unit": "nucleus",
+    "external_unit": "cell_in_embryo_pool",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "EMTAB_pool_17",
+        "n": 3611
+      },
+      {
+        "sample": "EMTAB_pool_29",
+        "n": 6460
+      },
+      {
+        "sample": "EMTAB_pool_36",
+        "n": 3652
+      },
+      {
+        "sample": "EMTAB_pool_37",
+        "n": 3186
+      }
+    ],
+    "j01": 0.5022721662618237,
+    "b01": 0.922469071102218,
+    "detection_mean_abs_pp": 7.753092889778197,
+    "detection_spearman": 0.881003834237648,
+    "official_zero_fraction": 0.8932392821910702,
+    "external_zero_fraction": 0.8727521922402526,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 3684,
+    "both_detected_genes": 19661,
+    "official_only_detected_genes": 3047,
+    "external_only_detected_genes": 408,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.051977611940298506,
+        "median": 0.10402985074626865,
+        "p90": 0.16645522388059703
+      },
+      "external": {
+        "p10": 0.09858208955223881,
+        "median": 0.12585820895522387,
+        "p90": 0.1578731343283582
+      }
+    },
+    "cell_detection_wasserstein_pp": 2.438603112170326,
+    "shuffled_j01_median": 0.12642722756024108,
+    "shuffled_j01_all": [
+      0.1266875394747155,
+      0.12383951555421477,
+      0.1257834041531558,
+      0.12665323505848763,
+      0.12881593374866893,
+      0.12757811692691012,
+      0.12361916782340877,
+      0.1274614044818378,
+      0.1255117618628716,
+      0.124879637347028,
+      0.1225834899378971,
+      0.12727309454670635,
+      0.12668650017619998,
+      0.12620122006199452,
+      0.1267147531905695,
+      0.12257008780744695,
+      0.12354595549287704,
+      0.1285253192782538,
+      0.12509809354529422,
+      0.12767786065025194
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.17577064617044302,
+          "within_official": 0.006861196380793189,
+          "within_external": 0.004560267423585507
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.18458734134132282,
+          "within_official": 0.0058382815086239215,
+          "within_external": 0.0043874543398809696
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.17717094077250917,
+          "within_official": 0.006030354790918735,
+          "within_external": 0.004613286649752135
+        }
+      ],
+      "cross_mean": 0.17917630942809168,
+      "cross_min": 0.17577064617044302,
+      "cross_max": 0.18458734134132282,
+      "within_official_mean": 0.006243277560111948,
+      "within_external_mean": 0.0045203361377395375
+    }
+  },
+  {
+    "id": "B02_E8.5",
+    "row_id": "B02",
+    "external_dataset": "TOME4_E85",
+    "external_name": "VED-004 · TOME E8.5 全胚胎图谱",
+    "external_ids": [
+      "VED-004"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E8.5",
+    "same_stage": true,
+    "note": "双方均为核RNA；外部为全胚，样本字段为12个RT组",
+    "kind": "same_stage",
+    "common_genes": 28276,
+    "official_genes": 32285,
+    "external_genes": 49399,
+    "official_coverage": 0.875824686386867,
+    "external_coverage": 0.572400251017227,
+    "official_n": 16787,
+    "external_n": 154313,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "E8.5_test1-01",
+        "n": 7354
+      },
+      {
+        "sample": "E8.5_test1-03",
+        "n": 8393
+      },
+      {
+        "sample": "E8.5_test1-05",
+        "n": 6903
+      },
+      {
+        "sample": "E8.5_test1-06",
+        "n": 1686
+      },
+      {
+        "sample": "E8.5_test1-08",
+        "n": 4617
+      },
+      {
+        "sample": "E8.5_test1-09",
+        "n": 9337
+      },
+      {
+        "sample": "E8.5_test2-1",
+        "n": 20233
+      },
+      {
+        "sample": "E8.5_test2-2",
+        "n": 13777
+      },
+      {
+        "sample": "E8.5_test2-3",
+        "n": 24661
+      },
+      {
+        "sample": "E8.5_test2-6",
+        "n": 17255
+      },
+      {
+        "sample": "E8.5_test2-7",
+        "n": 19487
+      },
+      {
+        "sample": "E8.5_test2-8",
+        "n": 20610
+      }
+    ],
+    "j01": 0.6569515428612106,
+    "b01": 0.9475977355568392,
+    "detection_mean_abs_pp": 5.240226444316078,
+    "detection_spearman": 0.9382328331118338,
+    "official_zero_fraction": 0.8659809244168973,
+    "external_zero_fraction": 0.880911938350336,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 2645,
+    "both_detected_genes": 23227,
+    "official_only_detected_genes": 294,
+    "external_only_detected_genes": 2110,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.09598245862215306,
+        "median": 0.1319493563446032,
+        "p90": 0.1759442636865186
+      },
+      "external": {
+        "p10": 0.06648748054887538,
+        "median": 0.11695430753996322,
+        "p90": 0.17290281510821898
+      }
+    },
+    "cell_detection_wasserstein_pp": 1.591919003809881,
+    "shuffled_j01_median": 0.13957773555716885,
+    "shuffled_j01_all": [
+      0.1391164907072376,
+      0.13827336366645582,
+      0.14107936220249334,
+      0.13813241906981097,
+      0.1403644743472323,
+      0.14111190646912286,
+      0.14065290490870602,
+      0.1401463664065889,
+      0.13772268122212153,
+      0.13703056047285053,
+      0.13953525240967043,
+      0.14142798485341804,
+      0.1407412337091939,
+      0.13994750307365178,
+      0.13927923460815644,
+      0.1409717272807618,
+      0.13962021870466726,
+      0.13743389758518065,
+      0.1384991736482829,
+      0.13455801321588662
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.09083508411127206,
+          "within_official": 0.005420539437275496,
+          "within_external": 0.005407512130392034
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.08977744579959801,
+          "within_official": 0.005267260008313568,
+          "within_external": 0.005457400773382304
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.093299475086287,
+          "within_official": 0.00531490184450667,
+          "within_external": 0.005330809139118098
+        }
+      ],
+      "cross_mean": 0.09130400166571902,
+      "cross_min": 0.08977744579959801,
+      "cross_max": 0.093299475086287,
+      "within_official_mean": 0.005334233763365244,
+      "within_external_mean": 0.005398574014297479
+    }
+  },
+  {
+    "id": "B02_E9.5",
+    "row_id": "B02",
+    "external_dataset": "TOME4_E85",
+    "external_name": "VED-004 · TOME E8.5 全胚胎图谱",
+    "external_ids": [
+      "VED-004"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E8.5",
+    "same_stage": false,
+    "note": "双方均为核RNA；外部为全胚，样本字段为12个RT组",
+    "kind": "same_stage",
+    "common_genes": 28276,
+    "official_genes": 32285,
+    "external_genes": 49399,
+    "official_coverage": 0.875824686386867,
+    "external_coverage": 0.572400251017227,
+    "official_n": 17057,
+    "external_n": 154313,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "E8.5_test1-01",
+        "n": 7354
+      },
+      {
+        "sample": "E8.5_test1-03",
+        "n": 8393
+      },
+      {
+        "sample": "E8.5_test1-05",
+        "n": 6903
+      },
+      {
+        "sample": "E8.5_test1-06",
+        "n": 1686
+      },
+      {
+        "sample": "E8.5_test1-08",
+        "n": 4617
+      },
+      {
+        "sample": "E8.5_test1-09",
+        "n": 9337
+      },
+      {
+        "sample": "E8.5_test2-1",
+        "n": 20233
+      },
+      {
+        "sample": "E8.5_test2-2",
+        "n": 13777
+      },
+      {
+        "sample": "E8.5_test2-3",
+        "n": 24661
+      },
+      {
+        "sample": "E8.5_test2-6",
+        "n": 17255
+      },
+      {
+        "sample": "E8.5_test2-7",
+        "n": 19487
+      },
+      {
+        "sample": "E8.5_test2-8",
+        "n": 20610
+      }
+    ],
+    "j01": 0.6413913436940176,
+    "b01": 0.9443394667720044,
+    "detection_mean_abs_pp": 5.566053322799555,
+    "detection_spearman": 0.9290013669194428,
+    "official_zero_fraction": 0.8643236664816017,
+    "external_zero_fraction": 0.880911938350336,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 2647,
+    "both_detected_genes": 23173,
+    "official_only_detected_genes": 292,
+    "external_only_detected_genes": 2164,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.09354222662328476,
+        "median": 0.13339934927146696,
+        "p90": 0.1825222803791201
+      },
+      "external": {
+        "p10": 0.06648748054887538,
+        "median": 0.11695430753996322,
+        "p90": 0.17290281510821898
+      }
+    },
+    "cell_detection_wasserstein_pp": 1.6924613900975394,
+    "shuffled_j01_median": 0.14008678670295294,
+    "shuffled_j01_all": [
+      0.1403283650344906,
+      0.13984520837141526,
+      0.14074884726204892,
+      0.1416793746148409,
+      0.14060177072420307,
+      0.1419897097529103,
+      0.1368028489719804,
+      0.13829815846255428,
+      0.14410151892001577,
+      0.1393506762219437,
+      0.14157725448881045,
+      0.13914841048362897,
+      0.14114819118851596,
+      0.1388883922812639,
+      0.1376349953796097,
+      0.14100277605176437,
+      0.13943641711303592,
+      0.14246313754065265,
+      0.13817878940805312,
+      0.13893459906854794
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.09853706366910053,
+          "within_official": 0.005607285690548469,
+          "within_external": 0.005407512130392034
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.09619874565519138,
+          "within_official": 0.005578771915630609,
+          "within_external": 0.005457400773382304
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.0990071744284774,
+          "within_official": 0.005223695550528151,
+          "within_external": 0.005330809139118098
+        }
+      ],
+      "cross_mean": 0.09791432791758976,
+      "cross_min": 0.09619874565519138,
+      "cross_max": 0.0990071744284774,
+      "within_official_mean": 0.00546991771890241,
+      "within_external_mean": 0.005398574014297479
+    }
+  },
+  {
+    "id": "B02_E10.5",
+    "row_id": "B02",
+    "external_dataset": "TOME4_E85",
+    "external_name": "VED-004 · TOME E8.5 全胚胎图谱",
+    "external_ids": [
+      "VED-004"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E8.5",
+    "same_stage": false,
+    "note": "双方均为核RNA；外部为全胚，样本字段为12个RT组",
+    "kind": "same_stage",
+    "common_genes": 28276,
+    "official_genes": 32285,
+    "external_genes": 49399,
+    "official_coverage": 0.875824686386867,
+    "external_coverage": 0.572400251017227,
+    "official_n": 24979,
+    "external_n": 154313,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "E8.5_test1-01",
+        "n": 7354
+      },
+      {
+        "sample": "E8.5_test1-03",
+        "n": 8393
+      },
+      {
+        "sample": "E8.5_test1-05",
+        "n": 6903
+      },
+      {
+        "sample": "E8.5_test1-06",
+        "n": 1686
+      },
+      {
+        "sample": "E8.5_test1-08",
+        "n": 4617
+      },
+      {
+        "sample": "E8.5_test1-09",
+        "n": 9337
+      },
+      {
+        "sample": "E8.5_test2-1",
+        "n": 20233
+      },
+      {
+        "sample": "E8.5_test2-2",
+        "n": 13777
+      },
+      {
+        "sample": "E8.5_test2-3",
+        "n": 24661
+      },
+      {
+        "sample": "E8.5_test2-6",
+        "n": 17255
+      },
+      {
+        "sample": "E8.5_test2-7",
+        "n": 19487
+      },
+      {
+        "sample": "E8.5_test2-8",
+        "n": 20610
+      }
+    ],
+    "j01": 0.6026607062803296,
+    "b01": 0.945327567485732,
+    "detection_mean_abs_pp": 5.467243251426801,
+    "detection_spearman": 0.9236159963951877,
+    "official_zero_fraction": 0.8985678143639807,
+    "external_zero_fraction": 0.880911938350336,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 2620,
+    "both_detected_genes": 23209,
+    "official_only_detected_genes": 319,
+    "external_only_detected_genes": 2128,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.04937049087565427,
+        "median": 0.09881171311359457,
+        "p90": 0.1580845947092941
+      },
+      "external": {
+        "p10": 0.06648748054887538,
+        "median": 0.11695430753996322,
+        "p90": 0.17290281510821898
+      }
+    },
+    "cell_detection_wasserstein_pp": 1.768975515965205,
+    "shuffled_j01_median": 0.1363551729472665,
+    "shuffled_j01_all": [
+      0.1378602712067249,
+      0.1320217982869447,
+      0.13693895035053483,
+      0.13619423573652603,
+      0.13783006164148823,
+      0.1366711694358074,
+      0.1351452009224412,
+      0.1374012658330724,
+      0.1368570115689938,
+      0.13555393625798878,
+      0.1341825827315023,
+      0.1361938552634102,
+      0.1393729542628069,
+      0.13723882635032866,
+      0.1337566315964138,
+      0.13472938991179467,
+      0.1355297554996683,
+      0.13651611015800696,
+      0.13202110057336575,
+      0.13806399127590194
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.09350776673701805,
+          "within_official": 0.006857768249273699,
+          "within_external": 0.005407512130392034
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.08866210908285,
+          "within_official": 0.005845060821264625,
+          "within_external": 0.005457400773382304
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.08926047060908171,
+          "within_official": 0.00603344240651027,
+          "within_external": 0.005330809139118098
+        }
+      ],
+      "cross_mean": 0.09047678214298326,
+      "cross_min": 0.08866210908285,
+      "cross_max": 0.09350776673701805,
+      "within_official_mean": 0.006245423825682865,
+      "within_external_mean": 0.005398574014297479
+    }
+  },
+  {
+    "id": "B03_E8.5",
+    "row_id": "B03",
+    "external_dataset": "TOME3_E95",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "external_ids": [
+      "VED-003",
+      "VED-008"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "同一细胞ID连接VED-008计数和VED-003标签/QC，只算一份证据；全胚与官方心脏周边范围不同",
+    "kind": "same_stage",
+    "common_genes": 20998,
+    "official_genes": 32285,
+    "external_genes": 26133,
+    "official_coverage": 0.6503949202415983,
+    "external_coverage": 0.8035051467493208,
+    "official_n": 16787,
+    "external_n": 110229,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "embryo1.0",
+        "n": 14915
+      },
+      {
+        "sample": "embryo19.0",
+        "n": 3970
+      },
+      {
+        "sample": "embryo20.0",
+        "n": 2686
+      },
+      {
+        "sample": "embryo21.0",
+        "n": 11836
+      },
+      {
+        "sample": "embryo22.0",
+        "n": 5428
+      },
+      {
+        "sample": "embryo3.0",
+        "n": 7661
+      },
+      {
+        "sample": "embryo39.0",
+        "n": 6601
+      },
+      {
+        "sample": "embryo40.0",
+        "n": 7153
+      },
+      {
+        "sample": "embryo41.0",
+        "n": 3538
+      },
+      {
+        "sample": "embryo42.0",
+        "n": 8090
+      },
+      {
+        "sample": "embryo55.0",
+        "n": 3839
+      },
+      {
+        "sample": "embryo56.0",
+        "n": 7647
+      },
+      {
+        "sample": "embryo57.0",
+        "n": 9228
+      },
+      {
+        "sample": "embryo58.0",
+        "n": 7533
+      },
+      {
+        "sample": "embryo63.0",
+        "n": 10104
+      }
+    ],
+    "j01": 0.18911453737606498,
+    "b01": 0.8538258676005979,
+    "detection_mean_abs_pp": 14.617413239940207,
+    "detection_spearman": 0.8833053028408756,
+    "official_zero_fraction": 0.8201217942714205,
+    "external_zero_fraction": 0.9655226723811104,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 25,
+    "both_detected_genes": 20600,
+    "official_only_detected_genes": 65,
+    "external_only_detected_genes": 308,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.12867892180207638,
+        "median": 0.17711210591484902,
+        "p90": 0.23621297266406324
+      },
+      "external": {
+        "p10": 0.017096866368225546,
+        "median": 0.0313363177445471,
+        "p90": 0.056957805505286216
+      }
+    },
+    "cell_detection_wasserstein_pp": 14.540087810970348,
+    "shuffled_j01_median": 0.08854675541321419,
+    "shuffled_j01_all": [
+      0.08844460933843522,
+      0.08789584903362739,
+      0.08760998660135393,
+      0.08643308670038295,
+      0.08947319339770389,
+      0.0880155434456761,
+      0.08884672906359745,
+      0.08783769358064884,
+      0.08987937407814524,
+      0.08997165960954916,
+      0.08638775693074235,
+      0.08852594777861808,
+      0.09025573200064108,
+      0.0885675630478103,
+      0.08717674867719732,
+      0.08985057202728995,
+      0.08687057014845043,
+      0.08986218340687625,
+      0.08955718635992105,
+      0.08884250088282943
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.2438632534418109,
+          "within_official": 0.005419487411566504,
+          "within_external": 0.007039331774804591
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.2523029269439844,
+          "within_official": 0.005270225206628232,
+          "within_external": 0.007181102934949085
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.2503782253555758,
+          "within_official": 0.005318548690776748,
+          "within_external": 0.006977547144958907
+        }
+      ],
+      "cross_mean": 0.24884813524712368,
+      "cross_min": 0.2438632534418109,
+      "cross_max": 0.2523029269439844,
+      "within_official_mean": 0.005336087102990494,
+      "within_external_mean": 0.007065993951570861
+    }
+  },
+  {
+    "id": "B03_E9.5",
+    "row_id": "B03",
+    "external_dataset": "TOME3_E95",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "external_ids": [
+      "VED-003",
+      "VED-008"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E9.5",
+    "same_stage": true,
+    "note": "同一细胞ID连接VED-008计数和VED-003标签/QC，只算一份证据；全胚与官方心脏周边范围不同",
+    "kind": "same_stage",
+    "common_genes": 20998,
+    "official_genes": 32285,
+    "external_genes": 26133,
+    "official_coverage": 0.6503949202415983,
+    "external_coverage": 0.8035051467493208,
+    "official_n": 17057,
+    "external_n": 110229,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "embryo1.0",
+        "n": 14915
+      },
+      {
+        "sample": "embryo19.0",
+        "n": 3970
+      },
+      {
+        "sample": "embryo20.0",
+        "n": 2686
+      },
+      {
+        "sample": "embryo21.0",
+        "n": 11836
+      },
+      {
+        "sample": "embryo22.0",
+        "n": 5428
+      },
+      {
+        "sample": "embryo3.0",
+        "n": 7661
+      },
+      {
+        "sample": "embryo39.0",
+        "n": 6601
+      },
+      {
+        "sample": "embryo40.0",
+        "n": 7153
+      },
+      {
+        "sample": "embryo41.0",
+        "n": 3538
+      },
+      {
+        "sample": "embryo42.0",
+        "n": 8090
+      },
+      {
+        "sample": "embryo55.0",
+        "n": 3839
+      },
+      {
+        "sample": "embryo56.0",
+        "n": 7647
+      },
+      {
+        "sample": "embryo57.0",
+        "n": 9228
+      },
+      {
+        "sample": "embryo58.0",
+        "n": 7533
+      },
+      {
+        "sample": "embryo63.0",
+        "n": 10104
+      }
+    ],
+    "j01": 0.1862473649958615,
+    "b01": 0.8514048992205067,
+    "detection_mean_abs_pp": 14.859510077949334,
+    "detection_spearman": 0.8742049781544626,
+    "official_zero_fraction": 0.8178629178233723,
+    "external_zero_fraction": 0.9655226723811104,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 25,
+    "both_detected_genes": 20570,
+    "official_only_detected_genes": 65,
+    "external_only_detected_genes": 338,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.1254881417277836,
+        "median": 0.17906467282598343,
+        "p90": 0.24507095913896562
+      },
+      "external": {
+        "p10": 0.017096866368225546,
+        "median": 0.0313363177445471,
+        "p90": 0.056957805505286216
+      }
+    },
+    "cell_detection_wasserstein_pp": 14.765975455774253,
+    "shuffled_j01_median": 0.08859732066181458,
+    "shuffled_j01_all": [
+      0.0874252652749543,
+      0.08917057172648749,
+      0.08927311467110773,
+      0.08867480834810314,
+      0.09028843240375067,
+      0.09076647351045262,
+      0.0891991383284057,
+      0.08837655644731454,
+      0.09000849675521791,
+      0.08787345871371224,
+      0.08863067735641393,
+      0.08765087136930161,
+      0.08745360325259492,
+      0.08889092229281942,
+      0.08723960128150912,
+      0.08841502447787357,
+      0.08856396396721522,
+      0.0873642851657479,
+      0.08887563056704109,
+      0.08694628698454304
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.2516327337200364,
+          "within_official": 0.005609690898652597,
+          "within_external": 0.007039331774804591
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.2527364733229358,
+          "within_official": 0.005582355586720267,
+          "within_external": 0.007181102934949085
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.2515146283677138,
+          "within_official": 0.005224048004233706,
+          "within_external": 0.006977547144958907
+        }
+      ],
+      "cross_mean": 0.2519612784702287,
+      "cross_min": 0.2515146283677138,
+      "cross_max": 0.2527364733229358,
+      "within_official_mean": 0.005472031496535523,
+      "within_external_mean": 0.007065993951570861
+    }
+  },
+  {
+    "id": "B03_E10.5",
+    "row_id": "B03",
+    "external_dataset": "TOME3_E95",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "external_ids": [
+      "VED-003",
+      "VED-008"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "同一细胞ID连接VED-008计数和VED-003标签/QC，只算一份证据；全胚与官方心脏周边范围不同",
+    "kind": "same_stage",
+    "common_genes": 20998,
+    "official_genes": 32285,
+    "external_genes": 26133,
+    "official_coverage": 0.6503949202415983,
+    "external_coverage": 0.8035051467493208,
+    "official_n": 24979,
+    "external_n": 110229,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "embryo1.0",
+        "n": 14915
+      },
+      {
+        "sample": "embryo19.0",
+        "n": 3970
+      },
+      {
+        "sample": "embryo20.0",
+        "n": 2686
+      },
+      {
+        "sample": "embryo21.0",
+        "n": 11836
+      },
+      {
+        "sample": "embryo22.0",
+        "n": 5428
+      },
+      {
+        "sample": "embryo3.0",
+        "n": 7661
+      },
+      {
+        "sample": "embryo39.0",
+        "n": 6601
+      },
+      {
+        "sample": "embryo40.0",
+        "n": 7153
+      },
+      {
+        "sample": "embryo41.0",
+        "n": 3538
+      },
+      {
+        "sample": "embryo42.0",
+        "n": 8090
+      },
+      {
+        "sample": "embryo55.0",
+        "n": 3839
+      },
+      {
+        "sample": "embryo56.0",
+        "n": 7647
+      },
+      {
+        "sample": "embryo57.0",
+        "n": 9228
+      },
+      {
+        "sample": "embryo58.0",
+        "n": 7533
+      },
+      {
+        "sample": "embryo63.0",
+        "n": 10104
+      }
+    ],
+    "j01": 0.24664233825623857,
+    "b01": 0.8968904157979635,
+    "detection_mean_abs_pp": 10.310958420203654,
+    "detection_spearman": 0.8784828383548107,
+    "official_zero_fraction": 0.8638534929203373,
+    "external_zero_fraction": 0.9655226723811104,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 21,
+    "both_detected_genes": 20620,
+    "official_only_detected_genes": 69,
+    "external_only_detected_genes": 288,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.06619678064577579,
+        "median": 0.13263167920754357,
+        "p90": 0.21221068673206972
+      },
+      "external": {
+        "p10": 0.017096866368225546,
+        "median": 0.0313363177445471,
+        "p90": 0.056957805505286216
+      }
+    },
+    "cell_detection_wasserstein_pp": 10.166917946080932,
+    "shuffled_j01_median": 0.10550982079001534,
+    "shuffled_j01_all": [
+      0.10519599758631862,
+      0.1058161000647781,
+      0.10527335837818234,
+      0.10752436760141922,
+      0.10749304500774955,
+      0.10518270073110056,
+      0.10544621689961224,
+      0.10758632678856843,
+      0.10491694191002542,
+      0.10510968634761732,
+      0.10421780137251625,
+      0.10645825217132328,
+      0.10557342468041842,
+      0.10431732759152613,
+      0.1043139396832971,
+      0.10450527107843914,
+      0.10642097571090309,
+      0.1074809937352161,
+      0.10773466630624158,
+      0.10732345116953865
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.15481147510988583,
+          "within_official": 0.0068643362121938445,
+          "within_external": 0.007039331774804591
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.1535494318987184,
+          "within_official": 0.005847803548663211,
+          "within_external": 0.007181102934949085
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.15558989501246895,
+          "within_official": 0.006037869785755046,
+          "within_external": 0.006977547144958907
+        }
+      ],
+      "cross_mean": 0.15465026734035772,
+      "cross_min": 0.1535494318987184,
+      "cross_max": 0.15558989501246895,
+      "within_official_mean": 0.006250003182204034,
+      "within_external_mean": 0.007065993951570861
+    }
+  },
+  {
+    "id": "B04_E8.5",
+    "row_id": "B04",
+    "external_dataset": "QIU228590",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "external_ids": [
+      "VED-007"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "外部是已筛出的心场和心内膜核，不能从此计算全胚组成",
+    "kind": "same_stage",
+    "common_genes": 27859,
+    "official_genes": 32285,
+    "external_genes": 45451,
+    "official_coverage": 0.862908471426359,
+    "external_coverage": 0.6129458097731623,
+    "official_n": 16787,
+    "external_n": 4786,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "embryo_22",
+        "n": 1449
+      },
+      {
+        "sample": "embryo_23",
+        "n": 828
+      },
+      {
+        "sample": "embryo_24",
+        "n": 2509
+      }
+    ],
+    "j01": 0.40071497775995446,
+    "b01": 0.9169689800429104,
+    "detection_mean_abs_pp": 8.303101995708964,
+    "detection_spearman": 0.9118932816941021,
+    "official_zero_fraction": 0.8642040556061368,
+    "external_zero_fraction": 0.9417266969465348,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 4308,
+    "both_detected_genes": 19775,
+    "official_only_detected_genes": 3459,
+    "external_only_detected_genes": 317,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.09720377615851251,
+        "median": 0.13367313973940198,
+        "p90": 0.17832657310025485
+      },
+      "external": {
+        "p10": 0.026634121827775584,
+        "median": 0.053124663483972864,
+        "p90": 0.09806525718798234
+      }
+    },
+    "cell_detection_wasserstein_pp": 7.752264134040682,
+    "shuffled_j01_median": 0.10966481490484581,
+    "shuffled_j01_all": [
+      0.10842855418064223,
+      0.10826545360266204,
+      0.10844849067477925,
+      0.10946402670306477,
+      0.1079201793837039,
+      0.1117416941330349,
+      0.11122851435740579,
+      0.11018607960914241,
+      0.11147343743577483,
+      0.10654287675168096,
+      0.10858929593133038,
+      0.11008865904484746,
+      0.1098848698808708,
+      0.10859327493089711,
+      0.11154919242901919,
+      0.10986560310662684,
+      0.10720901131301744,
+      0.11086382089072272,
+      0.11018674939160711,
+      0.1092502359543919
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.16949517910846928,
+          "within_official": 0.005424357111514233,
+          "within_external": 0.006567295956737551
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.17440746050747302,
+          "within_official": 0.00526939948852112,
+          "within_external": 0.006995860237191676
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.17643319429803256,
+          "within_official": 0.00531531002261143,
+          "within_external": 0.006457588083777388
+        }
+      ],
+      "cross_mean": 0.17344527797132495,
+      "cross_min": 0.16949517910846928,
+      "cross_max": 0.17643319429803256,
+      "within_official_mean": 0.005336355540882261,
+      "within_external_mean": 0.006673581425902205
+    }
+  },
+  {
+    "id": "B04_E9.5",
+    "row_id": "B04",
+    "external_dataset": "QIU228590",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "external_ids": [
+      "VED-007"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E9.5",
+    "same_stage": true,
+    "note": "外部是已筛出的心场和心内膜核，不能从此计算全胚组成",
+    "kind": "same_stage",
+    "common_genes": 27859,
+    "official_genes": 32285,
+    "external_genes": 45451,
+    "official_coverage": 0.862908471426359,
+    "external_coverage": 0.6129458097731623,
+    "official_n": 17057,
+    "external_n": 4786,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "embryo_22",
+        "n": 1449
+      },
+      {
+        "sample": "embryo_23",
+        "n": 828
+      },
+      {
+        "sample": "embryo_24",
+        "n": 2509
+      }
+    ],
+    "j01": 0.4031830856071634,
+    "b01": 0.9167451611492398,
+    "detection_mean_abs_pp": 8.325483885076025,
+    "detection_spearman": 0.915257947416581,
+    "official_zero_fraction": 0.8625318975184295,
+    "external_zero_fraction": 0.9417266969465348,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 4366,
+    "both_detected_genes": 19772,
+    "official_only_detected_genes": 3401,
+    "external_only_detected_genes": 320,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.09472701819878675,
+        "median": 0.13518073154097418,
+        "p90": 0.18496715603575145
+      },
+      "external": {
+        "p10": 0.026634121827775584,
+        "median": 0.053124663483972864,
+        "p90": 0.09806525718798234
+      }
+    },
+    "cell_detection_wasserstein_pp": 7.919479942810705,
+    "shuffled_j01_median": 0.1093424519499347,
+    "shuffled_j01_all": [
+      0.10717413286261476,
+      0.10683803134123558,
+      0.11291287726508621,
+      0.10792152598923781,
+      0.11025521523978934,
+      0.10845328211132557,
+      0.10788284818252052,
+      0.10869211308290633,
+      0.11078604456507624,
+      0.11074837991773424,
+      0.11057572709289461,
+      0.11042044762044517,
+      0.10800428170461102,
+      0.11127955881031037,
+      0.10703509496527859,
+      0.10961437095205884,
+      0.11260738889659602,
+      0.10830937922678546,
+      0.10907053294781054,
+      0.11100628559193601
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.17334049448143862,
+          "within_official": 0.005609400356101468,
+          "within_external": 0.006567295956737551
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.1739044810241499,
+          "within_official": 0.0055825333647395725,
+          "within_external": 0.006995860237191676
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.17487446823658737,
+          "within_official": 0.005225128798751255,
+          "within_external": 0.006457588083777388
+        }
+      ],
+      "cross_mean": 0.1740398145807253,
+      "cross_min": 0.17334049448143862,
+      "cross_max": 0.17487446823658737,
+      "within_official_mean": 0.005472354173197432,
+      "within_external_mean": 0.006673581425902205
+    }
+  },
+  {
+    "id": "B04_E10.5",
+    "row_id": "B04",
+    "external_dataset": "QIU228590",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "external_ids": [
+      "VED-007"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "外部是已筛出的心场和心内膜核，不能从此计算全胚组成",
+    "kind": "same_stage",
+    "common_genes": 27859,
+    "official_genes": 32285,
+    "external_genes": 45451,
+    "official_coverage": 0.862908471426359,
+    "external_coverage": 0.6129458097731623,
+    "official_n": 24979,
+    "external_n": 4786,
+    "official_unit": "nucleus",
+    "external_unit": "nucleus",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "embryo_22",
+        "n": 1449
+      },
+      {
+        "sample": "embryo_23",
+        "n": 828
+      },
+      {
+        "sample": "embryo_24",
+        "n": 2509
+      }
+    ],
+    "j01": 0.5051272305012909,
+    "b01": 0.9470559062801381,
+    "detection_mean_abs_pp": 5.294409371986185,
+    "detection_spearman": 0.9164126996756814,
+    "official_zero_fraction": 0.8972468694659038,
+    "external_zero_fraction": 0.9417266969465348,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 4289,
+    "both_detected_genes": 19762,
+    "official_only_detected_genes": 3478,
+    "external_only_detected_genes": 330,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.04996589970925015,
+        "median": 0.10011127463297319,
+        "p90": 0.16023547148138842
+      },
+      "external": {
+        "p10": 0.026634121827775584,
+        "median": 0.053124663483972864,
+        "p90": 0.09806525718798234
+      }
+    },
+    "cell_detection_wasserstein_pp": 4.447988208699133,
+    "shuffled_j01_median": 0.12080213428462351,
+    "shuffled_j01_all": [
+      0.11739322954581966,
+      0.11941936977802994,
+      0.12305001664216755,
+      0.12086097816198618,
+      0.12346064521289803,
+      0.1197315014221517,
+      0.12127814271482824,
+      0.11910875456789244,
+      0.11993698095618795,
+      0.11880100425152973,
+      0.12211230867629785,
+      0.12021462710494267,
+      0.12166781228889366,
+      0.123057283305533,
+      0.11922043107789977,
+      0.12089471700711468,
+      0.12074329040726084,
+      0.12200665769949699,
+      0.12047133169808036,
+      0.12157747066260267
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.10493363866808547,
+          "within_official": 0.006854854999195026,
+          "within_external": 0.006567295956737551
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.10379024664859648,
+          "within_official": 0.00585355808191268,
+          "within_external": 0.006995860237191676
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.10518426993956442,
+          "within_official": 0.006033504769556497,
+          "within_external": 0.006457588083777388
+        }
+      ],
+      "cross_mean": 0.10463605175208213,
+      "cross_min": 0.10379024664859648,
+      "cross_max": 0.10518426993956442,
+      "within_official_mean": 0.006247305950221401,
+      "within_external_mean": 0.006673581425902205
+    }
+  },
+  {
+    "id": "B05_E8.5",
+    "row_id": "B05",
+    "external_dataset": "FENG193346_CD1",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "external_ids": [
+      "VED-012"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "CD1分心腔样本；与官方细胞核的观测单位不同",
+    "kind": "same_stage",
+    "common_genes": 29715,
+    "official_genes": 32285,
+    "external_genes": 30976,
+    "official_coverage": 0.9203964689484281,
+    "external_coverage": 0.9592910640495868,
+    "official_n": 16787,
+    "external_n": 887,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "CD1_E9.5_LA",
+        "n": 76
+      },
+      {
+        "sample": "CD1_E9.5_LV",
+        "n": 615
+      },
+      {
+        "sample": "CD1_E9.5_RA",
+        "n": 73
+      },
+      {
+        "sample": "CD1_E9.5_RV",
+        "n": 123
+      }
+    ],
+    "j01": 0.6649184476302236,
+    "b01": 0.941607707735467,
+    "detection_mean_abs_pp": 5.839229226453301,
+    "detection_spearman": 0.9144151920981095,
+    "official_zero_fraction": 0.8716089119745748,
+    "external_zero_fraction": 0.8382575253058875,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 5093,
+    "both_detected_genes": 17024,
+    "official_only_detected_genes": 7511,
+    "external_only_detected_genes": 87,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.09183913848224802,
+        "median": 0.12640080767289247,
+        "p90": 0.16873632845364295
+      },
+      "external": {
+        "p10": 0.10368500757193337,
+        "median": 0.16930843008581525,
+        "p90": 0.210937237085647
+      }
+    },
+    "cell_detection_wasserstein_pp": 3.4815845397822724,
+    "shuffled_j01_median": 0.13191450022208087,
+    "shuffled_j01_all": [
+      0.1314090064273121,
+      0.13067463187953804,
+      0.13387052189712897,
+      0.13216603483151332,
+      0.12849639956967732,
+      0.1334883405734618,
+      0.13291762752640385,
+      0.1322936324063455,
+      0.13229125042658346,
+      0.13105665033164932,
+      0.12765483073659437,
+      0.13122250901310115,
+      0.13165787503087503,
+      0.13270455353489172,
+      0.13284502452573757,
+      0.13054457534429267,
+      0.13454036521761256,
+      0.13166296561264842,
+      0.1324596695154461,
+      0.12968821675529024
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.09373035422927467,
+          "within_official": 0.005422426723969531,
+          "within_external": 0.004209919118958849
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.09193093125676544,
+          "within_official": 0.005274460469318676,
+          "within_external": 0.004643508529816209
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.08630598957287561,
+          "within_official": 0.005312804962829154,
+          "within_external": 0.003970722847750574
+        }
+      ],
+      "cross_mean": 0.0906557583529719,
+      "cross_min": 0.08630598957287561,
+      "cross_max": 0.09373035422927467,
+      "within_official_mean": 0.005336564052039121,
+      "within_external_mean": 0.004274716832175211
+    }
+  },
+  {
+    "id": "B05_E9.5",
+    "row_id": "B05",
+    "external_dataset": "FENG193346_CD1",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "external_ids": [
+      "VED-012"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E9.5",
+    "same_stage": true,
+    "note": "CD1分心腔样本；与官方细胞核的观测单位不同",
+    "kind": "same_stage",
+    "common_genes": 29715,
+    "official_genes": 32285,
+    "external_genes": 30976,
+    "official_coverage": 0.9203964689484281,
+    "external_coverage": 0.9592910640495868,
+    "official_n": 17057,
+    "external_n": 887,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "CD1_E9.5_LA",
+        "n": 76
+      },
+      {
+        "sample": "CD1_E9.5_LV",
+        "n": 615
+      },
+      {
+        "sample": "CD1_E9.5_RA",
+        "n": 73
+      },
+      {
+        "sample": "CD1_E9.5_RV",
+        "n": 123
+      }
+    ],
+    "j01": 0.6731418552821781,
+    "b01": 0.9430142621484461,
+    "detection_mean_abs_pp": 5.698573785155394,
+    "detection_spearman": 0.9198478253917831,
+    "official_zero_fraction": 0.8700403259351004,
+    "external_zero_fraction": 0.8382575253058875,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 5153,
+    "both_detected_genes": 17039,
+    "official_only_detected_genes": 7451,
+    "external_only_detected_genes": 72,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.08955073195355881,
+        "median": 0.1277469291603567,
+        "p90": 0.17499579337035168
+      },
+      "external": {
+        "p10": 0.10368500757193337,
+        "median": 0.16930843008581525,
+        "p90": 0.210937237085647
+      }
+    },
+    "cell_detection_wasserstein_pp": 3.273306199884001,
+    "shuffled_j01_median": 0.13330599745622274,
+    "shuffled_j01_all": [
+      0.12985350066578802,
+      0.13782128439046923,
+      0.13276334683506053,
+      0.1324424884473565,
+      0.1340950916395367,
+      0.1307569737802841,
+      0.13391192569908883,
+      0.13342521069177307,
+      0.13449034281514688,
+      0.13155721466760528,
+      0.13318678422067237,
+      0.13421658308427656,
+      0.1387199570771398,
+      0.1335651484350614,
+      0.13427326273698487,
+      0.13257390791610438,
+      0.13474794562400716,
+      0.1328168308735609,
+      0.13128721705590138,
+      0.1325536088674257
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.08469745561103126,
+          "within_official": 0.0056023831252988154,
+          "within_external": 0.004209919118958849
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.0861922581552047,
+          "within_official": 0.0055828228705608884,
+          "within_external": 0.004643508529816209
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.07766056710544178,
+          "within_official": 0.00522156756166503,
+          "within_external": 0.003970722847750574
+        }
+      ],
+      "cross_mean": 0.08285009362389258,
+      "cross_min": 0.07766056710544178,
+      "cross_max": 0.0861922581552047,
+      "within_official_mean": 0.005468924519174911,
+      "within_external_mean": 0.004274716832175211
+    }
+  },
+  {
+    "id": "B05_E10.5",
+    "row_id": "B05",
+    "external_dataset": "FENG193346_CD1",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "external_ids": [
+      "VED-012"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "CD1分心腔样本；与官方细胞核的观测单位不同",
+    "kind": "same_stage",
+    "common_genes": 29715,
+    "official_genes": 32285,
+    "external_genes": 30976,
+    "official_coverage": 0.9203964689484281,
+    "external_coverage": 0.9592910640495868,
+    "official_n": 24979,
+    "external_n": 887,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "CD1_E9.5_LA",
+        "n": 76
+      },
+      {
+        "sample": "CD1_E9.5_LV",
+        "n": 615
+      },
+      {
+        "sample": "CD1_E9.5_RA",
+        "n": 73
+      },
+      {
+        "sample": "CD1_E9.5_RV",
+        "n": 123
+      }
+    ],
+    "j01": 0.5268281351987925,
+    "b01": 0.9197724178124868,
+    "detection_mean_abs_pp": 8.022758218751322,
+    "detection_spearman": 0.9110886392887789,
+    "official_zero_fraction": 0.9028645937061301,
+    "external_zero_fraction": 0.8382575253058875,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 5070,
+    "both_detected_genes": 17049,
+    "official_only_detected_genes": 7534,
+    "external_only_detected_genes": 62,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.047248864209994954,
+        "median": 0.09459868753154972,
+        "p90": 0.15153962645128724
+      },
+      "external": {
+        "p10": 0.10368500757193337,
+        "median": 0.16930843008581525,
+        "p90": 0.210937237085647
+      }
+    },
+    "cell_detection_wasserstein_pp": 6.46426547457184,
+    "shuffled_j01_median": 0.12112478126726359,
+    "shuffled_j01_all": [
+      0.12124373279402871,
+      0.11974397263994496,
+      0.12252378041608551,
+      0.12124607788286211,
+      0.12028164796379322,
+      0.12269005070011871,
+      0.12464399684045048,
+      0.12076064819014072,
+      0.12313791798713002,
+      0.12097102885394743,
+      0.12421230451039462,
+      0.1192741643579635,
+      0.12187683636910861,
+      0.12029838507005243,
+      0.1225547962377284,
+      0.12097467299828611,
+      0.12100582974049845,
+      0.12075706438699055,
+      0.12261479478653753,
+      0.1202626355019174
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.14520669646087347,
+          "within_official": 0.0068635184838301555,
+          "within_external": 0.004209919118958849
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.1601439416144924,
+          "within_official": 0.005853803561174209,
+          "within_external": 0.004643508529816209
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.13843480283681509,
+          "within_official": 0.0060326002060405726,
+          "within_external": 0.003970722847750574
+        }
+      ],
+      "cross_mean": 0.14792848030406033,
+      "cross_min": 0.13843480283681509,
+      "cross_max": 0.1601439416144924,
+      "within_official_mean": 0.006249974083681646,
+      "within_external_mean": 0.004274716832175211
+    }
+  },
+  {
+    "id": "B06_E8.5",
+    "row_id": "B06",
+    "external_dataset": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "external_ids": [
+      "VED-006"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E8.25",
+    "same_stage": false,
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "kind": "near_stage",
+    "common_genes": 17405,
+    "official_genes": 32285,
+    "external_genes": 23476,
+    "official_coverage": 0.5391048474523773,
+    "external_coverage": 0.7413954677117056,
+    "official_n": 16787,
+    "external_n": 9684,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM3592147",
+        "n": 2316
+      },
+      {
+        "sample": "GSM3592148",
+        "n": 7368
+      }
+    ],
+    "j01": 0.6732546094482497,
+    "b01": 0.9166808630497252,
+    "detection_mean_abs_pp": 8.331913695027486,
+    "detection_spearman": 0.9247816528757556,
+    "official_zero_fraction": 0.7944421808869186,
+    "external_zero_fraction": 0.7788826953358822,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 54,
+    "both_detected_genes": 16914,
+    "official_only_detected_genes": 289,
+    "external_only_detected_genes": 148,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.14771617351335822,
+        "median": 0.20247055443837977,
+        "p90": 0.2693478885377765
+      },
+      "external": {
+        "p10": 0.1423728813559322,
+        "median": 0.22286699224360815,
+        "p90": 0.286584314852054
+      }
+    },
+    "cell_detection_wasserstein_pp": 1.7253663105987402,
+    "shuffled_j01_median": 0.2162064451257214,
+    "shuffled_j01_all": [
+      0.2158008718419206,
+      0.21661201840952224,
+      0.21241057299267826,
+      0.22002129378847654,
+      0.21662684362507956,
+      0.2198274374614941,
+      0.2147637614350636,
+      0.2128176173395138,
+      0.21322460682103672,
+      0.21447909877104487,
+      0.21910273727637286,
+      0.2177941786353307,
+      0.21828330579977553,
+      0.2180161990577566,
+      0.21459573676492422,
+      0.2157014629314118,
+      0.22039867215046885,
+      0.21278148871860836,
+      0.21356870547101806,
+      0.21764430500871706
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.09377270435213303,
+          "within_official": 0.005386291739300608,
+          "within_external": 0.0044657552054672145
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.09228307894816157,
+          "within_official": 0.005219823494781783,
+          "within_external": 0.005158221484066194
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.09065205620508221,
+          "within_official": 0.005253911969952618,
+          "within_external": 0.004505494040102587
+        }
+      ],
+      "cross_mean": 0.09223594650179227,
+      "cross_min": 0.09065205620508221,
+      "cross_max": 0.09377270435213303,
+      "within_official_mean": 0.005286675734678337,
+      "within_external_mean": 0.004709823576545332
+    }
+  },
+  {
+    "id": "B06_E9.5",
+    "row_id": "B06",
+    "external_dataset": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "external_ids": [
+      "VED-006"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E8.25",
+    "same_stage": false,
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "kind": "near_stage",
+    "common_genes": 17405,
+    "official_genes": 32285,
+    "external_genes": 23476,
+    "official_coverage": 0.5391048474523773,
+    "external_coverage": 0.7413954677117056,
+    "official_n": 17057,
+    "external_n": 9684,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM3592147",
+        "n": 2316
+      },
+      {
+        "sample": "GSM3592148",
+        "n": 7368
+      }
+    ],
+    "j01": 0.6716571236345513,
+    "b01": 0.9157037128154052,
+    "detection_mean_abs_pp": 8.429628718459476,
+    "detection_spearman": 0.9197240332301163,
+    "official_zero_fraction": 0.7919485938094544,
+    "external_zero_fraction": 0.7788826953358822,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 47,
+    "both_detected_genes": 16915,
+    "official_only_detected_genes": 296,
+    "external_only_detected_genes": 147,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.14392415972421718,
+        "median": 0.20471128985923584,
+        "p90": 0.27934501580005744
+      },
+      "external": {
+        "p10": 0.1423728813559322,
+        "median": 0.22286699224360815,
+        "p90": 0.286584314852054
+      }
+    },
+    "cell_detection_wasserstein_pp": 1.3861361334767617,
+    "shuffled_j01_median": 0.2179482544302177,
+    "shuffled_j01_all": [
+      0.215971261027606,
+      0.2155708937702608,
+      0.21984643657507688,
+      0.21675843879988255,
+      0.21583406346783446,
+      0.21906652422395798,
+      0.2212214952544111,
+      0.21900429024669518,
+      0.21889285126855315,
+      0.2152452001369595,
+      0.2185991669710584,
+      0.21637782559213345,
+      0.22135576422652176,
+      0.2172747101106945,
+      0.22094486999797366,
+      0.21735278076479517,
+      0.2147264069393327,
+      0.21756274651552315,
+      0.2185085796445011,
+      0.21833376234491222
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.09041833783398912,
+          "within_official": 0.00554990148604928,
+          "within_external": 0.0044657552054672145
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.09035574431568705,
+          "within_official": 0.005576434612459491,
+          "within_external": 0.005158221484066194
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.08824722580767008,
+          "within_official": 0.00518226519259446,
+          "within_external": 0.004505494040102587
+        }
+      ],
+      "cross_mean": 0.08967376931911542,
+      "cross_min": 0.08824722580767008,
+      "cross_max": 0.09041833783398912,
+      "within_official_mean": 0.005436200430367744,
+      "within_external_mean": 0.004709823576545332
+    }
+  },
+  {
+    "id": "B06_E10.5",
+    "row_id": "B06",
+    "external_dataset": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "external_ids": [
+      "VED-006"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E8.25",
+    "same_stage": false,
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "kind": "near_stage",
+    "common_genes": 17405,
+    "official_genes": 32285,
+    "external_genes": 23476,
+    "official_coverage": 0.5391048474523773,
+    "external_coverage": 0.7413954677117056,
+    "official_n": 24979,
+    "external_n": 9684,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM3592147",
+        "n": 2316
+      },
+      {
+        "sample": "GSM3592148",
+        "n": 7368
+      }
+    ],
+    "j01": 0.5434007618510683,
+    "b01": 0.8885119202831353,
+    "detection_mean_abs_pp": 11.148807971686473,
+    "detection_spearman": 0.8835684175166602,
+    "official_zero_fraction": 0.844264316757475,
+    "external_zero_fraction": 0.7788826953358822,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 55,
+    "both_detected_genes": 16879,
+    "official_only_detected_genes": 288,
+    "external_only_detected_genes": 183,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.07618500430910657,
+        "median": 0.15191037058316575,
+        "p90": 0.24217178971559897
+      },
+      "external": {
+        "p10": 0.1423728813559322,
+        "median": 0.22286699224360815,
+        "p90": 0.286584314852054
+      }
+    },
+    "cell_detection_wasserstein_pp": 6.546182654992837,
+    "shuffled_j01_median": 0.20340074000725733,
+    "shuffled_j01_all": [
+      0.20143629033068214,
+      0.20230534176673712,
+      0.2049968007004971,
+      0.2042259806214376,
+      0.20582652351877223,
+      0.20146482473518876,
+      0.20919283245674386,
+      0.20062263808097436,
+      0.20125403982411613,
+      0.20648447943863177,
+      0.20313256609691327,
+      0.20513127357295216,
+      0.19932608112001501,
+      0.2037111142963651,
+      0.20351767700551346,
+      0.2011844828196965,
+      0.20563881782325705,
+      0.20089281063511688,
+      0.20328380300900123,
+      0.20476596844780048
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.14962768919156466,
+          "within_official": 0.0068179139602479455,
+          "within_external": 0.0044657552054672145
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.15858442080061552,
+          "within_official": 0.005816662666884964,
+          "within_external": 0.005158221484066194
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.1490968486735822,
+          "within_official": 0.006002328284060721,
+          "within_external": 0.004505494040102587
+        }
+      ],
+      "cross_mean": 0.15243631955525414,
+      "cross_min": 0.1490968486735822,
+      "cross_max": 0.15858442080061552,
+      "within_official_mean": 0.006212301637064543,
+      "within_external_mean": 0.004709823576545332
+    }
+  },
+  {
+    "id": "B07_E8.5",
+    "row_id": "B07",
+    "external_dataset": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "external_ids": [
+      "VED-006"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E9.25",
+    "same_stage": false,
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "kind": "near_stage",
+    "common_genes": 17405,
+    "official_genes": 32285,
+    "external_genes": 23476,
+    "official_coverage": 0.5391048474523773,
+    "external_coverage": 0.7413954677117056,
+    "official_n": 16787,
+    "external_n": 16023,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM3592149",
+        "n": 4691
+      },
+      {
+        "sample": "GSM3592150",
+        "n": 11332
+      }
+    ],
+    "j01": 0.6690272630049867,
+    "b01": 0.9164307477100659,
+    "detection_mean_abs_pp": 8.356925228993402,
+    "detection_spearman": 0.922554538510362,
+    "official_zero_fraction": 0.7944421808869186,
+    "external_zero_fraction": 0.7841353125730841,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 46,
+    "both_detected_genes": 16988,
+    "official_only_detected_genes": 215,
+    "external_only_detected_genes": 156,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.14771617351335822,
+        "median": 0.20247055443837977,
+        "p90": 0.2693478885377765
+      },
+      "external": {
+        "p10": 0.14541798333812123,
+        "median": 0.21648951450732548,
+        "p90": 0.2817581154840563
+      }
+    },
+    "cell_detection_wasserstein_pp": 1.081556003447454,
+    "shuffled_j01_median": 0.21530816717104515,
+    "shuffled_j01_all": [
+      0.21230453283566014,
+      0.21545764420272895,
+      0.21935557577440187,
+      0.21367308046984168,
+      0.21256560064474023,
+      0.21548302029725674,
+      0.21719715198829112,
+      0.21756739106731357,
+      0.2164954751795923,
+      0.2145379533863356,
+      0.21575711621838234,
+      0.21629577576927186,
+      0.21509338169344816,
+      0.21101262613675523,
+      0.2119198212195221,
+      0.2161500900686307,
+      0.2149012697996957,
+      0.21465902102683457,
+      0.21515869013936134,
+      0.21947113894046436
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.09451572806231234,
+          "within_official": 0.005386291739300608,
+          "within_external": 0.004391522338220377
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.09477515454398422,
+          "within_official": 0.005219823494781783,
+          "within_external": 0.004844317940500886
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.08761851146233424,
+          "within_official": 0.005253911969952618,
+          "within_external": 0.004577615756752973
+        }
+      ],
+      "cross_mean": 0.09230313135621027,
+      "cross_min": 0.08761851146233424,
+      "cross_max": 0.09477515454398422,
+      "within_official_mean": 0.005286675734678337,
+      "within_external_mean": 0.0046044853451580785
+    }
+  },
+  {
+    "id": "B07_E9.5",
+    "row_id": "B07",
+    "external_dataset": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "external_ids": [
+      "VED-006"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E9.25",
+    "same_stage": false,
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "kind": "near_stage",
+    "common_genes": 17405,
+    "official_genes": 32285,
+    "external_genes": 23476,
+    "official_coverage": 0.5391048474523773,
+    "external_coverage": 0.7413954677117056,
+    "official_n": 17057,
+    "external_n": 16023,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM3592149",
+        "n": 4691
+      },
+      {
+        "sample": "GSM3592150",
+        "n": 11332
+      }
+    ],
+    "j01": 0.671782522099499,
+    "b01": 0.9167734623078713,
+    "detection_mean_abs_pp": 8.322653769212868,
+    "detection_spearman": 0.9250214402637713,
+    "official_zero_fraction": 0.7919485938094544,
+    "external_zero_fraction": 0.7841353125730841,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 51,
+    "both_detected_genes": 17001,
+    "official_only_detected_genes": 210,
+    "external_only_detected_genes": 143,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.14392415972421718,
+        "median": 0.20471128985923584,
+        "p90": 0.27934501580005744
+      },
+      "external": {
+        "p10": 0.14541798333812123,
+        "median": 0.21648951450732548,
+        "p90": 0.2817581154840563
+      }
+    },
+    "cell_detection_wasserstein_pp": 0.7873308429521596,
+    "shuffled_j01_median": 0.21628080332211536,
+    "shuffled_j01_all": [
+      0.21401455598912617,
+      0.21662038720494037,
+      0.21082092184263443,
+      0.2178414377009772,
+      0.21594121943929034,
+      0.2168736218805649,
+      0.21588768225042876,
+      0.2192802668069621,
+      0.21580828725256318,
+      0.220873049458055,
+      0.21542537938102244,
+      0.21709008192297383,
+      0.2178126169896916,
+      0.21768244284908642,
+      0.21342160833230658,
+      0.21514301089407017,
+      0.21784349660281074,
+      0.2176492019638638,
+      0.21548417055069527,
+      0.21417129926570172
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.09010165560354766,
+          "within_official": 0.00554990148604928,
+          "within_external": 0.004391522338220377
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.09116865075616576,
+          "within_official": 0.005576434612459491,
+          "within_external": 0.004844317940500886
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.08461829789840092,
+          "within_official": 0.00518226519259446,
+          "within_external": 0.004577615756752973
+        }
+      ],
+      "cross_mean": 0.08862953475270478,
+      "cross_min": 0.08461829789840092,
+      "cross_max": 0.09116865075616576,
+      "within_official_mean": 0.005436200430367744,
+      "within_external_mean": 0.0046044853451580785
+    }
+  },
+  {
+    "id": "B07_E10.5",
+    "row_id": "B07",
+    "external_dataset": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "external_ids": [
+      "VED-006"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E9.25",
+    "same_stage": false,
+    "note": "缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+    "kind": "near_stage",
+    "common_genes": 17405,
+    "official_genes": 32285,
+    "external_genes": 23476,
+    "official_coverage": 0.5391048474523773,
+    "external_coverage": 0.7413954677117056,
+    "official_n": 24979,
+    "external_n": 16023,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM3592149",
+        "n": 4691
+      },
+      {
+        "sample": "GSM3592150",
+        "n": 11332
+      }
+    ],
+    "j01": 0.5500596958006029,
+    "b01": 0.8921344872893688,
+    "detection_mean_abs_pp": 10.786551271063113,
+    "detection_spearman": 0.8935801235884092,
+    "official_zero_fraction": 0.844264316757475,
+    "external_zero_fraction": 0.7841353125730841,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 49,
+    "both_detected_genes": 16955,
+    "official_only_detected_genes": 212,
+    "external_only_detected_genes": 189,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.07618500430910657,
+        "median": 0.15191037058316575,
+        "p90": 0.24217178971559897
+      },
+      "external": {
+        "p10": 0.14541798333812123,
+        "median": 0.21648951450732548,
+        "p90": 0.2817581154840563
+      }
+    },
+    "cell_detection_wasserstein_pp": 6.019750692258906,
+    "shuffled_j01_median": 0.2029837225184856,
+    "shuffled_j01_all": [
+      0.2003996024498967,
+      0.20085348726076366,
+      0.2027525711388059,
+      0.20070464211172562,
+      0.20158972481189844,
+      0.1992545568651232,
+      0.20621608314798417,
+      0.2036176616079167,
+      0.20502399165534727,
+      0.19996546431663434,
+      0.20303342888933265,
+      0.20539442179721004,
+      0.20328653819788925,
+      0.20506053584763914,
+      0.20539698341104398,
+      0.2010790621537664,
+      0.19981550876804208,
+      0.2029535525658288,
+      0.20301389247114238,
+      0.2047825681649617
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.14352540736677155,
+          "within_official": 0.0068179139602479455,
+          "within_external": 0.004391522338220377
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.15713810699152553,
+          "within_official": 0.005816662666884964,
+          "within_external": 0.004844317940500886
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.13671849592078988,
+          "within_official": 0.006002328284060721,
+          "within_external": 0.004577615756752973
+        }
+      ],
+      "cross_mean": 0.1457940034263623,
+      "cross_min": 0.13671849592078988,
+      "cross_max": 0.15713810699152553,
+      "within_official_mean": 0.006212301637064543,
+      "within_external_mean": 0.0046044853451580785
+    }
+  },
+  {
+    "id": "B08_E8.5",
+    "row_id": "B08",
+    "external_dataset": "MOSTA_E9.5",
+    "external_name": "VED-009 · MOSTA 心脏空间图谱",
+    "external_ids": [
+      "VED-009"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+    "kind": "spatial_background",
+    "common_genes": 12418,
+    "official_genes": 32285,
+    "external_genes": 12581,
+    "official_coverage": 0.38463682824841255,
+    "external_coverage": 0.9870439551704951,
+    "official_n": 16787,
+    "external_n": 19780,
+    "official_unit": "nucleus",
+    "external_unit": "spatial_bin",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "MOSTA_E9.5",
+        "n": 19780
+      }
+    ],
+    "j01": 0.09375078322888841,
+    "b01": 0.7281657842462146,
+    "detection_mean_abs_pp": 27.183421575378546,
+    "detection_spearman": 0.8665284797805227,
+    "official_zero_fraction": 0.7003194929068889,
+    "external_zero_fraction": 0.9716042109850325,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 0,
+    "both_detected_genes": 12416,
+    "official_only_detected_genes": 0,
+    "external_only_detected_genes": 2,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.21476888387824125,
+        "median": 0.2951360927685618,
+        "p90": 0.3937026896440651
+      },
+      "external": {
+        "p10": 0.009824448381381865,
+        "median": 0.022306329521662102,
+        "p90": 0.05596714446770817
+      }
+    },
+    "cell_detection_wasserstein_pp": 27.128471807815952,
+    "shuffled_j01_median": 0.07807751844282004,
+    "shuffled_j01_all": [
+      0.07837683258977428,
+      0.07766257710821674,
+      0.07788088695459709,
+      0.07824041816425718,
+      0.07874026091265925,
+      0.07872679645649264,
+      0.07729816752143172,
+      0.07885488546790624,
+      0.07764940717568478,
+      0.07903749577457159,
+      0.07773090113437317,
+      0.07753727011639418,
+      0.07841866880630284,
+      0.07848593656700778,
+      0.07815478054344584,
+      0.07876940011640694,
+      0.07800025634219426,
+      0.07682158194349444,
+      0.0777065783391788,
+      0.07684264487856561
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.2914798272885163,
+          "within_official": 0.005381342162248615,
+          "within_external": 0.007208041192569514
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.29956468389915325,
+          "within_official": 0.005216587276783091,
+          "within_external": 0.007191591875607806
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.30105789903626834,
+          "within_official": 0.005261379212381234,
+          "within_external": 0.007064459226333336
+        }
+      ],
+      "cross_mean": 0.297367470074646,
+      "cross_min": 0.2914798272885163,
+      "cross_max": 0.30105789903626834,
+      "within_official_mean": 0.005286436217137647,
+      "within_external_mean": 0.007154697431503552
+    }
+  },
+  {
+    "id": "B08_E9.5",
+    "row_id": "B08",
+    "external_dataset": "MOSTA_E9.5",
+    "external_name": "VED-009 · MOSTA 心脏空间图谱",
+    "external_ids": [
+      "VED-009"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E9.5",
+    "same_stage": true,
+    "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+    "kind": "spatial_background",
+    "common_genes": 12418,
+    "official_genes": 32285,
+    "external_genes": 12581,
+    "official_coverage": 0.38463682824841255,
+    "external_coverage": 0.9870439551704951,
+    "official_n": 17057,
+    "external_n": 19780,
+    "official_unit": "nucleus",
+    "external_unit": "spatial_bin",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "MOSTA_E9.5",
+        "n": 19780
+      }
+    ],
+    "j01": 0.09263973599911625,
+    "b01": 0.7244586350689852,
+    "detection_mean_abs_pp": 27.554136493101478,
+    "detection_spearman": 0.8725683552892858,
+    "official_zero_fraction": 0.6965899383735217,
+    "external_zero_fraction": 0.9716042109850325,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 0,
+    "both_detected_genes": 12413,
+    "official_only_detected_genes": 0,
+    "external_only_detected_genes": 5,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.2090513770333387,
+        "median": 0.29851827991625063,
+        "p90": 0.4078756643581897
+      },
+      "external": {
+        "p10": 0.009824448381381865,
+        "median": 0.022306329521662102,
+        "p90": 0.05596714446770817
+      }
+    },
+    "cell_detection_wasserstein_pp": 27.501427261151136,
+    "shuffled_j01_median": 0.07776107062325419,
+    "shuffled_j01_all": [
+      0.07800582950332209,
+      0.07779504788933096,
+      0.07795568233973173,
+      0.0785374362578275,
+      0.07716388576771142,
+      0.07664647349435232,
+      0.07680370779688171,
+      0.07809700232707131,
+      0.07641892386099541,
+      0.07847723775534234,
+      0.07779394314510292,
+      0.07718119004314128,
+      0.0770569238029512,
+      0.07859268297078137,
+      0.07772819810140544,
+      0.07839110129734535,
+      0.07854364974442819,
+      0.07711417888822879,
+      0.0773428032295189,
+      0.07746996592773267
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.2976434601213038,
+          "within_official": 0.005556638461035934,
+          "within_external": 0.007208041192569514
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.2981163509384924,
+          "within_official": 0.005527702227581921,
+          "within_external": 0.007191591875607806
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.30109622408287207,
+          "within_official": 0.0051538917187150535,
+          "within_external": 0.007064459226333336
+        }
+      ],
+      "cross_mean": 0.29895201171422275,
+      "cross_min": 0.2976434601213038,
+      "cross_max": 0.30109622408287207,
+      "within_official_mean": 0.005412744135777636,
+      "within_external_mean": 0.007154697431503552
+    }
+  },
+  {
+    "id": "B08_E10.5",
+    "row_id": "B08",
+    "external_dataset": "MOSTA_E9.5",
+    "external_name": "VED-009 · MOSTA 心脏空间图谱",
+    "external_ids": [
+      "VED-009"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+    "kind": "spatial_background",
+    "common_genes": 12418,
+    "official_genes": 32285,
+    "external_genes": 12581,
+    "official_coverage": 0.38463682824841255,
+    "external_coverage": 0.9870439551704951,
+    "official_n": 24979,
+    "external_n": 19780,
+    "official_unit": "nucleus",
+    "external_unit": "spatial_bin",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "MOSTA_E9.5",
+        "n": 19780
+      }
+    ],
+    "j01": 0.12318630831003004,
+    "b01": 0.8016567455383913,
+    "detection_mean_abs_pp": 19.83432544616087,
+    "detection_spearman": 0.822685840768536,
+    "official_zero_fraction": 0.7743208015138575,
+    "external_zero_fraction": 0.9716042109850325,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 0,
+    "both_detected_genes": 12412,
+    "official_only_detected_genes": 0,
+    "external_only_detected_genes": 6,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.10967949750362377,
+        "median": 0.220083749396038,
+        "p90": 0.3519890481559027
+      },
+      "external": {
+        "p10": 0.009824448381381865,
+        "median": 0.022306329521662102,
+        "p90": 0.05596714446770817
+      }
+    },
+    "cell_detection_wasserstein_pp": 19.72834094712282,
+    "shuffled_j01_median": 0.09773921077316597,
+    "shuffled_j01_all": [
+      0.09700556864895513,
+      0.09754710408190818,
+      0.09764501183372654,
+      0.09820003890156642,
+      0.09783340971260542,
+      0.09839158314641669,
+      0.0982339520662909,
+      0.09751961292739031,
+      0.09718836589569564,
+      0.09793706475940907,
+      0.0991372976477187,
+      0.09694049995477311,
+      0.09876447721815187,
+      0.0970682435609675,
+      0.09750594590709855,
+      0.09823345703446311,
+      0.09706656489921343,
+      0.09634139525095811,
+      0.09855927863200672,
+      0.09941888955225005
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.19250334908856598,
+          "within_official": 0.006835855903488786,
+          "within_external": 0.007208041192569514
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.19166623621883264,
+          "within_official": 0.0058205945113092294,
+          "within_external": 0.007191591875607806
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.19938124230922954,
+          "within_official": 0.0059874845365127105,
+          "within_external": 0.007064459226333336
+        }
+      ],
+      "cross_mean": 0.19451694253887605,
+      "cross_min": 0.19166623621883264,
+      "cross_max": 0.19938124230922954,
+      "within_official_mean": 0.0062146449837702416,
+      "within_external_mean": 0.007154697431503552
+    }
+  },
+  {
+    "id": "B09_E8.5",
+    "row_id": "B09",
+    "external_dataset": "HEART230531_E85",
+    "external_name": "VED-010 · 胚胎与心脏单细胞图谱",
+    "external_ids": [
+      "VED-010"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E8.5",
+    "same_stage": true,
+    "note": "旧knee筛选的第2份E8.5；第1份文件损坏；无类型标签，整体结果仅作筛选敏感性",
+    "kind": "qc_sensitivity",
+    "common_genes": 25888,
+    "official_genes": 32285,
+    "external_genes": 27877,
+    "official_coverage": 0.8018584481957566,
+    "external_coverage": 0.9286508591311834,
+    "official_n": 16787,
+    "external_n": 3413,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM7226269_E8_5_2",
+        "n": 3413
+      }
+    ],
+    "j01": 0.6326916680769975,
+    "b01": 0.9301556595988544,
+    "detection_mean_abs_pp": 6.984434040114561,
+    "detection_spearman": 0.916104596873193,
+    "official_zero_fraction": 0.8559218082036085,
+    "external_zero_fraction": 0.8336189325733019,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 3685,
+    "both_detected_genes": 18093,
+    "official_only_detected_genes": 3918,
+    "external_only_detected_genes": 192,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.10313658838071693,
+        "median": 0.1418417799752781,
+        "p90": 0.18919962917181707
+      },
+      "external": {
+        "p10": 0.14010352286773795,
+        "median": 0.16262360939431397,
+        "p90": 0.1981226823238566
+      }
+    },
+    "cell_detection_wasserstein_pp": 2.2302875630295462,
+    "shuffled_j01_median": 0.14280843630827406,
+    "shuffled_j01_all": [
+      0.14309787412355668,
+      0.14135101821098292,
+      0.14221767074056166,
+      0.1455748429573295,
+      0.1430163760257951,
+      0.14047062888102105,
+      0.14440296083562898,
+      0.14250623223604697,
+      0.13913617036998915,
+      0.14281361930237974,
+      0.1427420754230772,
+      0.14280325331416838,
+      0.1452582962440694,
+      0.14011639775111914,
+      0.1430545638408397,
+      0.14206153270471428,
+      0.14290927559478261,
+      0.1427864991400224,
+      0.14581480210990383,
+      0.14443074856420582
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.12518819680471527,
+          "within_official": 0.00540983459126676,
+          "within_external": 0.004128027916391774
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.12193743254118983,
+          "within_official": 0.005258852547885828,
+          "within_external": 0.004187258871802713
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.11979823360647912,
+          "within_official": 0.00529393734192507,
+          "within_external": 0.00426926587739429
+        }
+      ],
+      "cross_mean": 0.1223079543174614,
+      "cross_min": 0.11979823360647912,
+      "cross_max": 0.12518819680471527,
+      "within_official_mean": 0.005320874827025886,
+      "within_external_mean": 0.004194850888529593
+    }
+  },
+  {
+    "id": "B09_E9.5",
+    "row_id": "B09",
+    "external_dataset": "HEART230531_E85",
+    "external_name": "VED-010 · 胚胎与心脏单细胞图谱",
+    "external_ids": [
+      "VED-010"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E8.5",
+    "same_stage": false,
+    "note": "旧knee筛选的第2份E8.5；第1份文件损坏；无类型标签，整体结果仅作筛选敏感性",
+    "kind": "qc_sensitivity",
+    "common_genes": 25888,
+    "official_genes": 32285,
+    "external_genes": 27877,
+    "official_coverage": 0.8018584481957566,
+    "external_coverage": 0.9286508591311834,
+    "official_n": 17057,
+    "external_n": 3413,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM7226269_E8_5_2",
+        "n": 3413
+      }
+    ],
+    "j01": 0.628944404385492,
+    "b01": 0.9288751680487985,
+    "detection_mean_abs_pp": 7.112483195120142,
+    "detection_spearman": 0.9110332467509649,
+    "official_zero_fraction": 0.8541410732341995,
+    "external_zero_fraction": 0.8336189325733019,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 3737,
+    "both_detected_genes": 18088,
+    "official_only_detected_genes": 3866,
+    "external_only_detected_genes": 197,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.10062577255871447,
+        "median": 0.14342552533992584,
+        "p90": 0.19615265760197775
+      },
+      "external": {
+        "p10": 0.14010352286773795,
+        "median": 0.16262360939431397,
+        "p90": 0.1981226823238566
+      }
+    },
+    "cell_detection_wasserstein_pp": 2.053009045439778,
+    "shuffled_j01_median": 0.14384937828054034,
+    "shuffled_j01_all": [
+      0.14513316260791556,
+      0.14511027862478054,
+      0.14290269489426044,
+      0.14356997562208487,
+      0.14345320975612083,
+      0.14723358272630654,
+      0.1436162563509826,
+      0.14285001211372444,
+      0.1459882505708443,
+      0.14407852573749114,
+      0.14484353368512343,
+      0.1426645027716906,
+      0.14524604460394225,
+      0.14122429906556586,
+      0.14500817291274087,
+      0.14304239404013047,
+      0.14230932392862056,
+      0.14687159954314846,
+      0.14416400328059484,
+      0.14362023082358955
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.12102972397356693,
+          "within_official": 0.005596761314431875,
+          "within_external": 0.004128027916391774
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.1190236745342661,
+          "within_official": 0.005579977291618521,
+          "within_external": 0.004187258871802713
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.11743942087134407,
+          "within_official": 0.005196680262875897,
+          "within_external": 0.00426926587739429
+        }
+      ],
+      "cross_mean": 0.11916427312639237,
+      "cross_min": 0.11743942087134407,
+      "cross_max": 0.12102972397356693,
+      "within_official_mean": 0.005457806289642098,
+      "within_external_mean": 0.004194850888529593
+    }
+  },
+  {
+    "id": "B09_E10.5",
+    "row_id": "B09",
+    "external_dataset": "HEART230531_E85",
+    "external_name": "VED-010 · 胚胎与心脏单细胞图谱",
+    "external_ids": [
+      "VED-010"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E8.5",
+    "same_stage": false,
+    "note": "旧knee筛选的第2份E8.5；第1份文件损坏；无类型标签，整体结果仅作筛选敏感性",
+    "kind": "qc_sensitivity",
+    "common_genes": 25888,
+    "official_genes": 32285,
+    "external_genes": 27877,
+    "official_coverage": 0.8018584481957566,
+    "external_coverage": 0.9286508591311834,
+    "official_n": 24979,
+    "external_n": 3413,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM7226269_E8_5_2",
+        "n": 3413
+      }
+    ],
+    "j01": 0.5115100548404926,
+    "b01": 0.9109632168436705,
+    "detection_mean_abs_pp": 8.90367831563294,
+    "detection_spearman": 0.8897311237826561,
+    "official_zero_fraction": 0.8908789934843165,
+    "external_zero_fraction": 0.8336189325733019,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 3657,
+    "both_detected_genes": 18063,
+    "official_only_detected_genes": 3946,
+    "external_only_detected_genes": 222,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.05315203955500618,
+        "median": 0.10634270704573548,
+        "p90": 0.17011742892459827
+      },
+      "external": {
+        "p10": 0.14010352286773795,
+        "median": 0.16262360939431397,
+        "p90": 0.1981226823238566
+      }
+    },
+    "cell_detection_wasserstein_pp": 5.728684024987104,
+    "shuffled_j01_median": 0.13358621376219582,
+    "shuffled_j01_all": [
+      0.13386452958019907,
+      0.1331576757022489,
+      0.1335922250150459,
+      0.13573326064293537,
+      0.13304547211713574,
+      0.1345734634858309,
+      0.13223025543111416,
+      0.13198563429374544,
+      0.1349971360507975,
+      0.13084705695876436,
+      0.13358020250934574,
+      0.13704172710572063,
+      0.13421747107227577,
+      0.12851891077201433,
+      0.1333813566306972,
+      0.13487990217820112,
+      0.13315959297867327,
+      0.13469240494194865,
+      0.13374005559693283,
+      0.13279319241134688
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.18934411341970303,
+          "within_official": 0.006861876131617706,
+          "within_external": 0.004128027916391774
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.19538117978219482,
+          "within_official": 0.005835956038351353,
+          "within_external": 0.004187258871802713
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.18501075598800132,
+          "within_official": 0.00602217694053242,
+          "within_external": 0.00426926587739429
+        }
+      ],
+      "cross_mean": 0.18991201639663305,
+      "cross_min": 0.18501075598800132,
+      "cross_max": 0.19538117978219482,
+      "within_official_mean": 0.006240003036833826,
+      "within_external_mean": 0.004194850888529593
+    }
+  },
+  {
+    "id": "B10_E8.5",
+    "row_id": "B10",
+    "external_dataset": "OSR1_E95",
+    "external_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+    "external_ids": [
+      "VED-019"
+    ],
+    "official_dataset": "OFF_T1_E8.5_RNA",
+    "official_stage": "E8.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "整数样式未充分证明原始UMI，归一化结果仅作权重敏感性",
+    "kind": "selection_sensitivity",
+    "common_genes": 16991,
+    "official_genes": 32285,
+    "external_genes": 17492,
+    "official_coverage": 0.5262815549016571,
+    "external_coverage": 0.9713583352389664,
+    "official_n": 16787,
+    "external_n": 533,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E8.5_RNA",
+        "n": 16787
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM9263257",
+        "n": 533
+      }
+    ],
+    "j01": 0.6275876917450619,
+    "b01": 0.8798526732532683,
+    "detection_mean_abs_pp": 12.014732674673171,
+    "detection_spearman": 0.9074130522513222,
+    "official_zero_fraction": 0.7766064112160529,
+    "external_zero_fraction": 0.6983026992659049,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 6,
+    "both_detected_genes": 16271,
+    "official_only_detected_genes": 690,
+    "external_only_detected_genes": 24,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.16002589606262138,
+        "median": 0.21988111353069273,
+        "p90": 0.29350832793832027
+      },
+      "external": {
+        "p10": 0.20181272438349715,
+        "median": 0.3135777764698958,
+        "p90": 0.3726678829968807
+      }
+    },
+    "cell_detection_wasserstein_pp": 7.947184638486668,
+    "shuffled_j01_median": 0.25168172116231824,
+    "shuffled_j01_all": [
+      0.2545010828087547,
+      0.25469845692356846,
+      0.2497457441407452,
+      0.2508373955004292,
+      0.25123363123528336,
+      0.25164543347721113,
+      0.2518721778177073,
+      0.2514876337728833,
+      0.2520060794691579,
+      0.25463531219666696,
+      0.25461443627074515,
+      0.2508319233453883,
+      0.25193953230547084,
+      0.2517887154665148,
+      0.2503780028528086,
+      0.2510268087909588,
+      0.25367952921876646,
+      0.24562584239032031,
+      0.24882568388302864,
+      0.2517180088474253
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.12183410822198981,
+          "within_official": 0.00540965706135621,
+          "within_external": 0.004087774689395918
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.11293151062258533,
+          "within_official": 0.005256913206064917,
+          "within_external": 0.004348129725965322
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.11434540100345736,
+          "within_official": 0.00530043644090239,
+          "within_external": 0.0040959838271354965
+        }
+      ],
+      "cross_mean": 0.11637033994934416,
+      "cross_min": 0.11293151062258533,
+      "cross_max": 0.12183410822198981,
+      "within_official_mean": 0.005322335569441172,
+      "within_external_mean": 0.004177296080832245
+    }
+  },
+  {
+    "id": "B10_E9.5",
+    "row_id": "B10",
+    "external_dataset": "OSR1_E95",
+    "external_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+    "external_ids": [
+      "VED-019"
+    ],
+    "official_dataset": "OFF_T1_E9.5_RNA",
+    "official_stage": "E9.5",
+    "external_stage": "E9.5",
+    "same_stage": true,
+    "note": "整数样式未充分证明原始UMI，归一化结果仅作权重敏感性",
+    "kind": "selection_sensitivity",
+    "common_genes": 16991,
+    "official_genes": 32285,
+    "external_genes": 17492,
+    "official_coverage": 0.5262815549016571,
+    "external_coverage": 0.9713583352389664,
+    "official_n": 17057,
+    "external_n": 533,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E9.5_RNA",
+        "n": 17057
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM9263257",
+        "n": 533
+      }
+    ],
+    "j01": 0.6303772847796184,
+    "b01": 0.8803338299227974,
+    "detection_mean_abs_pp": 11.96661700772026,
+    "detection_spearman": 0.9062163503553441,
+    "official_zero_fraction": 0.7738590553651118,
+    "external_zero_fraction": 0.6983026992659049,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 12,
+    "both_detected_genes": 16267,
+    "official_only_detected_genes": 684,
+    "external_only_detected_genes": 28,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.1559060679183097,
+        "median": 0.22235301041727973,
+        "p90": 0.3042787358013066
+      },
+      "external": {
+        "p10": 0.20181272438349715,
+        "median": 0.3135777764698958,
+        "p90": 0.3726678829968807
+      }
+    },
+    "cell_detection_wasserstein_pp": 7.61871736577436,
+    "shuffled_j01_median": 0.25533077143825894,
+    "shuffled_j01_all": [
+      0.2529270162721441,
+      0.2539053365057908,
+      0.2539865891273789,
+      0.25547935746678524,
+      0.25475367152244166,
+      0.2612885014613422,
+      0.2568086502902135,
+      0.2570699240068843,
+      0.2577434251825906,
+      0.2523910379454929,
+      0.2572717681682271,
+      0.25255881147325954,
+      0.25518218540973264,
+      0.2550655709129708,
+      0.25753283262862026,
+      0.2567420318569463,
+      0.2593792468801638,
+      0.2557140342025777,
+      0.25496089837176844,
+      0.25462984815593254
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.1135038512635329,
+          "within_official": 0.005584391380509812,
+          "within_external": 0.004087774689395918
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.10772121035054516,
+          "within_official": 0.005566960714763702,
+          "within_external": 0.004348129725965322
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.10882269167314718,
+          "within_official": 0.005202583295949248,
+          "within_external": 0.0040959838271354965
+        }
+      ],
+      "cross_mean": 0.11001591776240842,
+      "cross_min": 0.10772121035054516,
+      "cross_max": 0.1135038512635329,
+      "within_official_mean": 0.005451311797074254,
+      "within_external_mean": 0.004177296080832245
+    }
+  },
+  {
+    "id": "B10_E10.5",
+    "row_id": "B10",
+    "external_dataset": "OSR1_E95",
+    "external_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+    "external_ids": [
+      "VED-019"
+    ],
+    "official_dataset": "OFF_T1_E10.5_RNA",
+    "official_stage": "E10.5",
+    "external_stage": "E9.5",
+    "same_stage": false,
+    "note": "整数样式未充分证明原始UMI，归一化结果仅作权重敏感性",
+    "kind": "selection_sensitivity",
+    "common_genes": 16991,
+    "official_genes": 32285,
+    "external_genes": 17492,
+    "official_coverage": 0.5262815549016571,
+    "external_coverage": 0.9713583352389664,
+    "official_n": 24979,
+    "external_n": 533,
+    "official_unit": "nucleus",
+    "external_unit": "cell",
+    "official_samples": [
+      {
+        "sample": "OFF_T1_E10.5_RNA",
+        "n": 24979
+      }
+    ],
+    "external_samples": [
+      {
+        "sample": "GSM9263257",
+        "n": 533
+      }
+    ],
+    "j01": 0.48660162803998885,
+    "b01": 0.8375109970599641,
+    "detection_mean_abs_pp": 16.24890029400359,
+    "detection_spearman": 0.8624244948594633,
+    "official_zero_fraction": 0.8311924656933115,
+    "external_zero_fraction": 0.6983026992659049,
+    "official_zero_rows": 0,
+    "external_zero_rows": 0,
+    "both_all_zero_genes": 10,
+    "both_detected_genes": 16260,
+    "official_only_detected_genes": 686,
+    "external_only_detected_genes": 35,
+    "cell_detection_quantiles": {
+      "official": {
+        "p10": 0.08216114413513036,
+        "median": 0.1644399976458125,
+        "p90": 0.2632570184215173
+      },
+      "external": {
+        "p10": 0.20181272438349715,
+        "median": 0.3135777764698958,
+        "p90": 0.3726678829968807
+      }
+    },
+    "cell_detection_wasserstein_pp": 13.291761631765276,
+    "shuffled_j01_median": 0.22679635096486273,
+    "shuffled_j01_all": [
+      0.22859083067943373,
+      0.22949328119262155,
+      0.22652838516769416,
+      0.22640105425273607,
+      0.22780252528724562,
+      0.22632293644545734,
+      0.2263197043202981,
+      0.2272823940437106,
+      0.22622643713019736,
+      0.22449388279376675,
+      0.22642726075553604,
+      0.22895850044708801,
+      0.22865606321434453,
+      0.22706431676203126,
+      0.22634252574747213,
+      0.22492853909402213,
+      0.2254331753907866,
+      0.2273654656997689,
+      0.22844340146587513,
+      0.22710103538678486
+    ],
+    "binary_pattern": {
+      "n_draw": 256,
+      "seeds": [
+        2026111601,
+        2026111602,
+        2026111603
+      ],
+      "runs": [
+        {
+          "seed": 2026111601,
+          "cross": 0.19269784630803533,
+          "within_official": 0.006856614447197984,
+          "within_external": 0.004087774689395918
+        },
+        {
+          "seed": 2026111602,
+          "cross": 0.19370657002067393,
+          "within_official": 0.005840709442219649,
+          "within_external": 0.004348129725965322
+        },
+        {
+          "seed": 2026111603,
+          "cross": 0.1894272551110927,
+          "within_official": 0.006016160304309237,
+          "within_external": 0.0040959838271354965
+        }
+      ],
+      "cross_mean": 0.191943890479934,
+      "cross_min": 0.1894272551110927,
+      "cross_max": 0.19370657002067393,
+      "within_official_mean": 0.0062378280645756234,
+      "within_external_mean": 0.004177296080832245
+    }
+  }
+]

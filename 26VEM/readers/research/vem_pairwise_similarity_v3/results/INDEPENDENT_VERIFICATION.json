@@ -1,0 +1,2493 @@
+{
+  "checks": 600,
+  "passed": true,
+  "items": [
+    {
+      "name": "P001 panel",
+      "passed": true
+    },
+    {
+      "name": "P001 official OFF_T2_embryo_E6.75 denominator",
+      "passed": true
+    },
+    {
+      "name": "P001 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P001 external EMTAB_pool_7 denominator",
+      "passed": true
+    },
+    {
+      "name": "P001 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P001 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P001 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P001 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P001 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P001 streak zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P001 streak detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P001 streak spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P001 streak ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P001 exe_ectoderm zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P001 exe_ectoderm detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P001 exe_ectoderm spearman",
+      "passed": true,
+      "error": 2.7755575615628914e-17
+    },
+    {
+      "name": "P001 exe_ectoderm ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P001 exe_endoderm zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P001 exe_endoderm detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P001 exe_endoderm spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P001 exe_endoderm ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P002 panel",
+      "passed": true
+    },
+    {
+      "name": "P002 official OFF_T2_embryo_E7.25 denominator",
+      "passed": true
+    },
+    {
+      "name": "P002 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P002 external EMTAB_pool_23 denominator",
+      "passed": true
+    },
+    {
+      "name": "P002 external EMTAB_pool_26 denominator",
+      "passed": true
+    },
+    {
+      "name": "P002 external EMTAB_pool_27 denominator",
+      "passed": true
+    },
+    {
+      "name": "P002 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P002 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P002 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P002 ALL spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P002 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P002 streak zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P002 streak detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P002 streak spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P002 streak ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P002 caudal_epiblast zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P002 caudal_epiblast detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P002 caudal_epiblast spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P002 caudal_epiblast ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P002 exe_ectoderm zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P002 exe_ectoderm detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P002 exe_ectoderm spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P002 exe_ectoderm ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P002 exe_endoderm zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P002 exe_endoderm detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P002 exe_endoderm spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P002 exe_endoderm ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P002 blood_progenitor zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P002 blood_progenitor detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P002 blood_progenitor spearman",
+      "passed": true,
+      "error": 2.7755575615628914e-17
+    },
+    {
+      "name": "P002 blood_progenitor ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P003 panel",
+      "passed": true
+    },
+    {
+      "name": "P003 official OFF_T2_embryo_E8.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P003 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P003 external EMTAB_pool_16 denominator",
+      "passed": true
+    },
+    {
+      "name": "P003 external EMTAB_pool_33 denominator",
+      "passed": true
+    },
+    {
+      "name": "P003 external EMTAB_pool_34 denominator",
+      "passed": true
+    },
+    {
+      "name": "P003 external EMTAB_pool_35 denominator",
+      "passed": true
+    },
+    {
+      "name": "P003 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P003 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P003 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P003 ALL spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P003 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P003 allantois zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P003 allantois detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P003 allantois spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P003 allantois ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P003 caudal_epiblast zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P003 caudal_epiblast detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P003 caudal_epiblast spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P003 caudal_epiblast ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P003 exe_endoderm zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P003 exe_endoderm detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P003 exe_endoderm spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P003 exe_endoderm ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P004 panel",
+      "passed": true
+    },
+    {
+      "name": "P004 official OFF_T2_embryo_E8.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P004 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P004 external STEREO_E8.0_rep1 denominator",
+      "passed": true
+    },
+    {
+      "name": "P004 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P004 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P004 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P004 ALL spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P004 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P004 allantois zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P004 allantois detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P004 allantois spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P004 allantois ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P004 caudal_epiblast zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P004 caudal_epiblast detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P004 caudal_epiblast spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P004 caudal_epiblast ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P004 exe_endoderm zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P004 exe_endoderm detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P004 exe_endoderm spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P004 exe_endoderm ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P005 panel",
+      "passed": true
+    },
+    {
+      "name": "P005 official OFF_T2_embryo_E8.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P005 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P005 external STEREO_E8.0_rep2 denominator",
+      "passed": true
+    },
+    {
+      "name": "P005 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P005 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P005 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P005 ALL spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P005 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P005 allantois zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P005 allantois detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P005 allantois spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P005 allantois ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P005 caudal_epiblast zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P005 caudal_epiblast detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P005 caudal_epiblast spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P005 caudal_epiblast ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P005 exe_endoderm zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P005 exe_endoderm detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P005 exe_endoderm spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P005 exe_endoderm ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P006 panel",
+      "passed": true
+    },
+    {
+      "name": "P006 official OFF_T1_E8.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P006 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P006 external EMTAB_pool_17 denominator",
+      "passed": true
+    },
+    {
+      "name": "P006 external EMTAB_pool_29 denominator",
+      "passed": true
+    },
+    {
+      "name": "P006 external EMTAB_pool_36 denominator",
+      "passed": true
+    },
+    {
+      "name": "P006 external EMTAB_pool_37 denominator",
+      "passed": true
+    },
+    {
+      "name": "P006 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P006 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P006 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P006 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P006 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P006 surface zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P006 surface detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P006 surface spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P006 surface ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P006 endothelium zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P006 endothelium detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P006 endothelium spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P006 endothelium ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P006 paraxial zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P006 paraxial detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P006 paraxial spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P006 paraxial ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P006 neural_crest zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P006 neural_crest detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P006 neural_crest spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P006 neural_crest ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P006 cardiomyocyte zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P006 cardiomyocyte detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P006 cardiomyocyte spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P006 cardiomyocyte ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P007 panel",
+      "passed": true
+    },
+    {
+      "name": "P007 official OFF_T1_E8.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test1-01 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test1-03 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test1-05 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test1-06 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test1-08 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test1-09 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test2-1 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test2-2 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test2-3 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test2-6 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test2-7 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external E8.5_test2-8 denominator",
+      "passed": true
+    },
+    {
+      "name": "P007 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P007 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P007 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P007 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P007 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P007 endothelium zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P007 endothelium detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P007 endothelium spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P007 endothelium ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P007 paraxial zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P007 paraxial detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P007 paraxial spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P007 paraxial ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P007 neural_crest zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P007 neural_crest detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P007 neural_crest spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P007 neural_crest ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P007 shf zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P007 shf detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P007 shf spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P007 shf ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P008 panel",
+      "passed": true
+    },
+    {
+      "name": "P008 official OFF_T1_E9.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo1.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo19.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo20.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo21.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo22.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo3.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo39.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo40.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo41.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo42.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo55.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo56.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo57.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo58.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external embryo63.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P008 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P008 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P008 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P008 ALL spearman",
+      "passed": true,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "name": "P008 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P008 hepatocyte zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P008 hepatocyte detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P008 hepatocyte spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P008 hepatocyte ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P008 shf zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P008 shf detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P008 shf spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P008 shf ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P009 panel",
+      "passed": true
+    },
+    {
+      "name": "P009 official OFF_T1_E9.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P009 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P009 external embryo_22 denominator",
+      "passed": true
+    },
+    {
+      "name": "P009 external embryo_23 denominator",
+      "passed": true
+    },
+    {
+      "name": "P009 external embryo_24 denominator",
+      "passed": true
+    },
+    {
+      "name": "P009 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P009 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P009 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P009 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P009 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P009 endocardium zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P009 endocardium detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P009 endocardium spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P009 endocardium ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P009 shf zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P009 shf detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P009 shf spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P009 shf ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P010 panel",
+      "passed": true
+    },
+    {
+      "name": "P010 official OFF_T2_heart_E8.75 denominator",
+      "passed": true
+    },
+    {
+      "name": "P010 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P010 external embryo_13 denominator",
+      "passed": true
+    },
+    {
+      "name": "P010 external embryo_14 denominator",
+      "passed": true
+    },
+    {
+      "name": "P010 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P010 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P010 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P010 ALL spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P010 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P011 panel",
+      "passed": true
+    },
+    {
+      "name": "P011 official OFF_T2_heart_E9.5 denominator",
+      "passed": true
+    },
+    {
+      "name": "P011 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P011 external embryo_22 denominator",
+      "passed": true
+    },
+    {
+      "name": "P011 external embryo_23 denominator",
+      "passed": true
+    },
+    {
+      "name": "P011 external embryo_24 denominator",
+      "passed": true
+    },
+    {
+      "name": "P011 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P011 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P011 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P011 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P011 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P011 endo_region zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P011 endo_region detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P011 endo_region spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P011 endo_region ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P012 panel",
+      "passed": true
+    },
+    {
+      "name": "P012 official OFF_T1_E9.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P012 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P012 external CD1_E9.5_LA denominator",
+      "passed": true
+    },
+    {
+      "name": "P012 external CD1_E9.5_LV denominator",
+      "passed": true
+    },
+    {
+      "name": "P012 external CD1_E9.5_RA denominator",
+      "passed": true
+    },
+    {
+      "name": "P012 external CD1_E9.5_RV denominator",
+      "passed": true
+    },
+    {
+      "name": "P012 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P012 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P012 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P012 ALL spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P012 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P012 ventricular zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P012 ventricular detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P012 ventricular spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P012 ventricular ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P012 endocardium zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P012 endocardium detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P012 endocardium spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P012 endocardium ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P012 blood zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P012 blood detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P012 blood spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P012 blood ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P013 panel",
+      "passed": true
+    },
+    {
+      "name": "P013 official OFF_T2_heart_E9.5 denominator",
+      "passed": true
+    },
+    {
+      "name": "P013 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P013 external CD1_E9.5_LA denominator",
+      "passed": true
+    },
+    {
+      "name": "P013 external CD1_E9.5_LV denominator",
+      "passed": true
+    },
+    {
+      "name": "P013 external CD1_E9.5_RA denominator",
+      "passed": true
+    },
+    {
+      "name": "P013 external CD1_E9.5_RV denominator",
+      "passed": true
+    },
+    {
+      "name": "P013 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P013 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P013 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P013 ALL spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P013 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P013 ventricular zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P013 ventricular detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P013 ventricular spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P013 ventricular ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P013 atrial zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P013 atrial detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P013 atrial spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P013 atrial ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P013 endo_region zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P013 endo_region detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P013 endo_region spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P013 endo_region ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P014 panel",
+      "passed": true
+    },
+    {
+      "name": "P014 official OFF_T1_E8.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P014 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P014 external GSM3592147 denominator",
+      "passed": true
+    },
+    {
+      "name": "P014 external GSM3592148 denominator",
+      "passed": true
+    },
+    {
+      "name": "P014 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P014 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P014 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P014 ALL spearman",
+      "passed": true,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "name": "P014 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P015 panel",
+      "passed": true
+    },
+    {
+      "name": "P015 official OFF_T1_E9.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P015 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P015 external GSM3592149 denominator",
+      "passed": true
+    },
+    {
+      "name": "P015 external GSM3592150 denominator",
+      "passed": true
+    },
+    {
+      "name": "P015 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P015 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P015 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P015 ALL spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P015 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P016 panel",
+      "passed": true
+    },
+    {
+      "name": "P016 official OFF_T2_heart_E8.25_late denominator",
+      "passed": true
+    },
+    {
+      "name": "P016 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P016 external GSM3592147 denominator",
+      "passed": true
+    },
+    {
+      "name": "P016 external GSM3592148 denominator",
+      "passed": true
+    },
+    {
+      "name": "P016 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P016 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P016 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P016 ALL spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P016 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P017 panel",
+      "passed": true
+    },
+    {
+      "name": "P017 official OFF_T2_heart_E9.5 denominator",
+      "passed": true
+    },
+    {
+      "name": "P017 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P017 external GSM3592149 denominator",
+      "passed": true
+    },
+    {
+      "name": "P017 external GSM3592150 denominator",
+      "passed": true
+    },
+    {
+      "name": "P017 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P017 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P017 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P017 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P017 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P018 panel",
+      "passed": true
+    },
+    {
+      "name": "P018 official OFF_T1_E9.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P018 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P018 external MOSTA_E9.5 denominator",
+      "passed": true
+    },
+    {
+      "name": "P018 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P018 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P018 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P018 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P018 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P019 panel",
+      "passed": true
+    },
+    {
+      "name": "P019 official OFF_T2_heart_E9.5 denominator",
+      "passed": true
+    },
+    {
+      "name": "P019 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P019 external MOSTA_E9.5 denominator",
+      "passed": true
+    },
+    {
+      "name": "P019 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P019 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P019 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P019 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P019 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P020 panel",
+      "passed": true
+    },
+    {
+      "name": "P020 official OFF_T2_embryo_E7.25 denominator",
+      "passed": true
+    },
+    {
+      "name": "P020 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P020 external stage_pool_E7.25 denominator",
+      "passed": true
+    },
+    {
+      "name": "P020 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P020 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P020 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P020 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P020 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P021 panel",
+      "passed": true
+    },
+    {
+      "name": "P021 official OFF_T2_heart_E8.25_late denominator",
+      "passed": true
+    },
+    {
+      "name": "P021 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P021 external stage_pool_E8.25 denominator",
+      "passed": true
+    },
+    {
+      "name": "P021 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P021 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P021 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P021 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P021 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P022 panel",
+      "passed": true
+    },
+    {
+      "name": "P022 official OFF_T1_E8.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P022 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P022 external GSM7226269_E8_5_2 denominator",
+      "passed": true
+    },
+    {
+      "name": "P022 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P022 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P022 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P022 ALL spearman",
+      "passed": true,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "name": "P022 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P023 panel",
+      "passed": true
+    },
+    {
+      "name": "P023 official OFF_T1_E9.5_RNA denominator",
+      "passed": true
+    },
+    {
+      "name": "P023 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P023 external GSM9263257 denominator",
+      "passed": true
+    },
+    {
+      "name": "P023 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P023 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P023 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P023 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P023 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P023 shf_subset zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P023 shf_subset detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P023 shf_subset spearman",
+      "passed": true,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "name": "P023 shf_subset ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P024 panel",
+      "passed": true
+    },
+    {
+      "name": "P024 official OFF_T2_heart_E9.5 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 official proportions",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo1.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo19.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo20.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo21.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo22.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo3.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo39.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo40.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo41.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo42.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo55.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo56.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo57.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo58.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external embryo63.0 denominator",
+      "passed": true
+    },
+    {
+      "name": "P024 external proportions",
+      "passed": true
+    },
+    {
+      "name": "P024 ALL zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P024 ALL detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P024 ALL spearman",
+      "passed": true,
+      "error": 0.0
+    },
+    {
+      "name": "P024 ALL ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "P024 hepatocyte zero_partition",
+      "passed": true
+    },
+    {
+      "name": "P024 hepatocyte detection_pp",
+      "passed": true
+    },
+    {
+      "name": "P024 hepatocyte spearman",
+      "passed": true,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "name": "P024 hepatocyte ranking_gate",
+      "passed": true
+    },
+    {
+      "name": "('P001', 'external', 'EMTAB_pool_7') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P001', 'official', 'OFF_T2_embryo_E6.75') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P002', 'external', 'EMTAB_pool_23') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P002', 'external', 'EMTAB_pool_26') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P002', 'external', 'EMTAB_pool_27') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P002', 'official', 'OFF_T2_embryo_E7.25') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P003', 'external', 'EMTAB_pool_16') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P003', 'external', 'EMTAB_pool_33') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P003', 'external', 'EMTAB_pool_34') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P003', 'external', 'EMTAB_pool_35') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P003', 'official', 'OFF_T2_embryo_E8.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P004', 'external', 'STEREO_E8.0_rep1') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P004', 'official', 'OFF_T2_embryo_E8.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P005', 'external', 'STEREO_E8.0_rep2') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P005', 'official', 'OFF_T2_embryo_E8.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P006', 'external', 'EMTAB_pool_17') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P006', 'external', 'EMTAB_pool_29') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P006', 'external', 'EMTAB_pool_36') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P006', 'external', 'EMTAB_pool_37') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P006', 'official', 'OFF_T1_E8.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test1-01') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test1-03') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test1-05') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test1-06') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test1-08') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test1-09') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test2-1') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test2-2') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test2-3') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test2-6') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test2-7') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'external', 'E8.5_test2-8') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P007', 'official', 'OFF_T1_E8.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo1.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo19.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo20.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo21.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo22.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo3.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo39.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo40.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo41.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo42.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo55.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo56.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo57.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo58.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'external', 'embryo63.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P008', 'official', 'OFF_T1_E9.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P009', 'external', 'embryo_22') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P009', 'external', 'embryo_23') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P009', 'external', 'embryo_24') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P009', 'official', 'OFF_T1_E9.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P010', 'external', 'embryo_13') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P010', 'external', 'embryo_14') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P010', 'official', 'OFF_T2_heart_E8.75') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P011', 'external', 'embryo_22') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P011', 'external', 'embryo_23') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P011', 'external', 'embryo_24') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P011', 'official', 'OFF_T2_heart_E9.5') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P012', 'external', 'CD1_E9.5_LA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P012', 'external', 'CD1_E9.5_LV') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P012', 'external', 'CD1_E9.5_RA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P012', 'external', 'CD1_E9.5_RV') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P012', 'official', 'OFF_T1_E9.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P013', 'external', 'CD1_E9.5_LA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P013', 'external', 'CD1_E9.5_LV') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P013', 'external', 'CD1_E9.5_RA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P013', 'external', 'CD1_E9.5_RV') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P013', 'official', 'OFF_T2_heart_E9.5') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P014', 'external', 'GSM3592147') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P014', 'external', 'GSM3592148') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P014', 'official', 'OFF_T1_E8.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P015', 'external', 'GSM3592149') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P015', 'external', 'GSM3592150') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P015', 'official', 'OFF_T1_E9.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P016', 'external', 'GSM3592147') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P016', 'external', 'GSM3592148') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P016', 'official', 'OFF_T2_heart_E8.25_late') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P017', 'external', 'GSM3592149') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P017', 'external', 'GSM3592150') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P017', 'official', 'OFF_T2_heart_E9.5') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P018', 'external', 'MOSTA_E9.5') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P018', 'official', 'OFF_T1_E9.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P019', 'external', 'MOSTA_E9.5') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P019', 'official', 'OFF_T2_heart_E9.5') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P020', 'external', 'stage_pool_E7.25') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P020', 'official', 'OFF_T2_embryo_E7.25') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P021', 'external', 'stage_pool_E8.25') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P021', 'official', 'OFF_T2_heart_E8.25_late') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P022', 'external', 'GSM7226269_E8_5_2') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P022', 'official', 'OFF_T1_E8.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P023', 'external', 'GSM9263257') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P023', 'official', 'OFF_T1_E9.5_RNA') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo1.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo19.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo20.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo21.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo22.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo3.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo39.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo40.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo41.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo42.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo55.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo56.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo57.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo58.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'external', 'embryo63.0') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "('P024', 'official', 'OFF_T2_heart_E9.5') raw labels sum",
+      "passed": true
+    },
+    {
+      "name": "P001 streak official independent dense expression",
+      "passed": true,
+      "max_error": 6.217248937900877e-15
+    },
+    {
+      "name": "P001 streak official independent dense detection",
+      "passed": true
+    },
+    {
+      "name": "P001 streak external independent dense expression",
+      "passed": true,
+      "max_error": 8.881784197001252e-15
+    },
+    {
+      "name": "P001 streak external independent dense detection",
+      "passed": true
+    },
+    {
+      "name": "P012 endocardium official independent dense expression",
+      "passed": true,
+      "max_error": 3.552713678800501e-15
+    },
+    {
+      "name": "P012 endocardium official independent dense detection",
+      "passed": true
+    },
+    {
+      "name": "P012 endocardium external independent dense expression",
+      "passed": true,
+      "max_error": 8.881784197001252e-16
+    },
+    {
+      "name": "P012 endocardium external independent dense detection",
+      "passed": true
+    },
+    {
+      "name": "mapping split 2",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 2",
+      "passed": true,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "mapping split 3",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 3",
+      "passed": true,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "mapping split 4",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 4",
+      "passed": true,
+      "max_error": 8.881784197001252e-16
+    },
+    {
+      "name": "mapping split 5",
+      "passed": true
+    },
+    {
+      "name": "mapping within-stage permutation 5",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 5",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "mapping split 6",
+      "passed": true
+    },
+    {
+      "name": "mapping within-stage permutation 6",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 6",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "mapping split 7",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 7",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "mapping split 8",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 8",
+      "passed": true,
+      "max_error": 5.551115123125783e-17
+    },
+    {
+      "name": "mapping split 9",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 9",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "mapping split 10",
+      "passed": true
+    },
+    {
+      "name": "mapping within-stage permutation 10",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 10",
+      "passed": true,
+      "max_error": 5.551115123125783e-17
+    },
+    {
+      "name": "mapping split 11",
+      "passed": true
+    },
+    {
+      "name": "mapping within-stage permutation 11",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 11",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "mapping split 12",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 12",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "mapping split 13",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 13",
+      "passed": true,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "mapping split 14",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 14",
+      "passed": true,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "name": "mapping split 15",
+      "passed": true
+    },
+    {
+      "name": "mapping within-stage permutation 15",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 15",
+      "passed": true,
+      "max_error": 5.551115123125783e-17
+    },
+    {
+      "name": "mapping split 16",
+      "passed": true
+    },
+    {
+      "name": "mapping within-stage permutation 16",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 16",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "mapping split 17",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 17",
+      "passed": true,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "mapping split 18",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 18",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "mapping split 19",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 19",
+      "passed": true,
+      "max_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "mapping split 20",
+      "passed": true
+    },
+    {
+      "name": "mapping within-stage permutation 20",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 20",
+      "passed": true,
+      "max_error": 5.551115123125783e-17
+    },
+    {
+      "name": "mapping split 21",
+      "passed": true
+    },
+    {
+      "name": "mapping within-stage permutation 21",
+      "passed": true
+    },
+    {
+      "name": "mapping independent MSE 21",
+      "passed": true,
+      "max_error": 1.7763568394002505e-15
+    }
+  ]
+}
