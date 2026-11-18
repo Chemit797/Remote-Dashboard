@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-18T09:33:25.301012+00:00",
+  "built_at": "2026-11-18T18:50:29.781461+00:00",
   "scope": "Selected reports, aggregate statistics and metadata only. No H5AD, model weights, credentials or submission payloads.",
   "files": [
     {
@@ -43,9 +43,14 @@
       "sha256": "d44ca4d0ea390e629b964a517c1f4378edbb896fb9b4d84ad0316af2b2d29bf5"
     },
     {
-      "path": "research/vem_pairwise_similarity_v3/results/all_comparisons.csv",
-      "bytes": 78686,
-      "sha256": "5de3b2a486ff23f019b75c148fd56e377cb5fb530869ccdb1921035017a19d60"
+      "path": "research/validation_completion_20261119/COMPLETION_SUMMARY.json",
+      "bytes": 533,
+      "sha256": "c90c70a59a46541a5ec34047ad8056ded87dae42824ad870fe28f4b9e67e597c"
+    },
+    {
+      "path": "research/validation_completion_20261119/overlays/research/vem_pairwise_similarity_v3/results/all_comparisons.csv",
+      "bytes": 130715,
+      "sha256": "8d990ddb52f5dbb89a970609b1e509101b4d079969b96a213f838e5f1fba5e3d"
     },
     {
       "path": "research/vem_official_metric_source_audit/results/outputs/metrics.csv",
@@ -61,6 +66,11 @@
       "path": "reports/analysis_integration_20261118/handbook/team/handbook_20261111/AGENT_HANDBOOK.md",
       "bytes": 88563,
       "sha256": "f93f3651ed6eff6c7cbd555d061b185172283dca2f642e953d5b0981ab984644"
+    },
+    {
+      "path": "research/validation_completion_20261119/TOPIC_COVERAGE.json",
+      "bytes": 31542,
+      "sha256": "e7115303b6ccf2ab42e51169244b9f4fec8878c9161c80e3b4d1817f50243db7"
     },
     {
       "path": "reports/analysis_integration_20261118/peer_analysis/official_data_analysis_20261114/REPORT_ZH.md",

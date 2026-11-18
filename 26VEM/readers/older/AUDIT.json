@@ -1,0 +1,425 @@
+{
+  "status": "PASS",
+  "cohorts": 45,
+  "metric_replays": 224,
+  "source_replays": [
+    {
+      "source": "O_E9.5_RNA",
+      "original_rows": [
+        0,
+        5,
+        6
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "source": "O_E9.5",
+      "original_rows": [
+        36,
+        58,
+        59
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "source": "Pijuan",
+      "original_rows": [
+        52465,
+        52466,
+        52471
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "source": "MOSTA",
+      "original_rows": [
+        10,
+        12,
+        29
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "source": "Stereo1",
+      "original_rows": [
+        0,
+        4,
+        8
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "source": "Stereo2",
+      "original_rows": [
+        12,
+        19,
+        27
+      ],
+      "max_abs_error": 0.0
+    }
+  ],
+  "max_metric_error": 2.7200464103316335e-14,
+  "checks": [
+    {
+      "cohort": "O_E6.75",
+      "shape": [
+        4040,
+        498
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E7.25",
+      "shape": [
+        4287,
+        498
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E8.0",
+      "shape": [
+        6770,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E8.25_late",
+      "shape": [
+        7556,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E8.5_RNA",
+      "shape": [
+        7075,
+        32285
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E8.75",
+      "shape": [
+        7440,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E9.5",
+      "shape": [
+        8318,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E9.5_RNA",
+      "shape": [
+        7404,
+        32285
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E9.5_mab21l2_ko",
+      "shape": [
+        8273,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E10.5_RNA",
+      "shape": [
+        7596,
+        32285
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E10.5",
+      "shape": [
+        8583,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E7.5",
+      "shape": [
+        4427,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E8.5",
+      "shape": [
+        7061,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E8.75_gata4_ko_1",
+      "shape": [
+        7489,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "O_E8.75_gata4_ko_2",
+      "shape": [
+        7792,
+        500
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Pijuan_7.25",
+      "shape": [
+        4000,
+        26800
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Pijuan_8.0",
+      "shape": [
+        4263,
+        26800
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Pijuan_8.25",
+      "shape": [
+        4651,
+        26800
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Pijuan_8.5",
+      "shape": [
+        4747,
+        26800
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Mesp1_7.25",
+      "shape": [
+        785,
+        25954
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Mesp1_8.25",
+      "shape": [
+        4000,
+        25954
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "MOCA_9.5",
+      "shape": [
+        7078,
+        21019
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "TOME_8.5",
+      "shape": [
+        7122,
+        28314
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "deSoysa_8.25",
+      "shape": [
+        4000,
+        17405
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "deSoysa_9.25",
+      "shape": [
+        4000,
+        17405
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "QiuCardiac_8.75",
+      "shape": [
+        1139,
+        26983
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "QiuCardiac_9.5",
+      "shape": [
+        3583,
+        26983
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "QiuCardiac_13.75",
+      "shape": [
+        90,
+        26983
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "QiuEndo_8.75",
+      "shape": [
+        2533,
+        26983
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "QiuEndo_9.5",
+      "shape": [
+        5090,
+        26983
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Feng_9.5",
+      "shape": [
+        887,
+        29715
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Feng_14.5",
+      "shape": [
+        3184,
+        29715
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "MOSTA_9.5",
+      "shape": [
+        4000,
+        12418
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Stereo1_8.0",
+      "shape": [
+        4198,
+        16098
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Stereo2_8.0",
+      "shape": [
+        4930,
+        18358
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "MERSCOPE_9.5_r0",
+      "shape": [
+        1077,
+        296
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "MERSCOPE_9.5_r1",
+      "shape": [
+        4000,
+        296
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "MERSCOPE_15.5_r0",
+      "shape": [
+        4000,
+        296
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Endo10x1",
+      "shape": [
+        4000,
+        25943
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Endo10x2",
+      "shape": [
+        4000,
+        25943
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "GataHet1",
+      "shape": [
+        4000,
+        31899
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "GataHet2",
+      "shape": [
+        4000,
+        31899
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "GataKO1",
+      "shape": [
+        4000,
+        31899
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "GataKO2",
+      "shape": [
+        4000,
+        31899
+      ],
+      "rows_and_stage_pass": true
+    },
+    {
+      "cohort": "Visium16",
+      "shape": [
+        741,
+        32245
+      ],
+      "rows_and_stage_pass": true
+    }
+  ],
+  "script_sha256": "0f85a4307e9a3ceb6b189f76139ed69d44cf9c47ca7d59b9e5e5a88183622d85"
+}

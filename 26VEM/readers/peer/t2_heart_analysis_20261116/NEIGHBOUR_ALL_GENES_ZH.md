@@ -4,6 +4,15 @@
 
 ## 结果
 
+
+**验证集补全 · 2026-11-19**
+
+验证阶段已在原9500行扫描中。本次复用如下原表行，没有重复运行邻域回归。
+
+<div style="overflow-x:auto;contain:inline-size;max-width:100%" tabindex="0" role="region" aria-label="结果表格，可横向滚动"><table style="min-width:625px;width:100%"><thead><tr><th style="white-space:nowrap;min-width:70px">阶段</th><th>类群</th><th>观测数</th><th>合格基因</th><th>原阈值下候选数</th></tr></thead><tbody><tr><td style="white-space:nowrap;min-width:70px">E8.5</td><td>Cardiomyocyte</td><td>1919</td><td>221</td><td>34</td></tr><tr><td style="white-space:nowrap;min-width:70px">E10.5</td><td>Cardiomyocyte</td><td>3000</td><td>137</td><td>39</td></tr><tr><td style="white-space:nowrap;min-width:70px">E8.5</td><td>Endothelial/endocardial</td><td>1190</td><td>230</td><td>56</td></tr><tr><td style="white-space:nowrap;min-width:70px">E8.5</td><td>Cardiac progenitor/heart field</td><td>3000</td><td>225</td><td>28</td></tr><tr><td style="white-space:nowrap;min-width:70px">E8.5</td><td>Other mesoderm</td><td>2264</td><td>195</td><td>34</td></tr><tr><td style="white-space:nowrap;min-width:70px">E10.5</td><td>Endothelial/endocardial</td><td>3000</td><td>150</td><td>30</td></tr><tr><td style="white-space:nowrap;min-width:70px">E10.5</td><td>Cardiac progenitor/heart field</td><td>3000</td><td>133</td><td>22</td></tr><tr><td style="white-space:nowrap;min-width:70px">E10.5</td><td>Other mesoderm</td><td>3000</td><td>136</td><td>33</td></tr></tbody></table></div>
+
+这是同标本二维空间块留出结果；候选数不是提分，也不是官方三维NFS。
+
 **明确发现：**邻域组成能解释一批标志基因之外的表达差异，且这种增量扩展到了内皮、祖细胞和其他中胚层。全 500 基因中有 393 个至少在一个组合检出率达到 5%；其中 236 个在至少一个组合达到邻域候选标准。心肌内共有 90 个非原四标志基因至少一次达标。具体到每个时期的心肌：
 
 | 时期 | 可检出基因 | 邻域候选 | 其中非四标志基因 |

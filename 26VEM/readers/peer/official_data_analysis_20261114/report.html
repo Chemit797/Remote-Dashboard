@@ -53,7 +53,7 @@
     <div class="summary"><div><h2>关键发现的定量依据</h2><ol><li><span class="grade ">身份 A</span> 9 份训练与 6 份验证真值均已审计；验证真值 316,871 个细胞，原始文件只存于 5090server。</li><li><span class="grade ">面板 B</span> 500 基因面板偏向心脏/血管功能；S 期 0/9、收缩 4/12，可观察范围有明确盲区。</li><li><span class="grade c">组成 C</span> E9.5→E10.5 粗心肌比例 30.3%→14.9%；E10.5 取材范围和标签体系均改变，不能读作心肌数量下降。</li><li><span class="grade c">类型内 C</span> 四个可测收缩基因总体相对均值下降 413.2，组成项 -253.2、粗类型内项 -160.0；不是因果归因。</li><li><span class="grade c">扰动 C</span> 两份 Gata4 KO 的心肌比例与心肌内收缩模块均低于共享 WT；批次与取材仍混杂。</li><li><span class="grade c">误差 C</span> 六个预测-真值配对均覆盖官方评分基因轴；原始指标仍只作开发诊断，不冒称官方新成绩。</li></ol></div>
       <div class="unknown"><h2>目前仍不知道</h2><ul><li>KO 与 WT 的交叉运行批次和更多独立 WT 胚胎；现有差异不能唯一归为扰动。</li><li>MERFISH 原始分子点位、探针轮次、视野及分割质量；不能确认具体技术故障或绝对 RNA。</li><li>各胚胎可比较的组织区域与经认证物理坐标；不能从发布点云推断生长尺度。</li><li>作者逐基因入选记录；功能注释和 GO 富集不能替代设计动机。</li><li>独立 P3/新胚胎结果；解锁验证答案后，这批数据只可作开发评估。</li></ul></div></div>
 
-    <section id="inventory"><h2>已核验文件</h2><p>每行是一个发布文件。T1 为多胚胎混样池，不能把池中细胞当独立胚胎；T2/T3 的切片也不是重复。E8.75 与 E9.5 WT 兼作 T3 参考时只计一次来源。</p>
+    <section id="inventory"><h2>已核验文件</h2><div class="validation-completion" data-validation-completion="20261119" style="border-left:3px solid #b27c32;background:#fff9ef;padding:12px 16px;margin:16px 0;font-size:14px"><p><b>验证集补全 · 2026-11-19</b></p><div style="overflow-x:auto;contain:inline-size;max-width:100%" tabindex="0" role="region" aria-label="结果表格，可横向滚动"><table style="min-width:875px;width:100%"><thead><tr><th style="white-space:nowrap;min-width:70px">验证文件</th><th>观测数</th><th>测量基因</th><th>每观测检出中位数</th><th>源全轴零值比例</th><th>Unknown</th><th>SHA256</th></tr></thead><tbody><tr><td style="white-space:nowrap;min-width:70px">T1 E10.5</td><td>24,979</td><td>32,285</td><td>2869</td><td>90.87%</td><td>0</td><td><code>974e04e7fe64fb96…</code></td></tr><tr><td style="white-space:nowrap;min-width:70px">胚胎 E7.5</td><td>11,665</td><td>500</td><td>29</td><td>93.13%</td><td>457</td><td><code>e8e47255ddeca96d…</code></td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E8.5</td><td>23,710</td><td>500</td><td>61</td><td>87.70%</td><td>263</td><td><code>41c76db18bfaa92c…</code></td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E10.5</td><td>167,864</td><td>500</td><td>30</td><td>93.53%</td><td>3299</td><td><code>d6b37967f9cf3533…</code></td></tr><tr><td style="white-space:nowrap;min-width:70px">Gata4 KO 重复1</td><td>42,257</td><td>500</td><td>38</td><td>92.21%</td><td>0</td><td><code>3805715d25c85873…</code></td></tr><tr><td style="white-space:nowrap;min-width:70px">Gata4 KO 重复2</td><td>46,396</td><td>500</td><td>34</td><td>92.82%</td><td>0</td><td><code>1760657da7c477c4…</code></td></tr></tbody></table></div><p>这是各自完整测量轴上的统计；32,285基因与500基因的零值比例不可直接解释为生物学复杂度。每个发布文件没有可拆分的生物个体字段；两个Gata4重复分别展示。</p><p>本次重算六文件SHA256，并回读每文件101个固定行的全部基因核对缓存。<a href="../../research/validation_completion_20261119/public/validation_files.json">完整身份、层、标签与坐标核对</a></p></div><p>每行是一个发布文件。T1 为多胚胎混样池，不能把池中细胞当独立胚胎；T2/T3 的切片也不是重复。E8.75 与 E9.5 WT 兼作 T3 参考时只计一次来源。</p>
       <div class="table-tools"><input id="file-filter" type="search" aria-label="筛选文件" placeholder="筛选文件、任务或时期"><a href="tables/file_inventory.csv" download>下载完整文件清单 CSV</a></div>
       <div class="table-wrap"><table id="file-table"><thead><tr><th>文件</th><th>数据组</th><th>细胞</th><th>基因</th><th>空间层</th><th>表达尺度</th><th>身份</th></tr></thead><tbody><tr><td class="nowrap">E6.75</td><td>T2 整胚训练</td><td>7,093</td><td>498</td><td>37</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E7.25</td><td>T2 整胚训练</td><td>13,295</td><td>498</td><td>40</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E8.0</td><td>T2 整胚训练</td><td>31,671</td><td>500</td><td>30</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E8.25_late</td><td>T2 心脏训练/共享 WT</td><td>58,716</td><td>500</td><td>38</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E8.5_RNA</td><td>T1 核 RNA 训练</td><td>16,787</td><td>32,285</td><td>—</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E8.75</td><td>T2 心脏训练/共享 WT</td><td>24,826</td><td>500</td><td>35</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E9.5</td><td>T2 心脏训练/共享 WT</td><td>53,742</td><td>500</td><td>40</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E9.5_RNA</td><td>T1 核 RNA 训练</td><td>17,057</td><td>32,285</td><td>—</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E9.5_mab21l2_ko</td><td>T3 Mab21l2 KO 训练</td><td>50,294</td><td>500</td><td>36</td><td>log1p(CP10k)</td><td>官方 SHA-256 匹配</td></tr><tr><td class="nowrap">E10.5_RNA</td><td>T1 核 RNA 验证真值</td><td>24,979</td><td>32,285</td><td>—</td><td>log1p(CP10k)</td><td>本轮下载哈希已记录</td></tr><tr><td class="nowrap">E10.5</td><td>T2 心脏验证真值</td><td>167,864</td><td>500</td><td>44</td><td>log1p(CP10k)</td><td>本轮下载哈希已记录</td></tr><tr><td class="nowrap">E7.5</td><td>T2 整胚验证真值</td><td>11,665</td><td>500</td><td>34</td><td>log1p(CP10k)</td><td>本轮下载哈希已记录</td></tr><tr><td class="nowrap">E8.5</td><td>T2 心脏验证真值</td><td>23,710</td><td>500</td><td>25</td><td>log1p(CP10k)</td><td>本轮下载哈希已记录</td></tr><tr><td class="nowrap">E8.75_gata4_ko_1</td><td>T3 Gata4 KO 验证真值</td><td>42,257</td><td>500</td><td>46</td><td>log1p(CP10k)</td><td>本轮下载哈希已记录</td></tr><tr><td class="nowrap">E8.75_gata4_ko_2</td><td>T3 Gata4 KO 验证真值</td><td>46,396</td><td>500</td><td>44</td><td>log1p(CP10k)</td><td>本轮下载哈希已记录</td></tr></tbody></table></div>
       <p class="evidence-line">完整路径、字节数、有序基因轴、原始标签、字段与 SHA-256 见 <a href="tables/file_inventory.csv">file_inventory.csv</a>；训练公开校验值见 <a href="evidence/OFFICIAL_TRAIN_CHECKSUMS.json">OFFICIAL_TRAIN_CHECKSUMS.json</a>，验证下载审计见 <a href="evidence/VALIDATION_RELEASE_AUDIT.json">VALIDATION_RELEASE_AUDIT.json</a>。</p>
@@ -64,20 +64,20 @@
         <div class="figure-top"><div><div class="figure-id">F01</div><h2>我们真正分析了哪些官方数据？</h2></div><span class="grade ">15/15 已核验</span></div>
         <p class="scope">官方账号解锁 validation-release-v1 后直接下载到 5090server；训练与验证身份分开记录。</p>
         <div class="question-card"><strong>这节想说明：这次确实读到了全部六份官方验证答案，原始文件都留在服务器。</strong><p><b>怎么看图：</b>每行是一份 H5AD，长度是其中的细胞数；绿色为训练、红色为新解锁的验证真值。文件和细胞都不自动等于独立胚胎重复。</p></div>
-        
+
         <figure class="plot "><img src="figures/F01.svg" alt="绿色训练、红色验证；横轴是细胞数，不是生物学重复数。" loading="lazy"><figcaption>绿色训练、红色验证；横轴是细胞数，不是生物学重复数。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F01.svg" download>SVG</a><a href="figures/F01.png" download>PNG</a><a href="figures/F01.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>各时期、模态和条件的可审查覆盖有多大？</p></div><div><b>观察到什么</b><p>9 份训练文件 273,481 细胞，6 份验证真值 316,871 细胞，合计 590,352。六份验证文件均核验了大小、SHA-256、细胞/基因轴和字段；T3 的 KO1/KO2 分别是 M164-KO1、M164-KO2。</p></div><div><b>如何解释</b><p>这覆盖公开训练与验证答案；共享 WT 只计一次，下载文件不是历史预测提交。</p></div><div><b>不能推出什么</b><p>训练文件有官方发布 SHA 可比对；验证文件的 SHA 是本轮下载后记录的身份指纹，不是网页发布的校验值。</p></div><div><b>对数据与建模的意义</b><p>所有后续数值从这些真值和训练文件重新计算；P3 隐藏测试答案仍未发布。</p></div></div>
         <p class="evidence-line">独立单位与尺度：15 个发布文件；T1 为不可拆分的混样池，T2/T3 每文件按发布标本描述；X=log1p(CP10k)。　证据：<a href="tables/file_inventory.csv">file_inventory.csv</a> · <a href="evidence/VALIDATION_RELEASE_AUDIT.json">VALIDATION_RELEASE_AUDIT.json</a> · <a href="evidence/VALIDATION_AUDIT_RAW.json">VALIDATION_AUDIT_RAW.json</a></p>
       </section><section class="figure-section" id="F02">
         <div class="figure-top"><div><div class="figure-id">F02</div><h2>哪些比较真正可行？</h2></div><span class="grade c">部分比较受限</span></div>
         <p class="scope">对 15 份官方文件逐列核验，而非根据文件名推测字段。</p>
         <div class="question-card"><strong>这节想说明：验证真值提供了空间和类型，但缺少可拆分技术原因的关键记录。</strong><p><b>怎么看图：</b>每行是文件，绿色“有”表示真有此字段。先看三维坐标，再看运行批次、视野、分割质量；灰格表示未发布，不能填成正常值。</p></div>
-        
+
         <figure class="plot "><img src="figures/F02.svg" alt="字段可用性；灰色为没有发布该列。" loading="lazy"><figcaption>字段可用性；灰色为没有发布该列。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F02.svg" download>SVG</a><a href="figures/F02.png" download>PNG</a><a href="figures/F02.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>标签、胚胎编号、批次、切片与分割质量是否构成交叉设计？</p></div><div><b>观察到什么</b><p>全部文件有 celltype；12 份空间文件有 spatial_3D。Gata4 两份有 embryo、condition 和 perturb_batch，但 WT 对照没有匹配的运行批次列；大多数文件缺视野、分割置信度和探针轮次。</p></div><div><b>如何解释</b><p>可以做文件内类型、检出、空间和切片描述；技术因素与时期/基因型没有充分交叉设计。</p></div><div><b>不能推出什么</b><p>缺列不代表质量良好；KO1/KO2 的扰动批次标记不能给 WT 补出可比批次。</p></div><div><b>对数据与建模的意义</b><p>异常先定位，再索取运行、探针、视野和分割元数据；不要用模型校正声称恢复了真实效应。</p></div></div>
         <p class="evidence-line">独立单位与尺度：字段存在性审计；15 文件，12 空间文件；无胚胎级显著性。　证据：<a href="tables/field_availability.csv">field_availability.csv</a> · <a href="tables/analysis_feasibility.csv">analysis_feasibility.csv</a></p>
       </section>
@@ -86,52 +86,52 @@
         <div class="figure-top"><div><div class="figure-id">F03</div><h2>官方为什么选择这些基因？</h2></div><span class="grade ">来源直接支持</span></div>
         <p class="scope">区分作者明说的面板层面目标、公开方法、文献用途和未知逐基因动机。</p>
         <div class="question-card"><strong>这节想说明：官方给出了 500 基因面板的总体目标，没有公开逐基因入选理由。</strong><p><b>怎么看图：</b>灰条的 500/500 表示作者未公布逐基因的设计决策，不表示这些基因功能未知。</p></div>
-        
+
         <figure class="plot "><img src="figures/F03.svg" alt="灰色代表作者逐基因选择理由未公开，不是基因功能未知。" loading="lazy"><figcaption>灰色代表作者逐基因选择理由未公开，不是基因功能未知。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F03.svg" download>SVG</a><a href="figures/F03.png" download>PNG</a><a href="figures/F03.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>500 基因的逐基因选择理由有多大比例可以追溯？</p></div><div><b>观察到什么</b><p>官方实验协议明确面板面向心脏相关及周围细胞类型；仍无逐基因候选池、入选理由和探针质量表。</p></div><div><b>如何解释</b><p>GO 和细胞特异性可以解释面板能观察什么，不能替作者补写选择决策。</p></div><div><b>不能推出什么</b><p>未知动机不等于随机选择；也不能把其他 MERFISH 论文的筛选流程移植到本项目。</p></div><div><b>对数据与建模的意义</b><p>面板注释用于解释观测能力，建模应记录来源级别与缺失列。</p></div></div>
         <p class="evidence-line">独立单位与尺度：官方设计面板 500 基因；来源 S1/S2；非统计估计。　证据：<a href="evidence/SOURCES.json">SOURCES.json</a> · <a href="evidence/PANEL_PRIORS.md">PANEL_PRIORS.md</a> · <a href="tables/panel_gene_identity.csv">panel_gene_identity.csv</a></p>
       </section><section class="figure-section" id="F04">
         <div class="figure-top"><div><div class="figure-id">F04</div><h2>面板偏向与盲区是什么？</h2></div><span class="grade ">富集 B · 盲区 A</span></div>
         <p class="scope">500 基因设计轴在新增的空间验证文件中完整发布；功能富集使用冻结的训练 RNA 可表达背景。</p>
         <div class="question-card"><strong>这节想说明：面板有心脏与血管偏重，也留下看不见的生物过程。</strong><p><b>怎么看图：</b>4/12 是预先定义的 12 个收缩基因只观测到 4 个；GO 图比较实际命中和表达/检出匹配的随机面板。S 期 0/9 是没有测，不能读作没有细胞增殖。</p></div>
-        
+
         <figure class="plot "><img src="figures/F04.svg" alt="格内为真实观测成员/预先定义成员。" loading="lazy"><figcaption>格内为真实观测成员/预先定义成员。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F04.svg" download>SVG</a><a href="figures/F04.png" download>PNG</a><a href="figures/F04.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F04_GO.svg" alt="红色为官方面板命中，青色为表达/检出匹配随机面板的均值与 95% 范围。" loading="lazy"><figcaption>红色为官方面板命中，青色为表达/检出匹配随机面板的均值与 95% 范围。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F04_GO.svg" download>SVG</a><a href="figures/F04_GO.png" download>PNG</a><a href="figures/F04_GO.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>偏向是否超出表达和检出分布可解释的水平？</p></div><div><b>观察到什么</b><p>心脏发育 47/422 个面板基因命中，对照期望 23.27（95% 16–31），OR 6.21、全家族 BH q=2.1e-16；血管发育 25 个，OR 14.83。同时 MERFISH 的 S 期模块 0/9、收缩模块 4/12。</p></div><div><b>如何解释</b><p>设计确实偏向心脏与血管相关功能；匹配对照和去 IEA 敏感性保留方向。</p></div><div><b>不能推出什么</b><p>GO 条目重叠且直接注释不完整；功能富集不证明作者逐基因动机。零覆盖不能推断 S 期不存在。</p></div><div><b>对数据与建模的意义</b><p>模型应以实际可观测模块建特征，对 S 期和未测收缩标记显示盲区。</p></div></div>
         <p class="evidence-line">独立单位与尺度：可表达背景 16,745，GO BP 已注释背景 12,611；面板 422；2,730 个 GO BP 检验 BH-FDR；1,000 个匹配面板敏感性。　证据：<a href="tables/module_coverage.csv">module_coverage.csv</a> · <a href="tables/panel_GO_BP_enrichment.csv">panel_GO_BP_enrichment.csv</a> · <a href="tables/panel_GO_matched_sensitivity.csv">panel_GO_matched_sensitivity.csv</a> · <a href="evidence/PANEL_GO_METHOD.json">PANEL_GO_METHOD.json</a></p>
       </section><section class="figure-section" id="F05">
         <div class="figure-top"><div><div class="figure-id">F05</div><h2>基因在何时何地被观察？</h2></div><span class="grade ">观测身份 A</span></div>
         <p class="scope">图中灰色编码文件缺列，紫色低值是列已测但多数细胞为零；不同任务评分另用其有序面板。</p>
         <div class="question-card"><strong>这节想说明：同一个基因的缺列、已测但零、评分未纳入是三件事。</strong><p><b>怎么看图：</b>灰色是文件没有该基因列，有色格才表示真实检出率。图为训练示例；完整 15 文件的掩码请打开表格。</p></div>
-        
+
         <figure class="plot "><img src="figures/F05.svg" alt="中性灰是文件缺列，颜色值是已观测列的细胞检出比例。" loading="lazy"><figcaption>中性灰是文件缺列，颜色值是已观测列的细胞检出比例。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F05.svg" download>SVG</a><a href="figures/F05.png" download>PNG</a><a href="figures/F05.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>未测量、文件缺列和观察到零能否分清？</p></div><div><b>观察到什么</b><p>新增 E7.5 整胚、E8.5/E10.5 心脏和两份 Gata4 KO 均有 500 列；E6.75/E7.25 训练为 498 列。官方 E7.5 评分轴确认为 498 基因；Casp4 与 Pnliprp1 在验证真值中有列，但不纳入该 board 评分。六个预测-真值配对的正式评分轴均完整。</p></div><div><b>如何解释</b><p>面板给出的零模式是观测结果，缺列处不构成生物学零。</p></div><div><b>不能推出什么</b><p>早期 Casp4/Pnliprp1 缺列原因在两个官方页面措辞冲突，不能从文件层面判定是未设计还是低表达被删。</p></div><div><b>对数据与建模的意义</b><p>跨模态与跨时期模型需显式传递观测掩码和评分轴，禁止补零制造趋势。</p></div></div>
         <p class="evidence-line">独立单位与尺度：15 文件；官方评分面板按有序基因轴哈希核验，检出定义 X&gt;0。　证据：<a href="tables/gene_observation_mask.csv">gene_observation_mask.csv</a> · <a href="tables/score_gene_mask.csv">score_gene_mask.csv</a> · <a href="evidence/SCORE_PANEL_AUDIT.json">SCORE_PANEL_AUDIT.json</a></p>
       </section><section class="figure-section" id="F06">
         <div class="figure-top"><div><div class="figure-id">F06</div><h2>各样本表达分布有何差异？</h2></div><span class="grade c">描述性 C</span></div>
         <p class="scope">全部 12 份空间文件用发布 500/498 基因轴比较检出；T1 核 RNA 另列，不与 500 基因柱高混比。</p>
         <div class="question-card"><strong>这节想说明：越晚的样本不一定检出更多基因；零模式与阳性强度要分开看。</strong><p><b>怎么看图：</b>每根柱是一个空间文件的每细胞检出基因数中位数。红柱为验证；柱高不能直接解释成设备效率。训练对照的箭头图仅示范检出/阳性分解。</p></div>
-        
+
         <figure class="plot "><img src="figures/F06.svg" alt="红色为验证真值；每根柱代表文件内细胞的中位检出基因数。" loading="lazy"><figcaption>红色为验证真值；每根柱代表文件内细胞的中位检出基因数。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F06.svg" download>SVG</a><a href="figures/F06.png" download>PNG</a><a href="figures/F06.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F06_HURDLE.svg" alt="训练 E8.75→E9.5 的拆分示例；验证 E9.5→E10.5 数值见表。" loading="lazy"><figcaption>训练 E8.75→E9.5 的拆分示例；验证 E9.5→E10.5 数值见表。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F06_HURDLE.svg" download>SVG</a><a href="figures/F06_HURDLE.png" download>PNG</a><a href="figures/F06_HURDLE.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>检出率变化与阳性强度变化各有多大？</p></div><div><b>观察到什么</b><p>E8.5 验证心脏中位检出 61 基因，E10.5 验证心脏 30；E7.5 整胚 29。Gata4 KO1/KO2 为 38/34，同阶段共享 WT 为 52。E9.5→E10.5 心肌 Myh7 检出率 0.57→0.34，Ttn 0.94→0.84；Ttn 的相对均值下降大部分来自阳性强度项。</p></div><div><b>如何解释</b><p>检出与阳性表达的结构随文件变，且各基因机制不同。</p></div><div><b>不能推出什么</b><p>expm1(X) 不是原始分子数；不同取材、细胞亚型和归一化也能改变这些量。</p></div><div><b>对数据与建模的意义</b><p>预测应同时校准零比例与阳性尾部，逐基因解释，不能只调一个全局强度。</p></div></div>
         <p class="evidence-line">独立单位与尺度：12 空间文件；每时期一发布样本，细胞中位数不是胚胎级置信区间。　证据：<a href="tables/file_inventory.csv">file_inventory.csv</a> · <a href="tables/validation_key_hurdle.csv">validation_key_hurdle.csv</a></p>
       </section><section class="figure-section" id="F07">
         <div class="figure-top"><div><div class="figure-id">F07</div><h2>是否存在面板归一化效应？</h2></div><span class="grade c">相对效应 C</span></div>
         <p class="scope">检查高占比模块与其余基因的相对份额，保留原 500 基因轴的发布归一化。</p>
         <div class="question-card"><strong>这节想说明：所有文件按每细胞约 10,000 的面板总额归一化，份额变化不能当绝对 RNA 变化。</strong><p><b>怎么看图：</b>两边份额加起来恒为 100%。原图是训练 E8.75→E9.5；新增验证 E10.5 的份额见表。</p></div>
-        
+
         <figure class="plot "><img src="figures/F07.svg" alt="同一 500 基因归一化轴上的模块与互补份额。" loading="lazy"><figcaption>同一 500 基因归一化轴上的模块与互补份额。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F07.svg" download>SVG</a><a href="figures/F07.png" download>PNG</a><a href="figures/F07.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>四个可测收缩基因占比变大时，其他基因能否被解释为绝对下降？</p></div><div><b>观察到什么</b><p>四个可测收缩基因的全样本份额 E9.5 为 6.45%，E10.5 为 2.31%；其他已测基因份额反向变化。</p></div><div><b>如何解释</b><p>这表明面板内部的相对分配改变，与固定总额闭合效应相容。</p></div><div><b>不能推出什么</b><p>互补份额的变化是算术结果，不能由此推断绝对分子数或 MERFISH 检测效率。</p></div><div><b>对数据与建模的意义</b><p>在发布尺度训练模型，保留观测掩码；需要原始分子点位才能研究绝对量。</p></div></div>
         <p class="evidence-line">独立单位与尺度：E9.5/E10.5 各一发布标本；同一 500 基因轴，四个收缩成员。　证据：<a href="tables/module_share_by_file.csv">module_share_by_file.csv</a> · <a href="evidence/FROZEN_ANALYSIS.json">FROZEN_ANALYSIS.json</a></p>
       </section>
@@ -140,86 +140,86 @@
         <div class="figure-top"><div><div class="figure-id">F08</div><h2>细胞组成与取材如何变化？</h2></div><span class="grade c">描述性 C</span></div>
         <p class="scope">训练心脏、验证心脏与 Gata4 KO 并列；标签仅按名称做保守粗映射。</p>
         <div class="question-card"><strong>这节想说明：细胞组成的变化很大，不能把全部表达差异当作细胞状态变化。</strong><p><b>怎么看图：</b>每条加起来 100%。同色是保守粗标签，灰色“未统一”表示名称不能可靠匹配，不代表这种谱系消失。</p></div>
-        
+
         <figure class="plot "><img src="figures/F08.svg" alt="同色为保守粗谱系；未统一标签保留为灰色。" loading="lazy"><figcaption>同色为保守粗谱系；未统一标签保留为灰色。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F08.svg" download>SVG</a><a href="figures/F08.png" download>PNG</a><a href="figures/F08.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>不同时间窗口的组成差别是否可直接读为发育？</p></div><div><b>观察到什么</b><p>粗心肌比例 E9.5 为 30.3%（16,291/53,742），E10.5 为 14.9%（25,036/167,864）。E10.5 的未统一标签为 18.3%，E9.5 为 2.8%。</p></div><div><b>如何解释</b><p>E10.5 分离心脏与早期含心管切片的取材范围不同；标签体系也改变。绝对心肌细胞数增加而文件内比例降低，说明分母和支持区域同样重要。</p></div><div><b>不能推出什么</b><p>比例差不是心肌生长率；未统一标签、真实组织范围和批次无法凭此拆成因果份额。</p></div><div><b>对数据与建模的意义</b><p>建模时分别描述目标取材支持、粗谱系组成和类型内状态，并做标签映射敏感性。</p></div></div>
         <p class="evidence-line">独立单位与尺度：E9.5/E10.5 各一发布样本；无胚胎级误差条。　证据：<a href="tables/validation_key_composition.csv">validation_key_composition.csv</a> · <a href="tables/raw_type_composition.csv">raw_type_composition.csv</a> · <a href="tables/label_mapping_review.csv">label_mapping_review.csv</a></p>
       </section><section class="figure-section" id="F09">
         <div class="figure-top"><div><div class="figure-id">F09</div><h2>整体变化来自组成还是类型内部？</h2></div><span class="grade c">验证对照已计算 · 描述性</span></div>
         <p class="scope">预先冻结的共同四基因和对称代数分解；只在共同粗标签上估计。</p>
         <div class="question-card"><strong>这节想说明：E9.5→E10.5 的整体下降同时包含细胞组成和粗类型内部变化。</strong><p><b>怎么看图：</b>每个基因三条横棒：组成项、类型内项、实际净变化；左右表示 E10.5 比 E9.5 增减。最后一行是四基因合计。</p></div>
-        
+
         <figure class="plot "><img src="figures/F09.svg" alt="E9.5→E10.5 真值：C+S=净变化。" loading="lazy"><figcaption>E9.5→E10.5 真值：C+S=净变化。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F09.svg" download>SVG</a><a href="figures/F09.png" download>PNG</a><a href="figures/F09.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F09S.svg" alt="限制到共同可解释标签后，组成项与类型内项的方向稳健，但数值随支持集改变。" loading="lazy"><figcaption>限制到共同可解释标签后，组成项与类型内项的方向稳健，但数值随支持集改变。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F09S.svg" download>SVG</a><a href="figures/F09S.png" download>PNG</a><a href="figures/F09S.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>四个可测收缩基因的总体变化如何分开描述？</p></div><div><b>观察到什么</b><p>四基因合计净变化 -413.2，组成项 -253.2，粗类型内部项 -160.0。排除未统一标签后，净变化 -392.7，C=-213.0、S=-179.8；仅共同心脏相关标签时净变化 -515.0。Ttn 下降、Myl4 上升，成员并非一致。</p></div><div><b>如何解释</b><p>整体趋势不能归为单一的细胞比例变化；类型内部也改变了相对表达。</p></div><div><b>不能推出什么</b><p>排除未统一标签只保留 E9.5/E10.5 的 97.2%/81.7% 细胞；心脏核心只保留 76.7%/68.9%。代数分量不是取材或机制的因果百分比，类型内项仍含亚型组成；无认证的共同解剖区域可作严格匹配。</p></div><div><b>对数据与建模的意义</b><p>预测应分别检查组成、类型内模块和成员方向；E10.5 的标签未统一比例较高。</p></div></div>
         <p class="evidence-line">独立单位与尺度：一份 E9.5 和一份 E10.5；expm1(X) 线性相对均值；无独立重复推断。　证据：<a href="tables/composition_state_decomposition.csv">composition_state_decomposition.csv</a> · <a href="tables/label_support_decomposition_sensitivity.csv">label_support_decomposition_sensitivity.csv</a> · <a href="evidence/VALIDATION_FINDINGS.json">VALIDATION_FINDINGS.json</a></p>
       </section><section class="figure-section" id="F10">
         <div class="figure-top"><div><div class="figure-id">F10</div><h2>空间结构和切片是否连续？</h2></div><span class="grade c">空间描述 C</span></div>
         <p class="scope">保留发布坐标；展示用每文件固定种子分层抽取约 3,500 细胞，完整细胞用于逐层统计。</p>
         <div class="question-card"><strong>这节想说明：空间点云确认取材形状不同，但坐标不能直接用来计算器官生长。</strong><p><b>怎么看图：</b>XY/XZ 是同一空间点云从两个方向的投影；新图对比 E9.5 训练和 E10.5 验证。每个点只是绘图抽样，逐层统计用全体细胞。</p></div>
-        
+
         <figure class="plot "><img src="figures/F10V.svg" alt="新增验证 E10.5 与 E9.5 的发布坐标投影，未配准。" loading="lazy"><figcaption>新增验证 E10.5 与 E9.5 的发布坐标投影，未配准。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F10V.svg" download>SVG</a><a href="figures/F10V.png" download>PNG</a><a href="figures/F10V.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F10.svg" alt="训练样本投影提供早期空间形态背景。" loading="lazy"><figcaption>训练样本投影提供早期空间形态背景。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F10.svg" download>SVG</a><a href="figures/F10.png" download>PNG</a><a href="figures/F10.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>点云和 z 层有什么结构？</p></div><div><b>观察到什么</b><p>E9.5 有 40 个发布 z 层，E10.5 有 44 层；验证 E8.5 有 25 层、E7.5 有 34 层，Gata4 两份为 46/44 层。所有验证空间文件坐标有限且可逐层读取。</p></div><div><b>如何解释</b><p>切片重建提供明确空间顺序，层数和取材轮廓是可观测属性。</p></div><div><b>不能推出什么</b><p>发布坐标单位、轴向和胚胎间配准未经认证，形状差不能直接换算为微米或生长速度。</p></div><div><b>对数据与建模的意义</b><p>空间生成需保留局部坐标语义，所有几何校正先作为显式敏感性视图。</p></div></div>
         <p class="evidence-line">独立单位与尺度：12 空间文件、449 发布 z 层；切片嵌套于样本，非独立胚胎。　证据：<a href="tables/spatial_preview_points.csv">spatial_preview_points.csv</a> · <a href="tables/slice_summary.csv">slice_summary.csv</a> · <a href="evidence/VALIDATION_SPATIAL_AUDIT_RAW.json">VALIDATION_SPATIAL_AUDIT_RAW.json</a></p>
       </section><section class="figure-section" id="F11">
         <div class="figure-top"><div><div class="figure-id">F11</div><h2>哪些异常可能与技术有关？</h2></div><span class="grade c">异常线索 C</span></div>
         <p class="scope">逐层检测均值减去同一原始 celltype 在整文件的均值，观察类型组成不能解释的层间残差。</p>
         <div class="question-card"><strong>这节想说明：验证真值中也有切片相关的检出波动，原因仍不能唯一归属。</strong><p><b>怎么看图：</b>红线表示扣除同一原始类型在文件内平均检出后的逐层残差；偏离零是线索，不是技术故障诊断。</p></div>
-        
+
         <figure class="plot "><img src="figures/F11V.svg" alt="新验证空间样本的逐层类型条件化残差。" loading="lazy"><figcaption>新验证空间样本的逐层类型条件化残差。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F11V.svg" download>SVG</a><a href="figures/F11V.png" download>PNG</a><a href="figures/F11V.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F11.svg" alt="训练样本的相同筛查作为对照。" loading="lazy"><figcaption>训练样本的相同筛查作为对照。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F11.svg" download>SVG</a><a href="figures/F11.png" download>PNG</a><a href="figures/F11.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>切片波动在固定标签后是否仍出现？</p></div><div><b>观察到什么</b><p>验证 E8.5 第 0 层类型条件化残差约 -13.1 基因（1,014 细胞）；E7.5 第 6 层约 +11.7（335 细胞）。两份 Gata4 KO 的最大绝对残差约 12.8 与 10.2 基因。</p></div><div><b>如何解释</b><p>波动在控制原始标签后仍存在，与解剖亚区、未分辨亚型和观察过程均相容。</p></div><div><b>不能推出什么</b><p>无视野、分割置信度、原始分子点位与探针轮次，不能说是哪一步实验出错。</p></div><div><b>对数据与建模的意义</b><p>先定位这些层，再结合原始实验质控和邻近层复核；不要自动对所有层做强度校正。</p></div></div>
         <p class="evidence-line">独立单位与尺度：449 层嵌套于 12 文件；细胞数为层内支持量，不是重复。　证据：<a href="tables/validation_slice_anomalies.csv">validation_slice_anomalies.csv</a> · <a href="tables/slice_conditioned_quality.csv">slice_conditioned_quality.csv</a></p>
       </section><section class="figure-section" id="F12">
         <div class="figure-top"><div><div class="figure-id">F12</div><h2>能否区分批次和生物学？</h2></div><span class="grade na">不可辨认</span></div>
         <p class="scope">先核对设计交叉和字段，再决定是否估计效应。</p>
         <div class="question-card"><strong>这节想说明：时期、样本和批次没有足够交叉，技术与生物效应不能分开估计。</strong><p><b>怎么看图：</b>这是设计可识别性示意，不是统计估计图；缺少交叉重复意味着无法给出可信的技术方差百分比。</p></div>
-        
+
         <figure class="plot "><img src="figures/F12.svg" alt="这是可识别性结构示意，文字均来自发布字段与官方协议。" loading="lazy"><figcaption>这是可识别性结构示意，文字均来自发布字段与官方协议。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F12.svg" download>SVG</a><a href="figures/F12.png" download>PNG</a><a href="figures/F12.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>时期和基因型是否与运行批次独立变化？</p></div><div><b>观察到什么</b><p>新增 Gata4 KO1/KO2 确认为两个独立胚胎，但共享 KO 条件及处理背景；WT 只有一份发布文件且没有匹配批次字段。T1 验证核 RNA 是混样池。</p></div><div><b>如何解释</b><p>阶段、样本、取材和潜在技术运行高度绑定；当前无法给出可识别的技术方差比例。</p></div><div><b>不能推出什么</b><p>整合后 UMAP 混合更好不等于批次被正确剥离，且不能替代交叉批次重复。</p></div><div><b>对数据与建模的意义</b><p>暂停确定性去批次归因；未来收集相同条件跨运行及相同运行跨条件的独立胚胎。</p></div></div>
         <p class="evidence-line">独立单位与尺度：KO 2 个胚胎、共享 WT 1 个发布样本；批次与条件混杂，不给 p 值。　证据：<a href="tables/field_availability.csv">field_availability.csv</a> · <a href="tables/analysis_feasibility.csv">analysis_feasibility.csv</a> · <a href="evidence/SOURCES.json">SOURCES.json</a></p>
       </section><section class="figure-section" id="F13">
         <div class="figure-top"><div><div class="figure-id">F13</div><h2>哪些发育先验成立？</h2></div><span class="grade c">混合证据 C</span></div>
         <p class="scope">模块成员在查看 P2 数值前固定；在共同 500 基因轴和保守粗类型中画训练时间曲线。</p>
         <div class="question-card"><strong>这节想说明：冻结的心脏与内皮模块在验证时期没有形成统一单调时钟。</strong><p><b>怎么看图：</b>绿色点来自训练、红点来自验证；每点是一份文件的粗类型内平均相对表达，连线只表示时间顺序。</p></div>
-        
+
         <figure class="plot "><img src="figures/F13.svg" alt="红点为验证真值，不是新的独立验证轮次。" loading="lazy"><figcaption>红点为验证真值，不是新的独立验证轮次。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F13.svg" download>SVG</a><a href="figures/F13.png" download>PNG</a><a href="figures/F13.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>心肌收缩、调控与内皮身份是否共享单调成熟方向？</p></div><div><b>观察到什么</b><p>心肌四基因收缩模块 E8.25→E8.5→E8.75→E9.5→E10.5 约为 622.5→639.4→725.5→507.1→334.3；E10.5 比 E9.5 低。</p></div><div><b>如何解释</b><p>这一有限面板的相对程序受类型、时期和取材影响，简单持续增强的先验不受支持。</p></div><div><b>不能推出什么</b><p>不能据此否认心肌生物学成熟；只有 4/12 个收缩成员，类型标签也可能参与先前聚类。</p></div><div><b>对数据与建模的意义</b><p>使用时窗和谱系限定的弱先验，并在独立胚胎中验证方向。</p></div></div>
         <p class="evidence-line">独立单位与尺度：五个 WT 心脏发布文件，各时期一份；4/12 收缩基因，相对 CP10k。　证据：<a href="tables/validation_key_modules.csv">validation_key_modules.csv</a> · <a href="evidence/FROZEN_ANALYSIS.json">FROZEN_ANALYSIS.json</a></p>
       </section><section class="figure-section" id="F14">
-        <div class="figure-top"><div><div class="figure-id">F14</div><h2>核 RNA 与 MERFISH 是否相互支持？</h2></div><span class="grade c">部分一致 C</span></div>
+        <div class="figure-top"><div><div class="figure-id">F14</div><h2>核 RNA 与 MERFISH 是否相互支持？</h2><div class="validation-completion" data-validation-completion="20261119" style="border-left:3px solid #b27c32;background:#fff9ef;padding:12px 16px;margin:16px 0;font-size:14px"><p><b>验证集补全 · 2026-11-19</b></p><p>原表已经包含E10.5核RNA与空间数据的类型特异性，及E9.5→E10.5跨模态变化。外部来源的验证补充见<a href="../../research/validation_completion_20261119/public/background_comparisons.html">16组背景比较</a>；测量模态不同，不能把同日龄当作同胚胎配对。</p></div></div><span class="grade c">部分一致 C</span></div>
         <p class="scope">冻结的 E9.5 同阶段类型特异性比较，加上解锁真值后新增的 E10.5 探索性复核。</p>
         <div class="question-card"><strong>这节想说明：核 RNA 与 MERFISH 的部分类型标记一致；真正的跨时期变化方向只得到有限支持。</strong><p><b>怎么看图：</b>上图每点是 E9.5 的一个共同基因；中图比较两个时期的同阶段特异性；下图才检验 E9.5→E10.5 的变化方向是否跨模态一致。</p></div>
-        
+
         <figure class="plot "><img src="figures/F14.svg" alt="E9.5 冻结对照：每点一个共同基因。" loading="lazy"><figcaption>E9.5 冻结对照：每点一个共同基因。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F14.svg" download>SVG</a><a href="figures/F14.png" download>PNG</a><a href="figures/F14.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F14V.svg" alt="E10.5 同阶段特异性是拿到真值后增加的探索性复核。" loading="lazy"><figcaption>E10.5 同阶段特异性是拿到真值后增加的探索性复核。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F14V.svg" download>SVG</a><a href="figures/F14V.png" download>PNG</a><a href="figures/F14V.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F14T.svg" alt="跨时期变化方向；每种模态各时期只有一份标本或混样池。" loading="lazy"><figcaption>跨时期变化方向；每种模态各时期只有一份标本或混样池。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F14T.svg" download>SVG</a><a href="figures/F14T.png" download>PNG</a><a href="figures/F14T.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>同一种粗谱系的基因特异性是否在两种测量中同向？</p></div><div><b>观察到什么</b><p>E10.5 心肌 418 个共同有信息基因的同阶段特异性秩相关 ρ=0.45，方向一致 71.3%；E9.5 心肌 ρ=0.65。跨时期方向检查中，心肌 100 个共同有信息基因的变化秩相关 ρ=0.35，同向 61.0%；神经/NCC 为 71.1%。</p></div><div><b>如何解释</b><p>部分类型标记可跨模态迁移，但同阶段像不等于时期变化一致；心肌的跨时期方向支持较弱。</p></div><div><b>不能推出什么</b><p>两模态来自不同胚胎/混样池，核与全细胞、取材范围也不同；方向相关不能证明同一胚胎内的发育机制。</p></div><div><b>对数据与建模的意义</b><p>优先迁移稳健的类型排序，保留模态特定尺度和 E10.5 心肌不确定性。</p></div></div>
         <p class="evidence-line">独立单位与尺度：E9.5 T1 一个混样池 + T2 一个空间标本；共同面板基因；+0.1 伪计数，仅描述。　证据：<a href="tables/cross_modal_specificity.csv">cross_modal_specificity.csv</a> · <a href="tables/cross_modal_specificity_gene.csv">cross_modal_specificity_gene.csv</a> · <a href="tables/cross_modal_temporal_summary.csv">cross_modal_temporal_summary.csv</a> · <a href="tables/cross_modal_temporal_gene.csv">cross_modal_temporal_gene.csv</a> · <a href="evidence/DEVIATIONS.json">DEVIATIONS.json</a></p>
       </section><section class="figure-section" id="F15">
-        <div class="figure-top"><div><div class="figure-id">F15</div><h2>KO 是发育偏移还是特异扰动？</h2></div><span class="grade c">双 KO 描述性一致</span></div>
+        <div class="figure-top"><div><div class="figure-id">F15</div><h2>KO 是发育偏移还是特异扰动？</h2><div class="validation-completion" data-validation-completion="20261119" style="border-left:3px solid #b27c32;background:#fff9ef;padding:12px 16px;margin:16px 0;font-size:14px"><p><b>验证集补全 · 2026-11-19</b></p><p>两个Gata4 KO验证重复已分别进入本节原表。外部缺少同阶段、相同Cre/等位背景与合适对照的匹配组，保留“不能据此判定机制”的结论；不同KO或WT不补作答案。</p></div></div><span class="grade c">双 KO 描述性一致</span></div>
         <p class="scope">预先冻结的 C06：各 KO 分别对共享 E8.75 WT；不把两个 KO 细胞合并成假重复。</p>
         <div class="question-card"><strong>这节想说明：两份 Gata4 KO 显示同向心肌相对信号，但不能概括为单一发育延迟。</strong><p><b>怎么看图：</b>第一图比较文件内心肌比例与心肌收缩表达；第二图把各 KO 的模块变化投向仅用 WT E8.5→E9.5 定义的方向，并显示方向外残差。</p></div>
-        
+
         <figure class="plot "><img src="figures/F15.svg" alt="两份 KO 分开显示；差异尚含批次和取材。" loading="lazy"><figcaption>两份 KO 分开显示；差异尚含批次和取材。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F15.svg" download>SVG</a><a href="figures/F15.png" download>PNG</a><a href="figures/F15.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F15P.svg" alt="WT 发育方向只由 WT 定义；投影与方向外残差均为描述性。" loading="lazy"><figcaption>WT 发育方向只由 WT 定义；投影与方向外残差均为描述性。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F15P.svg" download>SVG</a><a href="figures/F15P.png" download>PNG</a><a href="figures/F15P.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>现有文件能否支持 Gata4 的偏移/残差判断？</p></div><div><b>观察到什么</b><p>WT、KO1、KO2 心肌比例 13.7%/6.6%/8.2%；心肌内收缩相对均值 725.5/512.3/496.0。心肌四模块的 WT 方向投影 KO1/KO2 为 -0.03/+0.05；方向外残差分别为 0.45/0.47。</p></div><div><b>如何解释</b><p>两个 KO 对同一 WT 的方向一致，值得作为下一轮独立重复验证的候选现象。</p></div><div><b>不能推出什么</b><p>投影比例不是发育小时数，四模块残差也不证明特异机制。KO 与 WT 的运行批次、标签和空间范围未交叉；共享 WT 一份，不可给胚胎级 p 值。条件也含 Gata6 F/+ 与 Mesp1-Cre。</p></div><div><b>对数据与建模的意义</b><p>按胚胎分别报告，并优先获取 WT/KO 跨批次重复及共同区域；不把两份 KO 直接当部署校正量。</p></div></div>
         <p class="evidence-line">独立单位与尺度：KO 两个独立同窝胚胎，共享 WT 一发布标本；500 基因相对表达。　证据：<a href="tables/validation_gata4_modules.csv">validation_gata4_modules.csv</a> · <a href="tables/validation_key_composition.csv">validation_key_composition.csv</a> · <a href="tables/gata4_wt_direction_projection.csv">gata4_wt_direction_projection.csv</a> · <a href="tables/gata4_wt_direction_components.csv">gata4_wt_direction_components.csv</a> · <a href="evidence/VALIDATION_RELEASE_AUDIT.json">VALIDATION_RELEASE_AUDIT.json</a></p>
       </section>
@@ -228,24 +228,24 @@
         <div class="figure-top"><div><div class="figure-id">F16</div><h2>现有模型到底错在哪里？</h2></div><span class="grade c">6 配对已诊断 · 开发数据</span></div>
         <p class="scope">五个已重哈希的代表预测，其中 Gata4 同一预测分别对 KO1/KO2；使用固定 700 细胞、3 个种子的原始公开指标作技术敏感性。</p>
         <div class="question-card"><strong>这节想说明：代表预测的误差现已可直接量化；不同任务的基因分母和支持范围必须同时看。</strong><p><b>怎么看图：</b>左图是每个共同基因的平均 log1p 表达差绝对值再取平均；右图是检出比例差。每条是一份预测对一份真值，不是官方总分。</p></div>
-        
+
         <figure class="plot "><img src="figures/F16.svg" alt="各任务基因轴不同；条高只表示此处定义的边际误差。" loading="lazy"><figcaption>各任务基因轴不同；条高只表示此处定义的边际误差。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F16.svg" download>SVG</a><a href="figures/F16.png" download>PNG</a><a href="figures/F16.pdf" download>PDF</a></div><figure class="plot "><img src="figures/F16M.svg" alt="冻结模块的每成员基因误差；灰格未达到覆盖阈值。" loading="lazy"><figcaption>冻结模块的每成员基因误差；灰格未达到覆盖阈值。</figcaption></figure>
           <div class="exports"><span>导出：</span><a href="figures/F16M.svg" download>SVG</a><a href="figures/F16M.png" download>PNG</a><a href="figures/F16M.pdf" download>PDF</a></div>
-        
+
         <div class="interpretation"><div><b>检验什么</b><p>预测误差能否按类型、模块、空间区域和指标定位？</p></div><div><b>观察到什么</b><p>E10.5 心脏预测对 500 基因的平均绝对基因均值差为 0.165 log1p、平均检出比例差 0.032；其中收缩模块 4 个可测成员的均值差达 0.712。E7.5 预测完整覆盖官方 498 基因评分轴，真值另有 2 个不评分基因。T1 真值辅助类型重加权在共同标签覆盖 53.2% 的细胞上使基因均值差 0.0211→0.0162，但不可部署。</p></div><div><b>如何解释</b><p>误差分布可定位到边际表达、零值模式与空间指标，提供比历史总分更具体的改进目标。</p></div><div><b>不能推出什么</b><p>这些是解锁验证真值后的开发诊断，不是官方新成绩或独立泛化；细胞抽样种子不是胚胎重复。多数预测缺类型标签，类型内误差与组成重加权不可估计；T1 重加权依赖真值比例。</p></div><div><b>对数据与建模的意义</b><p>优先检查大误差基因、模块和空间指标，再用独立胚胎评估改动；真值辅助重加权只作诊断。</p></div></div>
         <p class="evidence-line">独立单位与尺度：6 个预测-真值配对、5 个预测版本；T1 32,285 基因，空间任务 498/500 基因。　证据：<a href="tables/model_validation_diagnostics.csv">model_validation_diagnostics.csv</a> · <a href="tables/model_gene_error_top.csv">model_gene_error_top.csv</a> · <a href="tables/model_module_errors.csv">model_module_errors.csv</a> · <a href="evidence/SCORE_PANEL_AUDIT.json">SCORE_PANEL_AUDIT.json</a> · <a href="evidence/MODEL_VALIDATION_FINDINGS.json">MODEL_VALIDATION_FINDINGS.json</a> · <a href="src/model_diagnostics_remote.py">model_diagnostics_remote.py</a></p>
       </section><section class="figure-section" id="F17">
         <div class="figure-top"><div><div class="figure-id">F17</div><h2>下一步应怎样改？</h2></div><span class="grade c">证据导向建议</span></div>
         <p class="scope">把数据证据、可能误差、动作、风险和独立验证方式放在同一表。</p>
         <div class="question-card"><strong>这节想说明：下一轮先核对可观察范围、样本支持和误差来源，再验证是否改善预测。</strong><p><b>怎么看图：</b>逐行看：建议依据是什么、容易误判什么、要用何种独立样本验证。这里没有把分析发现写成已取得的分数收益。</p></div>
-        
-        
+
+
         <div class="table-wrap"><table class="recommendations"><thead><tr><th>优先事项</th><th>现在的依据</th><th>误判风险</th><th>下一步检验</th></tr></thead><tbody><tr><td>1. 固定评分与观察双轴</td><td>E7.5 评分 498 基因已完整；真值另有 2 个不评分基因。</td><td>把评分排除误判为模型缺列。</td><td>模型输入与官方有序评分轴分别验收。</td></tr><tr><td>2. 分离组成与状态</td><td>E9.5→E10.5 四基因 C=-253.2、S=-160.0。</td><td>将代数项说成取材因果比例。</td><td>共同标签与共同区域敏感性；新胚胎复核。</td></tr><tr><td>3. 校准检出与阳性值</td><td>E10.5 心肌 Myh7 和 Ttn 的变化形式不同。</td><td>把相对量当绝对分子数。</td><td>逐基因零比例、阳性尾部及联合结构。</td></tr><tr><td>4. 核验空间层</td><td>验证 E8.5/KO 有类型条件化层间残差。</td><td>把真实解剖边界当故障。</td><td>原始点位、视野和分割质量核对。</td></tr><tr><td>5. Gata4 独立复核</td><td>两 KO 对共享 WT 同向。</td><td>批次与基因型混杂。</td><td>同批 WT/KO 与跨批条件交叉的独立胚胎。</td></tr><tr><td>6. 模型误差实验</td><td>六组真值配对有基因和空间指标。</td><td>验证集上选模型后仍称独立泛化。</td><td>固定全指标，留出新胚胎或 P3。</td></tr></tbody></table></div>
         <div class="interpretation"><div><b>检验什么</b><p>基于已下载验证真值，下一轮模型和实验应优先解决哪些可核查误差？</p></div><div><b>观察到什么</b><p>真值已下载并完成六组配对。E7.5 的 498 基因轴符合官方评分合同；下一步应逐基因检查大误差、对 E10.5 做共同组织和标签映射敏感性，并为 Gata4 取得跨批次 WT 重复。</p></div><div><b>如何解释</b><p>这些是按现有证据排序的实验设计建议，不是已经取得的分数增益。</p></div><div><b>不能推出什么</b><p>P2 被用于发现后是开发数据；细胞随机拆分不是独立泛化验证。</p></div><div><b>对数据与建模的意义</b><p>所有用这批验证真值选择的模型都需在新胚胎或隐藏 P3 上测试，且保持完整适用指标。</p></div></div>
         <p class="evidence-line">独立单位与尺度：证据等级与适用任务见 H01–H10；此表本身不估计预测收益。　证据：<a href="evidence/HYPOTHESIS_RESULTS.json">HYPOTHESIS_RESULTS.json</a> · <a href="evidence/CLAIM_CARDS.json">CLAIM_CARDS.json</a> · <a href="evidence/FROZEN_ANALYSIS.json">FROZEN_ANALYSIS.json</a></p>
       </section>
-    
+
 
     <div class="sources" id="sources"><h2>来源、计算与复现</h2><p>图中的细胞数是支持量，不是生物学重复数。所有时间比较保留发布表示；方向性效应以零为基准，未进行跨胚胎物理坐标配准。主表、负结果与不可估计项见 <a href="evidence/HYPOTHESIS_RESULTS.json">完整假说台账</a>、<a href="tables/analysis_feasibility.csv">可行性矩阵</a>和 <a href="evidence/CLAIM_CARDS.json">结论证据卡</a>。</p>
       <p>从 <a href="REPRODUCE.md">REPRODUCE.md</a> 的汇总入口可重建表、图与本报告；输入输出 SHA-256 见 <a href="MANIFEST.json">MANIFEST.json</a>。原始官方 H5AD 未打包到交付目录。</p>

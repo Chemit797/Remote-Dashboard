@@ -1,0 +1,46 @@
+cohort,family,stage,origin,assay,unit,spatial,semantics,eligible_all_n,cardiac_fraction,endothelial_fraction,note
+O_E6.75,official,6.75,official_train,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,7093,0.01339348653602143,0.0,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E7.25,official,7.25,official_train,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,13295,0.02955998495675066,0.0,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E8.0,official,8.0,official_train,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,31671,0.0703166935050993,0.08465157399513751,"E8.0: sections from yolk-sac/embryo boundary through cardiac crescent, per current official protocol"
+O_E8.25_late,official,8.25,official_train,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,58716,0.04605218339123918,0.06298112950473465,"E8.25_late nominal E8.25, about E8.3; heart-tube sections with surrounding tissue"
+O_E8.5_RNA,official,8.5,official_train,10x Multiome RNA,nucleus,none,log1p_normalized,16787,0.47369988681717995,0.06785012211830584,"Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection"
+O_E8.75,official,8.75,official_train,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,24826,0.15415290421332475,0.0943365826150004,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E9.5,official,9.5,official_train,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,53742,0.3031334896356667,0.15414387257638346,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E9.5_RNA,official,9.5,official_train,10x Multiome RNA,nucleus,none,log1p_normalized,17057,0.43518789939614233,0.10705282288796389,"Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection"
+O_E9.5_mab21l2_ko,official,9.5,official_train,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,50294,0.31924285203006325,0.15900505030421125,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E10.5_RNA,official,10.5,official_release,10x Multiome RNA,nucleus,none,log1p_normalized,24979,0.19964770407142,0.21654189519196124,"Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection"
+O_E10.5,official,10.5,official_release,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,167864,0.1491445455845208,0.14902540151551255,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E7.5,official,7.5,official_release,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,11665,0.05512216030861552,0.0,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E8.5,official,8.5,official_release,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,23710,0.11130324757486293,0.06296921130324758,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E8.75_gata4_ko_1,official,8.75,official_release,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,42257,0.06614288756892349,0.07769127008542963,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+O_E8.75_gata4_ko_2,official,8.75,official_release,3D MERFISH,cell,per-embryo 3D local frame,raw_counts,46396,0.0821407017846366,0.10074144322786448,Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit
+Pijuan_7.25,VED-001 E-MTAB-6967,7.25,external,scRNA-seq,cell,none,log1p_normalized,15294,0.0,0.0,
+Pijuan_8.0,VED-001 E-MTAB-6967,8.0,external,scRNA-seq,cell,none,log1p_normalized,22059,0.006255949952400381,0.007887936896504829,
+Pijuan_8.25,VED-001 E-MTAB-6967,8.25,external,scRNA-seq,cell,none,log1p_normalized,18642,0.024890033258234096,0.019203948074240963,
+Pijuan_8.5,VED-001 E-MTAB-6967,8.5,external,scRNA-seq,cell,none,log1p_normalized,20978,0.023929831251787586,0.022213747735723138,
+Mesp1_7.25,VED-002,7.25,external,scRNA-seq,cell,none,raw_counts,785,0.0,0.0,Mesp1 lineage-enriched
+Mesp1_8.25,VED-002,8.25,external,scRNA-seq,cell,none,raw_counts,4611,0.0,0.0,Mesp1 lineage-enriched
+MOCA_9.5,VED-003,9.5,external,sci-RNA-seq,nucleus,none,raw_counts,110229,0.01769044443839643,0.031180542325522323,MOCA matrix with TOME QC; whole embryo
+TOME_8.5,VED-004,8.5,external,sci-RNA-seq3,nucleus,none,raw_counts,154313,0.025571403575849087,0.017451543291880787,whole embryo; T1-only
+deSoysa_8.25,VED-006,8.25,external,10x scRNA-seq,cell,none,log1p_normalized,9684,0.0,0.0,WT cardiac region; no distributed labels
+deSoysa_9.25,VED-006,9.25,external,10x scRNA-seq,cell,none,log1p_normalized,16023,0.0,0.0,WT cardiac region; no distributed labels
+QiuCardiac_8.75,VED-007,8.75,external,sci-RNA-seq,nucleus,none,raw_counts,1139,1.0,0.0,author cardiac subset; early labels are heart fields
+QiuCardiac_9.5,VED-007,9.5,external,sci-RNA-seq,nucleus,none,raw_counts,3583,1.0,0.0,author cardiac subset; early labels are heart fields
+QiuCardiac_13.75,VED-007,13.75,external,sci-RNA-seq,nucleus,none,raw_counts,90,1.0,0.0,author cardiac subset; early labels are heart fields
+QiuEndo_8.75,VED-007,8.75,external,sci-RNA-seq,nucleus,none,raw_counts,2533,0.0,0.6711409395973155,author endothelial subset also includes pericytes
+QiuEndo_9.5,VED-007,9.5,external,sci-RNA-seq,nucleus,none,raw_counts,13125,0.0,0.9343238095238096,author endothelial subset also includes pericytes
+Feng_9.5,VED-012,9.5,external,scRNA-seq,cell,none,raw_counts,887,0.7948139797068771,0.07891770011273957,WT heart; E9.5 CD1 only
+Feng_14.5,VED-012,14.5,external,scRNA-seq,cell,none,raw_counts,3184,0.6739949748743719,0.1039572864321608,WT heart; E9.5 CD1 only
+MOSTA_9.5,VED-009 MOSTA,9.5,external,Stereo-seq,cell-bin,reconstructed 3D,count_compatible_uncertain,19780,0.0,0.0,"heart_anno is organ, not cell type; normalization uncertain"
+Stereo1_8.0,VED-020 GSE278603,8.0,external,Stereo-seq,spatial bin,reconstructed 3D,raw_counts,11048,0.022447501810282405,0.005340333091962346,"author reference-mapped labels, not independent cell-type truth"
+Stereo2_8.0,VED-020 GSE278603,8.0,external,Stereo-seq,spatial bin,reconstructed 3D,raw_counts,27266,0.035722144795716275,0.004584464167828064,"author reference-mapped labels, not independent cell-type truth"
+MERSCOPE_9.5_r0,VED-023 GSE247450,9.5,external,MERSCOPE,segmented cell,2D,raw_counts,1077,0.0,0.0,regions not asserted to be biological replicates
+MERSCOPE_9.5_r1,VED-023 GSE247450,9.5,external,MERSCOPE,segmented cell,2D,raw_counts,6835,0.0,0.0,regions not asserted to be biological replicates
+MERSCOPE_15.5_r0,VED-023 GSE247450,15.5,external,MERSCOPE,segmented cell,2D,raw_counts,219525,0.0,0.0,regions not asserted to be biological replicates
+Endo10x1,VED-024 GSE216970,9.5,external,10x scRNA-seq,cell,none,raw_counts,7296,0.0,0.0,endothelial-enriched; no per-cell author labels
+Endo10x2,VED-024 GSE216970,9.5,external,10x scRNA-seq,cell,none,raw_counts,5169,0.0,0.0,endothelial-enriched; no per-cell author labels
+GataHet1,VED-018 GSE208162,12.5,external,10x scRNA-seq,cell,none,raw_counts,23459,0.0,0.0,Het control; Cdh5-CreERT2 ventricular source; organizer permission
+GataHet2,VED-018 GSE208162,12.5,external,10x scRNA-seq,cell,none,raw_counts,12313,0.0,0.0,Het control; Cdh5-CreERT2 ventricular source; organizer permission
+GataKO1,VED-018 GSE208162,12.5,external,10x scRNA-seq,cell,none,raw_counts,16803,0.0,0.0,Gata4 KO; Cdh5-CreERT2 ventricular source; organizer permission
+GataKO2,VED-018 GSE208162,12.5,external,10x scRNA-seq,cell,none,raw_counts,8597,0.0,0.0,Gata4 KO; Cdh5-CreERT2 ventricular source; organizer permission
+Visium16,VED-029 GSE282547,16.0,external,Visium,spot,2D,raw_counts,741,0.0,0.0,E16 whole-heart spots; no cell type labels

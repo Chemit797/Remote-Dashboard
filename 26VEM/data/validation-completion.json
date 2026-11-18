@@ -1,0 +1,16 @@
+{
+  "topics": 15,
+  "original_pair_count": 24,
+  "added_pairs": 16,
+  "original_comparison_rows": 82,
+  "added_comparison_rows": 53,
+  "original_ranked_types": 27,
+  "added_ranked_types": 0,
+  "original_metric_rows": 369,
+  "added_metric_rows": 0,
+  "independent_checks": 337,
+  "legacy_validation_rows": 107,
+  "legacy_display_rows": 20,
+  "overlay_files": 81,
+  "source_policy": "Dated source snapshots untouched; additive overlay source bytes copied by build_readers; old pair records/ranks/trends remain exact"
+}

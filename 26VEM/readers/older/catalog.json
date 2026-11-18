@@ -1,0 +1,3173 @@
+[
+  {
+    "id": "O_E6.75",
+    "stage": 6.75,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E6.75",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 498,
+    "source_raw_columns": 498,
+    "stored_panel_union_n": 498,
+    "eligible_group_n": {
+      "all": 7093,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 95,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiac_broad": 95
+    },
+    "source_shape": [
+      7093,
+      498
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 93.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4040,
+      "linear_full_axis_rowsum_quantiles": [
+        1.0,
+        17.0,
+        30.0,
+        49.0,
+        204.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E6.75.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E6.75.h5ad",
+        "bytes": 17454701,
+        "sha256": "ab58b9217d1b9a18b0181f498475a9eb821ac2c92ab2b7e45a623da0e4fffe70"
+      }
+    ],
+    "outputs": {
+      "X.npz": "5fb61de2e22555ca15c54ac509794168cae1d60c13ac1e1cfb4ed62ca124fc5d",
+      "genes.txt": "e20f726e623e04af289b434277187002150dbd5699a3ed09f5babfb633eddee7",
+      "source_axis.txt": "e20f726e623e04af289b434277187002150dbd5699a3ed09f5babfb633eddee7",
+      "selectors.json": "fd46a53e723b2d464b54e790dd5d554d3155577004eb9a1c8abfa587ba35d429",
+      "rows.csv.gz": "c449fde22637fbaef7c55874d5b5471daf24cfeccdf25b6dfc73722b71a740c7"
+    }
+  },
+  {
+    "id": "O_E7.25",
+    "stage": 7.25,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E7.25",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 498,
+    "source_raw_columns": 498,
+    "stored_panel_union_n": 498,
+    "eligible_group_n": {
+      "all": 13295,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 393,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiac_broad": 393
+    },
+    "source_shape": [
+      13295,
+      498
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 137.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4287,
+      "linear_full_axis_rowsum_quantiles": [
+        1.0,
+        20.0,
+        35.0,
+        58.0,
+        353.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E7.25.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E7.25.h5ad",
+        "bytes": 33572151,
+        "sha256": "c34192a31036b783b97ce1877ac50fc920b39faa3e00dc3c637b3e7e04255ee6"
+      }
+    ],
+    "outputs": {
+      "X.npz": "5a8b7e336b0c482bb20e15e4b7e8e08d30ffc55d9b65824a05a64de098cfe12c",
+      "genes.txt": "e20f726e623e04af289b434277187002150dbd5699a3ed09f5babfb633eddee7",
+      "source_axis.txt": "e20f726e623e04af289b434277187002150dbd5699a3ed09f5babfb633eddee7",
+      "selectors.json": "8dfa440a789db0ccf87a9b3d34ae90ab4a0fe346bfadbacd8144ece77f588504",
+      "rows.csv.gz": "647e3355fd17c47359bfce5fbc44e821680c1b8afbe94a520599ffebac28bd13"
+    }
+  },
+  {
+    "id": "O_E8.0",
+    "stage": 8.0,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E8.0",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "E8.0: sections from yolk-sac/embryo boundary through cardiac crescent, per current official protocol",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 31671,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 2227,
+      "endothelial": 2681
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      31671,
+      500
+    ],
+    "probe": {
+      "stored_min": 0.5,
+      "stored_max": 299.0,
+      "stored_integer_fraction": 0.9930185468142462,
+      "sampled_original_rows": 6770,
+      "linear_full_axis_rowsum_quantiles": [
+        15.0,
+        149.0,
+        224.0,
+        317.0,
+        2158.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E8.0.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E8.0.h5ad",
+        "bytes": 117703446,
+        "sha256": "17530e23fbfa6a139ff68d0353a489d83790f5b60f036b7d2f58303a1ff8a810"
+      }
+    ],
+    "outputs": {
+      "X.npz": "ea40ac520ec75f41de59a71ed2820880565545ad7a0618ef5bebbcdb1c521ad8",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "e8a27d9063591d25bc275127869693897ada8771965ef91f63808d981ba18b3c",
+      "rows.csv.gz": "44882a562aedacb6656dccd1974591391b0f955de7812b5cc81a9cc7d9f0cf6b"
+    }
+  },
+  {
+    "id": "O_E8.25_late",
+    "stage": 8.25,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E8.25_late",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "E8.25_late nominal E8.25, about E8.3; heart-tube sections with surrounding tissue",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 58716,
+      "cardiomyocyte": 1586,
+      "cardiac_broad": 2704,
+      "endothelial": 3698
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1586,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      58716,
+      500
+    ],
+    "probe": {
+      "stored_min": 0.25,
+      "stored_max": 209.0,
+      "stored_integer_fraction": 0.96469933873061,
+      "sampled_original_rows": 7556,
+      "linear_full_axis_rowsum_quantiles": [
+        9.0,
+        158.0,
+        244.0,
+        348.0,
+        1113.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E8.25_late.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E8.25_late.h5ad",
+        "bytes": 225091568,
+        "sha256": "d56f94d3e2d719ed3074d86c03eae457ccf90b24145d33300f9958f0e8078593"
+      }
+    ],
+    "outputs": {
+      "X.npz": "f596404804bbcc719e48078014ddd22b1e3b1fdea2bccfde47bdd1692e6fff0c",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "84752c67ffae4cdf268fdec6546de73a9b4887e6acdf78038dadb6de56b358e8",
+      "rows.csv.gz": "aad67767a5c9f0f35bfbf59451e41b7eb926701a4713893fea1c70dd18eafc1c"
+    }
+  },
+  {
+    "id": "O_E8.5_RNA",
+    "stage": 8.5,
+    "tasks": [
+      "T1"
+    ],
+    "source_id": "O_E8.5_RNA",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "10x Multiome RNA",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection",
+    "source_axis_n": 32285,
+    "source_raw_columns": 32285,
+    "stored_panel_union_n": 32285,
+    "eligible_group_n": {
+      "all": 16787,
+      "cardiomyocyte": 3819,
+      "cardiac_broad": 7952,
+      "endothelial": 1139
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1139
+    },
+    "source_shape": [
+      16787,
+      32285
+    ],
+    "probe": {
+      "stored_min": 0.160154789686203,
+      "stored_max": 6.886260509490967,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 7075,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.999531600906,
+        9999.999917364006,
+        10000.000001393124,
+        10000.000085694552,
+        10000.000650023081
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E8.5_RNA.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E8.5_RNA.h5ad",
+        "bytes": 570917395,
+        "sha256": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504"
+      }
+    ],
+    "outputs": {
+      "X.npz": "9b3f886136977e141fdeead268aa65b9dd97991e79d85ad23dc4a921ae41d74f",
+      "genes.txt": "cb85d3aef5b771e5d5bf64c77413147ab276059ff650637412f41358125cf4f3",
+      "source_axis.txt": "cb85d3aef5b771e5d5bf64c77413147ab276059ff650637412f41358125cf4f3",
+      "selectors.json": "ba039b9f35a36b6e84594fd31f3c098b24581e4a275533fc1f0fa35a5c3996df",
+      "rows.csv.gz": "ddee2a3a218241a96d2826a24e12de93e8b13febe98dcba5587a8404aca6c170"
+    }
+  },
+  {
+    "id": "O_E8.75",
+    "stage": 8.75,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E8.75",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 24826,
+      "cardiomyocyte": 3401,
+      "cardiac_broad": 3827,
+      "endothelial": 2342
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      24826,
+      500
+    ],
+    "probe": {
+      "stored_min": 0.5,
+      "stored_max": 166.0,
+      "stored_integer_fraction": 0.9713208115367615,
+      "sampled_original_rows": 7440,
+      "linear_full_axis_rowsum_quantiles": [
+        1.0,
+        84.0,
+        144.0,
+        224.25,
+        1006.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E8.75.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E8.75.h5ad",
+        "bytes": 83750668,
+        "sha256": "149ab6df7c99ad85046c8aebebcf0c43689b3720c59ffb7cc550edcf2f13a83c"
+      }
+    ],
+    "outputs": {
+      "X.npz": "34247f8b17ed8352c9cacc51a3ce5a83f29a5f91ab91983dd644e52b93a5238f",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "e17956ecacc8b8233d301a9ad0a34fd887693e12f034bf3e61b885467024a6b5",
+      "rows.csv.gz": "5bcb29398aeabd4b52aa6612e5dcc61d6d44a555d11281b5c56a5d75e58997ce"
+    }
+  },
+  {
+    "id": "O_E9.5",
+    "stage": 9.5,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E9.5",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 53742,
+      "cardiomyocyte": 16291,
+      "cardiac_broad": 16291,
+      "endothelial": 8284
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      53742,
+      500
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 172.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 8318,
+      "linear_full_axis_rowsum_quantiles": [
+        21.0,
+        54.0,
+        80.0,
+        121.0,
+        605.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E9.5.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E9.5.h5ad",
+        "bytes": 163640212,
+        "sha256": "371ca6530e084de2b6cd6703b49d95f4bb59546c9291659809575382a630ee9a"
+      }
+    ],
+    "outputs": {
+      "X.npz": "237f4e3db64a5ddb4446c2951454eca89492235ebcb0285e583e13c622601ead",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "0374f43a4310a9228843083f5c76353c6b931859d1aab7b797202b31c621d83a",
+      "rows.csv.gz": "1913c3f7a2ca1d917c38dfaa5a5e78d8e1b3f0a6b591ac0e907785bfde345b6a"
+    }
+  },
+  {
+    "id": "O_E9.5_RNA",
+    "stage": 9.5,
+    "tasks": [
+      "T1"
+    ],
+    "source_id": "O_E9.5_RNA",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "10x Multiome RNA",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection",
+    "source_axis_n": 32285,
+    "source_raw_columns": 32285,
+    "stored_panel_union_n": 32285,
+    "eligible_group_n": {
+      "all": 17057,
+      "cardiomyocyte": 5263,
+      "cardiac_broad": 7423,
+      "endothelial": 1826
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      17057,
+      32285
+    ],
+    "probe": {
+      "stored_min": 0.10588870942592621,
+      "stored_max": 6.898279190063477,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 7404,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.999358375524,
+        9999.999919471624,
+        10000.000000913074,
+        10000.000082577899,
+        10000.000618853372
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E9.5_RNA.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E9.5_RNA.h5ad",
+        "bytes": 589907081,
+        "sha256": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361"
+      }
+    ],
+    "outputs": {
+      "X.npz": "08e4ab1d596931b9a341a3d446ebb724365d11610801d8cecb23b2c63300f5fe",
+      "genes.txt": "cb85d3aef5b771e5d5bf64c77413147ab276059ff650637412f41358125cf4f3",
+      "source_axis.txt": "cb85d3aef5b771e5d5bf64c77413147ab276059ff650637412f41358125cf4f3",
+      "selectors.json": "57dad12619b37aa919dfd02e137075ea9ef5c21fc0868cba8ca88364d1cefd41",
+      "rows.csv.gz": "e39af3571f2eb3266a78e7aa729aad8ff41043569a37531af4e7167e1e8f6439"
+    }
+  },
+  {
+    "id": "O_E9.5_mab21l2_ko",
+    "stage": 9.5,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E9.5_mab21l2_ko",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 50294,
+      "cardiomyocyte": 16056,
+      "cardiac_broad": 16056,
+      "endothelial": 7997
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      50294,
+      500
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 219.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 8273,
+      "linear_full_axis_rowsum_quantiles": [
+        22.0,
+        64.0,
+        105.0,
+        169.0,
+        806.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/data/E9.5_mab21l2_ko.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/data/E9.5_mab21l2_ko.h5ad",
+        "bytes": 457667084,
+        "sha256": "5b1668ab982e64f7683fbf5f905218fab311c63548de5f5bc18a74f9d4d357e0"
+      }
+    ],
+    "outputs": {
+      "X.npz": "56dbee1431dfe79be53f95d78a3fc0c9bfbc37887a763133d83db849f1392ed8",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "abb2d5f9098c55c380256932d5c43218fd0963cbe1fb55c22b213c40dcb5f28f",
+      "rows.csv.gz": "c6d41923e9a1cdcce01b100fa4163aef0d1637bee2976c1e9b40157efedb62a3"
+    }
+  },
+  {
+    "id": "O_E10.5_RNA",
+    "stage": 10.5,
+    "tasks": [
+      "T1"
+    ],
+    "source_id": "O_E10.5_RNA",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "10x Multiome RNA",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection",
+    "source_axis_n": 32285,
+    "source_raw_columns": 32285,
+    "stored_panel_union_n": 32285,
+    "eligible_group_n": {
+      "all": 24979,
+      "cardiomyocyte": 3453,
+      "cardiac_broad": 4987,
+      "endothelial": 5409
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      24979,
+      32285
+    ],
+    "probe": {
+      "stored_min": 0.0537356436252594,
+      "stored_max": 7.5719828605651855,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 7596,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.998995245418,
+        9999.999895339159,
+        10000.000003604086,
+        10000.000112664065,
+        10000.00109712351
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T1/E10.5_RNA.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T1/E10.5_RNA.h5ad",
+        "bytes": 647176723,
+        "sha256": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c"
+      }
+    ],
+    "outputs": {
+      "X.npz": "eedec9ffd8766568d75447a49192afb31b509bb7403694738a1d0719ab308737",
+      "genes.txt": "cb85d3aef5b771e5d5bf64c77413147ab276059ff650637412f41358125cf4f3",
+      "source_axis.txt": "cb85d3aef5b771e5d5bf64c77413147ab276059ff650637412f41358125cf4f3",
+      "selectors.json": "00c364ea298c52249dc18fe72a7da7372bda41d7b2f14b31a0b7d1ce3e99d4cf",
+      "rows.csv.gz": "8f6351277a1e1a7533d09ec3c797e4481aabf55bbb1d8c93a43aa1f509abc087"
+    }
+  },
+  {
+    "id": "O_E10.5",
+    "stage": 10.5,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E10.5",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 167864,
+      "cardiomyocyte": 25036,
+      "cardiac_broad": 25036,
+      "endothelial": 25016
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      167864,
+      500
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 179.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 8583,
+      "linear_full_axis_rowsum_quantiles": [
+        20.0,
+        41.0,
+        56.0,
+        81.0,
+        434.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E10.5.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E10.5.h5ad",
+        "bytes": 484175760,
+        "sha256": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b"
+      }
+    ],
+    "outputs": {
+      "X.npz": "274fa93746cbc4e0575340223703f40b5a5b12800ece253127c58d195213da10",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "f5b9db990d13734a6c3e90724bd8513e28ba69fef15a8753b499cf6094abba50",
+      "rows.csv.gz": "7600f15003d3c6fccee542aa209c8bcf8f27959792a01e412b7191e5d559e127"
+    }
+  },
+  {
+    "id": "O_E7.5",
+    "stage": 7.5,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E7.5",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 11665,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 643,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiac_broad": 643
+    },
+    "source_shape": [
+      11665,
+      500
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 127.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4427,
+      "linear_full_axis_rowsum_quantiles": [
+        20.0,
+        37.0,
+        62.0,
+        107.0,
+        616.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E7.5.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E7.5.h5ad",
+        "bytes": 94538489,
+        "sha256": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54"
+      }
+    ],
+    "outputs": {
+      "X.npz": "89d29cd8a2921f265971295921875ba1ba8daa6fa0044459d75376e934f40afd",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "d2c072733c5f5319db5cd27be40dccb1881a930bffad60b8e0d58b8ebe39fe2c",
+      "rows.csv.gz": "a7e963a43a75fda75624b18a5748ca9499e8d4bd2ee26a43261fe80f9dcebdaa"
+    }
+  },
+  {
+    "id": "O_E8.5",
+    "stage": 8.5,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E8.5",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 23710,
+      "cardiomyocyte": 1919,
+      "cardiac_broad": 2639,
+      "endothelial": 1493
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1493
+    },
+    "source_shape": [
+      23710,
+      500
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 150.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 7061,
+      "linear_full_axis_rowsum_quantiles": [
+        6.0,
+        113.0,
+        182.0,
+        270.0,
+        1188.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E8.5.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E8.5.h5ad",
+        "bytes": 85209108,
+        "sha256": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db"
+      }
+    ],
+    "outputs": {
+      "X.npz": "3fe3f134b9c67a55fe6db1b9f9808fa2bde4eeefe430de13fa211982155535f8",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "46201e5672742c988fdb28ed8f92f4cab7915ddb5a71dfccb9f116bccd3c2c8b",
+      "rows.csv.gz": "0fd6bae73ba005ca0003bde3e1204203911b226673d8f5abb424852e6ea3df5b"
+    }
+  },
+  {
+    "id": "O_E8.75_gata4_ko_1",
+    "stage": 8.75,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E8.75_gata4_ko_1",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 42257,
+      "cardiomyocyte": 2795,
+      "cardiac_broad": 2795,
+      "endothelial": 3283
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      42257,
+      500
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 123.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 7489,
+      "linear_full_axis_rowsum_quantiles": [
+        5.0,
+        54.0,
+        94.0,
+        147.0,
+        565.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T3/E8.75_gata4_ko_1.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T3/E8.75_gata4_ko_1.h5ad",
+        "bytes": 373752585,
+        "sha256": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad"
+      }
+    ],
+    "outputs": {
+      "X.npz": "ee5b75065663f981be89393452bf8c1d0e6a1f7fe024537c3416b60fc6288b83",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "ad63bbfd99815e5a2115b0b6e90ad18d8b51a2d3bf2df5b71c9f1a313e819eca",
+      "rows.csv.gz": "d85f7abf17cceecc4a649af0e39122becc660b1c80f82ea2d334ea3699496224"
+    }
+  },
+  {
+    "id": "O_E8.75_gata4_ko_2",
+    "stage": 8.75,
+    "tasks": [
+      "T2_embryo",
+      "T2_heart",
+      "T3"
+    ],
+    "source_id": "O_E8.75_gata4_ko_2",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "semantics": "raw_counts",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "source_axis_n": 500,
+    "source_raw_columns": 500,
+    "stored_panel_union_n": 500,
+    "eligible_group_n": {
+      "all": 46396,
+      "cardiomyocyte": 3811,
+      "cardiac_broad": 3811,
+      "endothelial": 4674
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      46396,
+      500
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 108.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 7792,
+      "linear_full_axis_rowsum_quantiles": [
+        5.0,
+        46.0,
+        81.0,
+        131.0,
+        593.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T3/E8.75_gata4_ko_2.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T3/E8.75_gata4_ko_2.h5ad",
+        "bytes": 409190040,
+        "sha256": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4"
+      }
+    ],
+    "outputs": {
+      "X.npz": "cf90d37bcdf0450c0a45318b262ee80206ce6220b801f92adb582a8c0bbb5071",
+      "genes.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "source_axis.txt": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa",
+      "selectors.json": "bc0033fb0ec852d767b0941065133448027658bc79ce97a2645b695b2488f0ab",
+      "rows.csv.gz": "29e44ec32ce99ed56d523c86c9fcfed1928f099adfeece0e70ed937a13db01bb"
+    }
+  },
+  {
+    "id": "Pijuan_7.25",
+    "stage": 7.25,
+    "tasks": [
+      "T1",
+      "T2_embryo",
+      "T2_heart"
+    ],
+    "filter_col": "stage",
+    "filter_value": "E7.25",
+    "source_id": "Pijuan",
+    "origin": "external",
+    "family": "VED-001 E-MTAB-6967",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "",
+    "source_axis_n": 29374,
+    "source_raw_columns": 29374,
+    "stored_panel_union_n": 26800,
+    "eligible_group_n": {
+      "all": 15294,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      130006,
+      29374
+    ],
+    "probe": {
+      "stored_min": 0.11725761741399765,
+      "stored_max": 7.539021968841553,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 17661,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.998956850119,
+        9999.999780325648,
+        10000.000004847609,
+        10000.000217697348,
+        10000.000953280662
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+        "bytes": 1037092573,
+        "sha256": "8a92061f7aa1a40df4fe1d155e4e88025bfd193a78fb060330312b1ee3593a06"
+      }
+    ],
+    "outputs": {
+      "X.npz": "e85cf427faf4374cc1dc43f05fcab3c8646f8228429043a2f4526a0562de6f8f",
+      "genes.txt": "d4ce6ec17d4b5804418249506bee6b954041560a577308aa20cc442bde095bc7",
+      "source_axis.txt": "fa82058979fa207b66bffd1dcfc30fd00e1f6d9b652e5f73d0ad16e6432253a2",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "afbc618bbf35910da86085bfe34fb9b978d58a2ece61d3d0ff863865e7888bb7"
+    }
+  },
+  {
+    "id": "Pijuan_8.0",
+    "stage": 8.0,
+    "tasks": [
+      "T1",
+      "T2_embryo",
+      "T2_heart"
+    ],
+    "filter_col": "stage",
+    "filter_value": "E8.0",
+    "source_id": "Pijuan",
+    "origin": "external",
+    "family": "VED-001 E-MTAB-6967",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "",
+    "source_axis_n": 29374,
+    "source_raw_columns": 29374,
+    "stored_panel_union_n": 26800,
+    "eligible_group_n": {
+      "all": 22059,
+      "cardiomyocyte": 138,
+      "cardiac_broad": 138,
+      "endothelial": 174
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 138,
+      "cardiac_broad": 138,
+      "endothelial": 174
+    },
+    "source_shape": [
+      130006,
+      29374
+    ],
+    "probe": {
+      "stored_min": 0.11725761741399765,
+      "stored_max": 7.539021968841553,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 17661,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.998956850119,
+        9999.999780325648,
+        10000.000004847609,
+        10000.000217697348,
+        10000.000953280662
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+        "bytes": 1037092573,
+        "sha256": "8a92061f7aa1a40df4fe1d155e4e88025bfd193a78fb060330312b1ee3593a06"
+      }
+    ],
+    "outputs": {
+      "X.npz": "72970f6af04b25fa7cd784cbbff8780b5831da7252f17196ffb2b1a4609de91c",
+      "genes.txt": "d4ce6ec17d4b5804418249506bee6b954041560a577308aa20cc442bde095bc7",
+      "source_axis.txt": "fa82058979fa207b66bffd1dcfc30fd00e1f6d9b652e5f73d0ad16e6432253a2",
+      "selectors.json": "5a182824896194c3e21bb69bc92be6295b35bdacf3b403f8f6bbd16404579816",
+      "rows.csv.gz": "78faada8d5437c2638c3bd943cfc0b355ded2aa31e4c895f31265e28395db78e"
+    }
+  },
+  {
+    "id": "Pijuan_8.25",
+    "stage": 8.25,
+    "tasks": [
+      "T1",
+      "T2_embryo",
+      "T2_heart"
+    ],
+    "filter_col": "stage",
+    "filter_value": "E8.25",
+    "source_id": "Pijuan",
+    "origin": "external",
+    "family": "VED-001 E-MTAB-6967",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "",
+    "source_axis_n": 29374,
+    "source_raw_columns": 29374,
+    "stored_panel_union_n": 26800,
+    "eligible_group_n": {
+      "all": 18642,
+      "cardiomyocyte": 464,
+      "cardiac_broad": 464,
+      "endothelial": 358
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 464,
+      "cardiac_broad": 464,
+      "endothelial": 358
+    },
+    "source_shape": [
+      130006,
+      29374
+    ],
+    "probe": {
+      "stored_min": 0.11725761741399765,
+      "stored_max": 7.539021968841553,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 17661,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.998956850119,
+        9999.999780325648,
+        10000.000004847609,
+        10000.000217697348,
+        10000.000953280662
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+        "bytes": 1037092573,
+        "sha256": "8a92061f7aa1a40df4fe1d155e4e88025bfd193a78fb060330312b1ee3593a06"
+      }
+    ],
+    "outputs": {
+      "X.npz": "0d34b0d26c8a5c8c3257286d384b1810a9abf2b062c2bc8352a052f7de5b91f2",
+      "genes.txt": "d4ce6ec17d4b5804418249506bee6b954041560a577308aa20cc442bde095bc7",
+      "source_axis.txt": "fa82058979fa207b66bffd1dcfc30fd00e1f6d9b652e5f73d0ad16e6432253a2",
+      "selectors.json": "ddaf05b781fd1d7f1eab931d1bafc3a05844ad40fe13177dd33e4921db7519b5",
+      "rows.csv.gz": "72c91f6c6a90f772d706bec487707d0ab2d0fbf4dce3610b699515e0da5131a1"
+    }
+  },
+  {
+    "id": "Pijuan_8.5",
+    "stage": 8.5,
+    "tasks": [
+      "T1"
+    ],
+    "filter_col": "stage",
+    "filter_value": "E8.5",
+    "source_id": "Pijuan",
+    "origin": "external",
+    "family": "VED-001 E-MTAB-6967",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "",
+    "source_axis_n": 29374,
+    "source_raw_columns": 29374,
+    "stored_panel_union_n": 26800,
+    "eligible_group_n": {
+      "all": 20978,
+      "cardiomyocyte": 502,
+      "cardiac_broad": 502,
+      "endothelial": 466
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 502,
+      "cardiac_broad": 502,
+      "endothelial": 466
+    },
+    "source_shape": [
+      130006,
+      29374
+    ],
+    "probe": {
+      "stored_min": 0.11725761741399765,
+      "stored_max": 7.539021968841553,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 17661,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.998956850119,
+        9999.999780325648,
+        10000.000004847609,
+        10000.000217697348,
+        10000.000953280662
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+        "bytes": 1037092573,
+        "sha256": "8a92061f7aa1a40df4fe1d155e4e88025bfd193a78fb060330312b1ee3593a06"
+      }
+    ],
+    "outputs": {
+      "X.npz": "c74e652870ad16521dbb6e9882f708c5c83cf9551f6b07ea1651581845fadbc2",
+      "genes.txt": "d4ce6ec17d4b5804418249506bee6b954041560a577308aa20cc442bde095bc7",
+      "source_axis.txt": "fa82058979fa207b66bffd1dcfc30fd00e1f6d9b652e5f73d0ad16e6432253a2",
+      "selectors.json": "1425ab4a8142bd5ad1a64f1d842cb2263ee65e4bfda0b0490a8c137e96faf4be",
+      "rows.csv.gz": "dba38ab5f3d1deff7c32c6c343ba9168f9830f9f7ab1687f2839131fe4bab1c1"
+    }
+  },
+  {
+    "id": "Mesp1_7.25",
+    "stage": 7.25,
+    "tasks": [
+      "T1",
+      "T2_embryo",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 7.25,
+    "source_id": "Mesp1",
+    "origin": "external",
+    "family": "VED-002",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "Mesp1 lineage-enriched",
+    "source_axis_n": 27998,
+    "source_raw_columns": 27998,
+    "stored_panel_union_n": 25954,
+    "eligible_group_n": {
+      "all": 785,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 785
+    },
+    "source_shape": [
+      9072,
+      27998
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 2940.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4785,
+      "linear_full_axis_rowsum_quantiles": [
+        25067.0,
+        49412.0,
+        60184.0,
+        72618.0,
+        233040.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/X.npz",
+        "bytes": 116336101,
+        "sha256": "b6e91a157f0fee7ef8c323d12b6f643b9e6d1314bac036b3339cf8cabb87aebb"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/genes.parquet",
+        "bytes": 478278,
+        "sha256": "2257ca06b4da4ab2bc95ecf64545883493567a926965a81a0c3706c232f9c70d"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/cells.parquet",
+        "bytes": 222398,
+        "sha256": "f12c6b85b206db19f2db36283013a7d34d1f8e0e1d0f1a9437516d3803b9b667"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/report.json",
+        "bytes": 1547,
+        "sha256": "1b11cfa9ea1e9e6f485e01cc57e466540a565220a0b972efef821c87be68318d"
+      }
+    ],
+    "outputs": {
+      "X.npz": "de2881777706a97591850220bc2a2c2ea5eef72793bdab70343d62ac76f09866",
+      "genes.txt": "3fbbea4b100541da4eca8e7a8cd08352a7d22eb00385f1dc55f2e5a05768354c",
+      "source_axis.txt": "00bd24c8d6b56faa88091412247987dc1110d40f23fcd0f3795b355a5a92f37f",
+      "selectors.json": "030e69ebe684e02f8fd2bdd1075cf2793aa136ae466aaee06ce79ad03b4603d7",
+      "rows.csv.gz": "f3965551848e13d7949292a12aba049d2a660b3a59534c11fe5da46ba18116de"
+    }
+  },
+  {
+    "id": "Mesp1_8.25",
+    "stage": 8.25,
+    "tasks": [
+      "T1",
+      "T2_embryo",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 8.25,
+    "source_id": "Mesp1",
+    "origin": "external",
+    "family": "VED-002",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "Mesp1 lineage-enriched",
+    "source_axis_n": 27998,
+    "source_raw_columns": 27998,
+    "stored_panel_union_n": 25954,
+    "eligible_group_n": {
+      "all": 4611,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      9072,
+      27998
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 2940.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4785,
+      "linear_full_axis_rowsum_quantiles": [
+        25067.0,
+        49412.0,
+        60184.0,
+        72618.0,
+        233040.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/X.npz",
+        "bytes": 116336101,
+        "sha256": "b6e91a157f0fee7ef8c323d12b6f643b9e6d1314bac036b3339cf8cabb87aebb"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/genes.parquet",
+        "bytes": 478278,
+        "sha256": "2257ca06b4da4ab2bc95ecf64545883493567a926965a81a0c3706c232f9c70d"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/cells.parquet",
+        "bytes": 222398,
+        "sha256": "f12c6b85b206db19f2db36283013a7d34d1f8e0e1d0f1a9437516d3803b9b667"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts/report.json",
+        "bytes": 1547,
+        "sha256": "1b11cfa9ea1e9e6f485e01cc57e466540a565220a0b972efef821c87be68318d"
+      }
+    ],
+    "outputs": {
+      "X.npz": "de13f439e8d138c98c0b0c0a816efa0989d6aaf6f7ca9c47e25dbc08a04c6973",
+      "genes.txt": "3fbbea4b100541da4eca8e7a8cd08352a7d22eb00385f1dc55f2e5a05768354c",
+      "source_axis.txt": "00bd24c8d6b56faa88091412247987dc1110d40f23fcd0f3795b355a5a92f37f",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "48f6dfdef5bd5ab3273713773f4c666f542bfa100100997606c4214da3d11a87"
+    }
+  },
+  {
+    "id": "MOCA_9.5",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 9.5,
+    "source_id": "MOCA",
+    "origin": "external",
+    "family": "VED-003",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "MOCA matrix with TOME QC; whole embryo",
+    "source_axis_n": 26158,
+    "source_raw_columns": 26183,
+    "stored_panel_union_n": 21019,
+    "eligible_group_n": {
+      "all": 110229,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 1950,
+      "endothelial": 3437
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      110229,
+      26183
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 1009.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 7078,
+      "linear_full_axis_rowsum_quantiles": [
+        205.0,
+        586.0,
+        879.5,
+        1349.0,
+        3168.0
+      ],
+      "duplicate_symbol_columns": 25
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc/X.npz",
+        "bytes": 165686086,
+        "sha256": "cd02ec16b9590006fce21c0764e7757892b4b3533042818f98eceb092064da69"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc/genes.parquet",
+        "bytes": 479668,
+        "sha256": "7b35232c74ce33ae95d4bde004eaf58ca2a171513eb53e282ae8d526cabf7c01"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc/cells.parquet",
+        "bytes": 2818187,
+        "sha256": "ae10514c4148a8257149e4f9b83a01e510ad2f7bf67d366c306513196fc554ab"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc/report.json",
+        "bytes": 1060,
+        "sha256": "fa763d97c71c5d526cb50c2a35c93372c95b57cc630bda13a8d283c4df560b09"
+      }
+    ],
+    "outputs": {
+      "X.npz": "fb95218d861b8188d266d28ad5aecb92f45678fa655109f5384b6b8dbc74b5f5",
+      "genes.txt": "f1b9f3cda46d006e869e846cc67b39614984f0f4de3155cea07329c3a8505341",
+      "source_axis.txt": "847e5ecefe20a12c2ac99d376cc9718a127288cc84f2062f07bf1ec4270289bd",
+      "selectors.json": "aced8ac77b3791f80fc15e013881007f478628673857b1f03f341baf9fdedee1",
+      "rows.csv.gz": "d9b0c194874ffbbf01830f977b38d5714ddf6bdd421bd21e4033167e93fd09c2"
+    }
+  },
+  {
+    "id": "TOME_8.5",
+    "stage": 8.5,
+    "tasks": [
+      "T1"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 8.5,
+    "source_id": "TOME",
+    "origin": "external",
+    "family": "VED-004",
+    "assay": "sci-RNA-seq3",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "whole embryo; T1-only",
+    "source_axis_n": 49492,
+    "source_raw_columns": 49585,
+    "stored_panel_union_n": 28314,
+    "eligible_group_n": {
+      "all": 154313,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 3946,
+      "endothelial": 2693
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiac_broad": 1600,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      154313,
+      49585
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 11656.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 7122,
+      "linear_full_axis_rowsum_quantiles": [
+        1885.0,
+        5118.5,
+        8175.5,
+        12450.0,
+        39267.0
+      ],
+      "duplicate_symbol_columns": 93
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts/X.npz",
+        "bytes": 1176475049,
+        "sha256": "326a98104c4aef74f89785073c5f4c9b35cb774c7939df03922f45f5b8448442"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts/genes.parquet",
+        "bytes": 861454,
+        "sha256": "bb2392eaad449654fae1b9c47092286d0f7f725aa73642b8570f8b4733bdae8a"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts/cells.parquet",
+        "bytes": 4000837,
+        "sha256": "d6d316b6d9ad2b312a28b96c14b7b864816a4f8db9129c13817b5778fcb46585"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts/report.json",
+        "bytes": 985,
+        "sha256": "f8d93b7af72d330364b3b4e25bacdfdfe8932a00313f47920b231d5a5cbbaa3c"
+      }
+    ],
+    "outputs": {
+      "X.npz": "335b6081a9850a3aeb230a90502c1c29dbc9341cfe795b1546094641a38c851e",
+      "genes.txt": "b54d5bd4d1f12ddab15b4b025398a1ff43f32d6aa01c2287998ed04edbac37aa",
+      "source_axis.txt": "1e596def5f9bede747d956c45bb401fe7a25577701103483889debd07179c49c",
+      "selectors.json": "ab14063c97d1d2df240fef8c2615e8123c998c31c3b31cd67a587c3b97ee5378",
+      "rows.csv.gz": "b098ae2ae507a7beb2b34712cd5aa2f095cd96585619f7f7d6d1bbdccb752723"
+    }
+  },
+  {
+    "id": "deSoysa_8.25",
+    "stage": 8.25,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 8.25,
+    "source_id": "deSoysa",
+    "origin": "external",
+    "family": "VED-006",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "WT cardiac region; no distributed labels",
+    "source_axis_n": 23476,
+    "source_raw_columns": 23476,
+    "stored_panel_union_n": 17405,
+    "eligible_group_n": {
+      "all": 9684,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      36753,
+      23476
+    ],
+    "probe": {
+      "stored_min": 0.15504392981529236,
+      "stored_max": 7.78345251083374,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 8000,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.999342568308,
+        9999.999935666705,
+        10000.000002219089,
+        10000.000066731269,
+        10000.00076567187
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/X.npz",
+        "bytes": 352716353,
+        "sha256": "4a439dab591c2b46f788de886ac97c4ec7d9736571ab33b8503738a097fe8ec8"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/genes.parquet",
+        "bytes": 412941,
+        "sha256": "bd9a2c56c600d0f3c92a7829cdad11f1ba6be980f4a16a15ffd011da214d3c18"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/cells.parquet",
+        "bytes": 743173,
+        "sha256": "913e759da0e3d22db1013bb4de8cb4c5163edce12602533f27ff62a2c1ba7c88"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/report.json",
+        "bytes": 1734,
+        "sha256": "d5c3eac6363d516507fbd24a2674a01f9719f83910a2c3dcfc27652d36d3c123"
+      }
+    ],
+    "outputs": {
+      "X.npz": "c56c4f69dfbff83df28d88687e9b1e6f8913b735f89a2598fa43904daa1a2ea9",
+      "genes.txt": "f65e4c726fad194b5379588bc09189646ea111dfd0c3557b960ed5ebbf9e55f6",
+      "source_axis.txt": "16dfa4da8e43daa85156f0e1dd8957f29159f19ef312cf973602e1e649613077",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "b6f079f8ca209ce77480273a19a1f1e7b89b87bf2ff9c914520ae29f257e9d3c"
+    }
+  },
+  {
+    "id": "deSoysa_9.25",
+    "stage": 9.25,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 9.25,
+    "source_id": "deSoysa",
+    "origin": "external",
+    "family": "VED-006",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "log1p_normalized",
+    "note": "WT cardiac region; no distributed labels",
+    "source_axis_n": 23476,
+    "source_raw_columns": 23476,
+    "stored_panel_union_n": 17405,
+    "eligible_group_n": {
+      "all": 16023,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      36753,
+      23476
+    ],
+    "probe": {
+      "stored_min": 0.15504392981529236,
+      "stored_max": 7.78345251083374,
+      "stored_integer_fraction": 0.0,
+      "sampled_original_rows": 8000,
+      "linear_full_axis_rowsum_quantiles": [
+        9999.999342568308,
+        9999.999935666705,
+        10000.000002219089,
+        10000.000066731269,
+        10000.00076567187
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/X.npz",
+        "bytes": 352716353,
+        "sha256": "4a439dab591c2b46f788de886ac97c4ec7d9736571ab33b8503738a097fe8ec8"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/genes.parquet",
+        "bytes": 412941,
+        "sha256": "bd9a2c56c600d0f3c92a7829cdad11f1ba6be980f4a16a15ffd011da214d3c18"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/cells.parquet",
+        "bytes": 743173,
+        "sha256": "913e759da0e3d22db1013bb4de8cb4c5163edce12602533f27ff62a2c1ba7c88"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints/report.json",
+        "bytes": 1734,
+        "sha256": "d5c3eac6363d516507fbd24a2674a01f9719f83910a2c3dcfc27652d36d3c123"
+      }
+    ],
+    "outputs": {
+      "X.npz": "da8feb85380c9fac16acf0fb7f192045c66870b6f881f3aec159db20531b4887",
+      "genes.txt": "f65e4c726fad194b5379588bc09189646ea111dfd0c3557b960ed5ebbf9e55f6",
+      "source_axis.txt": "16dfa4da8e43daa85156f0e1dd8957f29159f19ef312cf973602e1e649613077",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "ed2ed84489f239f0b5d06bdbac60a9ff82837dd9030e7d3fbc6d3ddb4f517273"
+    }
+  },
+  {
+    "id": "QiuCardiac_8.75",
+    "stage": 8.75,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 8.75,
+    "source_id": "QiuCardiac",
+    "origin": "external",
+    "family": "VED-007",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "author cardiac subset; early labels are heart fields",
+    "source_axis_n": 45494,
+    "source_raw_columns": 45525,
+    "stored_panel_union_n": 26983,
+    "eligible_group_n": {
+      "all": 1139,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 1139,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 1139,
+      "cardiac_broad": 1139
+    },
+    "source_shape": [
+      18561,
+      45525
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 529.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4812,
+      "linear_full_axis_rowsum_quantiles": [
+        719.0,
+        1890.0,
+        3094.5,
+        4834.25,
+        11592.0
+      ],
+      "duplicate_symbol_columns": 31
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/X.npz",
+        "bytes": 82745723,
+        "sha256": "59f79d15040ec6057f828256f3519c1dfeca5cf7e6389a4a1e750ab628202279"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/genes.parquet",
+        "bytes": 1143966,
+        "sha256": "3e2cdd1123f2daa385694f4397e4f9748f76a0afac8f159facf3cc39c69efc5b"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/cells.parquet",
+        "bytes": 742132,
+        "sha256": "2c2b4397f81b97f62530e0ce79e499c1714212ea5663e819eb0bccb636ea3078"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/report.json",
+        "bytes": 2813,
+        "sha256": "378e42a69c6688d6575862046f66a21b4de89b6bb58ae3e4288e1bf2b48cf0c0"
+      }
+    ],
+    "outputs": {
+      "X.npz": "a5bb78edda62126204f658deec18a79dfe3db8981f1075c816cdb658885edf2c",
+      "genes.txt": "442f141d411c00ad4db5061f492d7d194b1cb03bf73bfe14b9a7573a02ae8ed4",
+      "source_axis.txt": "347d925fb49d1bd0ca3f2efef6e4944163afdd2b1cec9da5af6844e531befc1f",
+      "selectors.json": "fe0812a7ab0c8b46953de97325602b49414ad6f7c02b04ca9674f26a16a64965",
+      "rows.csv.gz": "78f1d52109b4d288a101cb0192227911c8fdea90d9d0e1337e290e190160eb32"
+    }
+  },
+  {
+    "id": "QiuCardiac_9.5",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 9.5,
+    "source_id": "QiuCardiac",
+    "origin": "external",
+    "family": "VED-007",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "author cardiac subset; early labels are heart fields",
+    "source_axis_n": 45494,
+    "source_raw_columns": 45525,
+    "stored_panel_union_n": 26983,
+    "eligible_group_n": {
+      "all": 3583,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 3583,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 3583,
+      "cardiac_broad": 1600
+    },
+    "source_shape": [
+      18561,
+      45525
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 529.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4812,
+      "linear_full_axis_rowsum_quantiles": [
+        719.0,
+        1890.0,
+        3094.5,
+        4834.25,
+        11592.0
+      ],
+      "duplicate_symbol_columns": 31
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/X.npz",
+        "bytes": 82745723,
+        "sha256": "59f79d15040ec6057f828256f3519c1dfeca5cf7e6389a4a1e750ab628202279"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/genes.parquet",
+        "bytes": 1143966,
+        "sha256": "3e2cdd1123f2daa385694f4397e4f9748f76a0afac8f159facf3cc39c69efc5b"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/cells.parquet",
+        "bytes": 742132,
+        "sha256": "2c2b4397f81b97f62530e0ce79e499c1714212ea5663e819eb0bccb636ea3078"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/report.json",
+        "bytes": 2813,
+        "sha256": "378e42a69c6688d6575862046f66a21b4de89b6bb58ae3e4288e1bf2b48cf0c0"
+      }
+    ],
+    "outputs": {
+      "X.npz": "ebdf9c83d4eb18b80b92e8a3b233ce3951f7950c5c434be9e6b428bcccf39e2d",
+      "genes.txt": "442f141d411c00ad4db5061f492d7d194b1cb03bf73bfe14b9a7573a02ae8ed4",
+      "source_axis.txt": "347d925fb49d1bd0ca3f2efef6e4944163afdd2b1cec9da5af6844e531befc1f",
+      "selectors.json": "6d090883fdd2f79cc805cdcebca21848cc97790b620d9398f2a978d744991747",
+      "rows.csv.gz": "5eeed37e730e2cb975ac80017152182e297ee8b1d1afcbf22c14f766df1da033"
+    }
+  },
+  {
+    "id": "QiuCardiac_13.75",
+    "stage": 13.75,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 13.75,
+    "source_id": "QiuCardiac",
+    "origin": "external",
+    "family": "VED-007",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "author cardiac subset; early labels are heart fields",
+    "source_axis_n": 45494,
+    "source_raw_columns": 45525,
+    "stored_panel_union_n": 26983,
+    "eligible_group_n": {
+      "all": 90,
+      "cardiomyocyte": 17,
+      "cardiac_broad": 90,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 90,
+      "cardiac_broad": 90
+    },
+    "source_shape": [
+      18561,
+      45525
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 529.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4812,
+      "linear_full_axis_rowsum_quantiles": [
+        719.0,
+        1890.0,
+        3094.5,
+        4834.25,
+        11592.0
+      ],
+      "duplicate_symbol_columns": 31
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/X.npz",
+        "bytes": 82745723,
+        "sha256": "59f79d15040ec6057f828256f3519c1dfeca5cf7e6389a4a1e750ab628202279"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/genes.parquet",
+        "bytes": 1143966,
+        "sha256": "3e2cdd1123f2daa385694f4397e4f9748f76a0afac8f159facf3cc39c69efc5b"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/cells.parquet",
+        "bytes": 742132,
+        "sha256": "2c2b4397f81b97f62530e0ce79e499c1714212ea5663e819eb0bccb636ea3078"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes/report.json",
+        "bytes": 2813,
+        "sha256": "378e42a69c6688d6575862046f66a21b4de89b6bb58ae3e4288e1bf2b48cf0c0"
+      }
+    ],
+    "outputs": {
+      "X.npz": "50cbd69a4cc905e9204a50807da5adf787e8cfc6d0b6aaf94dce2412b43fcd39",
+      "genes.txt": "442f141d411c00ad4db5061f492d7d194b1cb03bf73bfe14b9a7573a02ae8ed4",
+      "source_axis.txt": "347d925fb49d1bd0ca3f2efef6e4944163afdd2b1cec9da5af6844e531befc1f",
+      "selectors.json": "8d0bd8958d71a96cf3066263dd014a20f84395c8225b80edaf9ddd188469da0f",
+      "rows.csv.gz": "9983369380779fd56cfb664697c78cb2deab847de4e3e93ff231365a1766620f"
+    }
+  },
+  {
+    "id": "QiuEndo_8.75",
+    "stage": 8.75,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 8.75,
+    "source_id": "QiuEndo",
+    "origin": "external",
+    "family": "VED-007",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "author endothelial subset also includes pericytes",
+    "source_axis_n": 45494,
+    "source_raw_columns": 45525,
+    "stored_panel_union_n": 26983,
+    "eligible_group_n": {
+      "all": 2533,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 1700
+    },
+    "sampled_group_n": {
+      "all": 2533,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      220071,
+      45525
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 291.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 7623,
+      "linear_full_axis_rowsum_quantiles": [
+        614.0,
+        1569.0,
+        2627.0,
+        4146.5,
+        11456.0
+      ],
+      "duplicate_symbol_columns": 31
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/X.npz",
+        "bytes": 792259635,
+        "sha256": "d7f37f58f45eb4acdaeb7d7668b79fdd24a0eb7d2317d4249a1f2e41d0ec97c2"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/genes.parquet",
+        "bytes": 1143966,
+        "sha256": "3e2cdd1123f2daa385694f4397e4f9748f76a0afac8f159facf3cc39c69efc5b"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/cells.parquet",
+        "bytes": 7017898,
+        "sha256": "ae3d5f9ce98580ebafde9f904b49dd1eebdeb4bc56d7bc7d46e4ee4b58de9243"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/report.json",
+        "bytes": 3229,
+        "sha256": "66e7562a2e13b4612588dd9872b7019b81e44aa97a0fe0570dc15757238fe9db"
+      }
+    ],
+    "outputs": {
+      "X.npz": "c90ee01aca8fddc25bfcc9976044e38d81b0524a5e55dcf62a0a7e4329e1ee4e",
+      "genes.txt": "442f141d411c00ad4db5061f492d7d194b1cb03bf73bfe14b9a7573a02ae8ed4",
+      "source_axis.txt": "347d925fb49d1bd0ca3f2efef6e4944163afdd2b1cec9da5af6844e531befc1f",
+      "selectors.json": "0af0b4bc45ea83c72147b44da7356027e1ee73f31989bc5675616bd9b095b34d",
+      "rows.csv.gz": "c27fcebafa6aeb93be903f285330b11cec28bbaa376bfc1393afd19877c71c3b"
+    }
+  },
+  {
+    "id": "QiuEndo_9.5",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 9.5,
+    "source_id": "QiuEndo",
+    "origin": "external",
+    "family": "VED-007",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "author endothelial subset also includes pericytes",
+    "source_axis_n": 45494,
+    "source_raw_columns": 45525,
+    "stored_panel_union_n": 26983,
+    "eligible_group_n": {
+      "all": 13125,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 12263
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "endothelial": 1600
+    },
+    "source_shape": [
+      220071,
+      45525
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 291.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 7623,
+      "linear_full_axis_rowsum_quantiles": [
+        614.0,
+        1569.0,
+        2627.0,
+        4146.5,
+        11456.0
+      ],
+      "duplicate_symbol_columns": 31
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/X.npz",
+        "bytes": 792259635,
+        "sha256": "d7f37f58f45eb4acdaeb7d7668b79fdd24a0eb7d2317d4249a1f2e41d0ec97c2"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/genes.parquet",
+        "bytes": 1143966,
+        "sha256": "3e2cdd1123f2daa385694f4397e4f9748f76a0afac8f159facf3cc39c69efc5b"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/cells.parquet",
+        "bytes": 7017898,
+        "sha256": "ae3d5f9ce98580ebafde9f904b49dd1eebdeb4bc56d7bc7d46e4ee4b58de9243"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium/report.json",
+        "bytes": 3229,
+        "sha256": "66e7562a2e13b4612588dd9872b7019b81e44aa97a0fe0570dc15757238fe9db"
+      }
+    ],
+    "outputs": {
+      "X.npz": "baa6254894d510a972866178721a91178818f6ee16a2ce9d8107d2e6e65fc962",
+      "genes.txt": "442f141d411c00ad4db5061f492d7d194b1cb03bf73bfe14b9a7573a02ae8ed4",
+      "source_axis.txt": "347d925fb49d1bd0ca3f2efef6e4944163afdd2b1cec9da5af6844e531befc1f",
+      "selectors.json": "38ab5376d72010f15cc1e6935cb926acdeeba18898e075e8ea87896abdf63d30",
+      "rows.csv.gz": "d18168aba04ca6564b19ce00e7420282258fe7a25ef18fcd8dbd8a8a8c371e18"
+    }
+  },
+  {
+    "id": "Feng_9.5",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 9.5,
+    "source_id": "Feng",
+    "origin": "external",
+    "family": "VED-012",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "WT heart; E9.5 CD1 only",
+    "source_axis_n": 30976,
+    "source_raw_columns": 30976,
+    "stored_panel_union_n": 29715,
+    "eligible_group_n": {
+      "all": 887,
+      "cardiomyocyte": 705,
+      "cardiac_broad": 705,
+      "endothelial": 70
+    },
+    "sampled_group_n": {
+      "all": 887,
+      "cardiomyocyte": 705,
+      "cardiac_broad": 705,
+      "endothelial": 70
+    },
+    "source_shape": [
+      35846,
+      30976
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 11059.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4071,
+      "linear_full_axis_rowsum_quantiles": [
+        2005.0,
+        10432.0,
+        15572.0,
+        23167.5,
+        72588.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/X.npz",
+        "bytes": 270182897,
+        "sha256": "dfdd70c4e6610f1aa97460b383ff583c1581064f3d84d5fcc397923171abc46b"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/genes.parquet",
+        "bytes": 528379,
+        "sha256": "7f18c88fb970e2b33d1b3e50e26784dd3743186f2b608c08605f935595dd47a7"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/cells.parquet",
+        "bytes": 979771,
+        "sha256": "1540f9096601ed16938f6b0f4f1b797892b79e10db68e1fb3fbf005a3e9f55a2"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/report.json",
+        "bytes": 2151,
+        "sha256": "a70862b0faec2ba4aa289204cbb21efd7488e6df4d5b98b990ae836b803749b0"
+      }
+    ],
+    "outputs": {
+      "X.npz": "800771c73b95ee2746403d226ab3a904a0c68a8a4883a6fc05203cb120f9faab",
+      "genes.txt": "1fa878584cc00d088a69591ad5ff08d8444b2bcc36639f804c447d9325f87e1f",
+      "source_axis.txt": "277f7b9ce50a13c9ad585cc0a32e8547ba4b8bfa88451d27b1e2a738676eecb2",
+      "selectors.json": "515b31496011562b2cf529fc2addfff3578df0421b75fbc138e7125b210361a3",
+      "rows.csv.gz": "2802cd250f9d3e50f5f0a5837dcb33f50fe5ed424d29043cd7599e0b72cddc7e"
+    }
+  },
+  {
+    "id": "Feng_14.5",
+    "stage": 14.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "filter_col": "age_value",
+    "filter_value": 14.5,
+    "source_id": "Feng",
+    "origin": "external",
+    "family": "VED-012",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "WT heart; E9.5 CD1 only",
+    "source_axis_n": 30976,
+    "source_raw_columns": 30976,
+    "stored_panel_union_n": 29715,
+    "eligible_group_n": {
+      "all": 3184,
+      "cardiomyocyte": 2146,
+      "cardiac_broad": 2146,
+      "endothelial": 331
+    },
+    "sampled_group_n": {
+      "all": 3184,
+      "cardiomyocyte": 1600,
+      "cardiac_broad": 1600,
+      "endothelial": 331
+    },
+    "source_shape": [
+      35846,
+      30976
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 11059.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4071,
+      "linear_full_axis_rowsum_quantiles": [
+        2005.0,
+        10432.0,
+        15572.0,
+        23167.5,
+        72588.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/X.npz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/X.npz",
+        "bytes": 270182897,
+        "sha256": "dfdd70c4e6610f1aa97460b383ff583c1581064f3d84d5fcc397923171abc46b"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/genes.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/genes.parquet",
+        "bytes": 528379,
+        "sha256": "7f18c88fb970e2b33d1b3e50e26784dd3743186f2b608c08605f935595dd47a7"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/cells.parquet",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/cells.parquet",
+        "bytes": 979771,
+        "sha256": "1540f9096601ed16938f6b0f4f1b797892b79e10db68e1fb3fbf005a3e9f55a2"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/report.json",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts/report.json",
+        "bytes": 2151,
+        "sha256": "a70862b0faec2ba4aa289204cbb21efd7488e6df4d5b98b990ae836b803749b0"
+      }
+    ],
+    "outputs": {
+      "X.npz": "f41a5856bca3432dd5b9be014685bb3b0fb8ef2e0ff4047e8f7a954a1884c328",
+      "genes.txt": "1fa878584cc00d088a69591ad5ff08d8444b2bcc36639f804c447d9325f87e1f",
+      "source_axis.txt": "277f7b9ce50a13c9ad585cc0a32e8547ba4b8bfa88451d27b1e2a738676eecb2",
+      "selectors.json": "e5ed9a66e82e04cfedf0f5311f18c32f3d94e0097e395156663d2e890e1f2d7c",
+      "rows.csv.gz": "560a29b8192f69e7b2d1866f83d13305e66c52042d4732b4ab44684080efe7bd"
+    }
+  },
+  {
+    "id": "MOSTA_9.5",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "source_id": "MOSTA",
+    "origin": "external",
+    "family": "VED-009 MOSTA",
+    "assay": "Stereo-seq",
+    "unit": "cell-bin",
+    "spatial": "reconstructed 3D",
+    "semantics": "count_compatible_uncertain",
+    "note": "heart_anno is organ, not cell type; normalization uncertain",
+    "source_axis_n": 12581,
+    "source_raw_columns": 12581,
+    "stored_panel_union_n": 12418,
+    "eligible_group_n": {
+      "all": 19780,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      19780,
+      12581
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 279.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        133.0,
+        302.0,
+        529.0,
+        937.25,
+        3866.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-09__VED-009__MOSTA/raw/official_stomics/STDS0000058/mouse_E9.5_heart.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-09__VED-009__MOSTA/raw/official_stomics/STDS0000058/mouse_E9.5_heart.h5ad",
+        "bytes": 37576375,
+        "sha256": "b7e0620faa160257a6dec5cf422ed78047d581d4cd80b72cbd5636a871b61e4a"
+      }
+    ],
+    "outputs": {
+      "X.npz": "86cbf9ad5fcb55b53717a3f17eb9db5d6ecf0f5a6c929e0f9248a7f1e9722da9",
+      "genes.txt": "75c79d2168e75d4e1174c2a7bf5c770f32eb5f2bc31c2064076e14c35a6b1766",
+      "source_axis.txt": "fa580f46549570fecdd40a9166c0b479268e241976a098348fdaeb79aba84ce0",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "12edc16f166bffd3f0f9d4d88675f5a04442b3505b69152fdf4ab31e94c50a9d"
+    }
+  },
+  {
+    "id": "Stereo1_8.0",
+    "stage": 8.0,
+    "tasks": [
+      "T2_embryo"
+    ],
+    "source_id": "Stereo1",
+    "origin": "external",
+    "family": "VED-020 GSE278603",
+    "assay": "Stereo-seq",
+    "unit": "spatial bin",
+    "spatial": "reconstructed 3D",
+    "semantics": "raw_counts",
+    "note": "author reference-mapped labels, not independent cell-type truth",
+    "source_axis_n": 16636,
+    "source_raw_columns": 16636,
+    "stored_panel_union_n": 16098,
+    "eligible_group_n": {
+      "all": 11048,
+      "cardiomyocyte": 248,
+      "cardiac_broad": 248,
+      "endothelial": 59
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 248,
+      "cardiac_broad": 248,
+      "endothelial": 59
+    },
+    "source_shape": [
+      11048,
+      16636
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 267.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4198,
+      "linear_full_axis_rowsum_quantiles": [
+        944.0,
+        1060.0,
+        1191.0,
+        1368.0,
+        1645.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046247_Embryo_E8.0_stereo_rep1.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046247_Embryo_E8.0_stereo_rep1.h5ad",
+        "bytes": 37405785,
+        "sha256": "bfef8ebd62ea70944704a9b408410593f6698ca0ef0126274fabe32ff3cb2225"
+      }
+    ],
+    "outputs": {
+      "X.npz": "e0aa6346ac6c2c6d38a0c30c17422c4e9c288d3f5680f9db832402559712ef40",
+      "genes.txt": "fbb36d5e7276f7cedc2c30daa1600fac57930a608630d72f13142b9f5b0083ed",
+      "source_axis.txt": "fc70dc7f0958a328f4934f9bbdf25baddc987634a48e2e3e51ba67981cffadcb",
+      "selectors.json": "825f85f2b076ac0a845150ec24f7cf1778fbe81d5c3392d5d2f642d2af37cde7",
+      "rows.csv.gz": "42422fa8dfd59aad95213fa30938419b0712310ace5eb13fab04c7b1ec58e13d"
+    }
+  },
+  {
+    "id": "Stereo2_8.0",
+    "stage": 8.0,
+    "tasks": [
+      "T2_embryo"
+    ],
+    "source_id": "Stereo2",
+    "origin": "external",
+    "family": "VED-020 GSE278603",
+    "assay": "Stereo-seq",
+    "unit": "spatial bin",
+    "spatial": "reconstructed 3D",
+    "semantics": "raw_counts",
+    "note": "author reference-mapped labels, not independent cell-type truth",
+    "source_axis_n": 19046,
+    "source_raw_columns": 19046,
+    "stored_panel_union_n": 18358,
+    "eligible_group_n": {
+      "all": 27266,
+      "cardiomyocyte": 974,
+      "cardiac_broad": 974,
+      "endothelial": 125
+    },
+    "sampled_group_n": {
+      "all": 4000,
+      "cardiomyocyte": 974,
+      "cardiac_broad": 974,
+      "endothelial": 125
+    },
+    "source_shape": [
+      27266,
+      19046
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 300.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4930,
+      "linear_full_axis_rowsum_quantiles": [
+        1094.0,
+        1209.0,
+        1323.5,
+        1528.0,
+        1795.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046248_Embryo_E8.0_stereo_rep2.h5ad",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046248_Embryo_E8.0_stereo_rep2.h5ad",
+        "bytes": 107749798,
+        "sha256": "b913d8221e9e4788c9db1d44a8bf05083e3acb834ef392d31ba574174b182374"
+      }
+    ],
+    "outputs": {
+      "X.npz": "7ab419854c87185f3cb622934f383165ccf6a99a0d8396a222910ae008b18d36",
+      "genes.txt": "cf9e2125be40ebfb8fadbb74eeaca347345b10804e73c75f89aee8ed771c7e96",
+      "source_axis.txt": "c64f1b9fa8a34bb539a904f30034d6caec2a1ed81b6a1f08166347c331eb60da",
+      "selectors.json": "381fad0bf07112c35ad14c483651593dff35de7c30c24fe8af32f9a5c4a68dca",
+      "rows.csv.gz": "8c264dc52f434840f0b30bc35a555fa933b38fe78042c7c3ec283ecc9f649e12"
+    }
+  },
+  {
+    "id": "MERSCOPE_9.5_r0",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "source_id": "MERSCOPE_9.5_r0",
+    "origin": "external",
+    "family": "VED-023 GSE247450",
+    "assay": "MERSCOPE",
+    "unit": "segmented cell",
+    "spatial": "2D",
+    "semantics": "raw_counts",
+    "note": "regions not asserted to be biological replicates",
+    "source_axis_n": 315,
+    "source_raw_columns": 315,
+    "stored_panel_union_n": 296,
+    "eligible_group_n": {
+      "all": 1077,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 1077
+    },
+    "source_shape": [
+      1077,
+      315
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 184.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 1077,
+      "linear_full_axis_rowsum_quantiles": [
+        0.0,
+        12.0,
+        42.0,
+        92.0,
+        683.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890128_E9.5_region_0_cell_by_gene.csv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890128_E9.5_region_0_cell_by_gene.csv.gz",
+        "bytes": 50631,
+        "sha256": "4f808e0a6424fba01884cfca5aa9f7d8e66fb0ec6dd720c8836c096f62e18f06"
+      }
+    ],
+    "outputs": {
+      "X.npz": "af881dd956a8dbfe7b42d90b4645d2033e51d92679d856a5b12672c55d319adb",
+      "genes.txt": "64d7862d5f531d96a3f874cf9592519612d94670ff54443d8bef2ca6fdf1b920",
+      "source_axis.txt": "b8461118ca74988044e1b3278de441f50e7ae272c69f6dc6a73516d50207d2f7",
+      "selectors.json": "568601163c67da6b4806f41cc68e2a4ce9e5009e3f5d5f276a28536be698f703",
+      "rows.csv.gz": "2e2628b7aded817e3f4d56184fabca94d4e93a42081abf625033aee48c9783ab"
+    }
+  },
+  {
+    "id": "MERSCOPE_9.5_r1",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "source_id": "MERSCOPE_9.5_r1",
+    "origin": "external",
+    "family": "VED-023 GSE247450",
+    "assay": "MERSCOPE",
+    "unit": "segmented cell",
+    "spatial": "2D",
+    "semantics": "raw_counts",
+    "note": "regions not asserted to be biological replicates",
+    "source_axis_n": 315,
+    "source_raw_columns": 315,
+    "stored_panel_union_n": 296,
+    "eligible_group_n": {
+      "all": 6835,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      6835,
+      315
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 221.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        0.0,
+        49.0,
+        115.0,
+        211.0,
+        2471.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890129_E9.5_region_1_cell_by_gene.csv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890129_E9.5_region_1_cell_by_gene.csv.gz",
+        "bytes": 487268,
+        "sha256": "beaa1b935fdad6a35b17d3dd0ccef091ba7652431d67ebb8e2e6a83e4de72108"
+      }
+    ],
+    "outputs": {
+      "X.npz": "d5844451822d51f38553c35a0ad7fe86b86863b54cc22d0e1cb3bda6bd407da5",
+      "genes.txt": "64d7862d5f531d96a3f874cf9592519612d94670ff54443d8bef2ca6fdf1b920",
+      "source_axis.txt": "b8461118ca74988044e1b3278de441f50e7ae272c69f6dc6a73516d50207d2f7",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "3dd68ad61be6f3bb3b2711ce48901895e9581be20c83f4f9f54c7a6ca392b425"
+    }
+  },
+  {
+    "id": "MERSCOPE_15.5_r0",
+    "stage": 15.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "source_id": "MERSCOPE_15.5_r0",
+    "origin": "external",
+    "family": "VED-023 GSE247450",
+    "assay": "MERSCOPE",
+    "unit": "segmented cell",
+    "spatial": "2D",
+    "semantics": "raw_counts",
+    "note": "regions not asserted to be biological replicates",
+    "source_axis_n": 315,
+    "source_raw_columns": 315,
+    "stored_panel_union_n": 296,
+    "eligible_group_n": {
+      "all": 219525,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      219525,
+      315
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 195.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        0.0,
+        30.75,
+        72.5,
+        140.0,
+        930.0
+      ],
+      "duplicate_symbol_columns": 0
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890130_E15.5_region_0_cell_by_gene.csv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890130_E15.5_region_0_cell_by_gene.csv.gz",
+        "bytes": 11892575,
+        "sha256": "90320d97da9d7bf5255ce44051946dc413ab10e861e58e4dfd65f2cc3d903224"
+      }
+    ],
+    "outputs": {
+      "X.npz": "318d65df304ad0a648a415749ae8607b96d8682f640f04a54152e80d09906403",
+      "genes.txt": "64d7862d5f531d96a3f874cf9592519612d94670ff54443d8bef2ca6fdf1b920",
+      "source_axis.txt": "b8461118ca74988044e1b3278de441f50e7ae272c69f6dc6a73516d50207d2f7",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "1def1aa620c63e60c77b464c4daf4bc700f901b479e61a5319fe14ff92c3b104"
+    }
+  },
+  {
+    "id": "Endo10x1",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "source_id": "Endo10x1",
+    "origin": "external",
+    "family": "VED-024 GSE216970",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "endothelial-enriched; no per-cell author labels",
+    "source_axis_n": 27933,
+    "source_raw_columns": 27998,
+    "stored_panel_union_n": 25943,
+    "eligible_group_n": {
+      "all": 7296,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      7296,
+      27998
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 3153.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        500.0,
+        6022.25,
+        8080.5,
+        10992.25,
+        43014.0
+      ],
+      "duplicate_symbol_columns": 65
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_matrix.mtx.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_matrix.mtx.gz",
+        "bytes": 72360570,
+        "sha256": "c74fdc64473c9820b75b50c547e249483521fe1213827d9e226a781ee415dc8f"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_features.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_features.tsv.gz",
+        "bytes": 251118,
+        "sha256": "1bc0bb5abd13ba49f210c01505e18fdece4328c74db6ee34a5caff3163ed8648"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_barcodes.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_barcodes.tsv.gz",
+        "bytes": 37853,
+        "sha256": "53b43fcc9ba1bd1e0369ec71a7ce736c8e48cc9d20219ef5b5bdd1df2cc73466"
+      }
+    ],
+    "outputs": {
+      "X.npz": "2abfe09cfca5d23bd58396d2ba8d24b7536eefa28ffee52f3049e8b98172fa13",
+      "genes.txt": "86fcee41e9c984ae9bc2d659bd295ccbeb43005a19de9ec634eaefbd6393a035",
+      "source_axis.txt": "1351a21b0f4f349b5b939fc55a5f59bd67723e095e0a7921f63350d2cd0108b1",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "8c740e45219a576615d24f588dd5f155a0bf0e09b394e336264baa859f471d89"
+    }
+  },
+  {
+    "id": "Endo10x2",
+    "stage": 9.5,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "source_id": "Endo10x2",
+    "origin": "external",
+    "family": "VED-024 GSE216970",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "endothelial-enriched; no per-cell author labels",
+    "source_axis_n": 27933,
+    "source_raw_columns": 27998,
+    "stored_panel_union_n": 25943,
+    "eligible_group_n": {
+      "all": 5169,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      5169,
+      27998
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 6450.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        500.0,
+        12810.0,
+        19146.5,
+        26658.0,
+        93186.0
+      ],
+      "duplicate_symbol_columns": 65
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_matrix.mtx.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_matrix.mtx.gz",
+        "bytes": 73733448,
+        "sha256": "4be5f1656a3a213a907e19f7699b194727fe17160e4ce2d733faf73c053309f9"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_features.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_features.tsv.gz",
+        "bytes": 251118,
+        "sha256": "62f387d22f5d6bc34838ac12b13256ce257eedbc8c6cea16c63cfbe3e2b74fa6"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_barcodes.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_barcodes.tsv.gz",
+        "bytes": 27419,
+        "sha256": "005e4f1b4ef6fa22ac6fb80d903c555e2116393e05c8fcd0659c96a5c7933d96"
+      }
+    ],
+    "outputs": {
+      "X.npz": "26eec4fde660fe2e24d881dcb8dd91a423bb9cb419c3dc6e9cbac4e2f8ba2ec3",
+      "genes.txt": "86fcee41e9c984ae9bc2d659bd295ccbeb43005a19de9ec634eaefbd6393a035",
+      "source_axis.txt": "1351a21b0f4f349b5b939fc55a5f59bd67723e095e0a7921f63350d2cd0108b1",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "d2b526492a6cc11c6cc27b8bfe0016046761d9c52cac3083191f571ba730667b"
+    }
+  },
+  {
+    "id": "GataHet1",
+    "stage": 12.5,
+    "tasks": [
+      "T3"
+    ],
+    "source_id": "GataHet1",
+    "origin": "external",
+    "family": "VED-018 GSE208162",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "Het control; Cdh5-CreERT2 ventricular source; organizer permission",
+    "source_axis_n": 55295,
+    "source_raw_columns": 55405,
+    "stored_panel_union_n": 31899,
+    "eligible_group_n": {
+      "all": 23459,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      23459,
+      55405
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 46680.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        1841.0,
+        2753.25,
+        4146.5,
+        7038.25,
+        127994.0
+      ],
+      "duplicate_symbol_columns": 110
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_matrix.mtx.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_matrix.mtx.gz",
+        "bytes": 178731042,
+        "sha256": "b9dc4adcf6443b88d5cc15a351a98d651bd8af7c2217b5a411658b00e7c0c8f5"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_features.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_features.tsv.gz",
+        "bytes": 536693,
+        "sha256": "73c6a796f1df0b85734b13ac3a78da57127df7bd326a893eee9cb6714c22751a"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_barcodes.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_barcodes.tsv.gz",
+        "bytes": 112361,
+        "sha256": "f5571e04d1b7b58c032edd63877653ba59b0d337f3d5a073874a8f1d06408876"
+      }
+    ],
+    "outputs": {
+      "X.npz": "ed747689a26129234c829afdebfafc48680ddf2cf19ceb12ef6d1f51292ab7dc",
+      "genes.txt": "86e4da90e393009b6344c8667d73a9d8e35d0d04dde11a5fd010116875b23fbf",
+      "source_axis.txt": "e5ad958c372e114356cf44deb0fc08eae140113a42bc7cf1abaee3900137ddcc",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "c58d417fd6440283b951f9f573a5b97b4b1f9f40b12ff85981f3e07bda785b72"
+    }
+  },
+  {
+    "id": "GataHet2",
+    "stage": 12.5,
+    "tasks": [
+      "T3"
+    ],
+    "source_id": "GataHet2",
+    "origin": "external",
+    "family": "VED-018 GSE208162",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "Het control; Cdh5-CreERT2 ventricular source; organizer permission",
+    "source_axis_n": 55295,
+    "source_raw_columns": 55405,
+    "stored_panel_union_n": 31899,
+    "eligible_group_n": {
+      "all": 12313,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      12313,
+      55405
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 39397.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        500.0,
+        2081.5,
+        10209.5,
+        20780.75,
+        164120.0
+      ],
+      "duplicate_symbol_columns": 110
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_matrix.mtx.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_matrix.mtx.gz",
+        "bytes": 131123791,
+        "sha256": "625cf5dc44a1524c5c363d483e7ea7147ee6f938e80a47a0a626261cf6d4aa61"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_features.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_features.tsv.gz",
+        "bytes": 536693,
+        "sha256": "dd7235ed53137f8029201cba79ff3a29b25f392d755a4d638268c8b780039c13"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_barcodes.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_barcodes.tsv.gz",
+        "bytes": 61678,
+        "sha256": "7c7303a104392e33d95a98996be4bc031ec705be983e0540478096a38989f324"
+      }
+    ],
+    "outputs": {
+      "X.npz": "adb44380eea9fbeac770427277a20fdbc3d61bb1f31123346fa9a90df287a765",
+      "genes.txt": "86e4da90e393009b6344c8667d73a9d8e35d0d04dde11a5fd010116875b23fbf",
+      "source_axis.txt": "e5ad958c372e114356cf44deb0fc08eae140113a42bc7cf1abaee3900137ddcc",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "1ecdc6f892fd41cf86dc6dd7785380bcfd764fdf92246bd7f4d2ec0b580eb1f8"
+    }
+  },
+  {
+    "id": "GataKO1",
+    "stage": 12.5,
+    "tasks": [
+      "T3"
+    ],
+    "source_id": "GataKO1",
+    "origin": "external",
+    "family": "VED-018 GSE208162",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "Gata4 KO; Cdh5-CreERT2 ventricular source; organizer permission",
+    "source_axis_n": 55295,
+    "source_raw_columns": 55405,
+    "stored_panel_union_n": 31899,
+    "eligible_group_n": {
+      "all": 16803,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      16803,
+      55405
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 44593.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        521.0,
+        1446.0,
+        5115.5,
+        14009.25,
+        166530.0
+      ],
+      "duplicate_symbol_columns": 110
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_matrix.mtx.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_matrix.mtx.gz",
+        "bytes": 139336575,
+        "sha256": "e188d3ce0ae9f172e32a0ee2971ad4e134105f565b4f776a3d631839e22ec643"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_features.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_features.tsv.gz",
+        "bytes": 536693,
+        "sha256": "0f1f7316815e7dceba42368526d368112731655ac8f4c26b397ab23747ddb03d"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_barcodes.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_barcodes.tsv.gz",
+        "bytes": 82435,
+        "sha256": "6c8e1d1aa4e679e7b18e523639ab08601ea5f24e76cae996cc3511fa2e1dbad1"
+      }
+    ],
+    "outputs": {
+      "X.npz": "ece2b2c69790ba5121b1bac13e550d343e888a8af30397e779606beb84298e3a",
+      "genes.txt": "86e4da90e393009b6344c8667d73a9d8e35d0d04dde11a5fd010116875b23fbf",
+      "source_axis.txt": "e5ad958c372e114356cf44deb0fc08eae140113a42bc7cf1abaee3900137ddcc",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "7d4daa355c4a81ac17851e7dc8de1cbafacb168d02cb27ee1f95d7f75f4d9569"
+    }
+  },
+  {
+    "id": "GataKO2",
+    "stage": 12.5,
+    "tasks": [
+      "T3"
+    ],
+    "source_id": "GataKO2",
+    "origin": "external",
+    "family": "VED-018 GSE208162",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "semantics": "raw_counts",
+    "note": "Gata4 KO; Cdh5-CreERT2 ventricular source; organizer permission",
+    "source_axis_n": 55295,
+    "source_raw_columns": 55405,
+    "stored_panel_union_n": 31899,
+    "eligible_group_n": {
+      "all": 8597,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 4000
+    },
+    "source_shape": [
+      8597,
+      55405
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 45216.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 4000,
+      "linear_full_axis_rowsum_quantiles": [
+        500.0,
+        1578.75,
+        6719.5,
+        23809.0,
+        197475.0
+      ],
+      "duplicate_symbol_columns": 110
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_matrix.mtx.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_matrix.mtx.gz",
+        "bytes": 87243761,
+        "sha256": "d7c060648cef0dc6c4ed44df17f23ea4b9cefe6901b2ad58d4472627556412ad"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_features.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_features.tsv.gz",
+        "bytes": 536693,
+        "sha256": "a3fc8d593dd20a8ce21429f540ab1e6d61b6c584d8aadbee8c7e127fdbcf4854"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_barcodes.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_barcodes.tsv.gz",
+        "bytes": 44121,
+        "sha256": "ae077f935c211f240bd306f396614b6b6cd4c82b0e2479223b3c3a9e37aa3066"
+      }
+    ],
+    "outputs": {
+      "X.npz": "45cc9d68821e0010179a59d9ecd1978486be814152cfd194da8d25a86d42761a",
+      "genes.txt": "86e4da90e393009b6344c8667d73a9d8e35d0d04dde11a5fd010116875b23fbf",
+      "source_axis.txt": "e5ad958c372e114356cf44deb0fc08eae140113a42bc7cf1abaee3900137ddcc",
+      "selectors.json": "96e2aaad82cd1a8ea7537475d12b9d7602e8275780598e45e355501d31788145",
+      "rows.csv.gz": "469bb2232565d053091dd0a395b3d6c7476e4872cfbf90cf3846debe5f4ef001"
+    }
+  },
+  {
+    "id": "Visium16",
+    "stage": 16.0,
+    "tasks": [
+      "T1",
+      "T2_heart"
+    ],
+    "source_id": "Visium16",
+    "origin": "external",
+    "family": "VED-029 GSE282547",
+    "assay": "Visium",
+    "unit": "spot",
+    "spatial": "2D",
+    "semantics": "raw_counts",
+    "note": "E16 whole-heart spots; no cell type labels",
+    "source_axis_n": 32245,
+    "source_raw_columns": 32285,
+    "stored_panel_union_n": 32245,
+    "eligible_group_n": {
+      "all": 741,
+      "cardiomyocyte": 0,
+      "cardiac_broad": 0,
+      "endothelial": 0
+    },
+    "sampled_group_n": {
+      "all": 741
+    },
+    "source_shape": [
+      741,
+      32285
+    ],
+    "probe": {
+      "stored_min": 1.0,
+      "stored_max": 14972.0,
+      "stored_integer_fraction": 1.0,
+      "sampled_original_rows": 741,
+      "linear_full_axis_rowsum_quantiles": [
+        516.0,
+        20119.0,
+        25064.0,
+        29861.0,
+        74137.0
+      ],
+      "duplicate_symbol_columns": 40
+    },
+    "input_files": [
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_matrix.mtx.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_matrix.mtx.gz",
+        "bytes": 13036162,
+        "sha256": "f5e8a63ae8317b109ff6884871abe4f6aacf24aef86093c818d954ff0df7a845"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_features.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_features.tsv.gz",
+        "bytes": 290896,
+        "sha256": "86518db559bd1400e3f102abfe3df47e64317571bbdb1aa2c263a46ca5d22a27"
+      },
+      {
+        "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_barcodes.tsv.gz",
+        "resolved_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_barcodes.tsv.gz",
+        "bytes": 4490,
+        "sha256": "f05a1b43205f8ad917e65bccfb90e4179588e4a510f3657656bf3e39bc161b6c"
+      }
+    ],
+    "outputs": {
+      "X.npz": "5713def3c297d521e1de0a88b09594aae1b3c8e5a7fb1301009dec475bb37e08",
+      "genes.txt": "41ea1b919b80012d3f7e38bdbe7fcef8cc20f5e4ba92546dece5d33c9da13071",
+      "source_axis.txt": "41ea1b919b80012d3f7e38bdbe7fcef8cc20f5e4ba92546dece5d33c9da13071",
+      "selectors.json": "8e7d9676eab234899a8f74e61c6c2f119a8170877cda6616498d4aa69bbb1035",
+      "rows.csv.gz": "3072fba949af3688e3f4187449d9edb39409fc4a735e25b81643b3863a05f771"
+    }
+  }
+]

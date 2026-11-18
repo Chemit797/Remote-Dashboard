@@ -1,7 +1,7 @@
 """Publish existing reader pages byte-for-byte; add navigation, never rewrite them."""
 from pathlib import Path
 from urllib.parse import urlsplit,unquote
-import argparse,hashlib,html,json,re,shutil
+import argparse,hashlib,html,json,re,shutil,posixpath
 import markdown
 from bs4 import BeautifulSoup
 
@@ -12,6 +12,10 @@ def build(project):
     roots={'research':project/'research','notes':project/'notes','docs':project/'docs',
            'peer':peer,'handbook':project/'reports/analysis_integration_20261118/handbook/team/handbook_20261111',
            'older':project/'reports/analysis_integration_20261118/older_comparison/team/official_external_comparison_20261115'}
+    # Dated additions are separate sources. The original snapshots stay frozen.
+    overlay=project/'research/validation_completion_20261119/overlays'
+    frozen_dependencies=overlay.parent/'frozen_dependencies'
+    baseline_files=json.loads((overlay.parent/'REMOTE_WEBSITE_BEFORE.json').read_text(encoding='utf-8'))['files']
     seeds={
       'A01':('handbook/HUMAN_GUIDE.md','工程与历史'),
       'A02':('peer/official_data_analysis_20261114/report.html','官方数据分析'),
@@ -29,8 +33,18 @@ def build(project):
       'A14':('notes/scoring_review_20261118/03_分任务评分过程与独立例子.md','评分规则与例子'),
       'A15':('older/REPORT_ZH.md','官方与外部数据比较')}
     out=site/'readers';out.mkdir(exist_ok=True);copied={};missing=[];parsed=set()
-    def resolve(key):
+    def original(key):
         p=Path(key);return roots[p.parts[0]].joinpath(*p.parts[1:])
+    def resolve(key):
+        candidate=overlay/key
+        if candidate.is_file():return candidate
+        candidate=frozen_dependencies/key
+        if candidate.is_file():return candidate
+        candidate=original(key)
+        previous=baseline_files.get('readers/'+key)
+        if previous and candidate.is_file():
+            assert hashlib.sha256(candidate.read_bytes()).hexdigest()==previous['sha256'], 'Concurrent source dependency changed; freeze the reviewed baseline first: '+key
+        return candidate
     def key_for(path):
         path=path.resolve()
         for name,root in roots.items():
@@ -44,6 +58,10 @@ def build(project):
         copied[key]={'path':'readers/'+key,'source':str(src),'bytes':src.stat().st_size,'sha256':hashlib.sha256(src.read_bytes()).hexdigest()}
     for path in peer.rglob('*'):
         if path.is_file():copy('peer/'+path.relative_to(peer).as_posix())
+    # Data-driven readers construct download links at runtime. Include the
+    # explicitly selected dated evidence, including those non-static targets.
+    for path in overlay.rglob('*'):
+        if path.is_file():copy(path.relative_to(overlay).as_posix())
     queue=[urlsplit(p).path for p,_ in seeds.values()]
     while queue:
         key=queue.pop()
@@ -60,8 +78,10 @@ def build(project):
         for link in links:
             u=urlsplit(link)
             if u.scheme or u.netloc or not u.path:continue
-            target=(src.parent/unquote(u.path)).resolve();nextkey=key_for(target)
-            if nextkey and target.is_file():queue.append(nextkey)
+            target=(original(key).parent/unquote(u.path)).resolve()
+            logical=posixpath.normpath(posixpath.join(posixpath.dirname(key),unquote(u.path)))
+            nextkey=logical if logical.split('/')[0] in roots else key_for(target)
+            if nextkey and resolve(nextkey).is_file():queue.append(nextkey)
             elif src.suffix=='.html':missing.append(key+' -> '+link)
     catalog=[]
     for aid,(path,group) in seeds.items():
@@ -85,7 +105,7 @@ def build(project):
             ancestor=h if h.get('id') else h.find_parent(id=True)
             sections.append({'title':label,'anchor':ancestor.get('id','') if ancestor else '', 'heading_index':soup.select('h2').index(h)})
         catalog.append({'analysis_id':aid,'group':group,'title':title,'url':'readers/'+key+('#'+u.fragment if u.fragment else ''),'source_path':path,'sections':sections})
-    manifest={'policy':'Existing HTML and dependencies copied byte-for-byte. Markdown receives a reading wrapper only. Original source text, figures and interactions retained.','files':list(copied.values()),'missing_html_links':sorted(set(missing))}
+    manifest={'policy':'Selected source bytes copied exactly; dated additive overlays take precedence without changing original snapshots. Markdown receives a reading wrapper only. Original sections, figures and interactions retained.','files':list(copied.values()),'missing_html_links':sorted(set(missing))}
     (site/'data/original-readers-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     (site/'data/original-readers.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps({'reader_entries':len(catalog),'original_files':len(copied),'original_bytes':sum(x['bytes'] for x in copied.values()),'missing_html_links':manifest['missing_html_links']},ensure_ascii=False))

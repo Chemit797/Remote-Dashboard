@@ -6,6 +6,13 @@
 
 ## 1. 比较覆盖与基本口径
 
+
+**验证集补全 · 2026-11-19**
+
+<div style="overflow-x:auto;contain:inline-size;max-width:100%" tabindex="0" role="region" aria-label="结果表格，可横向滚动"><table style="min-width:750px;width:100%"><thead><tr><th style="white-space:nowrap;min-width:70px">配对</th><th>官方验证</th><th>外部背景</th><th>共同基因</th><th>整体去双方全零ρ</th><th>检出率平均差pp</th></tr></thead><tbody><tr><td style="white-space:nowrap;min-width:70px">V001</td><td>胚胎 E7.5</td><td>VED-001 · Pijuan-Sala 早期全胚胎图谱 E7.25</td><td>498</td><td>0.527</td><td>8.04</td></tr><tr><td style="white-space:nowrap;min-width:70px">V002</td><td>胚胎 E7.5</td><td>VED-020 · Stereo-seq 胚胎三维重建图谱 E8.0</td><td>450</td><td>0.471</td><td>6.69</td></tr><tr><td style="white-space:nowrap;min-width:70px">V003</td><td>胚胎 E7.5</td><td>VED-020 · Stereo-seq 胚胎三维重建图谱 E8.0</td><td>480</td><td>0.495</td><td>6.32</td></tr><tr><td style="white-space:nowrap;min-width:70px">V004</td><td>胚胎 E7.5</td><td>VED-002 · Mesp1 早期心脏谱系图谱 E7.25</td><td>495</td><td>0.519</td><td>13.91</td></tr><tr><td style="white-space:nowrap;min-width:70px">V005</td><td>心脏 E8.5</td><td>VED-007 · Qiu 产前细胞核图谱 E8.75</td><td>497</td><td>0.434</td><td>12.53</td></tr><tr><td style="white-space:nowrap;min-width:70px">V006</td><td>心脏 E8.5</td><td>VED-006 · de Soysa 早期心脏图谱 E8.25</td><td>467</td><td>0.641</td><td>10.40</td></tr><tr><td style="white-space:nowrap;min-width:70px">V007</td><td>心脏 E8.5</td><td>VED-002 · Mesp1 早期心脏谱系图谱 E8.25</td><td>495</td><td>0.638</td><td>12.70</td></tr><tr><td style="white-space:nowrap;min-width:70px">V008</td><td>T1 E10.5</td><td>VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱 E9.5</td><td>20998</td><td>0.880</td><td>10.31</td></tr><tr><td style="white-space:nowrap;min-width:70px">V009</td><td>T1 E10.5</td><td>VED-007 · Qiu 产前细胞核图谱 E9.5</td><td>27859</td><td>0.913</td><td>5.29</td></tr><tr><td style="white-space:nowrap;min-width:70px">V010</td><td>T1 E10.5</td><td>VED-012 · Feng 分心腔单细胞图谱 E9.5</td><td>29715</td><td>0.907</td><td>8.02</td></tr><tr><td style="white-space:nowrap;min-width:70px">V011</td><td>T1 E10.5</td><td>VED-009 · MOSTA 心脏空间图谱 E9.5</td><td>12418</td><td>0.813</td><td>19.83</td></tr><tr><td style="white-space:nowrap;min-width:70px">V012</td><td>T1 E10.5</td><td>VED-019 · Osr1 阳性第二心场单细胞数据 E9.5</td><td>16991</td><td>0.847</td><td>16.25</td></tr><tr><td style="white-space:nowrap;min-width:70px">V013</td><td>心脏 E10.5</td><td>VED-007 · Qiu 产前细胞核图谱 E9.5</td><td>497</td><td>0.433</td><td>10.63</td></tr><tr><td style="white-space:nowrap;min-width:70px">V014</td><td>心脏 E10.5</td><td>VED-012 · Feng 分心腔单细胞图谱 E9.5</td><td>498</td><td>0.422</td><td>14.75</td></tr><tr><td style="white-space:nowrap;min-width:70px">V015</td><td>心脏 E10.5</td><td>VED-009 · MOSTA 心脏空间图谱 E9.5</td><td>380</td><td>0.417</td><td>7.40</td></tr><tr><td style="white-space:nowrap;min-width:70px">V016</td><td>心脏 E10.5</td><td>VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱 E9.5</td><td>493</td><td>0.342</td><td>7.41</td></tr></tbody></table></div>
+
+新增16对均为不同实测阶段的背景描述；每个来源选择最近允许阶段。T3缺少相同基因型条件，不作强行配对。[选择与未选择原因](../validation_completion_20261119/public/pair_eligibility.json)。
+
 | 来源对 | 阶段 | 共同基因 | 达标阶段×类群组数 | Spearman范围 |
 | --- | --- | --- | --- | --- |
 | 早期官方 ↔ VED-001 · Pijuan-Sala 早期全胚胎图谱（计数主分析） | E6.75、E7.25 | 496 | 7 | 0.309–0.487 |
@@ -24,6 +31,13 @@ T2官方测量空间分割细胞；VED-020 · Stereo-seq 胚胎三维重建图�
 
 ## 2. 表达的稀疏程度确实不同
 
+
+**验证集补全 · 2026-11-19**
+
+<div style="overflow-x:auto;contain:inline-size;max-width:100%" tabindex="0" role="region" aria-label="结果表格，可横向滚动"><table style="min-width:625px;width:100%"><thead><tr><th style="white-space:nowrap;min-width:70px">官方验证</th><th>观测数</th><th>源基因数</th><th>每观测检出中位数</th><th>源轴零值比例</th></tr></thead><tbody><tr><td style="white-space:nowrap;min-width:70px">T1 E10.5</td><td>24979</td><td>32285</td><td>2869</td><td>90.87%</td></tr><tr><td style="white-space:nowrap;min-width:70px">胚胎 E7.5</td><td>11665</td><td>500</td><td>29</td><td>93.13%</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E8.5</td><td>23710</td><td>500</td><td>61</td><td>87.70%</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E10.5</td><td>167864</td><td>500</td><td>30</td><td>93.53%</td></tr><tr><td style="white-space:nowrap;min-width:70px">Gata4 KO 重复1</td><td>42257</td><td>500</td><td>38</td><td>92.21%</td></tr><tr><td style="white-space:nowrap;min-width:70px">Gata4 KO 重复2</td><td>46396</td><td>500</td><td>34</td><td>92.82%</td></tr></tbody></table></div>
+
+源基因轴长度不同；跨来源的公平比较仍使用每对共同的实测基因。
+
 | 数据 | 原样本编号 | 观测数 | 源特征数 | 每观测检出基因中位数 | 零值比例 |
 | --- | --- | --- | --- | --- | --- |
 | OFF_T2_heart_E9.5 | `OFF_T2_heart_E9.5` | 53742 | 500 | 35 | 92.2% |
@@ -40,6 +54,13 @@ T2官方测量空间分割细胞；VED-020 · Stereo-seq 胚胎三维重建图�
 这是各自原有特征集合上的统计，不能直接把35/500与3,878/32,285解释为细胞复杂度的生物差别。VED-007 · Qiu 产前细胞核图谱只保留指定心脏/心内膜核，VED-012 · Feng 分心腔单细胞图谱按四个心腔取材；其样本分母不代表全胚胎组成。
 
 ## 3. 共同特征和具体差异
+
+
+**验证集补全 · 2026-11-19**
+
+<div style="overflow-x:auto;contain:inline-size;max-width:100%" tabindex="0" role="region" aria-label="结果表格，可横向滚动"><table style="min-width:750px;width:100%"><thead><tr><th style="white-space:nowrap;min-width:70px">配对</th><th>类型</th><th>表达排序ρ</th><th>检出率平均差pp</th><th>前100共有</th><th>状态</th></tr></thead><tbody><tr><td style="white-space:nowrap;min-width:70px">V001</td><td>原条</td><td>0.466</td><td>9.83</td><td>50</td><td>calculated</td></tr><tr><td style="white-space:nowrap;min-width:70px">V003</td><td>胚外内胚层</td><td>0.391</td><td>5.07</td><td>47</td><td>calculated</td></tr><tr><td style="white-space:nowrap;min-width:70px">V010</td><td>心室心肌</td><td>0.919</td><td>5.55</td><td>83</td><td>calculated</td></tr><tr><td style="white-space:nowrap;min-width:70px">V010</td><td>心内膜</td><td>0.891</td><td>6.18</td><td>82</td><td>calculated</td></tr><tr><td style="white-space:nowrap;min-width:70px">V014</td><td>心室心肌</td><td>0.544</td><td>15.61</td><td>56</td><td>calculated</td></tr></tbody></table></div>
+
+所有类型、缺失类型、小组及逐基因值都保留。[逐对原交互页](../vem_pairwise_similarity_v3/comparison.html#comparison-start)可选择E7.5、E8.5或E10.5；[新增完整表](../validation_completion_20261119/public/all_comparisons.csv)。
 
 下表的均值在每个来源对自身的共同基因集合上计算。不同来源对之间的均值不可横向当作绝对RNA量比较。
 
@@ -78,6 +99,11 @@ Pln是发布数据检出差异的直接例子：共同498基因下，官方空�
 
 ## 4. 类型特异性和阶段变化
 
+
+**验证集补全 · 2026-11-19**
+
+这些验证配对没有相同实测日龄的外部对照，不能新增原定义下的同阶段特异性验证，或把背景差当作同一时间窗的发育变化。原阶段趋势和判定保留；新配对的类型间对照仅作背景描述。
+
 把每个基因在各类细胞间的平均水平去掉，再比较它更偏向哪类细胞，T1与VED-012 · Feng 分心腔单细胞图谱 E9.5的相关为0.560；两侧最高表达类型相同的基因为58.29%（16,487个在两侧均有唯一最高类型的基因）。这说明整体轮廓的0.859–0.918相关不能替代细胞类型特异性的检查。并列最高和两侧无变化的基因未计入最高类型一致率。
 
 早期E6.75→E7.25，胚外外胚层、胚外内胚层和原条的表达变化相关分别仅0.054、0.085、0.066。原条观测比例确实同向上升：官方2.88%→5.15%，外部等权混样15.71%→17.17%；类型内部的逐基因变化却不因此一致。来源范围不同，绝对比例只能作为取材后观测的差别。
@@ -85,6 +111,11 @@ Pln是发布数据检出差异的直接例子：共同498基因下，官方空�
 新的心脏来源对只有一个可用共同阶段，或第二阶段缺合格对应类群，无法评价阶段变化。所有未映射和小组见[mapping_coverage.csv](mapping_coverage.csv)及逐来源组成表。
 
 ## 5. 简单换算能解释多少
+
+
+**验证集补全 · 2026-11-19**
+
+官方验证答案已取得，但没有增加规则允许的外部E7.5、E8.5心脏或E10.5端点，因而不补造匹配时段或新的整阶段迁移结果。原留出失败与训练条件不足的结果仍有效。
 
 固定比较原值、单个全局仿射关系、逐基因一元Ridge（alpha=1）。每次留出整个阶段或整个类群，至少留下两个训练阶段及三个训练类型；标准化只使用训练组。打乱对照在训练阶段内打乱类型对应。
 
@@ -113,6 +144,11 @@ Pln是发布数据检出差异的直接例子：共同498基因下，官方空�
 含E8.0发布权重的敏感性分析可做两种留出，但整阶段留出时仿射的打乱对照平均改善更高；Ridge仍失败。按冻结的“双重留出稳定改善且优于打乱对照”要求，没有模型通过。新心脏来源对的阶段/类型数量不足，未用同一批数据内拟合得好代替泛化检验，也没有继续扫模型或参数。
 
 ## 6. 复现与边界
+
+
+**验证集补全 · 2026-11-19**
+
+新增337项复核通过；原P配对和旧口径保留，新V配对另编号。[逐专题覆盖](../validation_completion_20261119/public/TOPIC_COVERAGE.csv) · [逐原章节覆盖](../validation_completion_20261119/public/SECTION_COVERAGE.csv) · [输入身份](../validation_completion_20261119/public/validation_files.json)。
 
 输入路径/哈希、源表示、样本、规则边界在[输入清单](../vem_prior_knowledge_v2/results/input_manifest.json)及[来源登记](../vem_prior_knowledge_v2/provenance/01_外部数据任务对应.md)。冻结比较在[方案](../vem_prior_knowledge_v2/test_plan.json)；[计算源码](../vem_prior_knowledge_v2/src/analyze_v2.py)与[独立复核源码](../vem_prior_knowledge_v2/src/verify_remote.py)均可复现。
 

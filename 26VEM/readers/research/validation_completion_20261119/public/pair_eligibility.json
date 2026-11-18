@@ -1,0 +1,361 @@
+[
+  {
+    "official": "OFF_T2_embryo_E7.5",
+    "external": "EMTAB_FULL",
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "allowed_stages": [
+      "E8.5",
+      "E8.0",
+      "E8.25",
+      "E7.0",
+      "E7.25",
+      "E6.5",
+      "E6.75"
+    ],
+    "nearest_gap": 0.25,
+    "max_gap": 0.5,
+    "status": "selected_background",
+    "pairs": [
+      "V001"
+    ]
+  },
+  {
+    "official": "OFF_T2_embryo_E7.5",
+    "external": "STEREO_E8_rep1",
+    "external_name": "VED-020 · Stereo-seq 胚胎三维重建图谱",
+    "allowed_stages": [
+      "E8.0"
+    ],
+    "nearest_gap": 0.5,
+    "max_gap": 0.5,
+    "status": "selected_background",
+    "pairs": [
+      "V002"
+    ]
+  },
+  {
+    "official": "OFF_T2_embryo_E7.5",
+    "external": "STEREO_E8_rep2",
+    "external_name": "VED-020 · Stereo-seq 胚胎三维重建图谱",
+    "allowed_stages": [
+      "E8.0"
+    ],
+    "nearest_gap": 0.5,
+    "max_gap": 0.5,
+    "status": "selected_background",
+    "pairs": [
+      "V003"
+    ]
+  },
+  {
+    "official": "OFF_T2_embryo_E7.5",
+    "external": "MESP1_ALLOWED",
+    "external_name": "VED-002 · Mesp1 早期心脏谱系图谱",
+    "allowed_stages": [
+      "E8.25",
+      "E7.25"
+    ],
+    "nearest_gap": 0.25,
+    "max_gap": 0.5,
+    "status": "selected_background",
+    "pairs": [
+      "V004"
+    ]
+  },
+  {
+    "official": "OFF_T2_heart_E8.5",
+    "external": "QIU228590",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "allowed_stages": [
+      "E9.25",
+      "E9.5",
+      "E9",
+      "E8.75"
+    ],
+    "nearest_gap": 0.25,
+    "max_gap": 0.25,
+    "status": "selected_background",
+    "pairs": [
+      "V005"
+    ]
+  },
+  {
+    "official": "OFF_T2_heart_E8.5",
+    "external": "FENG193346_CD1",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 0.25,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T2_heart_E8.5",
+    "external": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "allowed_stages": [
+      "E9.25",
+      "E8.25"
+    ],
+    "nearest_gap": 0.25,
+    "max_gap": 0.25,
+    "status": "selected_background",
+    "pairs": [
+      "V006"
+    ]
+  },
+  {
+    "official": "OFF_T2_heart_E8.5",
+    "external": "MOSTA_E9.5",
+    "external_name": "VED-009 · MOSTA 心脏空间图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 0.25,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T2_heart_E8.5",
+    "external": "MESP1_ALLOWED",
+    "external_name": "VED-002 · Mesp1 早期心脏谱系图谱",
+    "allowed_stages": [
+      "E8.25",
+      "E7.25"
+    ],
+    "nearest_gap": 0.25,
+    "max_gap": 0.25,
+    "status": "selected_background",
+    "pairs": [
+      "V007"
+    ]
+  },
+  {
+    "official": "OFF_T2_heart_E8.5",
+    "external": "TOME3_E95",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 0.25,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "EMTAB_FULL",
+    "external_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+    "allowed_stages": [
+      "E8.5",
+      "E8.0",
+      "E8.25",
+      "E7.0",
+      "E7.25",
+      "E6.5",
+      "E6.75"
+    ],
+    "nearest_gap": 2.0,
+    "max_gap": 1.0,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "TOME4_E85",
+    "external_name": "VED-004 · TOME E8.5 全胚胎图谱",
+    "allowed_stages": [
+      "E8.5"
+    ],
+    "nearest_gap": 2.0,
+    "max_gap": 1.0,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "TOME3_E95",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V008"
+    ]
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "QIU228590",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "allowed_stages": [
+      "E9.25",
+      "E9.5",
+      "E9",
+      "E8.75"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V009"
+    ]
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "FENG193346_CD1",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V010"
+    ]
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "allowed_stages": [
+      "E9.25",
+      "E8.25"
+    ],
+    "nearest_gap": 1.25,
+    "max_gap": 1.0,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "MOSTA_E9.5",
+    "external_name": "VED-009 · MOSTA 心脏空间图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V011"
+    ]
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "HEART230531_E85",
+    "external_name": "VED-010 · 胚胎与心脏单细胞图谱",
+    "allowed_stages": [
+      "E8.5"
+    ],
+    "nearest_gap": 2.0,
+    "max_gap": 1.0,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA",
+    "external": "OSR1_E95",
+    "external_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V012"
+    ]
+  },
+  {
+    "official": "OFF_T2_heart_E10.5",
+    "external": "QIU228590",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "allowed_stages": [
+      "E9.25",
+      "E9.5",
+      "E9",
+      "E8.75"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V013"
+    ]
+  },
+  {
+    "official": "OFF_T2_heart_E10.5",
+    "external": "FENG193346_CD1",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V014"
+    ]
+  },
+  {
+    "official": "OFF_T2_heart_E10.5",
+    "external": "DESOYSA_WT",
+    "external_name": "VED-006 · de Soysa 早期心脏图谱",
+    "allowed_stages": [
+      "E9.25",
+      "E8.25"
+    ],
+    "nearest_gap": 1.25,
+    "max_gap": 1.0,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T2_heart_E10.5",
+    "external": "MOSTA_E9.5",
+    "external_name": "VED-009 · MOSTA 心脏空间图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V015"
+    ]
+  },
+  {
+    "official": "OFF_T2_heart_E10.5",
+    "external": "MESP1_ALLOWED",
+    "external_name": "VED-002 · Mesp1 早期心脏谱系图谱",
+    "allowed_stages": [
+      "E8.25",
+      "E7.25"
+    ],
+    "nearest_gap": 2.25,
+    "max_gap": 1.0,
+    "status": "stage_too_far",
+    "pairs": []
+  },
+  {
+    "official": "OFF_T2_heart_E10.5",
+    "external": "TOME3_E95",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "allowed_stages": [
+      "E9.5"
+    ],
+    "nearest_gap": 1.0,
+    "max_gap": 1.0,
+    "status": "selected_background",
+    "pairs": [
+      "V016"
+    ]
+  }
+]

@@ -1,0 +1,985 @@
+[
+  {
+    "id": "O_E6.75",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E6.75.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E6.75",
+        "stage": 6.75,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E7.25",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E7.25.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E7.25",
+        "stage": 7.25,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E8.0",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E8.0.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "E8.0: sections from yolk-sac/embryo boundary through cardiac crescent, per current official protocol",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E8.0",
+        "stage": 8.0,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E8.25_late",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E8.25_late.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "E8.25_late nominal E8.25, about E8.3; heart-tube sections with surrounding tissue",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E8.25_late",
+        "stage": 8.25,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E8.5_RNA",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E8.5_RNA.h5ad",
+    "slot": "X",
+    "semantics": "log1p_normalized",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "10x Multiome RNA",
+    "unit": "nucleus",
+    "spatial": "none",
+    "note": "Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E8.5_RNA",
+        "stage": 8.5,
+        "tasks": [
+          "T1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E8.75",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E8.75.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E8.75",
+        "stage": 8.75,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E9.5",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E9.5.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E9.5",
+        "stage": 9.5,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E9.5_RNA",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E9.5_RNA.h5ad",
+    "slot": "X",
+    "semantics": "log1p_normalized",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "10x Multiome RNA",
+    "unit": "nucleus",
+    "spatial": "none",
+    "note": "Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E9.5_RNA",
+        "stage": 9.5,
+        "tasks": [
+          "T1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E9.5_mab21l2_ko",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/data/E9.5_mab21l2_ko.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_train",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E9.5_mab21l2_ko",
+        "stage": 9.5,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E10.5_RNA",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T1/E10.5_RNA.h5ad",
+    "slot": "X",
+    "semantics": "log1p_normalized",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "10x Multiome RNA",
+    "unit": "nucleus",
+    "spatial": "none",
+    "note": "Pooled nuclei, RNA assay only; stage-dependent heart-centred dissection",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E10.5_RNA",
+        "stage": 10.5,
+        "tasks": [
+          "T1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E10.5",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E10.5.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E10.5",
+        "stage": 10.5,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E7.5",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E7.5.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E7.5",
+        "stage": 7.5,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E8.5",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E8.5.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E8.5",
+        "stage": 8.5,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E8.75_gata4_ko_1",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T3/E8.75_gata4_ko_1.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E8.75_gata4_ko_1",
+        "stage": 8.75,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "O_E8.75_gata4_ko_2",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T3/E8.75_gata4_ko_2.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "official_release",
+    "family": "official",
+    "assay": "3D MERFISH",
+    "unit": "cell",
+    "spatial": "per-embryo 3D local frame",
+    "note": "Heart dissection/sampling varies by stage; local coordinates have no confirmed universal physical unit",
+    "label_col": "celltype",
+    "cohorts": [
+      {
+        "id": "O_E8.75_gata4_ko_2",
+        "stage": 8.75,
+        "tasks": [
+          "T2_embryo",
+          "T2_heart",
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Pijuan",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo/external/E-MTAB-6967/filtered_early.h5ad",
+    "slot": "X",
+    "semantics": "log1p_normalized",
+    "origin": "external",
+    "family": "VED-001 E-MTAB-6967",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": "celltype",
+    "sample_col": "sample",
+    "cohorts": [
+      {
+        "id": "Pijuan_7.25",
+        "stage": 7.25,
+        "tasks": [
+          "T1",
+          "T2_embryo",
+          "T2_heart"
+        ],
+        "filter_col": "stage",
+        "filter_value": "E7.25"
+      },
+      {
+        "id": "Pijuan_8.0",
+        "stage": 8.0,
+        "tasks": [
+          "T1",
+          "T2_embryo",
+          "T2_heart"
+        ],
+        "filter_col": "stage",
+        "filter_value": "E8.0"
+      },
+      {
+        "id": "Pijuan_8.25",
+        "stage": 8.25,
+        "tasks": [
+          "T1",
+          "T2_embryo",
+          "T2_heart"
+        ],
+        "filter_col": "stage",
+        "filter_value": "E8.25"
+      },
+      {
+        "id": "Pijuan_8.5",
+        "stage": 8.5,
+        "tasks": [
+          "T1"
+        ],
+        "filter_col": "stage",
+        "filter_value": "E8.5"
+      }
+    ]
+  },
+  {
+    "id": "Mesp1",
+    "kind": "canonical",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-002/raw_counts",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-002",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": "source_celltype",
+    "sample_col": "sample_id",
+    "note": "Mesp1 lineage-enriched",
+    "cohorts": [
+      {
+        "id": "Mesp1_7.25",
+        "stage": 7.25,
+        "tasks": [
+          "T1",
+          "T2_embryo",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 7.25
+      },
+      {
+        "id": "Mesp1_8.25",
+        "stage": 8.25,
+        "tasks": [
+          "T1",
+          "T2_embryo",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 8.25
+      }
+    ]
+  },
+  {
+    "id": "MOCA",
+    "kind": "canonical",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-003/e95_moca_matrix_tome_qc",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-003",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "label_col": "source_celltype",
+    "sample_col": "sample_id",
+    "note": "MOCA matrix with TOME QC; whole embryo",
+    "cohorts": [
+      {
+        "id": "MOCA_9.5",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 9.5
+      }
+    ]
+  },
+  {
+    "id": "TOME",
+    "kind": "canonical",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-004/raw_counts",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-004",
+    "assay": "sci-RNA-seq3",
+    "unit": "nucleus",
+    "spatial": "none",
+    "label_col": "source_celltype",
+    "sample_col": "sample_id",
+    "note": "whole embryo; T1-only",
+    "cohorts": [
+      {
+        "id": "TOME_8.5",
+        "stage": 8.5,
+        "tasks": [
+          "T1"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 8.5
+      }
+    ]
+  },
+  {
+    "id": "deSoysa",
+    "kind": "canonical",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-006/wt_alltimepoints",
+    "semantics": "log1p_normalized",
+    "origin": "external",
+    "family": "VED-006",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": "source_celltype",
+    "sample_col": "sample_id",
+    "note": "WT cardiac region; no distributed labels",
+    "cohorts": [
+      {
+        "id": "deSoysa_8.25",
+        "stage": 8.25,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 8.25
+      },
+      {
+        "id": "deSoysa_9.25",
+        "stage": 9.25,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 9.25
+      }
+    ]
+  },
+  {
+    "id": "QiuCardiac",
+    "kind": "canonical",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/cardiomyocytes",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-007",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "label_col": "source_celltype",
+    "sample_col": "sample_id",
+    "note": "author cardiac subset; early labels are heart fields",
+    "cohorts": [
+      {
+        "id": "QiuCardiac_8.75",
+        "stage": 8.75,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 8.75
+      },
+      {
+        "id": "QiuCardiac_9.5",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 9.5
+      },
+      {
+        "id": "QiuCardiac_13.75",
+        "stage": 13.75,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 13.75
+      }
+    ]
+  },
+  {
+    "id": "QiuEndo",
+    "kind": "canonical",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-007/endothelium",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-007",
+    "assay": "sci-RNA-seq",
+    "unit": "nucleus",
+    "spatial": "none",
+    "label_col": "source_celltype",
+    "sample_col": "sample_id",
+    "note": "author endothelial subset also includes pericytes",
+    "cohorts": [
+      {
+        "id": "QiuEndo_8.75",
+        "stage": 8.75,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 8.75
+      },
+      {
+        "id": "QiuEndo_9.5",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 9.5
+      }
+    ]
+  },
+  {
+    "id": "Feng",
+    "kind": "canonical",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/T1-v1-20261008/cache/canonical/VED-012/wt_counts",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-012",
+    "assay": "scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": "source_celltype",
+    "sample_col": "sample_id",
+    "note": "WT heart; E9.5 CD1 only",
+    "cohorts": [
+      {
+        "id": "Feng_9.5",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 9.5
+      },
+      {
+        "id": "Feng_14.5",
+        "stage": 14.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ],
+        "filter_col": "age_value",
+        "filter_value": 14.5
+      }
+    ]
+  },
+  {
+    "id": "MOSTA",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-09__VED-009__MOSTA/raw/official_stomics/STDS0000058/mouse_E9.5_heart.h5ad",
+    "slot": "X",
+    "semantics": "count_compatible_uncertain",
+    "origin": "external",
+    "family": "VED-009 MOSTA",
+    "assay": "Stereo-seq",
+    "unit": "cell-bin",
+    "spatial": "reconstructed 3D",
+    "label_col": null,
+    "sample_col": "slices",
+    "note": "heart_anno is organ, not cell type; normalization uncertain",
+    "cohorts": [
+      {
+        "id": "MOSTA_9.5",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Stereo1",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046247_Embryo_E8.0_stereo_rep1.h5ad",
+    "slot": "layers/counts",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-020 GSE278603",
+    "assay": "Stereo-seq",
+    "unit": "spatial bin",
+    "spatial": "reconstructed 3D",
+    "label_col": "celltype",
+    "sample_col": "chip",
+    "note": "author reference-mapped labels, not independent cell-type truth",
+    "cohorts": [
+      {
+        "id": "Stereo1_8.0",
+        "stage": 8.0,
+        "tasks": [
+          "T2_embryo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Stereo2",
+    "kind": "h5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2A_Embryo_Interpolation/T2A-01__VED-020__GSE278603/raw/extracted_official_archive/GSE278603_RAW.tar/GSM9046248_Embryo_E8.0_stereo_rep2.h5ad",
+    "slot": "raw/X",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-020 GSE278603",
+    "assay": "Stereo-seq",
+    "unit": "spatial bin",
+    "spatial": "reconstructed 3D",
+    "label_col": "celltype",
+    "sample_col": "chip",
+    "note": "author reference-mapped labels, not independent cell-type truth",
+    "cohorts": [
+      {
+        "id": "Stereo2_8.0",
+        "stage": 8.0,
+        "tasks": [
+          "T2_embryo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MERSCOPE_9.5_r0",
+    "kind": "csv",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890128_E9.5_region_0_cell_by_gene.csv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-023 GSE247450",
+    "assay": "MERSCOPE",
+    "unit": "segmented cell",
+    "spatial": "2D",
+    "label_col": null,
+    "note": "regions not asserted to be biological replicates",
+    "cohorts": [
+      {
+        "id": "MERSCOPE_9.5_r0",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MERSCOPE_9.5_r1",
+    "kind": "csv",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890129_E9.5_region_1_cell_by_gene.csv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-023 GSE247450",
+    "assay": "MERSCOPE",
+    "unit": "segmented cell",
+    "spatial": "2D",
+    "label_col": null,
+    "note": "regions not asserted to be biological replicates",
+    "cohorts": [
+      {
+        "id": "MERSCOPE_9.5_r1",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MERSCOPE_15.5_r0",
+    "kind": "csv",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-03__VED-023__GSE247450/raw/extracted_official_archive/GSE247450_RAW.tar/GSM7890130_E15.5_region_0_cell_by_gene.csv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-023 GSE247450",
+    "assay": "MERSCOPE",
+    "unit": "segmented cell",
+    "spatial": "2D",
+    "label_col": null,
+    "note": "regions not asserted to be biological replicates",
+    "cohorts": [
+      {
+        "id": "MERSCOPE_15.5_r0",
+        "stage": 15.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Endo10x1",
+    "kind": "mtx",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_matrix.mtx.gz",
+    "features": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_features.tsv.gz",
+    "barcodes": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701493_E9.5_1_barcodes.tsv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-024 GSE216970",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": null,
+    "note": "endothelial-enriched; no per-cell author labels",
+    "cohorts": [
+      {
+        "id": "Endo10x1",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Endo10x2",
+    "kind": "mtx",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_matrix.mtx.gz",
+    "features": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_features.tsv.gz",
+    "barcodes": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2B_Heart_Interpolation/T2B-04__VED-024__GSE216970/raw/extracted_official_archive/GSE216970_RAW.tar/GSM6701494_E9.5_2_barcodes.tsv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-024 GSE216970",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": null,
+    "note": "endothelial-enriched; no per-cell author labels",
+    "cohorts": [
+      {
+        "id": "Endo10x2",
+        "stage": 9.5,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GataHet1",
+    "kind": "mtx",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_matrix.mtx.gz",
+    "features": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_features.tsv.gz",
+    "barcodes": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338301_Het_1_barcodes.tsv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-018 GSE208162",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": null,
+    "note": "Het control; Cdh5-CreERT2 ventricular source; organizer permission",
+    "cohorts": [
+      {
+        "id": "GataHet1",
+        "stage": 12.5,
+        "tasks": [
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GataHet2",
+    "kind": "mtx",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_matrix.mtx.gz",
+    "features": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_features.tsv.gz",
+    "barcodes": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338302_Het_2_barcodes.tsv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-018 GSE208162",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": null,
+    "note": "Het control; Cdh5-CreERT2 ventricular source; organizer permission",
+    "cohorts": [
+      {
+        "id": "GataHet2",
+        "stage": 12.5,
+        "tasks": [
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GataKO1",
+    "kind": "mtx",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_matrix.mtx.gz",
+    "features": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_features.tsv.gz",
+    "barcodes": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338303_KO_1_barcodes.tsv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-018 GSE208162",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": null,
+    "note": "Gata4 KO; Cdh5-CreERT2 ventricular source; organizer permission",
+    "cohorts": [
+      {
+        "id": "GataKO1",
+        "stage": 12.5,
+        "tasks": [
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GataKO2",
+    "kind": "mtx",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_matrix.mtx.gz",
+    "features": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_features.tsv.gz",
+    "barcodes": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/T1-18__VED-018__GSE208162/raw/extracted_official_archive/GSE208162_RAW.tar/GSM6338304_KO_2_barcodes.tsv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-018 GSE208162",
+    "assay": "10x scRNA-seq",
+    "unit": "cell",
+    "spatial": "none",
+    "label_col": null,
+    "note": "Gata4 KO; Cdh5-CreERT2 ventricular source; organizer permission",
+    "cohorts": [
+      {
+        "id": "GataKO2",
+        "stage": 12.5,
+        "tasks": [
+          "T3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Visium16",
+    "kind": "mtx",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_matrix.mtx.gz",
+    "features": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_features.tsv.gz",
+    "barcodes": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T2C_Heart_Extrapolation/T2C-10__VED-029__GSE282547/raw/official_geo/direct_GSM_files/GSM8645793_e16_barcodes.tsv.gz",
+    "semantics": "raw_counts",
+    "origin": "external",
+    "family": "VED-029 GSE282547",
+    "assay": "Visium",
+    "unit": "spot",
+    "spatial": "2D",
+    "label_col": null,
+    "note": "E16 whole-heart spots; no cell type labels",
+    "cohorts": [
+      {
+        "id": "Visium16",
+        "stage": 16.0,
+        "tasks": [
+          "T1",
+          "T2_heart"
+        ]
+      }
+    ]
+  }
+]

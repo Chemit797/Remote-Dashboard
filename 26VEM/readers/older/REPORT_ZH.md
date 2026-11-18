@@ -1,6 +1,6 @@
 # 官方与同任务外部数据的基因面板、表达相似度实测
 
-2026-11-15，在 5090 上完成。两项请求都已处理：本报告回答“外部数据到底有多像官方”，[第二份报告](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/OFFICIAL_GENE_TARGET_SELECTION_ZH.md)回答“官方如何选择测量基因、阶段目标和敲除靶点”。
+2026-11-15，在 5090 上完成。两项请求都已处理：本报告回答“外部数据到底有多像官方”，[第二份报告](OFFICIAL_GENE_TARGET_SELECTION_ZH.md)回答“官方如何选择测量基因、阶段目标和敲除靶点”。
 
 **主要结论：外部数据通常能覆盖大部分空间 panel，但这并不代表它们具有相同的表达分布。T1 找到了同阶段、同类型上较接近的外部 RNA；T2 的跨测量差异仍很大；T3 即使同为 Gata4 KO，也不能忽略年龄、Cre、背景等位和对照基因型。**
 
@@ -13,6 +13,11 @@
 每组均匀抽最多 4,000 个细胞/细胞核/空间单位；有作者标签时，另按心肌、广义心脏谱系或内皮抽最多 1,600 个。额外类型抽样不混入全部细胞样本。种子固定为 20261115，原始行号与样本 ID 全部保存。
 
 ## 1. 基因覆盖：按可用阶段的真实矩阵重算
+
+
+**验证集补全 · 2026-11-19**
+
+原覆盖图、表达图及源结果表已接回本页原位置。六验证文件的测量轴已复核：[身份与层记录](../research/validation_completion_20261119/public/validation_files.json)。历史表的别名/稳定ID敏感性与主精确符号分析保持分开。
 
 | 实际外部文件/表示 | 对 T1 的精确名称覆盖 | 对 500 空间 panel 的精确名称覆盖 | 稳定 ID 补充核对后的空间覆盖 |
 |---|---:|---:|---:|
@@ -33,7 +38,7 @@
 
 表中覆盖的是**文件的基因轴**，不是“这些基因在每个细胞都被检出”。T1/空间两列是名单核对；不是给每个来源授权跨任务使用。TOME E8.5 表达只作 T1 比较，GSE208162 E12.5 表达只作有特定许可的 T3 比较。
 
-![实际基因覆盖](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/panel_coverage.png)
+![实际基因覆盖](panel_coverage.png)
 
 这次纠正了三类容易混淆的数字：
 
@@ -57,9 +62,16 @@
 
 官方 H5AD 的 var 只有符号，未附对应 Ensembl ID。上述补充是**有外部稳定 ID 支持的敏感性核对**，不是官方发布的 ID 对照表，也没有悄悄改写主分析。没有原生 ID 的来源未强行套别名；特别是不能把每个缺列都当作改名。
 
-明细：[panel_coverage.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/panel_coverage.csv)、[missing_genes.json](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/missing_genes.json)、[alias_coverage_sensitivity.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/alias_coverage_sensitivity.csv)、[alias_examples.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/alias_examples.csv)。
+明细：[panel_coverage.csv](panel_coverage.csv)、[missing_genes.json](missing_genes.json.gz)、[alias_coverage_sensitivity.csv](alias_coverage_sensitivity.csv)、[alias_examples.csv](alias_examples.csv)。
 
 ## 2. 表达相似度：相同基因不等于相同分布
+
+
+**验证集补全 · 2026-11-19**
+
+<div style="overflow-x:auto;contain:inline-size;max-width:100%" tabindex="0" role="region" aria-label="结果表格，可横向滚动"><table style="min-width:750px;width:100%"><thead><tr><th style="white-space:nowrap;min-width:70px">官方验证</th><th>外部背景</th><th>共同基因</th><th>原口径ρ</th><th>原口径JS</th><th>适用条件</th></tr></thead><tbody><tr><td style="white-space:nowrap;min-width:70px">T1 E10.5</td><td>VED-003 · TOME E9.5–E13.5 全胚胎图谱 E9.5</td><td>21019</td><td>0.742</td><td>0.497</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">T1 E10.5</td><td>VED-007 · Qiu 产前细胞核图谱 E9.5</td><td>26983</td><td>0.764</td><td>0.526</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">T1 E10.5</td><td>VED-012 · Feng 分心腔单细胞图谱 E9.5</td><td>29715</td><td>0.808</td><td>0.379</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">胚胎 E7.5</td><td>VED-001 · Pijuan-Sala 早期全胚胎图谱 E7.25</td><td>495</td><td>0.350</td><td>0.768</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">胚胎 E7.5</td><td>VED-002 · Mesp1 早期心脏谱系图谱 E7.25</td><td>492</td><td>0.357</td><td>0.750</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">胚胎 E7.5</td><td>VED-001 · Pijuan-Sala 早期全胚胎图谱 E8.0</td><td>495</td><td>0.427</td><td>0.727</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">胚胎 E7.5</td><td>VED-020 · Stereo-seq 胚胎三维重建图谱 E8.0 · 重复1</td><td>448</td><td>0.304</td><td>0.692</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">胚胎 E7.5</td><td>VED-020 · Stereo-seq 胚胎三维重建图谱 E8.0 · 重复2</td><td>478</td><td>0.309</td><td>0.670</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E8.5</td><td>VED-001 · Pijuan-Sala 早期全胚胎图谱 E8.25</td><td>498</td><td>0.553</td><td>0.697</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E8.5</td><td>VED-002 · Mesp1 早期心脏谱系图谱 E8.25</td><td>495</td><td>0.559</td><td>0.662</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E8.5</td><td>VED-006 · de Soysa 早期心脏图谱 E8.25</td><td>467</td><td>0.594</td><td>0.619</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E8.5</td><td>VED-007 · Qiu 产前细胞核图谱 E8.75</td><td>494</td><td>0.288</td><td>0.759</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E8.5</td><td>VED-007 · Qiu 产前细胞核图谱 E8.75</td><td>494</td><td>0.262</td><td>0.710</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E10.5</td><td>VED-012 · Feng 分心腔单细胞图谱 E9.5</td><td>498</td><td>0.252</td><td>0.762</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E10.5</td><td>VED-007 · Qiu 产前细胞核图谱 E9.5</td><td>494</td><td>0.154</td><td>0.779</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">心脏 E10.5</td><td>VED-009 · MOSTA 心脏空间图谱 E9.5</td><td>380</td><td>0.237</td><td>0.677</td><td>不同阶段背景</td></tr><tr><td style="white-space:nowrap;min-width:70px">Gata4 KO 重复1</td><td>VED-018 · Cdh5-CreER Gata4 缺失心室数据 E12.5</td><td>500</td><td>0.211</td><td>0.720</td><td>历史专项许可、基因型/日龄不匹配</td></tr><tr><td style="white-space:nowrap;min-width:70px">Gata4 KO 重复1</td><td>VED-018 · Cdh5-CreER Gata4 缺失心室数据 E12.5</td><td>500</td><td>0.226</td><td>0.726</td><td>历史专项许可、基因型/日龄不匹配</td></tr><tr><td style="white-space:nowrap;min-width:70px">Gata4 KO 重复2</td><td>VED-018 · Cdh5-CreER Gata4 缺失心室数据 E12.5</td><td>500</td><td>0.211</td><td>0.704</td><td>历史专项许可、基因型/日龄不匹配</td></tr><tr><td style="white-space:nowrap;min-width:70px">Gata4 KO 重复2</td><td>VED-018 · Cdh5-CreER Gata4 缺失心室数据 E12.5</td><td>500</td><td>0.223</td><td>0.714</td><td>历史专项许可、基因型/日龄不匹配</td></tr></tbody></table></div>
+
+本表复用11月15日结果，均值先归一化为份额，且ρ使用至少一侧1%检出的基因；与A10/A11的log1p均值口径不同，不混合排名。[所有涉及验证文件的历史行](validation_similarity.csv)。
 
 对每一对数据，只使用共同的实测基因，先将每个细胞的线性表达在该共同面板上归一化至和为 1，再取各基因的细胞均值。这里的“表达 Spearman”比较这些均值的排序，使用至少在任一侧 1% 抽样细胞中检出的基因，避免大量双方不表达的基因把相关性抬高。JS 距离比较整个共同面板上的平均表达份额；0 表示相同，越大差异越大。
 
@@ -81,7 +93,7 @@
 
 各对共同基因不同，因此此表不能直接当作外部数据排行榜。广义心脏谱系包含心场/前体，与成熟心肌标签不完全等价；全部细胞比较还混合取材和组成差异。
 
-![表达比较](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/expression_similarity.png)
+![表达比较](expression_similarity.png)
 
 ### 最重要的公平对照：三方固定同一组基因
 
@@ -97,9 +109,14 @@
 
 该三方样本中，每个心肌单位在 498 基因上的检出基因数中位数为：官方核 RNA 99、MERFISH 37、Feng 103。这是观察到的检出模式差异，不是基因轴是否存在的差异。
 
-其他固定交集核对也保留主要现象：T1 多来源共同 15,388 基因上，官方–Feng 心肌 ρ=0.893；E8.0 胚胎各来源统一 448 基因后，官方–Stereo 两重复 ρ=0.448/0.482。详见 [fixed_panel_sensitivity.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/fixed_panel_sensitivity.csv)、[same_panel_control.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/same_panel_control.csv)。
+其他固定交集核对也保留主要现象：T1 多来源共同 15,388 基因上，官方–Feng 心肌 ρ=0.893；E8.0 胚胎各来源统一 448 基因后，官方–Stereo 两重复 ρ=0.448/0.482。详见 [fixed_panel_sensitivity.csv](fixed_panel_sensitivity.csv)、[same_panel_control.csv](same_panel_control.csv)。
 
 ## 3. 分任务怎么理解
+
+
+**验证集补全 · 2026-11-19**
+
+六份验证已在历史224项结果中；T1、胚胎、两种心脏验证分别显示于上表，Gata4重复不合并。专项许可来源 VED-018 · Cdh5-CreER Gata4 缺失心室数据 的E12.5背景仍不满足官方E8.75的Cre、等位背景和对照条件，不能称匹配验证。
 
 ### T1
 
@@ -139,7 +156,7 @@ MERSCOPE E9.5 区域 1 的 ρ=0.598 是在 68 个共同基因上得到的；区�
 - T1/T2 的预测目标按时间外推/插值切分；T3 是 Mab21l2 训练、Gata4 验证、β-catenin 测试，后者更广泛、作用更分散。
 - **Ctnnb1 不在 500 panel 内**，但在 T1 全转录组内。敲除靶点与测量读出基因不是同一个集合。
 
-详细基因型、阶段表、官方原文和未公开的信息见 [OFFICIAL_GENE_TARGET_SELECTION_ZH.md](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/OFFICIAL_GENE_TARGET_SELECTION_ZH.md)。新协议还说明 Casp4/Pnliprp1 在最早两个阶段是表达过低未检出，设计 panel 本身并未改变；AI646519 缺列的具体原因未公开到同样程度。
+详细基因型、阶段表、官方原文和未公开的信息见 [OFFICIAL_GENE_TARGET_SELECTION_ZH.md](OFFICIAL_GENE_TARGET_SELECTION_ZH.md)。新协议还说明 Casp4/Pnliprp1 在最早两个阶段是表达过低未检出，设计 panel 本身并未改变；AI646519 缺列的具体原因未公开到同样程度。
 
 ## 5. 这轮证据支持的下一步
 
@@ -154,7 +171,7 @@ MERSCOPE E9.5 区域 1 的 ρ=0.598 是在 68 个共同基因上得到的；区�
 - 原始输入 SHA、矩阵轴、样本行号、作者标签和映射均保留。表达比较没有用受保护外部时间窗；T3 特例未扩展到 T1/T2，隔离的 E8.5/E9.0 注册 Slide-seq 来源未纳入。
 - ρ 的技术分半对照不是独立胚胎；跨来源的多个条目也不是多个独立研究。这里只报告描述性数值，不用细胞数制造生物学显著性。
 
-主要文件：[similarity.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/similarity.csv)、[cohort_summary.csv](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/cohort_summary.csv)、[catalog.json](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/catalog.json)、[sources.json](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/sources.json)、[AUDIT.json](/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115/AUDIT.json)。各 pair 的完整基因均值/检出率在 `gene_profiles/`；抽样矩阵、原始行号与样本 ID 在 `cohorts/`。
+主要文件：[similarity.csv](similarity.csv)、[cohort_summary.csv](cohort_summary.csv)、[catalog.json](catalog.json)、[sources.json](sources.json)、[AUDIT.json](AUDIT.json)。各 pair 的完整基因均值/检出率在 `gene_profiles/`；抽样矩阵、原始行号与样本 ID 在 `cohorts/`。
 
 复现入口：`extract.py` → `curate_metadata.py` → `compare.py` → `same_panel_control.py` / `alias_check.py` → `audit.py` → `make_plots.py` → `write_report.py`。使用 `/home/biocosmosx/miniconda3/envs/model_py310/bin/python`。首次提取的精确脚本另存 `extract_at_run.py`，与启动时 SHA 一致；后续修改只将新核验的官方核 RNA/取材元数据写入清单，未修改矩阵。
 

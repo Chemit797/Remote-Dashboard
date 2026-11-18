@@ -1,0 +1,379 @@
+{
+  "id": "V006",
+  "task": "T2 心脏",
+  "official": "OFF_T2_heart_E8.5",
+  "official_stage": "E8.5",
+  "external": "DESOYSA_WT",
+  "external_stage": "E8.25",
+  "external_ids": [
+    "VED-006"
+  ],
+  "external_name": "VED-006 · de Soysa 早期心脏图谱",
+  "groups": [],
+  "kind": "validation_background",
+  "note": "验证集补全；不同实测日龄的背景比较，不进入同阶段排序。缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+  "composition_inference": "仅描述所采集对象；取材范围与测量单位不完全相同，不解释为完整胚胎比例验证",
+  "validation_role": "released_validation",
+  "base_pair": "P016",
+  "day_gap": 0.25,
+  "panel": {
+    "pair": "V006",
+    "official_genes": 500,
+    "external_genes": 23476,
+    "common": 467,
+    "official_coverage": 0.934,
+    "external_coverage": 0.0198926563298688,
+    "jaccard": 0.019864732655578716
+  },
+  "composition": {
+    "official": {
+      "groups": [],
+      "proportions": [
+        1.0
+      ],
+      "sample_rows": [
+        {
+          "sample": "OFF_T2_heart_E8.5",
+          "n": 23710,
+          "known_mapped": 0,
+          "unmapped": 23710,
+          "unknown_explicit": 263,
+          "counts": {
+            "UNMAPPED": 23710
+          }
+        }
+      ],
+      "samples": 1
+    },
+    "external": {
+      "groups": [],
+      "proportions": [
+        1.0
+      ],
+      "sample_rows": [
+        {
+          "sample": "GSM3592147",
+          "n": 2316,
+          "known_mapped": 0,
+          "unmapped": 2316,
+          "unknown_explicit": 0,
+          "counts": {
+            "UNMAPPED": 2316
+          }
+        },
+        {
+          "sample": "GSM3592148",
+          "n": 7368,
+          "known_mapped": 0,
+          "unmapped": 7368,
+          "unknown_explicit": 0,
+          "counts": {
+            "UNMAPPED": 7368
+          }
+        }
+      ],
+      "samples": 2
+    },
+    "coverage_official": 0.0,
+    "coverage_external": 0.0,
+    "descriptive_all_TV": 1.0,
+    "descriptive_all_JS_distance": 1.0,
+    "conditional_TV": null,
+    "conditional_JS_distance": null
+  },
+  "specificity": {
+    "status": "insufficient_types",
+    "n_types": 0,
+    "reason": "至少3个命名层级可对应且样本量合格的共同类型"
+  },
+  "records": [
+    {
+      "pair": "V006",
+      "task": "T2 心脏",
+      "external_name": "VED-006 · de Soysa 早期心脏图谱",
+      "official_stage": "E8.5",
+      "external_stage": "E8.25",
+      "group": "ALL",
+      "group_name": "全部采集对象",
+      "primary": false,
+      "kind": "validation_background",
+      "note": "验证集补全；不同实测日龄的背景比较，不进入同阶段排序。缺原作者逐细胞类型；只比较采集对象整体；发布log归一化表达的逆变换是相对质量",
+      "n_genes": 467,
+      "both_all_zero": 0,
+      "external_only_detected": 0,
+      "official_only_detected": 2,
+      "both_detected": 465,
+      "detected_jaccard": 0.9957173447537473,
+      "spearman_all": 0.6407931937733365,
+      "spearman_nonzero_union": 0.6407931937733365,
+      "spearman_both_detected": 0.6403271159657609,
+      "pearson": 0.6022834907925882,
+      "kendall": 0.4552134215036503,
+      "cosine": 0.7172493324475283,
+      "rmse": 0.8243493674306678,
+      "detection_spearman": 0.6419420026672451,
+      "detection_mean_abs_pp": 10.395854832135461,
+      "detection_signed_mean_pp": -2.8129350251280343,
+      "detection_p90_abs_pp": 29.709933604050054,
+      "linear_mean_log_spearman": 0.6156371296724201,
+      "variance_spearman": 0.6190797610688804,
+      "top100_intersection": 56,
+      "top100_jaccard": 0.3888888888888889,
+      "gene_mean_distribution_wasserstein": 0.13866737579116434,
+      "cell_detection_wasserstein_pp": 2.812935025126713,
+      "cell_detection_ks": 0.2539916174346475,
+      "external_cell_detection_quantiles": {
+        "p10": 0.09207708779443255,
+        "median": 0.15203426124197003,
+        "p90": 0.20770877944325483
+      },
+      "official_cell_detection_quantiles": {
+        "p10": 0.06638115631691649,
+        "median": 0.12205567451820129,
+        "p90": 0.17987152034261242
+      },
+      "external_sample_spearman": [
+        0.5552412758585983,
+        0.6769174676077856
+      ],
+      "external_mean_detection": 0.15079066555567672,
+      "official_mean_detection": 0.12266131530439638,
+      "status": "calculated",
+      "eligible": true,
+      "external_n": 9684,
+      "official_n": 23710,
+      "external_n_used": 9684,
+      "official_n_used": 23710,
+      "external_samples": 2,
+      "official_samples": 1,
+      "external_samples_used": 2,
+      "official_samples_used": 1,
+      "external_small_samples": 0,
+      "official_small_samples": 0,
+      "external_zero_total": 0,
+      "official_zero_total": 0,
+      "external_sample_names": [
+        "GSM3592147",
+        "GSM3592148"
+      ],
+      "official_sample_names": [
+        "OFF_T2_heart_E8.5"
+      ],
+      "ranking_eligible": false,
+      "profile_rho_ge_08": false,
+      "gene_examples": [
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Aprt",
+          "external_mean": 4.569544158321628,
+          "official_mean": 1.6178580915967624,
+          "external_detection": 0.9797608901115593,
+          "official_detection": 0.3795444959932518,
+          "detection_difference_pp": -60.021639411830755,
+          "external_variance": 0.9244944614554687,
+          "official_variance": 4.427817827173042
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Cdh5",
+          "external_mean": 0.2291784249621593,
+          "official_mean": 0.8615092720484264,
+          "external_detection": 0.05049633480166298,
+          "official_detection": 0.1657528469000422,
+          "detection_difference_pp": 11.52565120983792,
+          "external_variance": 1.0196974138307475,
+          "official_variance": 3.9589496128775354
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Cdk1",
+          "external_mean": 3.8907574550221797,
+          "official_mean": 1.0363797268865178,
+          "external_detection": 0.868355597373884,
+          "official_detection": 0.25061155630535636,
+          "detection_difference_pp": -61.774404106852764,
+          "external_variance": 2.8686077493662747,
+          "official_variance": 3.304029344469523
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Foxa2",
+          "external_mean": 0.3260877694020295,
+          "official_mean": 0.16316765727264546,
+          "external_detection": 0.08488183040511271,
+          "official_detection": 0.04027836355967946,
+          "detection_difference_pp": -4.4603466845433255,
+          "external_variance": 1.2084039754284301,
+          "official_variance": 0.6496852766600523
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Gata4",
+          "external_mean": 1.1365585093630666,
+          "official_mean": 0.9506101057031817,
+          "external_detection": 0.3710851574938257,
+          "official_detection": 0.19827077182623365,
+          "detection_difference_pp": -17.281438566759206,
+          "external_variance": 2.1252072815022416,
+          "official_variance": 3.807682399919317
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Gata6",
+          "external_mean": 1.8065259500225077,
+          "official_mean": 0.4070682161572069,
+          "external_detection": 0.5187510899956682,
+          "official_detection": 0.10286798819063686,
+          "detection_difference_pp": -41.588310180503136,
+          "external_variance": 3.0048016143428766,
+          "official_variance": 1.4814192274383802
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Hey2",
+          "external_mean": 0.42719691086148703,
+          "official_mean": 0.7325088033219689,
+          "external_detection": 0.15089513257160217,
+          "official_detection": 0.1738506959088992,
+          "detection_difference_pp": 2.295556333729704,
+          "external_variance": 1.0716841780919195,
+          "official_variance": 2.6335602392614534
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Isl1",
+          "external_mean": 1.2423179331726533,
+          "official_mean": 0.4904736840495291,
+          "external_detection": 0.31514517335853687,
+          "official_detection": 0.11914803880219317,
+          "detection_difference_pp": -19.599713455634372,
+          "external_variance": 3.6083803342113634,
+          "official_variance": 1.8314122829376678
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Myh7",
+          "external_mean": 1.7063388548210459,
+          "official_mean": 0.8442215692021561,
+          "external_detection": 0.4064034784223051,
+          "official_detection": 0.1556305356389709,
+          "detection_difference_pp": -25.077294278333422,
+          "external_variance": 3.5976903534441114,
+          "official_variance": 4.0928374862144805
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Myl7",
+          "external_mean": 4.761529679378629,
+          "official_mean": 0.8629020255415796,
+          "external_detection": 0.7762899922926758,
+          "official_detection": 0.1624209194432729,
+          "detection_difference_pp": -61.38690728494029,
+          "external_variance": 6.350067253584897,
+          "official_variance": 4.159838906393378
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Npm3",
+          "external_mean": 4.781103939028423,
+          "official_mean": 0.4476568008286656,
+          "external_detection": 0.9822218190410288,
+          "official_detection": 0.1112610712779418,
+          "detection_difference_pp": -87.0960747763087,
+          "external_variance": 1.0280313922307265,
+          "official_variance": 1.636309431553484
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Pecam1",
+          "external_mean": 0.17270348092450202,
+          "official_mean": 0.6412650326451438,
+          "external_detection": 0.04810889267691684,
+          "official_detection": 0.13808519611978068,
+          "detection_difference_pp": 8.997630344286383,
+          "external_variance": 0.6161565319594012,
+          "official_variance": 2.689798733001193
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Pln",
+          "external_mean": 0.1882379240207692,
+          "official_mean": 0.1869385125368641,
+          "external_detection": 0.06917288315809016,
+          "official_detection": 0.045803458456347534,
+          "detection_difference_pp": -2.3369424701742623,
+          "external_variance": 0.4970452259397164,
+          "official_variance": 0.7498293334542543
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Rspo3",
+          "external_mean": 0.4689573498956908,
+          "official_mean": 0.2100238677972505,
+          "external_detection": 0.15353468014604535,
+          "official_detection": 0.05322648671446647,
+          "detection_difference_pp": -10.030819343157887,
+          "external_variance": 1.2525055046533125,
+          "official_variance": 0.8049046280944602
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Slc2a1",
+          "external_mean": 4.0437516850086,
+          "official_mean": 0.8624415843500547,
+          "external_detection": 0.8963533667504908,
+          "official_detection": 0.2075073808519612,
+          "detection_difference_pp": -68.88459858985297,
+          "external_variance": 2.6268121944322465,
+          "official_variance": 2.9214161752870638
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Sox17",
+          "external_mean": 0.2958334562131139,
+          "official_mean": 0.11015578402081798,
+          "external_detection": 0.07825606318880694,
+          "official_detection": 0.027667650780261493,
+          "detection_difference_pp": -5.0588412408545445,
+          "external_variance": 1.0824003914410838,
+          "official_variance": 0.4379916896386491
+        },
+        {
+          "pair": "V006",
+          "group": "ALL",
+          "gene": "Sox2",
+          "external_mean": 1.044098274355285,
+          "official_mean": 0.9658923711331523,
+          "external_detection": 0.23150699284962842,
+          "official_detection": 0.19696330662167863,
+          "detection_difference_pp": -3.454368622794979,
+          "external_variance": 3.11839971274558,
+          "official_variance": 3.928234090757686
+        }
+      ],
+      "largest_detection_gap_genes": [
+        "Npm3",
+        "Slc2a1",
+        "Cdk1",
+        "Myl7",
+        "Aprt"
+      ]
+    }
+  ]
+}

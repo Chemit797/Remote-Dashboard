@@ -107,7 +107,10 @@ for row in csvrows(PEER/'t2_heart_analysis_20261116/tables/all_gene_neighbour_sc
 assert len(neighbours)==9500 and len({x['gene'] for x in neighbours if x['hit']})==236
 jsfile(SITE/'assets/neighbours.js','VEM_NEIGHBOURS',neighbours)
 pairs=[]
-for row in csvrows(P/'research/vem_pairwise_similarity_v3/results/all_comparisons.csv'):
+completion_root=P/'research/validation_completion_20261119'
+completion=load(completion_root/'COMPLETION_SUMMARY.json')
+pair_table=completion_root/'overlays/research/vem_pairwise_similarity_v3/results/all_comparisons.csv'
+for row in csvrows(pair_table):
     keys=['pair','task','external_name','official_stage','external_stage','group','group_name','kind','note']
     item={k:row.get(k,'') for k in keys}
     item.update({k:number(row.get(k)) for k in ['n_genes','pearson','spearman_all','detection_mean_abs_pp','detected_jaccard']})
@@ -162,20 +165,21 @@ findings={
  'A04':('500基因中45个类型指向、81个时期关联、140个重复空间候选。','先查基因适用的轴与类型，再决定是否建模。','三类可重叠，57个多轴；严格稳定丰度子集为0。'),
  'A05':('236个基因在至少一个时期×类型组合显示邻域增量。','先核生成时特征是否可得，再做更强位置对照与跨期试验。','同标本二维空间留出；不是跨时期收益，也不等于官方NFS。'),
  'A06':('单基因抽稀可以吻合，联合检出仍有偏差。','把观测过程设为对照，避免统一补零或删除边界细胞。','不能分离技术效率与真实RNA量；A/B标记不等于统计独立。'),
- 'A07':('心肌与内皮双谱系信号在部分边界富集。','描述内部与边界的差异，保留局部证据。','更广泛解释优先严格审计；没有统一扩散或清理规则。'),
+ 'A07':('已补E8.5定位、条件双检出、边界与计数检查。','与原E8.75/E9.5/E10.5逐节对照。','E8.5边界双标记数较少，不能据此确定机制。'),
  'A08':('早期34条先验各有支持、不可比或明确缺口。','查找早期胚胎比例、表达和取材的适用条件。','已并入108条扩展库，不额外增加34条独立知识。'),
  'A09':('108条知识已逐条记录官方与外部核对。','按细胞、基因、阶段和证据状态查找可用先验。','官方只有3条观测一致；不可把条目数量当验证数量。'),
- 'A10':('跨来源平均轮廓和类型差异不能混为一谈。','先排除标签、取材、尺度不一致的直接迁移。','简单映射不稳定；多份分析共享同一原始输入。'),
- 'A11':('表达相关、检出差异和阶段变化提供不同信息。','选择一个来源与细胞类型，查看差异具体发生在哪里。','不同panel和表达表示的绝对距离不能混排。'),
+ 'A10':('原六节已补入验证覆盖、稀疏度与来源背景对照。','先排除标签、取材、尺度不一致的直接迁移。','邻近日龄不进入同阶段排名，不证明时间泛化。'),
+ 'A11':('原24对保留，新增16对验证背景及53行指标。','在原筛选器选择E7.5、E8.5或E10.5查类型和逐基因图。','不同panel和表达表示的绝对距离不能混排。'),
  'A12':('T1检出结构与表达强度能分开比较。','区分供体差异来自零值还是阳性表达。','加权S是自定义描述统计，不是官网分数。'),
  'A13':('静态均值接近不保证时间变化可迁移。','用完整指标检验有限来源改动，保留迁移失败。','分布距离改善可伴随均值误差恶化；没有通用换算。'),
  'A14':('三个任务比较的对象和指标权重不同。','先明确参考、真值、预测的角色，再解释每项诊断。','固定公开版本；线上后台与部分gate未完成等价验收。'),
- 'A15':('历史比较保留了另一套来源与口径。','查询旧分析、映射与来源记录，避免重复劳动。','不能把旧归一化结果或特定子集许可推广到其他条件。')}
+ 'A15':('已接回原图和结果表，并展示历史验证结果。','查询旧分析、映射与来源记录，避免重复劳动。','不能把旧归一化结果或特定子集许可推广到其他条件。')}
 catalog=load(R/'hub/catalogs/analyses.json')['analyses']; analyses=[]
 for item in catalog:
     a={k:item[k] for k in ['analysis_id','title','topic','tasks','evidence_status','limitation','source_group']}
     a.update(finding=findings[item['analysis_id']][0],use=findings[item['analysis_id']][1],boundary=findings[item['analysis_id']][2],
         report=render_report(reports[item['analysis_id']]),remote_reader=item['reader'],remote_compute_root=item['remote_compute_root'])
+    a['validation_review']=[x for x in load(completion_root/'TOPIC_COVERAGE.json') if x['topic']==item['analysis_id']]
     analyses.append(a)
 plan=render_report(R/'hub/reviews/20261118/01_联合审视与使用规划.md')
 
@@ -220,11 +224,11 @@ tasks=[
 ]
 timeline=[['2026-08-10','P1','门户与验证榜开放'],['2026-08-15','P2','Starter kit 与参考基线'],['2026-10-27','P3','隐藏测试榜开放'],['2026-11-25','FINAL','23:59 AoE 最终截止'],['2026-11-26','评估','官方隐藏测试评估'],['2026-12-12','公布','NeurIPS 公布优胜者']]
 readers=json.loads((SITE/'data/original-readers.json').read_text(encoding='utf-8'))
-data={'version':'2026-11-18','title':'26VEM · 虚拟胚胎研究工作台','built_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
+data={'version':'2026-11-19','title':'26VEM · 虚拟胚胎研究工作台','built_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
  'snapshot_note':'研究结论与文件统计是标明时间的快照；刷新页面不会连接5090。倒计时在浏览器本地更新。',
  'deadline':deadline,'timeline':timeline,'tasks':tasks,'official':official,'external':external,
  'claims':claims,'knowledge_summary':summary,'analyses':analyses,'gene_axes':axis,'pairs':pairs,'metrics':metrics,
- 'audit':audit,'file_counts':file_counts,'plan_html':plan,'readers':readers,
+ 'audit':audit,'file_counts':file_counts,'plan_html':plan,'readers':readers,'validation_completion':completion,
  'file_tree':(SITE/'data/5090-tree.txt').read_text(encoding='utf-8'),
  'remote_root':'/home/biocosmosx/work/virtualembryo_cym','remote_hub':'/home/biocosmosx/work/virtualembryo_cym/team/research_hub',
  'current_official_score':None,'remaining_attempts':None}
@@ -232,6 +236,7 @@ jsfile(SITE/'assets/data.js','VEM_DATA',data)
 write_json(SITE/'data/source-manifest.json',{'built_at':data['built_at'],'scope':'Selected reports, aggregate statistics and metadata only. No H5AD, model weights, credentials or submission payloads.','files':SOURCES})
 write_json(SITE/'data/research-catalog.json',{'analyses':[{k:v for k,v in a.items() if k!='report'} for a in analyses]})
 write_json(SITE/'data/official-inventory.json',official)
+write_json(SITE/'data/validation-completion.json',completion)
 if file_counts:write_json(SITE/'data/file-counts.json',file_counts)
 print(json.dumps({'analyses':len(analyses),'claims':len(claims),'external_sources':len(external),'genes':len(axis),
  'neighbour_rows':len(neighbours),'pairs':len(pairs),'metric_rows':len(metrics),'source_files':len(SOURCES),

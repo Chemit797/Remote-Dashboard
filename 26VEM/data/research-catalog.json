@@ -17,7 +17,57 @@
       "use": "寻找父模型、生成脚本、复现状态和官方原始回执。",
       "boundary": "历史手册不是实时状态；旧高分方法的来源边界仍要复核。",
       "remote_reader": "../handbook_20261111/HUMAN_GUIDE.md",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym",
+      "validation_review": [
+        {
+          "topic": "A01",
+          "title": "VEM 项目全景与策略回顾",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "不适用",
+          "action": "工程与历史手册不建立新的数据比较；保留历史记录。"
+        },
+        {
+          "topic": "A01",
+          "title": "VEM 项目全景与策略回顾",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "不适用",
+          "action": "工程与历史手册不建立新的数据比较；保留历史记录。"
+        },
+        {
+          "topic": "A01",
+          "title": "VEM 项目全景与策略回顾",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "不适用",
+          "action": "工程与历史手册不建立新的数据比较；保留历史记录。"
+        },
+        {
+          "topic": "A01",
+          "title": "VEM 项目全景与策略回顾",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "不适用",
+          "action": "工程与历史手册不建立新的数据比较；保留历史记录。"
+        },
+        {
+          "topic": "A01",
+          "title": "VEM 项目全景与策略回顾",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "工程与历史手册不建立新的数据比较；保留历史记录。"
+        },
+        {
+          "topic": "A01",
+          "title": "VEM 项目全景与策略回顾",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "工程与历史手册不建立新的数据比较；保留历史记录。"
+        }
+      ]
     },
     {
       "analysis_id": "A02",
@@ -36,7 +86,57 @@
       "use": "按类型、基因和指标定位一个具体预测缺陷。",
       "boundary": "开放真值已用于开发，诊断complete不等于生产评分器验收。",
       "remote_reader": "../analysis_share_20261117/official_data_analysis_20261114/report.html",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114",
+      "validation_review": [
+        {
+          "topic": "A02",
+          "title": "官方数据全面分析｜训练与验证真值实算报告",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "已展示，复核复用",
+          "action": "15文件全面分析已包括六份验证；复用原观测掩码、组成、空间、KO和开发诊断。新增身份核对与分节定位。"
+        },
+        {
+          "topic": "A02",
+          "title": "官方数据全面分析｜训练与验证真值实算报告",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "已展示，复核复用",
+          "action": "15文件全面分析已包括六份验证；复用原观测掩码、组成、空间、KO和开发诊断。新增身份核对与分节定位。"
+        },
+        {
+          "topic": "A02",
+          "title": "官方数据全面分析｜训练与验证真值实算报告",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "已展示，复核复用",
+          "action": "15文件全面分析已包括六份验证；复用原观测掩码、组成、空间、KO和开发诊断。新增身份核对与分节定位。"
+        },
+        {
+          "topic": "A02",
+          "title": "官方数据全面分析｜训练与验证真值实算报告",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "已展示，复核复用",
+          "action": "15文件全面分析已包括六份验证；复用原观测掩码、组成、空间、KO和开发诊断。新增身份核对与分节定位。"
+        },
+        {
+          "topic": "A02",
+          "title": "官方数据全面分析｜训练与验证真值实算报告",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "已展示，复核复用",
+          "action": "15文件全面分析已包括六份验证；复用原观测掩码、组成、空间、KO和开发诊断。新增身份核对与分节定位。"
+        },
+        {
+          "topic": "A02",
+          "title": "官方数据全面分析｜训练与验证真值实算报告",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "已展示，复核复用",
+          "action": "15文件全面分析已包括六份验证；复用原观测掩码、组成、空间、KO和开发诊断。新增身份核对与分节定位。"
+        }
+      ]
     },
     {
       "analysis_id": "A03",
@@ -53,7 +153,57 @@
       "use": "分开检出率与阳性强度，选定一个生成机制。",
       "boundary": "时期与标本混杂；观察并非同一胚胎的连续跟踪。",
       "remote_reader": "../analysis_share_20261117/t2_heart_analysis_20261116/report.html",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116",
+      "validation_review": [
+        {
+          "topic": "A03",
+          "title": "从细胞状态到观察过程 读懂官方心脏数据",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "不适用",
+          "action": "心脏五阶段分析已包括E8.5/E10.5；保留原程序、组成、hurdle和空间结果。"
+        },
+        {
+          "topic": "A03",
+          "title": "从细胞状态到观察过程 读懂官方心脏数据",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "不适用",
+          "action": "心脏五阶段分析已包括E8.5/E10.5；保留原程序、组成、hurdle和空间结果。"
+        },
+        {
+          "topic": "A03",
+          "title": "从细胞状态到观察过程 读懂官方心脏数据",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "已展示，复核复用",
+          "action": "心脏五阶段分析已包括E8.5/E10.5；保留原程序、组成、hurdle和空间结果。"
+        },
+        {
+          "topic": "A03",
+          "title": "从细胞状态到观察过程 读懂官方心脏数据",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "已展示，复核复用",
+          "action": "心脏五阶段分析已包括E8.5/E10.5；保留原程序、组成、hurdle和空间结果。"
+        },
+        {
+          "topic": "A03",
+          "title": "从细胞状态到观察过程 读懂官方心脏数据",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "心脏五阶段分析已包括E8.5/E10.5；保留原程序、组成、hurdle和空间结果。"
+        },
+        {
+          "topic": "A03",
+          "title": "从细胞状态到观察过程 读懂官方心脏数据",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "心脏五阶段分析已包括E8.5/E10.5；保留原程序、组成、hurdle和空间结果。"
+        }
+      ]
     },
     {
       "analysis_id": "A04",
@@ -70,7 +220,57 @@
       "use": "先查基因适用的轴与类型，再决定是否建模。",
       "boundary": "三类可重叠，57个多轴；严格稳定丰度子集为0。",
       "remote_reader": "../analysis_share_20261117/t2_heart_analysis_20261116/gene_500_explorer.html",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116",
+      "validation_review": [
+        {
+          "topic": "A04",
+          "title": "500 基因交互总表",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "不适用",
+          "action": "500基因的时间轴用五阶段、空间轴按阶段统计，已含E8.5/E10.5；不另造一套500行结果。"
+        },
+        {
+          "topic": "A04",
+          "title": "500 基因交互总表",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "不适用",
+          "action": "500基因的时间轴用五阶段、空间轴按阶段统计，已含E8.5/E10.5；不另造一套500行结果。"
+        },
+        {
+          "topic": "A04",
+          "title": "500 基因交互总表",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "已展示，复核复用",
+          "action": "500基因的时间轴用五阶段、空间轴按阶段统计，已含E8.5/E10.5；不另造一套500行结果。"
+        },
+        {
+          "topic": "A04",
+          "title": "500 基因交互总表",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "已展示，复核复用",
+          "action": "500基因的时间轴用五阶段、空间轴按阶段统计，已含E8.5/E10.5；不另造一套500行结果。"
+        },
+        {
+          "topic": "A04",
+          "title": "500 基因交互总表",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "500基因的时间轴用五阶段、空间轴按阶段统计，已含E8.5/E10.5；不另造一套500行结果。"
+        },
+        {
+          "topic": "A04",
+          "title": "500 基因交互总表",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "500基因的时间轴用五阶段、空间轴按阶段统计，已含E8.5/E10.5；不另造一套500行结果。"
+        }
+      ]
     },
     {
       "analysis_id": "A05",
@@ -86,7 +286,57 @@
       "use": "先核生成时特征是否可得，再做更强位置对照与跨期试验。",
       "boundary": "同标本二维空间留出；不是跨时期收益，也不等于官方NFS。",
       "remote_reader": "../analysis_share_20261117/t2_heart_analysis_20261116/NEIGHBOUR_ALL_GENES_ZH.md",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/t2_heart_analysis_20261116",
+      "validation_review": [
+        {
+          "topic": "A05",
+          "title": "500 基因邻域分析：哪些基因真的获得额外解释？",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "不适用",
+          "action": "9500行邻域扫描中的验证阶段已有数值；复用原切片内空间留出，不冒充官方NFS。"
+        },
+        {
+          "topic": "A05",
+          "title": "500 基因邻域分析：哪些基因真的获得额外解释？",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "不适用",
+          "action": "9500行邻域扫描中的验证阶段已有数值；复用原切片内空间留出，不冒充官方NFS。"
+        },
+        {
+          "topic": "A05",
+          "title": "500 基因邻域分析：哪些基因真的获得额外解释？",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "已展示，复核复用",
+          "action": "9500行邻域扫描中的验证阶段已有数值；复用原切片内空间留出，不冒充官方NFS。"
+        },
+        {
+          "topic": "A05",
+          "title": "500 基因邻域分析：哪些基因真的获得额外解释？",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "已展示，复核复用",
+          "action": "9500行邻域扫描中的验证阶段已有数值；复用原切片内空间留出，不冒充官方NFS。"
+        },
+        {
+          "topic": "A05",
+          "title": "500 基因邻域分析：哪些基因真的获得额外解释？",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "9500行邻域扫描中的验证阶段已有数值；复用原切片内空间留出，不冒充官方NFS。"
+        },
+        {
+          "topic": "A05",
+          "title": "500 基因邻域分析：哪些基因真的获得额外解释？",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "9500行邻域扫描中的验证阶段已有数值；复用原切片内空间留出，不冒充官方NFS。"
+        }
+      ]
     },
     {
       "analysis_id": "A06",
@@ -103,7 +353,57 @@
       "use": "把观测过程设为对照，避免统一补零或删除边界细胞。",
       "boundary": "不能分离技术效率与真实RNA量；A/B标记不等于统计独立。",
       "remote_reader": "../analysis_share_20261117/t2_heart_prior_audit_v2/report.html",
-      "remote_compute_root": null
+      "remote_compute_root": null,
+      "validation_review": [
+        {
+          "topic": "A06",
+          "title": "T2心脏：独立参照、空间条件与机制检验",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "不适用",
+          "action": "原严格审计保留时期、类型和技术条件；开放验证不能补出缺少的分子坐标或独立形态标注。"
+        },
+        {
+          "topic": "A06",
+          "title": "T2心脏：独立参照、空间条件与机制检验",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "不适用",
+          "action": "原严格审计保留时期、类型和技术条件；开放验证不能补出缺少的分子坐标或独立形态标注。"
+        },
+        {
+          "topic": "A06",
+          "title": "T2心脏：独立参照、空间条件与机制检验",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "已展示，复核复用",
+          "action": "原严格审计保留时期、类型和技术条件；开放验证不能补出缺少的分子坐标或独立形态标注。"
+        },
+        {
+          "topic": "A06",
+          "title": "T2心脏：独立参照、空间条件与机制检验",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "已展示，复核复用",
+          "action": "原严格审计保留时期、类型和技术条件；开放验证不能补出缺少的分子坐标或独立形态标注。"
+        },
+        {
+          "topic": "A06",
+          "title": "T2心脏：独立参照、空间条件与机制检验",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "原严格审计保留时期、类型和技术条件；开放验证不能补出缺少的分子坐标或独立形态标注。"
+        },
+        {
+          "topic": "A06",
+          "title": "T2心脏：独立参照、空间条件与机制检验",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "原严格审计保留时期、类型和技术条件；开放验证不能补出缺少的分子坐标或独立形态标注。"
+        }
+      ]
     },
     {
       "analysis_id": "A07",
@@ -115,11 +415,61 @@
       "evidence_status": "作者本地；已读报告和结果",
       "limitation": "局部边界线索；广泛解释优先A06，保留独有区域证据",
       "source_group": "peer_followup",
-      "finding": "心肌与内皮双谱系信号在部分边界富集。",
-      "use": "描述内部与边界的差异，保留局部证据。",
-      "boundary": "更广泛解释优先严格审计；没有统一扩散或清理规则。",
+      "finding": "已补E8.5定位、条件双检出、边界与计数检查。",
+      "use": "与原E8.75/E9.5/E10.5逐节对照。",
+      "boundary": "E8.5边界双标记数较少，不能据此确定机制。",
       "remote_reader": "../analysis_share_20261117/t2_heart_prior_followup_20261116/report.html",
-      "remote_compute_root": null
+      "remote_compute_root": null,
+      "validation_review": [
+        {
+          "topic": "A07",
+          "title": "生物学参照与观察偏差检验",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "不适用",
+          "action": "E10.5已在原后续检查中；E8.5补原定位、条件双检出、边界、身份条件与适用的计数对照。"
+        },
+        {
+          "topic": "A07",
+          "title": "生物学参照与观察偏差检验",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "不适用",
+          "action": "E10.5已在原后续检查中；E8.5补原定位、条件双检出、边界、身份条件与适用的计数对照。"
+        },
+        {
+          "topic": "A07",
+          "title": "生物学参照与观察偏差检验",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "需要补算 → 已完成",
+          "action": "E10.5已在原后续检查中；E8.5补原定位、条件双检出、边界、身份条件与适用的计数对照。"
+        },
+        {
+          "topic": "A07",
+          "title": "生物学参照与观察偏差检验",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "已展示，复核复用",
+          "action": "E10.5已在原后续检查中；E8.5补原定位、条件双检出、边界、身份条件与适用的计数对照。"
+        },
+        {
+          "topic": "A07",
+          "title": "生物学参照与观察偏差检验",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "E10.5已在原后续检查中；E8.5补原定位、条件双检出、边界、身份条件与适用的计数对照。"
+        },
+        {
+          "topic": "A07",
+          "title": "生物学参照与观察偏差检验",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "E10.5已在原后续检查中；E8.5补原定位、条件双检出、边界、身份条件与适用的计数对照。"
+        }
+      ]
     },
     {
       "analysis_id": "A08",
@@ -135,7 +485,57 @@
       "use": "查找早期胚胎比例、表达和取材的适用条件。",
       "boundary": "已并入108条扩展库，不额外增加34条独立知识。",
       "remote_reader": "publications/20261118/research/early_embryo_prior_audit/knowledge.html",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/early_embryo_prior_audit_20261116/run02"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/early_embryo_prior_audit_20261116/run02",
+      "validation_review": [
+        {
+          "topic": "A08",
+          "title": "胚胎发育：文献与官方数据是否对得上",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "不适用",
+          "action": "原34条已含E7.5；逐条提取已有观测与判定，未满足原命题的条件保持不变。"
+        },
+        {
+          "topic": "A08",
+          "title": "胚胎发育：文献与官方数据是否对得上",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "已展示，复核复用",
+          "action": "原34条已含E7.5；逐条提取已有观测与判定，未满足原命题的条件保持不变。"
+        },
+        {
+          "topic": "A08",
+          "title": "胚胎发育：文献与官方数据是否对得上",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "不适用",
+          "action": "原34条已含E7.5；逐条提取已有观测与判定，未满足原命题的条件保持不变。"
+        },
+        {
+          "topic": "A08",
+          "title": "胚胎发育：文献与官方数据是否对得上",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "不适用",
+          "action": "原34条已含E7.5；逐条提取已有观测与判定，未满足原命题的条件保持不变。"
+        },
+        {
+          "topic": "A08",
+          "title": "胚胎发育：文献与官方数据是否对得上",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "原34条已含E7.5；逐条提取已有观测与判定，未满足原命题的条件保持不变。"
+        },
+        {
+          "topic": "A08",
+          "title": "胚胎发育：文献与官方数据是否对得上",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "原34条已含E7.5；逐条提取已有观测与判定，未满足原命题的条件保持不变。"
+        }
+      ]
     },
     {
       "analysis_id": "A09",
@@ -154,7 +554,57 @@
       "use": "按细胞、基因、阶段和证据状态查找可用先验。",
       "boundary": "官方只有3条观测一致；不可把条目数量当验证数量。",
       "remote_reader": "publications/20261118/research/vem_prior_knowledge_v2/knowledge.html",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01",
+      "validation_review": [
+        {
+          "topic": "A09",
+          "title": "胚胎先验：每一条分别看官方和外部证据",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "已展示，复核复用",
+          "action": "108条逐条核对；复用T1 E10.5、心脏E8.5/E10.5及早期E7.5观测；不把WT参照推广到不同KO。"
+        },
+        {
+          "topic": "A09",
+          "title": "胚胎先验：每一条分别看官方和外部证据",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "已展示，复核复用",
+          "action": "108条逐条核对；复用T1 E10.5、心脏E8.5/E10.5及早期E7.5观测；不把WT参照推广到不同KO。"
+        },
+        {
+          "topic": "A09",
+          "title": "胚胎先验：每一条分别看官方和外部证据",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "已展示，复核复用",
+          "action": "108条逐条核对；复用T1 E10.5、心脏E8.5/E10.5及早期E7.5观测；不把WT参照推广到不同KO。"
+        },
+        {
+          "topic": "A09",
+          "title": "胚胎先验：每一条分别看官方和外部证据",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "已展示，复核复用",
+          "action": "108条逐条核对；复用T1 E10.5、心脏E8.5/E10.5及早期E7.5观测；不把WT参照推广到不同KO。"
+        },
+        {
+          "topic": "A09",
+          "title": "胚胎先验：每一条分别看官方和外部证据",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "条件不满足",
+          "action": "缺少同阶段、同Cre/等位背景及合适对照的外部或先验条件；两个KO重复分别保留，不以WT或其他KO替代。"
+        },
+        {
+          "topic": "A09",
+          "title": "胚胎先验：每一条分别看官方和外部证据",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "条件不满足",
+          "action": "缺少同阶段、同Cre/等位背景及合适对照的外部或先验条件；两个KO重复分别保留，不以WT或其他KO替代。"
+        }
+      ]
     },
     {
       "analysis_id": "A10",
@@ -168,11 +618,61 @@
       "evidence_status": "既有开发诊断",
       "limitation": "与A09同轮派生；不是独立重复研究",
       "source_group": "local_prior",
-      "finding": "跨来源平均轮廓和类型差异不能混为一谈。",
+      "finding": "原六节已补入验证覆盖、稀疏度与来源背景对照。",
       "use": "先排除标签、取材、尺度不一致的直接迁移。",
-      "boundary": "简单映射不稳定；多份分析共享同一原始输入。",
+      "boundary": "邻近日龄不进入同阶段排名，不证明时间泛化。",
       "remote_reader": "publications/20261118/research/vem_source_comparison_v2/README.md",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01",
+      "validation_review": [
+        {
+          "topic": "A10",
+          "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "需要补算 → 已完成",
+          "action": "在原六节分别补覆盖、稀疏度、表达、组成和条件边界；新增邻近阶段背景比较。"
+        },
+        {
+          "topic": "A10",
+          "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "需要补算 → 已完成",
+          "action": "在原六节分别补覆盖、稀疏度、表达、组成和条件边界；新增邻近阶段背景比较。"
+        },
+        {
+          "topic": "A10",
+          "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "需要补算 → 已完成",
+          "action": "在原六节分别补覆盖、稀疏度、表达、组成和条件边界；新增邻近阶段背景比较。"
+        },
+        {
+          "topic": "A10",
+          "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "需要补算 → 已完成",
+          "action": "在原六节分别补覆盖、稀疏度、表达、组成和条件边界；新增邻近阶段背景比较。"
+        },
+        {
+          "topic": "A10",
+          "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "条件不满足",
+          "action": "缺少同阶段、同Cre/等位背景及合适对照的外部或先验条件；两个KO重复分别保留，不以WT或其他KO替代。"
+        },
+        {
+          "topic": "A10",
+          "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "条件不满足",
+          "action": "缺少同阶段、同Cre/等位背景及合适对照的外部或先验条件；两个KO重复分别保留，不以WT或其他KO替代。"
+        }
+      ]
     },
     {
       "analysis_id": "A11",
@@ -186,11 +686,61 @@
       "evidence_status": "既有已验收比较；本次不重算",
       "limitation": "相关与覆盖用于筛选；不直接指定供体权重",
       "source_group": "local_pairwise",
-      "finding": "表达相关、检出差异和阶段变化提供不同信息。",
-      "use": "选择一个来源与细胞类型，查看差异具体发生在哪里。",
+      "finding": "原24对保留，新增16对验证背景及53行指标。",
+      "use": "在原筛选器选择E7.5、E8.5或E10.5查类型和逐基因图。",
       "boundary": "不同panel和表达表示的绝对距离不能混排。",
       "remote_reader": "publications/20261118/research/vem_pairwise_similarity_v3/comparison.html",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_pairwise_similarity_v3_20261116/run01"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_pairwise_similarity_v3_20261116/run01",
+      "validation_review": [
+        {
+          "topic": "A11",
+          "title": "官方与外部数据，究竟哪里像、哪里不像？",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "需要补算 → 已完成",
+          "action": "在原筛选器中追加16个V编号配对；原P001–P024、同阶段排序和所有旧数值保留。"
+        },
+        {
+          "topic": "A11",
+          "title": "官方与外部数据，究竟哪里像、哪里不像？",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "需要补算 → 已完成",
+          "action": "在原筛选器中追加16个V编号配对；原P001–P024、同阶段排序和所有旧数值保留。"
+        },
+        {
+          "topic": "A11",
+          "title": "官方与外部数据，究竟哪里像、哪里不像？",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "需要补算 → 已完成",
+          "action": "在原筛选器中追加16个V编号配对；原P001–P024、同阶段排序和所有旧数值保留。"
+        },
+        {
+          "topic": "A11",
+          "title": "官方与外部数据，究竟哪里像、哪里不像？",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "需要补算 → 已完成",
+          "action": "在原筛选器中追加16个V编号配对；原P001–P024、同阶段排序和所有旧数值保留。"
+        },
+        {
+          "topic": "A11",
+          "title": "官方与外部数据，究竟哪里像、哪里不像？",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "条件不满足",
+          "action": "缺少同阶段、同Cre/等位背景及合适对照的外部或先验条件；两个KO重复分别保留，不以WT或其他KO替代。"
+        },
+        {
+          "topic": "A11",
+          "title": "官方与外部数据，究竟哪里像、哪里不像？",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "条件不满足",
+          "action": "缺少同阶段、同Cre/等位背景及合适对照的外部或先验条件；两个KO重复分别保留，不以WT或其他KO替代。"
+        }
+      ]
     },
     {
       "analysis_id": "A12",
@@ -206,7 +756,57 @@
       "use": "区分供体差异来自零值还是阳性表达。",
       "boundary": "加权S是自定义描述统计，不是官网分数。",
       "remote_reader": "publications/20261118/research/vem_pairwise_similarity_v3/comparison.html#t1-weighted-binary-appendix",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_t1_weighted_binary_v4_20261116/run01"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_t1_weighted_binary_v4_20261116/run01",
+      "validation_review": [
+        {
+          "topic": "A12",
+          "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "已展示，复核复用",
+          "action": "E10.5已有10组二值比较；同阶段加权分因外部保护窗口仍不可算，不用邻近阶段补成S。"
+        },
+        {
+          "topic": "A12",
+          "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "不适用",
+          "action": "E10.5已有10组二值比较；同阶段加权分因外部保护窗口仍不可算，不用邻近阶段补成S。"
+        },
+        {
+          "topic": "A12",
+          "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "不适用",
+          "action": "E10.5已有10组二值比较；同阶段加权分因外部保护窗口仍不可算，不用邻近阶段补成S。"
+        },
+        {
+          "topic": "A12",
+          "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "不适用",
+          "action": "E10.5已有10组二值比较；同阶段加权分因外部保护窗口仍不可算，不用邻近阶段补成S。"
+        },
+        {
+          "topic": "A12",
+          "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "E10.5已有10组二值比较；同阶段加权分因外部保护窗口仍不可算，不用邻近阶段补成S。"
+        },
+        {
+          "topic": "A12",
+          "title": "新增：T1 加权得分与大矩阵 0/1 比较",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "E10.5已有10组二值比较；同阶段加权分因外部保护窗口仍不可算，不用邻近阶段补成S。"
+        }
+      ]
     },
     {
       "analysis_id": "A13",
@@ -223,7 +823,57 @@
       "use": "用完整指标检验有限来源改动，保留迁移失败。",
       "boundary": "分布距离改善可伴随均值误差恶化；没有通用换算。",
       "remote_reader": "publications/20261118/research/vem_official_metric_source_audit/index.html",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_official_metric_source_audit_20261116"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_official_metric_source_audit_20261116",
+      "validation_review": [
+        {
+          "topic": "A13",
+          "title": "官方与外部数据，具体像在哪里？",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "已展示，复核复用",
+          "action": "原T1和胚胎范围已包括E10.5/E7.5，保留369条指标；补清类型、空间、delta和迁移支线的覆盖与不能计算的原因。"
+        },
+        {
+          "topic": "A13",
+          "title": "官方与外部数据，具体像在哪里？",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "已展示，复核复用",
+          "action": "原T1和胚胎范围已包括E10.5/E7.5，保留369条指标；补清类型、空间、delta和迁移支线的覆盖与不能计算的原因。"
+        },
+        {
+          "topic": "A13",
+          "title": "官方与外部数据，具体像在哪里？",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "不适用",
+          "action": "原T1和胚胎范围已包括E10.5/E7.5，保留369条指标；补清类型、空间、delta和迁移支线的覆盖与不能计算的原因。"
+        },
+        {
+          "topic": "A13",
+          "title": "官方与外部数据，具体像在哪里？",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "不适用",
+          "action": "原T1和胚胎范围已包括E10.5/E7.5，保留369条指标；补清类型、空间、delta和迁移支线的覆盖与不能计算的原因。"
+        },
+        {
+          "topic": "A13",
+          "title": "官方与外部数据，具体像在哪里？",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "原T1和胚胎范围已包括E10.5/E7.5，保留369条指标；补清类型、空间、delta和迁移支线的覆盖与不能计算的原因。"
+        },
+        {
+          "topic": "A13",
+          "title": "官方与外部数据，具体像在哪里？",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "原T1和胚胎范围已包括E10.5/E7.5，保留369条指标；补清类型、空间、delta和迁移支线的覆盖与不能计算的原因。"
+        }
+      ]
     },
     {
       "analysis_id": "A14",
@@ -242,7 +892,57 @@
       "use": "先明确参考、真值、预测的角色，再解释每项诊断。",
       "boundary": "固定公开版本；线上后台与部分gate未完成等价验收。",
       "remote_reader": "publications/20261118/notes/scoring_review_20261118/02_评分仓库逐项审读与矩阵实例.md",
-      "remote_compute_root": null
+      "remote_compute_root": null,
+      "validation_review": [
+        {
+          "topic": "A14",
+          "title": "按任务理解VEM评分：三份输入、矩阵运算、结果",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "不适用",
+          "action": "评分算法教学，不属于验证集覆盖分析；原例子与证据保留。"
+        },
+        {
+          "topic": "A14",
+          "title": "按任务理解VEM评分：三份输入、矩阵运算、结果",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "不适用",
+          "action": "评分算法教学，不属于验证集覆盖分析；原例子与证据保留。"
+        },
+        {
+          "topic": "A14",
+          "title": "按任务理解VEM评分：三份输入、矩阵运算、结果",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "不适用",
+          "action": "评分算法教学，不属于验证集覆盖分析；原例子与证据保留。"
+        },
+        {
+          "topic": "A14",
+          "title": "按任务理解VEM评分：三份输入、矩阵运算、结果",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "不适用",
+          "action": "评分算法教学，不属于验证集覆盖分析；原例子与证据保留。"
+        },
+        {
+          "topic": "A14",
+          "title": "按任务理解VEM评分：三份输入、矩阵运算、结果",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "不适用",
+          "action": "评分算法教学，不属于验证集覆盖分析；原例子与证据保留。"
+        },
+        {
+          "topic": "A14",
+          "title": "按任务理解VEM评分：三份输入、矩阵运算、结果",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "不适用",
+          "action": "评分算法教学，不属于验证集覆盖分析；原例子与证据保留。"
+        }
+      ]
     },
     {
       "analysis_id": "A15",
@@ -257,11 +957,61 @@
       "evidence_status": "作者本地；本次已读报告、协议与完成收据",
       "limitation": "不同面板/归一化/样本口径；特定来源许可未在本轮认证，不推广至其他任务",
       "source_group": "older_comparison",
-      "finding": "历史比较保留了另一套来源与口径。",
+      "finding": "已接回原图和结果表，并展示历史验证结果。",
       "use": "查询旧分析、映射与来源记录，避免重复劳动。",
       "boundary": "不能把旧归一化结果或特定子集许可推广到其他条件。",
       "remote_reader": "../official_external_comparison_20261115/REPORT_ZH.md",
-      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115"
+      "remote_compute_root": "/home/biocosmosx/work/virtualembryo_cym/team/official_external_comparison_20261115",
+      "validation_review": [
+        {
+          "topic": "A15",
+          "title": "官方与同任务外部数据的基因面板、表达相似度实测",
+          "validation": "OFF_T1_E10.5_RNA",
+          "validation_label": "T1 E10.5",
+          "status": "已算未完整展示 → 补展示",
+          "action": "224项历史比较已含六份验证；取回原表和图，接回原章节，单列旧口径下的验证结果。"
+        },
+        {
+          "topic": "A15",
+          "title": "官方与同任务外部数据的基因面板、表达相似度实测",
+          "validation": "OFF_T2_embryo_E7.5",
+          "validation_label": "胚胎 E7.5",
+          "status": "已算未完整展示 → 补展示",
+          "action": "224项历史比较已含六份验证；取回原表和图，接回原章节，单列旧口径下的验证结果。"
+        },
+        {
+          "topic": "A15",
+          "title": "官方与同任务外部数据的基因面板、表达相似度实测",
+          "validation": "OFF_T2_heart_E8.5",
+          "validation_label": "心脏 E8.5",
+          "status": "已算未完整展示 → 补展示",
+          "action": "224项历史比较已含六份验证；取回原表和图，接回原章节，单列旧口径下的验证结果。"
+        },
+        {
+          "topic": "A15",
+          "title": "官方与同任务外部数据的基因面板、表达相似度实测",
+          "validation": "OFF_T2_heart_E10.5",
+          "validation_label": "心脏 E10.5",
+          "status": "已算未完整展示 → 补展示",
+          "action": "224项历史比较已含六份验证；取回原表和图，接回原章节，单列旧口径下的验证结果。"
+        },
+        {
+          "topic": "A15",
+          "title": "官方与同任务外部数据的基因面板、表达相似度实测",
+          "validation": "OFF_T3_E8.75_gata4_ko_1",
+          "validation_label": "Gata4 KO 重复1",
+          "status": "已算未完整展示 → 补展示",
+          "action": "224项历史比较已含六份验证；取回原表和图，接回原章节，单列旧口径下的验证结果。"
+        },
+        {
+          "topic": "A15",
+          "title": "官方与同任务外部数据的基因面板、表达相似度实测",
+          "validation": "OFF_T3_E8.75_gata4_ko_2",
+          "validation_label": "Gata4 KO 重复2",
+          "status": "已算未完整展示 → 补展示",
+          "action": "224项历史比较已含六份验证；取回原表和图，接回原章节，单列旧口径下的验证结果。"
+        }
+      ]
     }
   ]
 }

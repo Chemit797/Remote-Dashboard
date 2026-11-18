@@ -1,0 +1,541 @@
+source,author_label,cardiomyocyte,cardiac_broad,endothelial
+O_E6.75,Allantois,False,False,False
+O_E6.75,Anterior Epiblast,False,False,False
+O_E6.75,Blood Progenitor,False,False,False
+O_E6.75,CP,False,True,False
+O_E6.75,Caudal Epiblast,False,False,False
+O_E6.75,EXE-Ectoderm,False,False,False
+O_E6.75,EXE-Endoderm,False,False,False
+O_E6.75,ExEM-1,False,False,False
+O_E6.75,ExEM-2,False,False,False
+O_E6.75,Gut Endoderm,False,False,False
+O_E6.75,HEM-Endoth,False,False,False
+O_E6.75,LPM,False,False,False
+O_E6.75,PHM/PAM,False,False,False
+O_E6.75,Primitive Streak,False,False,False
+O_E6.75,SOM,False,False,False
+O_E6.75,Unknown,False,False,False
+O_E6.75,aSE,False,False,False
+O_E6.75,pSE,False,False,False
+O_E7.25,Allantois,False,False,False
+O_E7.25,Anterior Epiblast,False,False,False
+O_E7.25,Blood Progenitor,False,False,False
+O_E7.25,CP,False,True,False
+O_E7.25,Caudal Epiblast,False,False,False
+O_E7.25,EXE-Ectoderm,False,False,False
+O_E7.25,EXE-Endoderm,False,False,False
+O_E7.25,ExEM-1,False,False,False
+O_E7.25,ExEM-2,False,False,False
+O_E7.25,Gut Endoderm,False,False,False
+O_E7.25,HEM-Endoth,False,False,False
+O_E7.25,LPM,False,False,False
+O_E7.25,PHM/PAM,False,False,False
+O_E7.25,Primitive Streak,False,False,False
+O_E7.25,SOM,False,False,False
+O_E7.25,Unknown,False,False,False
+O_E7.25,aSE,False,False,False
+O_E7.25,pSE,False,False,False
+O_E8.0,Allantois,False,False,False
+O_E8.0,Allantois Endothelium,False,False,True
+O_E8.0,Caudal Epiblast,False,False,False
+O_E8.0,D-FG,False,False,False
+O_E8.0,EXE-Endoderm,False,False,False
+O_E8.0,EXE-Endothlium,False,False,True
+O_E8.0,ExEM-1,False,False,False
+O_E8.0,ExEM-2,False,False,False
+O_E8.0,FHF,False,True,False
+O_E8.0,Forebrain,False,False,False
+O_E8.0,HEM-Endoth,False,False,False
+O_E8.0,Hindbrain,False,False,False
+O_E8.0,Intra-Endoth,False,False,True
+O_E8.0,JCF,False,True,False
+O_E8.0,LPM,False,False,False
+O_E8.0,Primitive Streak,False,False,False
+O_E8.0,SHF,False,True,False
+O_E8.0,SOM,False,False,False
+O_E8.0,Unknown,False,False,False
+O_E8.0,V-FG,False,False,False
+O_E8.0,V-SE,False,False,False
+O_E8.0,aPHM,False,False,False
+O_E8.0,d-CSE,False,False,False
+O_E8.0,p-EXEM,False,False,False
+O_E8.0,pPHM,False,False,False
+O_E8.0,pSE,False,False,False
+O_E8.25_late,Allantois,False,False,False
+O_E8.25_late,Caudal Epiblast,False,False,False
+O_E8.25_late,D-FG,False,False,False
+O_E8.25_late,EXE-Endoderm,False,False,False
+O_E8.25_late,Endo,False,False,True
+O_E8.25_late,ExEM-1,False,False,False
+O_E8.25_late,ExEM-2,False,False,False
+O_E8.25_late,Forebrain,False,False,False
+O_E8.25_late,Gut Endoderm,False,False,False
+O_E8.25_late,HEM-Endoth,False,False,False
+O_E8.25_late,Hindgut,False,False,False
+O_E8.25_late,IFT-CM,True,True,False
+O_E8.25_late,Intra-Endoth-1,False,False,True
+O_E8.25_late,Intra-Endoth-2,False,False,True
+O_E8.25_late,JCF,False,True,False
+O_E8.25_late,LPM,False,False,False
+O_E8.25_late,Lateral FG,False,False,False
+O_E8.25_late,NCC,False,False,False
+O_E8.25_late,Neural Tube,False,False,False
+O_E8.25_late,PAM-1,False,False,False
+O_E8.25_late,PAM-2,False,False,False
+O_E8.25_late,PAM-3,False,False,False
+O_E8.25_late,PAM-4,False,False,False
+O_E8.25_late,Peri,False,False,False
+O_E8.25_late,SOM,False,False,False
+O_E8.25_late,Unknown,False,False,False
+O_E8.25_late,V-CM,True,True,False
+O_E8.25_late,V-CSE,False,False,False
+O_E8.25_late,a-FG,False,False,False
+O_E8.25_late,aPHM,False,False,False
+O_E8.25_late,d-CSE,False,False,False
+O_E8.25_late,pPHM,False,False,False
+O_E8.25_late,pSE,False,False,False
+O_E8.5_RNA,AVC-CM,True,True,False
+O_E8.5_RNA,Blood,False,False,False
+O_E8.5_RNA,EXEM,False,False,False
+O_E8.5_RNA,Endothelium,False,False,True
+O_E8.5_RNA,Foregut,False,False,False
+O_E8.5_RNA,IFT-CM,True,True,False
+O_E8.5_RNA,JCF,False,True,False
+O_E8.5_RNA,LV-CM,True,True,False
+O_E8.5_RNA,NCC,False,False,False
+O_E8.5_RNA,Neural Tube,False,False,False
+O_E8.5_RNA,OFT/RV-CM,True,True,False
+O_E8.5_RNA,Paraxial Mesoderm,False,False,False
+O_E8.5_RNA,Pericardium,False,False,False
+O_E8.5_RNA,RV-CM,True,True,False
+O_E8.5_RNA,SV-CM,True,True,False
+O_E8.5_RNA,Surface Ectoderm,False,False,False
+O_E8.5_RNA,aSHF,False,True,False
+O_E8.5_RNA,pSHF,False,True,False
+O_E8.75,Allantois,False,False,False
+O_E8.75,Caudal Epiblast,False,False,False
+O_E8.75,D-FG,False,False,False
+O_E8.75,EXE-Endoderm,False,False,False
+O_E8.75,Endo,False,False,True
+O_E8.75,ExEM-1,False,False,False
+O_E8.75,ExEM-2,False,False,False
+O_E8.75,Forebrain,False,False,False
+O_E8.75,Gut Endoderm,False,False,False
+O_E8.75,HEM-Endoth,False,False,False
+O_E8.75,Hindgut,False,False,False
+O_E8.75,IFT-CM,True,True,False
+O_E8.75,Intra-Endoth-1,False,False,True
+O_E8.75,Intra-Endoth-2,False,False,True
+O_E8.75,JCF,False,True,False
+O_E8.75,LPM,False,False,False
+O_E8.75,Lateral FG,False,False,False
+O_E8.75,NCC,False,False,False
+O_E8.75,Neural Tube,False,False,False
+O_E8.75,PAM-1,False,False,False
+O_E8.75,PAM-2,False,False,False
+O_E8.75,PAM-3,False,False,False
+O_E8.75,PAM-4,False,False,False
+O_E8.75,Peri,False,False,False
+O_E8.75,SOM,False,False,False
+O_E8.75,Unknown,False,False,False
+O_E8.75,V-CM,True,True,False
+O_E8.75,V-CSE,False,False,False
+O_E8.75,a-FG,False,False,False
+O_E8.75,aPHM,False,False,False
+O_E8.75,d-CSE,False,False,False
+O_E8.75,pPHM,False,False,False
+O_E8.75,pSE,False,False,False
+O_E9.5,A-CM,True,True,False
+O_E9.5,BEC,False,False,True
+O_E9.5,Branch Arch,False,False,False
+O_E9.5,Chamber-Endo,False,False,True
+O_E9.5,Cush-EndoMT-Endo,False,False,True
+O_E9.5,DMP,False,False,False
+O_E9.5,Dorsal-PAM,False,False,False
+O_E9.5,Foregut,False,False,False
+O_E9.5,Great Artery Endoth,False,False,True
+O_E9.5,Hepatocytes,False,False,False
+O_E9.5,Lateral-PAM,False,False,False
+O_E9.5,NCC,False,False,False
+O_E9.5,OFT-CM,True,True,False
+O_E9.5,Peri,False,False,False
+O_E9.5,Proepi,False,False,False
+O_E9.5,SE,False,False,False
+O_E9.5,ST,False,False,False
+O_E9.5,SV-CM,True,True,False
+O_E9.5,V-CM,True,True,False
+O_E9.5,aPHM,False,False,False
+O_E9.5,early-VEC,False,False,True
+O_E9.5,pPHM,False,False,False
+O_E9.5_RNA,AVC-CM,True,True,False
+O_E9.5_RNA,BEC,False,False,True
+O_E9.5_RNA,Blood,False,False,False
+O_E9.5_RNA,Endocardium,False,False,True
+O_E9.5_RNA,Epithelium,False,False,False
+O_E9.5_RNA,Foregut,False,False,False
+O_E9.5_RNA,Hepatocyte,False,False,False
+O_E9.5_RNA,IFT-CM,True,True,False
+O_E9.5_RNA,NCC,False,False,False
+O_E9.5_RNA,NCC-derived,False,False,False
+O_E9.5_RNA,OFT/RV-CM,True,True,False
+O_E9.5_RNA,Pericardium,False,False,False
+O_E9.5_RNA,Proepicardium,False,False,False
+O_E9.5_RNA,ST,False,False,False
+O_E9.5_RNA,SV-CM,True,True,False
+O_E9.5_RNA,Surface Ectoderm,False,False,False
+O_E9.5_RNA,V-CM,True,True,False
+O_E9.5_RNA,aPHM,False,False,False
+O_E9.5_RNA,aSHF,False,True,False
+O_E9.5_RNA,pPHM,False,False,False
+O_E9.5_RNA,pSHF,False,True,False
+O_E9.5_mab21l2_ko,Branchial Arch,False,False,False
+O_E9.5_mab21l2_ko,DPM,False,False,False
+O_E9.5_mab21l2_ko,Endocardium,False,False,True
+O_E9.5_mab21l2_ko,Endothelium,False,False,True
+O_E9.5_mab21l2_ko,Foregut,False,False,False
+O_E9.5_mab21l2_ko,Hepatocyte,False,False,False
+O_E9.5_mab21l2_ko,LPM,False,False,False
+O_E9.5_mab21l2_ko,Neural Tube,False,False,False
+O_E9.5_mab21l2_ko,OFT/RV-CM,True,True,False
+O_E9.5_mab21l2_ko,Paraxial Mesoderm,False,False,False
+O_E9.5_mab21l2_ko,Pericardium,False,False,False
+O_E9.5_mab21l2_ko,Proepicardium,False,False,False
+O_E9.5_mab21l2_ko,SV-CM,True,True,False
+O_E9.5_mab21l2_ko,Surface Ectoderm,False,False,False
+O_E9.5_mab21l2_ko,vCM,True,True,False
+O_E10.5_RNA,AVC-CM,True,True,False
+O_E10.5_RNA,BEC,False,False,True
+O_E10.5_RNA,Blood,False,False,False
+O_E10.5_RNA,Early VIC,False,False,False
+O_E10.5_RNA,EndoMT Endocardium,False,False,True
+O_E10.5_RNA,Endocardium-1,False,False,True
+O_E10.5_RNA,Endocardium-2,False,False,True
+O_E10.5_RNA,Epicardium,False,False,False
+O_E10.5_RNA,Gut Endoderm,False,False,False
+O_E10.5_RNA,Hepatocyte,False,False,False
+O_E10.5_RNA,IFT-CM,True,True,False
+O_E10.5_RNA,LV-CM,True,True,False
+O_E10.5_RNA,Macrophage,False,False,False
+O_E10.5_RNA,NCC,False,False,False
+O_E10.5_RNA,OFT-CM,True,True,False
+O_E10.5_RNA,Pericardium,False,False,False
+O_E10.5_RNA,RV-CM,True,True,False
+O_E10.5_RNA,ST,False,False,False
+O_E10.5_RNA,SV-CM,True,True,False
+O_E10.5_RNA,Surface Ectoderm,False,False,False
+O_E10.5_RNA,aPHM,False,False,False
+O_E10.5_RNA,pPHM,False,False,False
+O_E10.5_RNA,pSHF,False,True,False
+O_E10.5,A-CM,True,True,False
+O_E10.5,BEC,False,False,True
+O_E10.5,BW,False,False,False
+O_E10.5,Branch Arch,False,False,False
+O_E10.5,Bronchus,False,False,False
+O_E10.5,Chamber-Endo,False,False,True
+O_E10.5,Cush-EndoMT-Endo,False,False,True
+O_E10.5,DMP,False,False,False
+O_E10.5,Dorsal-PAM,False,False,False
+O_E10.5,Epi,False,False,False
+O_E10.5,Great Artery Endoth,False,False,True
+O_E10.5,HEM-Endoth,False,False,False
+O_E10.5,Hepatocytes,False,False,False
+O_E10.5,Late-a-PHM,False,False,False
+O_E10.5,NCC,False,False,False
+O_E10.5,OFT-CM,True,True,False
+O_E10.5,Peri,False,False,False
+O_E10.5,SE,False,False,False
+O_E10.5,SV-CM,True,True,False
+O_E10.5,Unknown,False,False,False
+O_E10.5,V-CM,True,True,False
+O_E10.5,Valve-EndoMT-Endo,False,False,True
+O_E10.5,early-VEC,False,False,True
+O_E7.5,Allantois,False,False,False
+O_E7.5,Anterior Epiblast,False,False,False
+O_E7.5,Blood Progenitor,False,False,False
+O_E7.5,CP,False,True,False
+O_E7.5,Caudal Epiblast,False,False,False
+O_E7.5,EXE-Ectoderm,False,False,False
+O_E7.5,EXE-Endoderm,False,False,False
+O_E7.5,ExEM-1,False,False,False
+O_E7.5,ExEM-2,False,False,False
+O_E7.5,Gut Endoderm,False,False,False
+O_E7.5,HEM-Endoth,False,False,False
+O_E7.5,LPM,False,False,False
+O_E7.5,PHM/PAM,False,False,False
+O_E7.5,Primitive Streak,False,False,False
+O_E7.5,SOM,False,False,False
+O_E7.5,Unknown,False,False,False
+O_E7.5,aSE,False,False,False
+O_E7.5,pSE,False,False,False
+O_E8.5,Allantois,False,False,False
+O_E8.5,Caudal Epiblast,False,False,False
+O_E8.5,D-FG,False,False,False
+O_E8.5,EXE-Endoderm,False,False,False
+O_E8.5,Endo,False,False,True
+O_E8.5,ExEM-1,False,False,False
+O_E8.5,ExEM-2,False,False,False
+O_E8.5,Forebrain,False,False,False
+O_E8.5,Gut Endoderm,False,False,False
+O_E8.5,HEM-Endoth,False,False,False
+O_E8.5,Hindgut,False,False,False
+O_E8.5,IFT-CM,True,True,False
+O_E8.5,Intra-Endoth-1,False,False,True
+O_E8.5,Intra-Endoth-2,False,False,True
+O_E8.5,JCF,False,True,False
+O_E8.5,LPM,False,False,False
+O_E8.5,Lateral FG,False,False,False
+O_E8.5,NCC,False,False,False
+O_E8.5,Neural Tube,False,False,False
+O_E8.5,PAM-1,False,False,False
+O_E8.5,PAM-2,False,False,False
+O_E8.5,PAM-3,False,False,False
+O_E8.5,PAM-4,False,False,False
+O_E8.5,Peri,False,False,False
+O_E8.5,SOM,False,False,False
+O_E8.5,Unknown,False,False,False
+O_E8.5,V-CM,True,True,False
+O_E8.5,V-CSE,False,False,False
+O_E8.5,a-FG,False,False,False
+O_E8.5,aPHM,False,False,False
+O_E8.5,d-CSE,False,False,False
+O_E8.5,pPHM,False,False,False
+O_E8.5,pSE,False,False,False
+O_E8.75_gata4_ko_1,Anterior Pharyngeal Mesoderm,False,False,False
+O_E8.75_gata4_ko_1,Artificial,False,False,False
+O_E8.75_gata4_ko_1,CM,True,True,False
+O_E8.75_gata4_ko_1,Dorsal Foregut,False,False,False
+O_E8.75_gata4_ko_1,Dorsal Surface Ectoderm,False,False,False
+O_E8.75_gata4_ko_1,Endocardium/Intra-Embryonic Endothelium,False,False,True
+O_E8.75_gata4_ko_1,Extra Endoderm,False,False,False
+O_E8.75_gata4_ko_1,Extra-Embryonic Mesenchyme-1,False,False,False
+O_E8.75_gata4_ko_1,Extra-Embryonic Mesenchyme-2,False,False,False
+O_E8.75_gata4_ko_1,Haematopoetic Endothelium,False,False,False
+O_E8.75_gata4_ko_1,NCC-1,False,False,False
+O_E8.75_gata4_ko_1,NCC-2,False,False,False
+O_E8.75_gata4_ko_1,NCC-3,False,False,False
+O_E8.75_gata4_ko_1,Neural Tube,False,False,False
+O_E8.75_gata4_ko_1,Paraxial Mesoderm-1,False,False,False
+O_E8.75_gata4_ko_1,Paraxial Mesoderm-2,False,False,False
+O_E8.75_gata4_ko_1,Pericardium/Body Wall,False,False,False
+O_E8.75_gata4_ko_1,Posterior Pharyngeal Mesoderm,False,False,False
+O_E8.75_gata4_ko_1,Ventral Foregut,False,False,False
+O_E8.75_gata4_ko_1,Ventral Surface Ectoderm,False,False,False
+O_E8.75_gata4_ko_2,Anterior Pharyngeal Mesoderm,False,False,False
+O_E8.75_gata4_ko_2,Artificial,False,False,False
+O_E8.75_gata4_ko_2,CM,True,True,False
+O_E8.75_gata4_ko_2,Dorsal Foregut,False,False,False
+O_E8.75_gata4_ko_2,Dorsal Surface Ectoderm,False,False,False
+O_E8.75_gata4_ko_2,Endocardium/Intra-Embryonic Endothelium,False,False,True
+O_E8.75_gata4_ko_2,Extra Endoderm,False,False,False
+O_E8.75_gata4_ko_2,Extra-Embryonic Mesenchyme-1,False,False,False
+O_E8.75_gata4_ko_2,Extra-Embryonic Mesenchyme-2,False,False,False
+O_E8.75_gata4_ko_2,Haematopoetic Endothelium,False,False,False
+O_E8.75_gata4_ko_2,NCC-1,False,False,False
+O_E8.75_gata4_ko_2,NCC-2,False,False,False
+O_E8.75_gata4_ko_2,NCC-3,False,False,False
+O_E8.75_gata4_ko_2,Neural Tube,False,False,False
+O_E8.75_gata4_ko_2,Paraxial Mesoderm-1,False,False,False
+O_E8.75_gata4_ko_2,Paraxial Mesoderm-2,False,False,False
+O_E8.75_gata4_ko_2,Pericardium/Body Wall,False,False,False
+O_E8.75_gata4_ko_2,Posterior Pharyngeal Mesoderm,False,False,False
+O_E8.75_gata4_ko_2,Ventral Foregut,False,False,False
+O_E8.75_gata4_ko_2,Ventral Surface Ectoderm,False,False,False
+Pijuan,Allantois,False,False,False
+Pijuan,Anterior Primitive Streak,False,False,False
+Pijuan,Blood progenitors 1,False,False,False
+Pijuan,Blood progenitors 2,False,False,False
+Pijuan,Cardiomyocytes,True,True,False
+Pijuan,Caudal Mesoderm,False,False,False
+Pijuan,Caudal epiblast,False,False,False
+Pijuan,Caudal neurectoderm,False,False,False
+Pijuan,Def. endoderm,False,False,False
+Pijuan,Endothelium,False,False,True
+Pijuan,Epiblast,False,False,False
+Pijuan,Erythroid1,False,False,False
+Pijuan,Erythroid2,False,False,False
+Pijuan,Erythroid3,False,False,False
+Pijuan,ExE ectoderm,False,False,False
+Pijuan,ExE endoderm,False,False,False
+Pijuan,ExE mesoderm,False,False,False
+Pijuan,Forebrain/Midbrain/Hindbrain,False,False,False
+Pijuan,Gut,False,False,False
+Pijuan,Haematoendothelial progenitors,False,False,False
+Pijuan,Intermediate mesoderm,False,False,False
+Pijuan,Mesenchyme,False,False,False
+Pijuan,Mixed mesoderm,False,False,False
+Pijuan,NMP,False,False,False
+Pijuan,Nascent mesoderm,False,False,False
+Pijuan,Neural crest,False,False,False
+Pijuan,Notochord,False,False,False
+Pijuan,PGC,False,False,False
+Pijuan,Paraxial mesoderm,False,False,False
+Pijuan,Parietal endoderm,False,False,False
+Pijuan,Pharyngeal mesoderm,False,False,False
+Pijuan,Primitive Streak,False,False,False
+Pijuan,Rostral neurectoderm,False,False,False
+Pijuan,Somitic mesoderm,False,False,False
+Pijuan,Spinal cord,False,False,False
+Pijuan,Surface ectoderm,False,False,False
+Pijuan,Visceral endoderm,False,False,False
+Pijuan,nan,False,False,False
+Mesp1,not distributed (ident = stage),False,False,False
+MOCA,Amniochorionic mesoderm A,False,False,False
+MOCA,Amniochorionic mesoderm B,False,False,False
+MOCA,Anterior floor plate,False,False,False
+MOCA,Apical ectodermal ridge,False,False,False
+MOCA,Blood progenitors,False,False,False
+MOCA,Branchial arch epithelium,False,False,False
+MOCA,Chondrocyte and osteoblast progenitors,False,False,False
+MOCA,Di/telencephalon,False,False,False
+MOCA,Endothelium,False,False,True
+MOCA,Extraembryonic mesoderm,False,False,False
+MOCA,Extraembryonic visceral endoderm,False,False,False
+MOCA,First heart field,False,True,False
+MOCA,Fusing epithelium,False,False,False
+MOCA,Gut and lung epithelium,False,False,False
+MOCA,Hepatocytes,False,False,False
+MOCA,Hindbrain,False,False,False
+MOCA,Intermediate mesoderm,False,False,False
+MOCA,Limb mesenchyme progenitors,False,False,False
+MOCA,Mesencephalon/MHB,False,False,False
+MOCA,Mesenchymal stromal cells,False,False,False
+MOCA,Motor neurons,False,False,False
+MOCA,Neural crest (PNS glia),False,False,False
+MOCA,Neural crest (PNS neurons),False,False,False
+MOCA,Neuromesodermal progenitors,False,False,False
+MOCA,Neuron progenitor cells,False,False,False
+MOCA,Olfactory epithelium,False,False,False
+MOCA,Osteoblast progenitors A,False,False,False
+MOCA,Osteoblast progenitors B,False,False,False
+MOCA,Otic epithelium,False,False,False
+MOCA,Paraxial mesoderm B,False,False,False
+MOCA,Placodal area,False,False,False
+MOCA,Posterior floor plate,False,False,False
+MOCA,Pre-epidermal keratinocytes,False,False,False
+MOCA,Primitive erythroid cells,False,False,False
+MOCA,Primordial germ cells,False,False,False
+MOCA,Renal epithelium,False,False,False
+MOCA,Retinal primordium,False,False,False
+MOCA,Roof plate,False,False,False
+MOCA,Second heart field,False,True,False
+MOCA,Skeletal muscle progenitors,False,False,False
+MOCA,Somatic mesoderm,False,False,False
+MOCA,Spinal cord (dorsal),False,False,False
+MOCA,Spinal cord (ventral),False,False,False
+MOCA,Splanchnic mesoderm,False,False,False
+TOME,Allantois,False,False,False
+TOME,Amniochorionic mesoderm A,False,False,False
+TOME,Amniochorionic mesoderm B,False,False,False
+TOME,Anterior floor plate,False,False,False
+TOME,Blood progenitors,False,False,False
+TOME,Definitive endoderm,False,False,False
+TOME,Endothelium,False,False,True
+TOME,Extraembryonic mesoderm,False,False,False
+TOME,Extraembryonic visceral endoderm,False,False,False
+TOME,First heart field,False,True,False
+TOME,Forebrain/midbrain,False,False,False
+TOME,Fusing epithelium,False,False,False
+TOME,Gut,False,False,False
+TOME,Hematoendothelial progenitors,False,False,False
+TOME,Hindbrain,False,False,False
+TOME,Intermediate mesoderm,False,False,False
+TOME,Neural crest,False,False,False
+TOME,Neuromesodermal progenitors,False,False,False
+TOME,Notochord,False,False,False
+TOME,Paraxial mesoderm A,False,False,False
+TOME,Paraxial mesoderm B,False,False,False
+TOME,Placodal area,False,False,False
+TOME,Posterior floor plate,False,False,False
+TOME,Pre-epidermal keratinocytes,False,False,False
+TOME,Primitive erythroid cells,False,False,False
+TOME,Primordial germ cells,False,False,False
+TOME,Second heart field,False,True,False
+TOME,Somatic mesoderm,False,False,False
+TOME,Spinal cord,False,False,False
+TOME,Splanchnic mesoderm,False,False,False
+deSoysa,not distributed,False,False,False
+QiuCardiac,Atrial cardiomyocytes,True,True,False
+QiuCardiac,First heart field,False,True,False
+QiuCardiac,Second heart field,False,True,False
+QiuCardiac,Ventricular cardiomyocytes,True,True,False
+QiuEndo,Arterial endothelial cells,False,False,True
+QiuEndo,Brain capillary endothelial cells,False,False,True
+QiuEndo,Brain pericytes,False,False,False
+QiuEndo,Endocardial cells,False,False,True
+QiuEndo,Endothelium,False,False,True
+QiuEndo,Glomerular endothelial cells,False,False,True
+QiuEndo,Hematoendothelial progenitors,False,False,False
+QiuEndo,Liver sinusoidal endothelial cells,False,False,True
+QiuEndo,Lymphatic vessel endothelial cells,False,False,True
+QiuEndo,Microvascular endothelial cells,False,False,True
+QiuEndo,Pericytes,False,False,False
+QiuEndo,Venous and capillary endothelial cells,False,False,True
+Feng,atrial_cm,True,True,False
+Feng,blood,False,False,False
+Feng,endocardial_ec,False,False,True
+Feng,epicardial,False,False,False
+Feng,fibroblast-like,False,False,False
+Feng,immune,False,False,False
+Feng,vascular_ec,False,False,True
+Feng,ventricular_cm,True,True,False
+MOSTA,unlabeled,False,False,False
+Stereo1,Allantois,False,False,False
+Stereo1,Blood progenitors 1,False,False,False
+Stereo1,Blood progenitors 2,False,False,False
+Stereo1,Cardiomyocytes,True,True,False
+Stereo1,Caudal epiblast,False,False,False
+Stereo1,Caudal neurectoderm,False,False,False
+Stereo1,Def. endoderm,False,False,False
+Stereo1,Endothelium,False,False,True
+Stereo1,Erythroid1,False,False,False
+Stereo1,ExE endoderm,False,False,False
+Stereo1,ExE mesoderm,False,False,False
+Stereo1,Forebrain/Midbrain/Hindbrain,False,False,False
+Stereo1,Gut,False,False,False
+Stereo1,Haematoendothelial progenitors,False,False,False
+Stereo1,Mesenchyme,False,False,False
+Stereo1,NMP,False,False,False
+Stereo1,PGC,False,False,False
+Stereo1,Paraxial mesoderm,False,False,False
+Stereo1,Parietal endoderm,False,False,False
+Stereo1,Pharyngeal mesoderm,False,False,False
+Stereo1,Rostral neurectoderm,False,False,False
+Stereo1,Spinal cord,False,False,False
+Stereo1,Surface ectoderm,False,False,False
+Stereo1,pre-somitic,False,False,False
+Stereo2,Allantois,False,False,False
+Stereo2,Blood progenitors 1,False,False,False
+Stereo2,Cardiomyocytes,True,True,False
+Stereo2,Caudal Mesoderm,False,False,False
+Stereo2,Caudal epiblast,False,False,False
+Stereo2,Caudal neurectoderm,False,False,False
+Stereo2,Def. endoderm,False,False,False
+Stereo2,Endothelium,False,False,True
+Stereo2,Erythroid2,False,False,False
+Stereo2,ExE endoderm,False,False,False
+Stereo2,ExE mesoderm,False,False,False
+Stereo2,Forebrain/Midbrain/Hindbrain,False,False,False
+Stereo2,Gut,False,False,False
+Stereo2,Haematoendothelial progenitors,False,False,False
+Stereo2,Intermediate mesoderm,False,False,False
+Stereo2,Mesenchyme,False,False,False
+Stereo2,NMP,False,False,False
+Stereo2,Notochord,False,False,False
+Stereo2,PGC,False,False,False
+Stereo2,Paraxial mesoderm,False,False,False
+Stereo2,Parietal endoderm,False,False,False
+Stereo2,Pharyngeal mesoderm,False,False,False
+Stereo2,Pre-somitic,False,False,False
+Stereo2,Rostral neurectoderm,False,False,False
+Stereo2,Spinal cord,False,False,False
+Stereo2,Surface ectoderm,False,False,False
+MERSCOPE_9.5_r0,unlabeled,False,False,False
+MERSCOPE_9.5_r1,unlabeled,False,False,False
+MERSCOPE_15.5_r0,unlabeled,False,False,False
+Endo10x1,unlabeled,False,False,False
+Endo10x2,unlabeled,False,False,False
+GataHet1,unlabeled,False,False,False
+GataHet2,unlabeled,False,False,False
+GataKO1,unlabeled,False,False,False
+GataKO2,unlabeled,False,False,False
+Visium16,unlabeled,False,False,False

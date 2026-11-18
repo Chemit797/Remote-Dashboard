@@ -1781,5 +1781,213 @@
       "unselected_values_parsed": false
     },
     "excluded_gene_symbols": []
+  },
+  "OFF_T2_embryo_E7.5": {
+    "id": "OFF_T2_embryo_E7.5",
+    "cache_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/OFF_T2_embryo_E7.5",
+    "n": 11665,
+    "genes": 500,
+    "original_features": 500,
+    "stages": [
+      "E7.5"
+    ],
+    "unit": "segmented_cell",
+    "scope": "official collection scope; stage dependent",
+    "sample_note": null,
+    "semantics": "verified_integer_count_layer",
+    "invalid_stored_values": 0,
+    "negative_values": 0,
+    "files": {
+      "mass.npz": {
+        "bytes": 621410,
+        "sha256": "e2669bd8f96f6bde706385b80fe0e034eba8f662fb4defcca295d5646d9cd296"
+      },
+      "obs.csv": {
+        "bytes": 560881,
+        "sha256": "edc5c286a6ab80fde16906c43925752d784208a0a162998513eb8484d9097f2c"
+      },
+      "info.json": {
+        "bytes": 7286,
+        "sha256": "0e7a8c4cadc7dbc459d5adf4e6913214d5418ee7d58f078306881276b5f7f93f"
+      },
+      "row_stats.npz": {
+        "bytes": 280742,
+        "sha256": "0a6e95304cf9c30414b501f5b71e02bf272a04f98765c4a95f46bd4ed510e0bf"
+      }
+    },
+    "original_audit": {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E7.5.h5ad",
+      "sha256": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+      "bytes": 94538489,
+      "layer": "layers/counts",
+      "shape": [
+        11665,
+        500
+      ],
+      "noninteger_max_error": 0.0,
+      "logCP10k_reconstruction_max_abs_error": 5.442338579797479e-07,
+      "relative_mass_totals_q": [
+        20.0,
+        62.0,
+        698.0
+      ]
+    },
+    "excluded_gene_symbols": []
+  },
+  "OFF_T2_heart_E8.5": {
+    "id": "OFF_T2_heart_E8.5",
+    "cache_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/OFF_T2_heart_E8.5",
+    "n": 23710,
+    "genes": 500,
+    "original_features": 500,
+    "stages": [
+      "E8.5"
+    ],
+    "unit": "segmented_cell",
+    "scope": "official collection scope; stage dependent",
+    "sample_note": null,
+    "semantics": "verified_integer_count_layer",
+    "invalid_stored_values": 0,
+    "negative_values": 0,
+    "files": {
+      "mass.npz": {
+        "bytes": 2250295,
+        "sha256": "956231dd469bbb5f8f4c4fc89744966b4c4685de0ae5e4d775ac260fe88e87d4"
+      },
+      "obs.csv": {
+        "bytes": 1220056,
+        "sha256": "e16fcf9b194b84a6f137546f432c338475fdd8e2b86041d568bb3413adb62c26"
+      },
+      "info.json": {
+        "bytes": 7285,
+        "sha256": "f8ce6ede70ad5445fa6b4c1c0d0334d8a03190f76e96a8672663c023dcc174bf"
+      },
+      "row_stats.npz": {
+        "bytes": 569822,
+        "sha256": "47e010092fd44ed35d9adcf2260f3a39c4120f9426b31d997695f61feb9d911e"
+      }
+    },
+    "original_audit": {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E8.5.h5ad",
+      "sha256": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+      "bytes": 85209108,
+      "layer": "layers/counts",
+      "shape": [
+        23710,
+        500
+      ],
+      "noninteger_max_error": 0.0,
+      "logCP10k_reconstruction_max_abs_error": 4.853789938863429e-07,
+      "relative_mass_totals_q": [
+        3.0,
+        166.0,
+        1410.0
+      ]
+    },
+    "excluded_gene_symbols": []
+  },
+  "OFF_T1_E10.5_RNA": {
+    "id": "OFF_T1_E10.5_RNA",
+    "cache_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/OFF_T1_E10.5_RNA",
+    "n": 24979,
+    "genes": 32285,
+    "original_features": 32285,
+    "stages": [
+      "E10.5"
+    ],
+    "unit": "nucleus",
+    "scope": "official collection scope; stage dependent",
+    "sample_note": null,
+    "semantics": "inverse_log_relative_mass_not_raw_counts",
+    "invalid_stored_values": 0,
+    "negative_values": 0,
+    "files": {
+      "mass.npz": {
+        "bytes": 173206083,
+        "sha256": "7d39230a5dc5f68524e64fa136f1d592f69a7be2a4e1c684acc007424f351a02"
+      },
+      "obs.csv": {
+        "bytes": 1327400,
+        "sha256": "7e1a742f1130aa10d55b7a6dbfd75e6f7d2c6092370b89ba2db19cb76c1f5b3a"
+      },
+      "info.json": {
+        "bytes": 471605,
+        "sha256": "d6bcb8a7d9fb3a803c9f0a6fd4a28c32f91a91e2845d563158cf448b94d474b2"
+      },
+      "row_stats.npz": {
+        "bytes": 600278,
+        "sha256": "7b4800e16b2760dfca9331a16fbe07733296de1ce23cc282b094bcf2b290000d"
+      }
+    },
+    "original_audit": {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T1/E10.5_RNA.h5ad",
+      "sha256": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+      "bytes": 647176723,
+      "layer": "expm1(X)",
+      "shape": [
+        24979,
+        32285
+      ],
+      "noninteger_max_error": null,
+      "logCP10k_reconstruction_max_abs_error": null,
+      "relative_mass_totals_q": [
+        9999.998863817027,
+        10000.000000354315,
+        10000.001119026228
+      ]
+    },
+    "excluded_gene_symbols": []
+  },
+  "OFF_T2_heart_E10.5": {
+    "id": "OFF_T2_heart_E10.5",
+    "cache_path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/OFF_T2_heart_E10.5",
+    "n": 167864,
+    "genes": 500,
+    "original_features": 500,
+    "stages": [
+      "E10.5"
+    ],
+    "unit": "segmented_cell",
+    "scope": "official collection scope; stage dependent",
+    "sample_note": null,
+    "semantics": "verified_integer_count_layer",
+    "invalid_stored_values": 0,
+    "negative_values": 0,
+    "files": {
+      "mass.npz": {
+        "bytes": 8063151,
+        "sha256": "fa7315dda1c1dec6131648720c5b928ec6b8588d6e292858efa9dbe5665f7898"
+      },
+      "obs.csv": {
+        "bytes": 9369913,
+        "sha256": "0c7cc6e66bfd6a2de652fa08df593ecfd61ad6ce2124acc5269b6b5ee9f8e5bd"
+      },
+      "info.json": {
+        "bytes": 7289,
+        "sha256": "86d08c0c22a1a97ec952152a73f0f0759956244c63668c61ab743ad3fe16032c"
+      },
+      "row_stats.npz": {
+        "bytes": 4029518,
+        "sha256": "1277f5e00e2241cf152fee513d24832c8ff8d02c18fb4c90e808ff1eb6c45dd4"
+      }
+    },
+    "original_audit": {
+      "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E10.5.h5ad",
+      "sha256": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+      "bytes": 484175760,
+      "layer": "layers/counts",
+      "shape": [
+        167864,
+        500
+      ],
+      "noninteger_max_error": 0.0,
+      "logCP10k_reconstruction_max_abs_error": 5.442338579797479e-07,
+      "relative_mass_totals_q": [
+        20.0,
+        56.0,
+        586.0
+      ]
+    },
+    "excluded_gene_symbols": []
   }
 }

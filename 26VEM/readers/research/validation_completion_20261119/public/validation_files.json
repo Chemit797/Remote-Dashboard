@@ -1,0 +1,358 @@
+[
+  {
+    "id": "OFF_T1_E10.5_RNA",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T1/E10.5_RNA.h5ad",
+    "bytes": 647176723,
+    "sha256": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+    "shape": [
+      24979,
+      32285
+    ],
+    "obs_columns": [
+      "celltype"
+    ],
+    "layers": [],
+    "coordinates": null,
+    "sample_field": "released file; biological individuals not identified",
+    "cache_genes_labels_shape_match": true,
+    "raw_cache_101_row_max_error": 3.559166293598537e-05,
+    "full_source_zero_fraction": 0.9086998927015683,
+    "detected_genes_median": 2869.0,
+    "zero_total": 0,
+    "labels": {
+      "Blood": 3818,
+      "Epicardium": 3028,
+      "Endocardium-1": 1766,
+      "pPHM": 1673,
+      "Endocardium-2": 1566,
+      "pSHF": 1534,
+      "Surface Ectoderm": 1482,
+      "aPHM": 1243,
+      "EndoMT Endocardium": 1234,
+      "Early VIC": 1141,
+      "OFT-CM": 924,
+      "BEC": 843,
+      "RV-CM": 813,
+      "LV-CM": 775,
+      "ST": 617,
+      "Pericardium": 616,
+      "SV-CM": 379,
+      "NCC": 363,
+      "AVC-CM": 325,
+      "Macrophage": 318,
+      "IFT-CM": 237,
+      "Hepatocyte": 164,
+      "Gut Endoderm": 120
+    }
+  },
+  {
+    "id": "OFF_T2_embryo_E7.5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E7.5.h5ad",
+    "bytes": 94538489,
+    "sha256": "e8e47255ddeca96d5604c7cd4923bbf27765c24bc6a3cd44e800cd6ea05a7d54",
+    "shape": [
+      11665,
+      500
+    ],
+    "obs_columns": [
+      "celltype"
+    ],
+    "layers": [
+      "counts",
+      "log1p"
+    ],
+    "coordinates": {
+      "shape": [
+        11665,
+        3
+      ],
+      "finite": true,
+      "z_sections": 34
+    },
+    "sample_field": "released file; biological individuals not identified",
+    "cache_genes_labels_shape_match": true,
+    "raw_cache_101_row_max_error": 0.0,
+    "full_source_zero_fraction": 0.9313200171453064,
+    "detected_genes_median": 29.0,
+    "zero_total": 0,
+    "labels": {
+      "EXE-Endoderm": 1976,
+      "Anterior Epiblast": 1126,
+      "Caudal Epiblast": 923,
+      "ExEM-2": 904,
+      "PHM/PAM": 893,
+      "Gut Endoderm": 865,
+      "Allantois": 649,
+      "CP": 643,
+      "SOM": 635,
+      "Primitive Streak": 607,
+      "aSE": 486,
+      "Unknown": 457,
+      "ExEM-1": 457,
+      "LPM": 346,
+      "HEM-Endoth": 288,
+      "EXE-Ectoderm": 241,
+      "Blood Progenitor": 130,
+      "pSE": 39
+    }
+  },
+  {
+    "id": "OFF_T2_heart_E8.5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E8.5.h5ad",
+    "bytes": 85209108,
+    "sha256": "41c76db18bfaa92c1d66f8220ec5fbb6d6acccb0a6b78241f40080a3096d37db",
+    "shape": [
+      23710,
+      500
+    ],
+    "obs_columns": [
+      "celltype",
+      "cm_celltype"
+    ],
+    "layers": [
+      "counts",
+      "log1p"
+    ],
+    "coordinates": {
+      "shape": [
+        23710,
+        3
+      ],
+      "finite": true,
+      "z_sections": 25
+    },
+    "sample_field": "released file; biological individuals not identified",
+    "cache_genes_labels_shape_match": true,
+    "raw_cache_101_row_max_error": 0.0,
+    "full_source_zero_fraction": 0.8770166174609869,
+    "detected_genes_median": 61.0,
+    "zero_total": 0,
+    "labels": {
+      "ExEM-1": 2316,
+      "NCC": 1461,
+      "Neural Tube": 1455,
+      "SOM": 1422,
+      "V-CM": 1308,
+      "Caudal Epiblast": 1148,
+      "V-CSE": 1110,
+      "d-CSE": 1002,
+      "LPM": 842,
+      "aPHM": 840,
+      "D-FG": 771,
+      "EXE-Endoderm": 771,
+      "Intra-Endoth-1": 753,
+      "PAM-2": 751,
+      "PAM-1": 724,
+      "JCF": 720,
+      "PAM-3": 695,
+      "ExEM-2": 663,
+      "IFT-CM": 611,
+      "PAM-4": 546,
+      "Endo": 512,
+      "pPHM": 512,
+      "pSE": 481,
+      "a-FG": 476,
+      "Peri": 310,
+      "Unknown": 263,
+      "Hindgut": 258,
+      "Intra-Endoth-2": 228,
+      "HEM-Endoth": 209,
+      "Lateral FG": 178,
+      "Allantois": 175,
+      "Gut Endoderm": 137,
+      "Forebrain": 62
+    }
+  },
+  {
+    "id": "OFF_T2_heart_E10.5",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T2/E10.5.h5ad",
+    "bytes": 484175760,
+    "sha256": "d6b37967f9cf3533091964cd07421c48a5c7c04628e9321123a426cb2a9c7e8b",
+    "shape": [
+      167864,
+      500
+    ],
+    "obs_columns": [
+      "celltype",
+      "cm_celltype"
+    ],
+    "layers": [
+      "counts",
+      "log1p"
+    ],
+    "coordinates": {
+      "shape": [
+        167864,
+        3
+      ],
+      "finite": true,
+      "z_sections": 44
+    },
+    "sample_field": "released file; biological individuals not identified",
+    "cache_genes_labels_shape_match": true,
+    "raw_cache_101_row_max_error": 0.0,
+    "full_source_zero_fraction": 0.9352538126102082,
+    "detected_genes_median": 30.0,
+    "zero_total": 0,
+    "labels": {
+      "Dorsal-PAM": 26634,
+      "Late-a-PHM": 22490,
+      "Peri": 15816,
+      "V-CM": 9782,
+      "Branch Arch": 9742,
+      "DMP": 9595,
+      "A-CM": 9502,
+      "Epi": 7563,
+      "BW": 7475,
+      "Chamber-Endo": 6972,
+      "Hepatocytes": 5533,
+      "BEC": 5308,
+      "NCC": 4444,
+      "Cush-EndoMT-Endo": 4093,
+      "Great Artery Endoth": 3630,
+      "Unknown": 3299,
+      "SV-CM": 3098,
+      "Bronchus": 2654,
+      "OFT-CM": 2654,
+      "Valve-EndoMT-Endo": 2621,
+      "early-VEC": 2392,
+      "SE": 1842,
+      "HEM-Endoth": 725
+    }
+  },
+  {
+    "id": "OFF_T3_E8.75_gata4_ko_1",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T3/E8.75_gata4_ko_1.h5ad",
+    "bytes": 373752585,
+    "sha256": "3805715d25c85873a8c51c86be44e8e42affaec0557e1b05f9d99db2ef976cad",
+    "shape": [
+      42257,
+      500
+    ],
+    "obs_columns": [
+      "slide",
+      "n_genes",
+      "n_counts",
+      "leiden",
+      "section",
+      "condition",
+      "embryo_section",
+      "embryo",
+      "celltype",
+      "sample_id",
+      "z_coord",
+      "celltype_clean",
+      "time",
+      "genotype",
+      "perturb_batch"
+    ],
+    "layers": [
+      "counts",
+      "log1p",
+      "normalized_counts"
+    ],
+    "coordinates": {
+      "shape": [
+        42257,
+        3
+      ],
+      "finite": true,
+      "z_sections": 46
+    },
+    "sample_field": "released file; biological individuals not identified",
+    "cache_genes_labels_shape_match": true,
+    "raw_cache_101_row_max_error": 0.0,
+    "full_source_zero_fraction": 0.9221303452682396,
+    "detected_genes_median": 38.0,
+    "zero_total": 0,
+    "labels": {
+      "Neural Tube": 6403,
+      "Extra-Embryonic Mesenchyme-1": 3977,
+      "Paraxial Mesoderm-2": 3505,
+      "Endocardium/Intra-Embryonic Endothelium": 3283,
+      "Ventral Surface Ectoderm": 3226,
+      "Paraxial Mesoderm-1": 3153,
+      "Anterior Pharyngeal Mesoderm": 3029,
+      "CM": 2795,
+      "Pericardium/Body Wall": 2637,
+      "Ventral Foregut": 2522,
+      "NCC-1": 1736,
+      "Posterior Pharyngeal Mesoderm": 1333,
+      "Dorsal Surface Ectoderm": 1059,
+      "NCC-2": 1050,
+      "Dorsal Foregut": 945,
+      "Artificial": 832,
+      "NCC-3": 505,
+      "Haematopoetic Endothelium": 205,
+      "Extra-Embryonic Mesenchyme-2": 59,
+      "Extra Endoderm": 3
+    }
+  },
+  {
+    "id": "OFF_T3_E8.75_gata4_ko_2",
+    "path": "/home/biocosmosx/work/virtualembryo_cym/official_data_analysis_20261114/raw_validation_release_v1/T3/E8.75_gata4_ko_2.h5ad",
+    "bytes": 409190040,
+    "sha256": "1760657da7c477c4bf986352fdf1a066bb6a5fe995f1b9deca8ee859722074e4",
+    "shape": [
+      46396,
+      500
+    ],
+    "obs_columns": [
+      "slide",
+      "n_genes",
+      "n_counts",
+      "leiden",
+      "section",
+      "condition",
+      "embryo_section",
+      "embryo",
+      "celltype",
+      "sample_id",
+      "z_coord",
+      "time",
+      "genotype",
+      "perturb_batch"
+    ],
+    "layers": [
+      "counts",
+      "log1p",
+      "normalized_counts"
+    ],
+    "coordinates": {
+      "shape": [
+        46396,
+        3
+      ],
+      "finite": true,
+      "z_sections": 44
+    },
+    "sample_field": "released file; biological individuals not identified",
+    "cache_genes_labels_shape_match": true,
+    "raw_cache_101_row_max_error": 0.0,
+    "full_source_zero_fraction": 0.9281623846883352,
+    "detected_genes_median": 34.0,
+    "zero_total": 0,
+    "labels": {
+      "Paraxial Mesoderm-1": 5109,
+      "Endocardium/Intra-Embryonic Endothelium": 4674,
+      "Pericardium/Body Wall": 4156,
+      "Neural Tube": 3863,
+      "CM": 3811,
+      "Anterior Pharyngeal Mesoderm": 3316,
+      "Posterior Pharyngeal Mesoderm": 2792,
+      "Extra-Embryonic Mesenchyme-1": 2618,
+      "Ventral Surface Ectoderm": 2506,
+      "Paraxial Mesoderm-2": 2491,
+      "Ventral Foregut": 2491,
+      "Dorsal Surface Ectoderm": 1836,
+      "NCC-1": 1441,
+      "Extra Endoderm": 1281,
+      "Extra-Embryonic Mesenchyme-2": 1118,
+      "Haematopoetic Endothelium": 1017,
+      "Artificial": 992,
+      "Dorsal Foregut": 821,
+      "NCC-2": 32,
+      "NCC-3": 31
+    }
+  }
+]

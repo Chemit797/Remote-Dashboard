@@ -1,0 +1,1655 @@
+{
+  "stage": "E8.5",
+  "gene_summary": [
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Nppa",
+      "detection": 0.31269113149847094,
+      "mean_released_counts": 1.1246176958084106,
+      "mean_log_cp10k": 1.4619742631912231,
+      "positive_mean": 3.5965769290924072
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Tbx2",
+      "detection": 0.3065749235474006,
+      "mean_released_counts": 0.5527523159980774,
+      "mean_log_cp10k": 1.2843965291976929,
+      "positive_mean": 1.8029924631118774
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Tbx3",
+      "detection": 0.1529051987767584,
+      "mean_released_counts": 0.19266055524349213,
+      "mean_log_cp10k": 0.5885720252990723,
+      "positive_mean": 1.2599999904632568
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Bmp2",
+      "detection": 0.12614678899082568,
+      "mean_released_counts": 0.17889907956123352,
+      "mean_log_cp10k": 0.5030054450035095,
+      "positive_mean": 1.4181817770004272
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Hey2",
+      "detection": 0.32262996941896027,
+      "mean_released_counts": 0.5160550475120544,
+      "mean_log_cp10k": 1.315882921218872,
+      "positive_mean": 1.599526047706604
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Nr2f2",
+      "detection": 0.023700305810397553,
+      "mean_released_counts": 0.025229357182979584,
+      "mean_log_cp10k": 0.0975409746170044,
+      "positive_mean": 1.0645161867141724
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Tbx5",
+      "detection": 0.4074923547400612,
+      "mean_released_counts": 0.7821100950241089,
+      "mean_log_cp10k": 1.7073004245758057,
+      "positive_mean": 1.9193246364593506
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Ttn",
+      "detection": 0.9862385321100917,
+      "mean_released_counts": 25.805810928344727,
+      "mean_log_cp10k": 6.8053741455078125,
+      "positive_mean": 26.165891647338867
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Myh7",
+      "detection": 0.9663608562691132,
+      "mean_released_counts": 20.25840950012207,
+      "mean_log_cp10k": 6.347784519195557,
+      "positive_mean": 20.963607788085938
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Myl4",
+      "detection": 0.9136085626911316,
+      "mean_released_counts": 5.395259857177734,
+      "mean_log_cp10k": 4.904627799987793,
+      "positive_mean": 5.905439376831055
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Myl7",
+      "detection": 0.9839449541284404,
+      "mean_released_counts": 20.262996673583984,
+      "mean_log_cp10k": 6.5135979652404785,
+      "positive_mean": 20.5936279296875
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Pecam1",
+      "detection": 0.022935779816513763,
+      "mean_released_counts": 0.026758410036563873,
+      "mean_log_cp10k": 0.0861530676484108,
+      "positive_mean": 1.1666666269302368
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Cdh5",
+      "detection": 0.07568807339449542,
+      "mean_released_counts": 0.08715596050024033,
+      "mean_log_cp10k": 0.3004099428653717,
+      "positive_mean": 1.1515151262283325
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Esam",
+      "detection": 0.026758409785932722,
+      "mean_released_counts": 0.026758410036563873,
+      "mean_log_cp10k": 0.09677779674530029,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "V-CM",
+      "n": 1308,
+      "gene": "Emcn",
+      "detection": 0.0015290519877675841,
+      "mean_released_counts": 0.0015290520386770368,
+      "mean_log_cp10k": 0.005876051727682352,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Nppa",
+      "detection": 0.01800327332242226,
+      "mean_released_counts": 0.022913256660103798,
+      "mean_log_cp10k": 0.06999886780977249,
+      "positive_mean": 1.2727272510528564
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Tbx2",
+      "detection": 0.5237315875613748,
+      "mean_released_counts": 1.320785641670227,
+      "mean_log_cp10k": 2.299604892730713,
+      "positive_mean": 2.5218749046325684
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Tbx3",
+      "detection": 0.33060556464811786,
+      "mean_released_counts": 0.48281505703926086,
+      "mean_log_cp10k": 1.302090048789978,
+      "positive_mean": 1.4603960514068604
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Bmp2",
+      "detection": 0.3469721767594108,
+      "mean_released_counts": 0.6121112704277039,
+      "mean_log_cp10k": 1.422261357307434,
+      "positive_mean": 1.7641509771347046
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Hey2",
+      "detection": 0.0425531914893617,
+      "mean_released_counts": 0.04909983649849892,
+      "mean_log_cp10k": 0.15746937692165375,
+      "positive_mean": 1.1538461446762085
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Nr2f2",
+      "detection": 0.45171849427168576,
+      "mean_released_counts": 0.8428805470466614,
+      "mean_log_cp10k": 1.974949598312378,
+      "positive_mean": 1.8659420013427734
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Tbx5",
+      "detection": 0.7741407528641571,
+      "mean_released_counts": 2.093289613723755,
+      "mean_log_cp10k": 3.5377087593078613,
+      "positive_mean": 2.704016923904419
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Ttn",
+      "detection": 0.88379705400982,
+      "mean_released_counts": 17.62029457092285,
+      "mean_log_cp10k": 5.597869873046875,
+      "positive_mean": 19.937036514282227
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Myh7",
+      "detection": 0.5777414075286416,
+      "mean_released_counts": 3.898526906967163,
+      "mean_log_cp10k": 2.917229652404785,
+      "positive_mean": 6.747875213623047
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Myl4",
+      "detection": 0.8494271685761048,
+      "mean_released_counts": 4.803600788116455,
+      "mean_log_cp10k": 4.391448974609375,
+      "positive_mean": 5.655106067657471
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Myl7",
+      "detection": 0.9132569558101473,
+      "mean_released_counts": 15.338788986206055,
+      "mean_log_cp10k": 5.600308418273926,
+      "positive_mean": 16.795698165893555
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Pecam1",
+      "detection": 0.03764320785597381,
+      "mean_released_counts": 0.044189851731061935,
+      "mean_log_cp10k": 0.13235972821712494,
+      "positive_mean": 1.1739130020141602
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Cdh5",
+      "detection": 0.09492635024549918,
+      "mean_released_counts": 0.1407528668642044,
+      "mean_log_cp10k": 0.3739762306213379,
+      "positive_mean": 1.482758641242981
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Esam",
+      "detection": 0.019639934533551555,
+      "mean_released_counts": 0.019639935344457626,
+      "mean_log_cp10k": 0.0724613294005394,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "IFT-CM",
+      "n": 611,
+      "gene": "Emcn",
+      "detection": 0.006546644844517185,
+      "mean_released_counts": 0.00654664495959878,
+      "mean_log_cp10k": 0.02683222107589245,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Nppa",
+      "detection": 0.009569377990430622,
+      "mean_released_counts": 0.009569377638399601,
+      "mean_log_cp10k": 0.0479782335460186,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Tbx2",
+      "detection": 0.03349282296650718,
+      "mean_released_counts": 0.03349282220005989,
+      "mean_log_cp10k": 0.13777534663677216,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Tbx3",
+      "detection": 0.06220095693779904,
+      "mean_released_counts": 0.06698564440011978,
+      "mean_log_cp10k": 0.2517626881599426,
+      "positive_mean": 1.076923131942749
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Bmp2",
+      "detection": 0.04784688995215311,
+      "mean_released_counts": 0.05263157933950424,
+      "mean_log_cp10k": 0.21811418235301971,
+      "positive_mean": 1.100000023841858
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Hey2",
+      "detection": 0.04784688995215311,
+      "mean_released_counts": 0.057416267693042755,
+      "mean_log_cp10k": 0.19056019186973572,
+      "positive_mean": 1.2000000476837158
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Nr2f2",
+      "detection": 0.04784688995215311,
+      "mean_released_counts": 0.04784689098596573,
+      "mean_log_cp10k": 0.20115916430950165,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Tbx5",
+      "detection": 0.019138755980861243,
+      "mean_released_counts": 0.019138755276799202,
+      "mean_log_cp10k": 0.08834764361381531,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Ttn",
+      "detection": 0.014354066985645933,
+      "mean_released_counts": 0.014354066923260689,
+      "mean_log_cp10k": 0.07089309394359589,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Myh7",
+      "detection": 0.03349282296650718,
+      "mean_released_counts": 0.038277510553598404,
+      "mean_log_cp10k": 0.13923515379428864,
+      "positive_mean": 1.1428571939468384
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Myl4",
+      "detection": 0.019138755980861243,
+      "mean_released_counts": 0.019138755276799202,
+      "mean_log_cp10k": 0.0892346054315567,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Myl7",
+      "detection": 0.05263157894736842,
+      "mean_released_counts": 0.06698564440011978,
+      "mean_log_cp10k": 0.25749361515045166,
+      "positive_mean": 1.2727272510528564
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Pecam1",
+      "detection": 0.5502392344497608,
+      "mean_released_counts": 1.478468894958496,
+      "mean_log_cp10k": 2.8371360301971436,
+      "positive_mean": 2.6869564056396484
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Cdh5",
+      "detection": 0.569377990430622,
+      "mean_released_counts": 2.186602830886841,
+      "mean_log_cp10k": 3.066279888153076,
+      "positive_mean": 3.8403360843658447
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Esam",
+      "detection": 0.05263157894736842,
+      "mean_released_counts": 0.057416267693042755,
+      "mean_log_cp10k": 0.22354629635810852,
+      "positive_mean": 1.0909091234207153
+    },
+    {
+      "stage": "E8.5",
+      "group": "HEM-Endoth",
+      "n": 209,
+      "gene": "Emcn",
+      "detection": 0.0430622009569378,
+      "mean_released_counts": 0.05263157933950424,
+      "mean_log_cp10k": 0.17602820694446564,
+      "positive_mean": 1.2222222089767456
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Nppa",
+      "detection": 0.006640106241699867,
+      "mean_released_counts": 0.006640106439590454,
+      "mean_log_cp10k": 0.024442462250590324,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Tbx2",
+      "detection": 0.05843293492695883,
+      "mean_released_counts": 0.08100929856300354,
+      "mean_log_cp10k": 0.22896546125411987,
+      "positive_mean": 1.3863636255264282
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Tbx3",
+      "detection": 0.10756972111553785,
+      "mean_released_counts": 0.12616202235221863,
+      "mean_log_cp10k": 0.4339575171470642,
+      "positive_mean": 1.1728395223617554
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Bmp2",
+      "detection": 0.0398406374501992,
+      "mean_released_counts": 0.043824702501297,
+      "mean_log_cp10k": 0.15743710100650787,
+      "positive_mean": 1.100000023841858
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Hey2",
+      "detection": 0.17397078353253653,
+      "mean_released_counts": 0.23638778924942017,
+      "mean_log_cp10k": 0.7029106616973877,
+      "positive_mean": 1.3587785959243774
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Nr2f2",
+      "detection": 0.5046480743691899,
+      "mean_released_counts": 0.9787516593933105,
+      "mean_log_cp10k": 2.2669432163238525,
+      "positive_mean": 1.9394736289978027
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Tbx5",
+      "detection": 0.01859229747675963,
+      "mean_released_counts": 0.01859229803085327,
+      "mean_log_cp10k": 0.07421039044857025,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Ttn",
+      "detection": 0.01859229747675963,
+      "mean_released_counts": 0.01859229803085327,
+      "mean_log_cp10k": 0.07466153055429459,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Myh7",
+      "detection": 0.049136786188579015,
+      "mean_released_counts": 0.06374502182006836,
+      "mean_log_cp10k": 0.19591861963272095,
+      "positive_mean": 1.2972972393035889
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Myl4",
+      "detection": 0.006640106241699867,
+      "mean_released_counts": 0.006640106439590454,
+      "mean_log_cp10k": 0.025554317981004715,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Myl7",
+      "detection": 0.02390438247011952,
+      "mean_released_counts": 0.025232404470443726,
+      "mean_log_cp10k": 0.09743648022413254,
+      "positive_mean": 1.0555555820465088
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Pecam1",
+      "detection": 0.7609561752988048,
+      "mean_released_counts": 3.061089038848877,
+      "mean_log_cp10k": 3.8024308681488037,
+      "positive_mean": 4.0226874351501465
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Cdh5",
+      "detection": 0.9203187250996016,
+      "mean_released_counts": 8.366534233093262,
+      "mean_log_cp10k": 5.315486431121826,
+      "positive_mean": 9.090909004211426
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Esam",
+      "detection": 0.36786188579017265,
+      "mean_released_counts": 0.6600265502929688,
+      "mean_log_cp10k": 1.562352180480957,
+      "positive_mean": 1.7942237854003906
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-1",
+      "n": 753,
+      "gene": "Emcn",
+      "detection": 0.19654714475431606,
+      "mean_released_counts": 0.24833998084068298,
+      "mean_log_cp10k": 0.773813784122467,
+      "positive_mean": 1.2635135650634766
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Nppa",
+      "detection": 0.0043859649122807015,
+      "mean_released_counts": 0.004385964944958687,
+      "mean_log_cp10k": 0.0183156318962574,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Tbx2",
+      "detection": 0.021929824561403508,
+      "mean_released_counts": 0.021929824724793434,
+      "mean_log_cp10k": 0.09329606592655182,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Tbx3",
+      "detection": 0.16228070175438597,
+      "mean_released_counts": 0.25,
+      "mean_log_cp10k": 0.6993030905723572,
+      "positive_mean": 1.5405405759811401
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Bmp2",
+      "detection": 0.013157894736842105,
+      "mean_released_counts": 0.01315789483487606,
+      "mean_log_cp10k": 0.04842885211110115,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Hey2",
+      "detection": 0.20175438596491227,
+      "mean_released_counts": 0.2850877046585083,
+      "mean_log_cp10k": 0.8582211136817932,
+      "positive_mean": 1.41304349899292
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Nr2f2",
+      "detection": 0.10526315789473684,
+      "mean_released_counts": 0.13596491515636444,
+      "mean_log_cp10k": 0.4918593764305115,
+      "positive_mean": 1.2916666269302368
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Tbx5",
+      "detection": 0.02631578947368421,
+      "mean_released_counts": 0.02631578966975212,
+      "mean_log_cp10k": 0.1007075235247612,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Ttn",
+      "detection": 0.039473684210526314,
+      "mean_released_counts": 0.04385964944958687,
+      "mean_log_cp10k": 0.17227551341056824,
+      "positive_mean": 1.1111111640930176
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Myh7",
+      "detection": 0.03508771929824561,
+      "mean_released_counts": 0.03947368264198303,
+      "mean_log_cp10k": 0.1426711231470108,
+      "positive_mean": 1.125
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Myl4",
+      "detection": 0.008771929824561403,
+      "mean_released_counts": 0.008771929889917374,
+      "mean_log_cp10k": 0.04038682579994202,
+      "positive_mean": 1.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Myl7",
+      "detection": 0.05701754385964912,
+      "mean_released_counts": 0.06578947603702545,
+      "mean_log_cp10k": 0.2569156587123871,
+      "positive_mean": 1.1538461446762085
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Pecam1",
+      "detection": 0.7807017543859649,
+      "mean_released_counts": 4.399122714996338,
+      "mean_log_cp10k": 4.406599998474121,
+      "positive_mean": 5.634831428527832
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Cdh5",
+      "detection": 0.956140350877193,
+      "mean_released_counts": 11.01754379272461,
+      "mean_log_cp10k": 6.135505676269531,
+      "positive_mean": 11.52293586730957
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Esam",
+      "detection": 0.37280701754385964,
+      "mean_released_counts": 0.6271929740905762,
+      "mean_log_cp10k": 1.66104257106781,
+      "positive_mean": 1.682352900505066
+    },
+    {
+      "stage": "E8.5",
+      "group": "Intra-Endoth-2",
+      "n": 228,
+      "gene": "Emcn",
+      "detection": 0.07894736842105263,
+      "mean_released_counts": 0.10526315867900848,
+      "mean_log_cp10k": 0.32837361097335815,
+      "positive_mean": 1.3333333730697632
+    }
+  ],
+  "pair_conditioned": [
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Nppa",
+        "Tbx2"
+      ],
+      "threshold": 1,
+      "n": 1919,
+      "first_rate": 0.21886399166232412,
+      "second_rate": 0.3757165190203231,
+      "double_rate": 0.04325169359041167,
+      "observed_double": 83,
+      "observed_double_covered": 82,
+      "expected_double_conditional": 132.32363153186998,
+      "ratio_to_conditional": 0.619692786924839
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Nppa",
+        "Tbx2"
+      ],
+      "threshold": 2,
+      "n": 1919,
+      "first_rate": 0.14434601354872328,
+      "second_rate": 0.18603439291297552,
+      "double_rate": 0.006774361646690985,
+      "observed_double": 13,
+      "observed_double_covered": 13,
+      "expected_double_conditional": 36.757775426412024,
+      "ratio_to_conditional": 0.353666669138496
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Nppa",
+        "Tbx3"
+      ],
+      "threshold": 1,
+      "n": 1919,
+      "first_rate": 0.21886399166232412,
+      "second_rate": 0.20948410630536737,
+      "double_rate": 0.03699843668577384,
+      "observed_double": 71,
+      "observed_double_covered": 70,
+      "expected_double_conditional": 75.41911474204203,
+      "ratio_to_conditional": 0.9281466673193239
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Nppa",
+        "Tbx3"
+      ],
+      "threshold": 2,
+      "n": 1919,
+      "first_rate": 0.14434601354872328,
+      "second_rate": 0.04950495049504951,
+      "double_rate": 0.0036477331943720686,
+      "observed_double": 7,
+      "observed_double_covered": 7,
+      "expected_double_conditional": 12.070513876175141,
+      "ratio_to_conditional": 0.579925599838516
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Nppa",
+        "Bmp2"
+      ],
+      "threshold": 1,
+      "n": 1919,
+      "first_rate": 0.21886399166232412,
+      "second_rate": 0.19645648775403857,
+      "double_rate": 0.018238665971860343,
+      "observed_double": 35,
+      "observed_double_covered": 33,
+      "expected_double_conditional": 53.32209706879367,
+      "ratio_to_conditional": 0.6188803856949765
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Nppa",
+        "Bmp2"
+      ],
+      "threshold": 2,
+      "n": 1919,
+      "first_rate": 0.14434601354872328,
+      "second_rate": 0.07087024491922876,
+      "double_rate": 0.0020844189682126106,
+      "observed_double": 4,
+      "observed_double_covered": 4,
+      "expected_double_conditional": 6.989871649165821,
+      "ratio_to_conditional": 0.572256573620685
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Tbx2",
+        "Bmp2"
+      ],
+      "threshold": 1,
+      "n": 1919,
+      "first_rate": 0.3757165190203231,
+      "second_rate": 0.19645648775403857,
+      "double_rate": 0.11255862428348098,
+      "observed_double": 216,
+      "observed_double_covered": 210,
+      "expected_double_conditional": 181.25583820163706,
+      "ratio_to_conditional": 1.1585833707954094
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Tbx2",
+        "Bmp2"
+      ],
+      "threshold": 2,
+      "n": 1919,
+      "first_rate": 0.18603439291297552,
+      "second_rate": 0.07087024491922876,
+      "double_rate": 0.028139656070870246,
+      "observed_double": 54,
+      "observed_double_covered": 52,
+      "expected_double_conditional": 48.048205836073805,
+      "ratio_to_conditional": 1.082246445942405
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Nppa",
+        "Hey2"
+      ],
+      "threshold": 1,
+      "n": 1919,
+      "first_rate": 0.21886399166232412,
+      "second_rate": 0.2334549244398124,
+      "double_rate": 0.10161542470036478,
+      "observed_double": 195,
+      "observed_double_covered": 192,
+      "expected_double_conditional": 154.46831675352962,
+      "ratio_to_conditional": 1.2429733425939775
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM",
+      "genes": [
+        "Nppa",
+        "Hey2"
+      ],
+      "threshold": 2,
+      "n": 1919,
+      "first_rate": 0.14434601354872328,
+      "second_rate": 0.0859822824387702,
+      "double_rate": 0.03491401771756123,
+      "observed_double": 67,
+      "observed_double_covered": 67,
+      "expected_double_conditional": 48.30057590957367,
+      "ratio_to_conditional": 1.387147021299179
+    },
+    {
+      "stage": "E8.5",
+      "group": "other",
+      "genes": [
+        "Pecam1",
+        "Cdh5"
+      ],
+      "threshold": 1,
+      "n": 1190,
+      "first_rate": 0.7277310924369748,
+      "second_rate": 0.865546218487395,
+      "double_rate": 0.6823529411764706,
+      "observed_double": 812,
+      "observed_double_covered": 604,
+      "expected_double_conditional": 581.4974464441648,
+      "ratio_to_conditional": 1.0386975965129985
+    },
+    {
+      "stage": "E8.5",
+      "group": "other",
+      "genes": [
+        "Pecam1",
+        "Cdh5"
+      ],
+      "threshold": 2,
+      "n": 1190,
+      "first_rate": 0.5302521008403361,
+      "second_rate": 0.7529411764705882,
+      "double_rate": 0.48823529411764705,
+      "observed_double": 581,
+      "observed_double_covered": 437,
+      "expected_double_conditional": 398.7344100344101,
+      "ratio_to_conditional": 1.0959676140373429
+    },
+    {
+      "stage": "E8.5",
+      "group": "other",
+      "genes": [
+        "Esam",
+        "Emcn"
+      ],
+      "threshold": 1,
+      "n": 1190,
+      "first_rate": 0.3134453781512605,
+      "second_rate": 0.14705882352941177,
+      "double_rate": 0.07983193277310924,
+      "observed_double": 95,
+      "observed_double_covered": 86,
+      "expected_double_conditional": 70.30150252396382,
+      "ratio_to_conditional": 1.2233024460705517
+    },
+    {
+      "stage": "E8.5",
+      "group": "other",
+      "genes": [
+        "Esam",
+        "Emcn"
+      ],
+      "threshold": 2,
+      "n": 1190,
+      "first_rate": 0.13025210084033614,
+      "second_rate": 0.029411764705882353,
+      "double_rate": 0.012605042016806723,
+      "observed_double": 15,
+      "observed_double_covered": 15,
+      "expected_double_conditional": 8.460878565878566,
+      "ratio_to_conditional": 1.772865534377566
+    }
+  ],
+  "lineage_mix": [
+    {
+      "stage": "E8.5",
+      "group": "all",
+      "n": 23710,
+      "cm_support": 0.11687051876845213,
+      "endo_support": 0.09245044285111767,
+      "dual_support": 0.006916912695065373,
+      "strict_dual_support": 0.0024884015183466892,
+      "median_total": 166.0,
+      "median_total_dual": 283.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM_label",
+      "n": 1919,
+      "cm_support": 0.9650859822824388,
+      "endo_support": 0.011464304325169358,
+      "dual_support": 0.011464304325169358,
+      "strict_dual_support": 0.0020844189682126106,
+      "median_total": 207.0,
+      "median_total_dual": 326.0
+    },
+    {
+      "stage": "E8.5",
+      "group": "Endo_label",
+      "n": 1190,
+      "cm_support": 0.009243697478991597,
+      "endo_support": 0.7352941176470589,
+      "dual_support": 0.0067226890756302525,
+      "strict_dual_support": 0.0,
+      "median_total": 163.0,
+      "median_total_dual": 243.5
+    },
+    {
+      "stage": "E8.5",
+      "group": "CM_label_boundary",
+      "n": 1919,
+      "n_dual": 22,
+      "n_strict_dual": 4,
+      "near_cutoff_published_units": 47.683117894649754,
+      "near_rate_all": 0.2501302761855133,
+      "near_rate_dual": 0.45454545454545453,
+      "near_rate_strict_dual": 0.5,
+      "observed_near_dual": 10,
+      "expected_near_dual_conditional": 6.342796725450845,
+      "observed_near_strict_dual": 2,
+      "expected_near_strict_dual_conditional": 0.7843406593406594,
+      "nearest_opposite_median_dual": 55.04736181949522,
+      "nearest_opposite_median_other": 71.08608707295276
+    },
+    {
+      "stage": "E8.5",
+      "group": "Endo_label_boundary",
+      "n": 979,
+      "n_dual": 8,
+      "n_strict_dual": 0,
+      "near_cutoff_published_units": 69.7352972830159,
+      "near_rate_all": 0.25025536261491316,
+      "near_rate_dual": 0.75,
+      "near_rate_strict_dual": null,
+      "observed_near_dual": 6,
+      "expected_near_dual_conditional": 1.721904761904762,
+      "observed_near_strict_dual": 0,
+      "expected_near_strict_dual_conditional": 0.0,
+      "nearest_opposite_median_dual": 59.83505703903656,
+      "nearest_opposite_median_other": 119.29096047579542
+    }
+  ],
+  "thinning": [
+    {
+      "type": "V-CM",
+      "gene": "Nppa",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.31269113149847094,
+      "predicted_detection": 0.21046851575374603,
+      "target_detection": 0.4282261962300628,
+      "detection_residual": 0.21775768047631677,
+      "source_counts_mean": 1.1246176958084106,
+      "predicted_counts_mean": 0.4377066195011139,
+      "target_counts_mean": 1.438214898109436
+    },
+    {
+      "type": "V-CM",
+      "gene": "Tbx2",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.3065749235474006,
+      "predicted_detection": 0.16332301497459412,
+      "target_detection": 0.16787497986144675,
+      "detection_residual": 0.0045519648868526386,
+      "source_counts_mean": 0.5527523159980774,
+      "predicted_counts_mean": 0.21513386070728302,
+      "target_counts_mean": 0.26292896270751953
+    },
+    {
+      "type": "V-CM",
+      "gene": "Tbx3",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.1529051987767584,
+      "predicted_detection": 0.06779911369085312,
+      "target_detection": 0.1097148380860319,
+      "detection_residual": 0.04191572439517878,
+      "source_counts_mean": 0.19266055524349213,
+      "predicted_counts_mean": 0.07498441636562347,
+      "target_counts_mean": 0.15337522327899933
+    },
+    {
+      "type": "V-CM",
+      "gene": "Bmp2",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.12614678899082568,
+      "predicted_detection": 0.058830857276916504,
+      "target_detection": 0.1652972450459159,
+      "detection_residual": 0.10646638776899939,
+      "source_counts_mean": 0.17889907956123352,
+      "predicted_counts_mean": 0.06962838023900986,
+      "target_counts_mean": 0.44965362548828125
+    },
+    {
+      "type": "V-CM",
+      "gene": "Hey2",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.32262996941896027,
+      "predicted_detection": 0.16352279484272003,
+      "target_detection": 0.21556307394876753,
+      "detection_residual": 0.0520402791060475,
+      "source_counts_mean": 0.5160550475120544,
+      "predicted_counts_mean": 0.20085109770298004,
+      "target_counts_mean": 0.2792009115219116
+    },
+    {
+      "type": "V-CM",
+      "gene": "Nr2f2",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.023700305810397553,
+      "predicted_detection": 0.009587765671312809,
+      "target_detection": 0.010633156114064766,
+      "detection_residual": 0.0010453904427519568,
+      "source_counts_mean": 0.025229357182979584,
+      "predicted_counts_mean": 0.009819386526942253,
+      "target_counts_mean": 0.011438698507845402
+    },
+    {
+      "type": "V-CM",
+      "gene": "Tbx5",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.4074923547400612,
+      "predicted_detection": 0.22437307238578796,
+      "target_detection": 0.3831158369582729,
+      "detection_residual": 0.15874276457248493,
+      "source_counts_mean": 0.7821100950241089,
+      "predicted_counts_mean": 0.3044010102748871,
+      "target_counts_mean": 0.6193007826805115
+    },
+    {
+      "type": "V-CM",
+      "gene": "Ttn",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.9862385321100917,
+      "predicted_detection": 0.9564201235771179,
+      "target_detection": 0.9850169163847269,
+      "detection_residual": 0.02859679280760896,
+      "source_counts_mean": 25.805810928344727,
+      "predicted_counts_mean": 10.043745040893555,
+      "target_counts_mean": 11.294828414916992
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myh7",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.9663608562691132,
+      "predicted_detection": 0.9141188859939575,
+      "target_detection": 0.934912195907846,
+      "detection_residual": 0.020793309913888502,
+      "source_counts_mean": 20.25840950012207,
+      "predicted_counts_mean": 7.884670257568359,
+      "target_counts_mean": 6.139680862426758
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myl4",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.9136085626911316,
+      "predicted_detection": 0.745923638343811,
+      "target_detection": 0.5920734654422426,
+      "detection_residual": -0.15385017290156844,
+      "source_counts_mean": 5.395259857177734,
+      "predicted_counts_mean": 2.0998611450195312,
+      "target_counts_mean": 1.2479459047317505
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myl7",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.9839449541284404,
+      "predicted_detection": 0.938971757888794,
+      "target_detection": 0.9004349927501208,
+      "detection_residual": -0.0385367651386731,
+      "source_counts_mean": 20.262996673583984,
+      "predicted_counts_mean": 7.886455535888672,
+      "target_counts_mean": 4.17657470703125
+    },
+    {
+      "type": "V-CM",
+      "gene": "Pecam1",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.022935779816513763,
+      "predicted_detection": 0.009650769643485546,
+      "target_detection": 0.05896568390526825,
+      "detection_residual": 0.0493149142617827,
+      "source_counts_mean": 0.026758410036563873,
+      "predicted_counts_mean": 0.010414501652121544,
+      "target_counts_mean": 0.06927662342786789
+    },
+    {
+      "type": "V-CM",
+      "gene": "Cdh5",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.07568807339449542,
+      "predicted_detection": 0.03178860992193222,
+      "target_detection": 0.05139358788464637,
+      "detection_residual": 0.019604977962714147,
+      "source_counts_mean": 0.08715596050024033,
+      "predicted_counts_mean": 0.03392151743173599,
+      "target_counts_mean": 0.05848236009478569
+    },
+    {
+      "type": "V-CM",
+      "gene": "Esam",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.026758409785932722,
+      "predicted_detection": 0.010414501652121544,
+      "target_detection": 0.013371999355566296,
+      "detection_residual": 0.002957497703444752,
+      "source_counts_mean": 0.026758410036563873,
+      "predicted_counts_mean": 0.010414501652121544,
+      "target_counts_mean": 0.013533107936382294
+    },
+    {
+      "type": "V-CM",
+      "gene": "Emcn",
+      "source_n": 1308,
+      "target_n": 6207,
+      "source_depth_mean": 224.54893493652344,
+      "target_depth_mean": 87.39552307128906,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.0015290519877675841,
+      "predicted_detection": 0.0005951143684796989,
+      "target_detection": 0.005155469631061705,
+      "detection_residual": 0.004560355262582006,
+      "source_counts_mean": 0.0015290520386770368,
+      "predicted_counts_mean": 0.0005951143684796989,
+      "target_counts_mean": 0.005316577851772308
+    }
+  ],
+  "thinning_pairs": [
+    {
+      "type": "V-CM",
+      "pair": [
+        "Nppa",
+        "Tbx2"
+      ],
+      "p": 0.38920480012893677,
+      "source": 0.05733944954128441,
+      "predicted": 0.01650317944586277,
+      "target": 0.027710649266956662
+    },
+    {
+      "type": "V-CM",
+      "pair": [
+        "Myh7",
+        "Myl4"
+      ],
+      "p": 0.38920480012893677,
+      "source": 0.8883792048929664,
+      "predicted": 0.7061918377876282,
+      "target": 0.5672627678427582
+    },
+    {
+      "type": "V-CM",
+      "pair": [
+        "Pecam1",
+        "Cdh5"
+      ],
+      "p": 0.38920480012893677,
+      "source": 0.0030581039755351682,
+      "predicted": 0.001040263450704515,
+      "target": 0.007894312872563236
+    }
+  ],
+  "depth_overlap": [
+    {
+      "type": "V-CM",
+      "gene": "Ttn",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myh7",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myl4",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myl7",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Nppa",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Tbx2",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Pecam1",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Cdh5",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Esam",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    },
+    {
+      "type": "V-CM",
+      "gene": "Emcn",
+      "source_n": 0,
+      "target_n": 0,
+      "status": "insufficient_overlapping_depth"
+    }
+  ],
+  "rank": [
+    {
+      "type": "V-CM",
+      "gene": "Ttn",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.9862385321100917,
+      "target_detection": 0.9850169163847269,
+      "predicted_detection": 0.9564220905303955,
+      "residual": 0.028594825854331374,
+      "matched_gene_residual_q10": -0.288277016443985,
+      "matched_gene_residual_q90": 0.1625016939362524,
+      "percentile_vs_50_matched": 0.74,
+      "matched_detect_range": [
+        0.386085626911315,
+        0.9839449541284404
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myh7",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.9663608562691132,
+      "target_detection": 0.934912195907846,
+      "predicted_detection": 0.9141209125518799,
+      "residual": 0.02079128335596614,
+      "matched_gene_residual_q10": -0.288277016443985,
+      "matched_gene_residual_q90": 0.1625016939362524,
+      "percentile_vs_50_matched": 0.72,
+      "matched_detect_range": [
+        0.386085626911315,
+        0.9862385321100917
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myl4",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.9136085626911316,
+      "target_detection": 0.5920734654422426,
+      "predicted_detection": 0.7459266781806946,
+      "residual": -0.15385321273845198,
+      "matched_gene_residual_q10": -0.288277016443985,
+      "matched_gene_residual_q90": 0.1625016939362524,
+      "percentile_vs_50_matched": 0.3,
+      "matched_detect_range": [
+        0.386085626911315,
+        0.9862385321100917
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Myl7",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.9839449541284404,
+      "target_detection": 0.9004349927501208,
+      "predicted_detection": 0.9389739632606506,
+      "residual": -0.03853897051052979,
+      "matched_gene_residual_q10": -0.288277016443985,
+      "matched_gene_residual_q90": 0.1625016939362524,
+      "percentile_vs_50_matched": 0.58,
+      "matched_detect_range": [
+        0.386085626911315,
+        0.9862385321100917
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Nppa",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.31269113149847094,
+      "target_detection": 0.4282261962300628,
+      "predicted_detection": 0.21046823263168335,
+      "residual": 0.21775796359837946,
+      "matched_gene_residual_q10": -0.10252653954660755,
+      "matched_gene_residual_q90": 0.14710481023349606,
+      "percentile_vs_50_matched": 0.92,
+      "matched_detect_range": [
+        0.18654434250764526,
+        0.4334862385321101
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Tbx2",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.3065749235474006,
+      "target_detection": 0.16787497986144675,
+      "predicted_detection": 0.1633230596780777,
+      "residual": 0.004551920183369057,
+      "matched_gene_residual_q10": -0.10252653954660755,
+      "matched_gene_residual_q90": 0.16464476727269714,
+      "percentile_vs_50_matched": 0.6,
+      "matched_detect_range": [
+        0.18654434250764526,
+        0.4334862385321101
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Pecam1",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.022935779816513763,
+      "target_detection": 0.05896568390526825,
+      "predicted_detection": 0.00965077057480812,
+      "residual": 0.049314913330460126,
+      "matched_gene_residual_q10": -0.003098702028997522,
+      "matched_gene_residual_q90": 0.03603599786786031,
+      "percentile_vs_50_matched": 1.0,
+      "matched_detect_range": [
+        0.019877675840978593,
+        0.026758409785932722
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Cdh5",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.07568807339449542,
+      "target_detection": 0.05139358788464637,
+      "predicted_detection": 0.03178860992193222,
+      "residual": 0.019604977962714147,
+      "matched_gene_residual_q10": -0.019359510151040097,
+      "matched_gene_residual_q90": 0.03389990609988454,
+      "percentile_vs_50_matched": 0.78,
+      "matched_detect_range": [
+        0.05657492354740061,
+        0.09480122324159021
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Esam",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.026758409785932722,
+      "target_detection": 0.013371999355566296,
+      "predicted_detection": 0.010414504446089268,
+      "residual": 0.002957494909477028,
+      "matched_gene_residual_q10": -0.0050882240914592175,
+      "matched_gene_residual_q90": 0.022674976608745824,
+      "percentile_vs_50_matched": 0.54,
+      "matched_detect_range": [
+        0.022935779816513763,
+        0.03058103975535168
+      ]
+    },
+    {
+      "type": "V-CM",
+      "gene": "Emcn",
+      "source_n": 1308,
+      "target_n": 6207,
+      "thinning_p": 0.38920480012893677,
+      "source_detection": 0.0015290519877675841,
+      "target_detection": 0.005155469631061705,
+      "predicted_detection": 0.0005951143684796989,
+      "residual": 0.004560355262582006,
+      "matched_gene_residual_q10": -0.0002840764255951087,
+      "matched_gene_residual_q90": 0.0042752920293750865,
+      "percentile_vs_50_matched": 0.9,
+      "matched_detect_range": [
+        0.0007645259938837921,
+        0.0061162079510703364
+      ]
+    }
+  ],
+  "identity_conditioned": [
+    {
+      "stage": "E8.5",
+      "type": "HEM-Endoth",
+      "gene": "Esam",
+      "n": 80,
+      "detection": 0.1,
+      "mean_released_counts": 0.11249999701976776,
+      "median_total": 131.0
+    },
+    {
+      "stage": "E8.5",
+      "type": "HEM-Endoth",
+      "gene": "Emcn",
+      "n": 80,
+      "detection": 0.075,
+      "mean_released_counts": 0.10000000149011612,
+      "median_total": 131.0
+    },
+    {
+      "stage": "E8.5",
+      "type": "Intra-Endoth-1",
+      "gene": "Esam",
+      "n": 559,
+      "detection": 0.41323792486583183,
+      "mean_released_counts": 0.7549194693565369,
+      "median_total": 203.0
+    },
+    {
+      "stage": "E8.5",
+      "type": "Intra-Endoth-1",
+      "gene": "Emcn",
+      "n": 559,
+      "detection": 0.23076923076923078,
+      "mean_released_counts": 0.2951699495315552,
+      "median_total": 203.0
+    },
+    {
+      "stage": "E8.5",
+      "type": "Intra-Endoth-2",
+      "gene": "Esam",
+      "n": 173,
+      "detection": 0.4277456647398844,
+      "mean_released_counts": 0.7398843765258789,
+      "median_total": 156.0
+    },
+    {
+      "stage": "E8.5",
+      "type": "Intra-Endoth-2",
+      "gene": "Emcn",
+      "n": 173,
+      "detection": 0.08670520231213873,
+      "mean_released_counts": 0.12138728052377701,
+      "median_total": 156.0
+    }
+  ],
+  "shared_85_95_types": [
+    "V-CM"
+  ],
+  "note": "Same code and type lists as A07. Endo is not silently relabeled. E8.5->E9.5 has no registered cell correspondence. p=1 cannot model increased depth; thinning is diagnostic only."
+}

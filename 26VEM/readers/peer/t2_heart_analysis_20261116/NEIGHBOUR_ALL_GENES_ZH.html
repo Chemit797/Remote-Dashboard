@@ -1,6 +1,11 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>500 基因邻域分析：哪些基因真的获得额外解释？</title><link rel="stylesheet" href="../../../assets/site.css"></head><body><main class="prose"><h1 id="500">500 基因邻域分析：哪些基因真的获得额外解释？</h1>
 <p>这是一轮探索性扩展，回答“邻域信息是否能解释四个结构标志基因之外的表达差异”。研究了五个时期、四类细胞；其中 E8.75 的其他中胚层少于 250 个细胞，未纳入拟合。其余 19 个时期×类型组合都评估了面板全部 500 个基因。每个基因都得到空间块留出的真实邻域增益和一次分层打乱邻域对照。</p>
 <h2 id="_1">结果</h2>
+<p><strong>验证集补全 · 2026-11-19</strong></p>
+<p>验证阶段已在原9500行扫描中。本次复用如下原表行，没有重复运行邻域回归。</p>
+<div style="overflow-x:auto;contain:inline-size;max-width:100%" tabindex="0" role="region" aria-label="结果表格，可横向滚动"><table style="min-width:625px;width:100%"><thead><tr><th style="white-space:nowrap;min-width:70px">阶段</th><th>类群</th><th>观测数</th><th>合格基因</th><th>原阈值下候选数</th></tr></thead><tbody><tr><td style="white-space:nowrap;min-width:70px">E8.5</td><td>Cardiomyocyte</td><td>1919</td><td>221</td><td>34</td></tr><tr><td style="white-space:nowrap;min-width:70px">E10.5</td><td>Cardiomyocyte</td><td>3000</td><td>137</td><td>39</td></tr><tr><td style="white-space:nowrap;min-width:70px">E8.5</td><td>Endothelial/endocardial</td><td>1190</td><td>230</td><td>56</td></tr><tr><td style="white-space:nowrap;min-width:70px">E8.5</td><td>Cardiac progenitor/heart field</td><td>3000</td><td>225</td><td>28</td></tr><tr><td style="white-space:nowrap;min-width:70px">E8.5</td><td>Other mesoderm</td><td>2264</td><td>195</td><td>34</td></tr><tr><td style="white-space:nowrap;min-width:70px">E10.5</td><td>Endothelial/endocardial</td><td>3000</td><td>150</td><td>30</td></tr><tr><td style="white-space:nowrap;min-width:70px">E10.5</td><td>Cardiac progenitor/heart field</td><td>3000</td><td>133</td><td>22</td></tr><tr><td style="white-space:nowrap;min-width:70px">E10.5</td><td>Other mesoderm</td><td>3000</td><td>136</td><td>33</td></tr></tbody></table></div>
+
+<p>这是同标本二维空间块留出结果；候选数不是提分，也不是官方三维NFS。</p>
 <p><strong>明确发现：</strong>邻域组成能解释一批标志基因之外的表达差异，且这种增量扩展到了内皮、祖细胞和其他中胚层。全 500 基因中有 393 个至少在一个组合检出率达到 5%；其中 236 个在至少一个组合达到邻域候选标准。心肌内共有 90 个非原四标志基因至少一次达标。具体到每个时期的心肌：</p>
 <table>
 <thead>
