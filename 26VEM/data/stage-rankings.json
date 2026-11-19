@@ -1,0 +1,1575 @@
+{
+  "version": "2026-11-20",
+  "metric": "spearman_nonzero_union",
+  "metric_label": "整体表达相关 ρ",
+  "limit": 8,
+  "method": "每个配对在共同实测基因内归一化、log1p，再按样本等权平均；删除双方全零基因，计算Spearman相关。",
+  "scope_note": "按已有整体表达ρ浏览排序；各来源共同基因、测量单位及取材不同，名称下保留共同基因数。多品系／重复各占一行，共用原始细胞的来源只占一行。",
+  "groups": [
+    {
+      "id": "T1",
+      "parent": "T1",
+      "title": "T1 · 表达时间外推",
+      "description": "官方核RNA · 心脏及周边取材",
+      "nodes": [
+        {
+          "stage": "E8.5",
+          "label": "E8.5",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T1_E8.5_RNA",
+          "official_files": [
+            "OFF_T1_E8.5_RNA"
+          ],
+          "rows": [
+            {
+              "pair": "P007",
+              "task": "T1",
+              "official": "OFF_T1_E8.5_RNA",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "external": "TOME4_E85",
+              "external_ids": [
+                "VED-004"
+              ],
+              "name": "VED-004 · TOME E8.5 全胚胎图谱",
+              "rho": 0.9359127652702289,
+              "common_genes": 28276,
+              "observations": 154313,
+              "note": "双方均为核RNA；外部为全胚，样本字段为12个RT组",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P007&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "P022",
+              "task": "T1",
+              "official": "OFF_T1_E8.5_RNA",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "external": "HEART230531_E85",
+              "external_ids": [
+                "VED-010"
+              ],
+              "name": "VED-010 · 胚胎与心脏单细胞图谱",
+              "rho": 0.910850735076704,
+              "common_genes": 25888,
+              "observations": 3413,
+              "note": "旧knee筛选的第2份E8.5；第1份文件损坏；无类型标签，整体结果仅作筛选敏感性",
+              "kind": "qc_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P022&group=ALL",
+              "rank": 2
+            },
+            {
+              "pair": "P006",
+              "task": "T1",
+              "official": "OFF_T1_E8.5_RNA",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "external": "EMTAB_FULL",
+              "external_ids": [
+                "VED-001"
+              ],
+              "name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+              "rho": 0.9004849753091834,
+              "common_genes": 26800,
+              "observations": 16909,
+              "note": "官方为心脏及周边细胞核，外部为全胚解离细胞",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P006&group=ALL",
+              "rank": 3
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E9.5",
+          "label": "E9.5",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T1_E9.5_RNA",
+          "official_files": [
+            "OFF_T1_E9.5_RNA"
+          ],
+          "rows": [
+            {
+              "pair": "P012",
+              "task": "T1",
+              "official": "OFF_T1_E9.5_RNA",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "FENG193346_CD1",
+              "external_ids": [
+                "VED-012"
+              ],
+              "name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+              "rho": 0.914723382133542,
+              "common_genes": 29715,
+              "observations": 887,
+              "note": "CD1分心腔样本；与官方细胞核的观测单位不同",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P012&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "P009",
+              "task": "T1",
+              "official": "OFF_T1_E9.5_RNA",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "QIU228590",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.9133112862772896,
+              "common_genes": 27859,
+              "observations": 4786,
+              "note": "外部是已筛出的心场和心内膜核，不能从此计算全胚组成",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P009&group=ALL",
+              "rank": 2
+            },
+            {
+              "pair": "P023",
+              "task": "T1",
+              "official": "OFF_T1_E9.5_RNA",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "OSR1_E95",
+              "external_ids": [
+                "VED-019"
+              ],
+              "name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+              "rho": 0.8955733704735098,
+              "common_genes": 16991,
+              "observations": 533,
+              "note": "整数样式未充分证明原始UMI，归一化结果仅作权重敏感性",
+              "kind": "selection_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P023&group=ALL",
+              "rank": 3
+            },
+            {
+              "pair": "P008",
+              "task": "T1",
+              "official": "OFF_T1_E9.5_RNA",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "TOME3_E95",
+              "external_ids": [
+                "VED-003",
+                "VED-008"
+              ],
+              "name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+              "rho": 0.8758204880311872,
+              "common_genes": 20998,
+              "observations": 110229,
+              "note": "同一细胞ID连接VED-008计数和VED-003标签/QC，只算一份证据；全胚与官方心脏周边范围不同",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P008&group=ALL",
+              "rank": 4
+            },
+            {
+              "pair": "P018",
+              "task": "T1",
+              "official": "OFF_T1_E9.5_RNA",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "MOSTA_E9.5",
+              "external_ids": [
+                "VED-009"
+              ],
+              "name": "VED-009 · MOSTA 心脏空间图谱",
+              "rho": 0.8719219987281225,
+              "common_genes": 12418,
+              "observations": 19780,
+              "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P018&group=ALL",
+              "rank": 5
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E10.5",
+          "label": "E10.5",
+          "role": "validation",
+          "condition": "WT",
+          "official": "OFF_T1_E10.5_RNA",
+          "official_files": [
+            "OFF_T1_E10.5_RNA"
+          ],
+          "rows": [
+            {
+              "pair": "X001",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "BUBR1_WT_E105",
+              "external_ids": [
+                "VED-015"
+              ],
+              "name": "VED-015 · BubR1 缺失心脏单细胞数据 · WT",
+              "rho": 0.9605650574334335,
+              "common_genes": 32207,
+              "observations": 13723,
+              "note": "4心脏池化只作一个样本；原始barcode经knee+基因数+线粒体QC",
+              "kind": "qc_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X001&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "X007",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "FENG_C57BL6_E105",
+              "external_ids": [
+                "VED-012"
+              ],
+              "name": "VED-012 · Feng 分心腔单细胞图谱｜C57BL6",
+              "rho": 0.9167459306236174,
+              "common_genes": 29715,
+              "observations": 587,
+              "note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X007&group=ALL",
+              "rank": 2
+            },
+            {
+              "pair": "X009",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "FENG_CD1_E105",
+              "external_ids": [
+                "VED-012"
+              ],
+              "name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+              "rho": 0.9082473969023959,
+              "common_genes": 29715,
+              "observations": 841,
+              "note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X009&group=ALL",
+              "rank": 3
+            },
+            {
+              "pair": "X029",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "VISIUM_E105",
+              "external_ids": [
+                "VED-030"
+              ],
+              "name": "VED-030 · E10.5 心脏 Visium 空间数据",
+              "rho": 0.9012000713464811,
+              "common_genes": 32207,
+              "observations": 332,
+              "note": "332个作者filtered spot；混合多个细胞，不计算细胞类型比例",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X029&group=ALL",
+              "rank": 4
+            },
+            {
+              "pair": "X021",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "QIU_E105",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.90110353222263,
+              "common_genes": 27859,
+              "observations": 718,
+              "note": "作者embryo_id分组；已下载心肌和内皮子集，不代表全胚比例",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X021&group=ALL",
+              "rank": 5
+            },
+            {
+              "pair": "X015",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "OFT_E105",
+              "external_ids": [
+                "VED-016"
+              ],
+              "name": "VED-016 · 心脏流出道单细胞数据",
+              "rho": 0.8990806992432512,
+              "common_genes": 31974,
+              "observations": 11480,
+              "note": "作者EmptyDrops筛选；流出道局部取材，非全心脏",
+              "kind": "selection_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X015&group=ALL",
+              "rank": 6
+            },
+            {
+              "pair": "X019",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "PITX2_CONTROL_E105",
+              "external_ids": [
+                "VED-014"
+              ],
+              "name": "VED-014 · Pitx2 缺失心脏单细胞数据 · Control",
+              "rho": 0.8913249522310003,
+              "common_genes": 18357,
+              "observations": 12535,
+              "note": "仅Control，orig.ident分组；发布矩阵与元数据nUMI总量不一致，按发布非负整数矩阵比较；不推断纯WT",
+              "kind": "same_stage_untyped",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X019&group=ALL",
+              "rank": 7
+            },
+            {
+              "pair": "X011",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "HEART230531_E105_R1",
+              "external_ids": [
+                "VED-010"
+              ],
+              "name": "VED-010 · 胚胎与心脏单细胞图谱｜重复1",
+              "rho": 0.8845947319011848,
+              "common_genes": 25888,
+              "observations": 21570,
+              "note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
+              "kind": "qc_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X011&group=ALL",
+              "rank": 8
+            },
+            {
+              "pair": "X013",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "HEART230531_E105_R2",
+              "external_ids": [
+                "VED-010"
+              ],
+              "name": "VED-010 · 胚胎与心脏单细胞图谱｜重复2",
+              "rho": 0.8842296085325232,
+              "common_genes": 25888,
+              "observations": 21093,
+              "note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
+              "kind": "qc_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X013&group=ALL",
+              "rank": 9
+            },
+            {
+              "pair": "X027",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "TOME_MOCA_E105",
+              "external_ids": [
+                "VED-003",
+                "VED-008"
+              ],
+              "name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+              "rho": 0.8694115632084518,
+              "common_genes": 20998,
+              "observations": 267994,
+              "note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X027&group=ALL",
+              "rank": 10
+            },
+            {
+              "pair": "X017",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "OSR1_E105",
+              "external_ids": [
+                "VED-019"
+              ],
+              "name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+              "rho": 0.8690736241136675,
+              "common_genes": 16866,
+              "observations": 967,
+              "note": "单份Osr1阳性富集；非完整心脏；未细分类型",
+              "kind": "selection_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X017&group=ALL",
+              "rank": 11
+            },
+            {
+              "pair": "X003",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "DBIT_E105_R1",
+              "external_ids": [
+                "VED-033"
+              ],
+              "name": "VED-033 · 胚胎与成体 DBiT-seq 空间数据｜重复1",
+              "rho": 0.7853034099234165,
+              "common_genes": 13590,
+              "observations": 2306,
+              "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X003&group=ALL",
+              "rank": 12
+            },
+            {
+              "pair": "X023",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "SLIDESEQ_E105_R1",
+              "external_ids": [
+                "VED-029"
+              ],
+              "name": "VED-029 · CD1 心脏 Visium／Slide-seq 图谱｜重复1",
+              "rho": 0.7687627380984475,
+              "common_genes": 14488,
+              "observations": 3839,
+              "note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X023&group=ALL",
+              "rank": 13
+            },
+            {
+              "pair": "X005",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "DBIT_E105_R2",
+              "external_ids": [
+                "VED-033"
+              ],
+              "name": "VED-033 · 胚胎与成体 DBiT-seq 空间数据｜重复2",
+              "rho": 0.7640171952053473,
+              "common_genes": 13789,
+              "observations": 2130,
+              "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X005&group=ALL",
+              "rank": 14
+            },
+            {
+              "pair": "X025",
+              "task": "T1",
+              "official": "OFF_T1_E10.5_RNA",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "SLIDESEQ_E105_R2",
+              "external_ids": [
+                "VED-029"
+              ],
+              "name": "VED-029 · CD1 心脏 Visium／Slide-seq 图谱｜重复2",
+              "rho": 0.746801268276771,
+              "common_genes": 14488,
+              "observations": 2396,
+              "note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X025&group=ALL",
+              "rank": 15
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E12.5",
+          "label": "E12.5",
+          "role": "test",
+          "condition": "WT",
+          "official": "T1_hidden_test",
+          "official_files": [
+            "T1_hidden_test"
+          ],
+          "rows": [],
+          "empty_reason": "测试答案尚未公开"
+        }
+      ]
+    },
+    {
+      "id": "T2_embryo",
+      "parent": "T2",
+      "title": "胚胎 · 插值",
+      "description": "官方空间数据",
+      "nodes": [
+        {
+          "stage": "E6.75",
+          "label": "E6.75",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_embryo_E6.75",
+          "official_files": [
+            "OFF_T2_embryo_E6.75"
+          ],
+          "rows": [
+            {
+              "pair": "P001",
+              "task": "T2 胚胎",
+              "official": "OFF_T2_embryo_E6.75",
+              "official_stage": "E6.75",
+              "external_stage": "E6.75",
+              "external": "EMTAB_FULL",
+              "external_ids": [
+                "VED-001"
+              ],
+              "name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+              "rho": 0.41388946545885075,
+              "common_genes": 496,
+              "observations": 2075,
+              "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P001&group=ALL",
+              "rank": 1
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E7.25",
+          "label": "E7.25",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_embryo_E7.25",
+          "official_files": [
+            "OFF_T2_embryo_E7.25"
+          ],
+          "rows": [
+            {
+              "pair": "P002",
+              "task": "T2 胚胎",
+              "official": "OFF_T2_embryo_E7.25",
+              "official_stage": "E7.25",
+              "external_stage": "E7.25",
+              "external": "EMTAB_FULL",
+              "external_ids": [
+                "VED-001"
+              ],
+              "name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+              "rho": 0.4274532216701132,
+              "common_genes": 496,
+              "observations": 13537,
+              "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P002&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "P020",
+              "task": "T2 胚胎",
+              "official": "OFF_T2_embryo_E7.25",
+              "official_stage": "E7.25",
+              "external_stage": "E7.25",
+              "external": "MESP1_ALLOWED",
+              "external_ids": [
+                "VED-002"
+              ],
+              "name": "VED-002 · Mesp1 早期心脏谱系图谱",
+              "rho": 0.4259602990727372,
+              "common_genes": 493,
+              "observations": 785,
+              "note": "外部FACS富集Mesp1谱系、缺细胞类型，不代表全胚或全心脏",
+              "kind": "same_stage_untyped",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P020&group=ALL",
+              "rank": 2
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E7.5",
+          "label": "E7.5",
+          "role": "validation",
+          "condition": "WT",
+          "official": "OFF_T2_embryo_E7.5",
+          "official_files": [
+            "OFF_T2_embryo_E7.5"
+          ],
+          "rows": [],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E7.75",
+          "label": "E7.75",
+          "role": "test",
+          "condition": "WT",
+          "official": "T2_embryo_hidden_test",
+          "official_files": [
+            "T2_embryo_hidden_test"
+          ],
+          "rows": [],
+          "empty_reason": "测试答案尚未公开"
+        },
+        {
+          "stage": "E8.0",
+          "label": "E8.0",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_embryo_E8.0",
+          "official_files": [
+            "OFF_T2_embryo_E8.0"
+          ],
+          "rows": [
+            {
+              "pair": "P003",
+              "task": "T2 胚胎",
+              "official": "OFF_T2_embryo_E8.0",
+              "official_stage": "E8.0",
+              "external_stage": "E8.0",
+              "external": "EMTAB_FULL",
+              "external_ids": [
+                "VED-001"
+              ],
+              "name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+              "rho": 0.6263585557234461,
+              "common_genes": 498,
+              "observations": 16681,
+              "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P003&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "P005",
+              "task": "T2 胚胎",
+              "official": "OFF_T2_embryo_E8.0",
+              "official_stage": "E8.0",
+              "external_stage": "E8.0",
+              "external": "STEREO_E8_rep2",
+              "external_ids": [
+                "VED-020"
+              ],
+              "name": "VED-020 · Stereo-seq 胚胎三维重建图谱｜重复2",
+              "rho": 0.5402972152597831,
+              "common_genes": 480,
+              "observations": 27266,
+              "note": "外部是全胚切片重建对象；官方为心脏新月的分割细胞，非同单位占比",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P005&group=ALL",
+              "rank": 2
+            },
+            {
+              "pair": "P004",
+              "task": "T2 胚胎",
+              "official": "OFF_T2_embryo_E8.0",
+              "official_stage": "E8.0",
+              "external_stage": "E8.0",
+              "external": "STEREO_E8_rep1",
+              "external_ids": [
+                "VED-020"
+              ],
+              "name": "VED-020 · Stereo-seq 胚胎三维重建图谱｜重复1",
+              "rho": 0.5068366098927238,
+              "common_genes": 450,
+              "observations": 11048,
+              "note": "外部是全胚切片重建对象；官方为心脏新月的分割细胞，非同单位占比",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P004&group=ALL",
+              "rank": 3
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        }
+      ]
+    },
+    {
+      "id": "T2_heart_interp",
+      "parent": "T2",
+      "title": "心脏 · 插值",
+      "description": "验证目标 E8.5",
+      "nodes": [
+        {
+          "stage": "E8.25",
+          "label": "E8.25 late ≈ E8.3",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E8.25_late",
+          "official_files": [
+            "OFF_T2_heart_E8.25_late"
+          ],
+          "rows": [],
+          "empty_reason": "外部E8.25与官方实际约E8.3日龄不同，未列入同阶段排名"
+        },
+        {
+          "stage": "E8.5",
+          "label": "E8.5",
+          "role": "validation",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E8.5",
+          "official_files": [
+            "OFF_T2_heart_E8.5"
+          ],
+          "rows": [],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E8.75",
+          "label": "E8.75",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E8.75",
+          "official_files": [
+            "OFF_T2_heart_E8.75"
+          ],
+          "rows": [
+            {
+              "pair": "P010",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E8.75",
+              "official_stage": "E8.75",
+              "external_stage": "E8.75",
+              "external": "QIU228590",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.4022239387803271,
+              "common_genes": 497,
+              "observations": 1379,
+              "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P010&group=ALL",
+              "rank": 1
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E9.5",
+          "label": "E9.5",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E9.5",
+          "official_files": [
+            "OFF_T2_heart_E9.5"
+          ],
+          "rows": [
+            {
+              "pair": "P013",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "FENG193346_CD1",
+              "external_ids": [
+                "VED-012"
+              ],
+              "name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+              "rho": 0.493624603136918,
+              "common_genes": 498,
+              "observations": 887,
+              "note": "分心腔解离细胞与空间分割细胞不同；心房小样本保留",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P013&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "P019",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "MOSTA_E9.5",
+              "external_ids": [
+                "VED-009"
+              ],
+              "name": "VED-009 · MOSTA 心脏空间图谱",
+              "rho": 0.4864420623994699,
+              "common_genes": 380,
+              "observations": 19780,
+              "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P019&group=ALL",
+              "rank": 2
+            },
+            {
+              "pair": "P011",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "QIU228590",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.4644222625797389,
+              "common_genes": 497,
+              "observations": 4786,
+              "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P011&group=ALL",
+              "rank": 3
+            },
+            {
+              "pair": "P024",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "TOME3_E95",
+              "external_ids": [
+                "VED-003",
+                "VED-008"
+              ],
+              "name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+              "rho": 0.331177113538387,
+              "common_genes": 493,
+              "observations": 110229,
+              "note": "计数/注释来自两项共享数据的研究，只算一份证据",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P024&group=ALL",
+              "rank": 4
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        }
+      ]
+    },
+    {
+      "id": "T2_heart_extrap",
+      "parent": "T2",
+      "title": "心脏 · 外推",
+      "description": "验证目标 E10.5 · 测试目标 E12.5",
+      "nodes": [
+        {
+          "stage": "E8.25",
+          "label": "E8.25 late ≈ E8.3",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E8.25_late",
+          "official_files": [
+            "OFF_T2_heart_E8.25_late"
+          ],
+          "rows": [],
+          "empty_reason": "外部E8.25与官方实际约E8.3日龄不同，未列入同阶段排名"
+        },
+        {
+          "stage": "E8.75",
+          "label": "E8.75",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E8.75",
+          "official_files": [
+            "OFF_T2_heart_E8.75"
+          ],
+          "rows": [
+            {
+              "pair": "P010",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E8.75",
+              "official_stage": "E8.75",
+              "external_stage": "E8.75",
+              "external": "QIU228590",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.4022239387803271,
+              "common_genes": 497,
+              "observations": 1379,
+              "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P010&group=ALL",
+              "rank": 1
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E9.5",
+          "label": "E9.5",
+          "role": "train",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E9.5",
+          "official_files": [
+            "OFF_T2_heart_E9.5"
+          ],
+          "rows": [
+            {
+              "pair": "P013",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "FENG193346_CD1",
+              "external_ids": [
+                "VED-012"
+              ],
+              "name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+              "rho": 0.493624603136918,
+              "common_genes": 498,
+              "observations": 887,
+              "note": "分心腔解离细胞与空间分割细胞不同；心房小样本保留",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P013&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "P019",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "MOSTA_E9.5",
+              "external_ids": [
+                "VED-009"
+              ],
+              "name": "VED-009 · MOSTA 心脏空间图谱",
+              "rho": 0.4864420623994699,
+              "common_genes": 380,
+              "observations": 19780,
+              "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P019&group=ALL",
+              "rank": 2
+            },
+            {
+              "pair": "P011",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "QIU228590",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.4644222625797389,
+              "common_genes": 497,
+              "observations": 4786,
+              "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P011&group=ALL",
+              "rank": 3
+            },
+            {
+              "pair": "P024",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "TOME3_E95",
+              "external_ids": [
+                "VED-003",
+                "VED-008"
+              ],
+              "name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+              "rho": 0.331177113538387,
+              "common_genes": 493,
+              "observations": 110229,
+              "note": "计数/注释来自两项共享数据的研究，只算一份证据",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P024&group=ALL",
+              "rank": 4
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E10.5",
+          "label": "E10.5",
+          "role": "validation",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E10.5",
+          "official_files": [
+            "OFF_T2_heart_E10.5"
+          ],
+          "rows": [
+            {
+              "pair": "X030",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "VISIUM_E105",
+              "external_ids": [
+                "VED-030"
+              ],
+              "name": "VED-030 · E10.5 心脏 Visium 空间数据",
+              "rho": 0.5447788668804713,
+              "common_genes": 500,
+              "observations": 332,
+              "note": "332个作者filtered spot；混合多个细胞，不计算细胞类型比例",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X030&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "X016",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "OFT_E105",
+              "external_ids": [
+                "VED-016"
+              ],
+              "name": "VED-016 · 心脏流出道单细胞数据",
+              "rho": 0.49329486398878303,
+              "common_genes": 500,
+              "observations": 11480,
+              "note": "作者EmptyDrops筛选；流出道局部取材，非全心脏",
+              "kind": "selection_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X016&group=ALL",
+              "rank": 2
+            },
+            {
+              "pair": "X018",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "OSR1_E105",
+              "external_ids": [
+                "VED-019"
+              ],
+              "name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+              "rho": 0.4801334923868418,
+              "common_genes": 475,
+              "observations": 967,
+              "note": "单份Osr1阳性富集；非完整心脏；未细分类型",
+              "kind": "selection_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X018&group=ALL",
+              "rank": 3
+            },
+            {
+              "pair": "X020",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "PITX2_CONTROL_E105",
+              "external_ids": [
+                "VED-014"
+              ],
+              "name": "VED-014 · Pitx2 缺失心脏单细胞数据 · Control",
+              "rho": 0.47564180521395805,
+              "common_genes": 477,
+              "observations": 12535,
+              "note": "仅Control，orig.ident分组；发布矩阵与元数据nUMI总量不一致，按发布非负整数矩阵比较；不推断纯WT",
+              "kind": "same_stage_untyped",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X020&group=ALL",
+              "rank": 4
+            },
+            {
+              "pair": "X008",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "FENG_C57BL6_E105",
+              "external_ids": [
+                "VED-012"
+              ],
+              "name": "VED-012 · Feng 分心腔单细胞图谱｜C57BL6",
+              "rho": 0.45445344796414805,
+              "common_genes": 498,
+              "observations": 587,
+              "note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X008&group=ALL",
+              "rank": 5
+            },
+            {
+              "pair": "X002",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "BUBR1_WT_E105",
+              "external_ids": [
+                "VED-015"
+              ],
+              "name": "VED-015 · BubR1 缺失心脏单细胞数据 · WT",
+              "rho": 0.4269095282885897,
+              "common_genes": 500,
+              "observations": 13723,
+              "note": "4心脏池化只作一个样本；原始barcode经knee+基因数+线粒体QC",
+              "kind": "qc_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X002&group=ALL",
+              "rank": 6
+            },
+            {
+              "pair": "X014",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "HEART230531_E105_R2",
+              "external_ids": [
+                "VED-010"
+              ],
+              "name": "VED-010 · 胚胎与心脏单细胞图谱｜重复2",
+              "rho": 0.4247538286614663,
+              "common_genes": 494,
+              "observations": 21093,
+              "note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
+              "kind": "qc_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X014&group=ALL",
+              "rank": 7
+            },
+            {
+              "pair": "X012",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "HEART230531_E105_R1",
+              "external_ids": [
+                "VED-010"
+              ],
+              "name": "VED-010 · 胚胎与心脏单细胞图谱｜重复1",
+              "rho": 0.4240074512549715,
+              "common_genes": 494,
+              "observations": 21570,
+              "note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
+              "kind": "qc_sensitivity",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X012&group=ALL",
+              "rank": 8
+            },
+            {
+              "pair": "X010",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "FENG_CD1_E105",
+              "external_ids": [
+                "VED-012"
+              ],
+              "name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+              "rho": 0.4232869312722731,
+              "common_genes": 498,
+              "observations": 841,
+              "note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X010&group=ALL",
+              "rank": 9
+            },
+            {
+              "pair": "X004",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "DBIT_E105_R1",
+              "external_ids": [
+                "VED-033"
+              ],
+              "name": "VED-033 · 胚胎与成体 DBiT-seq 空间数据｜重复1",
+              "rho": 0.3913746919183343,
+              "common_genes": 419,
+              "observations": 2306,
+              "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X004&group=ALL",
+              "rank": 10
+            },
+            {
+              "pair": "X024",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "SLIDESEQ_E105_R1",
+              "external_ids": [
+                "VED-029"
+              ],
+              "name": "VED-029 · CD1 心脏 Visium／Slide-seq 图谱｜重复1",
+              "rho": 0.3890663346209707,
+              "common_genes": 380,
+              "observations": 3839,
+              "note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X024&group=ALL",
+              "rank": 11
+            },
+            {
+              "pair": "X026",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "SLIDESEQ_E105_R2",
+              "external_ids": [
+                "VED-029"
+              ],
+              "name": "VED-029 · CD1 心脏 Visium／Slide-seq 图谱｜重复2",
+              "rho": 0.3888351355268544,
+              "common_genes": 380,
+              "observations": 2396,
+              "note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X026&group=ALL",
+              "rank": 12
+            },
+            {
+              "pair": "X006",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "DBIT_E105_R2",
+              "external_ids": [
+                "VED-033"
+              ],
+              "name": "VED-033 · 胚胎与成体 DBiT-seq 空间数据｜重复2",
+              "rho": 0.37474606792803444,
+              "common_genes": 406,
+              "observations": 2130,
+              "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X006&group=ALL",
+              "rank": 13
+            },
+            {
+              "pair": "X022",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "QIU_E105",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.36888558524999704,
+              "common_genes": 497,
+              "observations": 718,
+              "note": "作者embryo_id分组；已下载心肌和内皮子集，不代表全胚比例",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X022&group=ALL",
+              "rank": 14
+            },
+            {
+              "pair": "X028",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E10.5",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "external": "TOME_MOCA_E105",
+              "external_ids": [
+                "VED-003",
+                "VED-008"
+              ],
+              "name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+              "rho": 0.31174709986417926,
+              "common_genes": 493,
+              "observations": 267994,
+              "note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X028&group=ALL",
+              "rank": 15
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E12.5",
+          "label": "E12.5",
+          "role": "test",
+          "condition": "WT",
+          "official": "T2_heart_hidden_test",
+          "official_files": [
+            "T2_heart_hidden_test"
+          ],
+          "rows": [],
+          "empty_reason": "测试答案尚未公开"
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "parent": "T3",
+      "title": "T3 · 扰动预测",
+      "description": "WT参照与各敲除条件分别列出",
+      "nodes": [
+        {
+          "stage": "E8.75",
+          "label": "E8.75 · WT参照",
+          "role": "reference",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E8.75",
+          "official_files": [
+            "OFF_T2_heart_E8.75"
+          ],
+          "rows": [
+            {
+              "pair": "P010",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E8.75",
+              "official_stage": "E8.75",
+              "external_stage": "E8.75",
+              "external": "QIU228590",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.4022239387803271,
+              "common_genes": 497,
+              "observations": 1379,
+              "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P010&group=ALL",
+              "rank": 1
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E8.75",
+          "label": "E8.75 · Gata4 KO",
+          "role": "validation",
+          "condition": "Gata4 KO · 重复1",
+          "official": "OFF_T3_E8.75_gata4_ko_1",
+          "official_files": [
+            "OFF_T3_E8.75_gata4_ko_1"
+          ],
+          "rows": [],
+          "empty_reason": "暂无同阶段且基因型、驱动与对照条件匹配的外部结果"
+        },
+        {
+          "stage": "E8.75",
+          "label": "E8.75 · Gata4 KO",
+          "role": "validation",
+          "condition": "Gata4 KO · 重复2",
+          "official": "OFF_T3_E8.75_gata4_ko_2",
+          "official_files": [
+            "OFF_T3_E8.75_gata4_ko_2"
+          ],
+          "rows": [],
+          "empty_reason": "暂无同阶段且基因型、驱动与对照条件匹配的外部结果"
+        },
+        {
+          "stage": "E8.75",
+          "label": "E8.75 · Ctnnb1 KO",
+          "role": "test",
+          "condition": "Ctnnb1 KO",
+          "official": "T3_hidden_test",
+          "official_files": [
+            "T3_hidden_test"
+          ],
+          "rows": [],
+          "empty_reason": "测试答案尚未公开"
+        },
+        {
+          "stage": "E9.5",
+          "label": "E9.5 · WT参照",
+          "role": "reference",
+          "condition": "WT",
+          "official": "OFF_T2_heart_E9.5",
+          "official_files": [
+            "OFF_T2_heart_E9.5"
+          ],
+          "rows": [
+            {
+              "pair": "P013",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "FENG193346_CD1",
+              "external_ids": [
+                "VED-012"
+              ],
+              "name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+              "rho": 0.493624603136918,
+              "common_genes": 498,
+              "observations": 887,
+              "note": "分心腔解离细胞与空间分割细胞不同；心房小样本保留",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P013&group=ALL",
+              "rank": 1
+            },
+            {
+              "pair": "P019",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "MOSTA_E9.5",
+              "external_ids": [
+                "VED-009"
+              ],
+              "name": "VED-009 · MOSTA 心脏空间图谱",
+              "rho": 0.4864420623994699,
+              "common_genes": 380,
+              "observations": 19780,
+              "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
+              "kind": "spatial_background",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P019&group=ALL",
+              "rank": 2
+            },
+            {
+              "pair": "P011",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "QIU228590",
+              "external_ids": [
+                "VED-007"
+              ],
+              "name": "VED-007 · Qiu 产前细胞核图谱",
+              "rho": 0.4644222625797389,
+              "common_genes": 497,
+              "observations": 4786,
+              "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P011&group=ALL",
+              "rank": 3
+            },
+            {
+              "pair": "P024",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "TOME3_E95",
+              "external_ids": [
+                "VED-003",
+                "VED-008"
+              ],
+              "name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+              "rho": 0.331177113538387,
+              "common_genes": 493,
+              "observations": 110229,
+              "note": "计数/注释来自两项共享数据的研究，只算一份证据",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P024&group=ALL",
+              "rank": 4
+            }
+          ],
+          "empty_reason": "暂无已计算的同阶段外部对照"
+        },
+        {
+          "stage": "E9.5",
+          "label": "E9.5 · Mab21l2 KO",
+          "role": "train",
+          "condition": "Mab21l2 KO",
+          "official": "OFF_T3_E9.5_mab21l2_ko",
+          "official_files": [
+            "OFF_T3_E9.5_mab21l2_ko"
+          ],
+          "rows": [],
+          "empty_reason": "暂无同阶段且扰动条件匹配的外部结果"
+        }
+      ]
+    }
+  ],
+  "candidate_count": 49,
+  "excluded": [
+    {
+      "pair": "P014",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "P015",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "P016",
+      "reason": "documented_stage_mismatch"
+    },
+    {
+      "pair": "P017",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "P021",
+      "reason": "documented_stage_mismatch"
+    },
+    {
+      "pair": "V001",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V002",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V003",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V004",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V005",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V006",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V007",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V008",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V009",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V010",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V011",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V012",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V013",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V014",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V015",
+      "reason": "different_stage"
+    },
+    {
+      "pair": "V016",
+      "reason": "different_stage"
+    }
+  ],
+  "sources": [
+    {
+      "path": "D:\\Project\\Remote-Dashboard\\26VEM\\readers\\research\\vem_pairwise_similarity_v3\\comparison.html",
+      "sha256": "d1bc1fda46e3b8b66d01fe67467302a8b8446170cd942df943a34779b0c879c4"
+    },
+    {
+      "path": "D:\\Project\\virtualembryo_biocosmosX\\catalogs\\external_dataset_names.json",
+      "sha256": "b20d97512edcb9b04e0b724943fe8cacc28f95005b305603613995aaf3463104"
+    }
+  ]
+}

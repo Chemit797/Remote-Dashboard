@@ -70,7 +70,7 @@ function analysisPage(){
  if(route[1]&&route[1]!=='topic')return analysisDetail(route[1]);
  if(route[1]==='topic')state.analysis.topic=route[2]||'';else state.analysis.topic='';
  return head('','分析专题','按类别查找已有专题，点击标题进入原页面；下方的小标题可直接切入原章节。')+
- `<div class="topic-jumps">${readerGroups.map((g,i)=>`<a href="#/analysis/topic/group-${i}">${E(g)}</a>`).join('')}<a href="#/analysis">全部专题</a></div><div class="toolbar">${field('搜索专题或原章节','analysis-q',search('analysis-q',state.analysis.q,'标题、原问题、章节或编号'),true)}${field('比赛任务','analysis-task',select('analysis-task',D.tasks.map(t=>[t.id,t.name]),state.analysis.task,'全部任务'))}</div><div id="analysis-results"></div>`;
+ `<div class="topic-jumps"><a href="#/similarity">同阶段外部数据前八 →</a>${readerGroups.map((g,i)=>`<a href="#/analysis/topic/group-${i}">${E(g)}</a>`).join('')}<a href="#/analysis">全部专题</a></div><div class="toolbar">${field('搜索专题或原章节','analysis-q',search('analysis-q',state.analysis.q,'标题、原问题、章节或编号'),true)}${field('比赛任务','analysis-task',select('analysis-task',D.tasks.map(t=>[t.id,t.name]),state.analysis.task,'全部任务'))}</div><div id="analysis-results"></div>`;
 }
 function updateAnalysis(){
  const s=state.analysis,q=s.q.toLowerCase();
@@ -122,7 +122,7 @@ function render(){
  const raw=(location.hash.slice(1)||'/overview'),parts=raw.split('?');route=parts[0].replace(/^\//,'').split('/').filter(Boolean);
  const query=new URLSearchParams(parts[1]||'');if(route[0]==='knowledge'&&query.has('gene')){state.knowledge.q=query.get('gene');state.knowledge.page=0;}
  const page=route[0]||'overview';document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===page||(page==='task'&&a.dataset.nav==='overview');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
- try{main.innerHTML=page==='overview'?overview():page==='data'?dataPage():page==='analysis'?analysisPage():page==='knowledge'?knowledgePage():page==='files'?filesPage():page==='plan'?planPage():page==='task'?taskPage(route[1]):missing();}catch(error){console.error(error);main.innerHTML=head('DISPLAY ERROR','页面未能完成载入','请刷新页面；如果仍有问题，可查看维护说明。');}
+ try{main.innerHTML=page==='overview'?overview():page==='data'?dataPage():page==='analysis'?analysisPage():page==='similarity'?window.VEMStageRankings.render():page==='knowledge'?knowledgePage():page==='files'?filesPage():page==='plan'?planPage():page==='task'?taskPage(route[1]):missing();}catch(error){console.error(error);main.innerHTML=head('DISPLAY ERROR','页面未能完成载入','请刷新页面；如果仍有问题，可查看维护说明。');}
  document.title=(main.querySelector('h1')?.textContent||'研究工作台')+' · 26VEM';
  document.getElementById('footer-info').textContent='研究快照 '+D.version+' · 截止日来源 '+D.deadline.source_url.replace('https://','');
  if(document.getElementById('countdown')){countdown();clockHandle=setInterval(countdown,1000);}
@@ -134,6 +134,7 @@ function render(){
  if(document.getElementById('metric-results'))updateMetrics();
  if(document.getElementById('neighbour-results'))loadNeighbours().then(()=>{if(document.getElementById('neighbour-results'))updateNeighbours();}).catch(e=>{if(document.getElementById('neighbour-results'))document.getElementById('neighbour-results').innerHTML=empty(e.message);});
  window.scrollTo({top:0,behavior:'instant'});
+ if(page==='similarity'&&route[1])document.getElementById('rank-task-'+route[1])?.scrollIntoView({block:'start'});
 }
 const controls={
  'analysis-q':['analysis','q',updateAnalysis],'analysis-task':['analysis','task',updateAnalysis],'analysis-topic':['analysis','topic',updateAnalysis],
