@@ -14,6 +14,8 @@ def build(project):
            'older':project/'reports/analysis_integration_20261118/older_comparison/team/official_external_comparison_20261115'}
     # Dated additions are separate sources. The original snapshots stay frozen.
     overlay=project/'research/validation_completion_20261119/overlays'
+    external_overlay=project/'research/external_E10p5_analysis_20261119/overlays'
+    overlays=[external_overlay,overlay]
     frozen_dependencies=overlay.parent/'frozen_dependencies'
     baseline_files=json.loads((overlay.parent/'REMOTE_WEBSITE_BEFORE.json').read_text(encoding='utf-8'))['files']
     seeds={
@@ -36,8 +38,9 @@ def build(project):
     def original(key):
         p=Path(key);return roots[p.parts[0]].joinpath(*p.parts[1:])
     def resolve(key):
-        candidate=overlay/key
-        if candidate.is_file():return candidate
+        for source_overlay in overlays:
+            candidate=source_overlay/key
+            if candidate.is_file():return candidate
         candidate=frozen_dependencies/key
         if candidate.is_file():return candidate
         candidate=original(key)
@@ -60,8 +63,9 @@ def build(project):
         if path.is_file():copy('peer/'+path.relative_to(peer).as_posix())
     # Data-driven readers construct download links at runtime. Include the
     # explicitly selected dated evidence, including those non-static targets.
-    for path in overlay.rglob('*'):
-        if path.is_file():copy(path.relative_to(overlay).as_posix())
+    for source_overlay in overlays:
+        for path in source_overlay.rglob('*'):
+            if path.is_file():copy(path.relative_to(source_overlay).as_posix())
     queue=[urlsplit(p).path for p,_ in seeds.values()]
     while queue:
         key=queue.pop()

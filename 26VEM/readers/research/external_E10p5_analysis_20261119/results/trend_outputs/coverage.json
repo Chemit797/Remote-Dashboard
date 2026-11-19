@@ -1,0 +1,698 @@
+[
+  {
+    "from_pair": "P012",
+    "to_pair": "X009",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "task": "T1",
+    "group": "endocardium",
+    "group_name": "心内膜",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 29715,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 1555,
+          "valid_n": 1555,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 3332,
+          "valid_n": 3332,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 13,
+          "valid_n": 13,
+          "denominator": 187
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 33,
+          "valid_n": 33,
+          "denominator": 417
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 10,
+          "valid_n": 10,
+          "denominator": 106
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 8,
+          "valid_n": 8,
+          "denominator": 90
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 6,
+          "valid_n": 6,
+          "denominator": 87
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 10,
+          "valid_n": 10,
+          "denominator": 208
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 19,
+          "valid_n": 19,
+          "denominator": 370
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 4,
+          "valid_n": 4,
+          "denominator": 100
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 1,
+          "valid_n": 1,
+          "denominator": 76
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 4,
+          "valid_n": 4,
+          "denominator": 87
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "missing_qualified_endpoint",
+    "reason": "至少一个端点没有每样本不少于30个有效观测的对应组"
+  },
+  {
+    "from_pair": "P013",
+    "to_pair": "X010",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "task": "T2 心脏",
+    "group": "atrial",
+    "group_name": "心房心肌",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 498,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T2_heart_E9.5",
+          "n": 5054,
+          "valid_n": 5054,
+          "denominator": 53742
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T2_heart_E10.5",
+          "n": 9502,
+          "valid_n": 9502,
+          "denominator": 167864
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 2,
+          "valid_n": 2,
+          "denominator": 187
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 8,
+          "valid_n": 8,
+          "denominator": 417
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 1,
+          "valid_n": 1,
+          "denominator": 106
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 90
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 87
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 208
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 2,
+          "valid_n": 2,
+          "denominator": 370
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 1,
+          "valid_n": 1,
+          "denominator": 100
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 1,
+          "valid_n": 1,
+          "denominator": 76
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 87
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "missing_qualified_endpoint",
+    "reason": "至少一个端点没有每样本不少于30个有效观测的对应组"
+  },
+  {
+    "from_pair": "P009",
+    "to_pair": "X021",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "task": "T1",
+    "group": "ventricular",
+    "group_name": "心室心肌",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 27859,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 1144,
+          "valid_n": 1144,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 1588,
+          "valid_n": 1588,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "embryo_22",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 1449
+        },
+        {
+          "sample": "embryo_23",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 828
+        },
+        {
+          "sample": "embryo_24",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 2509
+        }
+      ],
+      [
+        {
+          "sample": "embryo_34",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 718
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "missing_qualified_endpoint",
+    "reason": "至少一个端点没有每样本不少于30个有效观测的对应组"
+  },
+  {
+    "from_pair": "P011",
+    "to_pair": "X022",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "task": "T2 心脏",
+    "group": "ventricular",
+    "group_name": "心室心肌",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 497,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T2_heart_E9.5",
+          "n": 6207,
+          "valid_n": 6207,
+          "denominator": 53742
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T2_heart_E10.5",
+          "n": 9782,
+          "valid_n": 9782,
+          "denominator": 167864
+        }
+      ],
+      [
+        {
+          "sample": "embryo_22",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 1449
+        },
+        {
+          "sample": "embryo_23",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 828
+        },
+        {
+          "sample": "embryo_24",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 2509
+        }
+      ],
+      [
+        {
+          "sample": "embryo_34",
+          "n": 0,
+          "valid_n": 0,
+          "denominator": 718
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "missing_qualified_endpoint",
+    "reason": "至少一个端点没有每样本不少于30个有效观测的对应组"
+  },
+  {
+    "from_pair": "P008",
+    "to_pair": "X027",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "task": "T1",
+    "group": "hepatocyte",
+    "group_name": "肝细胞",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 20998,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 1190,
+          "valid_n": 1190,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 164,
+          "valid_n": 164,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "embryo1.0",
+          "n": 24,
+          "valid_n": 24,
+          "denominator": 14915
+        },
+        {
+          "sample": "embryo19.0",
+          "n": 9,
+          "valid_n": 9,
+          "denominator": 3970
+        },
+        {
+          "sample": "embryo20.0",
+          "n": 8,
+          "valid_n": 8,
+          "denominator": 2686
+        },
+        {
+          "sample": "embryo21.0",
+          "n": 12,
+          "valid_n": 12,
+          "denominator": 11836
+        },
+        {
+          "sample": "embryo22.0",
+          "n": 5,
+          "valid_n": 5,
+          "denominator": 5428
+        },
+        {
+          "sample": "embryo3.0",
+          "n": 6,
+          "valid_n": 6,
+          "denominator": 7661
+        },
+        {
+          "sample": "embryo39.0",
+          "n": 19,
+          "valid_n": 19,
+          "denominator": 6601
+        },
+        {
+          "sample": "embryo40.0",
+          "n": 11,
+          "valid_n": 11,
+          "denominator": 7153
+        },
+        {
+          "sample": "embryo41.0",
+          "n": 2,
+          "valid_n": 2,
+          "denominator": 3538
+        },
+        {
+          "sample": "embryo42.0",
+          "n": 10,
+          "valid_n": 10,
+          "denominator": 8090
+        },
+        {
+          "sample": "embryo55.0",
+          "n": 10,
+          "valid_n": 10,
+          "denominator": 3839
+        },
+        {
+          "sample": "embryo56.0",
+          "n": 5,
+          "valid_n": 5,
+          "denominator": 7647
+        },
+        {
+          "sample": "embryo57.0",
+          "n": 11,
+          "valid_n": 11,
+          "denominator": 9228
+        },
+        {
+          "sample": "embryo58.0",
+          "n": 12,
+          "valid_n": 12,
+          "denominator": 7533
+        },
+        {
+          "sample": "embryo63.0",
+          "n": 26,
+          "valid_n": 26,
+          "denominator": 10104
+        }
+      ],
+      [
+        {
+          "sample": "embryo_24",
+          "n": 79,
+          "valid_n": 79,
+          "denominator": 28088
+        },
+        {
+          "sample": "embryo_25",
+          "n": 27,
+          "valid_n": 27,
+          "denominator": 15915
+        },
+        {
+          "sample": "embryo_26",
+          "n": 61,
+          "valid_n": 61,
+          "denominator": 24118
+        },
+        {
+          "sample": "embryo_4",
+          "n": 20,
+          "valid_n": 20,
+          "denominator": 12340
+        },
+        {
+          "sample": "embryo_43",
+          "n": 43,
+          "valid_n": 43,
+          "denominator": 20355
+        },
+        {
+          "sample": "embryo_44",
+          "n": 94,
+          "valid_n": 94,
+          "denominator": 26548
+        },
+        {
+          "sample": "embryo_46",
+          "n": 111,
+          "valid_n": 111,
+          "denominator": 29423
+        },
+        {
+          "sample": "embryo_5",
+          "n": 41,
+          "valid_n": 41,
+          "denominator": 22339
+        },
+        {
+          "sample": "embryo_59",
+          "n": 74,
+          "valid_n": 74,
+          "denominator": 25762
+        },
+        {
+          "sample": "embryo_6",
+          "n": 26,
+          "valid_n": 26,
+          "denominator": 27058
+        },
+        {
+          "sample": "embryo_60",
+          "n": 79,
+          "valid_n": 79,
+          "denominator": 36048
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "missing_qualified_endpoint",
+    "reason": "至少一个端点没有每样本不少于30个有效观测的对应组"
+  },
+  {
+    "from_pair": "P024",
+    "to_pair": "X028",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "task": "T2 心脏",
+    "group": "hepatocyte",
+    "group_name": "肝细胞",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 493,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T2_heart_E9.5",
+          "n": 458,
+          "valid_n": 458,
+          "denominator": 53742
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T2_heart_E10.5",
+          "n": 5533,
+          "valid_n": 5533,
+          "denominator": 167864
+        }
+      ],
+      [
+        {
+          "sample": "embryo1.0",
+          "n": 24,
+          "valid_n": 24,
+          "denominator": 14915
+        },
+        {
+          "sample": "embryo19.0",
+          "n": 9,
+          "valid_n": 9,
+          "denominator": 3970
+        },
+        {
+          "sample": "embryo20.0",
+          "n": 8,
+          "valid_n": 8,
+          "denominator": 2686
+        },
+        {
+          "sample": "embryo21.0",
+          "n": 12,
+          "valid_n": 12,
+          "denominator": 11836
+        },
+        {
+          "sample": "embryo22.0",
+          "n": 5,
+          "valid_n": 5,
+          "denominator": 5428
+        },
+        {
+          "sample": "embryo3.0",
+          "n": 6,
+          "valid_n": 6,
+          "denominator": 7661
+        },
+        {
+          "sample": "embryo39.0",
+          "n": 19,
+          "valid_n": 19,
+          "denominator": 6601
+        },
+        {
+          "sample": "embryo40.0",
+          "n": 11,
+          "valid_n": 11,
+          "denominator": 7153
+        },
+        {
+          "sample": "embryo41.0",
+          "n": 2,
+          "valid_n": 2,
+          "denominator": 3538
+        },
+        {
+          "sample": "embryo42.0",
+          "n": 10,
+          "valid_n": 10,
+          "denominator": 8090
+        },
+        {
+          "sample": "embryo55.0",
+          "n": 10,
+          "valid_n": 10,
+          "denominator": 3839
+        },
+        {
+          "sample": "embryo56.0",
+          "n": 5,
+          "valid_n": 5,
+          "denominator": 7647
+        },
+        {
+          "sample": "embryo57.0",
+          "n": 11,
+          "valid_n": 11,
+          "denominator": 9228
+        },
+        {
+          "sample": "embryo58.0",
+          "n": 12,
+          "valid_n": 12,
+          "denominator": 7533
+        },
+        {
+          "sample": "embryo63.0",
+          "n": 26,
+          "valid_n": 26,
+          "denominator": 10104
+        }
+      ],
+      [
+        {
+          "sample": "embryo_24",
+          "n": 79,
+          "valid_n": 79,
+          "denominator": 28088
+        },
+        {
+          "sample": "embryo_25",
+          "n": 27,
+          "valid_n": 27,
+          "denominator": 15915
+        },
+        {
+          "sample": "embryo_26",
+          "n": 61,
+          "valid_n": 61,
+          "denominator": 24118
+        },
+        {
+          "sample": "embryo_4",
+          "n": 20,
+          "valid_n": 20,
+          "denominator": 12340
+        },
+        {
+          "sample": "embryo_43",
+          "n": 43,
+          "valid_n": 43,
+          "denominator": 20355
+        },
+        {
+          "sample": "embryo_44",
+          "n": 94,
+          "valid_n": 94,
+          "denominator": 26548
+        },
+        {
+          "sample": "embryo_46",
+          "n": 111,
+          "valid_n": 111,
+          "denominator": 29423
+        },
+        {
+          "sample": "embryo_5",
+          "n": 41,
+          "valid_n": 41,
+          "denominator": 22339
+        },
+        {
+          "sample": "embryo_59",
+          "n": 74,
+          "valid_n": 74,
+          "denominator": 25762
+        },
+        {
+          "sample": "embryo_6",
+          "n": 26,
+          "valid_n": 26,
+          "denominator": 27058
+        },
+        {
+          "sample": "embryo_60",
+          "n": 79,
+          "valid_n": 79,
+          "denominator": 36048
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "missing_qualified_endpoint",
+    "reason": "至少一个端点没有每样本不少于30个有效观测的对应组"
+  }
+]

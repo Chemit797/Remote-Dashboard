@@ -1,0 +1,2 @@
+dataset,source_id,stage,sample,label,mapped_group,n,sample_denominator,proportion,zero_common_total
+HEART230531_E105_R1_T2_heart_10p5,VED-010,10.5,E105_1,QC untyped,UNMAPPED,21570,21570,1.0,0

@@ -1,0 +1,2 @@
+dataset,source_id,stage,sample,label,mapped_group,n,sample_denominator,proportion,zero_common_total
+DBIT_E105_R2_T2_heart_10p5,VED-033,10.5,FFPE_2,untyped pixel,UNMAPPED,2130,2130,1.0,19

@@ -1,0 +1,117 @@
+{
+  "id": "OSR1_E105_E10.5",
+  "row_id": "OSR1_E105",
+  "external_dataset": "OSR1_E105",
+  "external_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+  "external_ids": [
+    "VED-019"
+  ],
+  "official_dataset": "OFF_T1_E10.5_RNA",
+  "official_stage": "E10.5",
+  "external_stage": "E10.5",
+  "same_stage": true,
+  "note": "单份Osr1阳性富集；非完整心脏；未细分类型",
+  "kind": "selection_sensitivity",
+  "common_genes": 16866,
+  "official_genes": 32285,
+  "external_genes": 17348,
+  "official_coverage": 0.5224097878271643,
+  "external_coverage": 0.9722158173852894,
+  "official_n": 24979,
+  "external_n": 967,
+  "official_unit": "nucleus",
+  "external_unit": "cell",
+  "official_samples": [
+    {
+      "sample": "OFF_T1_E10.5_RNA",
+      "n": 24979
+    }
+  ],
+  "external_samples": [
+    {
+      "sample": "Osr1_E105_pool",
+      "n": 967
+    }
+  ],
+  "j01": 0.5862082296991027,
+  "b01": 0.9210115604865552,
+  "detection_mean_abs_pp": 7.898843951344476,
+  "detection_spearman": 0.8811917606325871,
+  "official_zero_fraction": 0.8298899903145012,
+  "external_zero_fraction": 0.8673197615464238,
+  "official_zero_rows": 0,
+  "external_zero_rows": 0,
+  "both_all_zero_genes": 21,
+  "both_detected_genes": 15411,
+  "official_only_detected_genes": 1427,
+  "external_only_detected_genes": 7,
+  "cell_detection_quantiles": {
+    "official": {
+      "p10": 0.08277006996323966,
+      "median": 0.16577730345072927,
+      "p90": 0.26514882011146684
+    },
+    "external": {
+      "p10": 0.10862089410648643,
+      "median": 0.12528163168504683,
+      "p90": 0.16619233961816673
+    }
+  },
+  "cell_detection_wasserstein_pp": 5.024526838047003,
+  "shuffled_j01_median": 0.20740812215117105,
+  "shuffled_j01_all": [
+    0.20988611173357047,
+    0.20766232814689853,
+    0.20243892159850194,
+    0.20878554847365796,
+    0.20736248674521252,
+    0.2088389421757539,
+    0.20822610931982016,
+    0.20558987642701407,
+    0.2081469914398735,
+    0.2059646729973892,
+    0.20612534219039896,
+    0.20717692732971948,
+    0.20745375755712955,
+    0.207210955959273,
+    0.2075091495175647,
+    0.20803947384294638,
+    0.20672329615117271,
+    0.2093333514443572,
+    0.20653403363515402,
+    0.20250394608625696
+  ],
+  "binary_pattern": {
+    "n_draw": 256,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "runs": [
+      {
+        "seed": 0,
+        "cross": 0.0934270927835078,
+        "within_official": 0.005682306610172383,
+        "within_external": 0.005336234900743642
+      },
+      {
+        "seed": 1,
+        "cross": 0.10144763414496782,
+        "within_official": 0.005576533136013417,
+        "within_external": 0.005611289816548792
+      },
+      {
+        "seed": 2,
+        "cross": 0.09564261135334173,
+        "within_official": 0.0061464961074944036,
+        "within_external": 0.005397336556155485
+      }
+    ],
+    "cross_mean": 0.09683911276060579,
+    "cross_min": 0.0934270927835078,
+    "cross_max": 0.10144763414496782,
+    "within_official_mean": 0.005801778617893401,
+    "within_external_mean": 0.005448287091149306
+  }
+}

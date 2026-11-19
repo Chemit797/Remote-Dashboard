@@ -1,0 +1,412 @@
+{
+  "id": "X003",
+  "task": "T1",
+  "official": "OFF_T1_E10.5_RNA",
+  "official_stage": "E10.5",
+  "external": "DBIT_E105_R1",
+  "external_stage": "E10.5",
+  "external_ids": [
+    "VED-033"
+  ],
+  "external_name": "VED-033 · 胚胎与成体 DBiT-seq 空间数据｜重复1",
+  "groups": [],
+  "kind": "spatial_background",
+  "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
+  "composition_inference": "比例分母为实际采集对象，未映射标签仍保留；取材与测量单位差异另列",
+  "panel": {
+    "pair": "X003",
+    "official_genes": 32285,
+    "external_genes": 15633,
+    "common": 13590,
+    "official_coverage": 0.42093851633885704,
+    "external_coverage": 0.869314910765688,
+    "jaccard": 0.3958867396877185
+  },
+  "composition": {
+    "official": {
+      "groups": [],
+      "proportions": [
+        1.0
+      ],
+      "sample_rows": [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 24979,
+          "known_mapped": 0,
+          "unmapped": 24979,
+          "unknown_explicit": 0,
+          "counts": {
+            "UNMAPPED": 24979
+          }
+        }
+      ],
+      "samples": 1
+    },
+    "external": {
+      "groups": [],
+      "proportions": [
+        1.0
+      ],
+      "sample_rows": [
+        {
+          "sample": "FFPE_1",
+          "n": 2306,
+          "known_mapped": 0,
+          "unmapped": 2306,
+          "unknown_explicit": 0,
+          "counts": {
+            "UNMAPPED": 2306
+          }
+        }
+      ],
+      "samples": 1
+    },
+    "coverage_official": 0.0,
+    "coverage_external": 0.0,
+    "descriptive_all_TV": 1.0,
+    "descriptive_all_JS_distance": 1.0,
+    "conditional_TV": null,
+    "conditional_JS_distance": null
+  },
+  "specificity": {
+    "status": "insufficient_types",
+    "n_types": 0,
+    "reason": "至少3个命名层级可对应且样本量合格的共同类型"
+  },
+  "records": [
+    {
+      "pair": "X003",
+      "task": "T1",
+      "external_name": "VED-033 · 胚胎与成体 DBiT-seq 空间数据｜重复1",
+      "official_stage": "E10.5",
+      "external_stage": "E10.5",
+      "group": "ALL",
+      "group_name": "全部采集对象",
+      "primary": false,
+      "kind": "spatial_background",
+      "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
+      "n_genes": 13590,
+      "both_all_zero": 2,
+      "external_only_detected": 59,
+      "official_only_detected": 27,
+      "both_detected": 13502,
+      "detected_jaccard": 0.9936708860759493,
+      "spearman_all": 0.785397439863797,
+      "spearman_nonzero_union": 0.7853034099234165,
+      "spearman_both_detected": 0.7836607284652838,
+      "pearson": 0.6832932749642547,
+      "kendall": 0.596116597923648,
+      "cosine": 0.7416526022005727,
+      "rmse": 0.3544151372693303,
+      "detection_spearman": 0.7888510500246848,
+      "detection_mean_abs_pp": 18.40955534114257,
+      "detection_signed_mean_pp": 18.37390629920576,
+      "detection_p90_abs_pp": 46.56461245312498,
+      "linear_mean_log_spearman": 0.7685205734812288,
+      "variance_spearman": 0.7703337564312781,
+      "top100_intersection": 44,
+      "top100_jaccard": 0.28205128205128205,
+      "gene_mean_distribution_wasserstein": 0.19905223269360178,
+      "cell_detection_wasserstein_pp": 18.37390629921064,
+      "cell_detection_ks": 0.9687099175449538,
+      "external_cell_detection_quantiles": {
+        "p10": 0.006548933038999265,
+        "median": 0.012803532008830023,
+        "p90": 0.02288447387785136
+      },
+      "official_cell_detection_quantiles": {
+        "p10": 0.09661515820456218,
+        "median": 0.19374540103016924,
+        "p90": 0.3091243561442237
+      },
+      "external_sample_spearman": [
+        0.7853034099234165
+      ],
+      "external_mean_detection": 0.01477723595291931,
+      "official_mean_detection": 0.19851629894497694,
+      "status": "calculated",
+      "eligible": true,
+      "external_n": 2306,
+      "official_n": 24979,
+      "external_n_used": 2306,
+      "official_n_used": 24979,
+      "external_samples": 1,
+      "official_samples": 1,
+      "external_samples_used": 1,
+      "official_samples_used": 1,
+      "external_small_samples": 0,
+      "official_small_samples": 0,
+      "external_zero_total": 0,
+      "official_zero_total": 0,
+      "external_sample_names": [
+        "FFPE_1"
+      ],
+      "official_sample_names": [
+        "OFF_T1_E10.5_RNA"
+      ],
+      "ranking_eligible": false,
+      "profile_rho_ge_08": false,
+      "gene_examples": [
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Cdh5",
+          "external_mean": 0.04316996989193668,
+          "official_mean": 0.2883617982486643,
+          "external_detection": 0.011708586296617519,
+          "official_detection": 0.16213619440329877,
+          "detection_difference_pp": 15.042760810668124,
+          "external_variance": 0.16109025475445463,
+          "official_variance": 0.4867526053771901
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Gata4",
+          "external_mean": 0.004677414414325323,
+          "official_mean": 0.7229695066773303,
+          "external_detection": 0.0013009540329575022,
+          "official_detection": 0.46891388766563913,
+          "detection_difference_pp": 46.761293363268166,
+          "external_variance": 0.01680140027966654,
+          "official_variance": 0.729436117335737
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Gata6",
+          "external_mean": 0.036748434283556945,
+          "official_mean": 0.6609637150380357,
+          "external_detection": 0.010407632263660017,
+          "official_detection": 0.48388646463028945,
+          "detection_difference_pp": 47.34788323666294,
+          "external_variance": 0.13294633189107072,
+          "official_variance": 0.5799082714793229
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Hey2",
+          "external_mean": 0.011846882069149457,
+          "official_mean": 0.11961255171741585,
+          "external_detection": 0.003035559410234172,
+          "official_detection": 0.12490492013291164,
+          "detection_difference_pp": 12.186936072267747,
+          "external_variance": 0.046616746307485704,
+          "official_variance": 0.11883763117863036
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Isl1",
+          "external_mean": 0.06606638282219357,
+          "official_mean": 0.20885870690508823,
+          "external_detection": 0.016912402428447527,
+          "official_detection": 0.16293686696825332,
+          "detection_difference_pp": 14.60244645398058,
+          "external_variance": 0.25500620949896396,
+          "official_variance": 0.26766038221629596
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Kdr",
+          "external_mean": 0.03579504613245325,
+          "official_mean": 0.30276929577351236,
+          "external_detection": 0.00997398091934085,
+          "official_detection": 0.18907882621401978,
+          "detection_difference_pp": 17.910484529467894,
+          "external_variance": 0.1340046339556994,
+          "official_variance": 0.49241820791640967
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Myh6",
+          "external_mean": 0.04870438012796561,
+          "official_mean": 0.32141708931988977,
+          "external_detection": 0.011708586296617519,
+          "official_detection": 0.1077304936146363,
+          "detection_difference_pp": 9.602190731801878,
+          "external_variance": 0.2031808658351985,
+          "official_variance": 0.9635002150997728
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Myh7",
+          "external_mean": 0.19773323015782943,
+          "official_mean": 0.36760906198652366,
+          "external_detection": 0.049436253252385085,
+          "official_detection": 0.10520837503502943,
+          "detection_difference_pp": 5.577212178264435,
+          "external_variance": 0.7844602051876041,
+          "official_variance": 1.3277093036213732
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Myl2",
+          "external_mean": 0.26531732919424844,
+          "official_mean": 0.3439384959071521,
+          "external_detection": 0.06331309627059845,
+          "official_detection": 0.13175067056327314,
+          "detection_difference_pp": 6.843757429267469,
+          "external_variance": 1.0807955901025414,
+          "official_variance": 1.0078779895077719
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Myl7",
+          "external_mean": 0.052536356345541144,
+          "official_mean": 0.9621597669181716,
+          "external_detection": 0.013876843018213356,
+          "official_detection": 0.3300772649025181,
+          "detection_difference_pp": 31.620042188430475,
+          "external_variance": 0.1997376364027681,
+          "official_variance": 2.4554119812934916
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Pecam1",
+          "external_mean": 0.07668034602083465,
+          "official_mean": 0.34563016262268376,
+          "external_detection": 0.021248915871639202,
+          "official_detection": 0.21025661555706793,
+          "detection_difference_pp": 18.90076996854287,
+          "external_variance": 0.27966232214374126,
+          "official_variance": 0.5261980955094773
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Pln",
+          "external_mean": 0.025312457460469995,
+          "official_mean": 0.14103068036831573,
+          "external_detection": 0.006504770164787511,
+          "official_detection": 0.08787381400376316,
+          "detection_difference_pp": 8.136904383897566,
+          "external_variance": 0.09852431837221498,
+          "official_variance": 0.2424121969106438
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Ppia",
+          "external_mean": 0.08221378912688629,
+          "official_mean": 2.993561916755068,
+          "external_detection": 0.02298352124891587,
+          "official_detection": 0.9722566956243245,
+          "detection_difference_pp": 94.92731743754086,
+          "external_variance": 0.2965771003385515,
+          "official_variance": 0.5293296334117592
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Rpl24",
+          "external_mean": 0.03202741905703968,
+          "official_mean": 2.5866515899741107,
+          "external_detection": 0.008673026886383347,
+          "official_detection": 0.9537211257456263,
+          "detection_difference_pp": 94.50480988592429,
+          "external_variance": 0.12347983658388266,
+          "official_variance": 0.5682851486562273
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Rps2",
+          "external_mean": 0.1714588884404881,
+          "official_mean": 3.125736829935096,
+          "external_detection": 0.04813529921942758,
+          "official_detection": 0.9823451699427519,
+          "detection_difference_pp": 93.42098707233242,
+          "external_variance": 0.6050133998058506,
+          "official_variance": 0.45425809827530017
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Rps23",
+          "external_mean": 0.23273408752162553,
+          "official_mean": 3.0158769775945307,
+          "external_detection": 0.06461405030355594,
+          "official_detection": 0.9776612354377677,
+          "detection_difference_pp": 91.30471851342118,
+          "external_variance": 0.8182749235696802,
+          "official_variance": 0.4412476796476543
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Rps3a1",
+          "external_mean": 0.17008572268804042,
+          "official_mean": 2.7668550001094676,
+          "external_detection": 0.047701647875108416,
+          "official_detection": 0.9649305416549901,
+          "detection_difference_pp": 91.72288937798817,
+          "external_variance": 0.60040402489045,
+          "official_variance": 0.5290366029427691
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Rspo3",
+          "external_mean": 0.04000360835881005,
+          "official_mean": 0.16820279042205077,
+          "external_detection": 0.010407632263660017,
+          "official_detection": 0.11193402458064775,
+          "detection_difference_pp": 10.152639231698773,
+          "external_variance": 0.15586216548061563,
+          "official_variance": 0.28279861826713953
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Sox17",
+          "external_mean": 0.0067357170652848795,
+          "official_mean": 0.020950187555476524,
+          "external_detection": 0.0017346053772766695,
+          "official_detection": 0.022739100844709557,
+          "detection_difference_pp": 2.100449546743289,
+          "external_variance": 0.02648611693085513,
+          "official_variance": 0.022290047616822902
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Sox2",
+          "external_mean": 0.03273917222021927,
+          "official_mean": 0.03853078976755389,
+          "external_detection": 0.00823937554206418,
+          "official_detection": 0.027182833580207375,
+          "detection_difference_pp": 1.8943458038143193,
+          "external_variance": 0.1317281087548933,
+          "official_variance": 0.06085666948845669
+        },
+        {
+          "pair": "X003",
+          "group": "ALL",
+          "gene": "Tnnt2",
+          "external_mean": 0.17812458590324995,
+          "official_mean": 0.4786030609469496,
+          "external_detection": 0.04423243712055507,
+          "official_detection": 0.17074342447656032,
+          "detection_difference_pp": 12.651098735600524,
+          "external_variance": 0.7046011561714031,
+          "official_variance": 1.3398782976511814
+        }
+      ],
+      "largest_detection_gap_genes": [
+        "Ppia",
+        "Rpl24",
+        "Rps2",
+        "Rps3a1",
+        "Rps23"
+      ]
+    }
+  ]
+}

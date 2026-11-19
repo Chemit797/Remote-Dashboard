@@ -1,0 +1,2 @@
+dataset,source_id,stage,sample,label,mapped_group,n,sample_denominator,proportion,zero_common_total
+BUBR1_WT_E105_T2_heart_10p5,VED-015,10.5,WT_four_hearts_pool,QC untyped,UNMAPPED,13723,13723,1.0,17

@@ -1,0 +1,275 @@
+[
+  {
+    "id": "BUBR1_WT_E105",
+    "source": "VED-015",
+    "n": 13723,
+    "unit": "cell",
+    "scope": "pooled control heart, supplied WT Cre+",
+    "semantics": "verified_integer_counts",
+    "sample_note": "4心脏池化只作一个样本；原始barcode经knee+基因数+线粒体QC",
+    "original_feature_count": 32285,
+    "measured_unique_genes": 32207,
+    "manifest_sha256": "08b6214259e60fb4b12b8c7748c653ff9ec55e65a347c74191f8347da4a5084b",
+    "files": {
+      "mass.npz": "c88c0a52db8c2d5e3d82445c568dd71f0739fe33c88303abfa792d73d5f16b19",
+      "obs.csv": "12857c231525d36cd04c6a9b2a7f0a0598f7162b53838e951b751fdad1c0dab6",
+      "row_stats.npz": "578749591534a4a09971de9bfe5d68e3864e038b72a16d3905a89f6f69bd3a3b",
+      "info.json": "79a354ef5a1b73500ca1a0eebb8ae3fc47fc9726497ab38b7e479b4243d911a0"
+    }
+  },
+  {
+    "id": "DBIT_E105_R1",
+    "source": "VED-033",
+    "n": 2306,
+    "unit": "pixel",
+    "scope": "25um embryonic section",
+    "semantics": "integer_like_processed_counts",
+    "sample_note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
+    "original_feature_count": 15633,
+    "measured_unique_genes": 15633,
+    "manifest_sha256": "6fe20128a1fd4c754aacb7ad5b161f4d8cd5f80653e87106a31daeeb6102bf45",
+    "files": {
+      "mass.npz": "deb96aecc54022428995a2746c766a754a971b6fea8e05a60138fc5265f865f3",
+      "obs.csv": "1e60b9a5da0d51fc348615289c42f3821d236a7b6d1f10f22265492b008eaf37",
+      "row_stats.npz": "3231b75182d3652f3b7d55e6e56e344c474d803af44bbf9d3a60144e4d668ca6",
+      "info.json": "71127a01db4bc17194d0276b6f928e451eb0b9e267826791c7f8616cd6a02104"
+    }
+  },
+  {
+    "id": "DBIT_E105_R2",
+    "source": "VED-033",
+    "n": 2130,
+    "unit": "pixel",
+    "scope": "25um embryonic section",
+    "semantics": "integer_like_processed_counts",
+    "sample_note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
+    "original_feature_count": 15880,
+    "measured_unique_genes": 15880,
+    "manifest_sha256": "000f3cf767e0fbc97c09edd6d11691e408293e9a7502474851eea7bca2af9e7f",
+    "files": {
+      "mass.npz": "3259eb240e7d137d2acceda4fca9a3d6bcd261bb5bec377ca845eb1b4607b238",
+      "obs.csv": "39df0cbc9c31cb86a7c7e0c833135a15c4450e50ad50e75ef07a4a998d079a63",
+      "row_stats.npz": "31cc97f084b9ed2868ab7494f4f20354263a93b8b95104a1b8b360a5fe6eb299",
+      "info.json": "e162654dd72dc788329fef0caf4374edd4a0fcebee63528f7c8b740c8a12c3ae"
+    }
+  },
+  {
+    "id": "FENG_C57BL6_E105",
+    "source": "VED-012",
+    "n": 587,
+    "unit": "cell",
+    "scope": "separately dissected cardiac chambers; C57BL6",
+    "semantics": "verified_integer_counts",
+    "sample_note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
+    "original_feature_count": 30976,
+    "measured_unique_genes": 30976,
+    "manifest_sha256": "1472af2ec7a5aa060d7b06c33b939744d0fb9682fcf7a0c3d09536e3b02d0b26",
+    "files": {
+      "mass.npz": "b169d868937800a3970bb3fcb97383c6290a4a3c757da78fedd97a6b36db887b",
+      "obs.csv": "1de2d28be38d54ea9f6f773c97ec7578f2c5c91f00823be7b7ae9fb71fb36553",
+      "row_stats.npz": "ac4d85c80f1df3383f54e6cb43ace8198b0cb6bf6b6c9c93f72e858d3bb4eaa7",
+      "info.json": "f20e2ad3d7b034733b165d7d65976830ddf0de845d94b78be5484434da9887d8"
+    }
+  },
+  {
+    "id": "FENG_CD1_E105",
+    "source": "VED-012",
+    "n": 841,
+    "unit": "cell",
+    "scope": "separately dissected cardiac chambers; CD1",
+    "semantics": "verified_integer_counts",
+    "sample_note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
+    "original_feature_count": 30976,
+    "measured_unique_genes": 30976,
+    "manifest_sha256": "01dfd608d40492dd20be71a895a543d2fa0ed8f713262e094cb9abc46c323ea9",
+    "files": {
+      "mass.npz": "0040f5d1c94b6c20a93f8c3ceed4a67e7a2a563c01f4882f9b85df94a2224a44",
+      "obs.csv": "0623bda3c1a8816063c396c270800af5ea03b5ac7514c1b67fba0992b79ac3c5",
+      "row_stats.npz": "df85500e4dd991d5c9b468739fea77e349bcb89fe18c458ff3e613acc4646be3",
+      "info.json": "9b9a32f5ddbebe3d66a1158f7550ef6ff587b3e0a81aeaeb05030d3b6f69a055"
+    }
+  },
+  {
+    "id": "HEART230531_E105_R1",
+    "source": "VED-010",
+    "n": 21570,
+    "unit": "cell",
+    "scope": "embryo/heart source sample",
+    "semantics": "verified_integer_counts",
+    "sample_note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
+    "original_feature_count": 27998,
+    "measured_unique_genes": 27877,
+    "manifest_sha256": "b1176cae3c26c65c9cdd27f48789f95474867224f14108486f309a8c0f75085f",
+    "files": {
+      "mass.npz": "0a0f9cd256ac573ce9252ec9497a72acceba4276db62f6a33c7682a7da3701af",
+      "obs.csv": "77d61667a40804798114b76c6871e31ece7343e10131163fb6708f22be3684b6",
+      "row_stats.npz": "5f49320de29de319c7f9cde3fddc25a910bec8114e23b030a1596f4e2057cb65",
+      "info.json": "eca9852d54ea1eeab3af2a13611959e72ca349ae6011e9b048fa149dde853047"
+    }
+  },
+  {
+    "id": "HEART230531_E105_R2",
+    "source": "VED-010",
+    "n": 21093,
+    "unit": "cell",
+    "scope": "embryo/heart source sample",
+    "semantics": "verified_integer_counts",
+    "sample_note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
+    "original_feature_count": 27998,
+    "measured_unique_genes": 27877,
+    "manifest_sha256": "a4e47293b790ad77195579fbe645f30a69558b45f3cbfaa912e6b3f8ebd236f0",
+    "files": {
+      "mass.npz": "aae583c32af6677399f05c72ae668b49dac1325072cc55765f3475263d645e20",
+      "obs.csv": "56dd9cdd39c739d25ba5b0d99fbc072c8e03fd4c47e91e7e66230737e906baff",
+      "row_stats.npz": "6bed87ffb6bf92aca7367c38198a471e39db85aff7bc0b63b332edab8fae0c97",
+      "info.json": "9210d459471e000cb20ad214fb69e00198ce44ead2a4092f0b652703fd9fcfe6"
+    }
+  },
+  {
+    "id": "OFT_E105",
+    "source": "VED-016",
+    "n": 11480,
+    "unit": "cell",
+    "scope": "wildtype outflow tract",
+    "semantics": "verified_integer_counts",
+    "sample_note": "作者EmptyDrops筛选；流出道局部取材，非全心脏",
+    "original_feature_count": 32589,
+    "measured_unique_genes": 32489,
+    "manifest_sha256": "78040c1b929550942170708aa08ca16ba853df08ca154f4f935f6dc48b0bfddf",
+    "files": {
+      "mass.npz": "920b1507352ead8159e4fb2ee5db6e777b5fe2f7ac85727708bc460b0d774d68",
+      "obs.csv": "9d979e4ed0a6df92007f6bd37a05020ca67f9babb7ac5a8684a6e9d496ca69c5",
+      "row_stats.npz": "9c2b52009700b28044d736378e430967702ad0bac77ab3a553763e4573d6245f",
+      "info.json": "16c38f5aaf39cc1fa2c672611057181a0b9ed149ab18518465337de40edda724"
+    }
+  },
+  {
+    "id": "OSR1_E105",
+    "source": "VED-019",
+    "n": 967,
+    "unit": "cell",
+    "scope": "Osr1+ second heart field enriched",
+    "semantics": "integer_like_processed_counts",
+    "sample_note": "单份Osr1阳性富集；非完整心脏；未细分类型",
+    "original_feature_count": 17348,
+    "measured_unique_genes": 17348,
+    "manifest_sha256": "b2f65667519e564f7a49ae36fdfcf0f13faad307b004af99192bfa73d21c41e6",
+    "files": {
+      "mass.npz": "00b8c319ab9c915e5940b067b0987a3664ea50b6c8eb2b4f5e271441f36f4b28",
+      "obs.csv": "4dbeea9f6453954ce136b8aec92f68c2fcb7d523f77bcf9f8eb1c1a5b5899cba",
+      "row_stats.npz": "df4bacf3bce8aad852f2e859c0da75fc7b5c657219461fba522c0ec884b416ba",
+      "info.json": "24ac93aeeef853e23bc3de0c6f1063cabca35b969734817af8369780d0af67d9"
+    }
+  },
+  {
+    "id": "PITX2_CONTROL_E105",
+    "source": "VED-014",
+    "n": 12535,
+    "unit": "cell",
+    "scope": "cardiac Control samples; genotype as supplied",
+    "semantics": "integer_like_published_matrix",
+    "sample_note": "仅Control，orig.ident分组；发布矩阵与元数据nUMI总量不一致，按发布非负整数矩阵比较；不推断纯WT",
+    "original_feature_count": 19573,
+    "measured_unique_genes": 19573,
+    "manifest_sha256": "410e02b4596f593d6907f26af818790f9425f54be449f693a13c83d0d95a83cb",
+    "files": {
+      "mass.npz": "8408e1a1dedd46acaf0bbaf29613d3e3ea79365e2360de57f307f3230889d28e",
+      "obs.csv": "5ca3907ee069d221ba9455d0fe777f6a13bc4e089c4b728f2b5376d9228f5493",
+      "row_stats.npz": "f1332e26e469ec90797e9bf92ac45442bbd8754ceae98905a15cc2aa1aa01d53",
+      "info.json": "8dacdfc525f5e5c82fb675bce30a75674ec47452770e2a0a1bda5239b8bcd539"
+    }
+  },
+  {
+    "id": "QIU_E105",
+    "source": "VED-007",
+    "n": 718,
+    "unit": "nucleus",
+    "scope": "selected cardiomyocyte and endothelium nuclei from whole embryos",
+    "semantics": "verified_integer_counts",
+    "sample_note": "作者embryo_id分组；已下载心肌和内皮子集，不代表全胚比例",
+    "original_feature_count": 45525,
+    "measured_unique_genes": 45451,
+    "manifest_sha256": "bbb09bfa55b97bd97768a3d21f84cbe7d2c6388993c89b3faedf43870a1dccfc",
+    "files": {
+      "mass.npz": "53eaed8098004915fbd44dfd180be60db7feaf2741e337e9c81973349b72da1c",
+      "obs.csv": "f263d7ab98090d9d103abe1cb817cfdfa9e3888182b75bb8e5e8bc8c377cf195",
+      "row_stats.npz": "e64274461dba2f951b98c7f0b41654d5c307d9186fc7e3d3ab4c9c0c81215625",
+      "info.json": "02e4ff38a1ba58d5c1583448bc3e850cf29c2c906363f6c38ddac638368fd96a"
+    }
+  },
+  {
+    "id": "SLIDESEQ_E105_R1",
+    "source": "VED-029",
+    "n": 3839,
+    "unit": "bead",
+    "scope": "E10.5 CD1 heart 2D section",
+    "semantics": "verified_integer_counts",
+    "sample_note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
+    "original_feature_count": 16682,
+    "measured_unique_genes": 16682,
+    "manifest_sha256": "caef023f488e8f68beb56fcb24d2f27bde6946e26745d8fbae7ffeac6ef34601",
+    "files": {
+      "mass.npz": "bb45e01d99fffe34926ae389be7785973ba330e48d125cd32eda3e99b5ab1370",
+      "obs.csv": "a001b6c351821f8ec7ee397c8cf158ddbd71b01c2adc62fc98b2166021cc02f8",
+      "row_stats.npz": "527151c04e7bc0a0fc1144a9244a9ae5bd0c699e5ef9190c92f05f67bab0b5f2",
+      "info.json": "ce10c7bad1f3eedab848f06dda1f4aaaedf62cc6f6f68bc77214dfcbe2ce5786"
+    }
+  },
+  {
+    "id": "SLIDESEQ_E105_R2",
+    "source": "VED-029",
+    "n": 2396,
+    "unit": "bead",
+    "scope": "E10.5 CD1 heart 2D section",
+    "semantics": "verified_integer_counts",
+    "sample_note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
+    "original_feature_count": 16682,
+    "measured_unique_genes": 16682,
+    "manifest_sha256": "9290c7c4b39d07fdd6d05ba09e723e970629cae4a6847c0c1bfe7dad496fbc62",
+    "files": {
+      "mass.npz": "c0ea533776b3ba6221efc393d2a5cdf5e4903a4d278d5a2ac4e8008720fca4d1",
+      "obs.csv": "81d474af483cde10aed98dfbf325b708d4c6afe61570a97d2ebab687929c4e1c",
+      "row_stats.npz": "25f695f9bab6b69747423bf18134f4d6c581b46f32dbf7f5c4eee2bcdf3e8ea8",
+      "info.json": "b5cb7166c07b5aed8c9a8b9831786be73f8a8161576703f34098b7c32d7fd279"
+    }
+  },
+  {
+    "id": "TOME_MOCA_E105",
+    "source": [
+      "VED-003",
+      "VED-008"
+    ],
+    "n": 267994,
+    "unit": "nucleus",
+    "scope": "whole embryo nuclei; MOCA counts plus TOME QC/annotations",
+    "semantics": "verified_integer_counts",
+    "sample_note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列",
+    "original_feature_count": 26183,
+    "measured_unique_genes": 26133,
+    "manifest_sha256": "ace19cfaf056ff762bccdb4d8489ba8b8afb400fbfd8dc5833573c30f46ae15e",
+    "files": {
+      "mass.npz": "67a91a12fc68166811355c670b1d6b768f7e49327889048004f3d9a136ebed92",
+      "obs.csv": "0adb38d6eb7a8568261e6f14c05dd3e9ba0b7d20a2bfdfb11a01fb42a44c655c",
+      "row_stats.npz": "6b333f3b5600fe2ae3b2608fec14884c147a20f7ba5e961ff29ba8395b9bc340",
+      "info.json": "4cab3d861320121012befb6fed1e8b8b7e9cfb94fd6214a28f13ff718afcdd93"
+    }
+  },
+  {
+    "id": "VISIUM_E105",
+    "source": "VED-030",
+    "n": 332,
+    "unit": "spot",
+    "scope": "E10.5 heart section",
+    "semantics": "verified_integer_counts",
+    "sample_note": "332个作者filtered spot；混合多个细胞，不计算细胞类型比例",
+    "original_feature_count": 32285,
+    "measured_unique_genes": 32207,
+    "manifest_sha256": "e6936e636ea2655c0c75cfcaa51d417e5250470340ae15682522940bc9d5003f",
+    "files": {
+      "mass.npz": "2e988aafe040913b1791370a4c468b4b1bf0215b913a02cdcf0c1db002da5d75",
+      "obs.csv": "4e7f1b1e4dd8144a5de6f993ade283aa4afaf82d22b8183f20449afabaaedab6",
+      "row_stats.npz": "df99f4ff9d244a89a073f51861eb9ebced6fa7c0dae3d9bea4311d6ccd805733",
+      "info.json": "3221bd87c2233ea4caa4e8e991d311a5c3adc58403df14757b73d09d33d068b5"
+    }
+  }
+]

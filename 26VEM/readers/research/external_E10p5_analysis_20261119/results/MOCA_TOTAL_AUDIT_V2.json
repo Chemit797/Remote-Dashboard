@@ -1,0 +1,77 @@
+{
+  "n": 267994,
+  "finite_metadata": 267774,
+  "missing_metadata": 220,
+  "exact": 267774,
+  "max_abs": 0.0,
+  "pearson": 1.0,
+  "relative_error_quantiles": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "examples": [
+    {
+      "cell": "sci3-me-001.GAGGAACTTAATACCATCC",
+      "matrix_total": 393.0,
+      "moca_total": 393.0,
+      "tome_total": 827.0
+    },
+    {
+      "cell": "sci3-me-001.TGGTCGAATGATCGCTTCT",
+      "matrix_total": 462.0,
+      "moca_total": 462.0,
+      "tome_total": 946.0
+    },
+    {
+      "cell": "sci3-me-001.TTCGCGGATATAAGGAGCA",
+      "matrix_total": 1674.0,
+      "moca_total": 1674.0,
+      "tome_total": 3473.0
+    },
+    {
+      "cell": "sci3-me-001.CCGACCAATGGAGGATAGC",
+      "matrix_total": 826.0,
+      "moca_total": 826.0,
+      "tome_total": 1690.0
+    },
+    {
+      "cell": "sci3-me-001.TTCTCTCGTTAACTGGTTA",
+      "matrix_total": 415.0,
+      "moca_total": 415.0,
+      "tome_total": 843.0
+    },
+    {
+      "cell": "sci3-me-001.GATCGACCTACCGCCAACC",
+      "matrix_total": 2469.0,
+      "moca_total": 2469.0,
+      "tome_total": 5134.0
+    },
+    {
+      "cell": "sci3-me-001.CCGACCAATAATCGATAAT",
+      "matrix_total": 577.0,
+      "moca_total": 577.0,
+      "tome_total": 1203.0
+    },
+    {
+      "cell": "sci3-me-001.GGTCCTTCTCAACCGCTAA",
+      "matrix_total": 1746.0,
+      "moca_total": 1746.0,
+      "tome_total": 3594.0
+    },
+    {
+      "cell": "sci3-me-001.TCGTTCTGTTCTTGCCGAC",
+      "matrix_total": 553.0,
+      "moca_total": 553.0,
+      "tome_total": 1183.0
+    },
+    {
+      "cell": "sci3-me-001.TCGTCTATTTGGTACCGGCA",
+      "matrix_total": 442.0,
+      "moca_total": 442.0,
+      "tome_total": 899.0
+    }
+  ]
+}

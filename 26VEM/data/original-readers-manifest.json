@@ -1004,6 +1004,1734 @@
       "sha256": "6c31f551ae0253af66513d8007c4174e236032fe6b0e0cfa92d0680c6e271025"
     },
     {
+      "path": "readers/older/REPORT_ZH.md",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\older\\REPORT_ZH.md",
+      "bytes": 28525,
+      "sha256": "bff5a2d61f753bcfd8a0eafe0360f4920ee917def6c3616a8db6cbf1b6e745fe"
+    },
+    {
+      "path": "readers/research/vem_official_metric_source_audit/index.html",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_official_metric_source_audit\\index.html",
+      "bytes": 3627073,
+      "sha256": "647ef871c1e17ba0ab60c73d90fef06a0844c7299c0f28d06c8192dbdbd5746e"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/comparison.html",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\comparison.html",
+      "bytes": 2876338,
+      "sha256": "5cb6365ded399455137d48e7cd3959b10231ad2a7014992c80ef8fb0e724fb5e"
+    },
+    {
+      "path": "readers/research/vem_source_comparison_v2/README.md",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_source_comparison_v2\\README.md",
+      "bytes": 30951,
+      "sha256": "94d12c8286b45a3b09cb40d19327a429a793494eb2f3b371ffe5418c8a83ae10"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/BULK_COMPARISONS.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\BULK_COMPARISONS.json",
+      "bytes": 1789,
+      "sha256": "b926dddc2dc75dd8e94446aa01b299eabd82c43cb8ab844e3b408db7576d24ca"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/METRIC_PROTOCOL.md",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\METRIC_PROTOCOL.md",
+      "bytes": 960,
+      "sha256": "fca35d87f5ae408df0d32a1cbaa6ca6a021d70573030c85a6e7e39948e9e39df"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/MOCA_TOTAL_AUDIT_V2.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\MOCA_TOTAL_AUDIT_V2.json",
+      "bytes": 1683,
+      "sha256": "f87e0ba61037e02725119df9ef86d0dd6f725251d35adeb6225f4edbda841ba0"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/OFF_T1_E10.5_RNA__BULK_E105_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\OFF_T1_E10.5_RNA__BULK_E105_genes.csv.gz",
+      "bytes": 780223,
+      "sha256": "14e2a3f92afc905c344daf98b8ee0207822b630f877baef402d77746a01c9da4"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/OFF_T2_heart_E10.5__BULK_E105_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\OFF_T2_heart_E10.5__BULK_E105_genes.csv.gz",
+      "bytes": 20704,
+      "sha256": "09b9c96a7c624f76f3c35359a2bd84a6ea8ff675a80a0a0d31a9c43a1751455d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/PITX2_TOTAL_AUDIT.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\PITX2_TOTAL_AUDIT.json",
+      "bytes": 1405,
+      "sha256": "c736dc739cb6f5636dbf150968d0b8e0eac0f47293ad63762389e7b31b047287"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/BUBR1_WT_E105_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\BUBR1_WT_E105_E10.5.json",
+      "bytes": 3094,
+      "sha256": "84933af939bbb6a8a8ed8f1810981b315d3f975b67d8dfccee63b4bdf867db78"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/BUBR1_WT_E105_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\BUBR1_WT_E105_E8.5.json",
+      "bytes": 3089,
+      "sha256": "bdd1a1a9c8136b6e6615b7b47a72f086dc2a7cf244150c08b6f53ebbdb9987ba"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/BUBR1_WT_E105_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\BUBR1_WT_E105_E9.5.json",
+      "bytes": 3087,
+      "sha256": "0486a8b9b938efef2fdaf94899351ee7437301216fcf7baf111d9d0058a4645f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/FENG_C57BL6_E105_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\FENG_C57BL6_E105_E10.5.json",
+      "bytes": 3279,
+      "sha256": "0f44d4d44fd15dbc98565fb4330ba111d31dd5fb4351dec2d75dc8b0d3cbe038"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/FENG_C57BL6_E105_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\FENG_C57BL6_E105_E8.5.json",
+      "bytes": 3273,
+      "sha256": "ddd403a0944937016d97818593b0cd517aa5640ad475d6a0d9bb5cc5c08865c6"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/FENG_C57BL6_E105_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\FENG_C57BL6_E105_E9.5.json",
+      "bytes": 3279,
+      "sha256": "cd9e6543f3eeec74ee72322ef337227befbea8ad36dcfc76c40dc05d8d6dc984"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/FENG_CD1_E105_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\FENG_CD1_E105_E10.5.json",
+      "bytes": 3312,
+      "sha256": "75081e5f796907c03aa73e356ccc42cc3be46efbf1f51492145f95613909fe50"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/FENG_CD1_E105_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\FENG_CD1_E105_E8.5.json",
+      "bytes": 3303,
+      "sha256": "d6d43ce673e81e935f866b757c194afe5b9a8acd23d8e5db5c1d6d1287e9d29f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/FENG_CD1_E105_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\FENG_CD1_E105_E9.5.json",
+      "bytes": 3309,
+      "sha256": "c9761d7a9234f99b21e0b62bd5ecdccdb10c0b66af3c8536be1349d762a2f919"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/HEART230531_E105_R1_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\HEART230531_E105_R1_E10.5.json",
+      "bytes": 3135,
+      "sha256": "7d548f3a33751f30cc8f06a51ed89c75df2fb9df2c061cb1f4e8f3e9c930e32e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/HEART230531_E105_R1_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\HEART230531_E105_R1_E8.5.json",
+      "bytes": 3135,
+      "sha256": "b144a0d5c719ef0c7c5c127e1e191d8f60c054483fa07af3e2f05773a21cad66"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/HEART230531_E105_R1_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\HEART230531_E105_R1_E9.5.json",
+      "bytes": 3132,
+      "sha256": "7e5b2cd67d002a76534cefb984ac5666b46c53fe5131c0591294c5911c2b695e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/HEART230531_E105_R2_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\HEART230531_E105_R2_E10.5.json",
+      "bytes": 3133,
+      "sha256": "d75782d165598619c52b046299b27a1f02742d1c293054baf96f040a1adb9bb0"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/HEART230531_E105_R2_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\HEART230531_E105_R2_E8.5.json",
+      "bytes": 3129,
+      "sha256": "741c4933a5a5074e4f1b71017bddfa261b498c5d2ddf7d2dba462cac66d369a7"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/HEART230531_E105_R2_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\HEART230531_E105_R2_E9.5.json",
+      "bytes": 3128,
+      "sha256": "23f52c4479d2c3ca9e953af8a21f8ade1f03cedea271088d84c9feb1abb19bc0"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/OFT_E105_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\OFT_E105_E10.5.json",
+      "bytes": 3069,
+      "sha256": "1b9ecf97d22c490d5bb4fae04109073115920d3a318b2e27d0f77874c99f116c"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/OFT_E105_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\OFT_E105_E8.5.json",
+      "bytes": 3064,
+      "sha256": "73361f7db49f0de3104a480320d0b6bccdf129e3bd1ae5531a6965b4a8215ffe"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/OFT_E105_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\OFT_E105_E9.5.json",
+      "bytes": 3068,
+      "sha256": "34f824d4865d64040b6a1dc0302ec7c59db6831b2fd7b5ddfabfbdb5aa41cb02"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/OSR1_E105_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\OSR1_E105_E10.5.json",
+      "bytes": 3071,
+      "sha256": "cfe2b76b83bb5c5305b3471d87d869e001c1bc8811794ad6dda4c30969cade56"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/OSR1_E105_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\OSR1_E105_E8.5.json",
+      "bytes": 3068,
+      "sha256": "3d66cbdf0d28802df7a1a4babf1e4e7df95d5eda189520fd6cd537b78988c890"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/OSR1_E105_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\OSR1_E105_E9.5.json",
+      "bytes": 3069,
+      "sha256": "69b3146002a21377df5eadd013186d1a0060896c91843ddda40f72ce84303bf0"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/PITX2_CONTROL_E105_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\PITX2_CONTROL_E105_E10.5.json",
+      "bytes": 3268,
+      "sha256": "367d5a8cdfddbe9e08f3082a041abfefe61ea54059ac37c2144d7dc2b0bd6e3b"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/PITX2_CONTROL_E105_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\PITX2_CONTROL_E105_E8.5.json",
+      "bytes": 3264,
+      "sha256": "3313e3184ddb431d0617dc52eee514bc779814016b5d4244bfee9de669351a3e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/PITX2_CONTROL_E105_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\PITX2_CONTROL_E105_E9.5.json",
+      "bytes": 3259,
+      "sha256": "1136bbee8ded223f167f8f98e4882d1f8c126dde872b180350a957bc81cb93f4"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/QIU_E105_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\QIU_E105_E10.5.json",
+      "bytes": 3064,
+      "sha256": "b376a5e67f3bd12f711580364ac17d8d1f00c78adc5ccd13fb0eb41afc0fb9f1"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/QIU_E105_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\QIU_E105_E8.5.json",
+      "bytes": 3063,
+      "sha256": "e674630940e408d6d83097f33e938ef3937e47413b8ff2ffc5ba4dc446c1317a"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/QIU_E105_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\QIU_E105_E9.5.json",
+      "bytes": 3068,
+      "sha256": "eced09ef518be6a1d66dfe695d7feb0f4e8ad82cc24a8bdbeacfad62df6eda86"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/TOME_MOCA_E105_E10.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\TOME_MOCA_E105_E10.5.json",
+      "bytes": 3790,
+      "sha256": "008c05ac5eb3ab3bdef87b412984c0335af345be3c667ea3143d3cccae000515"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/TOME_MOCA_E105_E8.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\TOME_MOCA_E105_E8.5.json",
+      "bytes": 3780,
+      "sha256": "159340486bfe9c8380fa36e723a35e034d24cdf4df50cc7e91e4f2185c5f9541"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/binary_outputs/TOME_MOCA_E105_E9.5.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\binary_outputs\\TOME_MOCA_E105_E9.5.json",
+      "bytes": 3783,
+      "sha256": "80ce72c28468cdaf8c56533d049807dd7012b9ba0c77442a06ca068ec34be467"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/export/CACHE_INVENTORY.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\export\\CACHE_INVENTORY.json",
+      "bytes": 12518,
+      "sha256": "bb4c135d4a3fd4c7339866c5a771cfd580d5fb28d8dcc8d4b621e8373fba7249"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/export/METRIC_INPUTS.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\export\\METRIC_INPUTS.json",
+      "bytes": 31478,
+      "sha256": "baff17992bea1f19dd3e5e01ff5048d3eb6eb24c2e9c0df88121256d33c93569"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/export/panel_coverage.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\export\\panel_coverage.json",
+      "bytes": 9807,
+      "sha256": "7bb30a74b74ee85c4e6e1bfc77ef9f832d41475be018573ea9130ca624eb6e81"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/export/WEB_EXPORT.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\export\\WEB_EXPORT.json",
+      "bytes": 725505,
+      "sha256": "1818d1d1125118bd30a97be9c5284155a8e845226191acbd03cc8bbbe31b1463"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/BUBR1_WT_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\BUBR1_WT_E105_T1_10p5_counts.csv",
+      "bytes": 193,
+      "sha256": "f9a017326ed37374d703c5053f8fca79d91283c6f2b47a2ebdd05c93f01452e0"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/BUBR1_WT_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\BUBR1_WT_E105_T2_heart_10p5_counts.csv",
+      "bytes": 200,
+      "sha256": "8f0320d968f088702cb745f75656bbcb756c8b3154eca3e9e7551cd29d6a6c5f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/COMPLETE.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\COMPLETE.json",
+      "bytes": 269,
+      "sha256": "2ba834812dd74e2137fcbc62f1a9c5de79417984beb11b9479d536f6f4dd4f8d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/dataset_stats.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\dataset_stats.json",
+      "bytes": 26237,
+      "sha256": "0163e15bae6a56876af34a81e5930ef2154c1bf4f1ad1790c679a241b1e8ff7c"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/DBIT_E105_R1_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\DBIT_E105_R1_T1_10p5_counts.csv",
+      "bytes": 180,
+      "sha256": "5bc6ea763518a79e96cc7776e4cf33ece491fc7939b2b0d6043a21c8b514228a"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/DBIT_E105_R1_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\DBIT_E105_R1_T2_heart_10p5_counts.csv",
+      "bytes": 187,
+      "sha256": "dc52cd9e49ab41e466d9efb1304b2d36a4fbafb1afafcff1cba4dd9ce5240b54"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/DBIT_E105_R2_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\DBIT_E105_R2_T1_10p5_counts.csv",
+      "bytes": 180,
+      "sha256": "228ec05d518d5c00b2dca9a12baf382b47de77f60d4edb0de254f45f4685aee4"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/DBIT_E105_R2_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\DBIT_E105_R2_T2_heart_10p5_counts.csv",
+      "bytes": 187,
+      "sha256": "20443fac3ffb8caa625c11aa204cb8b92c052e1ca56af6b8ae2c5476c6e9ae4f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/FENG_C57BL6_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\FENG_C57BL6_E105_T1_10p5_counts.csv",
+      "bytes": 3322,
+      "sha256": "0f72b31535410e967a9d91dc6041402b83949c9e9d35bee2cd2ece31852e80f6"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/FENG_C57BL6_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\FENG_C57BL6_E105_T2_heart_10p5_counts.csv",
+      "bytes": 3514,
+      "sha256": "dd8ad809eacc16f6c59fe0ee026a906449bf45891a363cc3f0a999ff99997c47"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/FENG_CD1_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\FENG_CD1_E105_T1_10p5_counts.csv",
+      "bytes": 2753,
+      "sha256": "527492ab4fd40568ff76ef26ffd2ef29bbee3c4ee9e289167dbd88e69672be36"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/FENG_CD1_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\FENG_CD1_E105_T2_heart_10p5_counts.csv",
+      "bytes": 2927,
+      "sha256": "f074f2cb43a1086f1c3edd841c7d243fb975df0788f17284483eb04af1f6b54c"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/gene_details.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\gene_details.json",
+      "bytes": 957532,
+      "sha256": "6787f7a1926f9f1e27a7f42fa35a088b800dbdfdfaa6de080ea2b0fe522f3002"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/HEART230531_E105_R1_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\HEART230531_E105_R1_T1_10p5_counts.csv",
+      "bytes": 186,
+      "sha256": "63c3065a881d451a11a99d6239d6540ec893efc09c604448d618a1f787639634"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/HEART230531_E105_R1_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\HEART230531_E105_R1_T2_heart_10p5_counts.csv",
+      "bytes": 192,
+      "sha256": "d960153a380977e55f1fe2dda6e803c49360508044977c7cd10e25be4944930f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/HEART230531_E105_R2_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\HEART230531_E105_R2_T1_10p5_counts.csv",
+      "bytes": 186,
+      "sha256": "1df0507d13c20114c822090919427031605684e0c3d29d6f9d46cec27ca59751"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/HEART230531_E105_R2_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\HEART230531_E105_R2_T2_heart_10p5_counts.csv",
+      "bytes": 192,
+      "sha256": "9122d96578002f8bd6130a1c87fa75ffb30fcaebcecd7067dcc2fa3a70786c22"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/label_mapping.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\label_mapping.json",
+      "bytes": 3927,
+      "sha256": "0f5f264e3f3818a885fb6b9887344ada1bb5bb765159476fd29e3d3f2cdfcc05"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/local_anchors.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\local_anchors.json",
+      "bytes": 23273,
+      "sha256": "208aa66e357258f8884d4b2dd8cb5a8dc73772fcdc0e7ec6c95f3dcf557b3e8f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/metrics.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\metrics.csv",
+      "bytes": 91717,
+      "sha256": "22e3334e54c23218b982eaa012fd62af130a6b69efdecadfdec4b90d388e53ef"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/metrics.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\metrics.json",
+      "bytes": 257030,
+      "sha256": "4b1fbf3a10e8c8e113f85053d7fdc8ec836011d96594a08f033cf176bb350d82"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5_counts.csv",
+      "bytes": 2532,
+      "sha256": "b564283c9281b18ba0feadc2c020c3f868154bbafc7cab6f6f5fef83b1836511"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__BUBR1_WT_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__BUBR1_WT_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 487554,
+      "sha256": "b930db07e8145250b02e4dcff5d8c2b6057ddb446cb12c4f09032450ca095097"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__BUBR1_WT_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__BUBR1_WT_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 585034,
+      "sha256": "f2c31ae66cfc85cd624aedc24c345e3e57f5bc619bdb84106aba3fd6ae3d7ebb"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__DBIT_E105_R1_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__DBIT_E105_R1_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 433992,
+      "sha256": "9a9d18b2f7a3b120ce89acef988d0c655b79e08e170231c56902e703181fd952"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__DBIT_E105_R1_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__DBIT_E105_R1_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 531430,
+      "sha256": "5c4e561e042401fb3970fc0b1f6132a793f8a0628fcf0b89d18248c7d6dcf2af"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__DBIT_E105_R2_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__DBIT_E105_R2_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 433401,
+      "sha256": "2d426514d635165e9d23bb21a68c38b7f131bc902315f4210348d22ac18d0efc"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__DBIT_E105_R2_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__DBIT_E105_R2_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 530678,
+      "sha256": "be131e195e84a6c642b5ae00dbae9fc7da27ff1b981172b6977fea16d55de56e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__FENG_C57BL6_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__FENG_C57BL6_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 491923,
+      "sha256": "a9468c1dcf8a380706455aba8a902a937de92d6a834171d5210fbc3f2aeda6e9"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__FENG_C57BL6_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__FENG_C57BL6_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 587674,
+      "sha256": "db27d3ed949a241fb7ea0ca7517d9dd6e088b053c02e61d516bea939f09d7360"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__FENG_C57BL6_E105_T1_10p5__cardiomyocyte__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__FENG_C57BL6_E105_T1_10p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 443797,
+      "sha256": "2606f9ead317e6a9b9704f8e28cb637f6800fcc678e4b74c984ed58bdd9d99a6"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__FENG_C57BL6_E105_T1_10p5__endocardium__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__FENG_C57BL6_E105_T1_10p5__endocardium__common_genes.csv.gz",
+      "bytes": 375056,
+      "sha256": "5df3a721cc726ae7aa00b72523e173ab8e3d0d3eea4a156b521064db6c79236f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__FENG_CD1_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__FENG_CD1_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 490522,
+      "sha256": "91c20b91a5b3f7d0ff1e4904675279c4d443c6a69ac327e0960de1d51b53806f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__FENG_CD1_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__FENG_CD1_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 586487,
+      "sha256": "ed7c3655562217782a36a090be1f1c853befb5fa60080893ae7911cfe7fea19b"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__FENG_CD1_E105_T1_10p5__cardiomyocyte__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__FENG_CD1_E105_T1_10p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 467619,
+      "sha256": "d14657030fe0671d0b5ce6a2f8485bbf5026b3437b5aa416497b5c0d00071d8a"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__FENG_CD1_E105_T1_10p5__endocardium__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__FENG_CD1_E105_T1_10p5__endocardium__common_genes.csv.gz",
+      "bytes": 380329,
+      "sha256": "71ced9c4429bbffa7ab51aac8cd92e774ef363408c70a142ab4970ecc69d4400"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__HEART230531_E105_R1_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__HEART230531_E105_R1_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 475570,
+      "sha256": "9528e2e777b29619b3c8c5e1e4b7c37151433c359bcd8a404aa1455610840813"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__HEART230531_E105_R1_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__HEART230531_E105_R1_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 574236,
+      "sha256": "5103d3ba663db5550b6e09e82920f9d0a6c3a4ca897d5ef0169cdf6990899850"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__HEART230531_E105_R2_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__HEART230531_E105_R2_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 491186,
+      "sha256": "9d6a2fd37ab6328a7eda1970b5cbd71616616eba6f22d669443f3edaaae523ee"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__HEART230531_E105_R2_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__HEART230531_E105_R2_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 587801,
+      "sha256": "8cda826406e29700b2201c2bb9d1e0171188ebbc7a29289c56234712fa30d994"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__OFT_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__OFT_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 463974,
+      "sha256": "9779c687926de3a8d1372bd77e668221f0a4ed16bc335177347cedacfbc9db43"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__OFT_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__OFT_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 561152,
+      "sha256": "1a9e1e3c084c2808d14e99b7c5085001abc5879009736c20044f4c50011d66e5"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__OSR1_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__OSR1_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 444643,
+      "sha256": "9a914363509503fda4f8d0f8af257ee256647c06eb90f505956390cea0e69a35"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__OSR1_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__OSR1_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 542843,
+      "sha256": "9a0574382e985db946a3252d5363bb5c50fb00d2a35b2b1325b30b6ac24a372e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__PITX2_CONTROL_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__PITX2_CONTROL_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 493361,
+      "sha256": "0b489c833d525656d0a9e542ebc4fe1a333b4185323cc23ffc1e5546bfa727f7"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__PITX2_CONTROL_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__PITX2_CONTROL_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 589233,
+      "sha256": "1a9f5a8bb481ebd2efb025601a85fcad167e2bc3e2ca2237606b8c6b6497ff3a"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__QIU_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__QIU_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 439709,
+      "sha256": "d20bb230d58213295d3631177ec1dd6c7fb42529509760e908f3ca9cc0192a6e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__QIU_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__QIU_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 537056,
+      "sha256": "eeb73d3582e2c674fe02117b176daeae081877c154ff299b5450f4c94317be53"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__QIU_E105_T1_10p5__endocardium__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__QIU_E105_T1_10p5__endocardium__common_genes.csv.gz",
+      "bytes": 399661,
+      "sha256": "17ae1528dde7461b1bd4cb99eaf4f9ca9e78d3db4debc2250d0fcc38bfd3d63b"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__SLIDESEQ_E105_R1_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__SLIDESEQ_E105_R1_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 427247,
+      "sha256": "9d54494310c2eb5b1c15d2dbebb1977ab073f499c08f285bb0edf2fa4894d8c7"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__SLIDESEQ_E105_R1_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__SLIDESEQ_E105_R1_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 521798,
+      "sha256": "cfeadd1b5280cc8676d0463df2e0e96d764a24d9f18516fdbe37cf96cabe77a8"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__SLIDESEQ_E105_R2_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__SLIDESEQ_E105_R2_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 414957,
+      "sha256": "1ee8ad98fcb6c8c51c3ed64b7d42fa1f211fdde92ecfedf3cf4865e82655ac2e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__SLIDESEQ_E105_R2_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__SLIDESEQ_E105_R2_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 507872,
+      "sha256": "6ccb4bca6a4b6c98b43098f8abc9aef3ed14cae9e3aa1768291fc222ff10bf02"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__TOME_MOCA_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__TOME_MOCA_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 499081,
+      "sha256": "d0cd096fc397899383c8afbb0c4ce89c6a55191d8b67deb0217b277e2683b188"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__TOME_MOCA_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__TOME_MOCA_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 594754,
+      "sha256": "5fc41ae235ad94ac9139b5c5464eaf3915f1ac92debbd48d6da139ad1857b17d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__TOME_MOCA_E105_T1_10p5__cardiomyocyte__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__TOME_MOCA_E105_T1_10p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 472566,
+      "sha256": "d898d3de19c81e6eb24b3b9e132551471e9fad7083734d7abd487b834fa9f1d6"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__VISIUM_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__VISIUM_E105_T1_10p5__ALL__common_genes.csv.gz",
+      "bytes": 435086,
+      "sha256": "def412953a7ee928eb5bb29a80cf3c80aed7e33652ec07f9e4abe5be95b98231"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E10.5_RNA_10p5__VISIUM_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E10.5_RNA_10p5__VISIUM_E105_T1_10p5__ALL__native_genes.csv.gz",
+      "bytes": 532824,
+      "sha256": "ec721ed85e8e95b09caadacfab7c31ee24c369532f4a19d4102085497320de45"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T1_E9.5_RNA_9p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T1_E9.5_RNA_9p5_counts.csv",
+      "bytes": 2211,
+      "sha256": "dbe0ac02307d5a81ed0f9f85f2d23cccd1731f87f585db7ea398c6dc8eb4b5a3"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5_counts.csv",
+      "bytes": 2641,
+      "sha256": "9dd68f1b5419fd02c47f095bb38a1fb107ac7d98f00fd0264e2a8a11328e169d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__BUBR1_WT_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__BUBR1_WT_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 15953,
+      "sha256": "7800241ff68816f2f949b18f70669fdf807284b7f4450d30ba11c17479d8dded"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__BUBR1_WT_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__BUBR1_WT_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 18891,
+      "sha256": "b65f5122a5beff455b0aa820b7e2ac1bcba2fccbd09c76a139238c60b110b5bf"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__DBIT_E105_R1_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__DBIT_E105_R1_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 14584,
+      "sha256": "bf999a5d87a89fe9cb47f4f97087f411f5c8cf486a251f129f72c1b1b40ec38d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__DBIT_E105_R1_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__DBIT_E105_R1_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 17554,
+      "sha256": "0384adaa0e15397da77e76ea42ae8b4e45b57d3b9177e30301fabf715397d6e7"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__DBIT_E105_R2_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__DBIT_E105_R2_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 14445,
+      "sha256": "2951c4ad41bd6dd655952ab5b2ae5d1e218b7efe822e61d7a9d8a61b32918a6b"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__DBIT_E105_R2_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__DBIT_E105_R2_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 17452,
+      "sha256": "9de96c291896b6ec7d0af110b91f7f7b4710f624e3f4fe0b8eeae010e2ed3105"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__FENG_C57BL6_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__FENG_C57BL6_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 15937,
+      "sha256": "b56f8b41b74a947e22005db9127cd247d8c843f93e0ad3f5a012dbd07e0d5a7b"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__FENG_C57BL6_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__FENG_C57BL6_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 18822,
+      "sha256": "6095174deca1b6aca16e41666b02b6e5517ff6399bcd878308d7f8e806e8f0c7"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__FENG_C57BL6_E105_T2_heart_10p5__cardiomyocyte__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__FENG_C57BL6_E105_T2_heart_10p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 14577,
+      "sha256": "871732a34f29befec0058da65f3d24e24ae146441ce4864f65644dbfb5577291"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__FENG_CD1_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__FENG_CD1_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 15853,
+      "sha256": "a3f84a1cc5a6196e63c7b9af0a984e2794cb16cdd038585a46b9d97fc4640c53"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__FENG_CD1_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__FENG_CD1_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 18724,
+      "sha256": "d0024fc2d6768331d348b0db5b6e53abdbd143cd7be9e11ed1fbbeb202a23aea"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__FENG_CD1_E105_T2_heart_10p5__cardiomyocyte__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__FENG_CD1_E105_T2_heart_10p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 15362,
+      "sha256": "d8afc1b14fb8971c08ecde9e3e5f7c8af634f0557d042b4cdaf2547bbfa663f1"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__HEART230531_E105_R1_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__HEART230531_E105_R1_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 15641,
+      "sha256": "da9e89b8138754886fa8ab8b0df76112b91d5689172a21dae26d212f6ee8321d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__HEART230531_E105_R1_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__HEART230531_E105_R1_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 18636,
+      "sha256": "9abd0caf513d81e877fb477b6a62f92ce57af20aa68b767bd0ddde33fa5e4536"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__HEART230531_E105_R2_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__HEART230531_E105_R2_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 15963,
+      "sha256": "e707c0eea5fce3032428dbcae75a95aedcb6e7e8bac2cf9219d272ffe67b9659"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__HEART230531_E105_R2_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__HEART230531_E105_R2_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 18979,
+      "sha256": "e33da9e91156c372d3b84947ba22eb4bbefed44a0aa3589860698a12af8cb4a7"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__OFT_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__OFT_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 15265,
+      "sha256": "16f1bf264a98175117a65a6461f4a5d451b17c75526925d464f72213cfbecbd0"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__OFT_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__OFT_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 18255,
+      "sha256": "e1f2a019276441936b4a3c5dd4081495937834c8bd2ed62800906e73139f655f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__OSR1_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__OSR1_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 14741,
+      "sha256": "370dcc7a591f2d2ac739fe928b94257b75119aec9e8625e3d1988339419b1ddf"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__OSR1_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__OSR1_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 17700,
+      "sha256": "ccf36b4df4ecd8e13cd5a9d275dfef5475568dea398b488189175f00c1371241"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__PITX2_CONTROL_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__PITX2_CONTROL_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 16115,
+      "sha256": "9fe6640a3fbf0593079dd1261ed64de9c3c168b1a2e9e8cf1891afd0c459d8c3"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__PITX2_CONTROL_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__PITX2_CONTROL_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 18999,
+      "sha256": "f9890a628519ee6560dcd26e7e95d9ee1e19a12729ec94c3479b30c5f6cf62a9"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__QIU_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__QIU_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 14493,
+      "sha256": "3be4ef150ce8b83917eeb921d2a48dc84c2a92c360fbdd2e0cc023e9312711bf"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__QIU_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__QIU_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 17395,
+      "sha256": "911143dbdab332e859322391af036d85bcfff6c4c23b0bce8d59746e33de2e93"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__SLIDESEQ_E105_R1_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__SLIDESEQ_E105_R1_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 14085,
+      "sha256": "7eff8b84f58f0c10f44fa266061ca98b2c6e413da03e6f4df76270a6067cdc9f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__SLIDESEQ_E105_R1_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__SLIDESEQ_E105_R1_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 16995,
+      "sha256": "4701b20e6a5549a77337b945900b13bb7fb3d32633a74c51b6959abcf5c06641"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__SLIDESEQ_E105_R2_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__SLIDESEQ_E105_R2_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 13370,
+      "sha256": "b478c21022858d18b5b52cfdc26f4224e739803fc71cdfb215e9e6173879c6bd"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__SLIDESEQ_E105_R2_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__SLIDESEQ_E105_R2_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 16128,
+      "sha256": "7953f31f962c05a55a0b61874e7c516c3390b29f646fef0af7aa99abf0996f84"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__TOME_MOCA_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__TOME_MOCA_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 16267,
+      "sha256": "0d7ecb8ef9b9799c925f0c6a99203a7d101dec804b8fd5c8ca4e4837061f56ab"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__TOME_MOCA_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__TOME_MOCA_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 19181,
+      "sha256": "a95134816fca708cd4834f833705c413010ec15aa191a943990ba153d9252d6e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__TOME_MOCA_E105_T2_heart_10p5__cardiomyocyte__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__TOME_MOCA_E105_T2_heart_10p5__cardiomyocyte__common_genes.csv.gz",
+      "bytes": 15610,
+      "sha256": "ef270f7d9054a7478849560ac9c3143c2b2c3558ae82137318b16c3d697c06cd"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__VISIUM_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__VISIUM_E105_T2_heart_10p5__ALL__common_genes.csv.gz",
+      "bytes": 14476,
+      "sha256": "c0d82f40320077f054124d15dd03af7481e4e62976180373068e0399172a94ea"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E10.5_10p5__VISIUM_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E10.5_10p5__VISIUM_E105_T2_heart_10p5__ALL__native_genes.csv.gz",
+      "bytes": 17500,
+      "sha256": "07affbc27f0c090020332f6866157165b25c8a33502f8c3ded123bcbc6de46ae"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFF_T2_heart_E9.5_9p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFF_T2_heart_E9.5_9p5_counts.csv",
+      "bytes": 2397,
+      "sha256": "4d6b4f609cc7f19da793e598842ddbce9bc04d01dd08b0811c2f7b6172df6e0c"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFT_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFT_E105_T1_10p5_counts.csv",
+      "bytes": 188,
+      "sha256": "20181be6b0d28f91d9c7a79850f9b2cc64f76b2d791c68de9bc14a3c25b01052"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OFT_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OFT_E105_T2_heart_10p5_counts.csv",
+      "bytes": 194,
+      "sha256": "ba9db7d0b5e4720f3627b777269ffdf00369d28378577bab78aa6dededf5bbd5"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OSR1_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OSR1_E105_T1_10p5_counts.csv",
+      "bytes": 179,
+      "sha256": "e687b91a2933275c152d423c638e15aae2f8e3d722d87e89f52861eec541738a"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/OSR1_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\OSR1_E105_T2_heart_10p5_counts.csv",
+      "bytes": 185,
+      "sha256": "efcd0aaff23dcaeee0767089547020f661c4951ed54f89f9904bbd7731d4cfc9"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/pair_eligibility.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\pair_eligibility.json",
+      "bytes": 4311,
+      "sha256": "86db03f1b13ba6374165e5d24e021bf8e807435c90f783c3d213a92a6a34b1de"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/panel_coverage.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\panel_coverage.csv",
+      "bytes": 4654,
+      "sha256": "227251d3910aaa20a56314c293a3e1a1d3082e51a389ba7a96d9713ac145b6ce"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/PITX2_CONTROL_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\PITX2_CONTROL_E105_T1_10p5_counts.csv",
+      "bytes": 363,
+      "sha256": "56e533d9801337e2fa6eea7230755030b0851845732d7f6e102404f0105e9424"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/PITX2_CONTROL_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\PITX2_CONTROL_E105_T2_heart_10p5_counts.csv",
+      "bytes": 381,
+      "sha256": "014f75cc2d3b1453653634b203c2c01cebdac3b7918be05f6b8146a24068c5bb"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/QIU_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\QIU_E105_T1_10p5_counts.csv",
+      "bytes": 498,
+      "sha256": "3a89279b567819f7fd60d0baa7fbfcb953e4683812a0d4b20e0be5406bfed9f3"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/QIU_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\QIU_E105_T2_heart_10p5_counts.csv",
+      "bytes": 522,
+      "sha256": "678d113bd3ba3f9ffe9736ad0dd4059137ad4f98c743da4b4e782c232490cb7d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/run_identity.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\run_identity.json",
+      "bytes": 647,
+      "sha256": "83612a5f8ef2206cd43f7a2482d74c0c0fb98e69d4df2cfabff62ede2b2eb8cd"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/sample_metrics.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\sample_metrics.json",
+      "bytes": 68442,
+      "sha256": "eeaa3f3f090fe072eb4026f17cf7a9bdf8bfb1930934ca0c564699dc17a8e6ef"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/sampling_sensitivity.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\sampling_sensitivity.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/SLIDESEQ_E105_R1_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\SLIDESEQ_E105_R1_T1_10p5_counts.csv",
+      "bytes": 186,
+      "sha256": "3e06c9dc1ae0dd15a8c30c8ec8d58af26aea10ce35add680ed1c6e3af6ba943f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/SLIDESEQ_E105_R1_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\SLIDESEQ_E105_R1_T2_heart_10p5_counts.csv",
+      "bytes": 194,
+      "sha256": "616e33a5ed2b0dae9df8411f879e594d8bcef7de284b183132a94475416c7af6"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/SLIDESEQ_E105_R2_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\SLIDESEQ_E105_R2_T1_10p5_counts.csv",
+      "bytes": 186,
+      "sha256": "0f84b4c48f206198ceaad1cf19bf2e164c2a3b3a9bccec4384265754d6711349"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/SLIDESEQ_E105_R2_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\SLIDESEQ_E105_R2_T2_heart_10p5_counts.csv",
+      "bytes": 193,
+      "sha256": "751bd82e1d1ee7bbf53d0da1cec8acba4b09bfdccfec5794cd40cbc8aba1ef49"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/spatial_metrics.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\spatial_metrics.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/T1_genes.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\T1_genes.json",
+      "bytes": 123620,
+      "sha256": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/T2_heart_genes.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\T2_heart_genes.json",
+      "bytes": 3535,
+      "sha256": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/TOME_MOCA_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\TOME_MOCA_E105_T1_10p5_counts.csv",
+      "bytes": 59333,
+      "sha256": "5270f10ae394d8e623161c1df6cb072cdebc8aad24428309d0866a260b006508"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/TOME_MOCA_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\TOME_MOCA_E105_T2_heart_10p5_counts.csv",
+      "bytes": 62567,
+      "sha256": "03ff45314cd96de8ae1c2288cf21513279927f5ec450bb10ead58c48df897e0e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/verification.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\verification.json",
+      "bytes": 750,
+      "sha256": "57dcf31ded1a566d345d55ef84973e5bd0042b68bae6629649e1eab731a0a649"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/VISIUM_E105_T1_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\VISIUM_E105_T1_10p5_counts.csv",
+      "bytes": 183,
+      "sha256": "67a9d8309438c4d93b8e9078df75e065b583a433b94bbfd56d94c0fd8ef4f4d2"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/metric_outputs/VISIUM_E105_T2_heart_10p5_counts.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\metric_outputs\\VISIUM_E105_T2_heart_10p5_counts.csv",
+      "bytes": 189,
+      "sha256": "e56b6857f7e2b86c1384e65c9c8f76cae0552a9da06f8c828641c15eb8d4059f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/coverage.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\coverage.json",
+      "bytes": 15883,
+      "sha256": "93b6db2e6cf569d88032830cfed6c4a3be4885611185b42004a9fe25b5c9efc6"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/INDEPENDENT_VERIFICATION.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\INDEPENDENT_VERIFICATION.json",
+      "bytes": 5378,
+      "sha256": "bccf830bac6553462da16d74524cb0f162c4df2928b4bf18683bdad1d6b8ac77"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/inputs.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\inputs.json",
+      "bytes": 6019,
+      "sha256": "a03212592a3c8e961792ff0fdd2850fc80dba87b74fca0e6771c0e14d359ceef"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/trends.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\trends.json",
+      "bytes": 28278,
+      "sha256": "ea50957f1f00a7249a4b9ce087ad774414d7b47a972dbaa01c409114c30ec25d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X009_axis.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X009_axis.json",
+      "bytes": 429618,
+      "sha256": "cead6fa4c4804fe0d75f79caeb1d10c7cac73e86bb75bf24bcdcfc0df667601d"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X009__ALL_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X009__ALL_changes.csv.gz",
+      "bytes": 1304028,
+      "sha256": "2486221f9699c05c18d4bb7c3983af07a91ecd10c05cdcca5e83f781840db450"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X009__blood_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X009__blood_changes.csv.gz",
+      "bytes": 891407,
+      "sha256": "793a7ccac541ac92320e9c86664a87bce59448268a9a114c24531edc87aecf5e"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X009__ventricular_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X009__ventricular_changes.csv.gz",
+      "bytes": 1136686,
+      "sha256": "87080d9b5e44f702df68a19e923abee77fd113800841a0ee9311cced33f29fa7"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X010_axis.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X010_axis.json",
+      "bytes": 6705,
+      "sha256": "63b30c9575642808035129b1a1db72ebd75231cb4ef0c134a5328b3638a90bfa"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X010__ALL_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X010__ALL_changes.csv.gz",
+      "bytes": 29806,
+      "sha256": "9ca4f5aca4525930d880fb5a968f7681e61256797c6ce684d9c7f707c774731f"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X010__ventricular_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X010__ventricular_changes.csv.gz",
+      "bytes": 29351,
+      "sha256": "e4b9cdfd3a82f8218bcd9f29a47bc6e077fbb5e7b2ea5ad878d23a3629ba9efe"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X017_axis.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X017_axis.json",
+      "bytes": 219449,
+      "sha256": "92ebe511b30dfd03d0ebf8a4e394b0d8db95d21bd2fc03bb755ad79e2bd490bd"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X017__ALL_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X017__ALL_changes.csv.gz",
+      "bytes": 932839,
+      "sha256": "a019102dfe507486ba494936c7eb48c06983d89e05fa7aaea99d6e522ff7f153"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X021_axis.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X021_axis.json",
+      "bytes": 401632,
+      "sha256": "9f1ee23e5836d70bb016ed16258880b1b7f8fc6b8451130f8e493e74086199f3"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X021__ALL_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X021__ALL_changes.csv.gz",
+      "bytes": 1293534,
+      "sha256": "ae07ee20657373d3f6bf4cc47666d6316adf4b6229902d1117107618af2fa404"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X021__endocardium_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X021__endocardium_changes.csv.gz",
+      "bytes": 1124214,
+      "sha256": "1aea165318c37105c0bc9c991f5aa80356282694fee8ee91dae6bed75856954c"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X022_axis.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X022_axis.json",
+      "bytes": 6683,
+      "sha256": "65268c94063e62d3dc2e3ada47268300dccd906a0e79783c3181bc1e16cb762c"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X022__ALL_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X022__ALL_changes.csv.gz",
+      "bytes": 29904,
+      "sha256": "763147439965879fe4b29bb49c951ba1524a6f83ca8ad2d8762428af8588072b"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X027_axis.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X027_axis.json",
+      "bytes": 296866,
+      "sha256": "05373d6b79789002e044c8d5442bf3d36bec869090b05a48b695074f0e542a57"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X027__ALL_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X027__ALL_changes.csv.gz",
+      "bytes": 1255856,
+      "sha256": "7fec658951f10151344133e42f39670949e0977daf8d5231b6da43380708fd48"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X028_axis.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X028_axis.json",
+      "bytes": 6637,
+      "sha256": "3f668368d05fac51a55aa6ee8c1399e676698b835bb3219fdae7a1f73aab5789"
+    },
+    {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/trend_outputs/X028__ALL_changes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\external_E10p5_analysis_20261119\\results\\trend_outputs\\X028__ALL_changes.csv.gz",
+      "bytes": 31144,
+      "sha256": "9b9689c149f39073b148979f1426cf06a70aeb10dc136dc99ea008c5c036dde4"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/all_comparisons.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\all_comparisons.csv",
+      "bytes": 189737,
+      "sha256": "67661bf4dfdeef942136642baf67757bfc011364dffd289076019aa5106c97ec"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/inputs.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\inputs.json",
+      "bytes": 108422,
+      "sha256": "c5e5dd7031aa89ff2c4f27f26a4eecccb6a28e257838e6496e231ab4a95de696"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/original_label_composition.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\original_label_composition.csv",
+      "bytes": 594927,
+      "sha256": "bbd62ccce332c51a0882fa368227b859bcfa9e810ae6f305e8b650870b0a28eb"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/pair_results.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\pair_results.json",
+      "bytes": 2000515,
+      "sha256": "0a97c3e17789ddde571a8b9cf5b8a6e3c93bd4f420749dca55a29b044ab5ae8a"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/sample_statistics.csv",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\sample_statistics.csv",
+      "bytes": 267103,
+      "sha256": "1ac1bb0d73c2052c9d0be13d7497eea74060d0d3d657707fa754b30f0b18b3ef"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X001_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X001_genes.csv.gz",
+      "bytes": 1693776,
+      "sha256": "36d79888a2d9a0d2c09966e143f15f518b3abca2f09d77f54f13a338f6481a67"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X001_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X001_panel.json",
+      "bytes": 471085,
+      "sha256": "8c1d35ba68a733ea126c2c01ff55c288229dfe8d51044c9845ffc76974138ec0"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X001_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X001_result.json",
+      "bytes": 16168,
+      "sha256": "1ce129f4104d50acf77f457f272ad768d7109f9f201aa861044547b690a50fb9"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X002_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X002_genes.csv.gz",
+      "bytes": 35615,
+      "sha256": "2971956c4563cbf27a62ff04726c7b5396d3bcb33611155db9d348f49083d289"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X002_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X002_panel.json",
+      "bytes": 469848,
+      "sha256": "dd7e327226142c66ce051efac3fdc71e704e541812e819194007026c257778f2"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X002_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X002_result.json",
+      "bytes": 12831,
+      "sha256": "1aa0957cb860f5366419273253d1f8a611875afdbeb2bcf1c9b44ae9c1f09625"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X003_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X003_genes.csv.gz",
+      "bytes": 851731,
+      "sha256": "8c96e2158db81accafdb2e0c62c5f1a8cc071512b12cec5e851344c4c9e73328"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X003_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X003_panel.json",
+      "bytes": 505700,
+      "sha256": "ff567f2ba2bc46f4980842ee038761d6e1fef5e72995f63cce0a885c66245e51"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X003_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X003_result.json",
+      "bytes": 14291,
+      "sha256": "7b056492d3ef5b5cbb6557295f66ced9e1daa653e7d80d8f59bd307134a3db8c"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X004_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X004_genes.csv.gz",
+      "bytes": 28207,
+      "sha256": "4c6843af8dea116d2cc6a02dceed61479c79efe4ea74061a2d8897f8b84a8da9"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X004_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X004_panel.json",
+      "bytes": 218544,
+      "sha256": "9cdab875386d069a6d887d627193ba1beb69292509c8315294e55eb439e1146b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X004_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X004_result.json",
+      "bytes": 12443,
+      "sha256": "b257cb6cecd38dcb15ad9e77757d077adcb61b21512c6a4dea7f6bc11c75c5e5"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X005_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X005_genes.csv.gz",
+      "bytes": 860386,
+      "sha256": "559ef71ff842a7f8da60cf128b81d861487999f6a04c21e7a336a7734c5c29e9"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X005_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X005_panel.json",
+      "bytes": 506685,
+      "sha256": "afc4b55060bd264a13dca9ccc0f1844befbaf49047e591ed21570834a1da54bd"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X005_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X005_result.json",
+      "bytes": 14766,
+      "sha256": "9fcdd5a7050dcf07e2c01217081da87fb60a698e3e21d21a2e95630b5b05ee08"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X006_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X006_genes.csv.gz",
+      "bytes": 27356,
+      "sha256": "987ced0fda7937ef1bcd08153dbb6d77a7c8d494203e60425efbc72628160287"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X006_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X006_panel.json",
+      "bytes": 222737,
+      "sha256": "98d53744f8c46124921e0d969d2d67db00b40c1002d198dfe699f31070b175d2"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X006_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X006_result.json",
+      "bytes": 12447,
+      "sha256": "a2b507cbb84752fc7014a5800dbbae90cb776f57d288653bc9b653596150fc76"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X007_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X007_panel.json",
+      "bytes": 492763,
+      "sha256": "8d06d0d2b29b494225f31cc4ac54d2b5fe127cc4d9231530215d823e7d04ce75"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X007_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X007_result.json",
+      "bytes": 74694,
+      "sha256": "9aacc8456fe4dc1429f15c3fb77a3bfedc749803b268c77da58ca2886dc95e6d"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X007__ALL_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X007__ALL_genes.csv.gz",
+      "bytes": 1317979,
+      "sha256": "1781ef38224c05e1540028b59d36055106e5a1356af1a2df091a188f2641882d"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X007__blood_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X007__blood_genes.csv.gz",
+      "bytes": 847955,
+      "sha256": "b037280dd50ca84f3a003edeabe62951ff8775cb7c994610fe9051698f6e9ffa"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X007__endocardium_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X007__endocardium_genes.csv.gz",
+      "bytes": 947430,
+      "sha256": "607d1a03c2f3f3737155dd15791d57816bb9db9bc0a1893b767ec4357643034a"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X007__epicardium_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X007__epicardium_genes.csv.gz",
+      "bytes": 965656,
+      "sha256": "f028431c31c762ff577642af52d54ade90be635cec8d21e5d5c12de927837b4e"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X007__ventricular_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X007__ventricular_genes.csv.gz",
+      "bytes": 1079754,
+      "sha256": "f782299dd426dc9b77077d62c4280b75c10d165d098058f03fce8d494d477a99"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X008_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X008_genes.csv.gz",
+      "bytes": 139655,
+      "sha256": "faae74451af14e546ac72c2aa7f869f08ee8f9fc43e575c56d1690856fca5490"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X008_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X008_panel.json",
+      "bytes": 451372,
+      "sha256": "8a3ab553b58fc7544bda32ac167d5f444dd7c07d4a4579796d35885f6bd87aa9"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X008_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X008_result.json",
+      "bytes": 59114,
+      "sha256": "bfd06ff41302059f26fad82bb1652ec8bfa863ab8fbcd7c88e369d33504f2598"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X009_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X009_panel.json",
+      "bytes": 492763,
+      "sha256": "777e9d5e77bf191416f61a130873c96f1215ab286216dadec4a3d3ea9578bc0c"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X009_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X009_result.json",
+      "bytes": 75600,
+      "sha256": "923777f94f67beee9749587029a3714c3c715b0e332f15f6e8d4530ea8cb4bae"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X009__ALL_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X009__ALL_genes.csv.gz",
+      "bytes": 1328285,
+      "sha256": "5d30816f1e8104211b2e0ea24f16a8b2d8979f7d2d300ba5c0c9ce14c997e4d5"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X009__blood_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X009__blood_genes.csv.gz",
+      "bytes": 919340,
+      "sha256": "5107d4c236be06ef007f1bafb1167b9fa28bbf20f939e4d6ecebf209bd530628"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X009__endocardium_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X009__endocardium_genes.csv.gz",
+      "bytes": 955105,
+      "sha256": "2f86585bcf020c4b39ee7e6fab5984b08903fc66e436e4585dd84229750bc571"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X009__epicardium_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X009__epicardium_genes.csv.gz",
+      "bytes": 1024348,
+      "sha256": "288c8e195b2aef45a9ed33ea7a6890ff131ac3d964cb4768c786791c4c67108f"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X009__ventricular_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X009__ventricular_genes.csv.gz",
+      "bytes": 1128649,
+      "sha256": "628be31bf67078a471605be4397f3adda965cd11512328b6000edd301492740b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X010_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X010_genes.csv.gz",
+      "bytes": 138761,
+      "sha256": "664b52ff19b53c182590a3646dab74f5529804e1c65fb7603f79781d4dfd8dcd"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X010_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X010_panel.json",
+      "bytes": 451372,
+      "sha256": "5dcb694edce84ee9a93a1965b706a9cd9c507b83dc9cf2c419b98ab3d2810e39"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X010_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X010_result.json",
+      "bytes": 59615,
+      "sha256": "6883e9d66fbbff82bd6eb3e7d074c5c821fd28ce2c658b230556553ba11c1853"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X011_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X011_genes.csv.gz",
+      "bytes": 1371507,
+      "sha256": "1fa8bc77989e4d04957c919ae366db7ae1a67a25ef41b92a1f26263040d9f997"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X011_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X011_panel.json",
+      "bytes": 503831,
+      "sha256": "0e18d9b8ff70c31adf365f6a49a2b76fd2a1b187f59ae0d4a93bb390334f0fc3"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X011_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X011_result.json",
+      "bytes": 16233,
+      "sha256": "49181cf5c5d51d4d2829cb5567b726494d2b781b3155c5fef134befc16b422bc"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X012_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X012_genes.csv.gz",
+      "bytes": 34623,
+      "sha256": "740c4089533020e4d66e1a950967bc01afb8b9b28a060c94c88575734df9cce6"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X012_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X012_panel.json",
+      "bytes": 403049,
+      "sha256": "043465abdd116f8799520c4d0e4f9211e5d7faacf105129b8ddc8969582f9007"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X012_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X012_result.json",
+      "bytes": 12962,
+      "sha256": "a11db211c73f743bc95ec72f0e083832c6a40eb838c33dcc60563c7d016640a7"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X013_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X013_genes.csv.gz",
+      "bytes": 1393845,
+      "sha256": "6c0eee15d0ea0c8713cc48ed07fff0e95916819c98a7facd087cf1a3756e1a7b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X013_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X013_panel.json",
+      "bytes": 503831,
+      "sha256": "c9b3c2888046cf9d432cdbd284c16b581bf5b74b39b438f2c065643fa59121c8"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X013_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X013_result.json",
+      "bytes": 16237,
+      "sha256": "d368cee81bfc0d48cb2ef12ef64b1111c7d69e0a1469da8f63a180861265aaf6"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X014_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X014_genes.csv.gz",
+      "bytes": 35268,
+      "sha256": "6ab9ec94ff741e1815d1e1733c45473d36577be6b7c1d600e6b401679d81ba95"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X014_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X014_panel.json",
+      "bytes": 403049,
+      "sha256": "f5eaa980153e8131d101d2d839c07843070c56c249010c8c39dbea3efac9bfda"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X014_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X014_result.json",
+      "bytes": 12964,
+      "sha256": "b18c9edcbf0bff09f50cd6859bcc8dd9c6bc1b8fab3ad8170ea77b61ec419cb6"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X015_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X015_genes.csv.gz",
+      "bytes": 1617599,
+      "sha256": "aacda444af0ac214e66be37f1ee9754a95e649bb10abe2e2c59a8931888f8b4a"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X015_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X015_panel.json",
+      "bytes": 478719,
+      "sha256": "57b0a65b10d9e7a5a85955f41e157c9aa00ae0a9e522810c8ba6da961b83b343"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X015_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X015_result.json",
+      "bytes": 16042,
+      "sha256": "cc3100862b8dc181bce1b33a3288f95f743294484523a622c79e6cbea7f68ec5"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X016_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X016_genes.csv.gz",
+      "bytes": 34149,
+      "sha256": "ec66a2628f1a2170d89f20790d21983f4ddb967c5e5dae694dd7558b7a548047"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X016_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X016_panel.json",
+      "bytes": 473663,
+      "sha256": "9e976a037c1d3f33c2c08c67605a1d84edfdbab8d6bcfc81de91d76a258ebc44"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X016_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X016_result.json",
+      "bytes": 12698,
+      "sha256": "7cbdba04451882f11a5f48a140ede7dd9e5a738591a0f38554c0b5b5510f6fe9"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X017_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X017_genes.csv.gz",
+      "bytes": 1987860,
+      "sha256": "9ac6084c3c2054156a3a51f6c6fb6aa03173cb885ace862276bc51481ab3df2e"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X017_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X017_panel.json",
+      "bytes": 478903,
+      "sha256": "c1f9c835bae65a95cb4365f53ca3bdb313d295ad29376a3844a9b3102d4b8ac0"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X017_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X017_result.json",
+      "bytes": 29711,
+      "sha256": "a14417811391e50dfa2bd6e2a90e3ad5ba8c20e44aef18293f043785c390419f"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X018_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X018_genes.csv.gz",
+      "bytes": 31323,
+      "sha256": "2896ff497ce1fb274dbaeea9a8dadf958ad954a3732b08e4a8575d8b96abacc0"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X018_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X018_panel.json",
+      "bytes": 240646,
+      "sha256": "16b9b3d392a5438e7869f4821c3256be54a8c112dcb3a6e2cc3f623ba18e4e08"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X018_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X018_result.json",
+      "bytes": 12840,
+      "sha256": "8cfe9e610e2f907bf16ce0d2c30edef2fbe4b40336b29c8828305ba6187a91e3"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X019_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X019_genes.csv.gz",
+      "bytes": 1242696,
+      "sha256": "af71bbf3ba86fe955a61e69c4fac1f1207bfb0eef021ff6a730adfe6ab4c9ad4"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X019_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X019_panel.json",
+      "bytes": 490722,
+      "sha256": "af3796d533323f976c5392647b263459b1902804c308e6d0f7145fbf811d4efc"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X019_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X019_result.json",
+      "bytes": 16285,
+      "sha256": "78fd83ae6bc1e4567434fef451bbae6280a7a18ddd5281fee7eaadc56b1d1f72"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X020_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X020_genes.csv.gz",
+      "bytes": 34666,
+      "sha256": "af40561a1607b603c449138302ba6ff7d2f27dbdf0fe54b4fd9cba1d0859473f"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X020_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X020_panel.json",
+      "bytes": 275284,
+      "sha256": "651da2dbf63e629e58ef0da2fdef86ae7549c931230146dcda0e577e1f6cd9f0"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X020_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X020_result.json",
+      "bytes": 13540,
+      "sha256": "160da974782bc7e7ffde3995301a885c0c6acde1b3c7d3eedd5d2d8959d7fbfd"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X021_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X021_genes.csv.gz",
+      "bytes": 2386682,
+      "sha256": "0cb4a8c21a0872345a4f676810107b35f28e066c65c3b061ebf73e28aeee7b8f"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X021_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X021_panel.json",
+      "bytes": 745410,
+      "sha256": "37a81ec18874fa0bb90d91a8ceac52b18ec294fe8b18cddc92621bedb9da7a16"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X021_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X021_result.json",
+      "bytes": 31791,
+      "sha256": "14467de741994c58b7ddcbe35f61c3a7dfd1f6b575710b9f3e1ed9f2b5f60779"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X022_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X022_genes.csv.gz",
+      "bytes": 59214,
+      "sha256": "9b5e586d2232fd03c49ede5db83de8379dfdb5959d8633ae23bb91b6bee440b8"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X022_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X022_panel.json",
+      "bytes": 676056,
+      "sha256": "818fbd15fca512a7cf42e161ae5c27d2d46f0ba6acdd09c5f1a3e6e68e03d0c4"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X022_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X022_result.json",
+      "bytes": 25310,
+      "sha256": "7a3fd2764c76fa2a995209ebb1f5c5b187758894d800563a5abba41d2f475f08"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X023_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X023_genes.csv.gz",
+      "bytes": 871659,
+      "sha256": "e8baef1ca967ed424d8445672f00136d8ae0b5e2e4046d6ad8c52b98b8636eab"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X023_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X023_panel.json",
+      "bytes": 504548,
+      "sha256": "f01e32485f3d63f5e3db220f09a0e1287d49940fe05ba3da131b4b179bd70695"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X023_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X023_result.json",
+      "bytes": 15282,
+      "sha256": "7db61eca1a122963c268af0373ba6db3e99725b1e16dec258a6259c80077119f"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X024_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X024_genes.csv.gz",
+      "bytes": 24557,
+      "sha256": "d304551009847ba6ac4d45cbe20426262bd8ed13c27f77c1433da85321940991"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X024_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X024_panel.json",
+      "bytes": 234978,
+      "sha256": "c927839493e073ae40a5d6ae1622faafe00798ce6843718965bb905b3479aacb"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X024_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X024_result.json",
+      "bytes": 12950,
+      "sha256": "ceb8d5b85a319ebf81ed1611a30f07f387b6c6e40e018e181c905de3c65e8f53"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X025_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X025_genes.csv.gz",
+      "bytes": 840011,
+      "sha256": "ffed31619a6363f7fdef7f46995533d8bb461b96093738129c72a39a04d9a089"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X025_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X025_panel.json",
+      "bytes": 504548,
+      "sha256": "b44f78eb1cd6680a02644eb0bf73cb66d76b8733d0859c9208e4915300c20d10"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X025_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X025_result.json",
+      "bytes": 15219,
+      "sha256": "4ddf62f19a7a147a9656a00f8c6fc12ff6ff31dce6a207c495470ada6cc5a96b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X026_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X026_genes.csv.gz",
+      "bytes": 23047,
+      "sha256": "7a03e0a633343150ef032b2828f195973b7485a08290d2a191bf49c6bd18cbdc"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X026_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X026_panel.json",
+      "bytes": 234978,
+      "sha256": "61127ff2d60fe21c1a1b0d5954aeb0a977578d71bb86777c087c2a8641f84520"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X026_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X026_result.json",
+      "bytes": 12944,
+      "sha256": "dece30932e9dc8eda1b2bea9fd0e4c4b83cd5418cf08dda024af3e34fea699e0"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X027_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X027_genes.csv.gz",
+      "bytes": 3509777,
+      "sha256": "b0d2ad21048584a636ebbbf7b1970452c2bfa22bb09486d38ffacdda682aa51d"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X027_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X027_panel.json",
+      "bytes": 552971,
+      "sha256": "bb7b7b3eccab14f9af456a83f3faeed46232e1ee7f0ef1d7b1775d374a9b20ee"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X027_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X027_result.json",
+      "bytes": 48382,
+      "sha256": "652fe068df537503f7334e60bf552cf3091729c17641a9e48ab97ae0ba26c389"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X028_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X028_genes.csv.gz",
+      "bytes": 95149,
+      "sha256": "597909a9f1471eb344de3aaa90220223d9d5a138ecae93825bcec2e18e0e66e9"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X028_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X028_panel.json",
+      "bytes": 378895,
+      "sha256": "6af51ac5bcd5f10e6cd49c7fb22671757e92b1a573cc82319af4dd1d1d766f68"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X028_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X028_result.json",
+      "bytes": 40350,
+      "sha256": "b5d56b1d667cf412986e9ca2ef2532e8d1550483b154e501fc9388418be9ef79"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X029_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X029_genes.csv.gz",
+      "bytes": 1432920,
+      "sha256": "7c18b1d30ab31ac18ba9670233e24fca8b48eb6da3076ec1312bfa50eb64c213"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X029_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X029_panel.json",
+      "bytes": 471085,
+      "sha256": "968fc52c3fb7d7fafc605afdec5d2895da3713e5b0bf1b05b03520a08fea0da1"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X029_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X029_result.json",
+      "bytes": 15206,
+      "sha256": "e035992ed91a1241ac36463548c2a2c489e3373a305a481e5ebe4a692fff2a8a"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X030_genes.csv.gz",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X030_genes.csv.gz",
+      "bytes": 32693,
+      "sha256": "d527dbf8028a406b37c957a665f6304c0cfa06952f010e775f773448161c85ff"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X030_panel.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X030_panel.json",
+      "bytes": 469848,
+      "sha256": "ddac4fcdbcba090a3c69bd458f1142473f469461e897f4d9708fc7f4f2ad566b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/X030_result.json",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\external_E10p5_analysis_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\X030_result.json",
+      "bytes": 12301,
+      "sha256": "6a9305b7f97bef7ee713ea42596a03bdeecb1297e8558668a48d52d15d3d8f42"
+    },
+    {
       "path": "readers/older/alias_coverage_sensitivity.csv",
       "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\older\\alias_coverage_sensitivity.csv",
       "bytes": 804,
@@ -1076,12 +2804,6 @@
       "sha256": "6ab64cd4baae181351413d4e6a456b64583f9d9c34cdae34b3c8997445b2a4c1"
     },
     {
-      "path": "readers/older/REPORT_ZH.md",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\older\\REPORT_ZH.md",
-      "bytes": 20462,
-      "sha256": "b00f3a55cccd52cffd7a7eb3fe4bc4dc01071cd5d5dc60cb0e22c080396589db"
-    },
-    {
       "path": "readers/older/same_panel_control.csv",
       "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\older\\same_panel_control.csv",
       "bytes": 5404,
@@ -1112,58 +2834,10 @@
       "sha256": "6f7adc04aec8af05e0ec7280421671f82109e2b26322cc78376a3163864f22b8"
     },
     {
-      "path": "readers/research/vem_official_metric_source_audit/index.html",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_official_metric_source_audit\\index.html",
-      "bytes": 2445299,
-      "sha256": "840ead0171cf0e024ff941960f2ab88ca04ee5db749ea175d5bbe338018b3568"
-    },
-    {
-      "path": "readers/research/vem_pairwise_similarity_v3/comparison.html",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\comparison.html",
-      "bytes": 1951063,
-      "sha256": "784e61ba87f8677d298236afad595e136cfa1e735a0c06ed3dbce8e023224c1e"
-    },
-    {
       "path": "readers/research/vem_prior_knowledge_v2/knowledge.html",
       "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_prior_knowledge_v2\\knowledge.html",
       "bytes": 1351803,
       "sha256": "fab8059d8da2923d98052ef1d85c4c4ed97dc6427309a03fe20722eb2de92ebb"
-    },
-    {
-      "path": "readers/research/vem_source_comparison_v2/README.md",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_source_comparison_v2\\README.md",
-      "bytes": 21010,
-      "sha256": "3ee114e9db58a044b537452d51da03920f56e0d7ca2420b210df0afe056860b3"
-    },
-    {
-      "path": "readers/research/vem_pairwise_similarity_v3/results/all_comparisons.csv",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\all_comparisons.csv",
-      "bytes": 130715,
-      "sha256": "8d990ddb52f5dbb89a970609b1e509101b4d079969b96a213f838e5f1fba5e3d"
-    },
-    {
-      "path": "readers/research/vem_pairwise_similarity_v3/results/inputs.json",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\inputs.json",
-      "bytes": 63559,
-      "sha256": "7a567e2ea5c741de33e22292931e9ec24e950e1d0046742c756fa68399ba46cc"
-    },
-    {
-      "path": "readers/research/vem_pairwise_similarity_v3/results/original_label_composition.csv",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\original_label_composition.csv",
-      "bytes": 410228,
-      "sha256": "9987f87c06b9f6494b601d7454c8ac7293cdc4129d22edb934e0796ccbefc70f"
-    },
-    {
-      "path": "readers/research/vem_pairwise_similarity_v3/results/pair_results.json",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\pair_results.json",
-      "bytes": 1586971,
-      "sha256": "d1505a540795af944c645a71b6ce164ce574f0b28bad82b00e5d3415bc93021d"
-    },
-    {
-      "path": "readers/research/vem_pairwise_similarity_v3/results/sample_statistics.csv",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\overlays\\research\\vem_pairwise_similarity_v3\\results\\sample_statistics.csv",
-      "bytes": 188718,
-      "sha256": "59fbd6c507fb5d07e47dde02b56e70626320731a578df3a536065ea64552a090"
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/V001_genes.csv.gz",

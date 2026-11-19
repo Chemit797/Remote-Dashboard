@@ -1,0 +1,2 @@
+dataset,source_id,stage,sample,label,mapped_group,n,sample_denominator,proportion,zero_common_total
+SLIDESEQ_E105_R1_T1_10p5,VED-029,10.5,section_1,untyped bead,UNMAPPED,3839,3839,1.0,0

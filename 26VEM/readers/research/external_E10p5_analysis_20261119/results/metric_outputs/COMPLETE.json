@@ -1,0 +1,19 @@
+{
+  "completed": true,
+  "pairs": 30,
+  "metric_rows": 204,
+  "source_ids": [
+    "VED-003",
+    "VED-007",
+    "VED-010",
+    "VED-012",
+    "VED-014",
+    "VED-015",
+    "VED-016",
+    "VED-019",
+    "VED-029",
+    "VED-030",
+    "VED-033"
+  ],
+  "spatial_rows": 0
+}

@@ -1,0 +1,1171 @@
+[
+  {
+    "from_pair": "P012",
+    "to_pair": "X009",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "task": "T1",
+    "group": "ALL",
+    "group_name": "全部采集对象",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 29715,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 17057,
+          "valid_n": 17057,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 24979,
+          "valid_n": 24979,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 187,
+          "valid_n": 187,
+          "denominator": 187
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 417,
+          "valid_n": 417,
+          "denominator": 417
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 106,
+          "valid_n": 106,
+          "denominator": 106
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 90,
+          "valid_n": 90,
+          "denominator": 90
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 87,
+          "valid_n": 87,
+          "denominator": 87
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 208,
+          "valid_n": 208,
+          "denominator": 208
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 370,
+          "valid_n": 370,
+          "denominator": 370
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 100,
+          "valid_n": 100,
+          "denominator": 100
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 76,
+          "valid_n": 76,
+          "denominator": 76
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 87,
+          "valid_n": 87,
+          "denominator": 87
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.43887193725499213,
+    "direction_agreement": 0.6616231851810647,
+    "n_nonzero_direction": 17977,
+    "external_change_rms": 0.04299591258303467,
+    "official_change_rms": 0.06791054232916213,
+    "official_proportion_delta_pp": 0.0,
+    "external_proportion_delta_pp": 0.0,
+    "gene_table": "X009__ALL_changes.csv.gz"
+  },
+  {
+    "from_pair": "P012",
+    "to_pair": "X009",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "task": "T1",
+    "group": "ventricular",
+    "group_name": "心室心肌",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 29715,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 1144,
+          "valid_n": 1144,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 1588,
+          "valid_n": 1588,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 152,
+          "valid_n": 152,
+          "denominator": 187
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 328,
+          "valid_n": 328,
+          "denominator": 417
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 84,
+          "valid_n": 84,
+          "denominator": 106
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 66,
+          "valid_n": 66,
+          "denominator": 90
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 64,
+          "valid_n": 64,
+          "denominator": 87
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 136,
+          "valid_n": 136,
+          "denominator": 208
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 259,
+          "valid_n": 259,
+          "denominator": 370
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 62,
+          "valid_n": 62,
+          "denominator": 100
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 49,
+          "valid_n": 49,
+          "denominator": 76
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 56,
+          "valid_n": 56,
+          "denominator": 87
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.41782673322499697,
+    "direction_agreement": 0.6582667849748595,
+    "n_nonzero_direction": 16905,
+    "external_change_rms": 0.03798004629318683,
+    "official_change_rms": 0.0831444214785359,
+    "official_proportion_delta_pp": -0.3495836778440578,
+    "external_proportion_delta_pp": -11.971243171266154,
+    "gene_table": "X009__ventricular_changes.csv.gz"
+  },
+  {
+    "from_pair": "P012",
+    "to_pair": "X009",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "task": "T1",
+    "group": "blood",
+    "group_name": "血液细胞",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 29715,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 213,
+          "valid_n": 213,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 3818,
+          "valid_n": 3818,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 16,
+          "valid_n": 16,
+          "denominator": 187
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 37,
+          "valid_n": 37,
+          "denominator": 417
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 10,
+          "valid_n": 10,
+          "denominator": 106
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 12,
+          "valid_n": 12,
+          "denominator": 90
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 14,
+          "valid_n": 14,
+          "denominator": 87
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 41,
+          "valid_n": 41,
+          "denominator": 208
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 57,
+          "valid_n": 57,
+          "denominator": 370
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 23,
+          "valid_n": 23,
+          "denominator": 100
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 20,
+          "valid_n": 20,
+          "denominator": 76
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 21,
+          "valid_n": 21,
+          "denominator": 87
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.3282114540563463,
+    "direction_agreement": 0.6637103336045566,
+    "n_nonzero_direction": 12290,
+    "external_change_rms": 0.06452943807612219,
+    "official_change_rms": 0.09192039625906523,
+    "official_proportion_delta_pp": 14.036085087811923,
+    "external_proportion_delta_pp": 10.456472668672133,
+    "gene_table": "X009__blood_changes.csv.gz"
+  },
+  {
+    "from_pair": "P013",
+    "to_pair": "X010",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "task": "T2 心脏",
+    "group": "ALL",
+    "group_name": "全部采集对象",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 498,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T2_heart_E9.5",
+          "n": 53742,
+          "valid_n": 53742,
+          "denominator": 53742
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T2_heart_E10.5",
+          "n": 167864,
+          "valid_n": 167864,
+          "denominator": 167864
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 187,
+          "valid_n": 187,
+          "denominator": 187
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 417,
+          "valid_n": 417,
+          "denominator": 417
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 106,
+          "valid_n": 106,
+          "denominator": 106
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 90,
+          "valid_n": 90,
+          "denominator": 90
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 87,
+          "valid_n": 87,
+          "denominator": 87
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 208,
+          "valid_n": 208,
+          "denominator": 208
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 370,
+          "valid_n": 370,
+          "denominator": 370
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 100,
+          "valid_n": 100,
+          "denominator": 100
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 76,
+          "valid_n": 76,
+          "denominator": 76
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 87,
+          "valid_n": 87,
+          "denominator": 87
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.3183531968581721,
+    "direction_agreement": 0.6285714285714286,
+    "n_nonzero_direction": 455,
+    "external_change_rms": 0.201342704751254,
+    "official_change_rms": 0.3210920111836254,
+    "official_proportion_delta_pp": 0.0,
+    "external_proportion_delta_pp": 0.0,
+    "gene_table": "X010__ALL_changes.csv.gz"
+  },
+  {
+    "from_pair": "P013",
+    "to_pair": "X010",
+    "external_name": "VED-012 · Feng 分心腔单细胞图谱｜CD1",
+    "task": "T2 心脏",
+    "group": "ventricular",
+    "group_name": "心室心肌",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 498,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T2_heart_E9.5",
+          "n": 6207,
+          "valid_n": 6207,
+          "denominator": 53742
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T2_heart_E10.5",
+          "n": 9782,
+          "valid_n": 9782,
+          "denominator": 167864
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 152,
+          "valid_n": 152,
+          "denominator": 187
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 328,
+          "valid_n": 328,
+          "denominator": 417
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 84,
+          "valid_n": 84,
+          "denominator": 106
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 66,
+          "valid_n": 66,
+          "denominator": 90
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 64,
+          "valid_n": 64,
+          "denominator": 87
+        }
+      ],
+      [
+        {
+          "sample": "CD1_a10k",
+          "n": 136,
+          "valid_n": 136,
+          "denominator": 208
+        },
+        {
+          "sample": "CD1_a25k",
+          "n": 259,
+          "valid_n": 259,
+          "denominator": 370
+        },
+        {
+          "sample": "CD1_a5k1",
+          "n": 62,
+          "valid_n": 62,
+          "denominator": 100
+        },
+        {
+          "sample": "CD1_a5k2",
+          "n": 49,
+          "valid_n": 49,
+          "denominator": 76
+        },
+        {
+          "sample": "CD1_a5k3",
+          "n": 56,
+          "valid_n": 56,
+          "denominator": 87
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.17939369384233508,
+    "direction_agreement": 0.5633484162895928,
+    "n_nonzero_direction": 442,
+    "external_change_rms": 0.20303886116868686,
+    "official_change_rms": 0.37536624756282483,
+    "official_proportion_delta_pp": -5.722289575651897,
+    "external_proportion_delta_pp": -11.971243171266154,
+    "gene_table": "X010__ventricular_changes.csv.gz"
+  },
+  {
+    "from_pair": "P023",
+    "to_pair": "X017",
+    "external_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+    "task": "T1",
+    "group": "ALL",
+    "group_name": "全部采集对象",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 15954,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 17057,
+          "valid_n": 17057,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 24979,
+          "valid_n": 24979,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "GSM9263257",
+          "n": 533,
+          "valid_n": 533,
+          "denominator": 533
+        }
+      ],
+      [
+        {
+          "sample": "Osr1_E105_pool",
+          "n": 967,
+          "valid_n": 967,
+          "denominator": 967
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.5039473699277166,
+    "direction_agreement": 0.6846909667194929,
+    "n_nonzero_direction": 15775,
+    "external_change_rms": 0.13478664609404467,
+    "official_change_rms": 0.0927586601796215,
+    "official_proportion_delta_pp": 0.0,
+    "external_proportion_delta_pp": 0.0,
+    "gene_table": "X017__ALL_changes.csv.gz"
+  },
+  {
+    "from_pair": "P009",
+    "to_pair": "X021",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "task": "T1",
+    "group": "ALL",
+    "group_name": "全部采集对象",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 27859,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 17057,
+          "valid_n": 17057,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 24979,
+          "valid_n": 24979,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "embryo_22",
+          "n": 1449,
+          "valid_n": 1449,
+          "denominator": 1449
+        },
+        {
+          "sample": "embryo_23",
+          "n": 828,
+          "valid_n": 828,
+          "denominator": 828
+        },
+        {
+          "sample": "embryo_24",
+          "n": 2509,
+          "valid_n": 2509,
+          "denominator": 2509
+        }
+      ],
+      [
+        {
+          "sample": "embryo_34",
+          "n": 718,
+          "valid_n": 718,
+          "denominator": 718
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.2208113932244605,
+    "direction_agreement": 0.5769974706144919,
+    "n_nonzero_direction": 20163,
+    "external_change_rms": 0.07975705569927397,
+    "official_change_rms": 0.07016379588035,
+    "official_proportion_delta_pp": 0.0,
+    "external_proportion_delta_pp": 0.0,
+    "gene_table": "X021__ALL_changes.csv.gz"
+  },
+  {
+    "from_pair": "P009",
+    "to_pair": "X021",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "task": "T1",
+    "group": "endocardium",
+    "group_name": "心内膜",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 27859,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 1555,
+          "valid_n": 1555,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 3332,
+          "valid_n": 3332,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "embryo_22",
+          "n": 280,
+          "valid_n": 280,
+          "denominator": 1449
+        },
+        {
+          "sample": "embryo_23",
+          "n": 250,
+          "valid_n": 250,
+          "denominator": 828
+        },
+        {
+          "sample": "embryo_24",
+          "n": 673,
+          "valid_n": 673,
+          "denominator": 2509
+        }
+      ],
+      [
+        {
+          "sample": "embryo_34",
+          "n": 414,
+          "valid_n": 414,
+          "denominator": 718
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.16674625211817928,
+    "direction_agreement": 0.557019825443616,
+    "n_nonzero_direction": 17301,
+    "external_change_rms": 0.07263176655253423,
+    "official_change_rms": 0.06051358721000512,
+    "official_proportion_delta_pp": 4.222713169230413,
+    "external_proportion_delta_pp": 32.213385849490486,
+    "gene_table": "X021__endocardium_changes.csv.gz"
+  },
+  {
+    "from_pair": "P011",
+    "to_pair": "X022",
+    "external_name": "VED-007 · Qiu 产前细胞核图谱",
+    "task": "T2 心脏",
+    "group": "ALL",
+    "group_name": "全部采集对象",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 497,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T2_heart_E9.5",
+          "n": 53742,
+          "valid_n": 53742,
+          "denominator": 53742
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T2_heart_E10.5",
+          "n": 167864,
+          "valid_n": 167864,
+          "denominator": 167864
+        }
+      ],
+      [
+        {
+          "sample": "embryo_22",
+          "n": 1449,
+          "valid_n": 1449,
+          "denominator": 1449
+        },
+        {
+          "sample": "embryo_23",
+          "n": 828,
+          "valid_n": 828,
+          "denominator": 828
+        },
+        {
+          "sample": "embryo_24",
+          "n": 2509,
+          "valid_n": 2509,
+          "denominator": 2509
+        }
+      ],
+      [
+        {
+          "sample": "embryo_34",
+          "n": 718,
+          "valid_n": 718,
+          "denominator": 718
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.11800047134269291,
+    "direction_agreement": 0.55741127348643,
+    "n_nonzero_direction": 479,
+    "external_change_rms": 0.4271510030079524,
+    "official_change_rms": 0.32142145798580407,
+    "official_proportion_delta_pp": 0.0,
+    "external_proportion_delta_pp": 0.0,
+    "gene_table": "X022__ALL_changes.csv.gz"
+  },
+  {
+    "from_pair": "P008",
+    "to_pair": "X027",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "task": "T1",
+    "group": "ALL",
+    "group_name": "全部采集对象",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 20998,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T1_E9.5_RNA",
+          "n": 17057,
+          "valid_n": 17057,
+          "denominator": 17057
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T1_E10.5_RNA",
+          "n": 24979,
+          "valid_n": 24979,
+          "denominator": 24979
+        }
+      ],
+      [
+        {
+          "sample": "embryo1.0",
+          "n": 14915,
+          "valid_n": 14915,
+          "denominator": 14915
+        },
+        {
+          "sample": "embryo19.0",
+          "n": 3970,
+          "valid_n": 3970,
+          "denominator": 3970
+        },
+        {
+          "sample": "embryo20.0",
+          "n": 2686,
+          "valid_n": 2686,
+          "denominator": 2686
+        },
+        {
+          "sample": "embryo21.0",
+          "n": 11836,
+          "valid_n": 11836,
+          "denominator": 11836
+        },
+        {
+          "sample": "embryo22.0",
+          "n": 5428,
+          "valid_n": 5428,
+          "denominator": 5428
+        },
+        {
+          "sample": "embryo3.0",
+          "n": 7661,
+          "valid_n": 7661,
+          "denominator": 7661
+        },
+        {
+          "sample": "embryo39.0",
+          "n": 6601,
+          "valid_n": 6601,
+          "denominator": 6601
+        },
+        {
+          "sample": "embryo40.0",
+          "n": 7153,
+          "valid_n": 7153,
+          "denominator": 7153
+        },
+        {
+          "sample": "embryo41.0",
+          "n": 3538,
+          "valid_n": 3538,
+          "denominator": 3538
+        },
+        {
+          "sample": "embryo42.0",
+          "n": 8090,
+          "valid_n": 8090,
+          "denominator": 8090
+        },
+        {
+          "sample": "embryo55.0",
+          "n": 3839,
+          "valid_n": 3839,
+          "denominator": 3839
+        },
+        {
+          "sample": "embryo56.0",
+          "n": 7647,
+          "valid_n": 7647,
+          "denominator": 7647
+        },
+        {
+          "sample": "embryo57.0",
+          "n": 9228,
+          "valid_n": 9228,
+          "denominator": 9228
+        },
+        {
+          "sample": "embryo58.0",
+          "n": 7533,
+          "valid_n": 7533,
+          "denominator": 7533
+        },
+        {
+          "sample": "embryo63.0",
+          "n": 10104,
+          "valid_n": 10104,
+          "denominator": 10104
+        }
+      ],
+      [
+        {
+          "sample": "embryo_24",
+          "n": 28088,
+          "valid_n": 28088,
+          "denominator": 28088
+        },
+        {
+          "sample": "embryo_25",
+          "n": 15915,
+          "valid_n": 15915,
+          "denominator": 15915
+        },
+        {
+          "sample": "embryo_26",
+          "n": 24118,
+          "valid_n": 24118,
+          "denominator": 24118
+        },
+        {
+          "sample": "embryo_4",
+          "n": 12340,
+          "valid_n": 12340,
+          "denominator": 12340
+        },
+        {
+          "sample": "embryo_43",
+          "n": 20355,
+          "valid_n": 20355,
+          "denominator": 20355
+        },
+        {
+          "sample": "embryo_44",
+          "n": 26548,
+          "valid_n": 26548,
+          "denominator": 26548
+        },
+        {
+          "sample": "embryo_46",
+          "n": 29423,
+          "valid_n": 29423,
+          "denominator": 29423
+        },
+        {
+          "sample": "embryo_5",
+          "n": 22339,
+          "valid_n": 22339,
+          "denominator": 22339
+        },
+        {
+          "sample": "embryo_59",
+          "n": 25762,
+          "valid_n": 25762,
+          "denominator": 25762
+        },
+        {
+          "sample": "embryo_6",
+          "n": 27058,
+          "valid_n": 27058,
+          "denominator": 27058
+        },
+        {
+          "sample": "embryo_60",
+          "n": 36048,
+          "valid_n": 36048,
+          "denominator": 36048
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.3826064510155982,
+    "direction_agreement": 0.6377820451272204,
+    "n_nonzero_direction": 20830,
+    "external_change_rms": 0.03798450216880656,
+    "official_change_rms": 0.08118078441448959,
+    "official_proportion_delta_pp": 0.0,
+    "external_proportion_delta_pp": 0.0,
+    "gene_table": "X027__ALL_changes.csv.gz"
+  },
+  {
+    "from_pair": "P024",
+    "to_pair": "X028",
+    "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+    "task": "T2 心脏",
+    "group": "ALL",
+    "group_name": "全部采集对象",
+    "from_stage": "E9.5",
+    "to_stage": "E10.5",
+    "n_genes": 493,
+    "endpoint_counts": [
+      [
+        {
+          "sample": "OFF_T2_heart_E9.5",
+          "n": 53742,
+          "valid_n": 53742,
+          "denominator": 53742
+        }
+      ],
+      [
+        {
+          "sample": "OFF_T2_heart_E10.5",
+          "n": 167864,
+          "valid_n": 167864,
+          "denominator": 167864
+        }
+      ],
+      [
+        {
+          "sample": "embryo1.0",
+          "n": 14915,
+          "valid_n": 14914,
+          "denominator": 14915
+        },
+        {
+          "sample": "embryo19.0",
+          "n": 3970,
+          "valid_n": 3970,
+          "denominator": 3970
+        },
+        {
+          "sample": "embryo20.0",
+          "n": 2686,
+          "valid_n": 2686,
+          "denominator": 2686
+        },
+        {
+          "sample": "embryo21.0",
+          "n": 11836,
+          "valid_n": 11834,
+          "denominator": 11836
+        },
+        {
+          "sample": "embryo22.0",
+          "n": 5428,
+          "valid_n": 5427,
+          "denominator": 5428
+        },
+        {
+          "sample": "embryo3.0",
+          "n": 7661,
+          "valid_n": 7658,
+          "denominator": 7661
+        },
+        {
+          "sample": "embryo39.0",
+          "n": 6601,
+          "valid_n": 6601,
+          "denominator": 6601
+        },
+        {
+          "sample": "embryo40.0",
+          "n": 7153,
+          "valid_n": 7152,
+          "denominator": 7153
+        },
+        {
+          "sample": "embryo41.0",
+          "n": 3538,
+          "valid_n": 3537,
+          "denominator": 3538
+        },
+        {
+          "sample": "embryo42.0",
+          "n": 8090,
+          "valid_n": 8089,
+          "denominator": 8090
+        },
+        {
+          "sample": "embryo55.0",
+          "n": 3839,
+          "valid_n": 3839,
+          "denominator": 3839
+        },
+        {
+          "sample": "embryo56.0",
+          "n": 7647,
+          "valid_n": 7647,
+          "denominator": 7647
+        },
+        {
+          "sample": "embryo57.0",
+          "n": 9228,
+          "valid_n": 9227,
+          "denominator": 9228
+        },
+        {
+          "sample": "embryo58.0",
+          "n": 7533,
+          "valid_n": 7533,
+          "denominator": 7533
+        },
+        {
+          "sample": "embryo63.0",
+          "n": 10104,
+          "valid_n": 10104,
+          "denominator": 10104
+        }
+      ],
+      [
+        {
+          "sample": "embryo_24",
+          "n": 28088,
+          "valid_n": 28087,
+          "denominator": 28088
+        },
+        {
+          "sample": "embryo_25",
+          "n": 15915,
+          "valid_n": 15913,
+          "denominator": 15915
+        },
+        {
+          "sample": "embryo_26",
+          "n": 24118,
+          "valid_n": 24114,
+          "denominator": 24118
+        },
+        {
+          "sample": "embryo_4",
+          "n": 12340,
+          "valid_n": 12338,
+          "denominator": 12340
+        },
+        {
+          "sample": "embryo_43",
+          "n": 20355,
+          "valid_n": 20353,
+          "denominator": 20355
+        },
+        {
+          "sample": "embryo_44",
+          "n": 26548,
+          "valid_n": 26545,
+          "denominator": 26548
+        },
+        {
+          "sample": "embryo_46",
+          "n": 29423,
+          "valid_n": 29422,
+          "denominator": 29423
+        },
+        {
+          "sample": "embryo_5",
+          "n": 22339,
+          "valid_n": 22337,
+          "denominator": 22339
+        },
+        {
+          "sample": "embryo_59",
+          "n": 25762,
+          "valid_n": 25762,
+          "denominator": 25762
+        },
+        {
+          "sample": "embryo_6",
+          "n": 27058,
+          "valid_n": 27055,
+          "denominator": 27058
+        },
+        {
+          "sample": "embryo_60",
+          "n": 36048,
+          "valid_n": 36045,
+          "denominator": 36048
+        }
+      ]
+    ],
+    "note": "各阶段为实际采集的不同观测；每个原样本先汇总再等权。此表比较已观测变化，不拟合预测或映射。",
+    "status": "calculated",
+    "spearman": 0.28015992033026405,
+    "direction_agreement": 0.6125760649087221,
+    "n_nonzero_direction": 493,
+    "external_change_rms": 0.12480451811730892,
+    "official_change_rms": 0.3227542333127406,
+    "official_proportion_delta_pp": 0.0,
+    "external_proportion_delta_pp": 0.0,
+    "gene_table": "X028__ALL_changes.csv.gz"
+  }
+]

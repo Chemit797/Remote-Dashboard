@@ -1,0 +1,4 @@
+dataset,source_id,stage,sample,label,mapped_group,n,sample_denominator,proportion,zero_common_total
+PITX2_CONTROL_E105_T2_heart_10p5,VED-014,10.5,Ctrl1D,Control untyped,UNMAPPED,3914,3914,1.0,0
+PITX2_CONTROL_E105_T2_heart_10p5,VED-014,10.5,Ctrl2,Control untyped,UNMAPPED,4493,4493,1.0,0
+PITX2_CONTROL_E105_T2_heart_10p5,VED-014,10.5,Ctrl2D,Control untyped,UNMAPPED,4128,4128,1.0,0

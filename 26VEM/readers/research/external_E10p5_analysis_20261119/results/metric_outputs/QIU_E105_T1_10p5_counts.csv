@@ -1,0 +1,5 @@
+dataset,source_id,stage,sample,label,mapped_group,n,sample_denominator,proportion,zero_common_total
+QIU_E105_T1_10p5,VED-007,10.5,embryo_34,Atrial cardiomyocytes,cardiomyocyte,2,718,0.002785515320334262,0
+QIU_E105_T1_10p5,VED-007,10.5,embryo_34,Endocardial cells,endocardium,414,718,0.5766016713091922,0
+QIU_E105_T1_10p5,VED-007,10.5,embryo_34,First heart field,UNMAPPED,262,718,0.3649025069637883,0
+QIU_E105_T1_10p5,VED-007,10.5,embryo_34,Second heart field,UNMAPPED,40,718,0.055710306406685235,0

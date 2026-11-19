@@ -1,0 +1,110 @@
+{
+  "OFF_T1_E9.5_RNA": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/OFF_T1_E9.5_RNA",
+    "files": {
+      "mass.npz": "48fa87a48e8413df1bac51813cfeda5818682d74afb6e97727f332db381bd747",
+      "info.json": "c53b2e67b82596a3f6833e45ac3f57d5baf4dfa06275bbc9550862cfc9098fe6",
+      "obs.csv": "03924e95be0760c3b8e9fefd7363ef69c82ac8a6f8e68fae20be5abef85cf2df"
+    },
+    "sample_note": null
+  },
+  "OFF_T1_E10.5_RNA": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/OFF_T1_E10.5_RNA",
+    "files": {
+      "mass.npz": "7d39230a5dc5f68524e64fa136f1d592f69a7be2a4e1c684acc007424f351a02",
+      "info.json": "d6bcb8a7d9fb3a803c9f0a6fd4a28c32f91a91e2845d563158cf448b94d474b2",
+      "obs.csv": "7e1a742f1130aa10d55b7a6dbfd75e6f7d2c6092370b89ba2db19cb76c1f5b3a"
+    },
+    "sample_note": null
+  },
+  "FENG193346_CD1": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/FENG193346_CD1",
+    "files": {
+      "mass.npz": "26401a99d6d0a9bcf6219094183dc8cd172295cb399dce7f0298c57c9911c14a",
+      "info.json": "c953d0c5d4cc89e29d5e20702797c08f3ee2f098d41ee1c66080f4c0dad1112b",
+      "obs.csv": "e9c951ca6c5f4f371e0463b0a9e5fc8409a54caa4666f617561a67e6bd05a9c9"
+    },
+    "sample_note": "sample为作者文库；心腔另列，不作为独立胚胎；E9.5与E10.5使用一致分组定义"
+  },
+  "FENG_CD1_E105": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/cache/FENG_CD1_E105",
+    "files": {
+      "mass.npz": "0040f5d1c94b6c20a93f8c3ceed4a67e7a2a563c01f4882f9b85df94a2224a44",
+      "info.json": "9b9a32f5ddbebe3d66a1158f7550ef6ff587b3e0a81aeaeb05030d3b6f69a055",
+      "obs.csv": "0623bda3c1a8816063c396c270800af5ea03b5ac7514c1b67fba0992b79ac3c5"
+    },
+    "sample_note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开"
+  },
+  "OFF_T2_heart_E9.5": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/OFF_T2_heart_E9.5",
+    "files": {
+      "mass.npz": "b2e3ecb4711bdac264dbac476392481acca84e5278bc40b3c52dd644ca9c43d7",
+      "info.json": "b5ad631b23d98fa3b5f78615ec498c81050d9809136f4a56946fe8e4de9c8135",
+      "obs.csv": "2f13c61e54b981e86233bb375a9c59919c948a77ce3e949c6864f958b290ca55"
+    },
+    "sample_note": null
+  },
+  "OFF_T2_heart_E10.5": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/OFF_T2_heart_E10.5",
+    "files": {
+      "mass.npz": "fa7315dda1c1dec6131648720c5b928ec6b8588d6e292858efa9dbe5665f7898",
+      "info.json": "86d08c0c22a1a97ec952152a73f0f0759956244c63668c61ab743ad3fe16032c",
+      "obs.csv": "0c7cc6e66bfd6a2de652fa08df593ecfd61ad6ce2124acc5269b6b5ee9f8e5bd"
+    },
+    "sample_note": null
+  },
+  "OSR1_E95": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_pairwise_similarity_v3_20261116/run01/cache/OSR1_E95",
+    "files": {
+      "mass.npz": "80fe310e92b9c28d0186969de72ab408a2e285c8d8049871ea28e572948691a4",
+      "info.json": "46d91d388a81eb3bfc561ea6721afb472fb9ad54e8e957902ebdd5552d2d828b",
+      "obs.csv": "342b2ba9202bedc4f93c41788e2c83e47be0a2900f03cfcd47de9ca6afda9257"
+    },
+    "sample_note": "Osr1阳性SHF富集；仅533个对象，无更细类型"
+  },
+  "OSR1_E105": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/cache/OSR1_E105",
+    "files": {
+      "mass.npz": "00b8c319ab9c915e5940b067b0987a3664ea50b6c8eb2b4f5e271441f36f4b28",
+      "info.json": "24ac93aeeef853e23bc3de0c6f1063cabca35b969734817af8369780d0af67d9",
+      "obs.csv": "4dbeea9f6453954ce136b8aec92f68c2fcb7d523f77bcf9f8eb1c1a5b5899cba"
+    },
+    "sample_note": "单份Osr1阳性富集；非完整心脏；未细分类型"
+  },
+  "QIU228590": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_prior_knowledge_v2_20261116/run01/cache/QIU228590",
+    "files": {
+      "mass.npz": "61c1a4b401f5ba5d6e9e312025b085cef86cc3deb04a0ead30c1b2dce61e1153",
+      "info.json": "8a4890db0c9a9ebba582fd54fdd954ddff763b3ad68e0b136f859ccb752dfd93",
+      "obs.csv": "b02011032c9bc2cdabfbe13515163900a026ea56c995bf64b32ab6568985803d"
+    },
+    "sample_note": null
+  },
+  "QIU_E105": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/cache/QIU_E105",
+    "files": {
+      "mass.npz": "53eaed8098004915fbd44dfd180be60db7feaf2741e337e9c81973349b72da1c",
+      "info.json": "02e4ff38a1ba58d5c1583448bc3e850cf29c2c906363f6c38ddac638368fd96a",
+      "obs.csv": "f263d7ab98090d9d103abe1cb817cfdfa9e3888182b75bb8e5e8bc8c377cf195"
+    },
+    "sample_note": "作者embryo_id分组；已下载心肌和内皮子集，不代表全胚比例"
+  },
+  "TOME3_E95": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/vem_pairwise_similarity_v3_20261116/run01/cache/TOME3_E95",
+    "files": {
+      "mass.npz": "ee226a7c66e19dc409b802721c9ff1d2e0f4ddaf4ac5468ac2cdbe84eca7e3bc",
+      "info.json": "8488bf013bf1677eb72564308b7c3310db6624c351e31b5ceadeb38bf873195a",
+      "obs.csv": "ffbc95fde87ade23a0cc613e96306aae297f0274ddd3ba49cab2545a8300575f"
+    },
+    "sample_note": "15作者胚胎；计数来自VED-008，注释及QC来自VED-003；两者只算一个数据对象"
+  },
+  "TOME_MOCA_E105": {
+    "path": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/cache/TOME_MOCA_E105",
+    "files": {
+      "mass.npz": "67a91a12fc68166811355c670b1d6b768f7e49327889048004f3d9a136ebed92",
+      "info.json": "4cab3d861320121012befb6fed1e8b8b7e9cfb94fd6214a28f13ff718afcdd93",
+      "obs.csv": "0adb38d6eb7a8568261e6f14c05dd3e9ba0b7d20a2bfdfb11a01fb42a44c655c"
+    },
+    "sample_note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列"
+  }
+}

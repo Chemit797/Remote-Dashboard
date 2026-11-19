@@ -1,0 +1,182 @@
+[
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "BUBR1_WT_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "DBIT_E105_R1_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "DBIT_E105_R2_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "FENG_C57BL6_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "FENG_CD1_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "HEART230531_E105_R1_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "HEART230531_E105_R2_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "OFT_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "OSR1_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "PITX2_CONTROL_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "QIU_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "SLIDESEQ_E105_R1_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "SLIDESEQ_E105_R2_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "TOME_MOCA_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T1_E10.5_RNA_10p5",
+    "external": "VISIUM_E105_T1_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "BUBR1_WT_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "DBIT_E105_R1_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "DBIT_E105_R2_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "FENG_C57BL6_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "FENG_CD1_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "HEART230531_E105_R1_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "HEART230531_E105_R2_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "OFT_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "OSR1_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "PITX2_CONTROL_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "QIU_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "SLIDESEQ_E105_R1_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "SLIDESEQ_E105_R2_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "TOME_MOCA_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  },
+  {
+    "official": "OFF_T2_heart_E10.5_10p5",
+    "external": "VISIUM_E105_T2_heart_10p5",
+    "status": "exact_stage",
+    "stage_gap": 0
+  }
+]

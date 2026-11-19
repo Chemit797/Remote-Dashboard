@@ -1,0 +1,54 @@
+{
+  "source": "VED-031",
+  "matrix_sha256": "75f46efc8f4cfcc0f1a26e51bb4769bd625385eb1d6b0b5a5b2b88726e24d952",
+  "symbol_table_sha256": "13003c4d21b1a3a2be47ef43c2037d34d18b3480d9da3f3c8618c6913ae4b0d5",
+  "symbol_match": "unambiguous Ensembl base ID mapped from source annotation; duplicate output symbols excluded",
+  "records": [
+    {
+      "official": "OFF_T1_E10.5_RNA",
+      "external_ids": [
+        "VED-031"
+      ],
+      "stage": "E10.5",
+      "common_genes": 20994,
+      "n_replicates": 3,
+      "replicate_ids": [
+        "E10.5_rep1",
+        "E10.5_rep2",
+        "E10.5_rep3"
+      ],
+      "aggregation": "先在共同基因内各自归一化到10000；官方取细胞均值，bulk取3个重复均值；最后log1p。没有按细胞计算检出或分布距离。",
+      "spearman": 0.91348267124863,
+      "pearson": 0.8330019318137708,
+      "per_replicate_spearman": [
+        0.9099058104147196,
+        0.9093790589985026,
+        0.9092167688186578
+      ],
+      "gene_table": "OFF_T1_E10.5_RNA__BULK_E105_genes.csv.gz"
+    },
+    {
+      "official": "OFF_T2_heart_E10.5",
+      "external_ids": [
+        "VED-031"
+      ],
+      "stage": "E10.5",
+      "common_genes": 493,
+      "n_replicates": 3,
+      "replicate_ids": [
+        "E10.5_rep1",
+        "E10.5_rep2",
+        "E10.5_rep3"
+      ],
+      "aggregation": "先在共同基因内各自归一化到10000；官方取细胞均值，bulk取3个重复均值；最后log1p。没有按细胞计算检出或分布距离。",
+      "spearman": 0.4484451808319151,
+      "pearson": 0.47169311785843016,
+      "per_replicate_spearman": [
+        0.44993750209276023,
+        0.4446297576109618,
+        0.4446926612669873
+      ],
+      "gene_table": "OFF_T2_heart_E10.5__BULK_E105_genes.csv.gz"
+    }
+  ]
+}

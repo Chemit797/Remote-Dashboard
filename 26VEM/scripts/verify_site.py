@@ -43,8 +43,10 @@ check('236_candidate_gene_union',len({x['gene'] for x in neighbours if x['hit']}
 for cut,expected in [(.005,282),(.01,236),(.02,162),(.05,71)]:
     check('threshold_union_'+str(cut),len({x['gene'] for x in neighbours if x['eligible'] and x['delta']>cut and x['shuffle_delta']>cut})==expected)
 vc=D['validation_completion']
-check('82_original_plus_53_added_pairwise_rows',len(D['pairs'])==vc['original_comparison_rows']+vc['added_comparison_rows']==135)
-check('369_original_metric_rows_preserved',len(D['metrics'])==vc['original_metric_rows']==369 and vc['added_metric_rows']==0)
+ex=D.get('external_e105') or {};added_pairs=ex.get('new_pair_rows',0);added_metrics=ex.get('new_metric_rows',0)
+check('135_original_plus_E105_pairwise_rows',len(D['pairs'])==vc['original_comparison_rows']+vc['added_comparison_rows']+added_pairs)
+check('369_original_plus_E105_metric_rows',len(D['metrics'])==vc['original_metric_rows']+added_metrics and vc['original_metric_rows']==369 and vc['added_metric_rows']==0)
+check('30_E105_pairs_in_new_namespace',len({x['pair'] for x in D['pairs'] if x['pair'].startswith('X')})==ex.get('new_pairs',0))
 check('16_background_pairs_in_new_namespace',len({x['pair'] for x in D['pairs'] if x['pair'].startswith('V')})==16)
 check('validation_pair_dynamic_downloads_present',all((SITE/'readers/research/vem_pairwise_similarity_v3/results'/(pid+suffix)).is_file() for pid in {x['pair'] for x in D['pairs'] if x['pair'].startswith('V')} for suffix in ['_panel.json','_result.json','_genes.csv.gz']))
 check('validation_review_90_topic_file_rows',sum(len(x['validation_review']) for x in D['analyses'])==90)
@@ -73,7 +75,7 @@ for val in {x['type'] for x in neighbours}:
     check('filter_type_'+val,repr(val) in script)
 manifest={'built_at':D['built_at'],'checks':checks,'check_count':len(checks),'all_passed':all(checks.values()),
     'browser_checks':'See delivery receipt for desktop/mobile screenshots and interactive verification; not performed by this script.',
-    'counts':{'analyses':15,'knowledge':108,'sources':43,'genes':500,'neighbour_rows':9500,'pairs':135,'metrics':369,'validation_background_pairs':16},
+    'counts':{'analyses':15,'knowledge':108,'sources':43,'genes':500,'neighbour_rows':9500,'pairs':len(D['pairs']),'metrics':len(D['metrics']),'validation_background_pairs':16,'same_stage_E105_pairs':ex.get('new_pairs',0)},
     'files':[{'path':p.relative_to(SITE).as_posix(),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(SITE.rglob('*')) if p.is_file() and p.name!='VERIFICATION.json' and '__pycache__' not in p.parts]}
 (SITE/'VERIFICATION.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({'checks':len(checks),'all_passed':all(checks.values()),'files':len(manifest['files'])},ensure_ascii=False))

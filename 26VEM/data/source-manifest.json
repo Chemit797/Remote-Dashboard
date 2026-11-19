@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-18T18:50:29.781461+00:00",
+  "built_at": "2026-11-19T03:27:28.168868+00:00",
   "scope": "Selected reports, aggregate statistics and metadata only. No H5AD, model weights, credentials or submission payloads.",
   "files": [
     {
@@ -48,14 +48,24 @@
       "sha256": "c90c70a59a46541a5ec34047ad8056ded87dae42824ad870fe28f4b9e67e597c"
     },
     {
-      "path": "research/validation_completion_20261119/overlays/research/vem_pairwise_similarity_v3/results/all_comparisons.csv",
-      "bytes": 130715,
-      "sha256": "8d990ddb52f5dbb89a970609b1e509101b4d079969b96a213f838e5f1fba5e3d"
+      "path": "research/external_E10p5_analysis_20261119/overlays/research/vem_pairwise_similarity_v3/results/all_comparisons.csv",
+      "bytes": 189737,
+      "sha256": "67661bf4dfdeef942136642baf67757bfc011364dffd289076019aa5106c97ec"
     },
     {
       "path": "research/vem_official_metric_source_audit/results/outputs/metrics.csv",
       "bytes": 150776,
       "sha256": "b8e9c70fa1af93def632024baf0a53a6a88ee1ab6ffa273a88fbc202cc20fb76"
+    },
+    {
+      "path": "research/external_E10p5_analysis_20261119/results/metric_outputs/metrics.csv",
+      "bytes": 91717,
+      "sha256": "22e3334e54c23218b982eaa012fd62af130a6b69efdecadfdec4b90d388e53ef"
+    },
+    {
+      "path": "research/external_E10p5_analysis_20261119/WEB_SUMMARY.json",
+      "bytes": 237,
+      "sha256": "131f84b36947820487888d45b2d2783327f18097251bf4e1bee93ddc73aeae95"
     },
     {
       "path": "reports/analysis_integration_20261118/hub/catalogs/analyses.json",

@@ -1,0 +1,2 @@
+dataset,source_id,stage,sample,label,mapped_group,n,sample_denominator,proportion,zero_common_total
+VISIUM_E105_T2_heart_10p5,VED-030,10.5,heart_section,untyped spot,UNMAPPED,332,332,1.0,0

@@ -1,0 +1,26 @@
+[
+  {
+    "record": "OFF_T1_E10.5_RNA_10p5__BUBR1_WT_E105_T1_10p5",
+    "MMD_abs_error": 0.0,
+    "CSS_abs_error": 0.0,
+    "DES_abs_error": 0.0,
+    "DES_audit_fields_equal": true,
+    "DCS_residual_abs_error": 2.220446049250313e-16,
+    "mean_direct_vs_sum_error": 0.0,
+    "detection_count_independent_equal": true,
+    "task": "T1",
+    "has_reference": true
+  },
+  {
+    "record": "OFF_T2_heart_E10.5_10p5__BUBR1_WT_E105_T2_heart_10p5",
+    "MMD_abs_error": 0.0,
+    "CSS_abs_error": 0.0,
+    "DES_abs_error": 0.0,
+    "DES_audit_fields_equal": true,
+    "DCS_residual_abs_error": 1.1102230246251565e-16,
+    "mean_direct_vs_sum_error": 0.0,
+    "detection_count_independent_equal": true,
+    "task": "T2_heart",
+    "has_reference": true
+  }
+]

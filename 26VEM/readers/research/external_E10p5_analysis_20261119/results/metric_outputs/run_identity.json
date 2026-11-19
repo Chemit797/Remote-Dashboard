@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "cap": 1000,
+  "source_code_sha": "167e6712445427cc01db526ef40dea56c82d15db0d2565ef71097fddaef8c359",
+  "public_core_sha": "3be7099a0c9a7ad5b609f86078871ed8290ed0bd8916b0cb3e14fb9831909f31",
+  "public_shape_sha": "bd80ef2705f9be93fe1538e77445d4eb217d4b955c6cd38c69b26b0671be91c0",
+  "protocol_sha": "5c4cb32d0c85c529344999a405cf53a488e1905143e6b9914a305965041c916b",
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "sklearn": "1.7.2",
+  "threads": {
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2"
+  }
+}

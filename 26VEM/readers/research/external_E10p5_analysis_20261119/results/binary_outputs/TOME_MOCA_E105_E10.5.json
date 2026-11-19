@@ -1,0 +1,158 @@
+{
+  "id": "TOME_MOCA_E105_E10.5",
+  "row_id": "TOME_MOCA_E105",
+  "external_dataset": "TOME_MOCA_E105",
+  "external_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱 ＋ VED-008 · MOCA 全胚胎器官发生图谱",
+  "external_ids": [
+    "VED-003",
+    "VED-008"
+  ],
+  "official_dataset": "OFF_T1_E10.5_RNA",
+  "official_stage": "E10.5",
+  "external_stage": "E10.5",
+  "same_stage": true,
+  "note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列",
+  "kind": "same_stage",
+  "common_genes": 20998,
+  "official_genes": 32285,
+  "external_genes": 26133,
+  "official_coverage": 0.6503949202415983,
+  "external_coverage": 0.8035051467493208,
+  "official_n": 24979,
+  "external_n": 267994,
+  "official_unit": "nucleus",
+  "external_unit": "nucleus",
+  "official_samples": [
+    {
+      "sample": "OFF_T1_E10.5_RNA",
+      "n": 24979
+    }
+  ],
+  "external_samples": [
+    {
+      "sample": "embryo_24",
+      "n": 28088
+    },
+    {
+      "sample": "embryo_25",
+      "n": 15915
+    },
+    {
+      "sample": "embryo_26",
+      "n": 24118
+    },
+    {
+      "sample": "embryo_4",
+      "n": 12340
+    },
+    {
+      "sample": "embryo_43",
+      "n": 20355
+    },
+    {
+      "sample": "embryo_44",
+      "n": 26548
+    },
+    {
+      "sample": "embryo_46",
+      "n": 29423
+    },
+    {
+      "sample": "embryo_5",
+      "n": 22339
+    },
+    {
+      "sample": "embryo_59",
+      "n": 25762
+    },
+    {
+      "sample": "embryo_6",
+      "n": 27058
+    },
+    {
+      "sample": "embryo_60",
+      "n": 36048
+    }
+  ],
+  "j01": 0.21591391032292587,
+  "b01": 0.8926137803070007,
+  "detection_mean_abs_pp": 10.738621969299928,
+  "detection_spearman": 0.8672890652061761,
+  "official_zero_fraction": 0.8638534929203373,
+  "external_zero_fraction": 0.9696183668400014,
+  "official_zero_rows": 0,
+  "external_zero_rows": 0,
+  "both_all_zero_genes": 3,
+  "both_detected_genes": 20678,
+  "official_only_detected_genes": 11,
+  "external_only_detected_genes": 306,
+  "cell_detection_quantiles": {
+    "official": {
+      "p10": 0.06619678064577579,
+      "median": 0.13263167920754357,
+      "p90": 0.21221068673206972
+    },
+    "external": {
+      "p10": 0.01600152395466235,
+      "median": 0.027526431088675113,
+      "p90": 0.04919516144394704
+    }
+  },
+  "cell_detection_wasserstein_pp": 10.57648739197012,
+  "shuffled_j01_median": 0.09731044078047527,
+  "shuffled_j01_all": [
+    0.09732679654794969,
+    0.09697413598278971,
+    0.0983954503943998,
+    0.09661941421989452,
+    0.09720663088037108,
+    0.09635001365931897,
+    0.09619071591651104,
+    0.10142588387129244,
+    0.09972780542247271,
+    0.09729408501300083,
+    0.09808562166553246,
+    0.09709245538951085,
+    0.0988990181808459,
+    0.09726200277582052,
+    0.09700172615274558,
+    0.09762740502265818,
+    0.09586495982018228,
+    0.09769911209927339,
+    0.0996747224954428,
+    0.10054799565114116
+  ],
+  "binary_pattern": {
+    "n_draw": 256,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "runs": [
+      {
+        "seed": 0,
+        "cross": 0.16425359055059877,
+        "within_official": 0.005697427545129696,
+        "within_external": 0.007214852568082519
+      },
+      {
+        "seed": 1,
+        "cross": 0.17390905332506265,
+        "within_official": 0.005591346915190143,
+        "within_external": 0.007209234842143808
+      },
+      {
+        "seed": 2,
+        "cross": 0.1729891301260717,
+        "within_official": 0.0061518173242046115,
+        "within_external": 0.007231404743732739
+      }
+    ],
+    "cross_mean": 0.17038392466724436,
+    "cross_min": 0.16425359055059877,
+    "cross_max": 0.17390905332506265,
+    "within_official_mean": 0.005813530594841483,
+    "within_external_mean": 0.007218497384653022
+  }
+}

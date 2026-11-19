@@ -1,0 +1,308 @@
+[
+  {
+    "task": "T1",
+    "dataset": "OFF_T1_E10.5_RNA_10p5",
+    "source_id": "OFFICIAL",
+    "native_genes": 32285,
+    "common_genes": 10901,
+    "retained_fraction": 0.3376490630323679,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "BUBR1_WT_E105_T1_10p5",
+    "source_id": "VED-015",
+    "native_genes": 32207,
+    "common_genes": 10901,
+    "retained_fraction": 0.3384667929332133,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "DBIT_E105_R1_T1_10p5",
+    "source_id": "VED-033",
+    "native_genes": 15633,
+    "common_genes": 10901,
+    "retained_fraction": 0.6973069788268407,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "DBIT_E105_R2_T1_10p5",
+    "source_id": "VED-033",
+    "native_genes": 15880,
+    "common_genes": 10901,
+    "retained_fraction": 0.6864609571788413,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "FENG_C57BL6_E105_T1_10p5",
+    "source_id": "VED-012",
+    "native_genes": 30976,
+    "common_genes": 10901,
+    "retained_fraction": 0.3519176136363636,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "FENG_CD1_E105_T1_10p5",
+    "source_id": "VED-012",
+    "native_genes": 30976,
+    "common_genes": 10901,
+    "retained_fraction": 0.3519176136363636,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "HEART230531_E105_R1_T1_10p5",
+    "source_id": "VED-010",
+    "native_genes": 27877,
+    "common_genes": 10901,
+    "retained_fraction": 0.3910392079492054,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "HEART230531_E105_R2_T1_10p5",
+    "source_id": "VED-010",
+    "native_genes": 27877,
+    "common_genes": 10901,
+    "retained_fraction": 0.3910392079492054,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "OFT_E105_T1_10p5",
+    "source_id": "VED-016",
+    "native_genes": 32489,
+    "common_genes": 10901,
+    "retained_fraction": 0.3355289482594109,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "OSR1_E105_T1_10p5",
+    "source_id": "VED-019",
+    "native_genes": 17348,
+    "common_genes": 10901,
+    "retained_fraction": 0.6283721466451464,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "PITX2_CONTROL_E105_T1_10p5",
+    "source_id": "VED-014",
+    "native_genes": 19573,
+    "common_genes": 10901,
+    "retained_fraction": 0.5569406835947479,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "QIU_E105_T1_10p5",
+    "source_id": "VED-007",
+    "native_genes": 45451,
+    "common_genes": 10901,
+    "retained_fraction": 0.2398407075751908,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "SLIDESEQ_E105_R1_T1_10p5",
+    "source_id": "VED-029",
+    "native_genes": 16682,
+    "common_genes": 10901,
+    "retained_fraction": 0.6534588178875435,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "SLIDESEQ_E105_R2_T1_10p5",
+    "source_id": "VED-029",
+    "native_genes": 16682,
+    "common_genes": 10901,
+    "retained_fraction": 0.6534588178875435,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "TOME_MOCA_E105_T1_10p5",
+    "source_id": "VED-003",
+    "native_genes": 26133,
+    "common_genes": 10901,
+    "retained_fraction": 0.417135422645697,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "VISIUM_E105_T1_10p5",
+    "source_id": "VED-030",
+    "native_genes": 32207,
+    "common_genes": 10901,
+    "retained_fraction": 0.3384667929332133,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T1",
+    "dataset": "OFF_T1_E9.5_RNA_9p5",
+    "source_id": "OFFICIAL",
+    "native_genes": 32285,
+    "common_genes": 10901,
+    "retained_fraction": 0.3376490630323679,
+    "common_gene_sha": "ed109dc2e6d274390a9c4dd9a95e645212f2bd8285e3b50b9a671cf4411ba6ab"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "OFF_T2_heart_E10.5_10p5",
+    "source_id": "OFFICIAL",
+    "native_genes": 500,
+    "common_genes": 322,
+    "retained_fraction": 0.644,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "BUBR1_WT_E105_T2_heart_10p5",
+    "source_id": "VED-015",
+    "native_genes": 32207,
+    "common_genes": 322,
+    "retained_fraction": 0.0099978265594435,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "DBIT_E105_R1_T2_heart_10p5",
+    "source_id": "VED-033",
+    "native_genes": 15633,
+    "common_genes": 322,
+    "retained_fraction": 0.020597454103499,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "DBIT_E105_R2_T2_heart_10p5",
+    "source_id": "VED-033",
+    "native_genes": 15880,
+    "common_genes": 322,
+    "retained_fraction": 0.0202770780856423,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "FENG_C57BL6_E105_T2_heart_10p5",
+    "source_id": "VED-012",
+    "native_genes": 30976,
+    "common_genes": 322,
+    "retained_fraction": 0.0103951446280991,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "FENG_CD1_E105_T2_heart_10p5",
+    "source_id": "VED-012",
+    "native_genes": 30976,
+    "common_genes": 322,
+    "retained_fraction": 0.0103951446280991,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "HEART230531_E105_R1_T2_heart_10p5",
+    "source_id": "VED-010",
+    "native_genes": 27877,
+    "common_genes": 322,
+    "retained_fraction": 0.0115507407540266,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "HEART230531_E105_R2_T2_heart_10p5",
+    "source_id": "VED-010",
+    "native_genes": 27877,
+    "common_genes": 322,
+    "retained_fraction": 0.0115507407540266,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "OFT_E105_T2_heart_10p5",
+    "source_id": "VED-016",
+    "native_genes": 32489,
+    "common_genes": 322,
+    "retained_fraction": 0.0099110468158453,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "OSR1_E105_T2_heart_10p5",
+    "source_id": "VED-019",
+    "native_genes": 17348,
+    "common_genes": 322,
+    "retained_fraction": 0.0185612174314041,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "PITX2_CONTROL_E105_T2_heart_10p5",
+    "source_id": "VED-014",
+    "native_genes": 19573,
+    "common_genes": 322,
+    "retained_fraction": 0.0164512338425381,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "QIU_E105_T2_heart_10p5",
+    "source_id": "VED-007",
+    "native_genes": 45451,
+    "common_genes": 322,
+    "retained_fraction": 0.0070845525951024,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "SLIDESEQ_E105_R1_T2_heart_10p5",
+    "source_id": "VED-029",
+    "native_genes": 16682,
+    "common_genes": 322,
+    "retained_fraction": 0.0193022419374175,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "SLIDESEQ_E105_R2_T2_heart_10p5",
+    "source_id": "VED-029",
+    "native_genes": 16682,
+    "common_genes": 322,
+    "retained_fraction": 0.0193022419374175,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "TOME_MOCA_E105_T2_heart_10p5",
+    "source_id": "VED-003",
+    "native_genes": 26133,
+    "common_genes": 322,
+    "retained_fraction": 0.0123215857345119,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "VISIUM_E105_T2_heart_10p5",
+    "source_id": "VED-030",
+    "native_genes": 32207,
+    "common_genes": 322,
+    "retained_fraction": 0.0099978265594435,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  },
+  {
+    "task": "T2_heart",
+    "dataset": "OFF_T2_heart_E9.5_9p5",
+    "source_id": "OFFICIAL",
+    "native_genes": 500,
+    "common_genes": 322,
+    "retained_fraction": 0.644,
+    "common_gene_sha": "e0d4ee560f76732c66b7c1e36a6718dc90f2b0d9b9517650dd51ce7df76f0ffa"
+  }
+]

@@ -1,0 +1,754 @@
+[
+  {
+    "key": "OFF_T1_E9.5_RNA_9p5",
+    "source_id": "OFFICIAL",
+    "task": "T1",
+    "stage": 9.5,
+    "n": 17057,
+    "n_samples": 1,
+    "sample_ids": [
+      "OFF_T1_E9.5_RNA"
+    ],
+    "unit": "nucleus",
+    "scope": "official collection scope; stage dependent",
+    "files": {
+      "mass.npz": "48fa87a48e8413df1bac51813cfeda5818682d74afb6e97727f332db381bd747",
+      "native.npz": "4db7adacdd979150784da7e316b2130e80f65216947226e67508154685b9df5e",
+      "obs.csv": "33db273e552d32adee2e49fcbfeafe01bdefda4655fe1da13825bb2ef446f55a"
+    },
+    "input_info_sha256": "a2710c835284f05d91f6efdee980be8e39fceadbe89ad2714cdcda28b983f6c7",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/OFF_T1_E9.5_RNA_9p5/info.json",
+    "sample_note": null
+  },
+  {
+    "key": "OFF_T1_E10.5_RNA_10p5",
+    "source_id": "OFFICIAL",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 24979,
+    "n_samples": 1,
+    "sample_ids": [
+      "OFF_T1_E10.5_RNA"
+    ],
+    "unit": "nucleus",
+    "scope": "official collection scope; stage dependent",
+    "files": {
+      "mass.npz": "7d39230a5dc5f68524e64fa136f1d592f69a7be2a4e1c684acc007424f351a02",
+      "native.npz": "2e4c5307d36ee430f404f372662fff62a1e10cdbb754e9078c9c7ba045a508b6",
+      "obs.csv": "0b7de22fbbb7a88e995de911f5b9a109ed7defdbd491a5b3bf6a32c1a01df144"
+    },
+    "input_info_sha256": "5755141f8c8cdfd385da87d97e1a17e43d651e795784f48a7a61e7f13d0a6c20",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/OFF_T1_E10.5_RNA_10p5/info.json",
+    "sample_note": null
+  },
+  {
+    "key": "BUBR1_WT_E105_T1_10p5",
+    "source_id": "VED-015",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 13723,
+    "n_samples": 1,
+    "sample_ids": [
+      "WT_four_hearts_pool"
+    ],
+    "unit": "cell",
+    "scope": "pooled control heart, supplied WT Cre+",
+    "files": {
+      "mass.npz": "c88c0a52db8c2d5e3d82445c568dd71f0739fe33c88303abfa792d73d5f16b19",
+      "native.npz": "ad22912d6806420f055b0d967023a6876bc27c100a33e3e06b5e9a6228076d57",
+      "obs.csv": "9f82cf3c6b57cf90b519f7d395e6ae161d5b8d432490bbdf06f627b172e303d6"
+    },
+    "input_info_sha256": "cfbbe797408008a66dc47155965aab7d0612fbfb172c7bbf4e657eac3d2fa6e2",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/BUBR1_WT_E105_T1_10p5/info.json",
+    "sample_note": "4心脏池化只作一个样本；原始barcode经knee+基因数+线粒体QC"
+  },
+  {
+    "key": "DBIT_E105_R1_T1_10p5",
+    "source_id": "VED-033",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 2306,
+    "n_samples": 1,
+    "sample_ids": [
+      "FFPE_1"
+    ],
+    "unit": "pixel",
+    "scope": "25um embryonic section",
+    "files": {
+      "mass.npz": "deb96aecc54022428995a2746c766a754a971b6fea8e05a60138fc5265f865f3",
+      "native.npz": "71d859096bb29a5bf8d0fdc92dfc9e3eba9fb6eb4a92ff6b3b1a970b2ec3502f",
+      "obs.csv": "a423ed89afcfde48bd61bfb41d1009fbdc55e19b816ced12cc83df7edc503b63"
+    },
+    "input_info_sha256": "d9b83c6f7c875614920dabd165a1f2c3311ce85f35c9c7cbede92976610e90c9",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/DBIT_E105_R1_T1_10p5/info.json",
+    "sample_note": "E10.5 FFPE胚胎切片；重复分开；每行是像素"
+  },
+  {
+    "key": "DBIT_E105_R2_T1_10p5",
+    "source_id": "VED-033",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 2130,
+    "n_samples": 1,
+    "sample_ids": [
+      "FFPE_2"
+    ],
+    "unit": "pixel",
+    "scope": "25um embryonic section",
+    "files": {
+      "mass.npz": "3259eb240e7d137d2acceda4fca9a3d6bcd261bb5bec377ca845eb1b4607b238",
+      "native.npz": "db1c65df59de49b4ebae864fc6afc6ecff16fac6da511d7c53860fc2232af4ab",
+      "obs.csv": "ba22d8215d6e4ea911242611a57243534ce990c9c42c3f51dab582851d50598e"
+    },
+    "input_info_sha256": "8207812b5d1dbad686812b8e36b112afe0f075dd3eb56583af1e0a03683e23a5",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/DBIT_E105_R2_T1_10p5/info.json",
+    "sample_note": "E10.5 FFPE胚胎切片；重复分开；每行是像素"
+  },
+  {
+    "key": "FENG_C57BL6_E105_T1_10p5",
+    "source_id": "VED-012",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 587,
+    "n_samples": 4,
+    "sample_ids": [
+      "C57BL6_B6L1",
+      "C57BL6_B6L2",
+      "C57BL6_B6L3",
+      "C57BL6_B6L4"
+    ],
+    "unit": "cell",
+    "scope": "separately dissected cardiac chambers; C57BL6",
+    "files": {
+      "mass.npz": "b169d868937800a3970bb3fcb97383c6290a4a3c757da78fedd97a6b36db887b",
+      "native.npz": "421db876ca13bd2404c68905cf6efd2d4951c583d5ab7e0de9440d8b1f75a0ed",
+      "obs.csv": "655333815e94d7e159ae08b076adb801d7daefb1239f796e2dd1579f8ee15dfe"
+    },
+    "input_info_sha256": "554cc03a5daf4bb5706be9b9b1dbed423da3e45822ec96671a74190e376b364b",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/FENG_C57BL6_E105_T1_10p5/info.json",
+    "sample_note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开"
+  },
+  {
+    "key": "FENG_CD1_E105_T1_10p5",
+    "source_id": "VED-012",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 841,
+    "n_samples": 5,
+    "sample_ids": [
+      "CD1_a10k",
+      "CD1_a25k",
+      "CD1_a5k1",
+      "CD1_a5k2",
+      "CD1_a5k3"
+    ],
+    "unit": "cell",
+    "scope": "separately dissected cardiac chambers; CD1",
+    "files": {
+      "mass.npz": "0040f5d1c94b6c20a93f8c3ceed4a67e7a2a563c01f4882f9b85df94a2224a44",
+      "native.npz": "9da653a54e8e4a8d58341e64046d7f1c173b50aece69a9a9ac31634bb3df4c01",
+      "obs.csv": "3d8949778e6ee6d170c370ade9565d271e38c4facf6682996634c441111a8b90"
+    },
+    "input_info_sha256": "4254575132efc7cb377fca7cadd68d6499dfde341d04b728e43ff16aa5789aa8",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/FENG_CD1_E105_T1_10p5/info.json",
+    "sample_note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开"
+  },
+  {
+    "key": "HEART230531_E105_R1_T1_10p5",
+    "source_id": "VED-010",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 21570,
+    "n_samples": 1,
+    "sample_ids": [
+      "E105_1"
+    ],
+    "unit": "cell",
+    "scope": "embryo/heart source sample",
+    "files": {
+      "mass.npz": "0a0f9cd256ac573ce9252ec9497a72acceba4276db62f6a33c7682a7da3701af",
+      "native.npz": "e33d208a9f8517ead9484e682ce2b89b8570ade912376a6504d2167279f73251",
+      "obs.csv": "dbcd413fef58a6c11413531ba14773f1049cd5c0b06afc69652da529c771703f"
+    },
+    "input_info_sha256": "022b348ca7f17631020db6edfa665f80f1c30a0a8e9c058c3ab8e22fc9d56aba",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/HEART230531_E105_R1_T1_10p5/info.json",
+    "sample_note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型"
+  },
+  {
+    "key": "HEART230531_E105_R2_T1_10p5",
+    "source_id": "VED-010",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 21093,
+    "n_samples": 1,
+    "sample_ids": [
+      "E105_2"
+    ],
+    "unit": "cell",
+    "scope": "embryo/heart source sample",
+    "files": {
+      "mass.npz": "aae583c32af6677399f05c72ae668b49dac1325072cc55765f3475263d645e20",
+      "native.npz": "bf03eeed065f9f397f806e3a37dd985cab7eba1ad897fd9b3e3b583338682d61",
+      "obs.csv": "23d7b4bdd312008f36f472264b0afddc5d1b68f6617a0d1bf44f601356f91f6b"
+    },
+    "input_info_sha256": "895731e772fceeb9d8c2884e3b4eb79bbe3a734129544d9b5b0254e8e26bf041",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/HEART230531_E105_R2_T1_10p5/info.json",
+    "sample_note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型"
+  },
+  {
+    "key": "OFT_E105_T1_10p5",
+    "source_id": "VED-016",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 11480,
+    "n_samples": 1,
+    "sample_ids": [
+      "OFT_E105"
+    ],
+    "unit": "cell",
+    "scope": "wildtype outflow tract",
+    "files": {
+      "mass.npz": "920b1507352ead8159e4fb2ee5db6e777b5fe2f7ac85727708bc460b0d774d68",
+      "native.npz": "b6412df527f5acb79834f9a6b0902ccb93aeeac37f517e07405ab65bc34f2d61",
+      "obs.csv": "8055461fe4c2453498082d3eb4016c6270fb7b50c2b8e7ae9274c979d9486a77"
+    },
+    "input_info_sha256": "a24748fb114553ea7fc359a90a6b7620de80d87dec5d24c6699256c104e93a26",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/OFT_E105_T1_10p5/info.json",
+    "sample_note": "作者EmptyDrops筛选；流出道局部取材，非全心脏"
+  },
+  {
+    "key": "OSR1_E105_T1_10p5",
+    "source_id": "VED-019",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 967,
+    "n_samples": 1,
+    "sample_ids": [
+      "Osr1_E105_pool"
+    ],
+    "unit": "cell",
+    "scope": "Osr1+ second heart field enriched",
+    "files": {
+      "mass.npz": "00b8c319ab9c915e5940b067b0987a3664ea50b6c8eb2b4f5e271441f36f4b28",
+      "native.npz": "f30f4c9d6b52fad3cf10069977e1af98ab0578d7c84a00ee53b7a28379318481",
+      "obs.csv": "cec2bac8b59bafcc10b479087ff76a0f7027b7d19aee5d18b50fb486023e608b"
+    },
+    "input_info_sha256": "cfa2a9667fe98c9195806d2d478ab2fc58196aa761b2a041f7d9116df98054c6",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/OSR1_E105_T1_10p5/info.json",
+    "sample_note": "单份Osr1阳性富集；非完整心脏；未细分类型"
+  },
+  {
+    "key": "PITX2_CONTROL_E105_T1_10p5",
+    "source_id": "VED-014",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 12535,
+    "n_samples": 3,
+    "sample_ids": [
+      "Ctrl1D",
+      "Ctrl2",
+      "Ctrl2D"
+    ],
+    "unit": "cell",
+    "scope": "cardiac Control samples; genotype as supplied",
+    "files": {
+      "mass.npz": "8408e1a1dedd46acaf0bbaf29613d3e3ea79365e2360de57f307f3230889d28e",
+      "native.npz": "b63c12dcffba408988d149f20d4dd6758d9ea7c7a22d7b327b7d0d93812a09ff",
+      "obs.csv": "23dacdd6e430d14221527d73ed4261b9648a2e8f947aa24c1b530f5c60f3b199"
+    },
+    "input_info_sha256": "b1cf376b66857af112117a720fa4fd80e8c4350b6179d9b0f1efef15c7000e94",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/PITX2_CONTROL_E105_T1_10p5/info.json",
+    "sample_note": "仅Control，orig.ident分组；发布矩阵与元数据nUMI总量不一致，按发布非负整数矩阵比较；不推断纯WT"
+  },
+  {
+    "key": "QIU_E105_T1_10p5",
+    "source_id": "VED-007",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 718,
+    "n_samples": 1,
+    "sample_ids": [
+      "embryo_34"
+    ],
+    "unit": "nucleus",
+    "scope": "selected cardiomyocyte and endothelium nuclei from whole embryos",
+    "files": {
+      "mass.npz": "53eaed8098004915fbd44dfd180be60db7feaf2741e337e9c81973349b72da1c",
+      "native.npz": "465e4b57741c21e583274c1d3cc86efc3e6c815a45161b6f156f2c8296751a10",
+      "obs.csv": "2cc32ea421c7fbcd3cf9d3780a5945f27a678aff8666bebe427276a501db07e6"
+    },
+    "input_info_sha256": "430c194fd0da43f4d584c063b1795be28bad8f1a6f35b722366b9923c740512b",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/QIU_E105_T1_10p5/info.json",
+    "sample_note": "作者embryo_id分组；已下载心肌和内皮子集，不代表全胚比例"
+  },
+  {
+    "key": "SLIDESEQ_E105_R1_T1_10p5",
+    "source_id": "VED-029",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 3839,
+    "n_samples": 1,
+    "sample_ids": [
+      "section_1"
+    ],
+    "unit": "bead",
+    "scope": "E10.5 CD1 heart 2D section",
+    "files": {
+      "mass.npz": "bb45e01d99fffe34926ae389be7785973ba330e48d125cd32eda3e99b5ab1370",
+      "native.npz": "5588b07aa8f08f3838a9a64319745c5a7b600b85b5af453f994b7ea6d8d07507",
+      "obs.csv": "f5584ecc0908b276e36b6f7bc68de16086403798937d3b040d78d2f87486cc4c"
+    },
+    "input_info_sha256": "06463881c74212d3fb371eb48d0022f9dd9d07b3a78016a2debf5c26c93d0e29",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/SLIDESEQ_E105_R1_T1_10p5/info.json",
+    "sample_note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照"
+  },
+  {
+    "key": "SLIDESEQ_E105_R2_T1_10p5",
+    "source_id": "VED-029",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 2396,
+    "n_samples": 1,
+    "sample_ids": [
+      "section_2"
+    ],
+    "unit": "bead",
+    "scope": "E10.5 CD1 heart 2D section",
+    "files": {
+      "mass.npz": "c0ea533776b3ba6221efc393d2a5cdf5e4903a4d278d5a2ac4e8008720fca4d1",
+      "native.npz": "704f50692bb1c15cce65f797f3b10c72794118051c61a96dfe8212f183498819",
+      "obs.csv": "f0c99dcfb0f45ed12d270172ca38f0d2d737db058bb85e6a163207338dc854b7"
+    },
+    "input_info_sha256": "4233c8aad60eff57243e31ccef5f20e937faaa38355c5e30f538cc15217d04a8",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/SLIDESEQ_E105_R2_T1_10p5/info.json",
+    "sample_note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照"
+  },
+  {
+    "key": "TOME_MOCA_E105_T1_10p5",
+    "source_id": "VED-003",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 267994,
+    "n_samples": 11,
+    "sample_ids": [
+      "embryo_24",
+      "embryo_25",
+      "embryo_26",
+      "embryo_4",
+      "embryo_43",
+      "embryo_44",
+      "embryo_46",
+      "embryo_5",
+      "embryo_59",
+      "embryo_6",
+      "embryo_60"
+    ],
+    "unit": "nucleus",
+    "scope": "whole embryo nuclei; MOCA counts plus TOME QC/annotations",
+    "files": {
+      "mass.npz": "67a91a12fc68166811355c670b1d6b768f7e49327889048004f3d9a136ebed92",
+      "native.npz": "06613cb3eac3a3121ca5b2d3bef679bcbea7ad93bcc6884847970fa7677463b8",
+      "obs.csv": "8b62e76e995784210516f1147e00dbc52ae439f12d5675ebc1bb6496eb398245"
+    },
+    "input_info_sha256": "3e480bea8c49a43543e57d5524e35f2e0ca897cba31791c6ae5bb85ee1eb3b32",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/TOME_MOCA_E105_T1_10p5/info.json",
+    "sample_note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列"
+  },
+  {
+    "key": "VISIUM_E105_T1_10p5",
+    "source_id": "VED-030",
+    "task": "T1",
+    "stage": 10.5,
+    "n": 332,
+    "n_samples": 1,
+    "sample_ids": [
+      "heart_section"
+    ],
+    "unit": "spot",
+    "scope": "E10.5 heart section",
+    "files": {
+      "mass.npz": "2e988aafe040913b1791370a4c468b4b1bf0215b913a02cdcf0c1db002da5d75",
+      "native.npz": "e8094a2b2c78a96ab81290a8da16a34ca4480d5eb449aba7b8596589b8b9ee29",
+      "obs.csv": "a5d8e8796dfd2488fc8015048dc58655d022c329587a262b7abec20f66f1a53a"
+    },
+    "input_info_sha256": "822db8ae33d162bd81eeb88268a3f321fed23c98ace5a40a0f2e9baef7676ad1",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/VISIUM_E105_T1_10p5/info.json",
+    "sample_note": "332个作者filtered spot；混合多个细胞，不计算细胞类型比例"
+  },
+  {
+    "key": "OFF_T2_heart_E9.5_9p5",
+    "source_id": "OFFICIAL",
+    "task": "T2_heart",
+    "stage": 9.5,
+    "n": 53742,
+    "n_samples": 1,
+    "sample_ids": [
+      "OFF_T2_heart_E9.5"
+    ],
+    "unit": "segmented_cell",
+    "scope": "official collection scope; stage dependent",
+    "files": {
+      "mass.npz": "b2e3ecb4711bdac264dbac476392481acca84e5278bc40b3c52dd644ca9c43d7",
+      "native.npz": "7a73ee821f51bd15696312ad089b0cc79ac10943033e59e6d19cdeb18f1c1b97",
+      "obs.csv": "7eb5448752d55400bd4b668f4b18a8820f51d64d49542754336173af5a203840"
+    },
+    "input_info_sha256": "97b497262580d1cdd1c7ebe0b7946a7e52a6e0a15c6ba4cfe78171c07cf90392",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/OFF_T2_heart_E9.5_9p5/info.json",
+    "sample_note": null
+  },
+  {
+    "key": "OFF_T2_heart_E10.5_10p5",
+    "source_id": "OFFICIAL",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 167864,
+    "n_samples": 1,
+    "sample_ids": [
+      "OFF_T2_heart_E10.5"
+    ],
+    "unit": "segmented_cell",
+    "scope": "official collection scope; stage dependent",
+    "files": {
+      "mass.npz": "fa7315dda1c1dec6131648720c5b928ec6b8588d6e292858efa9dbe5665f7898",
+      "native.npz": "a048327e09ef96ac5f5cc5bf1201b48cc3064db429dfe4b8aac08e750750ebed",
+      "obs.csv": "721898841c6f1f952f5b54aeac68780dc3eba491f252575d8f7a68dd111ba3cf"
+    },
+    "input_info_sha256": "df0c389c2ab49cb960d94d5c31d860373fdef53836dca29e8e7ea0b56c4e8e9b",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/OFF_T2_heart_E10.5_10p5/info.json",
+    "sample_note": null
+  },
+  {
+    "key": "BUBR1_WT_E105_T2_heart_10p5",
+    "source_id": "VED-015",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 13723,
+    "n_samples": 1,
+    "sample_ids": [
+      "WT_four_hearts_pool"
+    ],
+    "unit": "cell",
+    "scope": "pooled control heart, supplied WT Cre+",
+    "files": {
+      "mass.npz": "c88c0a52db8c2d5e3d82445c568dd71f0739fe33c88303abfa792d73d5f16b19",
+      "native.npz": "ad22912d6806420f055b0d967023a6876bc27c100a33e3e06b5e9a6228076d57",
+      "obs.csv": "9f82cf3c6b57cf90b519f7d395e6ae161d5b8d432490bbdf06f627b172e303d6"
+    },
+    "input_info_sha256": "47492e49c014455dc63b99cfb01888618a657baac213265e8149acb72df59ea2",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/BUBR1_WT_E105_T2_heart_10p5/info.json",
+    "sample_note": "4心脏池化只作一个样本；原始barcode经knee+基因数+线粒体QC"
+  },
+  {
+    "key": "DBIT_E105_R1_T2_heart_10p5",
+    "source_id": "VED-033",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 2306,
+    "n_samples": 1,
+    "sample_ids": [
+      "FFPE_1"
+    ],
+    "unit": "pixel",
+    "scope": "25um embryonic section",
+    "files": {
+      "mass.npz": "deb96aecc54022428995a2746c766a754a971b6fea8e05a60138fc5265f865f3",
+      "native.npz": "71d859096bb29a5bf8d0fdc92dfc9e3eba9fb6eb4a92ff6b3b1a970b2ec3502f",
+      "obs.csv": "a423ed89afcfde48bd61bfb41d1009fbdc55e19b816ced12cc83df7edc503b63"
+    },
+    "input_info_sha256": "29610e1a264e8c5ee4c947c60acdf2310279f3a1c16a98d5d1af89f4efa7736d",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/DBIT_E105_R1_T2_heart_10p5/info.json",
+    "sample_note": "E10.5 FFPE胚胎切片；重复分开；每行是像素"
+  },
+  {
+    "key": "DBIT_E105_R2_T2_heart_10p5",
+    "source_id": "VED-033",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 2130,
+    "n_samples": 1,
+    "sample_ids": [
+      "FFPE_2"
+    ],
+    "unit": "pixel",
+    "scope": "25um embryonic section",
+    "files": {
+      "mass.npz": "3259eb240e7d137d2acceda4fca9a3d6bcd261bb5bec377ca845eb1b4607b238",
+      "native.npz": "db1c65df59de49b4ebae864fc6afc6ecff16fac6da511d7c53860fc2232af4ab",
+      "obs.csv": "ba22d8215d6e4ea911242611a57243534ce990c9c42c3f51dab582851d50598e"
+    },
+    "input_info_sha256": "ca22d90e2794a9f6e3497f35ae44916e161a926b9b5082e2b429c3d493b7a143",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/DBIT_E105_R2_T2_heart_10p5/info.json",
+    "sample_note": "E10.5 FFPE胚胎切片；重复分开；每行是像素"
+  },
+  {
+    "key": "FENG_C57BL6_E105_T2_heart_10p5",
+    "source_id": "VED-012",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 587,
+    "n_samples": 4,
+    "sample_ids": [
+      "C57BL6_B6L1",
+      "C57BL6_B6L2",
+      "C57BL6_B6L3",
+      "C57BL6_B6L4"
+    ],
+    "unit": "cell",
+    "scope": "separately dissected cardiac chambers; C57BL6",
+    "files": {
+      "mass.npz": "b169d868937800a3970bb3fcb97383c6290a4a3c757da78fedd97a6b36db887b",
+      "native.npz": "421db876ca13bd2404c68905cf6efd2d4951c583d5ab7e0de9440d8b1f75a0ed",
+      "obs.csv": "655333815e94d7e159ae08b076adb801d7daefb1239f796e2dd1579f8ee15dfe"
+    },
+    "input_info_sha256": "05702a1f6c9df20fa82138db87911c2aedcca8f00a8245f7752bd30adcd3ca2d",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/FENG_C57BL6_E105_T2_heart_10p5/info.json",
+    "sample_note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开"
+  },
+  {
+    "key": "FENG_CD1_E105_T2_heart_10p5",
+    "source_id": "VED-012",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 841,
+    "n_samples": 5,
+    "sample_ids": [
+      "CD1_a10k",
+      "CD1_a25k",
+      "CD1_a5k1",
+      "CD1_a5k2",
+      "CD1_a5k3"
+    ],
+    "unit": "cell",
+    "scope": "separately dissected cardiac chambers; CD1",
+    "files": {
+      "mass.npz": "0040f5d1c94b6c20a93f8c3ceed4a67e7a2a563c01f4882f9b85df94a2224a44",
+      "native.npz": "9da653a54e8e4a8d58341e64046d7f1c173b50aece69a9a9ac31634bb3df4c01",
+      "obs.csv": "3d8949778e6ee6d170c370ade9565d271e38c4facf6682996634c441111a8b90"
+    },
+    "input_info_sha256": "382db6bc53b748dd92cec818a22d28e7ebe56f11a548a5cbe3f3fca9025d3ff5",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/FENG_CD1_E105_T2_heart_10p5/info.json",
+    "sample_note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开"
+  },
+  {
+    "key": "HEART230531_E105_R1_T2_heart_10p5",
+    "source_id": "VED-010",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 21570,
+    "n_samples": 1,
+    "sample_ids": [
+      "E105_1"
+    ],
+    "unit": "cell",
+    "scope": "embryo/heart source sample",
+    "files": {
+      "mass.npz": "0a0f9cd256ac573ce9252ec9497a72acceba4276db62f6a33c7682a7da3701af",
+      "native.npz": "e33d208a9f8517ead9484e682ce2b89b8570ade912376a6504d2167279f73251",
+      "obs.csv": "dbcd413fef58a6c11413531ba14773f1049cd5c0b06afc69652da529c771703f"
+    },
+    "input_info_sha256": "8dcd5af59327dc5e98f6e91eae4fa820990776c82567b4560df7a818011c6cd7",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/HEART230531_E105_R1_T2_heart_10p5/info.json",
+    "sample_note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型"
+  },
+  {
+    "key": "HEART230531_E105_R2_T2_heart_10p5",
+    "source_id": "VED-010",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 21093,
+    "n_samples": 1,
+    "sample_ids": [
+      "E105_2"
+    ],
+    "unit": "cell",
+    "scope": "embryo/heart source sample",
+    "files": {
+      "mass.npz": "aae583c32af6677399f05c72ae668b49dac1325072cc55765f3475263d645e20",
+      "native.npz": "bf03eeed065f9f397f806e3a37dd985cab7eba1ad897fd9b3e3b583338682d61",
+      "obs.csv": "23d7b4bdd312008f36f472264b0afddc5d1b68f6617a0d1bf44f601356f91f6b"
+    },
+    "input_info_sha256": "afb94d7983c67e7d9e2e089a4a4238181df275da1453376e5b8c28c47c41d0c5",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/HEART230531_E105_R2_T2_heart_10p5/info.json",
+    "sample_note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型"
+  },
+  {
+    "key": "OFT_E105_T2_heart_10p5",
+    "source_id": "VED-016",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 11480,
+    "n_samples": 1,
+    "sample_ids": [
+      "OFT_E105"
+    ],
+    "unit": "cell",
+    "scope": "wildtype outflow tract",
+    "files": {
+      "mass.npz": "920b1507352ead8159e4fb2ee5db6e777b5fe2f7ac85727708bc460b0d774d68",
+      "native.npz": "b6412df527f5acb79834f9a6b0902ccb93aeeac37f517e07405ab65bc34f2d61",
+      "obs.csv": "8055461fe4c2453498082d3eb4016c6270fb7b50c2b8e7ae9274c979d9486a77"
+    },
+    "input_info_sha256": "b3c46a698788622541bbb59008f7a6f06deff52bd49c47326541d4bbc28d71fa",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/OFT_E105_T2_heart_10p5/info.json",
+    "sample_note": "作者EmptyDrops筛选；流出道局部取材，非全心脏"
+  },
+  {
+    "key": "OSR1_E105_T2_heart_10p5",
+    "source_id": "VED-019",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 967,
+    "n_samples": 1,
+    "sample_ids": [
+      "Osr1_E105_pool"
+    ],
+    "unit": "cell",
+    "scope": "Osr1+ second heart field enriched",
+    "files": {
+      "mass.npz": "00b8c319ab9c915e5940b067b0987a3664ea50b6c8eb2b4f5e271441f36f4b28",
+      "native.npz": "f30f4c9d6b52fad3cf10069977e1af98ab0578d7c84a00ee53b7a28379318481",
+      "obs.csv": "cec2bac8b59bafcc10b479087ff76a0f7027b7d19aee5d18b50fb486023e608b"
+    },
+    "input_info_sha256": "037d39d59a53aa8312ba11901cdec8556018b518a57dd0edf17ae469be3e6589",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/OSR1_E105_T2_heart_10p5/info.json",
+    "sample_note": "单份Osr1阳性富集；非完整心脏；未细分类型"
+  },
+  {
+    "key": "PITX2_CONTROL_E105_T2_heart_10p5",
+    "source_id": "VED-014",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 12535,
+    "n_samples": 3,
+    "sample_ids": [
+      "Ctrl1D",
+      "Ctrl2",
+      "Ctrl2D"
+    ],
+    "unit": "cell",
+    "scope": "cardiac Control samples; genotype as supplied",
+    "files": {
+      "mass.npz": "8408e1a1dedd46acaf0bbaf29613d3e3ea79365e2360de57f307f3230889d28e",
+      "native.npz": "b63c12dcffba408988d149f20d4dd6758d9ea7c7a22d7b327b7d0d93812a09ff",
+      "obs.csv": "23dacdd6e430d14221527d73ed4261b9648a2e8f947aa24c1b530f5c60f3b199"
+    },
+    "input_info_sha256": "d715181ad0e2448abfd37bfd8ab8102e93dc99514c4b7ec2c6f5350ea08e82aa",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/PITX2_CONTROL_E105_T2_heart_10p5/info.json",
+    "sample_note": "仅Control，orig.ident分组；发布矩阵与元数据nUMI总量不一致，按发布非负整数矩阵比较；不推断纯WT"
+  },
+  {
+    "key": "QIU_E105_T2_heart_10p5",
+    "source_id": "VED-007",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 718,
+    "n_samples": 1,
+    "sample_ids": [
+      "embryo_34"
+    ],
+    "unit": "nucleus",
+    "scope": "selected cardiomyocyte and endothelium nuclei from whole embryos",
+    "files": {
+      "mass.npz": "53eaed8098004915fbd44dfd180be60db7feaf2741e337e9c81973349b72da1c",
+      "native.npz": "465e4b57741c21e583274c1d3cc86efc3e6c815a45161b6f156f2c8296751a10",
+      "obs.csv": "2cc32ea421c7fbcd3cf9d3780a5945f27a678aff8666bebe427276a501db07e6"
+    },
+    "input_info_sha256": "849ad42e43fcbfece44866b7f0bf3d45b91e3555cde8d8fde124ba1c58350e8f",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/QIU_E105_T2_heart_10p5/info.json",
+    "sample_note": "作者embryo_id分组；已下载心肌和内皮子集，不代表全胚比例"
+  },
+  {
+    "key": "SLIDESEQ_E105_R1_T2_heart_10p5",
+    "source_id": "VED-029",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 3839,
+    "n_samples": 1,
+    "sample_ids": [
+      "section_1"
+    ],
+    "unit": "bead",
+    "scope": "E10.5 CD1 heart 2D section",
+    "files": {
+      "mass.npz": "bb45e01d99fffe34926ae389be7785973ba330e48d125cd32eda3e99b5ab1370",
+      "native.npz": "5588b07aa8f08f3838a9a64319745c5a7b600b85b5af453f994b7ea6d8d07507",
+      "obs.csv": "f5584ecc0908b276e36b6f7bc68de16086403798937d3b040d78d2f87486cc4c"
+    },
+    "input_info_sha256": "dfb438b355afb844c99ad6f900394847e15dd3bfe6d380c53568cdc09d97fd71",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/SLIDESEQ_E105_R1_T2_heart_10p5/info.json",
+    "sample_note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照"
+  },
+  {
+    "key": "SLIDESEQ_E105_R2_T2_heart_10p5",
+    "source_id": "VED-029",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 2396,
+    "n_samples": 1,
+    "sample_ids": [
+      "section_2"
+    ],
+    "unit": "bead",
+    "scope": "E10.5 CD1 heart 2D section",
+    "files": {
+      "mass.npz": "c0ea533776b3ba6221efc393d2a5cdf5e4903a4d278d5a2ac4e8008720fca4d1",
+      "native.npz": "704f50692bb1c15cce65f797f3b10c72794118051c61a96dfe8212f183498819",
+      "obs.csv": "f0c99dcfb0f45ed12d270172ca38f0d2d737db058bb85e6a163207338dc854b7"
+    },
+    "input_info_sha256": "80b8f61781d147c79db293d18ce659e67e17a845fa826e12e7cff91e8cbe4eb5",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/SLIDESEQ_E105_R2_T2_heart_10p5/info.json",
+    "sample_note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照"
+  },
+  {
+    "key": "TOME_MOCA_E105_T2_heart_10p5",
+    "source_id": "VED-003",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 267994,
+    "n_samples": 11,
+    "sample_ids": [
+      "embryo_24",
+      "embryo_25",
+      "embryo_26",
+      "embryo_4",
+      "embryo_43",
+      "embryo_44",
+      "embryo_46",
+      "embryo_5",
+      "embryo_59",
+      "embryo_6",
+      "embryo_60"
+    ],
+    "unit": "nucleus",
+    "scope": "whole embryo nuclei; MOCA counts plus TOME QC/annotations",
+    "files": {
+      "mass.npz": "67a91a12fc68166811355c670b1d6b768f7e49327889048004f3d9a136ebed92",
+      "native.npz": "06613cb3eac3a3121ca5b2d3bef679bcbea7ad93bcc6884847970fa7677463b8",
+      "obs.csv": "8b62e76e995784210516f1147e00dbc52ae439f12d5675ebc1bb6496eb398245"
+    },
+    "input_info_sha256": "538fc4cd94ab56f4e7ce84e8206c144b16f43c6f163a384cebc6fbda27601d74",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/TOME_MOCA_E105_T2_heart_10p5/info.json",
+    "sample_note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列"
+  },
+  {
+    "key": "VISIUM_E105_T2_heart_10p5",
+    "source_id": "VED-030",
+    "task": "T2_heart",
+    "stage": 10.5,
+    "n": 332,
+    "n_samples": 1,
+    "sample_ids": [
+      "heart_section"
+    ],
+    "unit": "spot",
+    "scope": "E10.5 heart section",
+    "files": {
+      "mass.npz": "2e988aafe040913b1791370a4c468b4b1bf0215b913a02cdcf0c1db002da5d75",
+      "native.npz": "e8094a2b2c78a96ab81290a8da16a34ca4480d5eb449aba7b8596589b8b9ee29",
+      "obs.csv": "a5d8e8796dfd2488fc8015048dc58655d022c329587a262b7abec20f66f1a53a"
+    },
+    "input_info_sha256": "526427a4e763d8f9b2971f49a6e7144f1027395a89ac57bcdef8f50b0de7a71b",
+    "input_info_remote": "/home/biocosmosx/work/virtualembryo_cym/experiments/external_E10p5_analysis_20261119/run01/prepared_v2/VISIUM_E105_T2_heart_10p5/info.json",
+    "sample_note": "332个作者filtered spot；混合多个细胞，不计算细胞类型比例"
+  }
+]

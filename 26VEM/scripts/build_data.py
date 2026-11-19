@@ -110,14 +110,22 @@ pairs=[]
 completion_root=P/'research/validation_completion_20261119'
 completion=load(completion_root/'COMPLETION_SUMMARY.json')
 pair_table=completion_root/'overlays/research/vem_pairwise_similarity_v3/results/all_comparisons.csv'
+external_root=P/'research/external_E10p5_analysis_20261119'
+new_pair_table=external_root/'overlays/research/vem_pairwise_similarity_v3/results/all_comparisons.csv'
+if new_pair_table.is_file():pair_table=new_pair_table
 for row in csvrows(pair_table):
     keys=['pair','task','external_name','official_stage','external_stage','group','group_name','kind','note']
     item={k:row.get(k,'') for k in keys}
     item.update({k:number(row.get(k)) for k in ['n_genes','pearson','spearman_all','detection_mean_abs_pp','detected_jaccard']})
     pairs.append(item)
 metrics=[]
-for row in csvrows(P/'research/vem_official_metric_source_audit/results/outputs/metrics.csv'):
+metric_rows=csvrows(P/'research/vem_official_metric_source_audit/results/outputs/metrics.csv')
+extra_metrics=external_root/'results/metric_outputs/metrics.csv'
+if extra_metrics.is_file():metric_rows+=csvrows(extra_metrics)
+external_summary=load(external_root/'WEB_SUMMARY.json') if (external_root/'WEB_SUMMARY.json').is_file() else None
+for row in metric_rows:
     item={k:row.get(k) for k in ['task','source_id','source_name','official_stage','external_stage','group','representation','seed']}
+    if item.get('source_name'):item['source_name']=re.sub(r'重复(\d+)_(?:T1|T2_heart)$',r'重复\1',item['source_name'])
     item.update({k:number(row.get(k)) for k in ['n_genes','MMD','CSS','pseudobulk_pearson','pseudobulk_spearman']})
     metrics.append(item)
 
@@ -168,10 +176,10 @@ findings={
  'A07':('已补E8.5定位、条件双检出、边界与计数检查。','与原E8.75/E9.5/E10.5逐节对照。','E8.5边界双标记数较少，不能据此确定机制。'),
  'A08':('早期34条先验各有支持、不可比或明确缺口。','查找早期胚胎比例、表达和取材的适用条件。','已并入108条扩展库，不额外增加34条独立知识。'),
  'A09':('108条知识已逐条记录官方与外部核对。','按细胞、基因、阶段和证据状态查找可用先验。','官方只有3条观测一致；不可把条目数量当验证数量。'),
- 'A10':('原六节已补入验证覆盖、稀疏度与来源背景对照。','先排除标签、取材、尺度不一致的直接迁移。','邻近日龄不进入同阶段排名，不证明时间泛化。'),
- 'A11':('原24对保留，新增16对验证背景及53行指标。','在原筛选器选择E7.5、E8.5或E10.5查类型和逐基因图。','不同panel和表达表示的绝对距离不能混排。'),
- 'A12':('T1检出结构与表达强度能分开比较。','区分供体差异来自零值还是阳性表达。','加权S是自定义描述统计，不是官网分数。'),
- 'A13':('静态均值接近不保证时间变化可迁移。','用完整指标检验有限来源改动，保留迁移失败。','分布距离改善可伴随均值误差恶化；没有通用换算。'),
+ 'A10':('原六节补入E10.5同阶段、整体RNA与阶段变化对照。','先核对标签、取材、尺度，再看同阶段与跨阶段结果。','观测变化对照不等于预测泛化验证。'),
+ 'A11':('保留原40对，加入30对E10.5同阶段数据。','在原筛选器选择E10.5查类型、组成和逐基因图。','不同panel和表达表示的绝对距离不能混排。'),
+ 'A12':('已补E10.5加权S与30组新的0/1分布对照。','区分供体差异来自零值还是阳性表达。','加权S是自定义描述统计，不是官网分数。'),
+ 'A13':('已补15份E10.5外部对象的四项表达公式对照。','选择T1或心脏E10.5，查看分项、类型与样本。','分布距离改善可伴随均值误差恶化；没有通用换算。'),
  'A14':('三个任务比较的对象和指标权重不同。','先明确参考、真值、预测的角色，再解释每项诊断。','固定公开版本；线上后台与部分gate未完成等价验收。'),
  'A15':('已接回原图和结果表，并展示历史验证结果。','查询旧分析、映射与来源记录，避免重复劳动。','不能把旧归一化结果或特定子集许可推广到其他条件。')}
 catalog=load(R/'hub/catalogs/analyses.json')['analyses']; analyses=[]
@@ -228,7 +236,7 @@ data={'version':'2026-11-19','title':'26VEM · 虚拟胚胎研究工作台','bui
  'snapshot_note':'研究结论与文件统计是标明时间的快照；刷新页面不会连接5090。倒计时在浏览器本地更新。',
  'deadline':deadline,'timeline':timeline,'tasks':tasks,'official':official,'external':external,
  'claims':claims,'knowledge_summary':summary,'analyses':analyses,'gene_axes':axis,'pairs':pairs,'metrics':metrics,
- 'audit':audit,'file_counts':file_counts,'plan_html':plan,'readers':readers,'validation_completion':completion,
+ 'audit':audit,'file_counts':file_counts,'plan_html':plan,'readers':readers,'validation_completion':completion,'external_e105':external_summary,
  'file_tree':(SITE/'data/5090-tree.txt').read_text(encoding='utf-8'),
  'remote_root':'/home/biocosmosx/work/virtualembryo_cym','remote_hub':'/home/biocosmosx/work/virtualembryo_cym/team/research_hub',
  'current_official_score':None,'remaining_attempts':None}
