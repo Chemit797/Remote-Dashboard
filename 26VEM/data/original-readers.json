@@ -408,7 +408,7 @@
     "analysis_id": "A10",
     "group": "官方与外部数据比较",
     "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
-    "url": "readers/research/vem_source_comparison_v2/README.html",
+    "url": "readers/research/vem_source_comparison_v2/README.html?v=a807bac93ca7",
     "source_path": "research/vem_source_comparison_v2/README.md",
     "sections": [
       {
@@ -447,7 +447,7 @@
     "analysis_id": "A11",
     "group": "官方与外部数据比较",
     "title": "官方与外部数据，究竟哪里像、哪里不像？",
-    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html",
+    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=d1bc1fda46e3",
     "source_path": "research/vem_pairwise_similarity_v3/comparison.html",
     "sections": [
       {
@@ -476,7 +476,7 @@
     "analysis_id": "A12",
     "group": "官方与外部数据比较",
     "title": "新增：T1 加权得分与大矩阵 0/1 比较",
-    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#t1-weighted-binary-appendix",
+    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=d1bc1fda46e3#t1-weighted-binary-appendix",
     "source_path": "research/vem_pairwise_similarity_v3/comparison.html#t1-weighted-binary-appendix",
     "sections": [
       {
@@ -583,7 +583,7 @@
     "analysis_id": "A15",
     "group": "官方与外部数据比较",
     "title": "官方与同任务外部数据的基因面板、表达相似度实测",
-    "url": "readers/older/REPORT_ZH.html",
+    "url": "readers/older/REPORT_ZH.html?v=ce3ccaf372c8",
     "source_path": "older/REPORT_ZH.md",
     "sections": [
       {

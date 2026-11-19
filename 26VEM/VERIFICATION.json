@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-19T03:27:28.168868+00:00",
+  "built_at": "2026-11-19T06:47:27.395478+00:00",
   "checks": {
     "four_final_targets": true,
     "no_invented_scores_or_quota": true,
@@ -76,10 +76,10 @@
     "web_report_links_A14": true,
     "safe_report_A15": true,
     "web_report_links_A15": true,
-    "filter_type_Cardiac progenitor/heart field": true,
-    "filter_type_Endothelial/endocardial": true,
     "filter_type_Other mesoderm": true,
-    "filter_type_Cardiomyocyte": true
+    "filter_type_Endothelial/endocardial": true,
+    "filter_type_Cardiomyocyte": true,
+    "filter_type_Cardiac progenitor/heart field": true
   },
   "check_count": 79,
   "all_passed": true,
@@ -108,8 +108,8 @@
     },
     {
       "path": "assets/data.js",
-      "bytes": 1200433,
-      "sha256": "1d698769eea0b9d83314fa6e014857dbe4bb0604c04bfbdf4ec86c5ded647cf0"
+      "bytes": 1200493,
+      "sha256": "643f2993242803a288d74116b3f17ea90c5e8e90fce443bf4446dfc6508eb5fe"
     },
     {
       "path": "assets/favicon.svg",
@@ -173,13 +173,13 @@
     },
     {
       "path": "data/original-readers-manifest.json",
-      "bytes": 297165,
-      "sha256": "04e499e5e970ae1161654ecf092f1831f2432b8bf12a081e7a3846d467b877c7"
+      "bytes": 297556,
+      "sha256": "0ac3df1a81fdfd1bee22dd10329fa7867fae78e0d819336501ddc5f8b55c2498"
     },
     {
       "path": "data/original-readers.json",
-      "bytes": 17219,
-      "sha256": "cf69c87f7f6ba67ba5a26d36f230cca1049dc620c2792f1ea50b041477d3ff70"
+      "bytes": 17279,
+      "sha256": "5ab0fbd064882b049d860a721dea3009fdbdc47bc50b4eaee348ac2718e1e1ee"
     },
     {
       "path": "data/research-catalog.json",
@@ -189,7 +189,7 @@
     {
       "path": "data/source-manifest.json",
       "bytes": 8011,
-      "sha256": "8e3e00306d4b42ef9786ebf32545a6fe8fd85b20c4dfa0cab45bb87c73744f49"
+      "sha256": "46d2d62f1a6b76d3e36b985ad40898be05f5f782ae0fca5821c5426d1132ef87"
     },
     {
       "path": "data/validation-completion.json",
@@ -383,13 +383,13 @@
     },
     {
       "path": "readers/older/REPORT_ZH.html",
-      "bytes": 33838,
-      "sha256": "9265c5ef893ba7738960bd063d511f8cba5385eea547b18f1ccfc2cf5fc57c1a"
+      "bytes": 47593,
+      "sha256": "ce3ccaf372c85cf15cae4bb397599521b065b790f52c3187dfd9a900c73a39e4"
     },
     {
       "path": "readers/older/REPORT_ZH.md",
-      "bytes": 28525,
-      "sha256": "bff5a2d61f753bcfd8a0eafe0360f4920ee917def6c3616a8db6cbf1b6e745fe"
+      "bytes": 42276,
+      "sha256": "2a036cb39a9928f48a736fcc2a7ded4d5592c980bd38fc2297fb333ec021defd"
     },
     {
       "path": "readers/older/same_panel_control.csv",
@@ -2247,6 +2247,11 @@
       "sha256": "09b9c96a7c624f76f3c35359a2bd84a6ea8ff675a80a0a0d31a9c43a1751455d"
     },
     {
+      "path": "readers/research/external_E10p5_analysis_20261119/results/pair_outputs/INDEPENDENT_VERIFICATION.json",
+      "bytes": 43941,
+      "sha256": "78604524280a0a08a65664f3ebe1d5d0a3e33f2bb8a5976cc14e57dc6e92399b"
+    },
+    {
       "path": "readers/research/external_E10p5_analysis_20261119/results/PITX2_TOTAL_AUDIT.json",
       "bytes": 1405,
       "sha256": "c736dc739cb6f5636dbf150968d0b8e0eac0f47293ad63762389e7b31b047287"
@@ -2643,8 +2648,8 @@
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/comparison.html",
-      "bytes": 2876338,
-      "sha256": "5cb6365ded399455137d48e7cd3959b10231ad2a7014992c80ef8fb0e724fb5e"
+      "bytes": 2876886,
+      "sha256": "d1bc1fda46e3b8b66d01fe67467302a8b8446170cd942df943a34779b0c879c4"
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/CONDITION_CORRECTIONS.json",
@@ -3863,13 +3868,13 @@
     },
     {
       "path": "readers/research/vem_source_comparison_v2/README.html",
-      "bytes": 34958,
-      "sha256": "d2b7fb80576e2785da81fa2b739abda95896812c6170dcfcc922196d1172caa3"
+      "bytes": 54925,
+      "sha256": "a807bac93ca73c7a614ba2744cd5d8af417d002a913e13cf52bffaee73982702"
     },
     {
       "path": "readers/research/vem_source_comparison_v2/README.md",
-      "bytes": 30951,
-      "sha256": "94d12c8286b45a3b09cb40d19327a429a793494eb2f3b371ffe5418c8a83ae10"
+      "bytes": 50920,
+      "sha256": "a9e97e0422f68d1a5fa0fe019a5a383f04a4ec07823315214892fbd8f34fbab3"
     },
     {
       "path": "readers/research/vem_t1_weighted_binary_v4/PROTOCOL.md",
@@ -4048,8 +4053,8 @@
     },
     {
       "path": "scripts/build_readers.py",
-      "bytes": 8339,
-      "sha256": "9cc1bb0d2e0349a64865450c0f1a5f5dd21db2ba0fccf6fecc3901d5cea62ce2"
+      "bytes": 8602,
+      "sha256": "2bd727daa44285b82812450b100618c77a2809bd2ad009eb46f252fd3ffeecdf"
     },
     {
       "path": "scripts/verify_site.py",

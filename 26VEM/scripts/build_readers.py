@@ -15,7 +15,8 @@ def build(project):
     # Dated additions are separate sources. The original snapshots stay frozen.
     overlay=project/'research/validation_completion_20261119/overlays'
     external_overlay=project/'research/external_E10p5_analysis_20261119/overlays'
-    overlays=[external_overlay,overlay]
+    page_fix_overlay=project/'research/external_E10p5_page_fix_20261119/overlays'
+    overlays=[page_fix_overlay,external_overlay,overlay]
     frozen_dependencies=overlay.parent/'frozen_dependencies'
     baseline_files=json.loads((overlay.parent/'REMOTE_WEBSITE_BEFORE.json').read_text(encoding='utf-8'))['files']
     seeds={
@@ -108,7 +109,10 @@ def build(project):
             if not label:continue
             ancestor=h if h.get('id') else h.find_parent(id=True)
             sections.append({'title':label,'anchor':ancestor.get('id','') if ancestor else '', 'heading_index':soup.select('h2').index(h)})
-        catalog.append({'analysis_id':aid,'group':group,'title':title,'url':'readers/'+key+('#'+u.fragment if u.fragment else ''),'source_path':path,'sections':sections})
+        reader_url='readers/'+key
+        if (page_fix_overlay/u.path).is_file():
+            reader_url+='?v='+hashlib.sha256((out/key).read_bytes()).hexdigest()[:12]
+        catalog.append({'analysis_id':aid,'group':group,'title':title,'url':reader_url+('#'+u.fragment if u.fragment else ''),'source_path':path,'sections':sections})
     manifest={'policy':'Selected source bytes copied exactly; dated additive overlays take precedence without changing original snapshots. Markdown receives a reading wrapper only. Original sections, figures and interactions retained.','files':list(copied.values()),'missing_html_links':sorted(set(missing))}
     (site/'data/original-readers-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     (site/'data/original-readers.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
