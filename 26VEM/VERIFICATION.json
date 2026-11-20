@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-20T20:53:19.323036+00:00",
+  "built_at": "2026-11-20T20:59:22.282409+00:00",
   "checks": {
     "four_final_targets": true,
     "no_invented_scores_or_quota": true,
@@ -84,10 +84,10 @@
     "web_report_links_A14": true,
     "safe_report_A15": true,
     "web_report_links_A15": true,
-    "filter_type_Endothelial/endocardial": true,
     "filter_type_Cardiomyocyte": true,
-    "filter_type_Other mesoderm": true,
-    "filter_type_Cardiac progenitor/heart field": true
+    "filter_type_Cardiac progenitor/heart field": true,
+    "filter_type_Endothelial/endocardial": true,
+    "filter_type_Other mesoderm": true
   },
   "check_count": 87,
   "all_passed": true,
@@ -117,7 +117,7 @@
     {
       "path": "assets/data.js",
       "bytes": 1266320,
-      "sha256": "03e8d897d3fff48884b8203d9741173d3e68d0727bb0dfcb44415c357ea8531b"
+      "sha256": "d7ed96952d7dda9d10df18ef327f6b6a7034bf83d4f8439bafb4e5c75e68e7ce"
     },
     {
       "path": "assets/favicon.svg",
@@ -192,12 +192,12 @@
     {
       "path": "data/original-readers-manifest.json",
       "bytes": 344330,
-      "sha256": "26823634cc739c48eba81777374b62e3bab6dc102fa3c9de024d12c651935930"
+      "sha256": "95c344470cfd244362d6f10ac2d30126956d32f094a6c23042450e2a221c8c28"
     },
     {
       "path": "data/original-readers.json",
       "bytes": 17460,
-      "sha256": "bcd6002a0e407f0a25c5ce7be7f3eb42dc0efdb4bc908903058d5405dd16cd47"
+      "sha256": "a3ed0b99cbec685219db230bd53c22796cf7b548771983e7ddfe20a590a0a509"
     },
     {
       "path": "data/research-catalog.json",
@@ -207,7 +207,7 @@
     {
       "path": "data/source-manifest.json",
       "bytes": 9400,
-      "sha256": "153a32e7bcd2aac230b98e967557d575af665649dc24999867009f76c76d7174"
+      "sha256": "964759f950f26a8ad84b8c1726450a4bcce39814885300c5acc846d97ef0e3ed"
     },
     {
       "path": "data/stage-rankings.json",
@@ -2746,8 +2746,8 @@
     },
     {
       "path": "readers/research/vem_official_metric_source_audit/index.html",
-      "bytes": 4401393,
-      "sha256": "9607b01e06de908256addea35042067a87de45707bd52f603c99e42ca0333a79"
+      "bytes": 4401415,
+      "sha256": "c507cba4e572e6311b1425289462ad7d501086289575f8a4e36f791304dd5c58"
     },
     {
       "path": "readers/research/vem_official_metric_source_audit/PROTOCOL.md",
