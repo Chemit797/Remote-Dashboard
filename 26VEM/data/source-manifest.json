@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-20T20:19:35.312207+00:00",
+  "built_at": "2026-11-20T20:53:19.323036+00:00",
   "scope": "Selected reports, aggregate statistics and metadata only. No H5AD, model weights, credentials or submission payloads.",
   "files": [
     {
@@ -24,8 +24,8 @@
     },
     {
       "path": "catalogs/dashboard_external_releases.json",
-      "bytes": 3415,
-      "sha256": "bca81e31582c214cf5d6a15bfebd92a1c6379432bc9e30805161d9348cd0144e"
+      "bytes": 4228,
+      "sha256": "9dbf72c1f239bb02a7a2fc91c4f29e60e96a715a43b4d2bd7cef8add9cfca3c6"
     },
     {
       "path": "research/gse342607_dashboard_20261121/results/web.json",
@@ -46,6 +46,11 @@
       "path": "reports/gata4_accession_intake_20261121/ready02/GSE117621/validation.json",
       "bytes": 3185,
       "sha256": "4bfa4736ebc97091499c268942f25a088fb54a8b075d3fd081fbaef663c353e4"
+    },
+    {
+      "path": "research/gata4_bulk_similarity_20261121/results/results.json",
+      "bytes": 1296066,
+      "sha256": "e255734addd73de55bc4cfb46787de6caf3e07cdb76c0b54c47b86272a542fb0"
     },
     {
       "path": "reports/gata4_accession_intake_20261121/ready02/GSE52317/validation.json",

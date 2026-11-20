@@ -71,14 +71,33 @@ function embryoDay(stage) {
 function recentExternalSources() {
  const sources=D.external.filter(x=>x.added_on);
  if(!sources.length)return '';
- return `<div class="evidence-block">${sources.map(x=>`<p><a class="inline-link" href="#/data/external/${E(x.id)}">${E(x.name)}</a> · ${E(x.stage_text)} · 已入库</p>`).join('')}</div>`;
+ return `<div class="evidence-block">${sources.map(x=>`<p><a class="inline-link" href="#/data/external/${E(x.id)}">${E(x.name)}</a> · ${E(x.stage_text)} · ${x.bulk_evidence?'已补整体表达与扰动相似度':E(x.priority)}</p>`).join('')}</div>`;
+}
+function bulkEvidence(x) {
+ const b=x.bulk_evidence;if(!b)return '';
+ const link=r=>`<a class="inline-link" href="${E(b.download_root+r.gene_table)}">逐基因表</a>`;
+ const fraction=v=>v.sign_agreement==null?'—':`${N(v.sign_agreement*100,1)}% · ${v.same_direction}/${v.n}`;
+ const label={repeat1:'官方 KO 重复 1',repeat2:'官方 KO 重复 2',equal_repeat_mean:'官方两个 KO 等权'};
+ const main=b.expression.filter(r=>r.role==='main');
+ const effects=b.response.filter(r=>r.role==='main');
+ const expressionRows=rows=>rows.map(r=>[E(r.official_label),E(r.group),N(r.common_genes)+' / '+N(r.used_genes),num(r.spearman),r.per_replicate.map(s=>`${E(s.sample)} · ${num(s.rho)}`).join('<br>'),link(r)]);
+ const responseRows=rows=>rows.map(r=>[E(label[r.official]),num(r.all.spearman),fraction(r.all),num(r.robust.spearman),fraction(r.robust),link(r)]);
+ return `<section class="panel" id="external-bulk-expression"><h2>与官方的整体表达相似度</h2><p>已计算 · ${E(b.date)}。官方 WT 对外部对照，官方 KO 对外部 Gata4 突变组；保留各组织重复。</p>
+ ${table(['官方参照','外部组','共同／参与基因','整体 ρ','各样本 ρ','数据'],expressionRows(main))}
+ <details><summary>查看逐样本处理与敏感性比较</summary><p>${E(b.method.official)}</p><p>${E(x.id==='GSE117621'?b.method.fpkm:b.method.array)}</p>${table(['官方参照','外部组','共同／参与基因','整体 ρ','各样本 ρ','数据'],expressionRows(b.expression.filter(r=>r.role!=='main')))}</details></section>
+ <section class="panel" id="external-bulk-response"><h2>突变减去对照：变化是否相似</h2><p>${E(effects[0].mutant_group)} − ${E(effects[0].control_group)}。官方使用 E8.75 WT 与 Gata4 KO。</p>
+ ${table(['官方变化','变化 ρ','同向 · 全部非零变化','变化 ρ · 官方稳定变化','同向 · 官方稳定变化','数据'],responseRows(effects))}
+ <p class="quiet">“官方稳定变化”：两个 KO 重复同向、且各自 |Δ|≥0.25 log2(CP10k+1)。方向一致率列出同向基因／参与基因。外部变化单位：${E(effects[0].external_delta_unit)}。</p>
+ <details><summary>包含 KI2、更换对照或 Gata6 的结果</summary>${b.response.filter(r=>r.role!=='main'&&r.official==='equal_repeat_mean').map(r=>`<h3>${E(r.mutant_group)} − ${E(r.control_group)}</h3>${table(['官方变化','变化 ρ','同向 · 全部非零变化','变化 ρ · 官方稳定变化','同向 · 官方稳定变化','数据'],responseRows([r]))}`).join('')}</details>
+ <p><a class="btn small" href="#/analysis/A13?section=gata4-bulk-response">查看两来源并列散点图与完整口径 →</a> <a class="btn small" href="${E(b.download_root)}results.json">下载完整结果与输入 SHA</a></p>
+ <p class="quiet">组织数据无逐细胞和三维分布，MMD／CSS／比赛分数不适用。</p></section>`;
 }
 function externalEvidence(x) {
  if(!x.samples?.length)return '';
  const sampleLink=s=>`<a class="inline-link" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=${encodeURIComponent(s.accession)}" target="_blank" rel="noopener">${E(s.accession)}</a>`;
  if(x.samples[0].group) {
    const rows=x.samples.map(s=>[sampleLink(s),E(s.stage),E(s.group),E(s.note||'')]);
-   return `<section class="panel" id="external-sample-coverage"><h2>GEO 样本与分组</h2>${table(['样本','日龄','分组','作者备注'],rows)}</section>`;
+   return bulkEvidence(x)+`<section class="panel" id="external-sample-coverage"><h2>GEO 样本与分组</h2>${table(['样本','日龄','分组','作者备注'],rows)}</section>`;
  }
  const stages=[...new Set(x.samples.map(s=>s.stage))];
  const totals=stages.map(stage=>{

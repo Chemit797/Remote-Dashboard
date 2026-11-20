@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "expression_records": 30,
+  "response_records": 15,
+  "official_aggregations": 20,
+  "independent_checks": "all Spearman values verified as Pearson of average ranks; every official aggregate verified with independent weighted-column sum",
+  "mapping": {
+    "GSE117621": {
+      "source_rows": 23279,
+      "retained_unique_genes": 23279,
+      "symbol_rule": "exact case-sensitive unique author symbols; no alias guessing"
+    },
+    "GSE52317": {
+      "source_probesets": 35557,
+      "missing_probesets": 10534,
+      "ambiguous_probesets": 1906,
+      "retained_probesets": 23117,
+      "retained_unique_genes": 21107,
+      "genes_with_multiple_probesets": 1034,
+      "aggregation": "unique symbol per probeset after deduplicating repeated identical symbols; multiple probesets per gene averaged on author RMA scale",
+      "range": [
+        1.39694,
+        14.05429
+      ],
+      "units": "author RMA normalized values; use native RMA difference, do not assert count/FPKM units"
+    }
+  },
+  "mmd_computed": false
+}

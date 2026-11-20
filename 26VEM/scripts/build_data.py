@@ -89,6 +89,14 @@ for release in releases:
         'assay','unit','scope','limits','priority','availability','urls']} | {
         'name':named[accession],'public_id':accession,'aliases':next(x.get('aliases',[]) for x in names['datasets'] if x['id']==accession),
         'samples':samples,'comparisons':coverage,'added_on':release['date']})
+    if 'quantitative_summary' in release:
+        bulk=load(P/release['quantitative_summary'])
+        bulk_source=bulk['sources'][accession]
+        external[-1]['bulk_evidence']={
+            'date':bulk['date'],'method':bulk['method'],'mapping':bulk_source['mapping'],
+            'expression':bulk_source['expression'],
+            'response':[{k:v for k,v in row.items() if k!='scatter'} for row in bulk_source['response']],
+            'download_root':'readers/research/gata4_bulk_similarity_20261121/data/'}
     extension_pairs.extend(
         {**r,'task':{'T2_heart':'T2 心脏','T2_embryo':'T2 胚胎'}.get(r['task'],r['task'])}
         for p in new_pairs for r in p['records']

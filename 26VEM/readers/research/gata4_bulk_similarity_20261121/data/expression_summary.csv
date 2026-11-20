@@ -1,0 +1,31 @@
+source,source_name,official,official_label,external_stage,group,role,common_genes,used_genes,spearman,n_samples,external_unit,gene_table
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T1_E8.5_RNA,T1 E8.5,E15.5,WT,main,19714,17933,0.8634494383687175,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T1_E8.5_RNA__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T1_E9.5_RNA,T1 E9.5,E15.5,WT,main,19714,17870,0.877730078463962,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T1_E9.5_RNA__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T1_E10.5_RNA,T1 E10.5,E15.5,WT,main,19714,17846,0.8835358334204346,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T1_E10.5_RNA__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T2_heart_E8.25_late,T2 心脏 E8.25_late,E15.5,WT,main,471,471,0.25720254526527037,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T2_heart_E8.25_late__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T2_heart_E8.5,T2 心脏 E8.5,E15.5,WT,main,471,471,0.31141536884325666,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T2_heart_E8.5__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T2_heart_E8.75,T2 心脏 E8.75,E15.5,WT,main,471,471,0.2878768232886372,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T2_heart_E8.75__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T2_heart_E9.5,T2 心脏 E9.5,E15.5,WT,main,471,471,0.3796747850840029,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T2_heart_E9.5__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T2_heart_E10.5,T2 心脏 E10.5,E15.5,WT,main,471,471,0.39986149338728033,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T2_heart_E10.5__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T3_E8.75_gata4_ko_1,T3 E8.75 Gata4 KO · 重复 1,E15.5,Gata4 G295S · 排除 KI2,main,471,471,0.2815878804751719,2,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T3_E8.75_gata4_ko_1__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T3_E8.75_gata4_ko_1,T3 E8.75 Gata4 KO · 重复 1,E15.5,Gata4 G295S · 包含 KI2,sensitivity,471,471,0.2871225019911619,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T3_E8.75_gata4_ko_1__sensitivity_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T3_E8.75_gata4_ko_2,T3 E8.75 Gata4 KO · 重复 2,E15.5,Gata4 G295S · 排除 KI2,main,471,471,0.29485666287248224,2,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T3_E8.75_gata4_ko_2__main_expression.csv.gz
+GSE117621,GSE117621 · Gata4 G295S 流出道瓣膜数据,OFF_T3_E8.75_gata4_ko_2,T3 E8.75 Gata4 KO · 重复 2,E15.5,Gata4 G295S · 包含 KI2,sensitivity,471,471,0.29909838622007917,3,"FPKM 在共同基因内每样本重标至 10,000",GSE117621__OFF_T3_E8.75_gata4_ko_2__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T1_E8.5_RNA,T1 E8.5,成体 8 周,Gata4-flox · Cre−,main,19453,19453,0.7509308934799471,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T1_E8.5_RNA__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T1_E8.5_RNA,T1 E8.5,成体 8 周,WT · Cre+,sensitivity,19453,19453,0.7550183114886354,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T1_E8.5_RNA__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T1_E9.5_RNA,T1 E9.5,成体 8 周,Gata4-flox · Cre−,main,19453,19453,0.7604875726359137,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T1_E9.5_RNA__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T1_E9.5_RNA,T1 E9.5,成体 8 周,WT · Cre+,sensitivity,19453,19453,0.7645262018603425,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T1_E9.5_RNA__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T1_E10.5_RNA,T1 E10.5,成体 8 周,Gata4-flox · Cre−,main,19453,19453,0.7633602893960821,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T1_E10.5_RNA__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T1_E10.5_RNA,T1 E10.5,成体 8 周,WT · Cre+,sensitivity,19453,19453,0.7664334104393116,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T1_E10.5_RNA__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E8.25_late,T2 心脏 E8.25_late,成体 8 周,Gata4-flox · Cre−,main,484,484,0.157589975323564,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E8.25_late__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E8.25_late,T2 心脏 E8.25_late,成体 8 周,WT · Cre+,sensitivity,484,484,0.15581864856955518,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E8.25_late__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E8.5,T2 心脏 E8.5,成体 8 周,Gata4-flox · Cre−,main,484,484,0.20915806413544888,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E8.5__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E8.5,T2 心脏 E8.5,成体 8 周,WT · Cre+,sensitivity,484,484,0.20656468343196674,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E8.5__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E8.75,T2 心脏 E8.75,成体 8 周,Gata4-flox · Cre−,main,484,484,0.22693345935267614,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E8.75__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E8.75,T2 心脏 E8.75,成体 8 周,WT · Cre+,sensitivity,484,484,0.2237113931258424,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E8.75__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E9.5,T2 心脏 E9.5,成体 8 周,Gata4-flox · Cre−,main,484,484,0.288804052799,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E9.5__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E9.5,T2 心脏 E9.5,成体 8 周,WT · Cre+,sensitivity,484,484,0.28481041797532564,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E9.5__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E10.5,T2 心脏 E10.5,成体 8 周,Gata4-flox · Cre−,main,484,484,0.29013244202519284,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E10.5__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T2_heart_E10.5,T2 心脏 E10.5,成体 8 周,WT · Cre+,sensitivity,484,484,0.28269574848768847,2,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T2_heart_E10.5__sensitivity_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T3_E8.75_gata4_ko_1,T3 E8.75 Gata4 KO · 重复 1,成体 8 周,Gata4 cKO · Cre+,main,484,484,0.22662631366433164,3,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T3_E8.75_gata4_ko_1__main_expression.csv.gz
+GSE52317,GSE52317 · Gata4 缺失成体心脏数据,OFF_T3_E8.75_gata4_ko_2,T3 E8.75 Gata4 KO · 重复 2,成体 8 周,Gata4 cKO · Cre+,main,484,484,0.2087222178416506,3,作者 RMA 原尺度，按基因平均探针,GSE52317__OFF_T3_E8.75_gata4_ko_2__main_expression.csv.gz

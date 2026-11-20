@@ -414,7 +414,7 @@
     "analysis_id": "A10",
     "group": "官方与外部数据比较",
     "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
-    "url": "readers/research/vem_source_comparison_v2/README.html?v=732948d67280",
+    "url": "readers/research/vem_source_comparison_v2/README.html?v=1823baecb3c0",
     "source_path": "research/vem_source_comparison_v2/README.md",
     "sections": [
       {
@@ -496,7 +496,7 @@
     "analysis_id": "A13",
     "group": "官方与外部数据比较",
     "title": "官方与外部数据，具体像在哪里？",
-    "url": "readers/research/vem_official_metric_source_audit/index.html?v=694ea0708a72",
+    "url": "readers/research/vem_official_metric_source_audit/index.html?v=9607b01e06de",
     "source_path": "research/vem_official_metric_source_audit/index.html",
     "sections": [
       {
