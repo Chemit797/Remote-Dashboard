@@ -53,9 +53,10 @@ TOME 单独出现时可能指 VED-003 或 VED-004；Stereo-seq 是技术名，�
 | VED-041 · Tie2-Cre Ctnnb1 心脏形态资料 | PMC10310929; PMID 37385754; DOI 10.26508/lsa.202302163；PMC10310929；37385754；10.26508/lsa.202302163 | E9.5 movie context；E10.5 morphology context | 已有 VED 编号 |
 | VED-042 · β-catenin 激活心脏前体数据 | GSE15232 | E9.0 | 已有 VED 编号 |
 | VED-043 · Rbpj／Axin2 心脏扰动数据 | GSE36804 | E9.25；22–24 somites | 已有 VED 编号 |
+| GSE342607 · 小鼠胚胎谱系追踪图谱 | GSE342607；PRJNA1508414；MELA；Zenodo 23088914 | E7.5–E10.0 | [5090 已登记](../reports/gse342607_intake_20261120/README.md)，逐样本覆盖见验收 |
 | OMIX014646 · mdCLA 全胚胎单细胞图谱 | OMIX014646；mdCLA；Cao 2026；mdCLA（Cao 2026） | 见历史来源登记 | 历史来源，尚未登记VED编号 |
-| GSE117621 · Gata4 G295S 流出道瓣膜数据 | GSE117621；GSE117621（未入库） | 见历史来源登记 | 历史来源，尚未登记VED编号 |
-| GSE52317 · Gata4 缺失成体心脏数据 | GSE52317；GSE52317（未入库） | 见历史来源登记 | 历史来源，尚未登记VED编号 |
+| GSE117621 · Gata4 G295S 流出道瓣膜数据 | GSE117621；PRJNA482668 | E15.5 | [5090 已入库](../reports/gata4_accession_intake_20261121/README.md)，6 份瓣膜样本 |
+| GSE52317 · Gata4 缺失成体心脏数据 | GSE52317；GPL6246；PRJNA227383 | 成体 8 周 | [5090 已入库](../reports/gata4_accession_intake_20261121/README.md)，12 份全心芯片样本 |
 | E-MTAB-6970 · 分区域内皮单细胞数据 | E-MTAB-6970；解剖 FLK1+ 内皮；anatomically dissected endothelial Smart-seq2 | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |
 | GSE123046 · Nowotschin 内胚层单细胞图谱 | GSE123046；GSE123046 (scRNA-seq) | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |
 | GSE123124 · Nowotschin 内胚层整体 RNA 数据 | GSE123124；GSE123124 (bulk RNA-seq) | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |

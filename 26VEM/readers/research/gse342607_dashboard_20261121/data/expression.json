@@ -1,0 +1,218 @@
+[
+  {
+    "pair": "GSE342607-T1-E85",
+    "task": "T1",
+    "stage": "E8.5",
+    "common_genes": 29331,
+    "n_per_draw": 999,
+    "runs": [
+      {
+        "seed": 0,
+        "external_mmd": 0.2415846586227417,
+        "official_split_mmd": 0.005700630135834217,
+        "external_css": 0.019450834020972252,
+        "official_split_css": 0.00020235042029526085
+      },
+      {
+        "seed": 1,
+        "external_mmd": 0.25843197107315063,
+        "official_split_mmd": 0.0046765864826738834,
+        "external_css": 0.020023126155138016,
+        "official_split_css": 0.00019229490135330707
+      },
+      {
+        "seed": 2,
+        "external_mmd": 0.2546267509460449,
+        "official_split_mmd": 0.004469358827918768,
+        "external_css": 0.019979655742645264,
+        "official_split_css": 0.0001917104673339054
+      }
+    ],
+    "means": {
+      "external_mmd": 0.25154779354731244,
+      "official_split_mmd": 0.004948858482142289,
+      "external_css": 0.01981787197291851,
+      "official_split_css": 0.00019545192966082445
+    }
+  },
+  {
+    "pair": "GSE342607-T1-E95",
+    "task": "T1",
+    "stage": "E9.5",
+    "common_genes": 29331,
+    "n_per_draw": 999,
+    "runs": [
+      {
+        "seed": 0,
+        "external_mmd": 0.22749359905719757,
+        "official_split_mmd": 0.0046320646069943905,
+        "external_css": 0.011921023949980736,
+        "official_split_css": 0.00019545869145076722
+      },
+      {
+        "seed": 1,
+        "external_mmd": 0.22600646317005157,
+        "official_split_mmd": 0.005447703413665295,
+        "external_css": 0.012070219032466412,
+        "official_split_css": 0.00018063964671455324
+      },
+      {
+        "seed": 2,
+        "external_mmd": 0.2364206612110138,
+        "official_split_mmd": 0.006365874316543341,
+        "external_css": 0.011548951268196106,
+        "official_split_css": 0.00021236030443105847
+      }
+    ],
+    "means": {
+      "external_mmd": 0.229973574479421,
+      "official_split_mmd": 0.0054818807790676756,
+      "external_css": 0.011846731416881084,
+      "official_split_css": 0.00019615288086545965
+    }
+  },
+  {
+    "pair": "GSE342607-T2E-E75",
+    "task": "T2_embryo",
+    "stage": "E7.5",
+    "common_genes": 494,
+    "n_per_draw": 999,
+    "runs": [
+      {
+        "seed": 0,
+        "external_mmd": 0.23849061131477356,
+        "official_split_mmd": 0.0019741342402994633,
+        "external_css": 0.3859350085258484,
+        "official_split_css": 0.0010777574498206377
+      },
+      {
+        "seed": 1,
+        "external_mmd": 0.23202621936798096,
+        "official_split_mmd": 0.0008443415281362832,
+        "external_css": 0.3982514441013336,
+        "official_split_css": 0.0007074555032886565
+      },
+      {
+        "seed": 2,
+        "external_mmd": 0.25015726685523987,
+        "official_split_mmd": 0.0013898223405703902,
+        "external_css": 0.3998955190181732,
+        "official_split_css": 0.0008056102087721229
+      }
+    ],
+    "means": {
+      "external_mmd": 0.24022469917933145,
+      "official_split_mmd": 0.0014027660363353789,
+      "external_css": 0.3946939905484517,
+      "official_split_css": 0.000863607720627139
+    }
+  },
+  {
+    "pair": "GSE342607-T2E-E80",
+    "task": "T2_embryo",
+    "stage": "E8.0",
+    "common_genes": 494,
+    "n_per_draw": 999,
+    "runs": [
+      {
+        "seed": 0,
+        "external_mmd": 0.1731627881526947,
+        "official_split_mmd": 0.0008302703499794006,
+        "external_css": 0.22804377973079681,
+        "official_split_css": 0.0011065169237554073
+      },
+      {
+        "seed": 1,
+        "external_mmd": 0.18994159996509552,
+        "official_split_mmd": 0.0016666024457663298,
+        "external_css": 0.23227810859680176,
+        "official_split_css": 0.0016617055516690016
+      },
+      {
+        "seed": 2,
+        "external_mmd": 0.16704753041267395,
+        "official_split_mmd": 0.0007618188974447548,
+        "external_css": 0.23675821721553802,
+        "official_split_css": 0.0011187809286639094
+      }
+    ],
+    "means": {
+      "external_mmd": 0.17671730617682138,
+      "official_split_mmd": 0.0010862305643968284,
+      "external_css": 0.23236003518104553,
+      "official_split_css": 0.0012956678013627727
+    }
+  },
+  {
+    "pair": "GSE342607-T2H-E85",
+    "task": "T2_heart",
+    "stage": "E8.5",
+    "common_genes": 494,
+    "n_per_draw": 999,
+    "runs": [
+      {
+        "seed": 0,
+        "external_mmd": 0.15435552597045898,
+        "official_split_mmd": 0.001108394586481154,
+        "external_css": 0.23671148717403412,
+        "official_split_css": 0.0011462165275588632
+      },
+      {
+        "seed": 1,
+        "external_mmd": 0.13797423243522644,
+        "official_split_mmd": 0.001445701695047319,
+        "external_css": 0.24712705612182617,
+        "official_split_css": 0.0015764457639306784
+      },
+      {
+        "seed": 2,
+        "external_mmd": 0.15205836296081543,
+        "official_split_mmd": 0.0013041809434071183,
+        "external_css": 0.24199475347995758,
+        "official_split_css": 0.0011349176056683064
+      }
+    ],
+    "means": {
+      "external_mmd": 0.14812937378883362,
+      "official_split_mmd": 0.0012860924083118637,
+      "external_css": 0.24194443225860596,
+      "official_split_css": 0.0012858599657192826
+    }
+  },
+  {
+    "pair": "GSE342607-T2H-E95",
+    "task": "T2_heart",
+    "stage": "E9.5",
+    "common_genes": 494,
+    "n_per_draw": 999,
+    "runs": [
+      {
+        "seed": 0,
+        "external_mmd": 0.2618209421634674,
+        "official_split_mmd": 0.001008701277896762,
+        "external_css": 0.35828354954719543,
+        "official_split_css": 0.0011184591567143798
+      },
+      {
+        "seed": 1,
+        "external_mmd": 0.2438935488462448,
+        "official_split_mmd": 0.0004824131610803306,
+        "external_css": 0.3640310764312744,
+        "official_split_css": 0.0008177253766916692
+      },
+      {
+        "seed": 2,
+        "external_mmd": 0.2564917504787445,
+        "official_split_mmd": 0.0013509138952940702,
+        "external_css": 0.35768043994903564,
+        "official_split_css": 0.001003963639959693
+      }
+    ],
+    "means": {
+      "external_mmd": 0.2540687471628189,
+      "official_split_mmd": 0.0009473427780903876,
+      "external_css": 0.3599983553091685,
+      "official_split_css": 0.000980049391121914
+    }
+  }
+]

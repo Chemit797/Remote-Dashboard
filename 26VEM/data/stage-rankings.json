@@ -1,10 +1,10 @@
 {
-  "version": "2026-11-20",
+  "version": "2026-11-21",
   "metric": "spearman_nonzero_union",
   "metric_label": "整体表达相关 ρ",
   "limit": 8,
   "method": "每个配对在共同实测基因内归一化、log1p，再按样本等权平均；删除双方全零基因，计算Spearman相关。",
-  "scope_note": "按已有整体表达ρ浏览排序；各来源共同基因、测量单位及取材不同，名称下保留共同基因数。多品系／重复各占一行，共用原始细胞的来源只占一行。",
+  "scope_note": "各行附共同基因数。已分开计算的品系和重复各列一行。按胚胎等权汇总的来源在每个阶段列一行，点击查看重复。",
   "groups": [
     {
       "id": "T1",
@@ -23,6 +23,25 @@
           ],
           "rows": [
             {
+              "pair": "GSE342607-T1-E85",
+              "task": "T1",
+              "official": "OFF_T1_E8.5_RNA",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "external": "GSE342607",
+              "external_ids": [
+                "GSE342607"
+              ],
+              "name": "GSE342607 · 小鼠胚胎谱系追踪图谱",
+              "rho": 0.9616752441379669,
+              "common_genes": 29331,
+              "observations": 89230,
+              "note": "外部为谱系追踪嵌合全胚胎的单细胞 RNA。三份胚胎先分别汇总再等权。官方取材、测量单位及标签范围见各项。",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=GSE342607-T1-E85&group=ALL",
+              "rank": 1
+            },
+            {
               "pair": "P007",
               "task": "T1",
               "official": "OFF_T1_E8.5_RNA",
@@ -38,8 +57,8 @@
               "observations": 154313,
               "note": "双方均为核RNA；外部为全胚，样本字段为12个RT组",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P007&group=ALL",
-              "rank": 1
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P007&group=ALL",
+              "rank": 2
             },
             {
               "pair": "P022",
@@ -57,8 +76,8 @@
               "observations": 3413,
               "note": "旧knee筛选的第2份E8.5；第1份文件损坏；无类型标签，整体结果仅作筛选敏感性",
               "kind": "qc_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P022&group=ALL",
-              "rank": 2
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P022&group=ALL",
+              "rank": 3
             },
             {
               "pair": "P006",
@@ -76,8 +95,8 @@
               "observations": 16909,
               "note": "官方为心脏及周边细胞核，外部为全胚解离细胞",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P006&group=ALL",
-              "rank": 3
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P006&group=ALL",
+              "rank": 4
             }
           ],
           "empty_reason": "暂无已计算的同阶段外部对照"
@@ -92,6 +111,25 @@
             "OFF_T1_E9.5_RNA"
           ],
           "rows": [
+            {
+              "pair": "GSE342607-T1-E95",
+              "task": "T1",
+              "official": "OFF_T1_E9.5_RNA",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "GSE342607",
+              "external_ids": [
+                "GSE342607"
+              ],
+              "name": "GSE342607 · 小鼠胚胎谱系追踪图谱",
+              "rho": 0.9540777935033203,
+              "common_genes": 29331,
+              "observations": 1074691,
+              "note": "外部为谱系追踪嵌合全胚胎的单细胞 RNA。三份胚胎先分别汇总再等权。官方取材、测量单位及标签范围见各项。",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=GSE342607-T1-E95&group=ALL",
+              "rank": 1
+            },
             {
               "pair": "P012",
               "task": "T1",
@@ -108,8 +146,8 @@
               "observations": 887,
               "note": "CD1分心腔样本；与官方细胞核的观测单位不同",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P012&group=ALL",
-              "rank": 1
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P012&group=ALL",
+              "rank": 2
             },
             {
               "pair": "P009",
@@ -127,8 +165,8 @@
               "observations": 4786,
               "note": "外部是已筛出的心场和心内膜核，不能从此计算全胚组成",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P009&group=ALL",
-              "rank": 2
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P009&group=ALL",
+              "rank": 3
             },
             {
               "pair": "P023",
@@ -146,8 +184,8 @@
               "observations": 533,
               "note": "整数样式未充分证明原始UMI，归一化结果仅作权重敏感性",
               "kind": "selection_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P023&group=ALL",
-              "rank": 3
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P023&group=ALL",
+              "rank": 4
             },
             {
               "pair": "P008",
@@ -166,8 +204,8 @@
               "observations": 110229,
               "note": "同一细胞ID连接VED-008计数和VED-003标签/QC，只算一份证据；全胚与官方心脏周边范围不同",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P008&group=ALL",
-              "rank": 4
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P008&group=ALL",
+              "rank": 5
             },
             {
               "pair": "P018",
@@ -185,8 +223,8 @@
               "observations": 19780,
               "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P018&group=ALL",
-              "rank": 5
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P018&group=ALL",
+              "rank": 6
             }
           ],
           "empty_reason": "暂无已计算的同阶段外部对照"
@@ -217,7 +255,7 @@
               "observations": 13723,
               "note": "4心脏池化只作一个样本；原始barcode经knee+基因数+线粒体QC",
               "kind": "qc_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X001&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X001&group=ALL",
               "rank": 1
             },
             {
@@ -236,7 +274,7 @@
               "observations": 587,
               "note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X007&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X007&group=ALL",
               "rank": 2
             },
             {
@@ -255,7 +293,7 @@
               "observations": 841,
               "note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X009&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X009&group=ALL",
               "rank": 3
             },
             {
@@ -274,7 +312,7 @@
               "observations": 332,
               "note": "332个作者filtered spot；混合多个细胞，不计算细胞类型比例",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X029&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X029&group=ALL",
               "rank": 4
             },
             {
@@ -293,7 +331,7 @@
               "observations": 718,
               "note": "作者embryo_id分组；已下载心肌和内皮子集，不代表全胚比例",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X021&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X021&group=ALL",
               "rank": 5
             },
             {
@@ -312,7 +350,7 @@
               "observations": 11480,
               "note": "作者EmptyDrops筛选；流出道局部取材，非全心脏",
               "kind": "selection_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X015&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X015&group=ALL",
               "rank": 6
             },
             {
@@ -331,7 +369,7 @@
               "observations": 12535,
               "note": "仅Control，orig.ident分组；发布矩阵与元数据nUMI总量不一致，按发布非负整数矩阵比较；不推断纯WT",
               "kind": "same_stage_untyped",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X019&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X019&group=ALL",
               "rank": 7
             },
             {
@@ -350,7 +388,7 @@
               "observations": 21570,
               "note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
               "kind": "qc_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X011&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X011&group=ALL",
               "rank": 8
             },
             {
@@ -369,7 +407,7 @@
               "observations": 21093,
               "note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
               "kind": "qc_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X013&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X013&group=ALL",
               "rank": 9
             },
             {
@@ -389,7 +427,7 @@
               "observations": 267994,
               "note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X027&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X027&group=ALL",
               "rank": 10
             },
             {
@@ -408,7 +446,7 @@
               "observations": 967,
               "note": "单份Osr1阳性富集；非完整心脏；未细分类型",
               "kind": "selection_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X017&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X017&group=ALL",
               "rank": 11
             },
             {
@@ -427,7 +465,7 @@
               "observations": 2306,
               "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X003&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X003&group=ALL",
               "rank": 12
             },
             {
@@ -446,7 +484,7 @@
               "observations": 3839,
               "note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X023&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X023&group=ALL",
               "rank": 13
             },
             {
@@ -465,7 +503,7 @@
               "observations": 2130,
               "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X005&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X005&group=ALL",
               "rank": 14
             },
             {
@@ -484,7 +522,7 @@
               "observations": 2396,
               "note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X025&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X025&group=ALL",
               "rank": 15
             }
           ],
@@ -536,7 +574,7 @@
               "observations": 2075,
               "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P001&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P001&group=ALL",
               "rank": 1
             }
           ],
@@ -568,7 +606,7 @@
               "observations": 13537,
               "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P002&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P002&group=ALL",
               "rank": 1
             },
             {
@@ -587,7 +625,7 @@
               "observations": 785,
               "note": "外部FACS富集Mesp1谱系、缺细胞类型，不代表全胚或全心脏",
               "kind": "same_stage_untyped",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P020&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P020&group=ALL",
               "rank": 2
             }
           ],
@@ -602,7 +640,27 @@
           "official_files": [
             "OFF_T2_embryo_E7.5"
           ],
-          "rows": [],
+          "rows": [
+            {
+              "pair": "GSE342607-T2E-E75",
+              "task": "T2 胚胎",
+              "official": "OFF_T2_embryo_E7.5",
+              "official_stage": "E7.5",
+              "external_stage": "E7.5",
+              "external": "GSE342607",
+              "external_ids": [
+                "GSE342607"
+              ],
+              "name": "GSE342607 · 小鼠胚胎谱系追踪图谱",
+              "rho": 0.5845825635696876,
+              "common_genes": 494,
+              "observations": 4648,
+              "note": "外部为谱系追踪嵌合全胚胎的单细胞 RNA。三份胚胎先分别汇总再等权。官方取材、测量单位及标签范围见各项。",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=GSE342607-T2E-E75&group=ALL",
+              "rank": 1
+            }
+          ],
           "empty_reason": "暂无已计算的同阶段外部对照"
         },
         {
@@ -643,8 +701,27 @@
               "observations": 16681,
               "note": "E8.0官方为心脏新月取材且counts含小数；早期ROI未完全核实",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P003&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P003&group=ALL",
               "rank": 1
+            },
+            {
+              "pair": "GSE342607-T2E-E80",
+              "task": "T2 胚胎",
+              "official": "OFF_T2_embryo_E8.0",
+              "official_stage": "E8.0",
+              "external_stage": "E8.0",
+              "external": "GSE342607",
+              "external_ids": [
+                "GSE342607"
+              ],
+              "name": "GSE342607 · 小鼠胚胎谱系追踪图谱",
+              "rho": 0.565772813002449,
+              "common_genes": 494,
+              "observations": 21942,
+              "note": "外部为谱系追踪嵌合全胚胎的单细胞 RNA。三份胚胎先分别汇总再等权。官方取材、测量单位及标签范围见各项。",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=GSE342607-T2E-E80&group=ALL",
+              "rank": 2
             },
             {
               "pair": "P005",
@@ -662,8 +739,8 @@
               "observations": 27266,
               "note": "外部是全胚切片重建对象；官方为心脏新月的分割细胞，非同单位占比",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P005&group=ALL",
-              "rank": 2
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P005&group=ALL",
+              "rank": 3
             },
             {
               "pair": "P004",
@@ -681,8 +758,8 @@
               "observations": 11048,
               "note": "外部是全胚切片重建对象；官方为心脏新月的分割细胞，非同单位占比",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P004&group=ALL",
-              "rank": 3
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P004&group=ALL",
+              "rank": 4
             }
           ],
           "empty_reason": "暂无已计算的同阶段外部对照"
@@ -716,7 +793,27 @@
           "official_files": [
             "OFF_T2_heart_E8.5"
           ],
-          "rows": [],
+          "rows": [
+            {
+              "pair": "GSE342607-T2H-E85",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E8.5",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "external": "GSE342607",
+              "external_ids": [
+                "GSE342607"
+              ],
+              "name": "GSE342607 · 小鼠胚胎谱系追踪图谱",
+              "rho": 0.6449546254606573,
+              "common_genes": 494,
+              "observations": 89230,
+              "note": "外部为谱系追踪嵌合全胚胎的单细胞 RNA。三份胚胎先分别汇总再等权。官方取材、测量单位及标签范围见各项。",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=GSE342607-T2H-E85&group=ALL",
+              "rank": 1
+            }
+          ],
           "empty_reason": "暂无已计算的同阶段外部对照"
         },
         {
@@ -745,7 +842,7 @@
               "observations": 1379,
               "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P010&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P010&group=ALL",
               "rank": 1
             }
           ],
@@ -777,7 +874,7 @@
               "observations": 887,
               "note": "分心腔解离细胞与空间分割细胞不同；心房小样本保留",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P013&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P013&group=ALL",
               "rank": 1
             },
             {
@@ -796,7 +893,7 @@
               "observations": 19780,
               "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P019&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P019&group=ALL",
               "rank": 2
             },
             {
@@ -815,8 +912,27 @@
               "observations": 4786,
               "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P011&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P011&group=ALL",
               "rank": 3
+            },
+            {
+              "pair": "GSE342607-T2H-E95",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "GSE342607",
+              "external_ids": [
+                "GSE342607"
+              ],
+              "name": "GSE342607 · 小鼠胚胎谱系追踪图谱",
+              "rho": 0.4176970533114442,
+              "common_genes": 494,
+              "observations": 1074691,
+              "note": "外部为谱系追踪嵌合全胚胎的单细胞 RNA。三份胚胎先分别汇总再等权。官方取材、测量单位及标签范围见各项。",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=GSE342607-T2H-E95&group=ALL",
+              "rank": 4
             },
             {
               "pair": "P024",
@@ -835,8 +951,8 @@
               "observations": 110229,
               "note": "计数/注释来自两项共享数据的研究，只算一份证据",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P024&group=ALL",
-              "rank": 4
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P024&group=ALL",
+              "rank": 5
             }
           ],
           "empty_reason": "暂无已计算的同阶段外部对照"
@@ -887,7 +1003,7 @@
               "observations": 1379,
               "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P010&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P010&group=ALL",
               "rank": 1
             }
           ],
@@ -919,7 +1035,7 @@
               "observations": 887,
               "note": "分心腔解离细胞与空间分割细胞不同；心房小样本保留",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P013&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P013&group=ALL",
               "rank": 1
             },
             {
@@ -938,7 +1054,7 @@
               "observations": 19780,
               "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P019&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P019&group=ALL",
               "rank": 2
             },
             {
@@ -957,8 +1073,27 @@
               "observations": 4786,
               "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P011&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P011&group=ALL",
               "rank": 3
+            },
+            {
+              "pair": "GSE342607-T2H-E95",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "GSE342607",
+              "external_ids": [
+                "GSE342607"
+              ],
+              "name": "GSE342607 · 小鼠胚胎谱系追踪图谱",
+              "rho": 0.4176970533114442,
+              "common_genes": 494,
+              "observations": 1074691,
+              "note": "外部为谱系追踪嵌合全胚胎的单细胞 RNA。三份胚胎先分别汇总再等权。官方取材、测量单位及标签范围见各项。",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=GSE342607-T2H-E95&group=ALL",
+              "rank": 4
             },
             {
               "pair": "P024",
@@ -977,8 +1112,8 @@
               "observations": 110229,
               "note": "计数/注释来自两项共享数据的研究，只算一份证据",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P024&group=ALL",
-              "rank": 4
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P024&group=ALL",
+              "rank": 5
             }
           ],
           "empty_reason": "暂无已计算的同阶段外部对照"
@@ -1009,7 +1144,7 @@
               "observations": 332,
               "note": "332个作者filtered spot；混合多个细胞，不计算细胞类型比例",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X030&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X030&group=ALL",
               "rank": 1
             },
             {
@@ -1028,7 +1163,7 @@
               "observations": 11480,
               "note": "作者EmptyDrops筛选；流出道局部取材，非全心脏",
               "kind": "selection_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X016&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X016&group=ALL",
               "rank": 2
             },
             {
@@ -1047,7 +1182,7 @@
               "observations": 967,
               "note": "单份Osr1阳性富集；非完整心脏；未细分类型",
               "kind": "selection_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X018&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X018&group=ALL",
               "rank": 3
             },
             {
@@ -1066,7 +1201,7 @@
               "observations": 12535,
               "note": "仅Control，orig.ident分组；发布矩阵与元数据nUMI总量不一致，按发布非负整数矩阵比较；不推断纯WT",
               "kind": "same_stage_untyped",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X020&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X020&group=ALL",
               "rank": 4
             },
             {
@@ -1085,7 +1220,7 @@
               "observations": 587,
               "note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X008&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X008&group=ALL",
               "rank": 5
             },
             {
@@ -1104,7 +1239,7 @@
               "observations": 13723,
               "note": "4心脏池化只作一个样本；原始barcode经knee+基因数+线粒体QC",
               "kind": "qc_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X002&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X002&group=ALL",
               "rank": 6
             },
             {
@@ -1123,7 +1258,7 @@
               "observations": 21093,
               "note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
               "kind": "qc_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X014&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X014&group=ALL",
               "rank": 7
             },
             {
@@ -1142,7 +1277,7 @@
               "observations": 21570,
               "note": "原始barcode矩阵经明确knee+基因数+线粒体QC；两份样本分开；未细分类型",
               "kind": "qc_sensitivity",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X012&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X012&group=ALL",
               "rank": 8
             },
             {
@@ -1161,7 +1296,7 @@
               "observations": 841,
               "note": "sample为作者文库；心腔另列，不作为独立胚胎；两品系分开",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X010&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X010&group=ALL",
               "rank": 9
             },
             {
@@ -1180,7 +1315,7 @@
               "observations": 2306,
               "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X004&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X004&group=ALL",
               "rank": 10
             },
             {
@@ -1199,7 +1334,7 @@
               "observations": 3839,
               "note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X024&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X024&group=ALL",
               "rank": 11
             },
             {
@@ -1218,7 +1353,7 @@
               "observations": 2396,
               "note": "每行是Slide-seq微珠；重复分开，非独立细胞；不与三维坐标作几何对照",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X026&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X026&group=ALL",
               "rank": 12
             },
             {
@@ -1237,7 +1372,7 @@
               "observations": 2130,
               "note": "E10.5 FFPE胚胎切片；重复分开；每行是像素",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X006&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X006&group=ALL",
               "rank": 13
             },
             {
@@ -1256,7 +1391,7 @@
               "observations": 718,
               "note": "作者embryo_id分组；已下载心肌和内皮子集，不代表全胚比例",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X022&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X022&group=ALL",
               "rank": 14
             },
             {
@@ -1276,7 +1411,7 @@
               "observations": 267994,
               "note": "按同细胞ID连接；每个作者embryo_id等权；两研究共享一个表达对象；发布Total_mRNAs差异另列",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=X028&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=X028&group=ALL",
               "rank": 15
             }
           ],
@@ -1328,7 +1463,7 @@
               "observations": 1379,
               "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P010&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P010&group=ALL",
               "rank": 1
             }
           ],
@@ -1396,7 +1531,7 @@
               "observations": 887,
               "note": "分心腔解离细胞与空间分割细胞不同；心房小样本保留",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P013&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P013&group=ALL",
               "rank": 1
             },
             {
@@ -1415,7 +1550,7 @@
               "observations": 19780,
               "note": "外部为空间bin和心腔区域，不与单细胞标签强配；只作整体背景比较",
               "kind": "spatial_background",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P019&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P019&group=ALL",
               "rank": 2
             },
             {
@@ -1434,8 +1569,27 @@
               "observations": 4786,
               "note": "实际外部早期作者标签可能是心场而非成熟心肌；缺标签仍保留条目",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P011&group=ALL",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P011&group=ALL",
               "rank": 3
+            },
+            {
+              "pair": "GSE342607-T2H-E95",
+              "task": "T2 心脏",
+              "official": "OFF_T2_heart_E9.5",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "external": "GSE342607",
+              "external_ids": [
+                "GSE342607"
+              ],
+              "name": "GSE342607 · 小鼠胚胎谱系追踪图谱",
+              "rho": 0.4176970533114442,
+              "common_genes": 494,
+              "observations": 1074691,
+              "note": "外部为谱系追踪嵌合全胚胎的单细胞 RNA。三份胚胎先分别汇总再等权。官方取材、测量单位及标签范围见各项。",
+              "kind": "same_stage",
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=GSE342607-T2H-E95&group=ALL",
+              "rank": 4
             },
             {
               "pair": "P024",
@@ -1454,8 +1608,8 @@
               "observations": 110229,
               "note": "计数/注释来自两项共享数据的研究，只算一份证据",
               "kind": "same_stage",
-              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair=P024&group=ALL",
-              "rank": 4
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=2026-11-21#pair=P024&group=ALL",
+              "rank": 5
             }
           ],
           "empty_reason": "暂无已计算的同阶段外部对照"
@@ -1475,7 +1629,7 @@
       ]
     }
   ],
-  "candidate_count": 49,
+  "candidate_count": 55,
   "excluded": [
     {
       "pair": "P014",
@@ -1564,12 +1718,12 @@
   ],
   "sources": [
     {
-      "path": "D:\\Project\\Remote-Dashboard\\26VEM\\readers\\research\\vem_pairwise_similarity_v3\\comparison.html",
-      "sha256": "d1bc1fda46e3b8b66d01fe67467302a8b8446170cd942df943a34779b0c879c4"
+      "path": "readers/research/vem_pairwise_similarity_v3/comparison.html",
+      "sha256": "95a0db727da7a6985eff51fccb14f9991195eeddaddef163f352a96553828d8d"
     },
     {
-      "path": "D:\\Project\\virtualembryo_biocosmosX\\catalogs\\external_dataset_names.json",
-      "sha256": "b20d97512edcb9b04e0b724943fe8cacc28f95005b305603613995aaf3463104"
+      "path": "catalogs/external_dataset_names.json",
+      "sha256": "b8e818b821048d14ea9cf7bed2585cf87b5e54a171b6996510db067ccc33123f"
     }
   ]
 }

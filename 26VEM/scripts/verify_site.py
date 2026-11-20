@@ -20,7 +20,15 @@ check('official_inventory_15_and_590352',len(D['official'])==15 and sum(x['cells
 check('validation_files_6',sum(x['role']=='开发验证' for x in D['official'])==6)
 check('108_unique_claims',len(D['claims'])==len({x['id'] for x in D['claims']})==108)
 check('claim_statuses_match_summary',dict(collections.Counter(x['checks']['official']['status'] for x in D['claims']))==D['knowledge_summary']['official'])
-check('43_unique_external_identities',len(D['external'])==len({x['id'] for x in D['external']})==43)
+source_ids={x['id'] for x in D['external']}
+registered={f'VED-{i:03d}' for i in range(1,44)}|{x['id'] for x in D.get('external_extensions',[])}
+check('external_identities_match_registry',len(D['external'])==len(source_ids) and source_ids==registered)
+for item in D.get('external_extensions',[]):
+    entry=next(x for x in D['external'] if x['id']==item['id'])
+    check('extension_samples_unique_'+entry['id'],bool(entry['samples']) and len(entry['samples'])==len({s['accession'] for s in entry['samples']}))
+    check('extension_pairs_have_results_'+entry['id'],all(
+        (SITE/'readers/research/vem_pairwise_similarity_v3/results'/(p['pair']+'_result.json')).is_file()
+        for p in entry['comparisons']))
 check('external_names_have_fixed_ids',all(x['name'].startswith(x['id']+' · ') for x in D['external']))
 check('15_unique_analyses',len(D['analyses'])==len({x['analysis_id'] for x in D['analyses']})==15)
 readers=D['readers']
@@ -44,7 +52,7 @@ for cut,expected in [(.005,282),(.01,236),(.02,162),(.05,71)]:
     check('threshold_union_'+str(cut),len({x['gene'] for x in neighbours if x['eligible'] and x['delta']>cut and x['shuffle_delta']>cut})==expected)
 vc=D['validation_completion']
 ex=D.get('external_e105') or {};added_pairs=ex.get('new_pair_rows',0);added_metrics=ex.get('new_metric_rows',0)
-check('135_original_plus_E105_pairwise_rows',len(D['pairs'])==vc['original_comparison_rows']+vc['added_comparison_rows']+added_pairs)
+check('pairwise_rows_reconcile',len(D['pairs'])==vc['original_comparison_rows']+vc['added_comparison_rows']+added_pairs+D.get('external_extension_pair_rows',0))
 check('369_original_plus_E105_metric_rows',len(D['metrics'])==vc['original_metric_rows']+added_metrics and vc['original_metric_rows']==369 and vc['added_metric_rows']==0)
 check('30_E105_pairs_in_new_namespace',len({x['pair'] for x in D['pairs'] if x['pair'].startswith('X')})==ex.get('new_pairs',0))
 check('16_background_pairs_in_new_namespace',len({x['pair'] for x in D['pairs'] if x['pair'].startswith('V')})==16)
@@ -75,7 +83,7 @@ for val in {x['type'] for x in neighbours}:
     check('filter_type_'+val,repr(val) in script)
 manifest={'built_at':D['built_at'],'checks':checks,'check_count':len(checks),'all_passed':all(checks.values()),
     'browser_checks':'See delivery receipt for desktop/mobile screenshots and interactive verification; not performed by this script.',
-    'counts':{'analyses':15,'knowledge':108,'sources':43,'genes':500,'neighbour_rows':9500,'pairs':len(D['pairs']),'metrics':len(D['metrics']),'validation_background_pairs':16,'same_stage_E105_pairs':ex.get('new_pairs',0)},
+    'counts':{'analyses':15,'knowledge':108,'sources':len(D['external']),'genes':500,'neighbour_rows':9500,'pairs':len(D['pairs']),'metrics':len(D['metrics']),'validation_background_pairs':16,'same_stage_E105_pairs':ex.get('new_pairs',0)},
     'files':[{'path':p.relative_to(SITE).as_posix(),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(SITE.rglob('*')) if p.is_file() and p.name!='VERIFICATION.json' and '__pycache__' not in p.parts]}
 (SITE/'VERIFICATION.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(json.dumps({'checks':len(checks),'all_passed':all(checks.values()),'files':len(manifest['files'])},ensure_ascii=False))

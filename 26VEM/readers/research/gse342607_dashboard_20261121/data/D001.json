@@ -1,0 +1,49 @@
+{
+  "official": {
+    "pair": "GSE342607-T2E-E80",
+    "side": "official",
+    "dataset": "OFF_T2_embryo_E8.0",
+    "stage": "E8.0",
+    "sample": "OFF_T2_embryo_E8.0",
+    "raw_label": "Allantois",
+    "n": "1815",
+    "denominator": "31671",
+    "proportion": "0.057307947333522784"
+  },
+  "external": [
+    {
+      "pair": "GSE342607-T2E-E80",
+      "side": "external",
+      "dataset": "GSE342607",
+      "stage": "E8.0",
+      "sample": "E8.0-R1",
+      "raw_label": "Allantois",
+      "n": "273",
+      "denominator": "4498",
+      "proportion": "0.06069364161849711"
+    },
+    {
+      "pair": "GSE342607-T2E-E80",
+      "side": "external",
+      "dataset": "GSE342607",
+      "stage": "E8.0",
+      "sample": "E8.0-R2",
+      "raw_label": "Allantois",
+      "n": "797",
+      "denominator": "10681",
+      "proportion": "0.07461848141559779"
+    },
+    {
+      "pair": "GSE342607-T2E-E80",
+      "side": "external",
+      "dataset": "GSE342607",
+      "stage": "E8.0",
+      "sample": "E8.0-R3",
+      "raw_label": "Allantois",
+      "n": "468",
+      "denominator": "6763",
+      "proportion": "0.0692000591453497"
+    }
+  ],
+  "external_equal_mean": 0.06817072739314821
+}

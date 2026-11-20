@@ -25,7 +25,8 @@ def build(project):
             assert sid+' · '+names[sid] in p['external_name'],(sid,p['external_name'])
         note={'BUBR1_WT_E105':'WT','PITX2_CONTROL_E105':'Control'}.get(p['external'])
         name=p['external_name']+(' · '+note if note else '')
-        candidates.append(dict(pair=p['id'],task=p['task'],official=p['official'],official_stage=p['official_stage'],external_stage=p['external_stage'],external=p['external'],external_ids=p['external_ids'],name=name,rho=record['spearman_nonzero_union'],common_genes=p['panel']['common'],observations=record['external_n'],note=p['note'],kind=p['kind'],url='readers/research/vem_pairwise_similarity_v3/comparison.html?v=e105-same-stage-20261119#pair='+p['id']+'&group=ALL'))
+        revision=payload.get('release','e105-same-stage-20261119')
+        candidates.append(dict(pair=p['id'],task=p['task'],official=p['official'],official_stage=p['official_stage'],external_stage=p['external_stage'],external=p['external'],external_ids=p['external_ids'],name=name,rho=record['spearman_nonzero_union'],common_genes=p['panel']['common'],observations=record['external_n'],note=p['note'],kind=p['kind'],url='readers/research/vem_pairwise_similarity_v3/comparison.html?v='+revision+'#pair='+p['id']+'&group=ALL'))
 
     def node(stage,role,official=None,condition='WT',label=None,reason=None,extra_ids=None):
         rows=[dict(r) for r in candidates if r['official']==official] if official else []
@@ -52,7 +53,7 @@ def build(project):
         for n in g['nodes']:
             assert len({r['pair'] for r in n['rows']})==len(n['rows'])
             assert all(r['official_stage']==r['external_stage']==n['stage'] for r in n['rows'])
-    data=dict(version='2026-11-20',metric='spearman_nonzero_union',metric_label='整体表达相关 ρ',limit=8,method='每个配对在共同实测基因内归一化、log1p，再按样本等权平均；删除双方全零基因，计算Spearman相关。',scope_note='按已有整体表达ρ浏览排序；各来源共同基因、测量单位及取材不同，名称下保留共同基因数。多品系／重复各占一行，共用原始细胞的来源只占一行。',groups=groups,candidate_count=len(candidates),excluded=excluded,sources=[dict(path=str(p),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in [pair_file,name_file]])
+    data=dict(version=payload.get('released_on','2026-11-20'),metric='spearman_nonzero_union',metric_label='整体表达相关 ρ',limit=8,method='每个配对在共同实测基因内归一化、log1p，再按样本等权平均；删除双方全零基因，计算Spearman相关。',scope_note='各行附共同基因数。已分开计算的品系和重复各列一行。按胚胎等权汇总的来源在每个阶段列一行，点击查看重复。',groups=groups,candidate_count=len(candidates),excluded=excluded,sources=[dict(path=p.relative_to(root).as_posix(),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p,root in [(pair_file,SITE),(name_file,project)]])
     text=json.dumps(data,ensure_ascii=False,separators=(',',':'))
     (SITE/'data/stage-rankings.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     (SITE/'assets/stage-rankings-data.js').write_text('window.VEM_STAGE_RANKINGS='+text+';\n',encoding='utf-8',newline='\n')

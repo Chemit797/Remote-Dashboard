@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-19T06:47:27.395478+00:00",
+  "built_at": "2026-11-20T20:19:35.312207+00:00",
   "checks": {
     "four_final_targets": true,
     "no_invented_scores_or_quota": true,
@@ -7,7 +7,13 @@
     "validation_files_6": true,
     "108_unique_claims": true,
     "claim_statuses_match_summary": true,
-    "43_unique_external_identities": true,
+    "external_identities_match_registry": true,
+    "extension_samples_unique_GSE342607": true,
+    "extension_pairs_have_results_GSE342607": true,
+    "extension_samples_unique_GSE117621": true,
+    "extension_pairs_have_results_GSE117621": true,
+    "extension_samples_unique_GSE52317": true,
+    "extension_pairs_have_results_GSE52317": true,
     "external_names_have_fixed_ids": true,
     "15_unique_analyses": true,
     "15_original_reader_entries": true,
@@ -29,7 +35,7 @@
     "threshold_union_0.01": true,
     "threshold_union_0.02": true,
     "threshold_union_0.05": true,
-    "135_original_plus_E105_pairwise_rows": true,
+    "pairwise_rows_reconcile": true,
     "369_original_plus_E105_metric_rows": true,
     "30_E105_pairs_in_new_namespace": true,
     "16_background_pairs_in_new_namespace": true,
@@ -44,6 +50,8 @@
     "asset_assets/favicon.svg": true,
     "asset_assets/site.css": true,
     "asset_assets/data.js": true,
+    "asset_assets/stage-rankings-data.js": true,
+    "asset_assets/stage-rankings.js": true,
     "asset_assets/app.js": true,
     "asset_README.md": true,
     "safe_report_A01": true,
@@ -78,19 +86,19 @@
     "web_report_links_A15": true,
     "filter_type_Other mesoderm": true,
     "filter_type_Endothelial/endocardial": true,
-    "filter_type_Cardiomyocyte": true,
-    "filter_type_Cardiac progenitor/heart field": true
+    "filter_type_Cardiac progenitor/heart field": true,
+    "filter_type_Cardiomyocyte": true
   },
-  "check_count": 79,
+  "check_count": 87,
   "all_passed": true,
   "browser_checks": "See delivery receipt for desktop/mobile screenshots and interactive verification; not performed by this script.",
   "counts": {
     "analyses": 15,
     "knowledge": 108,
-    "sources": 43,
+    "sources": 46,
     "genes": 500,
     "neighbour_rows": 9500,
-    "pairs": 190,
+    "pairs": 229,
     "metrics": 573,
     "validation_background_pairs": 16,
     "same_stage_E105_pairs": 30
@@ -103,13 +111,13 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 43105,
-      "sha256": "30e7eee14ba3f8ff98ee75d3ab997af056aa0fe138d8ffae305b01aac43e1c39"
+      "bytes": 45459,
+      "sha256": "6698206d1437c61e5c3922a6bfe81911c1bea81aec525eebd6f1ba048e8c7af5"
     },
     {
       "path": "assets/data.js",
-      "bytes": 1200493,
-      "sha256": "643f2993242803a288d74116b3f17ea90c5e8e90fce443bf4446dfc6508eb5fe"
+      "bytes": 1224200,
+      "sha256": "57be693de0bfd40543e29d395095ff4693a32e678d99a86c8a25c1e6b02c8685"
     },
     {
       "path": "assets/favicon.svg",
@@ -148,8 +156,18 @@
     },
     {
       "path": "assets/site.css",
-      "bytes": 14375,
-      "sha256": "5219679919047aac1fc94e4f6723d11971149f6519012ce75e3fa8f11b2f1965"
+      "bytes": 18342,
+      "sha256": "bd4a2aba7a37b858e9a3f3fd49bb4aa6a0ab9a813f5689fa1ff663857c932aa3"
+    },
+    {
+      "path": "assets/stage-rankings-data.js",
+      "bytes": 42802,
+      "sha256": "e2ba9522adefead12b325d497db8a9e8f5c79ea49ff6838d81cf758bd0682948"
+    },
+    {
+      "path": "assets/stage-rankings.js",
+      "bytes": 3749,
+      "sha256": "0f2b6acd403786473f7d982463a47f07191a27f514fa5e5a93c77fdb86a7f3f9"
     },
     {
       "path": "data/5090-tree.txt",
@@ -173,23 +191,28 @@
     },
     {
       "path": "data/original-readers-manifest.json",
-      "bytes": 297556,
-      "sha256": "0ac3df1a81fdfd1bee22dd10329fa7867fae78e0d819336501ddc5f8b55c2498"
+      "bytes": 321669,
+      "sha256": "42c53ddf9dffda9a0a4e73904ef3426aab7952762ba0f358aada45651909654d"
     },
     {
       "path": "data/original-readers.json",
-      "bytes": 17279,
-      "sha256": "5ab0fbd064882b049d860a721dea3009fdbdc47bc50b4eaee348ac2718e1e1ee"
+      "bytes": 17460,
+      "sha256": "f0b5fac22edcf2c8b8c4810dbe84670747c9751686417f5258ced5e29fc5ac5c"
     },
     {
       "path": "data/research-catalog.json",
-      "bytes": 48160,
-      "sha256": "7ee6c184991c1201be5f7d4fcee0abad04c566b2caac94fa524e24c96d3feafe"
+      "bytes": 48244,
+      "sha256": "d4e23566d736d5802a0da3ab4e4b19a9705dc6af09308131ce3fa38eb887aefa"
     },
     {
       "path": "data/source-manifest.json",
-      "bytes": 8011,
-      "sha256": "46d2d62f1a6b76d3e36b985ad40898be05f5f782ae0fca5821c5426d1132ef87"
+      "bytes": 9202,
+      "sha256": "bd894dc5ed417db924f0dc014e3070043bc83ec4ca0d1774bc8d726bc5ed0946"
+    },
+    {
+      "path": "data/stage-rankings.json",
+      "bytes": 67253,
+      "sha256": "2df44a2f0a8e64d2c0ba56c35a1189f69ee5cfe8c0d1fcfb9e1859ee4a6efbc4"
     },
     {
       "path": "data/validation-completion.json",
@@ -198,13 +221,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 1790,
-      "sha256": "8e9ecf3b65ebf88b4dc23ffdb831d5f865b5ac65796a95b2b92516642e02a27c"
+      "bytes": 2038,
+      "sha256": "b6ddce97aab3b546cce90863a1f0f54859047ac47f4098220e4ed8ae653617ef"
     },
     {
       "path": "readers/docs/EXTERNAL_DATASET_NAMES.md",
-      "bytes": 7900,
-      "sha256": "98168a8e5abc0c0e028247865a8384ea9d1afb0db97256e1d22564d5d53063f7"
+      "bytes": 8122,
+      "sha256": "9bfc53585e0e5a2421a0d91376d1d5c1f42f909cb4a13ca6cde11b1b419b9254"
     },
     {
       "path": "readers/handbook/HUMAN_GUIDE.html",
@@ -383,13 +406,13 @@
     },
     {
       "path": "readers/older/REPORT_ZH.html",
-      "bytes": 47593,
-      "sha256": "ce3ccaf372c85cf15cae4bb397599521b065b790f52c3187dfd9a900c73a39e4"
+      "bytes": 47753,
+      "sha256": "66f832dce90ab6efaaa7ab23fd5bc0714045c5213be06d23cb403a9760a20d2e"
     },
     {
       "path": "readers/older/REPORT_ZH.md",
-      "bytes": 42276,
-      "sha256": "2a036cb39a9928f48a736fcc2a7ded4d5592c980bd38fc2297fb333ec021defd"
+      "bytes": 42419,
+      "sha256": "ec82cf625e828a7e21f8d89792d5298362a0a05ae0c4a78d5ab77ea59fb26b0a"
     },
     {
       "path": "readers/older/same_panel_control.csv",
@@ -1313,8 +1336,8 @@
     },
     {
       "path": "readers/research/early_embryo_prior_audit/knowledge.html",
-      "bytes": 451579,
-      "sha256": "6f7adc04aec8af05e0ec7280421671f82109e2b26322cc78376a3163864f22b8"
+      "bytes": 452545,
+      "sha256": "16554d47da2abca51dcc6c53d9b814c924c24f051b27f2d553a2f821bbedbabf"
     },
     {
       "path": "readers/research/early_embryo_prior_audit/knowledge.jsonl",
@@ -2367,6 +2390,61 @@
       "sha256": "3f668368d05fac51a55aa6ee8c1399e676698b835bb3219fdae7a1f73aab5789"
     },
     {
+      "path": "readers/research/gse342607_dashboard_20261121/data/D001.json",
+      "bytes": 1182,
+      "sha256": "283a75d97168b013940be15a2ba5f6b78f66d9e2254247b4437c5111841eae70"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/expression.json",
+      "bytes": 6318,
+      "sha256": "26699c1c094cb87e4270877f3c8552ed7e83493c6a9b2362078b00a863405d51"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T1-E85-binary.json",
+      "bytes": 2446,
+      "sha256": "4a2f71a00b51de68671c6a18254c4bef8c7f9cf9a50668c0e9c2681037184888"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T1-E95-binary.json",
+      "bytes": 2447,
+      "sha256": "0363d4f188550f6912ab7f1dfc58905aa5cc7301187aed4bfd4e2eba7824d608"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T1-E95__ALL_changes.csv.gz",
+      "bytes": 1014263,
+      "sha256": "7301682290357c2d82a8012dce548a65bf819877d812c69c369bf0dfaee7e088"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T1-E95__foregut_changes.csv.gz",
+      "bytes": 819358,
+      "sha256": "8df1e25e3467029681cdf1b125deb4f433e51c5514212f20eda20da5b1b99fb9"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T1-E95__shf_changes.csv.gz",
+      "bytes": 886546,
+      "sha256": "7bfb1658a771bb4c2ca84490f49564e5f6d3315d9027e7c6fdeb36855e7e082b"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T1-E95__surface_changes.csv.gz",
+      "bytes": 818235,
+      "sha256": "05dbb4e7937ebcf8bce62f59d82d17af2639b9a02a56e1859c0de4c42982cd6d"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T2E-E80__ALL_changes.csv.gz",
+      "bytes": 19420,
+      "sha256": "6774e4172de8ce1ecbe94df5626a82a79b3ce95904aa79bc58aafc6b6739a123"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T2E-E80__primitive_streak_changes.csv.gz",
+      "bytes": 18344,
+      "sha256": "d76f456859ebda2868c9e4b666d78eaecb9f778b2d7d98c9a038507018229694"
+    },
+    {
+      "path": "readers/research/gse342607_dashboard_20261121/data/GSE342607-T2H-E95__ALL_changes.csv.gz",
+      "bytes": 19596,
+      "sha256": "7a3d5d961935e8fb568717ab76cc540aa4aeacc162d9d2355d4241100c9cd43d"
+    },
+    {
       "path": "readers/research/validation_completion_20261119/public/all_comparisons.csv",
       "bytes": 53099,
       "sha256": "4bb848f6e916c40f1128f491659b89a7727c4b8a57083083c502139588240c2c"
@@ -2413,8 +2491,8 @@
     },
     {
       "path": "readers/research/vem_official_metric_source_audit/index.html",
-      "bytes": 3627073,
-      "sha256": "647ef871c1e17ba0ab60c73d90fef06a0844c7299c0f28d06c8192dbdbd5746e"
+      "bytes": 3630645,
+      "sha256": "694ea0708a72e712fd016f82dc7456356cc41f38f790716961500a1cf131cdcd"
     },
     {
       "path": "readers/research/vem_official_metric_source_audit/PROTOCOL.md",
@@ -2648,8 +2726,8 @@
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/comparison.html",
-      "bytes": 2876886,
-      "sha256": "d1bc1fda46e3b8b66d01fe67467302a8b8446170cd942df943a34779b0c879c4"
+      "bytes": 3560550,
+      "sha256": "95a0db727da7a6985eff51fccb14f9991195eeddaddef163f352a96553828d8d"
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/CONDITION_CORRECTIONS.json",
@@ -2693,8 +2771,243 @@
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/all_comparisons.csv",
-      "bytes": 189737,
-      "sha256": "67661bf4dfdeef942136642baf67757bfc011364dffd289076019aa5106c97ec"
+      "bytes": 227309,
+      "sha256": "2341aae3649df0689f969b3f0701ab14167730c77f3091bc65296a9c605fcdf1"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E85__ALL_genes.csv.gz",
+      "bytes": 1112049,
+      "sha256": "0bd9bf21a85eb22c581afb9eefda1453209b43cd17a7c2b2ff01e867b00f86ab"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E85__foregut_genes.csv.gz",
+      "bytes": 862166,
+      "sha256": "c7d640eb9fba084d7a16de83536234099d0816b47f72653ff47302247f13cff3"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E85__jcf_genes.csv.gz",
+      "bytes": 789922,
+      "sha256": "dbe6e0b44e21bddb00623e6e04bc55f1aac74d156674f5cb088998c0505cdd65"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E85__neural_crest_genes.csv.gz",
+      "bytes": 849862,
+      "sha256": "b8e0b1a7f4f817f2133f19fb264e263230b8303cd88ad67b1df92554d5faac44"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E85__shf_genes.csv.gz",
+      "bytes": 952111,
+      "sha256": "8acb3e7970b769ce5f8b4f719abf211edc781c0366881920b3d6115d414f684b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E85__surface_genes.csv.gz",
+      "bytes": 892126,
+      "sha256": "d03cf90195b1afe9fa2b47a31ff90cd564b8b3e0fc3fae1a579fbf16c5f4f83b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E85_panel.json",
+      "bytes": 424705,
+      "sha256": "58025a4c89c158e48a8c1f82cecd5458d944cb40a8e1d5f33be990bf12bb1a14"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E85_result.json",
+      "bytes": 84859,
+      "sha256": "1682da0ce7855be9f3fe189fcd60a3cc3e07f1b96d11fdafc5a45d389c3b1251"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E95__ALL_genes.csv.gz",
+      "bytes": 1126258,
+      "sha256": "2a48ed8f985d178c9d5a0f404d49950e77c07ad9b4862982674ef0bd38d3d4a0"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E95__endocardium_genes.csv.gz",
+      "bytes": 846108,
+      "sha256": "69be0a70667e4da150286cdd2389c7466f1b77bb855232b8e71e18bc5751d317"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E95__foregut_genes.csv.gz",
+      "bytes": 856712,
+      "sha256": "44e082ad220dd04b8e175a42a747d7fad6a5154ba58f014714fc4b1b3a67c602"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E95__neural_crest_genes.csv.gz",
+      "bytes": 813787,
+      "sha256": "6e46bc59c480e634d91cf97407184665d12786356184f199198b7fc63c98352e"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E95__shf_genes.csv.gz",
+      "bytes": 925432,
+      "sha256": "40dfdaaa5f34a1e54548c6732fd709eda3078e98a8539a547f3ab9fbebe6dd02"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E95__surface_genes.csv.gz",
+      "bytes": 829152,
+      "sha256": "06ce7626373626297a7bf19494bce09657fa3eb50e075c57db6165cc72847f40"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E95_panel.json",
+      "bytes": 424705,
+      "sha256": "d9cf5991e27d92c58da847723bb3e16ec827822cc909534676bc0a5b5f5c4310"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T1-E95_result.json",
+      "bytes": 85059,
+      "sha256": "8b14352e6d51df4ff882d71251691345733d9f4588d397dced4089d02aa9cc5b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E75__ALL_genes.csv.gz",
+      "bytes": 21832,
+      "sha256": "59c46276f3d4ff2910fb9f9b533ab97910932ed56c646b2a091b35a5f3a536d7"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E75__epiblast_genes.csv.gz",
+      "bytes": 20428,
+      "sha256": "9303502da87e1f7af7b45d823d83e885d925b6a72ccfb7186cf64896ed46d03b"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E75__hematoendothelial_genes.csv.gz",
+      "bytes": 17358,
+      "sha256": "435ba5ccce90557b231691489239f9e7a2701c72ad696f808334ac0b95b378dd"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E75__primitive_streak_genes.csv.gz",
+      "bytes": 19675,
+      "sha256": "44e76309390f009c49fff716ee9d9b9dcabadca4772c1718b7ea48ccabb904e6"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E75__visceral_endoderm_genes.csv.gz",
+      "bytes": 17892,
+      "sha256": "63933a9bd528f63340e3a3e5ca66f033324b10fe0b836942c8cb6d2488fb4cca"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E75_panel.json",
+      "bytes": 6662,
+      "sha256": "0ecd8ee4fd322aafd4d6d8d4a2886831bee1bee44ba2ecdcca2ebb8666894383"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E75_result.json",
+      "bytes": 54780,
+      "sha256": "4d5eac05a096f503c54674d5b9783adcfbeafe8a06c10c3980cee83338578dbf"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__ALL_genes.csv.gz",
+      "bytes": 22176,
+      "sha256": "bae272e0ba4ce5db29d28b8b61b17ee4ee68dbd7264e05513c2331cc89ad897a"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__allantois_endothelium_genes.csv.gz",
+      "bytes": 18880,
+      "sha256": "7aae96e27ecc06de68ea3441fabc9b81d48fac4fa4eda6fbc54f76fe931c3285"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__fhf_genes.csv.gz",
+      "bytes": 19262,
+      "sha256": "141672c5231728390f0555af7c3f50c75e04050d834fae7c5f6226cb501b3bef"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__forebrain_genes.csv.gz",
+      "bytes": 20827,
+      "sha256": "2bb6353c7083905ceeead5f8aca680ec4c78c111e4a963906681d1f32b96f515"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__hindbrain_genes.csv.gz",
+      "bytes": 19033,
+      "sha256": "ada68adfc426ebeb409c44f866fbf4c5f6788828424fb17e9c21217c2d60de2d"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__jcf_genes.csv.gz",
+      "bytes": 17137,
+      "sha256": "1495a05bba1e632c482e10b08cb99382d04ca05ea142026853dc2ed405eed604"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__lpm_genes.csv.gz",
+      "bytes": 19719,
+      "sha256": "ee3d34931c1572d8710fa70ae66510c97dd3a494fb6e55e347957596b5a9247a"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__primitive_streak_genes.csv.gz",
+      "bytes": 18758,
+      "sha256": "002b8657d8cd82abc7e6b5e913729c9a59d194744d20e7aa8edff3fa52901b72"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80__shf_genes.csv.gz",
+      "bytes": 20193,
+      "sha256": "8e574e0fefa978de922a8e92b832304fb0a265db3f994c823287dd8a3b748541"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80_panel.json",
+      "bytes": 6662,
+      "sha256": "b501bcece257c32eb334f8ec29a1a177c98790721b447e32a04480d681f14d1a"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2E-E80_result.json",
+      "bytes": 97815,
+      "sha256": "19954e4532917f7a9bf2b2971cd55d35e024e5a7ff4f5324577f5e31fd7b2d9d"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E85__ALL_genes.csv.gz",
+      "bytes": 22005,
+      "sha256": "743f2ed178595b2f34d4943799493e245031b266e2af7af412e0bc1e0ada4770"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E85__endocardium_genes.csv.gz",
+      "bytes": 19004,
+      "sha256": "d52bdf0eec1d99eae5ecc9162b425e82f60dd11e19d61f032763ded3430752fd"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E85__foregut_genes.csv.gz",
+      "bytes": 21099,
+      "sha256": "3e8e59a86a51920b5246533979487ecf136594238a666f367e82ae2b7fe2cc0e"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E85__jcf_genes.csv.gz",
+      "bytes": 19541,
+      "sha256": "4aee77eefd89867006e4409b74b9bf02821f716972ca84664f06090254d4fbaf"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E85__neural_crest_genes.csv.gz",
+      "bytes": 21397,
+      "sha256": "07413ede615aadd19e19da35f1d38885f55c67ca94f652f57a19622804eafe91"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E85_panel.json",
+      "bytes": 6662,
+      "sha256": "4e8f6fac0dc3a201603589926aed1c1ec04b226311eab70a529d65edfb6c46ed"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E85_result.json",
+      "bytes": 56281,
+      "sha256": "64253031b3e7af0015116792fc1f58c5a1a5f41621373deca5e48f84a8c1196f"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E95__ALL_genes.csv.gz",
+      "bytes": 22310,
+      "sha256": "e19d0efac7d1bb0d4d55777da0e3ea2efcdab3f2247e809b9691f9f0fb489236"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E95__endocardium_genes.csv.gz",
+      "bytes": 21180,
+      "sha256": "fb4aa412a90f3dff25ad89280b0568d943b933f347caee49c48d82d564cc30e4"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E95__foregut_genes.csv.gz",
+      "bytes": 21253,
+      "sha256": "8510cbdffcc925161c6efa957150db06b3ecb7d74275636ddadf8d979eab52bb"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E95__neural_crest_genes.csv.gz",
+      "bytes": 21633,
+      "sha256": "ce9458e9a61aaad3a116683781db860142a020b4d5eaf2c134ad2123ba15bbb6"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E95_panel.json",
+      "bytes": 6662,
+      "sha256": "334c20ff2e8c2bde670ef14adfccc811f49bcef49ac548c0f68ec17aadd950bd"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/results/GSE342607-T2H-E95_result.json",
+      "bytes": 45821,
+      "sha256": "7d1268f66a9ab0fb06ddebc236c823231ef21bbe376823497e4c94fb8dafb39a"
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/INDEPENDENT_VERIFICATION.json",
@@ -2703,8 +3016,8 @@
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/inputs.json",
-      "bytes": 108422,
-      "sha256": "c5e5dd7031aa89ff2c4f27f26a4eecccb6a28e257838e6496e231ab4a95de696"
+      "bytes": 131832,
+      "sha256": "5132b796440592c608167fb2af96a8f7e9998845cc111b2d7e04339a3d73bdef"
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/mapping.json",
@@ -2723,8 +3036,8 @@
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/original_label_composition.csv",
-      "bytes": 594927,
-      "sha256": "bbd62ccce332c51a0882fa368227b859bcfa9e810ae6f305e8b650870b0a28eb"
+      "bytes": 704751,
+      "sha256": "906bfe01bb969ee6a541a453df5c18c286105d3b616c20b78ed4c18739ec1a7d"
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/P001_panel.json",
@@ -2968,13 +3281,13 @@
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/pair_results.json",
-      "bytes": 2000515,
-      "sha256": "0a97c3e17789ddde571a8b9cf5b8a6e3c93bd4f420749dca55a29b044ab5ae8a"
+      "bytes": 2776798,
+      "sha256": "3a16334b56cf18769e1005948d406d9fa2edc974f14c854506bdb0e10880dc9f"
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/sample_statistics.csv",
-      "bytes": 267103,
-      "sha256": "1ac1bb0d73c2052c9d0be13d7497eea74060d0d3d657707fa754b30f0b18b3ef"
+      "bytes": 314700,
+      "sha256": "2efa80c79e7029b51d85a32fdd7f7139033e8ef6a2689c97270e8f716f6d565f"
     },
     {
       "path": "readers/research/vem_pairwise_similarity_v3/results/V001_genes.csv.gz",
@@ -3738,8 +4051,8 @@
     },
     {
       "path": "readers/research/vem_prior_knowledge_v2/knowledge.html",
-      "bytes": 1351803,
-      "sha256": "fab8059d8da2923d98052ef1d85c4c4ed97dc6427309a03fe20722eb2de92ebb"
+      "bytes": 1304885,
+      "sha256": "ed107368e8291858faef1128e01b9161b4bcf383d1a7765a0ff4a63c71d1cf16"
     },
     {
       "path": "readers/research/vem_prior_knowledge_v2/provenance/01_外部数据任务对应.md",
@@ -3868,13 +4181,13 @@
     },
     {
       "path": "readers/research/vem_source_comparison_v2/README.html",
-      "bytes": 54925,
-      "sha256": "a807bac93ca73c7a614ba2744cd5d8af417d002a913e13cf52bffaee73982702"
+      "bytes": 58926,
+      "sha256": "732948d672800b2cac39385998f8a972df3977e627d68dc000a2e84de74fd67e"
     },
     {
       "path": "readers/research/vem_source_comparison_v2/README.md",
-      "bytes": 50920,
-      "sha256": "a9e97e0422f68d1a5fa0fe019a5a383f04a4ec07823315214892fbd8f34fbab3"
+      "bytes": 54921,
+      "sha256": "44d6f6ad0d13d8c8c79dec2927df107290310d52468627541529de5017a2be70"
     },
     {
       "path": "readers/research/vem_t1_weighted_binary_v4/PROTOCOL.md",
@@ -4043,23 +4356,28 @@
     },
     {
       "path": "README.md",
-      "bytes": 4967,
-      "sha256": "8af15fe0d1954586e45bdf62ffb795947ff837c1b7c624038c7cd20661a273ff"
+      "bytes": 6126,
+      "sha256": "653f11e834511b5f9dfca5c96861806bb14a8bd28f013a3f5eb2dc4c5cb256ad"
     },
     {
       "path": "scripts/build_data.py",
-      "bytes": 20689,
-      "sha256": "e65991fe078475a16509ecaa4b577c19b3ae2db7f2449a17bce5e472655e49d5"
+      "bytes": 23649,
+      "sha256": "64ec87de9849738e5ad6cbcc17352c21adccccfd256d0e763ee288d325b0a550"
     },
     {
       "path": "scripts/build_readers.py",
-      "bytes": 8602,
-      "sha256": "2bd727daa44285b82812450b100618c77a2809bd2ad009eb46f252fd3ffeecdf"
+      "bytes": 8948,
+      "sha256": "4922148c4c2ceaaba738d298480b2d53a3d936d232f1c3fee5faca62ec9feee6"
+    },
+    {
+      "path": "scripts/build_stage_rankings.py",
+      "bytes": 6717,
+      "sha256": "4a01a4d349208d748753d0a3a9a3abafe3507d2fd915a1878bcc3ef323a18f7e"
     },
     {
       "path": "scripts/verify_site.py",
-      "bytes": 7143,
-      "sha256": "d12bb83cbab6f78828d6f929e35cad91e7308211532cc6113fea6ca6a90593e8"
+      "bytes": 7799,
+      "sha256": "ec412b909f0f5f6462bacfc38a7a3f9ca3e1b05dea21f596c7c1b1a278f56322"
     }
   ]
 }

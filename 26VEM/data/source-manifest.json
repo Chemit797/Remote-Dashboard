@@ -1,11 +1,11 @@
 {
-  "built_at": "2026-11-19T06:47:27.395478+00:00",
+  "built_at": "2026-11-20T20:19:35.312207+00:00",
   "scope": "Selected reports, aggregate statistics and metadata only. No H5AD, model weights, credentials or submission payloads.",
   "files": [
     {
       "path": "catalogs/external_dataset_names.json",
-      "bytes": 7233,
-      "sha256": "b20d97512edcb9b04e0b724943fe8cacc28f95005b305603613995aaf3463104"
+      "bytes": 8267,
+      "sha256": "b8e818b821048d14ea9cf7bed2585cf87b5e54a171b6996510db067ccc33123f"
     },
     {
       "path": "reports/analysis_integration_20261118/peer_analysis/official_data_analysis_20261114/tables/file_inventory.csv",
@@ -21,6 +21,36 @@
       "path": "reports/analysis_integration_20261118/data_review/team/data_review_20261113/evidence/ved_stages.json",
       "bytes": 15871,
       "sha256": "656f1c435941176442ab4067417749baf3ed8ced95aa23242533a1127b63b928"
+    },
+    {
+      "path": "catalogs/dashboard_external_releases.json",
+      "bytes": 3415,
+      "sha256": "bca81e31582c214cf5d6a15bfebd92a1c6379432bc9e30805161d9348cd0144e"
+    },
+    {
+      "path": "research/gse342607_dashboard_20261121/results/web.json",
+      "bytes": 531403,
+      "sha256": "b217aa8dac582871f6a5c937f536f58712f53fde3f061e92a40950a26a9676a4"
+    },
+    {
+      "path": "research/gse342607_dashboard_20261121/results/pair_results.json",
+      "bytes": 447852,
+      "sha256": "4d4001be3c953c16b9ea00e6a60e4ddae74b59139d48fe67a109a137eebf4327"
+    },
+    {
+      "path": "reports/gse342607_intake_20261120/evidence_release04/sample_inventory.csv",
+      "bytes": 15924,
+      "sha256": "d5927ba4ec33902ba8869397b2b28a542bab77bf7f0980b9501773db9b0fbd9e"
+    },
+    {
+      "path": "reports/gata4_accession_intake_20261121/ready02/GSE117621/validation.json",
+      "bytes": 3185,
+      "sha256": "4bfa4736ebc97091499c268942f25a088fb54a8b075d3fd081fbaef663c353e4"
+    },
+    {
+      "path": "reports/gata4_accession_intake_20261121/ready02/GSE52317/validation.json",
+      "bytes": 6640,
+      "sha256": "dc7343b0129906cffa756d3eecf0b71bc29c81e0d2d7b9bef39c9c19a3a5e6d3"
     },
     {
       "path": "research/vem_prior_knowledge_v2/knowledge.jsonl",

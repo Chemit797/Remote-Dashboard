@@ -65,6 +65,34 @@ for row in registry['datasets']:
         'limits':row['comparison_limits_and_exclusions'],'priority':row['research_priority'],
         'availability':row['availability'],'urls':row['accession_urls'],
         'public_id':row['public_id']})
+release_catalog=P/'catalogs/dashboard_external_releases.json'
+releases=load(release_catalog)['releases'] if release_catalog.is_file() else []
+extension_pairs=[]
+for release in releases:
+    accession=release['id']
+    assert accession in named and accession not in {row['id'] for row in external}
+    new_pairs=[]
+    if 'intake_json' in release:
+        intake=load(P/release['intake_json'])
+        assert intake['id']==accession
+        samples=[{k:s[k] for k in ['id','accession','stage','group','note'] if k in s} for s in intake['samples']]
+    else:
+        samples=load(P/release['summary'])['samples']
+        new_pairs=load(P/release['reader_input'])
+        assert {sample['id']:sample['cells'] for sample in samples}=={
+            row['sample_id']:int(row['n_cells_or_units']) for row in csvrows(P/release['intake'])
+        }
+    coverage=[dict(pair=p['id'], task={'T2_heart':'T2 心脏','T2_embryo':'T2 胚胎'}.get(p['task'],p['task']),
+        stage=p['official_stage'], common=p['panel']['common'], rho=p['records'][0]['spearman_nonzero_union'])
+        for p in new_pairs]
+    external.append({k:release[k] for k in ['id','tasks','stage_text','stages','stage_basis','tissue',
+        'assay','unit','scope','limits','priority','availability','urls']} | {
+        'name':named[accession],'public_id':accession,'aliases':next(x.get('aliases',[]) for x in names['datasets'] if x['id']==accession),
+        'samples':samples,'comparisons':coverage,'added_on':release['date']})
+    extension_pairs.extend(
+        {**r,'task':{'T2_heart':'T2 心脏','T2_embryo':'T2 胚胎'}.get(r['task'],r['task'])}
+        for p in new_pairs for r in p['records']
+    )
 
 claims=[]
 for line in read(P/'research/vem_prior_knowledge_v2/knowledge.jsonl').splitlines():
@@ -113,7 +141,7 @@ pair_table=completion_root/'overlays/research/vem_pairwise_similarity_v3/results
 external_root=P/'research/external_E10p5_analysis_20261119'
 new_pair_table=external_root/'overlays/research/vem_pairwise_similarity_v3/results/all_comparisons.csv'
 if new_pair_table.is_file():pair_table=new_pair_table
-for row in csvrows(pair_table):
+for row in [*csvrows(pair_table),*extension_pairs]:
     keys=['pair','task','external_name','official_stage','external_stage','group','group_name','kind','note']
     item={k:row.get(k,'') for k in keys}
     item.update({k:number(row.get(k)) for k in ['n_genes','pearson','spearman_all','detection_mean_abs_pp','detected_jaccard']})
@@ -189,6 +217,21 @@ for item in catalog:
         report=render_report(reports[item['analysis_id']]),remote_reader=item['reader'],remote_compute_root=item['remote_compute_root'])
     a['validation_review']=[x for x in load(completion_root/'TOPIC_COVERAGE.json') if x['topic']==item['analysis_id']]
     analyses.append(a)
+quantitative_releases=[r for r in releases if 'reader_input' in r]
+if quantitative_releases:
+    latest=quantitative_releases[-1]
+    label=named[latest['id']]
+    supplements={
+        'A08':('E8.0 尿囊比例新增一组全胚胎观测。','在原页对照同日龄的各胚胎比例。'),
+        'A09':('D001 新增 E8.0 尿囊占比对照。','查证据时区分同名群和更细的内皮群。'),
+        'A10':(f'补入 {label} 的同日龄表达对照与共同面板阶段差。','并排看整体表达、检出和变化方向。'),
+        'A11':(f'原配对保留，新增 {label} 的同日龄数据。','按来源筛选，查看整体、细胞类型和逐基因结果。'),
+        'A12':(f'{label} 已补 E8.5 和 E9.5 的加权 S 与 0/1 检出对照。','按同阶段查看计算项与覆盖。'),
+        'A13':(f'{label} 已补共同面板 MMD 和 CSS 与官方同标本抽样参照。','在原页查看六组同日龄 RNA 分布距离。'),
+    }
+    for a in analyses:
+        if a['analysis_id'] in supplements:
+            a['finding'],a['use']=supplements[a['analysis_id']]
 plan=render_report(R/'hub/reviews/20261118/01_联合审视与使用规划.md')
 
 for filename in ['fig_source_timelines.png','fig_source_timelines_by_type.png']:
@@ -232,10 +275,12 @@ tasks=[
 ]
 timeline=[['2026-08-10','P1','门户与验证榜开放'],['2026-08-15','P2','Starter kit 与参考基线'],['2026-10-27','P3','隐藏测试榜开放'],['2026-11-25','FINAL','23:59 AoE 最终截止'],['2026-11-26','评估','官方隐藏测试评估'],['2026-12-12','公布','NeurIPS 公布优胜者']]
 readers=json.loads((SITE/'data/original-readers.json').read_text(encoding='utf-8'))
-data={'version':'2026-11-19','title':'26VEM · 虚拟胚胎研究工作台','built_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
+data={'version':max([r['date'] for r in releases],default='2026-11-19'),'title':'26VEM · 虚拟胚胎研究工作台','built_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
  'snapshot_note':'研究结论与文件统计是标明时间的快照；刷新页面不会连接5090。倒计时在浏览器本地更新。',
  'deadline':deadline,'timeline':timeline,'tasks':tasks,'official':official,'external':external,
  'claims':claims,'knowledge_summary':summary,'analyses':analyses,'gene_axes':axis,'pairs':pairs,'metrics':metrics,
+ 'external_extensions':[{k:r[k] for k in ['id','date']} for r in releases],
+ 'external_extension_pair_rows':len(extension_pairs),
  'audit':audit,'file_counts':file_counts,'plan_html':plan,'readers':readers,'validation_completion':completion,'external_e105':external_summary,
  'file_tree':(SITE/'data/5090-tree.txt').read_text(encoding='utf-8'),
  'remote_root':'/home/biocosmosx/work/virtualembryo_cym','remote_hub':'/home/biocosmosx/work/virtualembryo_cym/team/research_hub',
