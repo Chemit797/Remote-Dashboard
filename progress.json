@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "phase": "replays",
-  "collected_at": "2026-11-21T06:59:59+00:00",
+  "collected_at": "2026-11-21T07:14:59+00:00",
   "beds": 17,
   "scored_beds": 16,
   "test_beds": 1,
-  "cells": 864,
-  "valid": 537,
-  "na": 326,
-  "failed": 1,
+  "cells": 1280,
+  "valid": 805,
+  "na": 470,
+  "failed": 5,
   "spans": [
     {
       "span": "1D",
@@ -20,22 +20,22 @@
     {
       "span": "2D",
       "beds": 7,
-      "valid": 233,
-      "na": 102,
-      "failed": 1
+      "valid": 365,
+      "na": 190,
+      "failed": 5
     },
     {
       "span": "1DL",
       "beds": 3,
-      "valid": 34,
-      "na": 14,
+      "valid": 170,
+      "na": 70,
       "failed": 0
     }
   ],
   "jobs": {
     "waiting": 0,
     "running": 2,
-    "succeeded": 10,
+    "succeeded": 12,
     "failed": 10,
     "interrupted": 0,
     "unknown": 0,
@@ -48,27 +48,27 @@
     "groups": {
       "reference": {
         "methods": 4,
-        "valid": 112,
-        "na": 112,
+        "valid": 160,
+        "na": 160,
         "failed": 0
       },
       "proportion": {
         "methods": 2,
-        "valid": 24,
-        "na": 80,
+        "valid": 40,
+        "na": 120,
         "failed": 0
       },
       "expression": {
         "methods": 6,
-        "valid": 178,
-        "na": 134,
+        "valid": 290,
+        "na": 190,
         "failed": 0
       },
       "dispersion": {
         "methods": 4,
-        "valid": 223,
+        "valid": 315,
         "na": 0,
-        "failed": 1
+        "failed": 5
       },
       "combination": {
         "methods": 0,
@@ -84,11 +84,11 @@
       }
     },
     "issues": {
-      "permission": 112,
-      "coverage": 52,
-      "compartments": 47,
-      "paired_prior": 71,
-      "visible_days": 44,
+      "permission": 160,
+      "coverage": 80,
+      "compartments": 75,
+      "paired_prior": 95,
+      "visible_days": 60,
       "other": 0
     },
     "steps": {
@@ -104,12 +104,12 @@
       },
       "repair": {
         "planned": 1024,
-        "cells": 608,
+        "cells": 1024,
         "batches": 8,
-        "registered": 5,
-        "sealed": 5,
-        "accepted": 4,
-        "job": "running",
+        "registered": 8,
+        "sealed": 8,
+        "accepted": 8,
+        "job": "succeeded",
         "due": null
       },
       "combo": {
