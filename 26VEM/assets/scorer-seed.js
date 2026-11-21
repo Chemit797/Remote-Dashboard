@@ -1,27 +1,27 @@
 window.VEMScorerSeed = {
   "schema": 1,
-  "phase": "seed0",
-  "collected_at": "2026-11-21T05:06:34+00:00",
+  "phase": "replays",
+  "collected_at": "2026-11-21T06:41:26+00:00",
   "beds": 17,
   "scored_beds": 16,
   "test_beds": 1,
-  "cells": 256,
-  "valid": 161,
-  "na": 94,
+  "cells": 416,
+  "valid": 237,
+  "na": 178,
   "failed": 1,
   "spans": [
     {
       "span": "1D",
       "beds": 6,
-      "valid": 54,
-      "na": 42,
+      "valid": 106,
+      "na": 118,
       "failed": 0
     },
     {
       "span": "2D",
       "beds": 7,
-      "valid": 73,
-      "na": 38,
+      "valid": 97,
+      "na": 46,
       "failed": 1
     },
     {
@@ -33,12 +33,113 @@ window.VEMScorerSeed = {
     }
   ],
   "jobs": {
-    "waiting": 2,
-    "running": 0,
+    "waiting": 0,
+    "running": 1,
     "succeeded": 9,
     "failed": 9,
     "interrupted": 0,
-    "unknown": 0
+    "unknown": 0,
+    "cancelled": 2
   },
-  "next_scheduled": "2026-11-22T20:00:00+08:00"
+  "next_scheduled": null,
+  "operations": {
+    "methods": 16,
+    "seeds": 5,
+    "groups": {
+      "reference": {
+        "methods": 4,
+        "valid": 56,
+        "na": 56,
+        "failed": 0
+      },
+      "proportion": {
+        "methods": 2,
+        "valid": 12,
+        "na": 36,
+        "failed": 0
+      },
+      "expression": {
+        "methods": 6,
+        "valid": 58,
+        "na": 86,
+        "failed": 0
+      },
+      "dispersion": {
+        "methods": 4,
+        "valid": 111,
+        "na": 0,
+        "failed": 1
+      },
+      "combination": {
+        "methods": 0,
+        "valid": 0,
+        "na": 0,
+        "failed": 0
+      },
+      "other": {
+        "methods": 0,
+        "valid": 0,
+        "na": 0,
+        "failed": 0
+      }
+    },
+    "issues": {
+      "permission": 56,
+      "coverage": 16,
+      "compartments": 15,
+      "paired_prior": 71,
+      "visible_days": 20,
+      "other": 0
+    },
+    "steps": {
+      "single": {
+        "planned": 256,
+        "cells": 256,
+        "batches": 8,
+        "registered": 8,
+        "sealed": 8,
+        "accepted": 8,
+        "job": "unknown",
+        "due": null
+      },
+      "repair": {
+        "planned": 1024,
+        "cells": 160,
+        "batches": 8,
+        "registered": 3,
+        "sealed": 3,
+        "accepted": 2,
+        "job": "running",
+        "due": null
+      },
+      "combo": {
+        "planned": 32,
+        "cells": 0,
+        "batches": 3,
+        "registered": 0,
+        "sealed": 0,
+        "accepted": 0,
+        "job": "cancelled",
+        "due": null
+      },
+      "replay": {
+        "planned": 160,
+        "cells": 0,
+        "batches": 3,
+        "registered": 0,
+        "sealed": 0,
+        "accepted": 0,
+        "job": "cancelled",
+        "due": null
+      }
+    },
+    "review_ready": false,
+    "frozen": false,
+    "review_due": null,
+    "audit": {
+      "batches": 8,
+      "regression_pass": 8,
+      "probes": 608
+    }
+  }
 };

@@ -89,9 +89,9 @@
     "safe_report_A15": true,
     "web_report_links_A15": true,
     "filter_type_Other mesoderm": true,
+    "filter_type_Endothelial/endocardial": true,
     "filter_type_Cardiomyocyte": true,
-    "filter_type_Cardiac progenitor/heart field": true,
-    "filter_type_Endothelial/endocardial": true
+    "filter_type_Cardiac progenitor/heart field": true
   },
   "check_count": 91,
   "all_passed": true,
@@ -190,18 +190,18 @@
     },
     {
       "path": "assets/scorer-seed.js",
-      "bytes": 726,
-      "sha256": "cf254be2679f363b4a40680bfcb94ab2390b90a4719b23bad4e86475fa816c59"
+      "bytes": 2656,
+      "sha256": "237d317f2e1db2a40192c684e449e198b7bef1466e5394a37e9987fb2c909d47"
     },
     {
       "path": "assets/scorer.css",
-      "bytes": 3217,
-      "sha256": "6f9ccc722cde0814dedb2120d91faf03cbe9cd86e8aaf23d266fa34748e3c2eb"
+      "bytes": 5999,
+      "sha256": "b9774c395beb257c195d81dfa7112b969730e751c1b4c70f60329f218d1da8e0"
     },
     {
       "path": "assets/scorer.js",
-      "bytes": 15859,
-      "sha256": "95195f433056279d6b9488c60ae143e6d60e37b6a3658f1acb8ef6c23224a8b2"
+      "bytes": 33191,
+      "sha256": "7f760f4a1dfa7d4c313882e6d6ae6cda8d28d85a0a82de6d469eeedeaf38ebe4"
     },
     {
       "path": "assets/site.css",
@@ -280,8 +280,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2319,
-      "sha256": "df938fb5a6e238bbfbad2ae4dfeeb83ca3869db9af7e4bfa15db5ebe429a96ba"
+      "bytes": 2334,
+      "sha256": "94f9987a39f06512bf051e812f149de618d23a70ecbfe332d39689ea8cd10a2f"
     },
     {
       "path": "readers/docs/EXTERNAL_DATASET_NAMES.md",
@@ -4675,8 +4675,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8028,
-      "sha256": "32f2e69f296d8ac1fb55b7a8f9a2ad8902b2018e8da01e02ac26bc511b318185"
+      "bytes": 8351,
+      "sha256": "b46cec9ffcff2f3b72164a86bc9dd9b271d849df2ab7ac7c3c75290937340185"
     },
     {
       "path": "scripts/build_data.py",
