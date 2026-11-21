@@ -1,0 +1,44 @@
+window.VEMScorerSeed = {
+  "schema": 1,
+  "phase": "seed0",
+  "collected_at": "2026-11-21T05:06:34+00:00",
+  "beds": 17,
+  "scored_beds": 16,
+  "test_beds": 1,
+  "cells": 256,
+  "valid": 161,
+  "na": 94,
+  "failed": 1,
+  "spans": [
+    {
+      "span": "1D",
+      "beds": 6,
+      "valid": 54,
+      "na": 42,
+      "failed": 0
+    },
+    {
+      "span": "2D",
+      "beds": 7,
+      "valid": 73,
+      "na": 38,
+      "failed": 1
+    },
+    {
+      "span": "1DL",
+      "beds": 3,
+      "valid": 34,
+      "na": 14,
+      "failed": 0
+    }
+  ],
+  "jobs": {
+    "waiting": 2,
+    "running": 0,
+    "succeeded": 9,
+    "failed": 9,
+    "interrupted": 0,
+    "unknown": 0
+  },
+  "next_scheduled": "2026-11-22T20:00:00+08:00"
+};
