@@ -174,6 +174,7 @@ function taskPage(id){const t=D.tasks.find(x=>x.id===id);if(!t)return missing();
 function planPage(){return head('JOINT PLAN','联合规划','把现有研究接成有限的预测对照，明确每项工作的输入、交付与停止条件。')+`<div class="grid three">${[['P0','接清基线与评价','核父模型、几何来源、输入特征与完整任务指标。'],['P1','心脏邻域小试验','先核可生成条件，再做更强位置对照及向前留期。'],['P2','T1有限来源改动','一个来源、一个类型；拆开检出与强度，报告完整指标。']].map(([p,t,b])=>`<div class="card"><div class="card-number">${p}</div><h3>${t}</h3><p>${b}</p></div>`).join('')}</div><div class="notice">这些是建议工作卡。职责按角色划分，不代表同事已经接单；当前没有启动模型训练、评分或正式提交。</div>${section('谁负责解释，谁负责检验')}${table(['角色','负责的边界','要交出的结果'],[['官方/心脏分析解释角色','原统计含义、局部结构与观测假设','有条件的特征候选与不可推断范围'],['外部来源解释角色','来源身份、阶段/取材、类型映射和迁移失败','一个可检验的来源/类型假设'],['任务模型执行角色','合格生成路径、对照预测和完整指标','保留、放弃或证据不足'],['总控与评估角色','统一版本、输入身份、开发曝光与回执','可复核的决策记录']])}<details class="disclosure" open><summary>联合审视全文 · 18条核对与3张工作卡</summary><article class="prose">${D.plan_html}</article></details>`;}
 function missing(){return head('NOT FOUND','未找到这个入口','可从主导航返回现有任务、分析或知识条目。')+'<a class="btn" href="#/overview">返回总览</a>';}
 function render(){
+ if(document.getElementById('scorer-board') && /^#\/scorer(?:\/|\?|$)/.test(location.hash)){window.VEMScorer.navigate();return;}
  window.VEMScorer.stop();
  if(clockHandle){clearInterval(clockHandle);clockHandle=null;}
  const raw=(location.hash.slice(1)||'/overview'),parts=raw.split('?');route=parts[0].replace(/^\//,'').split('/').filter(Boolean);
@@ -193,7 +194,7 @@ function render(){
  if(document.getElementById('pair-results'))updatePairs();
  if(document.getElementById('metric-results'))updateMetrics();
  if(document.getElementById('neighbour-results'))loadNeighbours().then(()=>{if(document.getElementById('neighbour-results'))updateNeighbours();}).catch(e=>{if(document.getElementById('neighbour-results'))document.getElementById('neighbour-results').innerHTML=empty(e.message);});
- window.scrollTo({top:0,behavior:'instant'});
+ if(page!=='scorer'||!route[1])window.scrollTo({top:0,behavior:'instant'});
  if(page==='similarity'&&route[1])document.getElementById('rank-task-'+route[1])?.scrollIntoView({block:'start'});
 }
 const controls={
