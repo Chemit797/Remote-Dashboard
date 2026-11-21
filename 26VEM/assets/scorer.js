@@ -71,6 +71,7 @@
     if(!s.data)return;
     const target=s.section?$(s,"#bk-"+s.section):s.root;
     if(target)requestAnimationFrame(()=>{if(current!==s)return;
+      if(!s.section&&s.root.closest("#scorer-panel")){window.scrollTo({top:0,behavior:"instant"});return;}
       if(s.section==="samples"&&s.ui.open.size){const id=[...s.ui.open][0],row=$(s,'tr[data-recipe="'+id+'"]'),pane=$(s,"#bk-matrix>.bk-scroll");
         if(row&&pane)pane.scrollTop+=row.getBoundingClientRect().top-pane.getBoundingClientRect().top-(pane.querySelector("thead")?.offsetHeight||0)-1;}
       target.scrollIntoView({block:"start",behavior:"instant"});});

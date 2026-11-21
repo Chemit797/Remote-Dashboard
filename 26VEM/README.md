@@ -7,9 +7,10 @@
 ## 页面与数据
 
 - 比赛总览：四个最终目标、官方阶段时间线、AoE及北京时间截止倒计时。
-- [T1 评分看板](https://chemit797.github.io/Remote-Dashboard/26VEM/#/scorer)依次是基线对照、样本记录、进行中、评估管线、交叉验证、分数怎么读、采集时进度。所有区域在同一张页面。5090 每 15 分钟发布一份[公开快照](https://github.com/Chemit797/Remote-Dashboard/blob/vem-scorer-feed/progress.json)，浏览器每分钟检查；实时入口每 15 秒检查。时间以北京时间显示；公开快照超过 35 分钟标为过期。
+- [评分器](https://chemit797.github.io/Remote-Dashboard/26VEM/#/scorer)从同一入口切换 T1 与 T2。T1 依次是基线对照、样本记录、进行中、评估管线、交叉验证、分数怎么读、采集时进度。所有区域在同一张页面。5090 每 15 分钟发布一份[T1 公开快照](https://github.com/Chemit797/Remote-Dashboard/blob/vem-scorer-feed/progress.json)，浏览器每分钟检查；实时入口每 15 秒检查。时间以北京时间显示；公开快照超过 35 分钟标为过期。
   [样本记录](https://chemit797.github.io/Remote-Dashboard/26VEM/#/scorer/samples)每行一个配方、每列一个考场：主行并排看平均总分及同场同种子相对 S00 的分差，展开看四项换算分、原始值和批次。v3.1 修正复核采用 19 个配方 × 19 个有答案考场 × 5 个种子，共 1,805 条（1,220 有分、580 缺分、5 失败）；27 批共 2,000 行原始记录另计。可直达[一条已出分记录](https://chemit797.github.io/Remote-Dashboard/26VEM/#/scorer/samples/S32?bed=T1-OFF-2D&seed=0)或[失败记录](https://chemit797.github.io/Remote-Dashboard/26VEM/#/scorer/samples?status=failed)。
   [基线对照](https://chemit797.github.io/Remote-Dashboard/26VEM/#/scorer/methods)分列历史原件官网分、归档复算及本轮模拟考；[交叉验证](https://chemit797.github.io/Remote-Dashboard/26VEM/#/scorer/validation)列出 20 个考场的可见阶段、答案和用途，并检验留出一个来源后判断能否成立。1D、2D 分别是自最后可见胚龄向后预测一天、两天。最终 E12.5 没有公开真值。5090 实时页另有历史官方验证登记。
+- [T2 评分看板](https://chemit797.github.io/Remote-Dashboard/26VEM/#/scorer/t2)显示 T2A 胚胎插值与 T2B 心脏外推的评分核心回归、考场与记录覆盖、留一族模拟考、四组分项，以及最终 TEST 的格式干跑。页面使用注明日期的复核快照。本机文件版可打开完整排名和操作手册。
 - 数据图谱：15 份官方文件与阶段轴、46 个外部来源的固定名称、取材、观测单位和适用范围。近期登记可展开逐样本条目。
 - 分析专题：按官方数据、心脏、先验、来源比较、评分、工程历史分类；15个入口保留原网页的内容、图件、交互与章节。点标题阅读原页，点章节直接切入，也可单独打开原页。
 - 同阶段对照：按T1、T2胚胎插值、心脏插值／外推、T3依次显示官方时间轴，各节点列同阶段整体表达ρ前八名；编号与固定名称可打开原配对明细。
@@ -17,7 +18,7 @@
 - 5090文件：以工程手册式目录树展示工程与用途，计数放在目录树之后，可展开明细。
 - 联合规划：18条核对、建议职责与有限实验工作卡。
 
-研究专题和目录来自注明日期的快照。公开评分页读取 5090 发布到 GitHub 的数据；断网仍能用随页副本。本机文件的评分页还提供 5090 隧道入口。倒计时按设备时钟更新。刷新只读取已有结果。
+研究专题和目录来自注明日期的快照。T1 评分页读取 5090 发布到 GitHub 的数据；断网仍能用随页副本。本机 T1 页还提供 5090 隧道入口。T2 网页使用已复核的随页快照。倒计时按设备时钟更新。刷新只读取已有结果。
 
 官网时间线在2026-11-18核实为2026-11-25 23:59 AoE。按UTC−12换算为2026-11-26 11:59 UTC、19:59北京时间；同页另写12:00 UTC，两者相差一分钟，本工作台以较早的23:59精确换算计时。时间来源、核对方式与计时目标见 [时间来源](data/official-timeline-source.json)。官网日程若调整，需核原页并更新快照。
 
@@ -33,6 +34,8 @@ python -m http.server 8765 --bind 127.0.0.1
 GitHub Pages 子路径与本地服务使用相同相对资源路径。Hash路由无需后端重写，也可以保留直达分析与知识的链接，例如 `#/analysis/A05` 和 `#/knowledge/L001`。
 
 ## 更新研究快照
+
+T2 评分快照用 `python -X utf8 26VEM/scripts/build_t2_scorer.py --project D:/Project/virtualembryo_biocosmosX` 从指定的本地验收存档重建。换批次时核对脚本所用的存档版本和本机报告链接。公开资产只包含汇总数据与快照校验指纹。
 
 `scripts/build_data.py` 从本地VEM项目中选定报告、CSV/JSON和来源登记构建静态阅读数据；不会执行这些分析代码、打开表达矩阵、下载模型或连接评测账号。构建依赖Python的 `markdown`、`beautifulsoup4`，浏览器端无依赖。
 

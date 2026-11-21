@@ -1,4 +1,16 @@
 .scorebook{--bk-blue:#285684;--bk-green:#216a53;--bk-rust:#995223;--bk-muted:#5f665f;--bk-line:#d9ded8;--bk-pale:#f2f5f1;max-width:1450px;min-width:0;margin:auto;color:#252c29}
+#scorer-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid var(--bk-line)}
+#scorer-tabs a{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid var(--bk-line);border-radius:6px;color:var(--bk-blue);background:var(--panel)}
+#scorer-tabs a:hover{background:#eaf1f6;text-decoration:none}
+#scorer-tabs a[aria-current="page"]{background:var(--bk-blue);border-color:var(--bk-blue);color:#fff}
+#scorer-tabs b{font-weight:700}
+.t2-board dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:7px 12px;margin:12px 0 4px}
+.t2-board dt{color:var(--bk-muted);font-size:13px}
+.t2-board dd{font-size:14px;font-variant-numeric:tabular-nums}
+.t2-board .t2-phase{display:flex;flex-wrap:wrap;gap:4px 6px}
+.t2-board .t2-phase .bk-tag{font-size:12px}
+.t2-sources{margin:12px 0 0;padding-inline-start:1.3em}
+.t2-sources code{display:block}
 .bk-header,.bk-status,.bk-nav,.bk-section-head,.bk-actions,.bk-detail-head,.bk-pages{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px}
 .bk-header{justify-content:space-between;align-items:flex-end;margin:0 0 10px}
 .bk-header h1{font-size:clamp(26px,3vw,39px);margin:1px 0;letter-spacing:.025em}

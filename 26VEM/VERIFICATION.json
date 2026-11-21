@@ -57,6 +57,8 @@
     "asset_assets/scorer-seed.js": true,
     "asset_assets/scorebook.js": true,
     "asset_assets/scorer.js": true,
+    "asset_assets/t2-scorer-data.js": true,
+    "asset_assets/t2-scorer.js": true,
     "asset_assets/app.js": true,
     "asset_README.md": true,
     "safe_report_A01": true,
@@ -89,12 +91,12 @@
     "web_report_links_A14": true,
     "safe_report_A15": true,
     "web_report_links_A15": true,
-    "filter_type_Cardiomyocyte": true,
+    "filter_type_Other mesoderm": true,
     "filter_type_Endothelial/endocardial": true,
     "filter_type_Cardiac progenitor/heart field": true,
-    "filter_type_Other mesoderm": true
+    "filter_type_Cardiomyocyte": true
   },
-  "check_count": 92,
+  "check_count": 94,
   "all_passed": true,
   "browser_checks": "See delivery receipt for desktop/mobile screenshots and interactive verification; not performed by this script.",
   "counts": {
@@ -116,8 +118,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 51080,
-      "sha256": "f6ccf511dc25cfb48c49ed52e4d4588b5235e9bb1da15aca958a3179406f3f54"
+      "bytes": 51853,
+      "sha256": "355bfe5a4fe186a08865e731db147979f2f8a0f7107be4009d38fe13c4584d75"
     },
     {
       "path": "assets/data.js",
@@ -201,13 +203,13 @@
     },
     {
       "path": "assets/scorer.css",
-      "bytes": 11593,
-      "sha256": "012edfd68b744182474e7c90fa3110fd1d08bae6690c30b75d2217cdc2ceaf30"
+      "bytes": 12498,
+      "sha256": "0f86cd9ee79c8a7c004cd42a80d090fd8978a01bb365cc0336ee7f1572b92068"
     },
     {
       "path": "assets/scorer.js",
-      "bytes": 21254,
-      "sha256": "6ef69734200e8fe86a2f9ed8a7a5f768384e0d776bacf3c1b0f766ba056be38c"
+      "bytes": 21361,
+      "sha256": "47c8cfbd277430d597d712f9658c261c20dd2a478276b756db554f13342bfb3b"
     },
     {
       "path": "assets/site.css",
@@ -223,6 +225,16 @@
       "path": "assets/stage-rankings.js",
       "bytes": 5075,
       "sha256": "3603d1696edd73150670fca6a015ed4e3e9c2ed8f7332b72a433a3b57b211c48"
+    },
+    {
+      "path": "assets/t2-scorer-data.js",
+      "bytes": 4119,
+      "sha256": "4598b8de268c29b6172a872eb4b5f776fb6f007b09b03b2eaa8ab730c33828a2"
+    },
+    {
+      "path": "assets/t2-scorer.js",
+      "bytes": 5282,
+      "sha256": "c2fc2e01203ea9040b1c730d259e86950fa9e4713ca81b26c04de3119db70667"
     },
     {
       "path": "data/5090-tree.txt",
@@ -286,8 +298,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2417,
-      "sha256": "72f9c2bc16cd3425cbe9dbf142c91cbc3fd5167db7171ff0bd34e5813513334a"
+      "bytes": 2530,
+      "sha256": "ec3511ff0d6a5c77271ef3baf791c3ba90423964fc0379e9f6edbb2b4a86069a"
     },
     {
       "path": "readers/docs/EXTERNAL_DATASET_NAMES.md",
@@ -4681,8 +4693,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9203,
-      "sha256": "556f8e904f4d6b1e8d48248dba831729ee02d12648f8b95d6e73ecfa09c76b60"
+      "bytes": 9890,
+      "sha256": "71cd7e4da85dd6604190b3323084c635d73083aed63022fa5a40ac5a63130560"
     },
     {
       "path": "scripts/build_data.py",
@@ -4703,6 +4715,11 @@
       "path": "scripts/build_stage_rankings.py",
       "bytes": 6741,
       "sha256": "f3fe7ee23d6a6005d63fb7e2e50c013f595f89bbd4f64bc3a3886baa3968021d"
+    },
+    {
+      "path": "scripts/build_t2_scorer.py",
+      "bytes": 10855,
+      "sha256": "71348accb8f0858757ac8204b874e3d07885eb4f3345424c87bf6f6b7f2df68c"
     },
     {
       "path": "scripts/verify_site.py",

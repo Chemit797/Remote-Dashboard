@@ -39,7 +39,7 @@ function countdown(){
 function clockCard(){return `<div class="countdown-card"><div class="countdown-label">最终提交截止倒计时</div><div id="countdown" class="countdown" aria-label="距离最终提交截止的时间"></div><p class="deadline">11 月 25 日 23:59 AoE</p><p class="deadline">11 月 26 日 19:59 · 北京时间</p><a href="${D.deadline.source_url}" target="_blank" rel="noopener">官方时间线 ↗ · ${D.version} 核对</a><p class="quiet">日程以官网最新通知为准</p></div>`;}
 function overview(){
  const after=Date.now()>=Date.parse(D.deadline.countdown_target);
- return `<section class="hero"><div class="hero-intro"><div class="kicker">Virtual Embryo Challenge ${badge(after?'最终截止已过':'P3 · 最终阶段',after?'amber':'green')}</div><h1>虚拟胚胎比赛与研究</h1><p class="sub">比赛进度、数据概况与已有分析的统一入口。</p><div class="hero-actions"><a class="btn primary" href="#/analysis">进入分析专题 <span>↗</span></a><a class="btn" href="#/scorer">查看 T1 评分器</a><a class="btn" href="#/scorer/samples">T1 样本记录</a><a class="btn" href="#/plan">查看联合规划</a></div></div>${clockCard()}</section>
+ return `<section class="hero"><div class="hero-intro"><div class="kicker">Virtual Embryo Challenge ${badge(after?'最终截止已过':'P3 · 最终阶段',after?'amber':'green')}</div><h1>虚拟胚胎比赛与研究</h1><p class="sub">比赛进度、数据概况与已有分析的统一入口。</p><div class="hero-actions"><a class="btn primary" href="#/analysis">进入分析专题 <span>↗</span></a><a class="btn" href="#/scorer">查看评分器</a><a class="btn" href="#/scorer/samples">T1 样本记录</a><a class="btn" href="#/plan">查看联合规划</a></div></div>${clockCard()}</section>
  ${stats([['正式目标','4','T1 / T2 胚胎 / T2 心脏 / T3'],['官方数据文件','15','9 份训练/参考 + 6 份开发验证'],['先验知识','108','逐条记录核对条件与缺口'],['共同分析索引','15','历史、官方、外部、心脏与评分']])}
  ${section('四个最终目标','#/data','查看数据阶段轴')}<div class="grid four">${D.tasks.map(taskCard).join('')}</div>
  ${section('比赛时间线')}<div class="panel"><div class="schedule">${D.timeline.map(([d,p,t])=>`<div class="milestone ${p==='P3'?'current':p==='FINAL'?'final':''}"><i aria-hidden="true"></i><small>${E(d)}</small><b>${E(p)}</b><small>${E(t)}</small></div>`).join('')}</div><p class="caption">官方日程核对 ${D.version} · 当前账号成绩与剩余次数未核实，不以默认值填充。</p></div>
@@ -173,19 +173,39 @@ function filesPage(){const f=D.file_counts;return head('','5090 文件结构','�
 function taskPage(id){const t=D.tasks.find(x=>x.id===id);if(!t)return missing();return crumbs([['比赛目标','#/overview'],[t.name]])+head(t.name,t.target+' · '+t.description,t.modality+' / '+N(t.genes)+'基因')+`<div class="grid two"><section class="panel"><h2>下一项能改变决策的工作</h2><p>${E(t.next)}</p><div class="notice">先登记合格基线、数据曝光、生成时可得输入与失败出口。后续实验尚未启动；P3正式次数未核实。</div><a href="#/plan" class="btn">查看工作卡与分工建议 ↗</a></section><section class="panel"><h2>评价组与权重</h2>${t.weights.map(([a,b])=>`<div class="metric-row"><b>${E(a)}</b><div><div class="progress-line"><span style="width:${b}%"></span></div><small>${b}%</small></div></div>`).join('')}<p class="caption">T2组内各指标平分；T3分布组MMD/CSS为60/40。公开公式不等于线上后台逐位验收。</p></section></div>${section('优先阅读的分析')}<div class="grid two">${t.analysis.map(id=>analysisCard(D.analyses.find(x=>x.analysis_id===id))).join('')}</div>`;}
 function planPage(){return head('JOINT PLAN','联合规划','把现有研究接成有限的预测对照，明确每项工作的输入、交付与停止条件。')+`<div class="grid three">${[['P0','接清基线与评价','核父模型、几何来源、输入特征与完整任务指标。'],['P1','心脏邻域小试验','先核可生成条件，再做更强位置对照及向前留期。'],['P2','T1有限来源改动','一个来源、一个类型；拆开检出与强度，报告完整指标。']].map(([p,t,b])=>`<div class="card"><div class="card-number">${p}</div><h3>${t}</h3><p>${b}</p></div>`).join('')}</div><div class="notice">这些是建议工作卡。职责按角色划分，不代表同事已经接单；当前没有启动模型训练、评分或正式提交。</div>${section('谁负责解释，谁负责检验')}${table(['角色','负责的边界','要交出的结果'],[['官方/心脏分析解释角色','原统计含义、局部结构与观测假设','有条件的特征候选与不可推断范围'],['外部来源解释角色','来源身份、阶段/取材、类型映射和迁移失败','一个可检验的来源/类型假设'],['任务模型执行角色','合格生成路径、对照预测和完整指标','保留、放弃或证据不足'],['总控与评估角色','统一版本、输入身份、开发曝光与回执','可复核的决策记录']])}<details class="disclosure" open><summary>联合审视全文 · 18条核对与3张工作卡</summary><article class="prose">${D.plan_html}</article></details>`;}
 function missing(){return head('NOT FOUND','未找到这个入口','可从主导航返回现有任务、分析或知识条目。')+'<a class="btn" href="#/overview">返回总览</a>';}
-function render(){
- if(document.getElementById('scorer-board') && /^#\/scorer(?:\/|\?|$)/.test(location.hash)){window.VEMScorer.navigate();return;}
+function renderScorer(isT2){
+ const tabs=main.querySelector('#scorer-tabs');
+ if(!tabs){
+   main.innerHTML=`<div class="scorebook"><nav id="scorer-tabs" aria-label="选择评分任务">
+     <a href="#/scorer"><b>T1</b> 时间外推</a><a href="#/scorer/t2"><b>T2</b> 时空预测</a>
+   </nav><div id="scorer-panel"></div></div>`;
+ }
+ const panel=main.querySelector('#scorer-panel');
+ if(panel.dataset.task==='t1'&&!isT2){window.VEMScorer.navigate();return;}
  window.VEMScorer.stop();
+ panel.dataset.task=isT2?'t2':'t1';
+ main.querySelectorAll('#scorer-tabs a').forEach((link,index)=>{
+   if(index===Number(isT2))link.setAttribute('aria-current','page');
+   else link.removeAttribute('aria-current');
+ });
+ panel.innerHTML=isT2?window.VEMT2Scorer.render():window.VEMScorer.shell();
+ if(!isT2)window.VEMScorer.mount();
+}
+function render(){
  if(clockHandle){clearInterval(clockHandle);clockHandle=null;}
  const raw=(location.hash.slice(1)||'/overview'),parts=raw.split('?');route=parts[0].replace(/^\//,'').split('/').filter(Boolean);
  const query=new URLSearchParams(parts[1]||'');if(route[0]==='knowledge'&&query.has('gene')){state.knowledge.q=query.get('gene');state.knowledge.page=0;}
  const page=route[0]||'overview';document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===page||(page==='task'&&a.dataset.nav==='overview');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
- try{main.innerHTML=page==='overview'?overview():page==='scorer'?window.VEMScorer.shell():page==='data'?dataPage():page==='analysis'?analysisPage():page==='similarity'?window.VEMStageRankings.render():page==='knowledge'?knowledgePage():page==='files'?filesPage():page==='plan'?planPage():page==='task'?taskPage(route[1]):missing();}catch(error){console.error(error);main.innerHTML=head('DISPLAY ERROR','页面未能完成载入','请刷新页面；如果仍有问题，可查看维护说明。');}
+ const isT2=page==='scorer'&&route[1]==='t2';
+ if(page!=='scorer')window.VEMScorer.stop();
+ try{
+   if(page==='scorer')renderScorer(isT2);
+   else main.innerHTML=page==='overview'?overview():page==='data'?dataPage():page==='analysis'?analysisPage():page==='similarity'?window.VEMStageRankings.render():page==='knowledge'?knowledgePage():page==='files'?filesPage():page==='plan'?planPage():page==='task'?taskPage(route[1]):missing();
+ }catch(error){console.error(error);main.innerHTML=head('DISPLAY ERROR','页面未能完成载入','请刷新页面；如果仍有问题，可查看维护说明。');}
  document.title=(main.querySelector('h1')?.textContent||'研究工作台')+' · 26VEM';
  document.getElementById('footer-info').textContent='研究快照 '+D.version+' · 截止日来源 '+D.deadline.source_url.replace('https://','');
- if(page==='scorer')window.VEMScorer.mount();
  document.querySelector('.header-note').hidden=page==='scorer';
- if(page==='scorer')document.getElementById('footer-info').textContent='T1 开发评估 · 采集时间见页首';
+ if(page==='scorer')document.getElementById('footer-info').textContent=isT2?'T2 开发评估 · 复核日期见页首':'T1 开发评估 · 采集时间见页首';
  if(document.getElementById('countdown')){countdown();clockHandle=setInterval(countdown,1000);}
  if(document.getElementById('analysis-results'))updateAnalysis();
  if(document.getElementById('external-results'))updateExternal();
@@ -194,7 +214,7 @@ function render(){
  if(document.getElementById('pair-results'))updatePairs();
  if(document.getElementById('metric-results'))updateMetrics();
  if(document.getElementById('neighbour-results'))loadNeighbours().then(()=>{if(document.getElementById('neighbour-results'))updateNeighbours();}).catch(e=>{if(document.getElementById('neighbour-results'))document.getElementById('neighbour-results').innerHTML=empty(e.message);});
- if(page!=='scorer'||!route[1])window.scrollTo({top:0,behavior:'instant'});
+ if(page!=='scorer'||!route[1]||isT2)window.scrollTo({top:0,behavior:'instant'});
  if(page==='similarity'&&route[1])document.getElementById('rank-task-'+route[1])?.scrollIntoView({block:'start'});
 }
 const controls={
