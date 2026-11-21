@@ -10,7 +10,7 @@ def build(project):
     pair_file=SITE/'readers/research/vem_pairwise_similarity_v3/comparison.html'
     name_file=project/'catalogs/external_dataset_names.json'
     payload=json.loads(BeautifulSoup(pair_file.read_text(encoding='utf-8'),'html.parser').find(id='payload').get_text())
-    names={d['id']:d['name'] for d in json.loads(name_file.read_text(encoding='utf-8'))['datasets']}
+    names={d['id']:d.get('display_id',d['id'])+' · '+d['name'] for d in json.loads(name_file.read_text(encoding='utf-8'))['datasets']}
     candidates=[];excluded=[]
     for p in payload['pairs']:
         record=next((r for r in p['records'] if r['group']=='ALL'),None)
@@ -22,7 +22,7 @@ def build(project):
         if reason:
             excluded.append(dict(pair=p['id'],reason=reason));continue
         for sid in p['external_ids']:
-            assert sid+' · '+names[sid] in p['external_name'],(sid,p['external_name'])
+            assert names[sid] in p['external_name'],(sid,p['external_name'])
         note={'BUBR1_WT_E105':'WT','PITX2_CONTROL_E105':'Control'}.get(p['external'])
         name=p['external_name']+(' · '+note if note else '')
         revision=payload.get('release','e105-same-stage-20261119')

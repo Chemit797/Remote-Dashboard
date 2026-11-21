@@ -4,7 +4,7 @@
 
 例如：**VED-020 · Stereo-seq 胚胎三维重建图谱｜E8.0 · 重复1**。
 
-43 个已有 VED 编号保持不变。图中另外三个历史来源用已有登录号 OMIX014646、GSE117621、GSE52317；知识库另提及四个文献来源，也分别登记。LIT-LO2022 是本地引用编号，不是数据库登录号。名称统一不表示已下载、已核对或允许用于任一任务。
+VED-001–VED-043 保持不变，新增来源顺延为 VED-044–VED-051。统一展示编号由 display_id 指定；id 保留历史来源键，供旧链接、结果与文件定位。数据库登录号作为别名和溯源信息保留。VED-051 对应的 LIT-LO2022 是本地引用编号，不是数据库登录号。文献登记不表示已有本地矩阵。
 
 TOME 单独出现时可能指 VED-003 或 VED-004；Stereo-seq 是技术名，不能单凭这个词判定来源。文献编号（如 PS2019）与数据编号分别保留。
 
@@ -53,11 +53,11 @@ TOME 单独出现时可能指 VED-003 或 VED-004；Stereo-seq 是技术名，�
 | VED-041 · Tie2-Cre Ctnnb1 心脏形态资料 | PMC10310929; PMID 37385754; DOI 10.26508/lsa.202302163；PMC10310929；37385754；10.26508/lsa.202302163 | E9.5 movie context；E10.5 morphology context | 已有 VED 编号 |
 | VED-042 · β-catenin 激活心脏前体数据 | GSE15232 | E9.0 | 已有 VED 编号 |
 | VED-043 · Rbpj／Axin2 心脏扰动数据 | GSE36804 | E9.25；22–24 somites | 已有 VED 编号 |
-| GSE342607 · 小鼠胚胎谱系追踪图谱 | GSE342607；PRJNA1508414；MELA；Zenodo 23088914 | E7.5–E10.0 | [5090 已登记](../reports/gse342607_intake_20261120/README.md)，逐样本覆盖见验收 |
-| OMIX014646 · mdCLA 全胚胎单细胞图谱 | OMIX014646；mdCLA；Cao 2026；mdCLA（Cao 2026） | 见历史来源登记 | 历史来源，尚未登记VED编号 |
-| GSE117621 · Gata4 G295S 流出道瓣膜数据 | GSE117621；PRJNA482668 | E15.5 | [5090 已入库](../reports/gata4_accession_intake_20261121/README.md)，6 份瓣膜样本 |
-| GSE52317 · Gata4 缺失成体心脏数据 | GSE52317；GPL6246；PRJNA227383 | 成体 8 周 | [5090 已入库](../reports/gata4_accession_intake_20261121/README.md)，12 份全心芯片样本 |
-| E-MTAB-6970 · 分区域内皮单细胞数据 | E-MTAB-6970；解剖 FLK1+ 内皮；anatomically dissected endothelial Smart-seq2 | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |
-| GSE123046 · Nowotschin 内胚层单细胞图谱 | GSE123046；GSE123046 (scRNA-seq) | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |
-| GSE123124 · Nowotschin 内胚层整体 RNA 数据 | GSE123124；GSE123124 (bulk RNA-seq) | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |
-| LIT-LO2022 · Lohoff 胚胎空间图谱 | LIT-LO2022；Lohoff SpatialMouseAtlas；SpatialMouseAtlas；Lohoff | 见历史来源登记 | 本地引用编号，非数据库登录号；文献空间数据，本地矩阵未确认 |
+| VED-044 · 小鼠胚胎谱系追踪图谱 | GSE342607；MELA；PRJNA1508414；Zenodo 23088914；Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis | E7.5、E8.0、E8.5、E9.0、E9.5、E10.0 | 5090 已入库并验收；16 个胚胎、1,792,520 个 RNA 细胞、56 棵谱系树；六组同日龄比较已完成 |
+| VED-045 · Gata4 G295S 流出道瓣膜数据 | GSE117621；GSE117621（未入库）〔旧图标注〕；PRJNA482668 | E15.5 | 5090 已入库；6 个 E15.5 流出道瓣膜样本；整体表达及扰动变化已计算 |
+| VED-046 · Gata4 缺失成体心脏数据 | GSE52317；GSE52317（未入库）〔旧图标注〕；PRJNA227383；GPL6246 | 成体 8 周 | 5090 已入库；12 个成体心脏芯片样本；整体表达及扰动变化已计算 |
+| VED-047 · mdCLA 全胚胎单细胞图谱 | OMIX014646；mdCLA；Cao 2026；mdCLA（Cao 2026） | 登记阶段 E8.0、E8.5、E9.0、E9.5、E14；图谱共 37 时点 | 历史已下载来源；登记阶段与已有数值对照保留 |
+| VED-048 · 分区域内皮单细胞数据 | E-MTAB-6970；解剖 FLK1+ 内皮；anatomically dissected endothelial Smart-seq2 | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |
+| VED-049 · Nowotschin 内胚层单细胞图谱 | GSE123046；GSE123046 (scRNA-seq) | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |
+| VED-050 · Nowotschin 内胚层整体 RNA 数据 | GSE123124；GSE123124 (bulk RNA-seq) | 见历史来源登记 | 文献数据；当前未确认本地矩阵 |
+| VED-051 · Lohoff 胚胎空间图谱 | LIT-LO2022；Lohoff SpatialMouseAtlas；SpatialMouseAtlas；Lohoff | 见历史来源登记 | 本地引用编号，非数据库登录号；文献空间数据，本地矩阵未确认 |

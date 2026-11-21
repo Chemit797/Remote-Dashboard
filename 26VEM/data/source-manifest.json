@@ -1,11 +1,11 @@
 {
-  "built_at": "2026-11-20T20:59:22.282409+00:00",
+  "built_at": "2026-11-21T04:03:18.614016+00:00",
   "scope": "Selected reports, aggregate statistics and metadata only. No H5AD, model weights, credentials or submission payloads.",
   "files": [
     {
       "path": "catalogs/external_dataset_names.json",
-      "bytes": 8267,
-      "sha256": "b8e818b821048d14ea9cf7bed2585cf87b5e54a171b6996510db067ccc33123f"
+      "bytes": 13545,
+      "sha256": "cd40ae3d0c9e2353b7c855c4510ccabe3a2ae739cd176e22551ac21472aaba05"
     },
     {
       "path": "reports/analysis_integration_20261118/peer_analysis/official_data_analysis_20261114/tables/file_inventory.csv",
@@ -24,8 +24,8 @@
     },
     {
       "path": "catalogs/dashboard_external_releases.json",
-      "bytes": 4228,
-      "sha256": "9dbf72c1f239bb02a7a2fc91c4f29e60e96a715a43b4d2bd7cef8add9cfca3c6"
+      "bytes": 4506,
+      "sha256": "e35de1b5c14369e4401f43f2ee7788fffc14d73c8ceee9484e07208acfaca120"
     },
     {
       "path": "research/gse342607_dashboard_20261121/results/web.json",
@@ -221,6 +221,11 @@
       "path": "reports/analysis_integration_20261118/INDEPENDENT_TABLE_REVIEW.json",
       "bytes": 2459,
       "sha256": "d6710fffaad7fd39004d02249aae96e59129bd3d56d4df1529e9cc844647aa85"
+    },
+    {
+      "path": "research/source_names_timelines_20261121/TIMELINE_CATALOG.json",
+      "bytes": 162393,
+      "sha256": "882cb712c7a680276ff19aa53285c804f51ce6f52f2585691e6a75223fd4e7dd"
     }
   ]
 }

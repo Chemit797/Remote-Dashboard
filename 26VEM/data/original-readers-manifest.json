@@ -1004,16 +1004,70 @@
       "sha256": "6c31f551ae0253af66513d8007c4174e236032fe6b0e0cfa92d0680c6e271025"
     },
     {
+      "path": "readers/docs/EXTERNAL_DATASET_NAMES.md",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\docs\\EXTERNAL_DATASET_NAMES.md",
+      "bytes": 8447,
+      "sha256": "7a05bc4b5155ddd0c9ba058e36195081e7ce305f4c9d804bcba224a9b7450ebc"
+    },
+    {
+      "path": "readers/older/REPORT_ZH.md",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\older\\REPORT_ZH.md",
+      "bytes": 43035,
+      "sha256": "9db0ce9339e700d39a23732d24fc0f4d84be4fd33b9aaaa35226915b29378ead"
+    },
+    {
+      "path": "readers/research/early_embryo_prior_audit/knowledge.html",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\early_embryo_prior_audit\\knowledge.html",
+      "bytes": 452543,
+      "sha256": "9cd391634546408c8886002b0208e9c07373942772424fb01438c4aa06fcbb87"
+    },
+    {
+      "path": "readers/research/vem_official_metric_source_audit/FINDINGS.md",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\vem_official_metric_source_audit\\FINDINGS.md",
+      "bytes": 2474,
+      "sha256": "9ffb02db69757d0b9a53ba2da38a8e0da6aa1cca677922b943e38fb9b39b5789"
+    },
+    {
       "path": "readers/research/vem_official_metric_source_audit/index.html",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\gata4_bulk_similarity_20261121\\overlays\\research\\vem_official_metric_source_audit\\index.html",
-      "bytes": 4401415,
-      "sha256": "c507cba4e572e6311b1425289462ad7d501086289575f8a4e36f791304dd5c58"
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\vem_official_metric_source_audit\\index.html",
+      "bytes": 4401619,
+      "sha256": "0dd8c390d130bf99e96a04d187ddfd305b021b09f844af42ff11b7227a9d79f2"
+    },
+    {
+      "path": "readers/research/vem_official_metric_source_audit/PROTOCOL.md",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\vem_official_metric_source_audit\\PROTOCOL.md",
+      "bytes": 6625,
+      "sha256": "67da590e91c613852bb6be7e47af408288b2f6b06c07d3c1c54b32e7e9a9a880"
+    },
+    {
+      "path": "readers/research/vem_official_metric_source_audit/README.md",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\vem_official_metric_source_audit\\README.md",
+      "bytes": 23869,
+      "sha256": "24e78f762747876aaefb0f7f3b04fc10e2a0d12425a99897b7931c438e0fbdd7"
+    },
+    {
+      "path": "readers/research/vem_pairwise_similarity_v3/comparison.html",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\vem_pairwise_similarity_v3\\comparison.html",
+      "bytes": 3560395,
+      "sha256": "a2c05c5972de5b5a963671e0bd59392c6c1e88fbd2e6c133a1163406386d61ca"
+    },
+    {
+      "path": "readers/research/vem_prior_knowledge_v2/knowledge.html",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\vem_prior_knowledge_v2\\knowledge.html",
+      "bytes": 1307047,
+      "sha256": "d92b37f8db02ae0efab87916bef2484def9617830fb982c9f3778e95a97064c9"
     },
     {
       "path": "readers/research/vem_source_comparison_v2/README.md",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\gata4_bulk_similarity_20261121\\overlays\\research\\vem_source_comparison_v2\\README.md",
-      "bytes": 206228,
-      "sha256": "b645c8ac5501f4c55541c634b5e42c6f3295bf6b085a7b9bbb5a450bcd0fe062"
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\vem_source_comparison_v2\\README.md",
+      "bytes": 206149,
+      "sha256": "6f46aa65b134a6892af024a22d2f04506d4451bd3854005869e7da4b6b222fd5"
+    },
+    {
+      "path": "readers/research/vem_official_metric_source_audit/figures/fig_source_timelines_20261121.svg",
+      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\source_names_timelines_20261121\\overlays\\research\\vem_official_metric_source_audit\\figures\\fig_source_timelines_20261121.svg",
+      "bytes": 170636,
+      "sha256": "189564241b86c93cff8dff24f58f2495267937b28bb1f6c5476a2b69146b8d9f"
     },
     {
       "path": "readers/research/gata4_bulk_similarity_20261121/data/array_mapping.csv.gz",
@@ -1320,36 +1374,6 @@
       "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\gata4_bulk_similarity_20261121\\overlays\\research\\gata4_bulk_similarity_20261121\\data\\verification.json",
       "bytes": 1049,
       "sha256": "1a3a86c5993bd03829b026315d6ae4cff085440908ff8d7f14a230522af3cb1f"
-    },
-    {
-      "path": "readers/docs/EXTERNAL_DATASET_NAMES.md",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\gse342607_dashboard_20261121\\overlays\\docs\\EXTERNAL_DATASET_NAMES.md",
-      "bytes": 8122,
-      "sha256": "9bfc53585e0e5a2421a0d91376d1d5c1f42f909cb4a13ca6cde11b1b419b9254"
-    },
-    {
-      "path": "readers/older/REPORT_ZH.md",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\gse342607_dashboard_20261121\\overlays\\older\\REPORT_ZH.md",
-      "bytes": 42419,
-      "sha256": "ec82cf625e828a7e21f8d89792d5298362a0a05ae0c4a78d5ab77ea59fb26b0a"
-    },
-    {
-      "path": "readers/research/early_embryo_prior_audit/knowledge.html",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\gse342607_dashboard_20261121\\overlays\\research\\early_embryo_prior_audit\\knowledge.html",
-      "bytes": 452545,
-      "sha256": "16554d47da2abca51dcc6c53d9b814c924c24f051b27f2d553a2f821bbedbabf"
-    },
-    {
-      "path": "readers/research/vem_pairwise_similarity_v3/comparison.html",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\gse342607_dashboard_20261121\\overlays\\research\\vem_pairwise_similarity_v3\\comparison.html",
-      "bytes": 3560550,
-      "sha256": "95a0db727da7a6985eff51fccb14f9991195eeddaddef163f352a96553828d8d"
-    },
-    {
-      "path": "readers/research/vem_prior_knowledge_v2/knowledge.html",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\gse342607_dashboard_20261121\\overlays\\research\\vem_prior_knowledge_v2\\knowledge.html",
-      "bytes": 1304885,
-      "sha256": "ed107368e8291858faef1128e01b9161b4bcf383d1a7765a0ff4a63c71d1cf16"
     },
     {
       "path": "readers/research/gse342607_dashboard_20261121/data/D001.json",
@@ -4784,12 +4808,6 @@
       "sha256": "d9abf7cbbb4dbdc0961b8cb491731cb9e0250a0cc8fcdcdf5f1ac8be4a02ddf0"
     },
     {
-      "path": "readers/research/vem_official_metric_source_audit/README.md",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\validation_completion_20261119\\frozen_dependencies\\research\\vem_official_metric_source_audit\\README.md",
-      "bytes": 23893,
-      "sha256": "2f140cd174582ca2c2f1ca0767c2e86d73bcaf4e1b81e83566f69c69cc7beea8"
-    },
-    {
       "path": "readers/research/vem_official_metric_source_audit/results/outputs/metric_relationships.csv",
       "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\results\\outputs\\metric_relationships.csv",
       "bytes": 3424,
@@ -4868,12 +4886,6 @@
       "sha256": "5934dc8879757b669b0e04cf878b88e99cf9acb645b470a48e73c7be1d84fddf"
     },
     {
-      "path": "readers/research/vem_official_metric_source_audit/PROTOCOL.md",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\PROTOCOL.md",
-      "bytes": 6628,
-      "sha256": "7f401f0f1d4a08c1eb4faf2b6c86e6be172b67fdb501e912d86e2da83c7badcb"
-    },
-    {
       "path": "readers/research/vem_official_metric_source_audit/results/outputs/delta_audit/verification.json",
       "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\results\\outputs\\delta_audit\\verification.json",
       "bytes": 10650,
@@ -4932,12 +4944,6 @@
       "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\results\\outputs\\gene_difference_example.csv",
       "bytes": 340,
       "sha256": "20cc6b4d928cfdf7a6639f8ba1ce659b3835d49fa81eddf2b88b156b581ab664"
-    },
-    {
-      "path": "readers/research/vem_official_metric_source_audit/FINDINGS.md",
-      "source": "D:\\Project\\virtualembryo_biocosmosX\\research\\vem_official_metric_source_audit\\FINDINGS.md",
-      "bytes": 2480,
-      "sha256": "8c906c0224c36d96324d13dfd89b71860097a594c9c3f953b4f45fc864cc4984"
     },
     {
       "path": "readers/research/vem_official_metric_source_audit/transfer/FINDINGS.md",

@@ -1,0 +1,4816 @@
+{
+  "schema": "vem.source-timelines.v2",
+  "metadata_date": "2026-11-21",
+  "blocks": [
+    {
+      "id": "T1",
+      "metric_task": "T1",
+      "title": "T1 · 单细胞 RNA",
+      "target": "外推到 E12.5",
+      "subtitle": "官方训练 E8.5、E9.5；验证 E10.5；测试 E12.5。外部保护区间：9.5 < E ≤ 13.5。",
+      "windows": [
+        {
+          "start": 9.5,
+          "end": 13.5,
+          "left_open": true,
+          "right_open": false
+        }
+      ],
+      "official": [
+        {
+          "name": "T1 单细胞 RNA · 心脏中心取材",
+          "note": "有验证答案；本页已有表达比较。E7.75 官方有但不发布。",
+          "stages": [
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "role": "unreleased"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "role": "reference"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "role": "reference"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "role": "validation"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "role": "test"
+            }
+          ]
+        }
+      ],
+      "note": "来源阶段与已完成的表达对照并列；相关程度见同阶段榜单及逐配对结果。",
+      "sources": [
+        {
+          "id": "VED-005",
+          "display_name": "VED-005 · Mittnenzweig 胚胎发育图谱",
+          "aliases": [
+            "GSE169210",
+            "Mittnenzweig",
+            "Mittnenzweig continuous embryogenesis atlas"
+          ],
+          "stages": [],
+          "ranges": [
+            {
+              "start": 6.42,
+              "end": 8.13,
+              "kind": "inferred",
+              "label": "作者模型时间 E6.42–E8.13"
+            }
+          ],
+          "note": "粗线为作者模型推断时间；不是按这些日龄逐个实测。另有干预分支。",
+          "assay": "MARS-seq2.0",
+          "scope": "Whole embryo; not heart-only",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-005",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-005",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-001",
+          "display_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+          "aliases": [
+            "E-MTAB-6967",
+            "EMTAB6967",
+            "Pijuan-Sala",
+            "Pijuan-Sala gastrulation atlas"
+          ],
+          "stages": [
+            {
+              "stage": 6.5,
+              "label": "E6.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 6.75,
+              "label": "E6.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.0,
+              "label": "E7",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.25,
+              "label": "E7.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.0,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "含胚胎及胚外组织；混合样本不等于单个胚胎。",
+          "assay": "10x Chromium Single Cell 3′ v1",
+          "scope": "Embryonic and extraembryonic whole-embryo cells; not heart-only",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-001",
+          "computed_pairs": [
+            {
+              "pair": "P006",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "rho": 0.9004849753091834,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P006&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-001",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-002",
+          "display_name": "VED-002 · Mesp1 早期心脏谱系图谱",
+          "aliases": [
+            "GSE176306",
+            "PRJNA735748",
+            "Zhang–Chi",
+            "Mesp1 谱系"
+          ],
+          "stages": [
+            {
+              "stage": 7.25,
+              "label": "E7.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "谱系富集；不能当作全胚胎的细胞组成。",
+          "assay": "RNA-Seq",
+          "scope": "Not heart-only; early cardiac/extraembryonic mesoderm lineage scope",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-002",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-002",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-020",
+          "display_name": "VED-020 · Stereo-seq 胚胎三维重建图谱",
+          "aliases": [
+            "GSE278603",
+            "PRJNA1168072",
+            "STEREO_E8_rep1",
+            "STEREO_E8_rep2",
+            "E8.0 空间重建重复1",
+            "E8.0 空间重建重复2",
+            "Xie serial whole-embryo Stereo-seq"
+          ],
+          "stages": [
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.0,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "连续切片重建对象；当前比较用 E8.0 两重复，不能当作解离单细胞。",
+          "assay": "OTHER",
+          "scope": "Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-020",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-020",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "GSE342607",
+          "display_name": "VED-044 · 小鼠胚胎谱系追踪图谱",
+          "aliases": [
+            "GSE342607",
+            "MELA",
+            "PRJNA1508414",
+            "Zenodo 23088914",
+            "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis"
+          ],
+          "stages": [
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10,
+              "label": "E10",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "16 个胚胎；1,792,520 个 RNA 细胞；56 棵谱系树。",
+          "assay": "scRNA-seq 与谱系树",
+          "scope": "小鼠全胚胎，含胚外组织",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "research/gse342607_dashboard_20261121/README.md",
+          "display_id": "VED-044",
+          "computed_pairs": [
+            {
+              "pair": "GSE342607-T1-E85",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "rho": 0.9616752441379669,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=GSE342607-T1-E85&group=ALL"
+            },
+            {
+              "pair": "GSE342607-T1-E95",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.9540777935033203,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=GSE342607-T1-E95&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-044",
+          "status": "已入库 · 2 组同日龄对照"
+        },
+        {
+          "id": "VED-006",
+          "display_name": "VED-006 · de Soysa 早期心脏图谱",
+          "aliases": [
+            "GSE126128",
+            "PRJNA521061",
+            "de Soysa",
+            "deSoysa"
+          ],
+          "stages": [
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.25,
+              "label": "E9.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "心脏区域；含 WT 和 Hand2-null 分支，数值比较仅用已登记子集。",
+          "assay": "10x scRNA-seq",
+          "scope": "Cardiac Crescent region",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-006",
+          "computed_pairs": [
+            {
+              "pair": "P014",
+              "official_stage": "E8.5",
+              "external_stage": "E8.25",
+              "rho": 0.9172799853153935,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P014&group=ALL"
+            },
+            {
+              "pair": "P015",
+              "official_stage": "E9.5",
+              "external_stage": "E9.25",
+              "rho": 0.9174686210971692,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P015&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-006",
+          "status": "2 组表达对照已计算"
+        },
+        {
+          "id": "OMIX014646",
+          "display_name": "VED-047 · mdCLA 全胚胎单细胞图谱",
+          "aliases": [
+            "OMIX014646",
+            "mdCLA",
+            "Cao 2026",
+            "mdCLA（Cao 2026）"
+          ],
+          "stages": [
+            {
+              "stage": 8,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14,
+              "label": "E14",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "共 37 时点；图中仅标已登记的 E8、E8.5、E9、E9.5、E14。",
+          "assay": "见原始登记",
+          "scope": "见原始登记",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-047",
+          "computed_pairs": [],
+          "url": "#/analysis/A13?section=inventory-title",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-004",
+          "display_name": "VED-004 · TOME E8.5 全胚胎图谱",
+          "aliases": [
+            "GSE186069",
+            "TOME E8.5"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Whole mouse embryo (no anatomical microdissection stated)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-004",
+          "computed_pairs": [
+            {
+              "pair": "P007",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "rho": 0.9359127652702289,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P007&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-004",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-007",
+          "display_name": "VED-007 · Qiu 产前细胞核图谱",
+          "aliases": [
+            "GSE228590",
+            "Qiu",
+            "QIU228590",
+            "Qiu 细胞核图谱",
+            "Qiu核RNA"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.75,
+              "label": "E8.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.0,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.25,
+              "label": "E9.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.75,
+              "label": "E9.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.0,
+              "label": "E10",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.25,
+              "label": "E10.25",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.75,
+              "label": "E10.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.0,
+              "label": "E11",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.25,
+              "label": "E11.25",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.75,
+              "label": "E11.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.0,
+              "label": "E12",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.25,
+              "label": "E12.25",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.75,
+              "label": "E12.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.0,
+              "label": "E13",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.25,
+              "label": "E13.25",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.75,
+              "label": "E13.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.0,
+              "label": "E14",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.25,
+              "label": "E14.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.333,
+              "label": "E14.333",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.75,
+              "label": "E14.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.0,
+              "label": "E15",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.25,
+              "label": "E15.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.75,
+              "label": "E15.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.0,
+              "label": "E16",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.25,
+              "label": "E16.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.75,
+              "label": "E16.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.0,
+              "label": "E17",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.25,
+              "label": "E17.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.5,
+              "label": "E17.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.75,
+              "label": "E17.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.0,
+              "label": "E18",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.25,
+              "label": "E18.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.5,
+              "label": "E18.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.75,
+              "label": "E18.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P0",
+              "postnatal": 0.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "本地评分子集是选出的心肌和心内膜细胞核；图谱阶段不等于本地子集都有。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Unknown; not a dissected-heart experiment",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-007",
+          "computed_pairs": [
+            {
+              "pair": "P009",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.9133112862772896,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P009&group=ALL"
+            },
+            {
+              "pair": "V009",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.9133281719949066,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V009&group=ALL"
+            },
+            {
+              "pair": "X021",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.90110353222263,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X021&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-007",
+          "status": "3 组表达对照已计算"
+        },
+        {
+          "id": "VED-010",
+          "display_name": "VED-010 · 胚胎与心脏单细胞图谱",
+          "aliases": [
+            "GSE230531"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P3",
+              "postnatal": 3.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "已有比较仅作本地 QC 敏感性结果，不计入主要来源结论。",
+          "assay": "10x 3' v2 scRNA-seq",
+          "scope": "embryo",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-010",
+          "computed_pairs": [
+            {
+              "pair": "P022",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "rho": 0.910850735076704,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P022&group=ALL"
+            },
+            {
+              "pair": "X011",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.8845947319011848,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X011&group=ALL"
+            },
+            {
+              "pair": "X013",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.8842296085325232,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X013&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-010",
+          "status": "3 组表达对照已计算"
+        },
+        {
+          "id": "VED-021",
+          "display_name": "VED-021 · sc3D 胚胎切片空间图谱",
+          "aliases": [
+            "GSE197353",
+            "PRJNA810020",
+            "sc3D"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "二维切片微珠；不是独立的分割细胞。",
+          "assay": "Slide-seqV2",
+          "scope": "E8.5 embryo",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-021",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-021",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-003",
+          "display_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱",
+          "aliases": [
+            "GSE186068",
+            "TOME E9.5–E13.5"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "与关联来源高度共享原始细胞；比较结果注明矩阵与注释的出处。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Whole mouse embryo (no anatomical microdissection stated)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-003",
+          "computed_pairs": [
+            {
+              "pair": "P008",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.8758204880311872,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P008&group=ALL"
+            },
+            {
+              "pair": "V008",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.8800324330153935,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V008&group=ALL"
+            },
+            {
+              "pair": "X027",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.8694115632084518,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X027&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-003",
+          "status": "3 组表达对照已计算"
+        },
+        {
+          "id": "VED-008",
+          "display_name": "VED-008 · MOCA 全胚胎器官发生图谱",
+          "aliases": [
+            "GSE119945",
+            "MOCA",
+            "Mouse Organogenesis Cell Atlas"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "与关联来源共享原始细胞；点击可看共同的结果，不重复计作独立数据。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Whole mouse embryo (no anatomical microdissection stated)",
+          "metadata_only": false,
+          "shared_result_id": "VED-003",
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-008",
+          "computed_pairs": [
+            {
+              "pair": "P008",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.8758204880311872,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P008&group=ALL"
+            },
+            {
+              "pair": "V008",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.8800324330153935,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V008&group=ALL"
+            },
+            {
+              "pair": "X027",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.8694115632084518,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X027&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-008",
+          "status": "3 组表达对照已计算"
+        },
+        {
+          "id": "VED-009",
+          "display_name": "VED-009 · MOSTA 心脏空间图谱",
+          "aliases": [
+            "MOSTA",
+            "STDS0000058",
+            "MOSTA_E9.5",
+            "Mouse Organogenesis Spatiotemporal Atlas"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "心脏区域重建的空间对象；取材范围与全胚不同。",
+          "assay": "spatial transcriptomics",
+          "scope": "Left atrium; Left ventricle; Outflow tract; Right atrium; Right ventricle",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-009",
+          "computed_pairs": [
+            {
+              "pair": "P018",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.8719219987281225,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P018&group=ALL"
+            },
+            {
+              "pair": "V011",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.8128499894264517,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V011&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-009",
+          "status": "2 组表达对照已计算"
+        },
+        {
+          "id": "VED-012",
+          "display_name": "VED-012 · Feng 分心腔单细胞图谱",
+          "aliases": [
+            "GSE193346",
+            "Feng",
+            "FENG193346_CD1",
+            "Feng单细胞"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.5,
+              "label": "E17.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.0,
+              "label": "E18",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.5,
+              "label": "E18.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P0",
+              "postnatal": 0.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P1",
+              "postnatal": 1.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P2",
+              "postnatal": 2.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P3",
+              "postnatal": 3.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P4",
+              "postnatal": 4.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P5",
+              "postnatal": 5.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P7",
+              "postnatal": 7.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P8",
+              "postnatal": 8.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P9",
+              "postnatal": 9.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "分心腔采样；同时含 WT 图谱和突变分支。",
+          "assay": "10x Genomics Chromium 3′ v3 scRNA-seq with MULTI-seq sample multiplexing",
+          "scope": "left atrium (LA)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-012",
+          "computed_pairs": [
+            {
+              "pair": "P012",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.914723382133542,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P012&group=ALL"
+            },
+            {
+              "pair": "V010",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.9069046763552877,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V010&group=ALL"
+            },
+            {
+              "pair": "X007",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.9167459306236174,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X007&group=ALL"
+            },
+            {
+              "pair": "X009",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.9082473969023959,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X009&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-012",
+          "status": "4 组表达对照已计算"
+        },
+        {
+          "id": "VED-019",
+          "display_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+          "aliases": [
+            "GSE309215"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "发布矩阵导出层尚未明确；不能只因数值为整数便认作原始 UMI。",
+          "assay": "RNA-Seq",
+          "scope": "Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-019",
+          "computed_pairs": [
+            {
+              "pair": "P023",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.8955733704735098,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P023&group=ALL"
+            },
+            {
+              "pair": "V012",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.8467749587383678,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V012&group=ALL"
+            },
+            {
+              "pair": "X017",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.8690736241136675,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X017&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-019",
+          "status": "3 组表达对照已计算"
+        },
+        {
+          "id": "VED-024",
+          "display_name": "VED-024 · 胚胎内皮单细胞数据",
+          "aliases": [
+            "GSE216970"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "富集内皮细胞，去掉尾、肢和肝；不代表全胚组成。",
+          "assay": "10x scRNA-seq",
+          "scope": "Endothelial cells from whole embryo without tail, limbs and liver",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-024",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-024",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-014",
+          "display_name": "VED-014 · Pitx2 缺失心脏单细胞数据",
+          "aliases": [
+            "GSE131181"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "10x Chromium Single Cell 3' v2 scRNA-seq",
+          "scope": "Dissociated cardiac cells (official GEO sample description)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-014",
+          "computed_pairs": [
+            {
+              "pair": "X019",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.8913249522310003,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X019&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-014",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-015",
+          "display_name": "VED-015 · BubR1 缺失心脏单细胞数据",
+          "aliases": [
+            "GSE270226"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "10x Genomics Chromium 3' v3.1; Cell Ranger 7.1.0",
+          "scope": "whole embryonic heart",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-015",
+          "computed_pairs": [
+            {
+              "pair": "X001",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.9605650574334335,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X001&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-015",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-016",
+          "display_name": "VED-016 · 心脏流出道单细胞数据",
+          "aliases": [
+            "GSE326956"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "scRNA-seq",
+          "scope": "cardiac outflow tract",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-016",
+          "computed_pairs": [
+            {
+              "pair": "X015",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.8990806992432512,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X015&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-016",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-011",
+          "display_name": "VED-011 · 胚胎全心脏单细胞图谱",
+          "aliases": [
+            "GSE205394"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "10x Chromium Next GEM Single Cell 3′ v2 scRNA-seq",
+          "scope": "Whole embryonic hearts; no chamber microdissection is stated for the scRNA-seq l",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-011",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-011",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-013",
+          "display_name": "VED-013 · Prmt1 缺失心脏单细胞数据",
+          "aliases": [
+            "GSE144271"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "10x Chromium Single Cell 3′ v2 scRNA-seq",
+          "scope": "Whole E12.5 hearts pooled by genotype; no chamber microdissection is stated.",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-013",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-013",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-017",
+          "display_name": "VED-017 · Wt1 心外膜谱系单细胞数据",
+          "aliases": [
+            "GSE154715"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "scRNA-seq",
+          "scope": "tissue: heart",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-017",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-017",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-018",
+          "display_name": "VED-018 · Cdh5-CreER Gata4 缺失心室数据",
+          "aliases": [
+            "GSE208162"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "Gata4 cKO；历史书面许可仅针对 T3，不适用于其他任务。",
+          "assay": "10x scRNA-seq",
+          "scope": "Ventricles",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-018",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-018",
+          "status": "已登记 · 覆盖见来源详情"
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "metric_task": "T2",
+      "title": "T2 胚胎 · 3D MERFISH",
+      "target": "插值到 E7.75",
+      "subtitle": "参考 E6.75、E7.25、E8.0；验证 E7.5；测试 E7.75。外部禁用区间：7.25 < E < 8。",
+      "windows": [
+        {
+          "start": 7.25,
+          "end": 8,
+          "left_open": true,
+          "right_open": true
+        }
+      ],
+      "official": [
+        {
+          "name": "T2 胚胎 · 全胚胎设置",
+          "note": "E8.0 仅覆盖指定切片范围。本页已有表达比较及部分空间指标。",
+          "stages": [
+            {
+              "stage": 6.75,
+              "label": "E6.75",
+              "role": "reference"
+            },
+            {
+              "stage": 7.25,
+              "label": "E7.25",
+              "role": "reference"
+            },
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "role": "validation"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "role": "test"
+            },
+            {
+              "stage": 8,
+              "label": "E8",
+              "role": "reference"
+            }
+          ]
+        }
+      ],
+      "note": "已纳入 E7.5 与 E8.0 的同日龄表达对照；RNA 对照不代表具有三维坐标。",
+      "sources": [
+        {
+          "id": "VED-005",
+          "display_name": "VED-005 · Mittnenzweig 胚胎发育图谱",
+          "aliases": [
+            "GSE169210",
+            "Mittnenzweig",
+            "Mittnenzweig continuous embryogenesis atlas"
+          ],
+          "stages": [],
+          "ranges": [
+            {
+              "start": 6.42,
+              "end": 8.13,
+              "kind": "inferred",
+              "label": "作者模型时间 E6.42–E8.13"
+            }
+          ],
+          "note": "粗线为作者模型推断时间；不是按这些日龄逐个实测。另有干预分支。",
+          "assay": "MARS-seq2.0",
+          "scope": "Whole embryo; not heart-only",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-005",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-005",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-001",
+          "display_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+          "aliases": [
+            "E-MTAB-6967",
+            "EMTAB6967",
+            "Pijuan-Sala",
+            "Pijuan-Sala gastrulation atlas"
+          ],
+          "stages": [
+            {
+              "stage": 6.5,
+              "label": "E6.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 6.75,
+              "label": "E6.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.0,
+              "label": "E7",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.25,
+              "label": "E7.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 8.0,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "含胚胎及胚外组织；混合样本不等于单个胚胎。",
+          "assay": "10x Chromium Single Cell 3′ v1",
+          "scope": "Embryonic and extraembryonic whole-embryo cells; not heart-only",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-001",
+          "computed_pairs": [
+            {
+              "pair": "P001",
+              "official_stage": "E6.75",
+              "external_stage": "E6.75",
+              "rho": 0.41388946545885075,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P001&group=ALL"
+            },
+            {
+              "pair": "P002",
+              "official_stage": "E7.25",
+              "external_stage": "E7.25",
+              "rho": 0.4274532216701132,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P002&group=ALL"
+            },
+            {
+              "pair": "P003",
+              "official_stage": "E8.0",
+              "external_stage": "E8.0",
+              "rho": 0.6263585557234461,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P003&group=ALL"
+            },
+            {
+              "pair": "V001",
+              "official_stage": "E7.5",
+              "external_stage": "E7.25",
+              "rho": 0.5266861193501843,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V001&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-001",
+          "status": "4 组表达对照已计算"
+        },
+        {
+          "id": "VED-002",
+          "display_name": "VED-002 · Mesp1 早期心脏谱系图谱",
+          "aliases": [
+            "GSE176306",
+            "PRJNA735748",
+            "Zhang–Chi",
+            "Mesp1 谱系"
+          ],
+          "stages": [
+            {
+              "stage": 7.25,
+              "label": "E7.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "谱系富集；不能当作全胚胎的细胞组成。",
+          "assay": "RNA-Seq",
+          "scope": "Not heart-only; early cardiac/extraembryonic mesoderm lineage scope",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-002",
+          "computed_pairs": [
+            {
+              "pair": "P020",
+              "official_stage": "E7.25",
+              "external_stage": "E7.25",
+              "rho": 0.4259602990727372,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P020&group=ALL"
+            },
+            {
+              "pair": "V004",
+              "official_stage": "E7.5",
+              "external_stage": "E7.25",
+              "rho": 0.5185699763264544,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V004&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-002",
+          "status": "2 组表达对照已计算"
+        },
+        {
+          "id": "VED-020",
+          "display_name": "VED-020 · Stereo-seq 胚胎三维重建图谱",
+          "aliases": [
+            "GSE278603",
+            "PRJNA1168072",
+            "STEREO_E8_rep1",
+            "STEREO_E8_rep2",
+            "E8.0 空间重建重复1",
+            "E8.0 空间重建重复2",
+            "Xie serial whole-embryo Stereo-seq"
+          ],
+          "stages": [
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 8.0,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "连续切片重建对象；当前比较用 E8.0 两重复，不能当作解离单细胞。",
+          "assay": "OTHER",
+          "scope": "Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-020",
+          "computed_pairs": [
+            {
+              "pair": "P004",
+              "official_stage": "E8.0",
+              "external_stage": "E8.0",
+              "rho": 0.5068366098927238,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P004&group=ALL"
+            },
+            {
+              "pair": "P005",
+              "official_stage": "E8.0",
+              "external_stage": "E8.0",
+              "rho": 0.5402972152597831,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P005&group=ALL"
+            },
+            {
+              "pair": "V002",
+              "official_stage": "E7.5",
+              "external_stage": "E8.0",
+              "rho": 0.4707687445370101,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V002&group=ALL"
+            },
+            {
+              "pair": "V003",
+              "official_stage": "E7.5",
+              "external_stage": "E8.0",
+              "rho": 0.4947841869236477,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V003&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-020",
+          "status": "4 组表达对照已计算"
+        },
+        {
+          "id": "VED-022",
+          "display_name": "VED-022 · 全胚胎数字重建论文资料",
+          "aliases": [
+            "10.1016/j.cell.2025.05.035",
+            "40920635",
+            "全胚数字重建（Cell 2025）"
+          ],
+          "stages": [],
+          "ranges": [
+            {
+              "start": 7.5,
+              "end": 8,
+              "kind": "metadata",
+              "label": "元数据范围 E7.5–E8"
+            }
+          ],
+          "note": "仅有论文元数据；E7.5–E8.0 是登记范围，不代表其间连续测量。",
+          "assay": "见原始登记",
+          "scope": "见原始登记",
+          "metadata_only": true,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-022",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-022",
+          "status": "元数据／论文资料"
+        },
+        {
+          "id": "VED-040",
+          "display_name": "VED-040 · K19-Cre Ctnnb1 缺失胚胎数据",
+          "aliases": [
+            "GSE2519"
+          ],
+          "stages": [
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "Ctnnb1 cKO · K19-Cre；整体胚胎池。",
+          "assay": "MG_U74Av2 / GPL81 microarray",
+          "scope": "E7.5 embryo pool; anatomical dissection Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-040",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-040",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "GSE342607",
+          "display_name": "VED-044 · 小鼠胚胎谱系追踪图谱",
+          "aliases": [
+            "GSE342607",
+            "MELA",
+            "PRJNA1508414",
+            "Zenodo 23088914",
+            "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis"
+          ],
+          "stages": [
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 8,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10,
+              "label": "E10",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "16 个胚胎；1,792,520 个 RNA 细胞；56 棵谱系树。",
+          "assay": "scRNA-seq 与谱系树",
+          "scope": "小鼠全胚胎，含胚外组织",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "research/gse342607_dashboard_20261121/README.md",
+          "display_id": "VED-044",
+          "computed_pairs": [
+            {
+              "pair": "GSE342607-T2E-E75",
+              "official_stage": "E7.5",
+              "external_stage": "E7.5",
+              "rho": 0.5845825635696876,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=GSE342607-T2E-E75&group=ALL"
+            },
+            {
+              "pair": "GSE342607-T2E-E80",
+              "official_stage": "E8.0",
+              "external_stage": "E8.0",
+              "rho": 0.565772813002449,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=GSE342607-T2E-E80&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-044",
+          "status": "已入库 · 2 组同日龄对照"
+        },
+        {
+          "id": "VED-006",
+          "display_name": "VED-006 · de Soysa 早期心脏图谱",
+          "aliases": [
+            "GSE126128",
+            "PRJNA521061",
+            "de Soysa",
+            "deSoysa"
+          ],
+          "stages": [
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.25,
+              "label": "E9.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "心脏区域；含 WT 和 Hand2-null 分支，数值比较仅用已登记子集。",
+          "assay": "10x scRNA-seq",
+          "scope": "Cardiac Crescent region",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-006",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-006",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "OMIX014646",
+          "display_name": "VED-047 · mdCLA 全胚胎单细胞图谱",
+          "aliases": [
+            "OMIX014646",
+            "mdCLA",
+            "Cao 2026",
+            "mdCLA（Cao 2026）"
+          ],
+          "stages": [
+            {
+              "stage": 8,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14,
+              "label": "E14",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "共 37 时点；图中仅标已登记的 E8、E8.5、E9、E9.5、E14。",
+          "assay": "见原始登记",
+          "scope": "见原始登记",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-047",
+          "computed_pairs": [],
+          "url": "#/analysis/A13?section=inventory-title",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-004",
+          "display_name": "VED-004 · TOME E8.5 全胚胎图谱",
+          "aliases": [
+            "GSE186069",
+            "TOME E8.5"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Whole mouse embryo (no anatomical microdissection stated)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-004",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-004",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-010",
+          "display_name": "VED-010 · 胚胎与心脏单细胞图谱",
+          "aliases": [
+            "GSE230531"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P3",
+              "postnatal": 3.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "已有比较仅作本地 QC 敏感性结果，不计入主要来源结论。",
+          "assay": "10x 3' v2 scRNA-seq",
+          "scope": "embryo",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-010",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-010",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-021",
+          "display_name": "VED-021 · sc3D 胚胎切片空间图谱",
+          "aliases": [
+            "GSE197353",
+            "PRJNA810020",
+            "sc3D"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "二维切片微珠；不是独立的分割细胞。",
+          "assay": "Slide-seqV2",
+          "scope": "E8.5 embryo",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-021",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-021",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-003",
+          "display_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱",
+          "aliases": [
+            "GSE186068",
+            "TOME E9.5–E13.5"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "与关联来源高度共享原始细胞；比较结果注明矩阵与注释的出处。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Whole mouse embryo (no anatomical microdissection stated)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-003",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-003",
+          "status": "已登记 · 覆盖见来源详情"
+        }
+      ]
+    },
+    {
+      "id": "T2H",
+      "metric_task": null,
+      "title": "T2 心脏 · 3D MERFISH",
+      "target": "外推到 E12.5",
+      "subtitle": "官方训练 E8.25、E8.75、E9.5；验证 E8.5（插值）、E10.5（外推）；测试 E12.5。外部保护区间：(8.25, 8.75)、(9.5, 13.5]。",
+      "windows": [
+        {
+          "start": 8.25,
+          "end": 8.75,
+          "left_open": true,
+          "right_open": true
+        },
+        {
+          "start": 9.5,
+          "end": 13.5,
+          "left_open": true,
+          "right_open": false
+        }
+      ],
+      "official": [
+        {
+          "name": "T2 心脏 · 心脏区域及周围组织",
+          "note": "取材范围随阶段变化。已有验证文件；已有心脏来源表达比较。",
+          "stages": [
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "role": "reference"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5 · 插值验证",
+              "role": "validation"
+            },
+            {
+              "stage": 8.75,
+              "label": "E8.75",
+              "role": "reference"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "role": "reference"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5 · 外推验证",
+              "role": "validation"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "role": "test"
+            }
+          ]
+        }
+      ],
+      "note": "包含插值与外推验证阶段；已有心脏表达比较可从来源名称和阶段点打开。",
+      "sources": [
+        {
+          "id": "VED-001",
+          "display_name": "VED-001 · Pijuan-Sala 早期全胚胎图谱",
+          "aliases": [
+            "E-MTAB-6967",
+            "EMTAB6967",
+            "Pijuan-Sala",
+            "Pijuan-Sala gastrulation atlas"
+          ],
+          "stages": [
+            {
+              "stage": 6.5,
+              "label": "E6.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 6.75,
+              "label": "E6.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.0,
+              "label": "E7",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.25,
+              "label": "E7.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.0,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "含胚胎及胚外组织；混合样本不等于单个胚胎。",
+          "assay": "10x Chromium Single Cell 3′ v1",
+          "scope": "Embryonic and extraembryonic whole-embryo cells; not heart-only",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-001",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-001",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-002",
+          "display_name": "VED-002 · Mesp1 早期心脏谱系图谱",
+          "aliases": [
+            "GSE176306",
+            "PRJNA735748",
+            "Zhang–Chi",
+            "Mesp1 谱系"
+          ],
+          "stages": [
+            {
+              "stage": 7.25,
+              "label": "E7.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "谱系富集；不能当作全胚胎的细胞组成。",
+          "assay": "RNA-Seq",
+          "scope": "Not heart-only; early cardiac/extraembryonic mesoderm lineage scope",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-002",
+          "computed_pairs": [
+            {
+              "pair": "P021",
+              "official_stage": "E8.25",
+              "external_stage": "E8.25",
+              "rho": 0.6206211619648826,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P021&group=ALL"
+            },
+            {
+              "pair": "V007",
+              "official_stage": "E8.5",
+              "external_stage": "E8.25",
+              "rho": 0.6375457482433009,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V007&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-002",
+          "status": "2 组表达对照已计算"
+        },
+        {
+          "id": "GSE342607",
+          "display_name": "VED-044 · 小鼠胚胎谱系追踪图谱",
+          "aliases": [
+            "GSE342607",
+            "MELA",
+            "PRJNA1508414",
+            "Zenodo 23088914",
+            "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis"
+          ],
+          "stages": [
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 9,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10,
+              "label": "E10",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "16 个胚胎；1,792,520 个 RNA 细胞；56 棵谱系树。",
+          "assay": "scRNA-seq 与谱系树",
+          "scope": "小鼠全胚胎，含胚外组织",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "research/gse342607_dashboard_20261121/README.md",
+          "display_id": "VED-044",
+          "computed_pairs": [
+            {
+              "pair": "GSE342607-T2H-E85",
+              "official_stage": "E8.5",
+              "external_stage": "E8.5",
+              "rho": 0.6449546254606573,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=GSE342607-T2H-E85&group=ALL"
+            },
+            {
+              "pair": "GSE342607-T2H-E95",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.4176970533114442,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=GSE342607-T2H-E95&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-044",
+          "status": "已入库 · 2 组同日龄对照"
+        },
+        {
+          "id": "VED-006",
+          "display_name": "VED-006 · de Soysa 早期心脏图谱",
+          "aliases": [
+            "GSE126128",
+            "PRJNA521061",
+            "de Soysa",
+            "deSoysa"
+          ],
+          "stages": [
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.25,
+              "label": "E9.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "心脏区域；含 WT 和 Hand2-null 分支，数值比较仅用已登记子集。",
+          "assay": "10x scRNA-seq",
+          "scope": "Cardiac Crescent region",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-006",
+          "computed_pairs": [
+            {
+              "pair": "P016",
+              "official_stage": "E8.25",
+              "external_stage": "E8.25",
+              "rho": 0.5723942459506433,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P016&group=ALL"
+            },
+            {
+              "pair": "P017",
+              "official_stage": "E9.5",
+              "external_stage": "E9.25",
+              "rho": 0.6287578391042196,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P017&group=ALL"
+            },
+            {
+              "pair": "V006",
+              "official_stage": "E8.5",
+              "external_stage": "E8.25",
+              "rho": 0.6407931937733365,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V006&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-006",
+          "status": "3 组表达对照已计算"
+        },
+        {
+          "id": "OMIX014646",
+          "display_name": "VED-047 · mdCLA 全胚胎单细胞图谱",
+          "aliases": [
+            "OMIX014646",
+            "mdCLA",
+            "Cao 2026",
+            "mdCLA（Cao 2026）"
+          ],
+          "stages": [
+            {
+              "stage": 8,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 9,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14,
+              "label": "E14",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "共 37 时点；图中仅标已登记的 E8、E8.5、E9、E9.5、E14。",
+          "assay": "见原始登记",
+          "scope": "见原始登记",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-047",
+          "computed_pairs": [],
+          "url": "#/analysis/A13?section=inventory-title",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-004",
+          "display_name": "VED-004 · TOME E8.5 全胚胎图谱",
+          "aliases": [
+            "GSE186069",
+            "TOME E8.5"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Whole mouse embryo (no anatomical microdissection stated)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-004",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-004",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-007",
+          "display_name": "VED-007 · Qiu 产前细胞核图谱",
+          "aliases": [
+            "GSE228590",
+            "Qiu",
+            "QIU228590",
+            "Qiu 细胞核图谱",
+            "Qiu核RNA"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 8.75,
+              "label": "E8.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.0,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.25,
+              "label": "E9.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.75,
+              "label": "E9.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.0,
+              "label": "E10",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.25,
+              "label": "E10.25",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.75,
+              "label": "E10.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.0,
+              "label": "E11",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.25,
+              "label": "E11.25",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.75,
+              "label": "E11.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.0,
+              "label": "E12",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.25,
+              "label": "E12.25",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.75,
+              "label": "E12.75",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.0,
+              "label": "E13",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.25,
+              "label": "E13.25",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.75,
+              "label": "E13.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.0,
+              "label": "E14",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.25,
+              "label": "E14.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.333,
+              "label": "E14.333",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 14.75,
+              "label": "E14.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.0,
+              "label": "E15",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.25,
+              "label": "E15.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.75,
+              "label": "E15.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.0,
+              "label": "E16",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.25,
+              "label": "E16.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.75,
+              "label": "E16.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.0,
+              "label": "E17",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.25,
+              "label": "E17.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.5,
+              "label": "E17.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.75,
+              "label": "E17.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.0,
+              "label": "E18",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.25,
+              "label": "E18.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.5,
+              "label": "E18.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.75,
+              "label": "E18.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P0",
+              "postnatal": 0.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "本地评分子集是选出的心肌和心内膜细胞核；图谱阶段不等于本地子集都有。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Unknown; not a dissected-heart experiment",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-007",
+          "computed_pairs": [
+            {
+              "pair": "P010",
+              "official_stage": "E8.75",
+              "external_stage": "E8.75",
+              "rho": 0.4022239387803271,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P010&group=ALL"
+            },
+            {
+              "pair": "P011",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.4644222625797389,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P011&group=ALL"
+            },
+            {
+              "pair": "V005",
+              "official_stage": "E8.5",
+              "external_stage": "E8.75",
+              "rho": 0.4336127776879478,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V005&group=ALL"
+            },
+            {
+              "pair": "V013",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.43272336925346583,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V013&group=ALL"
+            },
+            {
+              "pair": "X022",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.36888558524999704,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X022&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-007",
+          "status": "5 组表达对照已计算"
+        },
+        {
+          "id": "VED-010",
+          "display_name": "VED-010 · 胚胎与心脏单细胞图谱",
+          "aliases": [
+            "GSE230531"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P3",
+              "postnatal": 3.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "已有比较仅作本地 QC 敏感性结果，不计入主要来源结论。",
+          "assay": "10x 3' v2 scRNA-seq",
+          "scope": "embryo",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-010",
+          "computed_pairs": [
+            {
+              "pair": "X012",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.4240074512549715,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X012&group=ALL"
+            },
+            {
+              "pair": "X014",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.4247538286614663,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X014&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-010",
+          "status": "2 组表达对照已计算"
+        },
+        {
+          "id": "VED-021",
+          "display_name": "VED-021 · sc3D 胚胎切片空间图谱",
+          "aliases": [
+            "GSE197353",
+            "PRJNA810020",
+            "sc3D"
+          ],
+          "stages": [
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "二维切片微珠；不是独立的分割细胞。",
+          "assay": "Slide-seqV2",
+          "scope": "E8.5 embryo",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-021",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-021",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-003",
+          "display_name": "VED-003 · TOME E9.5–E13.5 全胚胎图谱",
+          "aliases": [
+            "GSE186068",
+            "TOME E9.5–E13.5"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "与关联来源高度共享原始细胞；比较结果注明矩阵与注释的出处。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Whole mouse embryo (no anatomical microdissection stated)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-003",
+          "computed_pairs": [
+            {
+              "pair": "P024",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.331177113538387,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P024&group=ALL"
+            },
+            {
+              "pair": "V016",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.34240190153008115,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V016&group=ALL"
+            },
+            {
+              "pair": "X028",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.31174709986417926,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X028&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-003",
+          "status": "3 组表达对照已计算"
+        },
+        {
+          "id": "VED-008",
+          "display_name": "VED-008 · MOCA 全胚胎器官发生图谱",
+          "aliases": [
+            "GSE119945",
+            "MOCA",
+            "Mouse Organogenesis Cell Atlas"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "与关联来源共享原始细胞；点击可看共同的结果，不重复计作独立数据。",
+          "assay": "sci-RNA-seq3",
+          "scope": "Whole mouse embryo (no anatomical microdissection stated)",
+          "metadata_only": false,
+          "shared_result_id": "VED-003",
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-008",
+          "computed_pairs": [
+            {
+              "pair": "P024",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.331177113538387,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P024&group=ALL"
+            },
+            {
+              "pair": "V016",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.34240190153008115,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V016&group=ALL"
+            },
+            {
+              "pair": "X028",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.31174709986417926,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X028&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-008",
+          "status": "3 组表达对照已计算"
+        },
+        {
+          "id": "VED-009",
+          "display_name": "VED-009 · MOSTA 心脏空间图谱",
+          "aliases": [
+            "MOSTA",
+            "STDS0000058",
+            "MOSTA_E9.5",
+            "Mouse Organogenesis Spatiotemporal Atlas"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "心脏区域重建的空间对象；取材范围与全胚不同。",
+          "assay": "spatial transcriptomics",
+          "scope": "Left atrium; Left ventricle; Outflow tract; Right atrium; Right ventricle",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-009",
+          "computed_pairs": [
+            {
+              "pair": "P019",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.4864420623994699,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P019&group=ALL"
+            },
+            {
+              "pair": "V015",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.41671180839931465,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V015&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-009",
+          "status": "2 组表达对照已计算"
+        },
+        {
+          "id": "VED-012",
+          "display_name": "VED-012 · Feng 分心腔单细胞图谱",
+          "aliases": [
+            "GSE193346",
+            "Feng",
+            "FENG193346_CD1",
+            "Feng单细胞"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.5,
+              "label": "E17.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.0,
+              "label": "E18",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.5,
+              "label": "E18.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P0",
+              "postnatal": 0.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P1",
+              "postnatal": 1.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P2",
+              "postnatal": 2.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P3",
+              "postnatal": 3.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P4",
+              "postnatal": 4.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P5",
+              "postnatal": 5.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P7",
+              "postnatal": 7.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P8",
+              "postnatal": 8.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P9",
+              "postnatal": 9.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "分心腔采样；同时含 WT 图谱和突变分支。",
+          "assay": "10x Genomics Chromium 3′ v3 scRNA-seq with MULTI-seq sample multiplexing",
+          "scope": "left atrium (LA)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-012",
+          "computed_pairs": [
+            {
+              "pair": "P013",
+              "official_stage": "E9.5",
+              "external_stage": "E9.5",
+              "rho": 0.493624603136918,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=P013&group=ALL"
+            },
+            {
+              "pair": "V014",
+              "official_stage": "E10.5",
+              "external_stage": "E9.5",
+              "rho": 0.4224416973454838,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=V014&group=ALL"
+            },
+            {
+              "pair": "X008",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.45445344796414805,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X008&group=ALL"
+            },
+            {
+              "pair": "X010",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.4232869312722731,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X010&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-012",
+          "status": "4 组表达对照已计算"
+        },
+        {
+          "id": "VED-019",
+          "display_name": "VED-019 · Osr1 阳性第二心场单细胞数据",
+          "aliases": [
+            "GSE309215"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "发布矩阵导出层尚未明确；不能只因数值为整数便认作原始 UMI。",
+          "assay": "RNA-Seq",
+          "scope": "Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-019",
+          "computed_pairs": [
+            {
+              "pair": "X018",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.4801334923868418,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X018&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-019",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-023",
+          "display_name": "VED-023 · MERSCOPE 全胚胎空间数据",
+          "aliases": [
+            "GSE247450"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "二维 MERSCOPE，315 基因。",
+          "assay": "total RNA",
+          "scope": "Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-023",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-023",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-024",
+          "display_name": "VED-024 · 胚胎内皮单细胞数据",
+          "aliases": [
+            "GSE216970"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "富集内皮细胞，去掉尾、肢和肝；不代表全胚组成。",
+          "assay": "10x scRNA-seq",
+          "scope": "Endothelial cells from whole embryo without tail, limbs and liver",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-024",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-024",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-014",
+          "display_name": "VED-014 · Pitx2 缺失心脏单细胞数据",
+          "aliases": [
+            "GSE131181"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "10x Chromium Single Cell 3' v2 scRNA-seq",
+          "scope": "Dissociated cardiac cells (official GEO sample description)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-014",
+          "computed_pairs": [
+            {
+              "pair": "X020",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.47564180521395805,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X020&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-014",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-015",
+          "display_name": "VED-015 · BubR1 缺失心脏单细胞数据",
+          "aliases": [
+            "GSE270226"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "10x Genomics Chromium 3' v3.1; Cell Ranger 7.1.0",
+          "scope": "whole embryonic heart",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-015",
+          "computed_pairs": [
+            {
+              "pair": "X002",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.4269095282885897,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X002&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-015",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-016",
+          "display_name": "VED-016 · 心脏流出道单细胞数据",
+          "aliases": [
+            "GSE326956"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "scRNA-seq",
+          "scope": "cardiac outflow tract",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-016",
+          "computed_pairs": [
+            {
+              "pair": "X016",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.49329486398878303,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X016&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-016",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-029",
+          "display_name": "VED-029 · CD1 心脏 Visium／Slide-seq 图谱",
+          "aliases": [
+            "GSE282547",
+            "PRJNA1189120"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.0,
+              "label": "E16",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.0,
+              "label": "E17",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 17.5,
+              "label": "E17.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P0",
+              "postnatal": 0.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P2",
+              "postnatal": 2.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "二维心脏切片；复合切片的阶段要分别解释。",
+          "assay": "10x Visium",
+          "scope": "whole-heart sections; no unreported subregion inferred",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-029",
+          "computed_pairs": [
+            {
+              "pair": "X024",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.3890663346209707,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X024&group=ALL"
+            },
+            {
+              "pair": "X026",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.3888351355268544,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X026&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-029",
+          "status": "2 组表达对照已计算"
+        },
+        {
+          "id": "VED-030",
+          "display_name": "VED-030 · E10.5 心脏 Visium 空间数据",
+          "aliases": [
+            "GSE213666",
+            "PRJNA882046"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "RNA-Seq",
+          "scope": "Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-030",
+          "computed_pairs": [
+            {
+              "pair": "X030",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.5447788668804713,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X030&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-030",
+          "status": "1 组表达对照已计算"
+        },
+        {
+          "id": "VED-031",
+          "display_name": "VED-031 · 心脏整体 RNA 时间序列",
+          "aliases": [
+            "GSE213233"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 18.5,
+              "label": "E18.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P1",
+              "postnatal": 1.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P7",
+              "postnatal": 7.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P14",
+              "postnatal": 14.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P28",
+              "postnatal": 28.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": null,
+              "label": "P56",
+              "postnatal": 56.0,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "整体组织 RNA；测到的单位不是细胞。",
+          "assay": "bulk RNA-seq processed count matrix",
+          "scope": "heart",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-031",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-031",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-032",
+          "display_name": "VED-032 · E10.5 心脏 ChIP 调控数据",
+          "aliases": [
+            "GSE213572"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "ChIP 调控信号；不是基因表达矩阵。",
+          "assay": "ChIP-seq / Pol II BigWig continuous genomic signal",
+          "scope": "Heart (official source label; local anatomical subregion not stated)",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-032",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-032",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-033",
+          "display_name": "VED-033 · 胚胎与成体 DBiT-seq 空间数据",
+          "aliases": [
+            "GSE156862"
+          ],
+          "stages": [
+            {
+              "stage": 10.5,
+              "label": "E10.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": null,
+              "label": "成体",
+              "adult": true,
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "胚胎切片，并包含成体数据。",
+          "assay": "OTHER",
+          "scope": "Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-033",
+          "computed_pairs": [
+            {
+              "pair": "X004",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.3913746919183343,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X004&group=ALL"
+            },
+            {
+              "pair": "X006",
+              "official_stage": "E10.5",
+              "external_stage": "E10.5",
+              "rho": 0.37474606792803444,
+              "url": "readers/research/vem_pairwise_similarity_v3/comparison.html#pair=X006&group=ALL"
+            }
+          ],
+          "url": "#/data/external/VED-033",
+          "status": "2 组表达对照已计算"
+        },
+        {
+          "id": "VED-025",
+          "display_name": "VED-025 · 心脏流出道 MERSCOPE 空间数据",
+          "aliases": [
+            "GSE258835"
+          ],
+          "stages": [
+            {
+              "stage": 11.5,
+              "label": "E11.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "流出道二维空间数据，含 Ankrd11 干预。",
+          "assay": "total RNA",
+          "scope": "Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-025",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-025",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-011",
+          "display_name": "VED-011 · 胚胎全心脏单细胞图谱",
+          "aliases": [
+            "GSE205394"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 13.5,
+              "label": "E13.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "10x Chromium Next GEM Single Cell 3′ v2 scRNA-seq",
+          "scope": "Whole embryonic hearts; no chamber microdissection is stated for the scRNA-seq l",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-011",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-011",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-013",
+          "display_name": "VED-013 · Prmt1 缺失心脏单细胞数据",
+          "aliases": [
+            "GSE144271"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "10x Chromium Single Cell 3′ v2 scRNA-seq",
+          "scope": "Whole E12.5 hearts pooled by genotype; no chamber microdissection is stated.",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-013",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-013",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-017",
+          "display_name": "VED-017 · Wt1 心外膜谱系单细胞数据",
+          "aliases": [
+            "GSE154715"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            },
+            {
+              "stage": 14.5,
+              "label": "E14.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 16.5,
+              "label": "E16.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "阶段与条件见原始来源登记。",
+          "assay": "scRNA-seq",
+          "scope": "tissue: heart",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-017",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-017",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-018",
+          "display_name": "VED-018 · Cdh5-CreER Gata4 缺失心室数据",
+          "aliases": [
+            "GSE208162"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "Gata4 cKO；历史书面许可仅针对 T3，不适用于其他任务。",
+          "assay": "10x scRNA-seq",
+          "scope": "Ventricles",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-018",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-018",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-026",
+          "display_name": "VED-026 · 人类心脏 MERFISH 重建资料",
+          "aliases": [
+            "10.5061/dryad.k98sf7mkx",
+            "Kern human serial-MERFISH reconstruction"
+          ],
+          "stages": [],
+          "ranges": [],
+          "note": "只有资料登记；人类心脏，不能与小鼠按胚胎日龄直接配对。",
+          "assay": "见原始登记",
+          "scope": "见原始登记",
+          "metadata_only": true,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-026",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-026",
+          "status": "元数据／论文资料"
+        },
+        {
+          "id": "VED-027",
+          "display_name": "VED-027 · 胚胎心脏三维形态图谱资料",
+          "aliases": [
+            "10.1038/s44161-022-00078-w",
+            "39195861"
+          ],
+          "stages": [],
+          "ranges": [],
+          "note": "只有形态资料登记；没有可用的本地表达矩阵或阶段。",
+          "assay": "见原始登记",
+          "scope": "见原始登记",
+          "metadata_only": true,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-027",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-027",
+          "status": "元数据／论文资料"
+        },
+        {
+          "id": "VED-028",
+          "display_name": "VED-028 · 4D-CARDIOSPACE 资料",
+          "aliases": [
+            "4D-CARDIOSPACE",
+            "10.5281/zenodo.20724930",
+            "Zenodo 20724930"
+          ],
+          "stages": [],
+          "ranges": [],
+          "note": "只有资料登记；没有核实可用阶段和本地矩阵。",
+          "assay": "见原始登记",
+          "scope": "见原始登记",
+          "metadata_only": true,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-028",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-028",
+          "status": "元数据／论文资料"
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "metric_task": null,
+      "title": "T3 · 3D MERFISH 扰动",
+      "target": "β-catenin KO · E8.75",
+      "subtitle": "保护条件取决于基因型。官方验证为 Gata4 KO，测试为 β-catenin KO；WT 按同阶段配对。",
+      "windows": [],
+      "official": [
+        {
+          "name": "Mab21l2 KO · Mesp1-Cre",
+          "note": "官方训练扰动。",
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "role": "reference"
+            }
+          ]
+        },
+        {
+          "name": "Gata4 KO · Mesp1-Cre · 两重复",
+          "note": "官方验证；还带 Gata6 F/+ 条件。",
+          "stages": [
+            {
+              "stage": 8.75,
+              "label": "E8.75",
+              "role": "validation"
+            }
+          ]
+        },
+        {
+          "name": "β-catenin KO · Mesp1-Cre · 两重复",
+          "note": "官方隐藏测试，答案未公开。",
+          "stages": [
+            {
+              "stage": 8.75,
+              "label": "E8.75",
+              "role": "test"
+            }
+          ]
+        },
+        {
+          "name": "WT 参照 · 与心脏训练数据共用",
+          "note": "扰动响应应相对同阶段 WT。已有外部组织表达与扰动变化比较。",
+          "stages": [
+            {
+              "stage": 8.75,
+              "label": "E8.75",
+              "role": "reference"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "role": "reference"
+            }
+          ]
+        }
+      ],
+      "note": "组织来源的整体表达与扰动变化分别比较；WT 背景不等于匹配的 KO 实验。",
+      "sources": [
+        {
+          "id": "VED-040",
+          "display_name": "VED-040 · K19-Cre Ctnnb1 缺失胚胎数据",
+          "aliases": [
+            "GSE2519"
+          ],
+          "stages": [
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "Ctnnb1 cKO · K19-Cre；整体胚胎池。",
+          "assay": "MG_U74Av2 / GPL81 microarray",
+          "scope": "E7.5 embryo pool; anatomical dissection Unknown",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-040",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-040",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "GSE342607",
+          "display_name": "VED-044 · 小鼠胚胎谱系追踪图谱",
+          "aliases": [
+            "GSE342607",
+            "MELA",
+            "PRJNA1508414",
+            "Zenodo 23088914",
+            "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis"
+          ],
+          "stages": [
+            {
+              "stage": 7.5,
+              "label": "E7.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8,
+              "label": "E8",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.5,
+              "label": "E8.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 10,
+              "label": "E10",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "16 个胚胎；1,792,520 个 RNA 细胞；56 棵谱系树。WT 表达背景，非匹配 KO。",
+          "assay": "scRNA-seq 与谱系树",
+          "scope": "小鼠全胚胎，含胚外组织",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "research/gse342607_dashboard_20261121/README.md",
+          "display_id": "VED-044",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-044",
+          "status": "已入库 · WT 背景"
+        },
+        {
+          "id": "VED-006",
+          "display_name": "VED-006 · de Soysa 早期心脏图谱",
+          "aliases": [
+            "GSE126128",
+            "PRJNA521061",
+            "de Soysa",
+            "deSoysa"
+          ],
+          "stages": [
+            {
+              "stage": 7.75,
+              "label": "E7.75",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 8.25,
+              "label": "E8.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            },
+            {
+              "stage": 9.25,
+              "label": "E9.25",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "心脏区域；含 WT 和 Hand2-null 分支，数值比较仅用已登记子集。",
+          "assay": "10x scRNA-seq",
+          "scope": "Cardiac Crescent region",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-006",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-006",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-042",
+          "display_name": "VED-042 · β-catenin 激活心脏前体数据",
+          "aliases": [
+            "GSE15232"
+          ],
+          "stages": [
+            {
+              "stage": 9.0,
+              "label": "E9",
+              "kind": "measured",
+              "permission": "unconfirmed"
+            }
+          ],
+          "ranges": [],
+          "note": "β-catenin 激活；同一基因、相反扰动方向，许可待确认。",
+          "assay": "Affymetrix Mouse Genome 430 2.0 microarray",
+          "scope": "YFP+ cells marking precardiac mesoderm in Isl1-Cre domain",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-042",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-042",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-043",
+          "display_name": "VED-043 · Rbpj／Axin2 心脏扰动数据",
+          "aliases": [
+            "GSE36804"
+          ],
+          "stages": [
+            {
+              "stage": 9.25,
+              "label": "E9.25",
+              "kind": "measured",
+              "permission": "unconfirmed"
+            }
+          ],
+          "ranges": [],
+          "note": "Rbpj cKO ± Axin2；是否属于受保护扰动需确认。",
+          "assay": "Illumina MouseRef-8 v2.0 expression BeadChip",
+          "scope": "Whole embryonic heart",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-043",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-043",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-034",
+          "display_name": "VED-034 · Tie2-Cre Gata4 缺失房室管数据",
+          "aliases": [
+            "GSE5298"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "Gata4 cKO · Tie2-Cre；与官方基因型及取材不同。",
+          "assay": "Affymetrix Mouse 430 2.0 microarray",
+          "scope": "Atrioventricular canal",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-034",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-034",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-035",
+          "display_name": "VED-035 · Nkx2-5-Cre Gata4 缺失心脏数据",
+          "aliases": [
+            "GSE9652"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "Gata4 cKO · Nkx2-5-Cre。",
+          "assay": "Affymetrix Mouse 430 2.0 microarray",
+          "scope": "Pooled embryonic mouse heart",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-035",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-035",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-038",
+          "display_name": "VED-038 · Hand2 调控区缺失心脏数据",
+          "aliases": [
+            "GSE318090",
+            "H2-URI"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "Hand2 上游调控区缺失。",
+          "assay": "bulk RNA-seq processed normalized FPKM matrix",
+          "scope": "Stage-matched embryonic heart",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-038",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-038",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-039",
+          "display_name": "VED-039 · Mef2c-AHF-Cre Ctnnb1 缺失数据",
+          "aliases": [
+            "GSE78125"
+          ],
+          "stages": [
+            {
+              "stage": 9.5,
+              "label": "E9.5",
+              "kind": "measured",
+              "permission": "protected"
+            }
+          ],
+          "ranges": [],
+          "note": "Ctnnb1 cKO · Mef2c-AHF-Cre。",
+          "assay": "Affymetrix Mouse Gene 1.0 ST microarray",
+          "scope": "Distal pharyngeal apparatus containing AHF; heart tube excluded",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-039",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-039",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-041",
+          "display_name": "VED-041 · Tie2-Cre Ctnnb1 心脏形态资料",
+          "aliases": [
+            "PMC10310929",
+            "37385754",
+            "10.26508/lsa.202302163"
+          ],
+          "stages": [],
+          "ranges": [
+            {
+              "start": 9.5,
+              "end": 10.5,
+              "kind": "metadata",
+              "label": "元数据范围 E9.5–E10.5"
+            }
+          ],
+          "note": "Ctnnb1 cKO · Tie2-Cre；仅形态元数据与阶段范围。",
+          "assay": "见原始登记",
+          "scope": "见原始登记",
+          "metadata_only": true,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-041",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-041",
+          "status": "元数据／论文资料"
+        },
+        {
+          "id": "VED-018",
+          "display_name": "VED-018 · Cdh5-CreER Gata4 缺失心室数据",
+          "aliases": [
+            "GSE208162"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "outside_window"
+            }
+          ],
+          "ranges": [],
+          "note": "Gata4 cKO；历史书面许可仅针对 T3，不适用于其他任务。",
+          "assay": "10x scRNA-seq",
+          "scope": "Ventricles",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-018",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-018",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-036",
+          "display_name": "VED-036 · GATA4 心脏表达与结合位点数据",
+          "aliases": [
+            "GSE52123"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "unconfirmed"
+            },
+            {
+              "stage": null,
+              "label": "成体",
+              "adult": true,
+              "kind": "measured",
+              "permission": "unconfirmed"
+            }
+          ],
+          "ranges": [],
+          "note": "Gata4 cKO · cTNT-Cre；表达与结合信号分开理解。",
+          "assay": "ChIP-seq BigWig genomic signal/peak track",
+          "scope": "Ventricular apex / apical half of heart (paper Methods; GEO says primary heart t",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-036",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-036",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "VED-037",
+          "display_name": "VED-037 · Gata4 V217G 心脏突变数据",
+          "aliases": [
+            "GSE14906"
+          ],
+          "stages": [
+            {
+              "stage": 12.5,
+              "label": "E12.5",
+              "kind": "measured",
+              "permission": "unconfirmed"
+            }
+          ],
+          "ranges": [],
+          "note": "Gata4 V217G；未核实单独使用许可。",
+          "assay": "Affymetrix Mouse Genome 430 2.0 microarray",
+          "scope": "Both atria and ventricles",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-037",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-037",
+          "status": "已登记 · 覆盖见来源详情"
+        },
+        {
+          "id": "GSE117621",
+          "display_name": "VED-045 · Gata4 G295S 流出道瓣膜数据",
+          "aliases": [
+            "GSE117621",
+            "GSE117621（未入库）〔旧图标注〕",
+            "PRJNA482668"
+          ],
+          "stages": [
+            {
+              "stage": 15.5,
+              "label": "E15.5",
+              "kind": "measured",
+              "permission": "unconfirmed"
+            }
+          ],
+          "ranges": [],
+          "note": "6 个 E15.5 样本；Gata4 G295S 杂合与 WT。",
+          "assay": "bulk RNA-seq · 作者 FPKM",
+          "scope": "E15.5 小鼠流出道瓣膜",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-045",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-045",
+          "status": "已入库 · 已计算整体表达与扰动变化"
+        },
+        {
+          "id": "GSE52317",
+          "display_name": "VED-046 · Gata4 缺失成体心脏数据",
+          "aliases": [
+            "GSE52317",
+            "GSE52317（未入库）〔旧图标注〕",
+            "PRJNA227383",
+            "GPL6246"
+          ],
+          "stages": [
+            {
+              "stage": null,
+              "label": "成体 · 8 周",
+              "adult": true,
+              "kind": "measured",
+              "permission": "unconfirmed"
+            }
+          ],
+          "ranges": [],
+          "note": "12 个成体芯片样本；8 周；Gata4／Gata6 及对照。",
+          "assay": "Affymetrix Mouse Gene 1.0 ST 芯片",
+          "scope": "8 周龄小鼠全心",
+          "metadata_only": false,
+          "shared_result_id": null,
+          "evidence": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md#13-外部数据按任务",
+          "display_id": "VED-046",
+          "computed_pairs": [],
+          "url": "#/data/external/VED-046",
+          "status": "已入库 · 已计算整体表达与扰动变化"
+        }
+      ]
+    }
+  ],
+  "source_report": "../../reports/analysis_integration_20261118/data_review/team/data_review_20261113/REPORT_ZH.md",
+  "stage_evidence": "provenance/timeline_overview/ved_stages_20261113.json",
+  "stage_evidence_sha256": "656f1c435941176442ab4067417749baf3ed8ced95aa23242533a1127b63b928",
+  "corrections": [
+    "分号分隔的阶段逐个读取；E8_5 等按 E8.5 解释，保存原字符串。",
+    "出生后阶段保留 P 或成体标签，不当作胚胎日龄。",
+    "模型推断时间画区间；只有元数据的范围不画成实测点。"
+  ],
+  "availability_note": "阶段据原始登记和新增入库验收更新；图中来源名称和点可点击查看。出生后轴单独压缩。",
+  "stage_rule_date": "2026-11-13",
+  "provenance": {
+    "baseline": "research/vem_official_metric_source_audit/revisions/source_timelines_20261119_01/TIMELINE_CATALOG.json",
+    "baseline_sha256": "a9a72d6dd9043c81db7188050b852fedbd420e53643c1ddc0df8f809b9e63338",
+    "intake": "reports/gse342607_intake_20261120/evidence_release04/sample_inventory.csv",
+    "bulk_intake": "reports/gata4_accession_intake_20261121/README.md",
+    "pair_source_commit": "686125803b0182c0d92ee6e2367cc4e30196609a",
+    "name_catalog": "catalogs/external_dataset_names.json"
+  }
+}

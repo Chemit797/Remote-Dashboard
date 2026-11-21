@@ -29,7 +29,8 @@ for item in D.get('external_extensions',[]):
     check('extension_pairs_have_results_'+entry['id'],all(
         (SITE/'readers/research/vem_pairwise_similarity_v3/results'/(p['pair']+'_result.json')).is_file()
         for p in entry['comparisons']))
-check('external_names_have_fixed_ids',all(x['name'].startswith(x['id']+' · ') for x in D['external']))
+check('external_names_have_fixed_ids',all(x['name'].startswith(x.get('display_id',x['id'])+' · ') for x in D['external']))
+check('display_ids_unique',len({x.get('display_id',x['id']) for x in D['external']})==len(D['external']))
 check('15_unique_analyses',len(D['analyses'])==len({x['analysis_id'] for x in D['analyses']})==15)
 readers=D['readers']
 check('15_original_reader_entries',len(readers)==len({x['analysis_id'] for x in readers})==15)

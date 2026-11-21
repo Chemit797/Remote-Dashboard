@@ -376,7 +376,7 @@
     "analysis_id": "A08",
     "group": "先验知识",
     "title": "胚胎发育：文献与官方数据是否对得上",
-    "url": "readers/research/early_embryo_prior_audit/knowledge.html?v=16554d47da2a",
+    "url": "readers/research/early_embryo_prior_audit/knowledge.html?v=9cd391634546",
     "source_path": "research/early_embryo_prior_audit/knowledge.html",
     "sections": [
       {
@@ -390,7 +390,7 @@
     "analysis_id": "A09",
     "group": "先验知识",
     "title": "胚胎先验：每一条分别看官方和外部证据",
-    "url": "readers/research/vem_prior_knowledge_v2/knowledge.html?v=ed107368e829",
+    "url": "readers/research/vem_prior_knowledge_v2/knowledge.html?v=d92b37f8db02",
     "source_path": "research/vem_prior_knowledge_v2/knowledge.html",
     "sections": [
       {
@@ -414,7 +414,7 @@
     "analysis_id": "A10",
     "group": "官方与外部数据比较",
     "title": "同任务的官方与外部数据：具体相似在哪里、差异在哪里",
-    "url": "readers/research/vem_source_comparison_v2/README.html?v=1823baecb3c0",
+    "url": "readers/research/vem_source_comparison_v2/README.html?v=e9b430be897b",
     "source_path": "research/vem_source_comparison_v2/README.md",
     "sections": [
       {
@@ -453,7 +453,7 @@
     "analysis_id": "A11",
     "group": "官方与外部数据比较",
     "title": "官方与外部数据，究竟哪里像、哪里不像？",
-    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=95a0db727da7",
+    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=a2c05c5972de",
     "source_path": "research/vem_pairwise_similarity_v3/comparison.html",
     "sections": [
       {
@@ -482,7 +482,7 @@
     "analysis_id": "A12",
     "group": "官方与外部数据比较",
     "title": "新增：T1 加权得分与大矩阵 0/1 比较",
-    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=95a0db727da7#t1-weighted-binary-appendix",
+    "url": "readers/research/vem_pairwise_similarity_v3/comparison.html?v=a2c05c5972de#t1-weighted-binary-appendix",
     "source_path": "research/vem_pairwise_similarity_v3/comparison.html#t1-weighted-binary-appendix",
     "sections": [
       {
@@ -496,7 +496,7 @@
     "analysis_id": "A13",
     "group": "官方与外部数据比较",
     "title": "官方与外部数据，具体像在哪里？",
-    "url": "readers/research/vem_official_metric_source_audit/index.html?v=c507cba4e572",
+    "url": "readers/research/vem_official_metric_source_audit/index.html?v=0dd8c390d130",
     "source_path": "research/vem_official_metric_source_audit/index.html",
     "sections": [
       {
@@ -589,7 +589,7 @@
     "analysis_id": "A15",
     "group": "官方与外部数据比较",
     "title": "官方与同任务外部数据的基因面板、表达相似度实测",
-    "url": "readers/older/REPORT_ZH.html?v=66f832dce90a",
+    "url": "readers/older/REPORT_ZH.html?v=c885fed944c7",
     "source_path": "older/REPORT_ZH.md",
     "sections": [
       {

@@ -1,0 +1,531 @@
+{
+  "version": "2026-11-21",
+  "display_rule": "编号 · 固定名称；具体子集另接阶段、基因型、取材或重复号。",
+  "identity_rule": "VED-001–VED-043 保持不变；新增来源顺延 VED-044–VED-051。display_id 为当前统一展示编号；id 为兼容历史结果、文件路径和配对的来源键。数据库登录号及本地文献引用号保留为别名，编号不改变入库状态或使用资格。",
+  "registry": "research/vem_prior_knowledge_v2/provenance/dataset_registry.json",
+  "supplementary_identity_evidence": "handoffs/from_5090_20261115/received/local_control_handoff_20261115/reference/team/data_review_20261113/REPORT_ZH.md",
+  "datasets": [
+    {
+      "id": "VED-001",
+      "name": "Pijuan-Sala 早期全胚胎图谱",
+      "aliases": [
+        "E-MTAB-6967",
+        "EMTAB6967",
+        "Pijuan-Sala",
+        "Pijuan-Sala gastrulation atlas"
+      ],
+      "objects": {
+        "EMTAB6967": ""
+      },
+      "display_id": "VED-001"
+    },
+    {
+      "id": "VED-002",
+      "name": "Mesp1 早期心脏谱系图谱",
+      "aliases": [
+        "GSE176306",
+        "PRJNA735748",
+        "Zhang–Chi",
+        "Mesp1 谱系"
+      ],
+      "display_id": "VED-002"
+    },
+    {
+      "id": "VED-003",
+      "name": "TOME E9.5–E13.5 全胚胎图谱",
+      "aliases": [
+        "GSE186068",
+        "TOME E9.5–E13.5"
+      ],
+      "display_id": "VED-003"
+    },
+    {
+      "id": "VED-004",
+      "name": "TOME E8.5 全胚胎图谱",
+      "aliases": [
+        "GSE186069",
+        "TOME E8.5"
+      ],
+      "display_id": "VED-004"
+    },
+    {
+      "id": "VED-005",
+      "name": "Mittnenzweig 胚胎发育图谱",
+      "aliases": [
+        "GSE169210",
+        "Mittnenzweig",
+        "Mittnenzweig continuous embryogenesis atlas"
+      ],
+      "display_id": "VED-005"
+    },
+    {
+      "id": "VED-006",
+      "name": "de Soysa 早期心脏图谱",
+      "aliases": [
+        "GSE126128",
+        "PRJNA521061",
+        "de Soysa",
+        "deSoysa"
+      ],
+      "display_id": "VED-006"
+    },
+    {
+      "id": "VED-007",
+      "name": "Qiu 产前细胞核图谱",
+      "aliases": [
+        "GSE228590",
+        "Qiu",
+        "QIU228590",
+        "Qiu 细胞核图谱",
+        "Qiu核RNA"
+      ],
+      "objects": {
+        "QIU228590": ""
+      },
+      "display_id": "VED-007"
+    },
+    {
+      "id": "VED-008",
+      "name": "MOCA 全胚胎器官发生图谱",
+      "aliases": [
+        "GSE119945",
+        "MOCA",
+        "Mouse Organogenesis Cell Atlas"
+      ],
+      "display_id": "VED-008"
+    },
+    {
+      "id": "VED-009",
+      "name": "MOSTA 心脏空间图谱",
+      "aliases": [
+        "MOSTA",
+        "STDS0000058",
+        "MOSTA_E9.5",
+        "Mouse Organogenesis Spatiotemporal Atlas"
+      ],
+      "objects": {
+        "MOSTA_E9.5": "E9.5 心脏区域"
+      },
+      "display_id": "VED-009"
+    },
+    {
+      "id": "VED-010",
+      "name": "胚胎与心脏单细胞图谱",
+      "aliases": [
+        "GSE230531"
+      ],
+      "display_id": "VED-010"
+    },
+    {
+      "id": "VED-011",
+      "name": "胚胎全心脏单细胞图谱",
+      "aliases": [
+        "GSE205394"
+      ],
+      "display_id": "VED-011"
+    },
+    {
+      "id": "VED-012",
+      "name": "Feng 分心腔单细胞图谱",
+      "aliases": [
+        "GSE193346",
+        "Feng",
+        "FENG193346_CD1",
+        "Feng单细胞"
+      ],
+      "objects": {
+        "FENG193346_CD1": "CD1 · E9.5"
+      },
+      "display_id": "VED-012"
+    },
+    {
+      "id": "VED-013",
+      "name": "Prmt1 缺失心脏单细胞数据",
+      "aliases": [
+        "GSE144271"
+      ],
+      "display_id": "VED-013"
+    },
+    {
+      "id": "VED-014",
+      "name": "Pitx2 缺失心脏单细胞数据",
+      "aliases": [
+        "GSE131181"
+      ],
+      "display_id": "VED-014"
+    },
+    {
+      "id": "VED-015",
+      "name": "BubR1 缺失心脏单细胞数据",
+      "aliases": [
+        "GSE270226"
+      ],
+      "display_id": "VED-015"
+    },
+    {
+      "id": "VED-016",
+      "name": "心脏流出道单细胞数据",
+      "aliases": [
+        "GSE326956"
+      ],
+      "display_id": "VED-016"
+    },
+    {
+      "id": "VED-017",
+      "name": "Wt1 心外膜谱系单细胞数据",
+      "aliases": [
+        "GSE154715"
+      ],
+      "display_id": "VED-017"
+    },
+    {
+      "id": "VED-018",
+      "name": "Cdh5-CreER Gata4 缺失心室数据",
+      "aliases": [
+        "GSE208162"
+      ],
+      "display_id": "VED-018"
+    },
+    {
+      "id": "VED-019",
+      "name": "Osr1 阳性第二心场单细胞数据",
+      "aliases": [
+        "GSE309215"
+      ],
+      "display_id": "VED-019"
+    },
+    {
+      "id": "VED-020",
+      "name": "Stereo-seq 胚胎三维重建图谱",
+      "aliases": [
+        "GSE278603",
+        "PRJNA1168072",
+        "STEREO_E8_rep1",
+        "STEREO_E8_rep2",
+        "E8.0 空间重建重复1",
+        "E8.0 空间重建重复2",
+        "Xie serial whole-embryo Stereo-seq"
+      ],
+      "objects": {
+        "STEREO_E8_rep1": "E8.0 · 重复1",
+        "STEREO_E8_rep2": "E8.0 · 重复2"
+      },
+      "display_id": "VED-020"
+    },
+    {
+      "id": "VED-021",
+      "name": "sc3D 胚胎切片空间图谱",
+      "aliases": [
+        "GSE197353",
+        "PRJNA810020",
+        "sc3D"
+      ],
+      "display_id": "VED-021"
+    },
+    {
+      "id": "VED-022",
+      "name": "全胚胎数字重建论文资料",
+      "aliases": [
+        "10.1016/j.cell.2025.05.035",
+        "40920635",
+        "全胚数字重建（Cell 2025）"
+      ],
+      "display_id": "VED-022"
+    },
+    {
+      "id": "VED-023",
+      "name": "MERSCOPE 全胚胎空间数据",
+      "aliases": [
+        "GSE247450"
+      ],
+      "display_id": "VED-023"
+    },
+    {
+      "id": "VED-024",
+      "name": "胚胎内皮单细胞数据",
+      "aliases": [
+        "GSE216970"
+      ],
+      "display_id": "VED-024"
+    },
+    {
+      "id": "VED-025",
+      "name": "心脏流出道 MERSCOPE 空间数据",
+      "aliases": [
+        "GSE258835"
+      ],
+      "display_id": "VED-025"
+    },
+    {
+      "id": "VED-026",
+      "name": "人类心脏 MERFISH 重建资料",
+      "aliases": [
+        "10.5061/dryad.k98sf7mkx",
+        "Kern human serial-MERFISH reconstruction"
+      ],
+      "display_id": "VED-026"
+    },
+    {
+      "id": "VED-027",
+      "name": "胚胎心脏三维形态图谱资料",
+      "aliases": [
+        "10.1038/s44161-022-00078-w",
+        "39195861"
+      ],
+      "display_id": "VED-027"
+    },
+    {
+      "id": "VED-028",
+      "name": "4D-CARDIOSPACE 资料",
+      "aliases": [
+        "4D-CARDIOSPACE",
+        "10.5281/zenodo.20724930",
+        "Zenodo 20724930"
+      ],
+      "display_id": "VED-028"
+    },
+    {
+      "id": "VED-029",
+      "name": "CD1 心脏 Visium／Slide-seq 图谱",
+      "aliases": [
+        "GSE282547",
+        "PRJNA1189120"
+      ],
+      "display_id": "VED-029"
+    },
+    {
+      "id": "VED-030",
+      "name": "E10.5 心脏 Visium 空间数据",
+      "aliases": [
+        "GSE213666",
+        "PRJNA882046"
+      ],
+      "display_id": "VED-030"
+    },
+    {
+      "id": "VED-031",
+      "name": "心脏整体 RNA 时间序列",
+      "aliases": [
+        "GSE213233"
+      ],
+      "display_id": "VED-031"
+    },
+    {
+      "id": "VED-032",
+      "name": "E10.5 心脏 ChIP 调控数据",
+      "aliases": [
+        "GSE213572"
+      ],
+      "display_id": "VED-032"
+    },
+    {
+      "id": "VED-033",
+      "name": "胚胎与成体 DBiT-seq 空间数据",
+      "aliases": [
+        "GSE156862"
+      ],
+      "display_id": "VED-033"
+    },
+    {
+      "id": "VED-034",
+      "name": "Tie2-Cre Gata4 缺失房室管数据",
+      "aliases": [
+        "GSE5298"
+      ],
+      "display_id": "VED-034"
+    },
+    {
+      "id": "VED-035",
+      "name": "Nkx2-5-Cre Gata4 缺失心脏数据",
+      "aliases": [
+        "GSE9652"
+      ],
+      "display_id": "VED-035"
+    },
+    {
+      "id": "VED-036",
+      "name": "GATA4 心脏表达与结合位点数据",
+      "aliases": [
+        "GSE52123"
+      ],
+      "display_id": "VED-036"
+    },
+    {
+      "id": "VED-037",
+      "name": "Gata4 V217G 心脏突变数据",
+      "aliases": [
+        "GSE14906"
+      ],
+      "display_id": "VED-037"
+    },
+    {
+      "id": "VED-038",
+      "name": "Hand2 调控区缺失心脏数据",
+      "aliases": [
+        "GSE318090",
+        "H2-URI"
+      ],
+      "display_id": "VED-038"
+    },
+    {
+      "id": "VED-039",
+      "name": "Mef2c-AHF-Cre Ctnnb1 缺失数据",
+      "aliases": [
+        "GSE78125"
+      ],
+      "display_id": "VED-039"
+    },
+    {
+      "id": "VED-040",
+      "name": "K19-Cre Ctnnb1 缺失胚胎数据",
+      "aliases": [
+        "GSE2519"
+      ],
+      "display_id": "VED-040"
+    },
+    {
+      "id": "VED-041",
+      "name": "Tie2-Cre Ctnnb1 心脏形态资料",
+      "aliases": [
+        "PMC10310929",
+        "37385754",
+        "10.26508/lsa.202302163"
+      ],
+      "display_id": "VED-041"
+    },
+    {
+      "id": "VED-042",
+      "name": "β-catenin 激活心脏前体数据",
+      "aliases": [
+        "GSE15232"
+      ],
+      "display_id": "VED-042"
+    },
+    {
+      "id": "VED-043",
+      "name": "Rbpj／Axin2 心脏扰动数据",
+      "aliases": [
+        "GSE36804"
+      ],
+      "display_id": "VED-043"
+    },
+    {
+      "id": "GSE342607",
+      "name": "小鼠胚胎谱系追踪图谱",
+      "aliases": [
+        "GSE342607",
+        "MELA",
+        "PRJNA1508414",
+        "Zenodo 23088914",
+        "Comprehensive Lineage Tracing Maps the Landscape of Cell Fate Decisions in Mouse Embryogenesis"
+      ],
+      "inventory_status": "5090 已入库并验收；16 个胚胎、1,792,520 个 RNA 细胞、56 棵谱系树；六组同日龄比较已完成",
+      "evidence": "reports/gse342607_intake_20261120/README.md",
+      "host": "5090",
+      "canonical_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T1_Temporal/GSE342607",
+      "display_id": "VED-044",
+      "stage_text": "E7.5、E8.0、E8.5、E9.0、E9.5、E10.0"
+    },
+    {
+      "id": "GSE117621",
+      "name": "Gata4 G295S 流出道瓣膜数据",
+      "aliases": [
+        "GSE117621",
+        "GSE117621（未入库）〔旧图标注〕",
+        "PRJNA482668"
+      ],
+      "inventory_status": "5090 已入库；6 个 E15.5 流出道瓣膜样本；整体表达及扰动变化已计算",
+      "evidence": "reports/gata4_accession_intake_20261121/README.md",
+      "host": "5090",
+      "canonical_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T3_Perturbation/GSE117621",
+      "display_id": "VED-045",
+      "stage_text": "E15.5"
+    },
+    {
+      "id": "GSE52317",
+      "name": "Gata4 缺失成体心脏数据",
+      "aliases": [
+        "GSE52317",
+        "GSE52317（未入库）〔旧图标注〕",
+        "PRJNA227383",
+        "GPL6246"
+      ],
+      "inventory_status": "5090 已入库；12 个成体心脏芯片样本；整体表达及扰动变化已计算",
+      "evidence": "reports/gata4_accession_intake_20261121/README.md",
+      "host": "5090",
+      "canonical_path": "/home/biocosmosx/work/virtualembryo_cym/Virtual_Embryo_External_Data/01_datasets/T3_Perturbation/GSE52317",
+      "display_id": "VED-046",
+      "stage_text": "成体 8 周"
+    },
+    {
+      "id": "OMIX014646",
+      "name": "mdCLA 全胚胎单细胞图谱",
+      "aliases": [
+        "OMIX014646",
+        "mdCLA",
+        "Cao 2026",
+        "mdCLA（Cao 2026）"
+      ],
+      "inventory_status": "历史已下载来源；登记阶段与已有数值对照保留",
+      "display_id": "VED-047",
+      "stage_text": "登记阶段 E8.0、E8.5、E9.0、E9.5、E14；图谱共 37 时点"
+    },
+    {
+      "id": "E-MTAB-6970",
+      "name": "分区域内皮单细胞数据",
+      "aliases": [
+        "E-MTAB-6970",
+        "解剖 FLK1+ 内皮",
+        "anatomically dissected endothelial Smart-seq2"
+      ],
+      "inventory_status": "文献数据；当前未确认本地矩阵",
+      "evidence": "research/vem_prior_knowledge_v2/literature_early/sources.json#PS2019",
+      "display_id": "VED-048"
+    },
+    {
+      "id": "GSE123046",
+      "name": "Nowotschin 内胚层单细胞图谱",
+      "aliases": [
+        "GSE123046",
+        "GSE123046 (scRNA-seq)"
+      ],
+      "inventory_status": "文献数据；当前未确认本地矩阵",
+      "evidence": "research/vem_prior_knowledge_v2/literature_early/sources.json#NO2019",
+      "display_id": "VED-049"
+    },
+    {
+      "id": "GSE123124",
+      "name": "Nowotschin 内胚层整体 RNA 数据",
+      "aliases": [
+        "GSE123124",
+        "GSE123124 (bulk RNA-seq)"
+      ],
+      "inventory_status": "文献数据；当前未确认本地矩阵",
+      "evidence": "research/vem_prior_knowledge_v2/literature_early/sources.json#NO2019",
+      "display_id": "VED-050"
+    },
+    {
+      "id": "LIT-LO2022",
+      "name": "Lohoff 胚胎空间图谱",
+      "aliases": [
+        "LIT-LO2022",
+        "Lohoff SpatialMouseAtlas",
+        "SpatialMouseAtlas",
+        "Lohoff"
+      ],
+      "inventory_status": "本地引用编号，非数据库登录号；文献空间数据，本地矩阵未确认",
+      "evidence": "research/vem_prior_knowledge_v2/literature_early/supplement_sources.json#LO2022",
+      "display_id": "VED-051"
+    }
+  ],
+  "ambiguous_aliases": {
+    "TOME": [
+      "VED-003",
+      "VED-004"
+    ],
+    "Stereo-seq": [
+      "VED-009",
+      "VED-020"
+    ]
+  }
+}

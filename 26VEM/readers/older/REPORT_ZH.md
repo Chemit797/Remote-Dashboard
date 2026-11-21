@@ -1,10 +1,18 @@
 # 官方与同任务外部数据的基因面板、表达相似度实测
 
-[GSE342607 · 小鼠胚胎谱系追踪图谱 的六组同日龄对照](../research/vem_source_comparison_v2/README.html#gse342607-comparison)
+[VED-044 · 小鼠胚胎谱系追踪图谱 的六组同日龄对照](../research/vem_source_comparison_v2/README.html#gse342607-comparison)
 
 2026-11-15，在 5090 上完成。两项请求都已处理：本报告回答“外部数据到底有多像官方”，[第二份报告](OFFICIAL_GENE_TARGET_SELECTION_ZH.md)回答“官方如何选择测量基因、阶段目标和敲除靶点”。
 
 **主要结论：外部数据通常能覆盖大部分空间 panel，但这并不代表它们具有相同的表达分布。T1 找到了同阶段、同类型上较接近的外部 RNA；T2 的跨测量差异仍很大；T3 即使同为 Gata4 KO，也不能忽略年龄、Cre、背景等位和对照基因型。**
+
+
+<div id="current-source-timeline-entry">
+<p><strong>数据来源时间轴 · 2026-11-21 更新</strong></p>
+<p>四任务来源沿用原分块，补入 VED-044 · 小鼠胚胎谱系追踪图谱，更新 VED-045 · Gata4 G295S 流出道瓣膜数据、VED-046 · Gata4 缺失成体心脏数据的入库与计算状态。</p>
+<p><a href="https://chemit797.github.io/Remote-Dashboard/26VEM/#/data/external" target="_top">按任务查看最新来源时间轴 →</a> · <a href="../research/vem_official_metric_source_audit/figures/fig_source_timelines_20261121.svg" target="_blank">打开完整大图 ↗</a></p>
+</div>
+
 
 ## 本次实际做了什么
 

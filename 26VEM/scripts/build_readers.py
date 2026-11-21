@@ -17,9 +17,11 @@ def build(project):
     external_overlay=project/'research/external_E10p5_analysis_20261119/overlays'
     page_fix_overlay=project/'research/external_E10p5_page_fix_20261119/overlays'
     release_catalog=project/'catalogs/dashboard_external_releases.json'
-    releases=json.loads(release_catalog.read_text(encoding='utf-8'))['releases'] if release_catalog.is_file() else []
+    release_config=json.loads(release_catalog.read_text(encoding='utf-8')) if release_catalog.is_file() else {}
+    releases=release_config.get('releases',[])
     release_overlays=[project/r['overlay'] for r in reversed(releases) if 'overlay' in r]
-    overlays=[*release_overlays,page_fix_overlay,external_overlay,overlay]
+    display_overlays=[project/release_config['display_updates']['overlay']] if 'display_updates' in release_config else []
+    overlays=[*display_overlays,*release_overlays,page_fix_overlay,external_overlay,overlay]
     frozen_dependencies=overlay.parent/'frozen_dependencies'
     baseline_files=json.loads((overlay.parent/'REMOTE_WEBSITE_BEFORE.json').read_text(encoding='utf-8'))['files']
     seeds={
@@ -113,7 +115,7 @@ def build(project):
             ancestor=h if h.get('id') else h.find_parent(id=True)
             sections.append({'title':label,'anchor':ancestor.get('id','') if ancestor else '', 'heading_index':soup.select('h2').index(h)})
         reader_url='readers/'+key
-        if any((current/u.path).is_file() for current in [*release_overlays,page_fix_overlay]):
+        if any((current/u.path).is_file() for current in [*display_overlays,*release_overlays,page_fix_overlay]):
             reader_url+='?v='+hashlib.sha256((out/key).read_bytes()).hexdigest()[:12]
         catalog.append({'analysis_id':aid,'group':group,'title':title,'url':reader_url+('#'+u.fragment if u.fragment else ''),'source_path':path,'sections':sections})
     manifest={'policy':'Selected source bytes copied exactly; dated additive overlays take precedence without changing original snapshots. Markdown receives a reading wrapper only. Original sections, figures and interactions retained.','files':list(copied.values()),'missing_html_links':sorted(set(missing))}

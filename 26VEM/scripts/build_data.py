@@ -38,7 +38,16 @@ def number(value):
 def flag(value):return str(value).lower()=='true'
 
 names=load(P/'catalogs/external_dataset_names.json')
-named={x['id']:f"{x['id']} · {x['name']}" for x in names['datasets']}
+named={x['id']:f"{x.get('display_id',x['id'])} · {x['name']}" for x in names['datasets']}
+display_ids={x['id']:x.get('display_id',x['id']) for x in names['datasets']}
+legacy_labels={x['id']+' · '+x['name']:named[x['id']] for x in names['datasets'] if x['id']!=display_ids[x['id']]}
+def current_labels(value):
+    if isinstance(value,str):
+        for old,new in legacy_labels.items():value=value.replace(old,new)
+        return value
+    if isinstance(value,list):return [current_labels(v) for v in value]
+    if isinstance(value,dict):return {k:current_labels(v) for k,v in value.items()}
+    return value
 inventory=csvrows(PEER/'official_data_analysis_20261114/tables/file_inventory.csv')
 official=[]
 for row in inventory:
@@ -57,7 +66,7 @@ stages=load(R/'data_review/team/data_review_20261113/evidence/ved_stages.json')
 external=[]
 for row in registry['datasets']:
     id=row['ved_id']; meta=stages.get(id,{})
-    external.append({'id':id,'name':named[id],'tasks':row['current_research_tasks'],
+    external.append({'id':id,'display_id':display_ids[id],'name':named[id],'tasks':row['current_research_tasks'],
         'stage_text':row['stage_readable'],'stages':meta.get('ages_parsed',[]),
         'stage_basis':'2026-11-13元数据解析参考；并非所有阶段都可用于预测',
         'tissue':row['tissue_readable'],'assay':meta.get('assay','见来源元数据'),
@@ -87,7 +96,7 @@ for release in releases:
         for p in new_pairs]
     external.append({k:release[k] for k in ['id','tasks','stage_text','stages','stage_basis','tissue',
         'assay','unit','scope','limits','priority','availability','urls']} | {
-        'name':named[accession],'public_id':accession,'aliases':next(x.get('aliases',[]) for x in names['datasets'] if x['id']==accession),
+        'name':named[accession],'display_id':display_ids[accession],'public_id':accession,'aliases':next(x.get('aliases',[]) for x in names['datasets'] if x['id']==accession),
         'samples':samples,'comparisons':coverage,'added_on':release['date']})
     if 'quantitative_summary' in release:
         bulk=load(P/release['quantitative_summary'])
@@ -293,6 +302,14 @@ data={'version':max([r['date'] for r in releases],default='2026-11-19'),'title':
  'file_tree':(SITE/'data/5090-tree.txt').read_text(encoding='utf-8'),
  'remote_root':'/home/biocosmosx/work/virtualembryo_cym','remote_hub':'/home/biocosmosx/work/virtualembryo_cym/team/research_hub',
  'current_official_score':None,'remaining_attempts':None}
+display_config=json.loads(release_catalog.read_text(encoding='utf-8')).get('display_updates',{})
+if display_config.get('timeline'):
+    timeline=load(P/display_config['timeline'])
+    data['source_timelines']={'date':timeline['metadata_date'],'blocks':[
+        {k:b[k] for k in ['id','title','target']}|{'source_count':len(b['sources']),
+        'figure':'assets/figures/source_timeline_'+b['id']+'_20261121.svg'} for b in timeline['blocks']]}
+data['dataset_display_ids']=display_ids
+data=current_labels(data)
 jsfile(SITE/'assets/data.js','VEM_DATA',data)
 write_json(SITE/'data/source-manifest.json',{'built_at':data['built_at'],'scope':'Selected reports, aggregate statistics and metadata only. No H5AD, model weights, credentials or submission payloads.','files':SOURCES})
 write_json(SITE/'data/research-catalog.json',{'analyses':[{k:v for k,v in a.items() if k!='report'} for a in analyses]})
