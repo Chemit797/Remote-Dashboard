@@ -88,10 +88,10 @@
     "web_report_links_A14": true,
     "safe_report_A15": true,
     "web_report_links_A15": true,
-    "filter_type_Other mesoderm": true,
-    "filter_type_Endothelial/endocardial": true,
+    "filter_type_Cardiac progenitor/heart field": true,
     "filter_type_Cardiomyocyte": true,
-    "filter_type_Cardiac progenitor/heart field": true
+    "filter_type_Other mesoderm": true,
+    "filter_type_Endothelial/endocardial": true
   },
   "check_count": 91,
   "all_passed": true,
@@ -115,8 +115,8 @@
     },
     {
       "path": "assets/app.js",
-      "bytes": 50863,
-      "sha256": "d5e4ce0182f1e83c30e80ffd959f736b87193fe229ec041309ae9e5eca9f4022"
+      "bytes": 50921,
+      "sha256": "e94ffa50b28b6c7678f4050b50cee52e4e27325d674a7c0dc5b265a8bffc4028"
     },
     {
       "path": "assets/data.js",
@@ -190,18 +190,18 @@
     },
     {
       "path": "assets/scorer-seed.js",
-      "bytes": 2656,
-      "sha256": "237d317f2e1db2a40192c684e449e198b7bef1466e5394a37e9987fb2c909d47"
+      "bytes": 272238,
+      "sha256": "cb5dc6677d42783915aad108338a364c0cd3853d0252f0a526999b3d4b626862"
     },
     {
       "path": "assets/scorer.css",
-      "bytes": 5999,
-      "sha256": "b9774c395beb257c195d81dfa7112b969730e751c1b4c70f60329f218d1da8e0"
+      "bytes": 10304,
+      "sha256": "cfdb28b384f8de39efe3c74b6c05e8d4927742b9130c60df43fc28c94e9fd862"
     },
     {
       "path": "assets/scorer.js",
-      "bytes": 33191,
-      "sha256": "7f760f4a1dfa7d4c313882e6d6ae6cda8d28d85a0a82de6d469eeedeaf38ebe4"
+      "bytes": 48924,
+      "sha256": "1693740ce2a51af1ca01ed70156c6dbab620fa5e6bf268c7bd181815c1eae0be"
     },
     {
       "path": "assets/site.css",
@@ -280,8 +280,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2334,
-      "sha256": "94f9987a39f06512bf051e812f149de618d23a70ecbfe332d39689ea8cd10a2f"
+      "bytes": 2336,
+      "sha256": "d81922b3781b71ec40a71157657255c7b87a93308ad1b128c8d863161315ef17"
     },
     {
       "path": "readers/docs/EXTERNAL_DATASET_NAMES.md",
@@ -4675,8 +4675,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8351,
-      "sha256": "b46cec9ffcff2f3b72164a86bc9dd9b271d849df2ab7ac7c3c75290937340185"
+      "bytes": 8689,
+      "sha256": "1ef8978764e8d1a7e795a8110ca52ccd3e1fe852bbbc7d80736fc216e980c765"
     },
     {
       "path": "scripts/build_data.py",
