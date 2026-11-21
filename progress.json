@@ -1,27 +1,27 @@
 {
   "schema": 1,
-  "phase": "seed0",
-  "collected_at": "2026-11-21T06:34:19+00:00",
+  "phase": "replays",
+  "collected_at": "2026-11-21T06:41:59+00:00",
   "beds": 17,
   "scored_beds": 16,
   "test_beds": 1,
-  "cells": 256,
-  "valid": 161,
-  "na": 94,
+  "cells": 416,
+  "valid": 237,
+  "na": 178,
   "failed": 1,
   "spans": [
     {
       "span": "1D",
       "beds": 6,
-      "valid": 54,
-      "na": 42,
+      "valid": 106,
+      "na": 118,
       "failed": 0
     },
     {
       "span": "2D",
       "beds": 7,
-      "valid": 73,
-      "na": 38,
+      "valid": 97,
+      "na": 46,
       "failed": 1
     },
     {
@@ -34,38 +34,39 @@
   ],
   "jobs": {
     "waiting": 0,
-    "running": 1,
+    "running": 3,
     "succeeded": 9,
     "failed": 9,
     "interrupted": 0,
-    "unknown": 2
+    "unknown": 0,
+    "cancelled": 2
   },
   "next_scheduled": null,
   "operations": {
     "methods": 16,
-    "seeds": 1,
+    "seeds": 5,
     "groups": {
       "reference": {
         "methods": 4,
-        "valid": 32,
-        "na": 32,
+        "valid": 56,
+        "na": 56,
         "failed": 0
       },
       "proportion": {
         "methods": 2,
-        "valid": 8,
-        "na": 24,
+        "valid": 12,
+        "na": 36,
         "failed": 0
       },
       "expression": {
         "methods": 6,
         "valid": 58,
-        "na": 38,
+        "na": 86,
         "failed": 0
       },
       "dispersion": {
         "methods": 4,
-        "valid": 63,
+        "valid": 111,
         "na": 0,
         "failed": 1
       },
@@ -83,11 +84,11 @@
       }
     },
     "issues": {
-      "permission": 32,
+      "permission": 56,
       "coverage": 16,
       "compartments": 15,
-      "paired_prior": 19,
-      "visible_days": 12,
+      "paired_prior": 71,
+      "visible_days": 20,
       "other": 0
     },
     "steps": {
@@ -101,6 +102,16 @@
         "job": "unknown",
         "due": null
       },
+      "repair": {
+        "planned": 1024,
+        "cells": 160,
+        "batches": 8,
+        "registered": 3,
+        "sealed": 3,
+        "accepted": 2,
+        "job": "running",
+        "due": null
+      },
       "combo": {
         "planned": 32,
         "cells": 0,
@@ -108,8 +119,8 @@
         "registered": 0,
         "sealed": 0,
         "accepted": 0,
-        "job": "unknown",
-        "due": "2026-11-22T20:00:00+08:00"
+        "job": "cancelled",
+        "due": null
       },
       "replay": {
         "planned": 160,
@@ -118,13 +129,13 @@
         "registered": 0,
         "sealed": 0,
         "accepted": 0,
-        "job": "unknown",
-        "due": "2026-11-23T08:00:00+08:00"
+        "job": "cancelled",
+        "due": null
       }
     },
     "review_ready": false,
     "frozen": false,
-    "review_due": "2026-11-23T12:00:00+08:00",
+    "review_due": null,
     "audit": {
       "batches": 8,
       "regression_pass": 8,
