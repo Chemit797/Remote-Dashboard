@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "phase": "seed0",
-  "collected_at": "2026-11-21T06:29:59+00:00",
+  "collected_at": "2026-11-21T06:34:19+00:00",
   "beds": 17,
   "scored_beds": 16,
   "test_beds": 1,
@@ -40,5 +40,95 @@
     "interrupted": 0,
     "unknown": 2
   },
-  "next_scheduled": null
+  "next_scheduled": null,
+  "operations": {
+    "methods": 16,
+    "seeds": 1,
+    "groups": {
+      "reference": {
+        "methods": 4,
+        "valid": 32,
+        "na": 32,
+        "failed": 0
+      },
+      "proportion": {
+        "methods": 2,
+        "valid": 8,
+        "na": 24,
+        "failed": 0
+      },
+      "expression": {
+        "methods": 6,
+        "valid": 58,
+        "na": 38,
+        "failed": 0
+      },
+      "dispersion": {
+        "methods": 4,
+        "valid": 63,
+        "na": 0,
+        "failed": 1
+      },
+      "combination": {
+        "methods": 0,
+        "valid": 0,
+        "na": 0,
+        "failed": 0
+      },
+      "other": {
+        "methods": 0,
+        "valid": 0,
+        "na": 0,
+        "failed": 0
+      }
+    },
+    "issues": {
+      "permission": 32,
+      "coverage": 16,
+      "compartments": 15,
+      "paired_prior": 19,
+      "visible_days": 12,
+      "other": 0
+    },
+    "steps": {
+      "single": {
+        "planned": 256,
+        "cells": 256,
+        "batches": 8,
+        "registered": 8,
+        "sealed": 8,
+        "accepted": 8,
+        "job": "unknown",
+        "due": null
+      },
+      "combo": {
+        "planned": 32,
+        "cells": 0,
+        "batches": 3,
+        "registered": 0,
+        "sealed": 0,
+        "accepted": 0,
+        "job": "unknown",
+        "due": "2026-11-22T20:00:00+08:00"
+      },
+      "replay": {
+        "planned": 160,
+        "cells": 0,
+        "batches": 3,
+        "registered": 0,
+        "sealed": 0,
+        "accepted": 0,
+        "job": "unknown",
+        "due": "2026-11-23T08:00:00+08:00"
+      }
+    },
+    "review_ready": false,
+    "frozen": false,
+    "review_due": "2026-11-23T12:00:00+08:00",
+    "audit": {
+      "batches": 8,
+      "regression_pass": 8,
+      "probes": 608
+    }
+  }
 }
