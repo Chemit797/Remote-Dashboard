@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "phase": "replays",
-  "collected_at": "2026-11-21T07:14:59+00:00",
+  "collected_at": "2026-11-21T07:29:59+00:00",
   "beds": 17,
   "scored_beds": 16,
   "test_beds": 1,
@@ -35,7 +35,7 @@
   "jobs": {
     "waiting": 0,
     "running": 2,
-    "succeeded": 12,
+    "succeeded": 14,
     "failed": 10,
     "interrupted": 0,
     "unknown": 0,
