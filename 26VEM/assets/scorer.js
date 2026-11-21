@@ -157,6 +157,17 @@
     return await response.json();
   }
 
+  function showLive(state, data) {
+    checkSummary(data.summary);
+    if (!Array.isArray(data.rows) || !Array.isArray(data.jobs) || !Array.isArray(data.beds) || !Array.isArray(data.sources)) throw Error("明细不完整");
+    state.payload = data;
+    state.error = Boolean(data.collection_error);
+    show(state, data.summary, "5090 实时");
+    const key = JSON.stringify([data.sources,data.jobs,data.beds]);
+    if (state.privateKey !== key) drawPrivate(state);
+    state.privateKey = key;
+  }
+
   async function refresh(state) {
     if (current !== state || state.busy) return;
     state.busy = true;
@@ -164,16 +175,9 @@
     btn.disabled = true;
     try {
       if (live) {
-        const data = await getJSON("/api/live", AbortSignal.any([state.abort.signal, AbortSignal.timeout(8500)]));
-        checkSummary(data.summary);
-        if (!Array.isArray(data.rows) || !Array.isArray(data.jobs) || !Array.isArray(data.beds) || !Array.isArray(data.sources)) throw Error("明细不完整");
+        const data = await getJSON("/api/live", AbortSignal.any([state.abort.signal, AbortSignal.timeout(25000)]));
         if (current !== state) return;
-        state.payload = data;
-        state.error = Boolean(data.collection_error);
-        show(state, data.summary, "5090 实时");
-        const key = JSON.stringify([data.sources,data.jobs,data.beds]);
-        if (state.privateKey !== key) drawPrivate(state);
-        state.privateKey = key;
+        showLive(state, data);
       } else {
         const nonce = "&t=" + Math.floor(Date.now() / 60000);
         let latest;
@@ -206,6 +210,11 @@
     if (!live) {
       try { show(state,checkSummary(window.VEMScorerSeed),"随页快照"); } catch (_) {}
       try { show(state,checkSummary(JSON.parse(localStorage.getItem(cacheKey))),"上次公开快照"); } catch (_) {}
+    } else {
+      const first = document.getElementById("sc-initial");
+      if (first) {
+        try { showLive(state,JSON.parse(first.textContent)); } catch (_) {}
+      }
     }
     root.addEventListener("change", e => {
       if (!e.target.dataset.filter) return;
@@ -224,7 +233,7 @@
         root.querySelector("#sc-rows").innerHTML = drawTable(state);
       }
     });
-    refresh(state);
+    if (!state.payload) refresh(state);
     state.timer = setInterval(() => refresh(state), live ? 15000 : 60000);
     state.age = setInterval(() => freshness(state), 10000);
   }
