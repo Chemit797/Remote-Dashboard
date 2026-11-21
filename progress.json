@@ -1,27 +1,27 @@
 {
   "schema": 1,
   "phase": "replays",
-  "collected_at": "2026-11-21T06:45:00+00:00",
+  "collected_at": "2026-11-21T06:59:59+00:00",
   "beds": 17,
   "scored_beds": 16,
   "test_beds": 1,
-  "cells": 416,
-  "valid": 237,
-  "na": 178,
+  "cells": 864,
+  "valid": 537,
+  "na": 326,
   "failed": 1,
   "spans": [
     {
       "span": "1D",
       "beds": 6,
-      "valid": 106,
-      "na": 118,
+      "valid": 270,
+      "na": 210,
       "failed": 0
     },
     {
       "span": "2D",
       "beds": 7,
-      "valid": 97,
-      "na": 46,
+      "valid": 233,
+      "na": 102,
       "failed": 1
     },
     {
@@ -34,9 +34,9 @@
   ],
   "jobs": {
     "waiting": 0,
-    "running": 3,
-    "succeeded": 9,
-    "failed": 9,
+    "running": 2,
+    "succeeded": 10,
+    "failed": 10,
     "interrupted": 0,
     "unknown": 0,
     "cancelled": 2
@@ -48,25 +48,25 @@
     "groups": {
       "reference": {
         "methods": 4,
-        "valid": 56,
-        "na": 56,
+        "valid": 112,
+        "na": 112,
         "failed": 0
       },
       "proportion": {
         "methods": 2,
-        "valid": 12,
-        "na": 36,
+        "valid": 24,
+        "na": 80,
         "failed": 0
       },
       "expression": {
         "methods": 6,
-        "valid": 58,
-        "na": 86,
+        "valid": 178,
+        "na": 134,
         "failed": 0
       },
       "dispersion": {
         "methods": 4,
-        "valid": 111,
+        "valid": 223,
         "na": 0,
         "failed": 1
       },
@@ -84,11 +84,11 @@
       }
     },
     "issues": {
-      "permission": 56,
-      "coverage": 16,
-      "compartments": 15,
+      "permission": 112,
+      "coverage": 52,
+      "compartments": 47,
       "paired_prior": 71,
-      "visible_days": 20,
+      "visible_days": 44,
       "other": 0
     },
     "steps": {
@@ -104,11 +104,11 @@
       },
       "repair": {
         "planned": 1024,
-        "cells": 160,
+        "cells": 608,
         "batches": 8,
-        "registered": 3,
-        "sealed": 3,
-        "accepted": 2,
+        "registered": 5,
+        "sealed": 5,
+        "accepted": 4,
         "job": "running",
         "due": null
       },
