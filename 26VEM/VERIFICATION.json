@@ -85,10 +85,10 @@
     "web_report_links_A14": true,
     "safe_report_A15": true,
     "web_report_links_A15": true,
-    "filter_type_Other mesoderm": true,
-    "filter_type_Cardiac progenitor/heart field": true,
     "filter_type_Cardiomyocyte": true,
-    "filter_type_Endothelial/endocardial": true
+    "filter_type_Other mesoderm": true,
+    "filter_type_Endothelial/endocardial": true,
+    "filter_type_Cardiac progenitor/heart field": true
   },
   "check_count": 88,
   "all_passed": true,
@@ -262,8 +262,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2032,
-      "sha256": "25ac325f43f9a2a7fd5060c3ffc38d427ffa9ce46653c59cb0ce0dcd4ca78bfa"
+      "bytes": 2076,
+      "sha256": "5ed8f936fb2a92e622f5fae7361c52c8ca63ae0f3643ed2c79228803a2d64370"
     },
     {
       "path": "readers/docs/EXTERNAL_DATASET_NAMES.md",
