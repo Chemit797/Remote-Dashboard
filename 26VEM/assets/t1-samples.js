@@ -1,7 +1,7 @@
 /* One T1 sample register for earlier S recipes and accepted A iterations. */
 (() => {
   "use strict";
-  const {esc,num,signed,count,stamp,site,states,causes,metricInfo,tag,sub,row,grid,lead,note,examTitle,stat}=window.VEMBook;
+  const {esc,num,signed,count,stamp,site,states,causes,metricInfo,tag,sub,row,grid,lead,note,examTitle,stat,average}=window.VEMBook;
   const pageSize=12;
   const bedGroups=[
     {title:"日常迭代 · 两张主床", labels:{"T1-FENGCD1-2D":"主床 1 · CD1","T1-TOMEHEART-2D":"主床 2 · 心脏区域"}},
@@ -12,6 +12,7 @@
   const bedLabels=Object.assign({},...bedGroups.map(g=>g.labels));
   const priority=Object.keys(bedLabels), main=Object.keys(bedGroups[0].labels);
   const agreed=bedGroups.slice(0,3).flatMap(g=>Object.keys(g.labels));
+  const role=b=>main.includes(b)?"计排名":b.startsWith("T1-OFF-")&&agreed.includes(b)?"底线，不计排名":agreed.includes(b)?"只展示":priority.includes(b)?"额外复核":"历史对照";
   const seriesLabels={A:"持续迭代",S:"11 月 21 日复核"};
   const time=x=>Date.parse(x)||0;
   const byId=(a,b)=>a.localeCompare(b,"en",{numeric:true});
@@ -29,6 +30,21 @@
       if(!old||newest(c,old)<0)cases.set(key,c);
     }
     return [...cases.values()];
+  }
+
+  function summarize(records){
+    const byBed=new Map();
+    for(const c of latest(records)){
+      if(!byBed.has(c.bed))byBed.set(c.bed,[]);
+      byBed.get(c.bed).push(c);
+    }
+    return byBed;
+  }
+
+  function rankMean(byBed){
+    const pair=main.map(b=>byBed.get(b)||[]);
+    return pair.every(cs=>cs.length===5&&[0,1,2,3,4].every(seed=>cs.some(c=>c.seed===seed&&c.status==="valid"&&Number.isFinite(c.total))))
+      ?average(pair.map(cs=>stat(cs).score)):null;
   }
 
   function models(s) {
@@ -61,24 +77,21 @@
           (nameMatch||[c.bed,b.source,b.subset,c.batch].join(" ").toLowerCase().includes(q));
       });
       if(!observations.length)continue;
-      const byBed=new Map();
-      for(const c of latest(observations)){
-        if(!byBed.has(c.bed))byBed.set(c.bed,[]);
-        byBed.get(c.bed).push(c);
-      }
+      const byBed=summarize(observations);
       const last=observations.reduce((a,b)=>newest(b,a)<0?b:a);
       matches.push({...item,observations,byBed,last});
     }
     const inResults=beds.filter(k=>matches.some(item=>item.byBed.has(k)));
-    const preset=u.columns==="all"?beds:u.columns==="current"?priority:u.columns==="agreed"?agreed:main;
+    const preset=u.columns==="all"?beds:u.columns==="current"?priority:u.columns==="compact"?main:agreed;
     const shown=preset.filter(k=>beds.includes(k));
-    const compact=u.columns==="main"||!u.columns;
-    const displayedBeds=u.bed||u.batch||(compact&&q&&inResults.length&&!inResults.some(k=>main.includes(k)))?inResults:shown;
-    const scoreBed=u.bed||displayedBeds[0];
-    const forSort=item=>stat(item.byBed.get(scoreBed)||[]).score??-Infinity;
+    const scoped=!!(u.bed||u.batch)||(!!q&&inResults.length>0&&!inResults.some(k=>shown.includes(k)));
+    const compact=u.columns==="compact"||scoped;
+    const displayedBeds=scoped?inResults:shown;
+    const scoreBed=scoped?displayedBeds[0]:null;
+    const forSort=item=>(scoreBed?stat(item.byBed.get(scoreBed)||[]).score:rankMean(item.byBed))??-Infinity;
     matches.sort((a,b)=>(u.order==="oldest"?newest(b.last,a.last):u.order==="id"?0:
       u.order==="score"?forSort(b)-forSort(a):newest(a.last,b.last))||byId(a.id,b.id));
-    return {d,u,beds,displayedBeds,matches,items,batches:[...batches.values()].sort((a,b)=>time(b.at)-time(a.at)||byId(b.id,a.id)),seeds:[...seeds].sort((a,b)=>a-b),scoreBed,compact};
+    return {d,u,beds,displayedBeds,matches,items,batches:[...batches.values()].sort((a,b)=>time(b.at)-time(a.at)||byId(b.id,a.id)),seeds:[...seeds].sort((a,b)=>a-b),scoreBed,compact,scoped};
   }
 
   function statusCell(c){return tag(states[c.status],c.status==="valid"?"visible":c.status==="failed"?"bad":"neutral");}
@@ -89,6 +102,57 @@
     const coverage=sub(`${a.ok}/${a.n} 有分`);
     if(!a.ok)return `${a.failed?tag("失败","bad"):tag("NA","neutral")}${coverage}`;
     return `<b>${num(a.score)}</b>${coverage}${Number.isFinite(a.delta)?sub("Δ S00 "+signed(a.delta)):""}`;
+  }
+
+  const compactHeads=["配方 / 最近验收","两张排名床成绩","评估条数"];
+  function alignedHeads(d,beds){
+    return ["配方 / 最近验收","两主床均分"+sub("两床等权"),...beds.map(id=>{
+      const b=d.samples.beds[id];
+      return `<span data-bed="${esc(id)}">${esc(id)}</span>${sub(esc(role(id)))}${sub(esc(`E${b.last} → E${b.target}`))}`;
+    })];
+  }
+
+  function alignedGrid(title,heads,rows){
+    const beds=heads.length-2;
+    return grid(title,heads,rows,"bk-aligned-score bk-freeze",{
+      attrs:` style="--bk-bed-count:${beds}"`,columns:`<colgroup><col class="bk-col-recipe"><col class="bk-col-mean">${"<col>".repeat(beds)}</colgroup>`});
+  }
+
+  const rankCell=byBed=>`<b class="bk-rank-mean">${num(rankMean(byBed))}</b>`;
+  const identityMeta=(last,n)=>last?`<small>${esc(stamp(last.at).slice(5,16))}（北京） · ${count(n)} 条</small>`:`<small>${count(n)} 条评估</small>`;
+
+  function baselines(s){
+    const d=s.data, u=s.all, reg=d.samples;
+    const layout=u.columns==="all"?Object.keys(reg.beds):u.columns==="current"?priority:u.columns==="compact"?main:agreed;
+    const beds=[...new Set([...priority.filter(id=>layout.includes(id)),...layout])].filter(id=>Object.hasOwn(reg.beds,id));
+    const compact=u.columns==="compact";
+    const items=reg.recipes.filter(r=>["S00","S01","S02","S03"].includes(r.id));
+    const rows=items.map(r=>{
+      const records=r.cases.map(c=>({...c,at:reg.batches[c.batch]})), byBed=summarize(records);
+      const last=records.reduce((a,c)=>!a||newest(c,a)<0?c:a,null);
+      const label=`<a href="${site}/samples?view=all&q=${esc(r.id)}&open=${esc(r.id)}"><b>${esc(r.id)}</b> · ${esc(r.name)}</a>`;
+      return row(label+identityMeta(last,records.length),compact?[combinedScores(beds,byBed),count(records.length)]:[rankCell(byBed),...beds.map(b=>scoreCell(byBed.get(b)))],`data-baseline="${esc(r.id)}"`);
+    });
+    return lead(compact?"基线与样本使用同一套两主床简表。":"基线与样本使用同一套本地成绩列。先看两主床均分，再看各床成绩。")+
+      `<div class="bk-card bk-register bk-score-register" id="bk-baseline-matrix">${compact?grid("基线对照",compactHeads,rows,"bk-sample-summary"):alignedGrid("基线对照",alignedHeads(d,beds),rows)}</div>`+
+      window.VEMBook.baselineHistory(d)+'<details class="bk-disclosure" data-board-disclosure="baseline-archive-signal"><summary>历史复核 · 各考场相对 S00 的分差</summary><div id="bk-signal"></div></details>';
+  }
+
+  function combinedScores(beds,byBed){
+    return `<div class="bk-sample-scores">${beds.map(b=>`<div data-bed="${esc(b)}">${sub(esc(b))}${scoreCell(byBed.get(b))}</div>`).join("")}</div>`;
+  }
+
+  function agreedBeds(d){
+    const exams=new Map(d.board.exams.map(b=>[b.id,b]));
+    const titles=["排名 · 两张主床","底线 · 官方数据本地验证","只展示 · 不计排名"];
+    const panels=bedGroups.slice(0,3).map(({labels},i)=>`<div><h4>${titles[i]}</h4><dl>${Object.keys(labels).map(id=>{
+      const b=d.samples.beds[id], e=exams.get(id);
+      if(!b||!e)return "";
+      const context=id.includes("QIUSINGLE")?"心脏子集 · 单重复":id.includes("QIUPOOL")?"心脏子集 · 合并样本":b.subset;
+      return `<div data-bed-definition="${esc(id)}"><dt>${esc(id)}</dt><dd>${esc([b.source,context].filter(Boolean).join("｜"))}</dd><dd>可见 ${esc(e.visible.map(x=>"E"+x).join("、"))} → 预测 E${esc(e.target)}</dd></div>`;
+    }).join("")}</dl></div>`).join("");
+    return `<div class="bk-card bk-agreed-beds" id="bk-agreed-beds"><h3>原定六床</h3><div class="bk-bed-definitions">${panels}</div>
+      <p class="bk-note">两主床各有五个种子的成绩才算均分。两张底线共用同一份官方 E10.5 答案，前三名须逐床不低于复制基线 S00；EXT 表示允许指定外部参考。</p></div>`;
   }
 
   function detailFor(d,item,bedOrder,{scoped=false,openAttempts=false}={}){
@@ -132,37 +196,31 @@
   }
 
   function render(s){
-    const {d,u,displayedBeds,beds,matches,items,batches,seeds,scoreBed,compact}=models(s);
+    const {d,u,displayedBeds,beds,matches,items,batches,seeds,scoreBed,compact,scoped}=models(s);
     const records=matches.reduce((n,item)=>n+item.observations.length,0);
     const total=[...items.values()].reduce((n,item)=>n+item.records.length,0);
     const pages=Math.max(1,Math.ceil(matches.length/pageSize));
-    const page=Math.min(Math.max(0,Math.trunc(Number(u.page)||0)),pages-1);
+    const selected=s.anchorRecipe?matches.findIndex(item=>item.id===s.anchorRecipe):-1;
+    const page=selected>=0?Math.floor(selected/pageSize):Math.min(Math.max(0,Math.trunc(Number(u.page)||0)),pages-1);
     const start=page*pageSize,end=Math.min(matches.length,start+pageSize);
     const open=u.open||new Set();
-    const ranks=compact&&displayedBeds.length===main.length&&displayedBeds.every((id,i)=>id===main[i])&&!u.bed&&!u.batch;
-    const heads=compact?["配方 / 最近验收",ranks?"排名床成绩":"考场成绩","评估条数"]:["配方 / 系列","最近验收",...displayedBeds.map(id=>{
-      const bed=d.samples.beds[id];
-      return `<span data-bed="${esc(id)}" title="${esc(bed.source+' · '+id)}">${esc(bedLabels[id]||id.replace(/^T1-/,""))}</span>${sub(esc(`E${bed.last} → E${bed.target}`))}`;
-    }),"评估条数"];
+    const heads=compact?(scoped?[compactHeads[0],"考场成绩",compactHeads[2]]:compactHeads):alignedHeads(d,displayedBeds);
     const rows=matches.slice(start,end).flatMap(item=>{
       const {id,name,last,byBed,observations}=item, expanded=open.has(id);
       const label=`<button type="button" class="bk-open" data-all-open="${esc(id)}" aria-label="${expanded?"收起":"展开"} ${esc(id)}" aria-expanded="${expanded}"${expanded?` aria-controls="bk-all-detail-${esc(id)}"`:""}><b>${expanded?"▾":"▸"} ${esc(id)}</b>${name?`<span>${esc(name)}</span>`:""}</button>${sub(esc(seriesLabels[series(id)]))}`;
-      const time=stamp(last.at), meta=`<small class="bk-sample-time" title="${esc(time+'（北京时间） · '+last.batch)}">${esc(time.slice(5,16))}</small>`;
-      const combined=compact?`<div class="bk-sample-scores">${displayedBeds.map(b=>`<div data-bed="${esc(b)}" title="${esc(d.samples.beds[b].source+' · '+b)}">${sub(esc(bedLabels[b]||b))}${scoreCell(byBed.get(b))}</div>`).join("")}</div>`:"";
-      const a=row(label+(compact?meta:""),compact?[combined,count(observations.length)]:[time+sub(esc(last.batch)),...displayedBeds.map(b=>scoreCell(byBed.get(b))),count(observations.length)],`data-recipe="${esc(id)}" class="${expanded?"open":""}"`);
-      const narrowed=!!(u.bed||u.batch)||(compact&&!ranks);
-      return expanded?[a,`<tr class="bk-detail-row"><td colspan="${heads.length}"><div class="bk-detail" id="bk-all-detail-${esc(id)}">${detailFor(d,item,beds,{scoped:narrowed,openAttempts:!!(u.bed||u.batch)})}</div></td></tr>`]:[a];
+      const a=row(label+identityMeta(last,observations.length),compact?[combinedScores(displayedBeds,byBed),count(observations.length)]:[rankCell(byBed),...displayedBeds.map(b=>scoreCell(byBed.get(b)))],`data-recipe="${esc(id)}" class="${expanded?"open":""}"`);
+      return expanded?[a,`<tr class="bk-detail-row"><td colspan="${heads.length}"><div class="bk-detail" id="bk-all-detail-${esc(id)}">${detailFor(d,item,beds,{scoped,openAttempts:!!(u.bed||u.batch)})}</div></td></tr>`]:[a];
     });
     const controls=`<div class="bk-tools bk-all-primary"><label>搜索样本<input type="search" data-all-search aria-label="搜索样本" placeholder="配方、考场、来源或批次" value="${esc(u.q||"")}"></label></div>
-      <details class="bk-sample-filters" data-board-disclosure="sample-filters"${[u.bed,u.series,u.batch,u.seed,u.status].some(Boolean)||u.order!=="recent"||!compact?" open":""}><summary>筛选与对比</summary>
+      <details class="bk-sample-filters" data-board-disclosure="sample-filters"${[u.bed,u.series,u.batch,u.seed,u.status].some(Boolean)||u.order!=="recent"||["compact","current","all"].includes(u.columns)?" open":""}><summary>筛选与对比</summary>
       <div class="bk-tools bk-all-tools">
-      ${select("显示方式","columns",[["main","简表"],["agreed","横向对比 · 原定六床"],["current","横向对比 · 候选八床"],["all",`横向对比 · 历史全部 ${beds.length} 床`]],u.columns||"main",!!(u.bed||u.batch))}
+      ${select("显示方式","columns",[["main","原定六床（默认）"],["compact","简表 · 两主床"],["current","候选复核 · 八床"],["all",`历史全部 ${beds.length} 床`]],u.columns==="agreed"?"main":u.columns||"main",!!(u.bed||u.batch))}
       ${select("配方系列","series",[["","全部配方"],["A","A · 持续迭代"],["S","S · 11 月 21 日复核"]],u.series)}
       ${select("考场","bed",[["","所有有记录的考场"],...beds.map(b=>[b,b+" · "+d.samples.beds[b].source+(d.samples.beds[b].subset?"｜"+d.samples.beds[b].subset:"")])],u.bed)}
       ${select("抽样种子","seed",[["","所有种子"],...seeds.map(seed=>[seed,String(seed)])],u.seed)}
       ${select("评估结果","status",[["","全部结果"],...Object.entries(states)],u.status)}
       ${select("批次","batch",[["","全部批次"],...batches.map(b=>[b.id,b.id+" · "+stamp(b.at)])],u.batch)}
-      ${select("排列顺序","order",[["recent","最近验收在前"],["oldest","最早验收在前"],["score","第一个显示的考场分数 ↓"],["id","配方编号"]],u.order||"recent")}
+      ${select("排列顺序","order",[["recent","最近验收在前"],["oldest","最早验收在前"],["score",scoreBed?"首个筛选考场成绩 ↓":"两主床均分 ↓"],["id","配方编号"]],u.order||"recent")}
       <button class="btn" type="button" data-all-clear>清除筛选</button></div></details>`;
     const pagination=pages>1?`<div class="bk-pages bk-all-pages" aria-label="样本分页">
       <button class="btn" type="button" data-all-page="${Math.max(page-1,0)}"${page===0?" disabled":""}>上一页</button>
@@ -170,12 +228,12 @@
       <button class="btn" type="button" data-all-page="${Math.min(page+1,pages-1)}"${page===pages-1?" disabled":""}>下一页</button></div>`:"";
     const source=s.sampleSource?note(esc(s.sampleSource)):"";
     const latestBatch=batches[0];
-    return lead("每行一个配方。平时看两张排名床，点配方可展开原定六床和历次评估。")+
+    return lead((scoped?"每行一个配方，只显示所选考场或批次。":"每行一个配方，与上面的基线对照同列。")+"点配方可查逐种子、四项分数和历史批次。")+agreedBeds(d)+
       `<p class="bk-note">${latestBatch?`最新验收：${stamp(latestBatch.at)}（北京时间） · ${esc(latestBatch.id)} · `:""}<a href="${site}/samples/archive">历史复核原表 ↗</a></p>${source}
-      <div class="bk-card bk-register bk-all-register">${controls}${bedGuide(d,beds)}
+      <div class="bk-card bk-register bk-all-register bk-score-register">${controls}${bedGuide(d,beds)}
       ${u.bed||u.batch?note("这里显示所选考场或批次的成绩。") : ""}
-      <p id="bk-all-count" aria-live="polite">显示 ${count(matches.length)} / ${count(items.size)} 个配方 · ${count(records)} / ${count(total)} 条评估${u.order==="score"&&scoreBed?" · 按 "+esc(scoreBed)+" 排序":""}</p>
-      <div id="bk-all-matrix">${rows.length?grid("T1 全部样本成绩",heads,rows,"bk-matrix bk-all-table"+(compact?" bk-sample-summary":" bk-freeze")):'<p class="bk-empty">没有匹配的样本。请更换关键词或清除筛选。</p>'}</div>
+      <p id="bk-all-count" aria-live="polite">显示 ${count(matches.length)} / ${count(items.size)} 个配方 · ${count(records)} / ${count(total)} 条评估${u.order==="score"?" · 按 "+esc(scoreBed||"两主床均分")+" 排序":""}</p>
+      <div id="bk-all-matrix" data-sample-page="${page}">${rows.length?(compact?grid("T1 全部样本成绩",heads,rows,"bk-sample-summary"):alignedGrid("T1 全部样本成绩",heads,rows)):'<p class="bk-empty">没有匹配的样本。请更换关键词或清除筛选。</p>'}</div>
       ${pagination}${!compact&&displayedBeds.length>3?'<p class="bk-note bk-swipe">横向滑动查看其余考场，配方编号留在左侧。</p>':""}</div>`;
   }
 
@@ -184,5 +242,5 @@
     return item?detailFor(m.d,item,m.beds):"";
   }
 
-  window.VEMT1Samples={render,detail};
+  window.VEMT1Samples={render,detail,baselines};
 })();

@@ -22,8 +22,8 @@
   const tag=(label,tone="")=>`<span class="bk-tag ${tone}">${esc(label)}</span>`;
   const link=(id,params={})=>{const p=new URLSearchParams(params);return site+"/samples/"+encodeURIComponent(id)+(p.size?"?"+p:"");};
   const sub=(s)=>`<small>${s}</small>`, col=(s)=>`<th scope="col">${s}</th>`;
-  function grid(label,heads,rows,cls="") {
-    return `<div class="bk-scroll" tabindex="0" aria-label="${esc(label)}"><table class="bk-table ${cls}"><caption class="bk-sr">${esc(label)}</caption><thead><tr>${heads.map(col).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>`;
+  function grid(label,heads,rows,cls="",{attrs="",columns=""}={}) {
+    return `<div class="bk-scroll" tabindex="0" aria-label="${esc(label)}"><table class="bk-table ${cls}"${attrs}><caption class="bk-sr">${esc(label)}</caption>${columns}<thead><tr>${heads.map(col).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>`;
   }
   const row=(name,values,attrs="",labels=[])=>`<tr ${attrs}><th scope="row">${name}</th>${values.map((v,i)=>`<td${labels[i]?' data-label="'+esc(labels[i])+'"':""}>${v}</td>`).join("")}</tr>`;
   const box=(title,body)=>`<div class="bk-card"><h3>${title}</h3>${body}</div>`;
@@ -49,18 +49,15 @@
     return `<b>${mode==="delta"?signed(a.delta):num(a.score)}</b><small class="${a.delta>.005?"bk-up":a.delta<-.005?"bk-down":""}">${mode==="delta"?"总分 "+num(a.score):"Δ "+signed(a.delta)}</small>${a.ok<a.n?sub(a.ok+"/"+a.n+" 有分"):""}`;
   }
   function chosen(s,id){const b=s.board;return id===b.steady?"稳候选建议":id===b.bold?"搏候选建议":id==="S00"?"复制基线":"";}
-  function baselines(s) {
+  function baselineHistory(s) {
     const items=s.samples.recipes.filter(r=>["S00","S01","S02","S03"].includes(r.id));
-    const data=items.map(r=>{
+    const data=items.flatMap(r=>{
       const h=s.board.history.find(v=>v.recipe===r.id);
-      return row(`<a href="${link(r.id)}">${esc(r.id)} · ${esc(r.name)}</a>`,
-        [h?`<b>${num(h.receipt)}</b>${sub(esc(h.original)+" 历史原件")}`:"—",h?num(h.archive,6):"—",h?num(h.adapted):"—",
-         ...mainBeds.map(id=>cell(stat(slice(r,id))))],`data-baseline="${r.id}"`);
+      return h?[row(`<b>${esc(h.original)}</b>${sub("本地对应："+esc(r.id))}`,[num(h.receipt),num(h.archive,6),num(h.adapted)])]:[];
     });
-    return lead("先看复制、归一化和两种历史方法。左边核对历史原件，右边比较本轮同一考场的五个种子均分。")+
-      box("历史回执和本轮模拟考能对上什么？",grid("基线对照",["配方","历史原件"+sub("官方验证分"),"原件复算"+sub("种子 0"),"历史适配版"+sub("五种子均分"),...mainBeds.map(id=>examTitle(s,id))],data,"bk-freeze")+
-        note("M08、M15 是历史原件，S02、S03 是本轮改写。官方列只属于历史原件；同一行不代表上传的是本轮预测。每格的 Δ 是同一考场、同一种子相对 S00 的平均分差。NA 不当作零分。"))+
-      '<div id="bk-signal"></div>';
+    return `<details class="bk-disclosure" data-board-disclosure="baseline-history"><summary>历史原件的官方回执与复算</summary>
+      ${grid("基线历史原件",["历史原件","官方验证分","原件复算"+sub("种子 0"),"历史适配版"+sub("五种子均分")],data)}
+      ${note("M08、M15 是历史原件；S02、S03 是本地改写。官方验证分属于历史原件。")}</details>`;
   }
   function signal(s, id) {
     const rec=s.samples.recipes.find(r=>r.id===id)||s.samples.recipes[0];
@@ -155,5 +152,5 @@
       <p>复核生成：${stamp(b.at)}（北京）</p><details><summary>查看校验值</summary><dl>${[["复核",b.review],["主表",b.master],["考场登记",b.registry]].map(([k,v])=>`<dt>${k}</dt><dd><code>${esc(v)}</code></dd>`).join("")}</dl></details>
       <a href="${feed}">查看公开数据快照 ↗</a>`)}</div>`;
   }
-  window.VEMBook={esc,num,signed,average,count,stamp,site,sections,states,jobs,causes,groups,categories,metricInfo,mainBeds,tag,link,sub,col,row,box,grid,note,lead,source,examTitle,slice,stat,cell,chosen,baselines,signal,activity,pipeline,validation,metrics,progress};
+  window.VEMBook={esc,num,signed,average,count,stamp,site,sections,states,jobs,causes,groups,categories,metricInfo,mainBeds,tag,link,sub,col,row,box,grid,note,lead,source,examTitle,slice,stat,cell,chosen,baselineHistory,signal,activity,pipeline,validation,metrics,progress};
 })();

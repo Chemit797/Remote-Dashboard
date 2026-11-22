@@ -132,10 +132,27 @@
 .bk-bed-summary thead th:last-child{width:6.5em}
 .bk-bed-source{font-size:12px;color:var(--bk-muted);overflow-wrap:anywhere}
 .bk-sample-attempts{margin-top:10px}.bk-sample-attempts summary{color:var(--bk-blue);width:fit-content}
+.bk-score-register #bk-all-matrix>.bk-scroll,.bk-score-register>.bk-scroll{scrollbar-gutter:stable;border:1px solid var(--bk-line);border-radius:5px}
+.bk-aligned-score{--bk-identity:190px;--bk-mean:98px;--bk-bed-min:115px;width:100%;table-layout:fixed;min-width:calc(var(--bk-identity) + var(--bk-mean) + var(--bk-bed-count)*var(--bk-bed-min))}
+.bk-aligned-score col.bk-col-recipe{width:var(--bk-identity)}.bk-aligned-score col.bk-col-mean{width:var(--bk-mean)}
+.bk-aligned-score>thead>tr>th:not(:first-child),.bk-aligned-score>tbody>tr:not(.bk-detail-row)>td{text-align:center}
+.bk-aligned-score>thead [data-bed]{font-size:11px;display:block;overflow-wrap:anywhere}
+.bk-aligned-score>tbody>tr:not(.bk-detail-row)>td:nth-child(2){background:#f2f7fa;color:var(--bk-blue)}
+.bk-aligned-score .bk-rank-mean{font-size:15px}.bk-aligned-score .bk-open{grid-template-columns:minmax(0,1fr);gap:1px}
+.bk-aligned-score>tbody>tr.bk-detail-row>td{padding:0;background:#f5f7f6;text-align:left}
+.bk-aligned-score .bk-detail{position:sticky;left:0;box-sizing:border-box;width:min(930px,calc(100vw - 65px));max-width:100%}
+.bk-agreed-beds{padding:12px}.bk-agreed-beds h3{margin:0 0 7px}
+.bk-bed-definitions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 15px}
+.bk-bed-definitions h4{font-size:13px;color:var(--bk-blue);margin:0 0 4px}.bk-bed-definitions dl{margin:0}
+.bk-bed-definitions dl>div{padding:5px 0;border-top:1px solid var(--bk-line)}
+.bk-bed-definitions dt{font-weight:650;font-size:12px}.bk-bed-definitions dd{font-size:12px;line-height:1.4;color:var(--bk-muted);overflow-wrap:anywhere}
 @media(max-width:700px){
   .bk-bed-groups,.bk-sample-scores{grid-template-columns:minmax(0,1fr)}
   .bk-sample-summary>thead>tr>th:nth-child(2){min-width:0}
   .bk-sample-summary>thead>tr>th:last-child{width:4.8em}
   .bk-register .bk-sample-summary>tbody>tr>th:first-child{min-width:0}
   .bk-sample-summary>tbody>tr[data-recipe]>th .bk-open span{overflow-wrap:anywhere}
+  .bk-bed-definitions{grid-template-columns:minmax(0,1fr);gap:8px}
+  .bk-aligned-score{--bk-identity:86px;--bk-mean:61px;--bk-bed-min:86px}
+  .bk-aligned-score>thead [data-bed]{font-size:10px}
 }
