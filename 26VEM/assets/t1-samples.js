@@ -3,7 +3,13 @@
   "use strict";
   const {esc,num,signed,count,stamp,site,states,causes,metricInfo,tag,sub,row,grid,lead,note,examTitle,stat}=window.VEMBook;
   const pageSize=12;
-  const priority=["T1-FENGCD1-2D","T1-TOMEHEART-2D","T1-OFF-1D-EXT","T1-OFF-2D-EXT","T1-QIUPOOL-2D","T1-QIUSINGLE-2D","T1-TOMEWHOLE-2D","T1-FENGB6-2D"];
+  const bedGroups=[
+    {title:"日常迭代 · 两张主床", labels:{"T1-FENGCD1-2D":"主床 1 · CD1","T1-TOMEHEART-2D":"主床 2 · 心脏区域"}},
+    {title:"候选验收 · 官方数据本地参照", labels:{"T1-OFF-1D-EXT":"参照 · 一天 EXT","T1-OFF-2D-EXT":"参照 · 两天 EXT"}},
+    {title:"候选验收 · 观察床", labels:{"T1-QIUPOOL-2D":"观察 · 合并样本","T1-QIUSINGLE-2D":"观察 · 单重复","T1-TOMEWHOLE-2D":"观察 · 全胚胎","T1-FENGB6-2D":"观察 · C57BL/6N"}},
+  ];
+  const bedLabels=Object.assign({},...bedGroups.map(g=>g.labels));
+  const priority=Object.keys(bedLabels), main=Object.keys(bedGroups[0].labels);
   const seriesLabels={A:"持续迭代",S:"11 月 21 日复核"};
   const time=x=>Date.parse(x)||0;
   const byId=(a,b)=>a.localeCompare(b,"en",{numeric:true});
@@ -61,7 +67,10 @@
       const last=observations.reduce((a,b)=>newest(b,a)<0?b:a);
       matches.push({...item,observations,byBed,last});
     }
-    const displayedBeds=beds.filter(k=>matches.some(item=>item.byBed.has(k)));
+    const inResults=beds.filter(k=>matches.some(item=>item.byBed.has(k)));
+    const preset=u.columns==="all"?beds:u.columns==="current"?priority:main;
+    const shown=preset.filter(k=>beds.includes(k));
+    const displayedBeds=u.bed||u.batch?inResults:shown;
     const scoreBed=u.bed||displayedBeds[0];
     const forSort=item=>stat(item.byBed.get(scoreBed)||[]).score??-Infinity;
     matches.sort((a,b)=>(u.order==="oldest"?newest(b.last,a.last):u.order==="id"?0:
@@ -100,8 +109,21 @@
       ${grid(id+" 逐种子评估",heads,detailRows,"bk-cases")}`;
   }
 
-  const select=(label,key,values,selected)=>`<label>${esc(label)}<select aria-label="${esc(label)}" data-all-filter="${key}">${
+  const select=(label,key,values,selected,disabled=false)=>`<label>${esc(label)}<select aria-label="${esc(label)}" data-all-filter="${key}"${disabled?" disabled":""}>${
     values.map(([v,l])=>`<option value="${esc(v)}"${String(v)===String(selected??"")?" selected":""}>${esc(l)}</option>`).join("")}</select></label>`;
+
+  function bedGuide(d,beds){
+    const list=ids=>`<ul>${ids.map(id=>`<li>${examTitle(d,id)}${sub(esc(id))}</li>`).join("")}</ul>`;
+    const groups=bedGroups.map(({title,labels})=>`<div><h5>${esc(title)}</h5>${list(Object.keys(labels).filter(id=>beds.includes(id)))}</div>`).join("");
+    const old=beds.filter(id=>!priority.includes(id));
+    return `<details class="bk-bed-guide" data-board-disclosure="bed-guide"><summary>列说明与考场清单</summary>
+      <p>配方 / 系列：预测方案的编号，A 是持续迭代，S 是 11 月 21 日复核。最近验收：所选记录里该配方最新验收的时间（北京）与批次。</p>
+      <p>考场分数：在筛选范围内，每个种子取最近一次验收，再算有分均值。5/5 有分表示 5 个种子都得分；Δ S00 是同考场同种子相对复制基线的分差。</p>
+      <p>评估条数：考场 × 种子 × 批次的记录数，包含缺分、失败与复测。点配方查全部明细。</p>
+      <p>主床两张均从 E10.5 外推到 E12.5，各跑五个技术种子，两床等权。EXT 表示可用指定外部参考，仍是本地评分。T1-TEST 只有格式检查，没有分数列。</p>
+      <div class="bk-bed-groups">${groups}</div>
+      ${old.length?`<details data-board-disclosure="old-beds"><summary>另 ${count(old.length)} 张历史复核与补充床</summary>${list(old)}</details>`:""}</details>`;
+  }
 
   function render(s){
     const {d,u,displayedBeds,beds,matches,items,batches,seeds,scoreBed}=models(s);
@@ -111,32 +133,39 @@
     const page=Math.min(Math.max(0,Math.trunc(Number(u.page)||0)),pages-1);
     const start=page*pageSize,end=Math.min(matches.length,start+pageSize);
     const open=u.open||new Set();
-    const heads=["配方 / 系列","最近验收（北京）",...displayedBeds.map(b=>examTitle(d,b)+sub(esc(b))),"批次记录"];
+    const heads=["配方 / 系列","最近验收",...displayedBeds.map(id=>{
+      const bed=d.samples.beds[id];
+      return `<span data-bed="${esc(id)}" title="${esc(bed.source+' · '+id)}">${esc(bedLabels[id]||id.replace(/^T1-/,""))}</span>${sub(esc(`E${bed.last} → E${bed.target}`))}`;
+    }),"评估条数"];
     const rows=matches.slice(start,end).flatMap(item=>{
       const {id,name,last,byBed,observations}=item, expanded=open.has(id);
       const label=`<button type="button" class="bk-open" data-all-open="${esc(id)}" aria-label="${expanded?"收起":"展开"} ${esc(id)}" aria-expanded="${expanded}"${expanded?` aria-controls="bk-all-detail-${esc(id)}"`:""}><b>${expanded?"▾":"▸"} ${esc(id)}</b>${name?`<span>${esc(name)}</span>`:""}</button>${sub(esc(seriesLabels[series(id)]))}`;
       const a=row(label,[stamp(last.at)+sub(esc(last.batch)),...displayedBeds.map(b=>scoreCell(byBed.get(b))),count(observations.length)],`data-recipe="${esc(id)}" class="${expanded?"open":""}"`);
       return expanded?[a,`<tr class="bk-detail-row"><td colspan="${heads.length}"><div class="bk-detail" id="bk-all-detail-${esc(id)}">${detailFor(d,item,beds)}</div></td></tr>`]:[a];
     });
-    const controls=`<div class="bk-tools bk-all-tools"><label>搜索样本<input type="search" data-all-search aria-label="搜索样本" placeholder="配方、考场、来源或批次" value="${esc(u.q||"")}"></label>
+    const controls=`<div class="bk-tools bk-all-primary"><label>搜索样本<input type="search" data-all-search aria-label="搜索样本" placeholder="配方、考场、来源或批次" value="${esc(u.q||"")}"></label>
+      ${select("显示考场列","columns",[["main","日常 · 两张主床"],["current","当前 · 全部八床"],["all",`全历史 · ${beds.length} 张床`]],u.columns||"main",!!(u.bed||u.batch))}</div>
+      <details class="bk-sample-filters" data-board-disclosure="sample-filters"${[u.bed,u.series,u.batch,u.seed,u.status].some(Boolean)||u.order!=="recent"?" open":""}><summary>更多筛选与排序</summary>
+      <div class="bk-tools bk-all-tools">
       ${select("配方系列","series",[["","全部配方"],["A","A · 持续迭代"],["S","S · 11 月 21 日复核"]],u.series)}
       ${select("考场","bed",[["","所有有记录的考场"],...beds.map(b=>[b,b+" · "+d.samples.beds[b].source+(d.samples.beds[b].subset?"｜"+d.samples.beds[b].subset:"")])],u.bed)}
       ${select("抽样种子","seed",[["","所有种子"],...seeds.map(seed=>[seed,String(seed)])],u.seed)}
       ${select("评估结果","status",[["","全部结果"],...Object.entries(states)],u.status)}
       ${select("批次","batch",[["","全部批次"],...batches.map(b=>[b.id,b.id+" · "+stamp(b.at)])],u.batch)}
-      ${select("排列顺序","order",[["recent","最近验收在前"],["oldest","最早验收在前"],["score","所选考场分数 ↓"],["id","配方编号"]],u.order||"recent")}
-      <button class="btn" type="button" data-all-clear>清除筛选</button></div>`;
+      ${select("排列顺序","order",[["recent","最近验收在前"],["oldest","最早验收在前"],["score","第一个显示的考场分数 ↓"],["id","配方编号"]],u.order||"recent")}
+      <button class="btn" type="button" data-all-clear>清除筛选</button></div></details>`;
     const pagination=pages>1?`<div class="bk-pages bk-all-pages" aria-label="样本分页">
       <button class="btn" type="button" data-all-page="${Math.max(page-1,0)}"${page===0?" disabled":""}>上一页</button>
       <span>第 ${count(start+1)}–${count(end)} 个配方 · ${count(page+1)} / ${count(pages)} 页</span>
       <button class="btn" type="button" data-all-page="${Math.min(page+1,pages-1)}"${page===pages-1?" disabled":""}>下一页</button></div>`:"";
     const source=s.sampleSource?note(esc(s.sampleSource)):"";
     const latestBatch=batches[0];
-    return lead("这里列出 T1 历史复核和持续迭代的开发评估。每行一个配方，每格按筛选后每个种子的最新验收记录取有分均值。展开可核对种子、四项分数和该条件下的各次批次记录。")+
+    return lead("每行一个配方。默认并排看两张主床；点配方可查其他考场、四项分数、种子和历次验收。")+
       `<p class="bk-note">${latestBatch?`最近验收：${stamp(latestBatch.at)}（北京时间） · ${esc(latestBatch.id)} · `:""}<a href="${site}/samples/archive">打开 11 月 21 日复核原表 ↗</a></p>${source}
-      <div class="bk-card bk-register bk-all-register">${controls}
+      <div class="bk-card bk-register bk-all-register">${controls}${bedGuide(d,beds)}
+      ${u.bed||u.batch?note("已按筛选的考场或批次显示对应列。清除筛选后恢复所选列组。"):""}
       <p id="bk-all-count" aria-live="polite">显示 ${count(matches.length)} / ${count(items.size)} 个配方 · ${count(records)} / ${count(total)} 条评估${u.order==="score"&&scoreBed?" · 按 "+esc(scoreBed)+" 排序":""}</p>
-      <div id="bk-all-matrix">${rows.length?grid("T1 全部样本成绩",heads,rows,"bk-matrix bk-freeze bk-all-table"):'<p class="bk-empty">没有匹配的样本。请更换关键词或清除筛选。</p>'}</div>
+      <div id="bk-all-matrix">${rows.length?grid("T1 全部样本成绩",heads,rows,"bk-matrix bk-freeze bk-all-table"+(displayedBeds.length<=2?" bk-all-compact":"")):'<p class="bk-empty">没有匹配的样本。请更换关键词或清除筛选。</p>'}</div>
       ${pagination}${displayedBeds.length>3?'<p class="bk-note bk-swipe">横向滑动查看其余考场，配方编号留在左侧。</p>':""}</div>`;
   }
 

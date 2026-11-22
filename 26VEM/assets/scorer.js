@@ -41,8 +41,8 @@
     return data;
   }
   const defaults=()=>({q:"",bed:"",seed:"",status:"",order:"recent",scope:"main",open:new Set(),pages:new Map()});
-  const allDefaults=()=>({q:"",bed:"",seed:"",status:"",batch:"",series:"",order:"recent",page:0,open:new Set()});
-  const allFilters=["bed","seed","status","batch","series","order"];
+  const allDefaults=()=>({q:"",bed:"",seed:"",status:"",batch:"",series:"",order:"recent",columns:"main",page:0,open:new Set()});
+  const allFilters=["bed","seed","status","batch","series","order","columns"];
   function route() {
     const [path,query=""]=location.hash.split("?"),[,base,slug="",id="",archiveId=""]=path.split("/");
     const section=base==="scorer"?(sections[slug]?slug:({baselines:"methods",cv:"validation",progress:"issues",live:"activity"})[slug]||""):"";
@@ -61,6 +61,7 @@
       all.q=(p.get("q")||"").slice(0,150);
       for(const key of allFilters)if(p.get(key))all[key]=p.get(key).slice(0,100);
       if(!["recent","oldest","score","id"].includes(all.order))all.order="recent";
+      if(!["main","current","all"].includes(all.columns))all.columns="main";
       if(/^[0-9]{1,4}$/.test(p.get("page")||""))all.page=Number(p.get("page"));
       for(const k of p.getAll("open").slice(0,20))if(/^[AS]\d+$/.test(k))all.open.add(k);
       if(/^A\d+$/.test(id)){all.q=id;all.open.add(id);}
@@ -79,8 +80,8 @@
     s.section="samples"; mark(s);
   }
   function saveAll(s){
-    const u=s.all,p=new URLSearchParams();
-    for(const key of ["q",...allFilters])if(u[key]&&(key!=="order"||u.order!=="recent"))p.set(key,u[key]);
+    const u=s.all,p=new URLSearchParams(),base=allDefaults();
+    for(const key of ["q",...allFilters])if(u[key]&&u[key]!==base[key])p.set(key,u[key]);
     if(u.page)p.set("page",u.page);
     for(const id of u.open)p.append("open",id);
     if(p.size)p.set("view","all");
@@ -128,7 +129,9 @@
   }
   function drawSamples(s){
     if(s.archive||!window.VEMT1Samples){drawSampleShell(s);return;}
-    $(s,"[data-section-body=samples]").innerHTML=window.VEMT1Samples.render(s);
+    const section=$(s,"[data-section-body=samples]"), open=new Set([...section.querySelectorAll("details[data-board-disclosure][open]")].map(el=>el.dataset.boardDisclosure));
+    section.innerHTML=window.VEMT1Samples.render(s);
+    for(const el of section.querySelectorAll("details[data-board-disclosure]"))if(open.has(el.dataset.boardDisclosure))el.open=true;
   }
   function redrawAll(s,{focus,scroll}={}){
     const pane=$(s,"#bk-all-matrix .bk-scroll"), offsets=pane?[pane.scrollLeft,pane.scrollTop]:null;
@@ -271,9 +274,10 @@
       prior=new Set([...content.querySelectorAll("details[open]")].map(disclosure));
     content.innerHTML=Object.entries(sections).map(([k,l],i)=>`<section class="bk-section" id="bk-${k}" aria-labelledby="bk-title-${k}">
       <header class="bk-section-head"><span>0${i+1}</span><h2 id="bk-title-${k}">${l}</h2></header><div data-section-body="${k}">${html[k]}</div></section>`).join("");
+    drawSamples(s);
     for(const el of content.querySelectorAll("details"))if(prior.has(disclosure(el)))el.open=true;
     $(s,"#bk-signal").innerHTML=book.signal(d,s.signalId);
-    drawSamples(s);content.setAttribute("aria-busy","false");
+    content.setAttribute("aria-busy","false");
   }
   function fresh(s){
     const x=$(s,"#bk-fresh"),d=s.data;
@@ -353,7 +357,7 @@
     root.addEventListener("click",e=>{
       const a=e.target.closest("a[data-jump]");if(a&&a.hash===location.hash){e.preventDefault();jump(s);return;}
       if(e.target.closest("[data-refresh]")){refresh(s);return;}
-      if(e.target.closest("[data-all-clear]")){s.all=allDefaults();saveAll(s);redrawAll(s,{focus:"[data-all-search]"});return;}
+      if(e.target.closest("[data-all-clear]")){s.all={...allDefaults(),columns:s.all.columns};saveAll(s);redrawAll(s,{focus:"[data-all-search]"});return;}
       const allPage=e.target.closest("[data-all-page]");if(allPage){s.all.page=Number(allPage.dataset.allPage);saveAll(s);redrawAll(s);$(s,"#bk-all-matrix .bk-scroll")?.focus({preventScroll:true});return;}
       const allOpen=e.target.closest("[data-all-open]");if(allOpen){const id=allOpen.dataset.allOpen;
         if(s.all.open.has(id))s.all.open.delete(id);else s.all.open.add(id);
