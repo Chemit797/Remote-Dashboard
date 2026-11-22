@@ -1,0 +1,149 @@
+/* One T1 sample register for earlier S recipes and accepted A iterations. */
+(() => {
+  "use strict";
+  const {esc,num,signed,count,stamp,site,states,causes,metricInfo,tag,sub,row,grid,lead,note,examTitle,stat}=window.VEMBook;
+  const pageSize=12;
+  const priority=["T1-FENGCD1-2D","T1-TOMEHEART-2D","T1-OFF-1D-EXT","T1-OFF-2D-EXT","T1-QIUPOOL-2D","T1-QIUSINGLE-2D","T1-TOMEWHOLE-2D","T1-FENGB6-2D"];
+  const seriesLabels={A:"持续迭代",S:"11 月 21 日复核"};
+  const time=x=>Date.parse(x)||0;
+  const byId=(a,b)=>a.localeCompare(b,"en",{numeric:true});
+  const newest=(a,b)=>time(b.at)-time(a.at)||byId(b.batch,a.batch);
+  const series=id=>id[0];
+  const recipeId=/^[AS]\d+$/;
+  const metricNames=metricInfo.map(m=>m[0]);
+  const rawFor=(r,i)=>Array.isArray(r.raw)&&Number.isFinite(r.raw[i])?sub("原始 "+num(r.raw[i],5)):"";
+
+  function latest(records) {
+    // Each recorded batch remains in details; a repeated seed contributes once to the mean.
+    const cases=new Map();
+    for(const c of records){
+      const key=c.bed+"/"+c.seed, old=cases.get(key);
+      if(!old||newest(c,old)<0)cases.set(key,c);
+    }
+    return [...cases.values()];
+  }
+
+  function models(s) {
+    const d=s.data, reg=d.samples, u=s.all||{};
+    const current=s.sampleCurrent instanceof Map?[...s.sampleCurrent.entries()]:Object.entries(s.sampleCurrent||{});
+    const batchTimes=new Map((s.sampleBatches||[]).map(b=>[b.id,b.accepted_at]));
+    const items=new Map(), batches=new Map(), seeds=new Set(), seenBeds=new Set();
+    const collect=(id,name,record,at,batch)=>{
+      if(!recipeId.test(id)||!Object.hasOwn(reg.beds,record.bed)||!Object.hasOwn(states,record.status)||
+         !Number.isInteger(record.seed)||!Array.isArray(record.skills)||record.skills.length!==4)return;
+      if(!items.has(id))items.set(id,{id,name,records:[]});
+      items.get(id).records.push({...record,batch,at});
+      batches.set(batch,{id:batch,at});
+      seeds.add(record.seed);seenBeds.add(record.bed);
+    };
+    for(const r of reg.recipes)for(const c of r.cases)collect(r.id,r.name,c,reg.batches[c.batch],c.batch);
+    for(const [batch,rows] of current)for(const c of rows)collect(c.recipe,"",c,batchTimes.get(batch),batch);
+
+    const beds=[...new Set([...priority,...Object.keys(reg.beds)])].filter(k=>seenBeds.has(k));
+    const q=(u.q||"").trim().toLowerCase();
+    const matches=[];
+    for(const item of items.values()){
+      if(u.series&&series(item.id)!==u.series)continue;
+      const label=(item.id+" "+item.name+" "+seriesLabels[series(item.id)]).toLowerCase();
+      const nameMatch=!q||label.includes(q);
+      const observations=item.records.filter(c=>{
+        const b=reg.beds[c.bed];
+        return (!u.bed||c.bed===u.bed)&&(u.seed==null||u.seed===""||String(c.seed)===String(u.seed))&&
+          (!u.batch||c.batch===u.batch)&&(!u.status||c.status===u.status)&&
+          (nameMatch||[c.bed,b.source,b.subset,c.batch].join(" ").toLowerCase().includes(q));
+      });
+      if(!observations.length)continue;
+      const byBed=new Map();
+      for(const c of latest(observations)){
+        if(!byBed.has(c.bed))byBed.set(c.bed,[]);
+        byBed.get(c.bed).push(c);
+      }
+      const last=observations.reduce((a,b)=>newest(b,a)<0?b:a);
+      matches.push({...item,observations,byBed,last});
+    }
+    const displayedBeds=beds.filter(k=>matches.some(item=>item.byBed.has(k)));
+    const scoreBed=u.bed||displayedBeds[0];
+    const forSort=item=>stat(item.byBed.get(scoreBed)||[]).score??-Infinity;
+    matches.sort((a,b)=>(u.order==="oldest"?newest(b.last,a.last):u.order==="id"?0:
+      u.order==="score"?forSort(b)-forSort(a):newest(a.last,b.last))||byId(a.id,b.id));
+    return {d,u,beds,displayedBeds,matches,items,batches:[...batches.values()].sort((a,b)=>time(b.at)-time(a.at)||byId(b.id,a.id)),seeds:[...seeds].sort((a,b)=>a-b),scoreBed};
+  }
+
+  function statusCell(c){return tag(states[c.status],c.status==="valid"?"visible":c.status==="failed"?"bad":"neutral");}
+
+  function scoreCell(cases=[]){
+    const a=stat(cases);
+    if(!a.n)return '<span class="bk-dim">未登记</span>';
+    const coverage=sub(`${a.ok}/${a.n} 有分`);
+    if(!a.ok)return `${a.failed?tag("失败","bad"):tag("NA","neutral")}${coverage}`;
+    return `<b>${num(a.score)}</b>${coverage}${Number.isFinite(a.delta)?sub("Δ S00 "+signed(a.delta)):""}`;
+  }
+
+  function detailFor(d,item,bedOrder){
+    const {id,name,byBed,observations}=item;
+    const beds=bedOrder.filter(b=>byBed.has(b));
+    const summaries=beds.map(b=>stat(byBed.get(b)));
+    const components=grid(id+" 各考场分项均分",["分数",...beds.map(b=>examTitle(d,b)+sub(esc(b)))],
+      ["开发总分",...metricNames].map((name,i)=>row(name,summaries.map(a=>num(i?a.skills[i-1]:a.score)))));
+    const cases=[...observations].sort((a,b)=>bedOrder.indexOf(a.bed)-bedOrder.indexOf(b.bed)||a.seed-b.seed||newest(a,b));
+    const haveRaw=cases.some(c=>c.raw?.some(Number.isFinite));
+    const haveDelta=cases.some(c=>Number.isFinite(c.delta));
+    const haveCause=cases.some(c=>Object.hasOwn(causes,c.cause));
+    const heads=["考场 / 条件","种子","结果","开发总分",...metricNames,
+      ...(haveDelta?["比 S00"]:[]),...(haveCause?["原因"]:[]),"批次 / 验收（北京）"];
+    const detailRows=cases.map(c=>row(examTitle(d,c.bed)+sub(esc(c.bed)),[count(c.seed),statusCell(c),num(c.total),
+      ...c.skills.map((v,i)=>num(v)+rawFor(c,i)),...(haveDelta?[signed(c.delta)]:[]),...(haveCause?[esc(causes[c.cause]||"—")]:[]),
+      esc(c.batch)+sub(stamp(c.at))],`data-all-case="${esc(c.bed)}" data-seed="${c.seed}"`,heads.slice(1)));
+    return `<div class="bk-detail-head"><h4>${esc(id)}${name?" · "+esc(name):""}</h4><span>${count(cases.length)} 条评估</span></div>
+      <h5>各考场总分与四项换算分</h5>${components}
+      <h5>逐种子与批次</h5>${haveRaw?note("历史记录同列列出可用的原始指标值。缺分和失败保留为空分。"):""}
+      ${grid(id+" 逐种子评估",heads,detailRows,"bk-cases")}`;
+  }
+
+  const select=(label,key,values,selected)=>`<label>${esc(label)}<select aria-label="${esc(label)}" data-all-filter="${key}">${
+    values.map(([v,l])=>`<option value="${esc(v)}"${String(v)===String(selected??"")?" selected":""}>${esc(l)}</option>`).join("")}</select></label>`;
+
+  function render(s){
+    const {d,u,displayedBeds,beds,matches,items,batches,seeds,scoreBed}=models(s);
+    const records=matches.reduce((n,item)=>n+item.observations.length,0);
+    const total=[...items.values()].reduce((n,item)=>n+item.records.length,0);
+    const pages=Math.max(1,Math.ceil(matches.length/pageSize));
+    const page=Math.min(Math.max(0,Math.trunc(Number(u.page)||0)),pages-1);
+    const start=page*pageSize,end=Math.min(matches.length,start+pageSize);
+    const open=u.open||new Set();
+    const heads=["配方 / 系列","最近验收（北京）",...displayedBeds.map(b=>examTitle(d,b)+sub(esc(b))),"批次记录"];
+    const rows=matches.slice(start,end).flatMap(item=>{
+      const {id,name,last,byBed,observations}=item, expanded=open.has(id);
+      const label=`<button type="button" class="bk-open" data-all-open="${esc(id)}" aria-label="${expanded?"收起":"展开"} ${esc(id)}" aria-expanded="${expanded}"${expanded?` aria-controls="bk-all-detail-${esc(id)}"`:""}><b>${expanded?"▾":"▸"} ${esc(id)}</b>${name?`<span>${esc(name)}</span>`:""}</button>${sub(esc(seriesLabels[series(id)]))}`;
+      const a=row(label,[stamp(last.at)+sub(esc(last.batch)),...displayedBeds.map(b=>scoreCell(byBed.get(b))),count(observations.length)],`data-recipe="${esc(id)}" class="${expanded?"open":""}"`);
+      return expanded?[a,`<tr class="bk-detail-row"><td colspan="${heads.length}"><div class="bk-detail" id="bk-all-detail-${esc(id)}">${detailFor(d,item,beds)}</div></td></tr>`]:[a];
+    });
+    const controls=`<div class="bk-tools bk-all-tools"><label>搜索样本<input type="search" data-all-search aria-label="搜索样本" placeholder="配方、考场、来源或批次" value="${esc(u.q||"")}"></label>
+      ${select("配方系列","series",[["","全部配方"],["A","A · 持续迭代"],["S","S · 11 月 21 日复核"]],u.series)}
+      ${select("考场","bed",[["","所有有记录的考场"],...beds.map(b=>[b,b+" · "+d.samples.beds[b].source+(d.samples.beds[b].subset?"｜"+d.samples.beds[b].subset:"")])],u.bed)}
+      ${select("抽样种子","seed",[["","所有种子"],...seeds.map(seed=>[seed,String(seed)])],u.seed)}
+      ${select("评估结果","status",[["","全部结果"],...Object.entries(states)],u.status)}
+      ${select("批次","batch",[["","全部批次"],...batches.map(b=>[b.id,b.id+" · "+stamp(b.at)])],u.batch)}
+      ${select("排列顺序","order",[["recent","最近验收在前"],["oldest","最早验收在前"],["score","所选考场分数 ↓"],["id","配方编号"]],u.order||"recent")}
+      <button class="btn" type="button" data-all-clear>清除筛选</button></div>`;
+    const pagination=pages>1?`<div class="bk-pages bk-all-pages" aria-label="样本分页">
+      <button class="btn" type="button" data-all-page="${Math.max(page-1,0)}"${page===0?" disabled":""}>上一页</button>
+      <span>第 ${count(start+1)}–${count(end)} 个配方 · ${count(page+1)} / ${count(pages)} 页</span>
+      <button class="btn" type="button" data-all-page="${Math.min(page+1,pages-1)}"${page===pages-1?" disabled":""}>下一页</button></div>`:"";
+    const source=s.sampleSource?note(esc(s.sampleSource)):"";
+    const latestBatch=batches[0];
+    return lead("这里列出 T1 历史复核和持续迭代的开发评估。每行一个配方，每格按筛选后每个种子的最新验收记录取有分均值。展开可核对种子、四项分数和该条件下的各次批次记录。")+
+      `<p class="bk-note">${latestBatch?`最近验收：${stamp(latestBatch.at)}（北京时间） · ${esc(latestBatch.id)} · `:""}<a href="${site}/samples/archive">打开 11 月 21 日复核原表 ↗</a></p>${source}
+      <div class="bk-card bk-register bk-all-register">${controls}
+      <p id="bk-all-count" aria-live="polite">显示 ${count(matches.length)} / ${count(items.size)} 个配方 · ${count(records)} / ${count(total)} 条评估${u.order==="score"&&scoreBed?" · 按 "+esc(scoreBed)+" 排序":""}</p>
+      <div id="bk-all-matrix">${rows.length?grid("T1 全部样本成绩",heads,rows,"bk-matrix bk-freeze bk-all-table"):'<p class="bk-empty">没有匹配的样本。请更换关键词或清除筛选。</p>'}</div>
+      ${pagination}${displayedBeds.length>3?'<p class="bk-note bk-swipe">横向滑动查看其余考场，配方编号留在左侧。</p>':""}</div>`;
+  }
+
+  function detail(s,id){
+    const m=models(s), item=m.matches.find(r=>r.id===id);
+    return item?detailFor(m.d,item,m.beds):"";
+  }
+
+  window.VEMT1Samples={render,detail};
+})();

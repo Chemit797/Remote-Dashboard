@@ -40,20 +40,31 @@
     return data;
   }
   const defaults=()=>({q:"",bed:"",seed:"",status:"",order:"recent",scope:"main",open:new Set(),pages:new Map()});
+  const allDefaults=()=>({q:"",bed:"",seed:"",status:"",batch:"",series:"",order:"recent",page:0,open:new Set()});
+  const allFilters=["bed","seed","status","batch","series","order"];
   function route() {
-    const [path,query=""]=location.hash.split("?"),[,base,slug="",id=""]=path.split("/");
+    const [path,query=""]=location.hash.split("?"),[,base,slug="",id="",archiveId=""]=path.split("/");
     const section=base==="scorer"?(sections[slug]?slug:({baselines:"methods",cv:"validation",progress:"issues",live:"activity"})[slug]||""):"";
-    const ui=defaults(),p=new URLSearchParams(query);
-    if(section==="samples"){
+    const ui=defaults(),all=allDefaults(),p=new URLSearchParams(query);
+    const archive=section==="samples"&&(id==="archive"||/^S\d+$/.test(id)||(!id&&p.size>0&&p.get("view")!=="all"));
+    if(archive){
       ui.q=p.get("q")||"";ui.bed=p.get("bed")||"";
       if(/^[0-9]+$/.test(p.get("seed")??""))ui.seed=p.get("seed");
       if(Object.hasOwn(states,p.get("status")))ui.status=p.get("status");
       if(["id","score"].includes(p.get("order")))ui.order=p.get("order");
       if(["1D","2D","1DL","all","official"].includes(p.get("scope")))ui.scope=p.get("scope");
       for(const k of p.getAll("open"))if(/^S\d+$/.test(k))ui.open.add(k);
-      if(/^S\d+$/.test(id)){ui.q=id;ui.open.add(id);}
+      const direct=id==="archive"?archiveId:id;
+      if(/^S\d+$/.test(direct)){ui.q=direct;ui.open.add(direct);}
+    }else if(section==="samples"){
+      all.q=(p.get("q")||"").slice(0,150);
+      for(const key of allFilters)if(p.get(key))all[key]=p.get(key).slice(0,100);
+      if(!["recent","oldest","score","id"].includes(all.order))all.order="recent";
+      if(/^[0-9]{1,4}$/.test(p.get("page")||""))all.page=Number(p.get("page"));
+      for(const k of p.getAll("open").slice(0,20))if(/^[AS]\d+$/.test(k))all.open.add(k);
+      if(/^A\d+$/.test(id)){all.q=id;all.open.add(id);}
     }
-    return {section,ui};
+    return {section,ui,archive,all};
   }
   function saveRoute(s){
     const u=s.ui,p=new URLSearchParams(),direct=/^S\d+$/.test(u.q)&&u.open.has(u.q)?u.q:"";
@@ -62,9 +73,19 @@
     if(u.scope!=="main")p.set("scope",u.scope);
     if(u.order!=="recent")p.set("order",u.order);
     for(const id of u.open)if(id!==direct)p.append("open",id);
-    const url=(direct?link(direct):site+"/samples")+(p.size?"?"+p:"");
+    const url=(direct?link(direct):site+"/samples/archive")+(p.size?"?"+p:"");
     if(location.hash!==url)history.replaceState(history.state,"",url);
     s.section="samples"; mark(s);
+  }
+  function saveAll(s){
+    const u=s.all,p=new URLSearchParams();
+    for(const key of ["q",...allFilters])if(u[key]&&(key!=="order"||u.order!=="recent"))p.set(key,u[key]);
+    if(u.page)p.set("page",u.page);
+    for(const id of u.open)p.append("open",id);
+    if(p.size)p.set("view","all");
+    const url=site+"/samples"+(p.size?"?"+p:"");
+    if(location.hash!==url)history.replaceState(history.state,"",url);
+    s.section="samples";mark(s);
   }
   function mark(s){for(const a of s.root.querySelectorAll("[data-jump]"))
     if(a.dataset.jump===s.section)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current");}
@@ -74,17 +95,19 @@
     const target=s.section?$(s,"#bk-"+s.section):s.root;
     if(target)requestAnimationFrame(()=>{if(current!==s)return;
       if(!s.section&&s.root.closest("#scorer-panel")){window.scrollTo({top:0,behavior:"instant"});return;}
-      if(s.section==="samples"&&s.ui.open.size){const id=[...s.ui.open][0],row=$(s,'tr[data-recipe="'+id+'"]'),pane=$(s,"#bk-matrix>.bk-scroll");
+      if(s.section==="samples"&&s.archive&&s.ui.open.size){const id=[...s.ui.open][0],row=$(s,'tr[data-recipe="'+id+'"]'),pane=$(s,"#bk-matrix>.bk-scroll");
         if(row&&pane)pane.scrollTop+=row.getBoundingClientRect().top-pane.getBoundingClientRect().top-(pane.querySelector("thead")?.offsetHeight||0)-1;}
       target.scrollIntoView({block:"start",behavior:"instant"});});
   }
-  function navigate(){if(!current)return;const s=current,{section,ui}=route();s.section=section;s.ui=ui;
-    if(s.data)drawSampleShell(s);jump(s);}
+  function navigate(){if(!current)return;const s=current,next=route();
+    if(next.section!=="samples"){next.ui=s.ui;next.all=s.all;next.archive=s.archive;}
+    Object.assign(s,next);if(s.data)drawSamples(s);jump(s);}
   const option=(v,l,val)=>`<option value="${esc(v)}" ${String(v)===val?"selected":""}>${esc(l)}</option>`;
   const field=(label,key,values,sel)=>`<label>${label}<select aria-label="${label}" data-filter="${key}">${values.map(([v,l])=>option(v,l,sel)).join("")}</select></label>`;
   function drawSampleShell(s){
     const u=s.ui, reg=s.data.samples;
-    $(s,"[data-section-body=samples]").innerHTML=lead("这里的“样本”是一次参评的方法配方。每行一个配方，每列一个考场。大字是种子平均总分，Δ 是比同场、同种子复制基线 S00 高或低多少分。点击配方编号可查每个种子的原始记录。")+
+    $(s,"[data-section-body=samples]").innerHTML=lead("11 月 21 日 S 系复核。每行一个配方、每列一个考场，Δ 是同场、同种子相对 S00 的分差。")+
+      `<p><a class="btn" href="${site}/samples">返回全部样本（含最新 A 系）</a></p>`+
       `<div class="bk-card bk-register"><div class="bk-tools"><label>搜索样本<input type="search" aria-label="搜索样本" placeholder="配方、名称、数据来源" value="${esc(u.q)}" data-search></label>
       ${field("并排考场","scope",[["main","常看五场"],["official","全部官方考场"],["1D","向后一天"],["2D","向后两天"],["1DL","较晚的一天"],["all","全部有答案考场"]],u.scope)}
       ${field("测试数据","bed",[["","全部测试数据"],...Object.keys(reg.beds).map(k=>[k,k+" · "+source(s.data,k)])],u.bed)}
@@ -94,6 +117,28 @@
       <button type="button" class="btn" data-clear>清除筛选</button></div><p id="bk-count" aria-live="polite"></p>
       <div id="bk-matrix"></div><p class="bk-note bk-swipe">向右滑看其余考场；最左边的配方编号会留在原位。</p></div>`;
     renderMatrix(s);
+  }
+  function sampleData(data,payload){
+    const seed=!live&&window.VEMT1SampleSeed;
+    if(data.iteration_samples&&(!seed||Date.parse(data.collected_at)>=Date.parse(seed.collected_at)))
+      return {samples:data.iteration_samples,batches:data.iterations?.batches||[],source:""};
+    if(live&&payload?.iterations_private?.details)return {samples:payload.iterations_private.details,batches:data.iterations?.batches||[],source:""};
+    return seed?{samples:seed.samples,batches:seed.batches,source:"随页成绩快照"}:{samples:{},batches:[],source:""};
+  }
+  function drawSamples(s){
+    if(s.archive||!window.VEMT1Samples){drawSampleShell(s);return;}
+    $(s,"[data-section-body=samples]").innerHTML=window.VEMT1Samples.render(s);
+  }
+  function redrawAll(s,{focus,scroll}={}){
+    const pane=$(s,"#bk-all-matrix .bk-scroll"), offsets=pane?[pane.scrollLeft,pane.scrollTop]:null;
+    const current=focus?$(s,focus):null;
+    const selection=current?.matches('input')?[current.selectionStart,current.selectionEnd]:null;
+    const top=current?.getBoundingClientRect().top;
+    drawSamples(s);
+    const next=$(s,"#bk-all-matrix .bk-scroll");
+    if(offsets&&next){next.scrollLeft=offsets[0];next.scrollTop=offsets[1];}
+    if(focus){const el=$(s,focus);el?.focus({preventScroll:true});if(selection&&el)el.setSelectionRange(...selection);
+      if(scroll&&el&&Number.isFinite(top))window.scrollBy(0,el.getBoundingClientRect().top-top);}
   }
   function columns(s) {
     const u=s.ui,beds=s.data.samples.beds;
@@ -196,7 +241,8 @@
   }
   function overview(s){
     const d=s.data,b=d.board;
-    $(s,"#bk-coverage").textContent=`11 月 21 日复核 · ${d.operations.methods} 个配方 · ${count(d.cells)} 条样本记录 ↗`;
+    const samples=Object.values(s.sampleCurrent).reduce((n,x)=>n+x.length,0);
+    $(s,"#bk-coverage").textContent=`全部样本 · ${count(d.cells+samples)} 条评估${samples?`（含 A 系 ${count(samples)} 条）`:""} ↗`;
     $(s,"#bk-decision").textContent=`复核${b.frozen?"已冻结":"待确认"} · ${b.steady}（稳） / ${b.bold}（搏）`;
     const iter=iterationSnapshot(s)?.batches||[], signal=$(s,"#bk-iteration-signal");
     signal.hidden=!iter.length;
@@ -207,7 +253,7 @@
       <header class="bk-section-head"><span>0${i+1}</span><h2 id="bk-title-${k}">${l}</h2></header><div data-section-body="${k}">${html[k]}</div></section>`).join("");
     for(const el of content.querySelectorAll("details"))if(prior.has(el.querySelector("summary")?.textContent))el.open=true;
     $(s,"#bk-signal").innerHTML=book.signal(d,s.signalId);
-    drawSampleShell(s);content.setAttribute("aria-busy","false");
+    drawSamples(s);content.setAttribute("aria-busy","false");
   }
   function fresh(s){
     const x=$(s,"#bk-fresh"),d=s.data;
@@ -222,13 +268,16 @@
     check(data);
     if(s.data&&Date.parse(data.collected_at)<Date.parse(s.data.collected_at))return;
     const old=s.data;s.data=data;s.source=source;if(payload)s.payload=payload;
-    const key=JSON.stringify([data.board.review,data.board.frozen,data.board.jobs,data.cells,data.samples.batches,data.board.master,payload?.history?.as_of,data.iterations]);
+    const incoming=sampleData(data,s.payload);
+    s.sampleCurrent=incoming.samples;s.sampleBatches=incoming.batches;s.sampleSource=incoming.source;
+    const key=JSON.stringify([data.board.review,data.board.frozen,data.board.jobs,data.cells,data.samples.batches,data.board.master,payload?.history?.as_of,data.iterations, incoming.source, Object.keys(incoming.samples).length]);
     if(s.key!==key){
-      const focus=document.activeElement,wasSearch=focus?.hasAttribute("data-search"),selection=wasSearch?[focus.selectionStart,focus.selectionEnd]:null;
-      const scroll=$(s,"#bk-matrix .bk-scroll"),xy=scroll?[scroll.scrollLeft,scroll.scrollTop]:null;
+      const focus=document.activeElement,searchSelector=focus?.hasAttribute("data-search")?"[data-search]":focus?.hasAttribute("data-all-search")?"[data-all-search]":null,selection=searchSelector?[focus.selectionStart,focus.selectionEnd]:null;
+      const scrollSelector=s.archive?"#bk-matrix .bk-scroll":"#bk-all-matrix .bk-scroll";
+      const scroll=$(s,scrollSelector),xy=scroll?[scroll.scrollLeft,scroll.scrollTop]:null;
       overview(s);s.key=key;
-      if(wasSearch){const search=$(s,"[data-search]");search.focus({preventScroll:true});search.setSelectionRange(...selection);}
-      if(xy){const next=$(s,"#bk-matrix .bk-scroll");if(next){next.scrollLeft=xy[0];next.scrollTop=xy[1];}}
+      if(searchSelector){const search=$(s,searchSelector);search?.focus({preventScroll:true});search?.setSelectionRange(...selection);}
+      if(xy){const next=$(s,scrollSelector);if(next){next.scrollLeft=xy[0];next.scrollTop=xy[1];}}
     }
     fresh(s);if(!old)jump(s);
   }
@@ -258,7 +307,7 @@
   }
   function mount(){
     const root=document.getElementById("scorer-board");if(!root)return;
-    const initial=route(), s=current={root,abort:new AbortController(),ui:initial.ui,section:initial.section,signalId:"S32",error:false,busy:false};
+    const initial=route(), s=current={root,abort:new AbortController(),...initial,signalId:"S32",error:false,busy:false};
     mark(s);
     if(live){
       try{const p=JSON.parse(document.getElementById("sc-initial").textContent);s.error=!!p.collection_error;show(s,p.summary,"5090 实时",p);}catch(_){}
@@ -267,8 +316,13 @@
       try{show(s,window.VEMScorerSeed,"随页快照");}catch(_){}
       try{show(s,JSON.parse(localStorage.getItem(cache)),"上次公开快照");}catch(_){}
     }
-    root.addEventListener("input",e=>{if(!e.target.matches("[data-search]"))return;s.ui.q=e.target.value;s.ui.pages.clear();saveRoute(s);renderMatrix(s);});
+    root.addEventListener("input",e=>{
+      if(e.target.matches("[data-all-search]")){s.all.q=e.target.value;s.all.page=0;saveAll(s);redrawAll(s,{focus:"[data-all-search]"});return;}
+      if(!e.target.matches("[data-search]"))return;s.ui.q=e.target.value;s.ui.pages.clear();saveRoute(s);renderMatrix(s);
+    });
     root.addEventListener("change",e=>{
+      const allKey=e.target.dataset.allFilter;
+      if(allFilters.includes(allKey)){s.all[allKey]=e.target.value;s.all.page=0;saveAll(s);redrawAll(s,{focus:`[data-all-filter="${allKey}"]`});return;}
       if(e.target.matches("[data-iteration-batch]")){s.iterationBatch=e.target.value;$(s,"#bk-iteration-detail").innerHTML=iterationDetail(s,s.iterationBatch);return;}
       if(e.target.matches("[data-signal]")){s.signalId=e.target.value;$(s,"#bk-signal").innerHTML=book.signal(s.data,s.signalId);$(s,"[data-signal]").focus({preventScroll:true});return;}
       const key=e.target.dataset.filter;if(!key)return;s.ui[key]=e.target.value;if(key==="scope"&&s.ui.bed){s.ui.bed="";$(s,'[data-filter="bed"]').value="";}
@@ -277,6 +331,11 @@
     root.addEventListener("click",e=>{
       const a=e.target.closest("a[data-jump]");if(a&&a.hash===location.hash){e.preventDefault();jump(s);return;}
       if(e.target.closest("[data-refresh]")){refresh(s);return;}
+      if(e.target.closest("[data-all-clear]")){s.all=allDefaults();saveAll(s);redrawAll(s,{focus:"[data-all-search]"});return;}
+      const allPage=e.target.closest("[data-all-page]");if(allPage){s.all.page=Number(allPage.dataset.allPage);saveAll(s);redrawAll(s);$(s,"#bk-all-matrix .bk-scroll")?.focus({preventScroll:true});return;}
+      const allOpen=e.target.closest("[data-all-open]");if(allOpen){const id=allOpen.dataset.allOpen;
+        if(s.all.open.has(id))s.all.open.delete(id);else s.all.open.add(id);
+        saveAll(s);redrawAll(s,{focus:`[data-all-open="${id}"]`,scroll:true});return;}
       if(e.target.closest("[data-clear]")){s.ui=defaults();saveRoute(s);drawSampleShell(s);return;}
       const btn=e.target.closest("button[data-case-page]");if(btn){const id=btn.dataset.pageFor,record=s.items.get(id);
         s.ui.pages.set(id,Number(btn.dataset.casePage));const el=$(s,'[data-detail="'+id+'"]');el.innerHTML=detail(s,record.r,record.cases);

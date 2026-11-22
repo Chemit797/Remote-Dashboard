@@ -17,6 +17,9 @@
 .bk-iteration-picker select{max-width:100%;padding:5px 6px}
 .bk-iterations .bk-table thead th:first-child{min-width:10em}
 #bk-iteration-signal{margin:6px 0 0;font-size:13px;color:var(--bk-blue)}
+#bk-all-count{margin:10px 0 6px;color:var(--bk-blue);font-size:13px}
+#bk-all-matrix>.bk-scroll{max-height:570px;position:relative;border:1px solid var(--bk-line);border-radius:5px}
+.bk-all-tools{grid-template-columns:repeat(4,minmax(0,1fr))}
 .bk-header,.bk-status,.bk-nav,.bk-section-head,.bk-actions,.bk-detail-head,.bk-pages{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px}
 .bk-header{justify-content:space-between;align-items:flex-end;margin:0 0 10px}
 .bk-header h1{font-size:clamp(26px,3vw,39px);margin:1px 0;letter-spacing:.025em}
@@ -106,3 +109,4 @@
  .bk-detail .bk-cases th,.bk-detail .bk-cases td{max-width:15em}.bk-detail .bk-cases td[data-label="批次 / 验收"]{overflow-wrap:anywhere}}
 @media(max-width:700px){.bk-swipe{display:block}.bk-matrix>thead>tr>th:nth-child(2),.bk-matrix>tbody>tr[data-recipe]>td:nth-child(2){display:none}
  .bk-cases td[data-label]::before{display:block;color:#555e56}.bk-matrix>thead>tr>th{min-width:7em;max-width:12em}}
+@media(max-width:700px){.bk-all-tools{grid-template-columns:repeat(2,minmax(0,1fr))}#bk-all-matrix>.bk-scroll{max-height:65vh}}
