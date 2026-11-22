@@ -182,14 +182,16 @@ function renderScorer(isT2){
  }
  const panel=main.querySelector('#scorer-panel');
  if(panel.dataset.task==='t1'&&!isT2){window.VEMScorer.navigate();return;}
+ if(panel.dataset.task==='t2'&&isT2)return;
  window.VEMScorer.stop();
+ window.VEMT2Scorer.stop();
  panel.dataset.task=isT2?'t2':'t1';
  main.querySelectorAll('#scorer-tabs a').forEach((link,index)=>{
    if(index===Number(isT2))link.setAttribute('aria-current','page');
    else link.removeAttribute('aria-current');
  });
  panel.innerHTML=isT2?window.VEMT2Scorer.render():window.VEMScorer.shell();
- if(!isT2)window.VEMScorer.mount();
+ if(isT2)window.VEMT2Scorer.mount();else window.VEMScorer.mount();
 }
 function render(){
  if(clockHandle){clearInterval(clockHandle);clockHandle=null;}
@@ -197,7 +199,7 @@ function render(){
  const query=new URLSearchParams(parts[1]||'');if(route[0]==='knowledge'&&query.has('gene')){state.knowledge.q=query.get('gene');state.knowledge.page=0;}
  const page=route[0]||'overview';document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===page||(page==='task'&&a.dataset.nav==='overview');a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
  const isT2=page==='scorer'&&route[1]==='t2';
- if(page!=='scorer')window.VEMScorer.stop();
+ if(page!=='scorer'){window.VEMScorer.stop();window.VEMT2Scorer.stop();}
  try{
    if(page==='scorer')renderScorer(isT2);
    else main.innerHTML=page==='overview'?overview():page==='data'?dataPage():page==='analysis'?analysisPage():page==='similarity'?window.VEMStageRankings.render():page==='knowledge'?knowledgePage():page==='files'?filesPage():page==='plan'?planPage():page==='task'?taskPage(route[1]):missing();
@@ -205,7 +207,7 @@ function render(){
  document.title=(main.querySelector('h1')?.textContent||'研究工作台')+' · 26VEM';
  document.getElementById('footer-info').textContent='研究快照 '+D.version+' · 截止日来源 '+D.deadline.source_url.replace('https://','');
  document.querySelector('.header-note').hidden=page==='scorer';
- if(page==='scorer')document.getElementById('footer-info').textContent=isT2?'T2 开发评估 · 复核日期见页首':'T1 开发评估 · 采集时间见页首';
+ if(page==='scorer')document.getElementById('footer-info').textContent=isT2?'T2 开发评估 · 采集时间见页首':'T1 开发评估 · 采集时间见页首';
  if(document.getElementById('countdown')){countdown();clockHandle=setInterval(countdown,1000);}
  if(document.getElementById('analysis-results'))updateAnalysis();
  if(document.getElementById('external-results'))updateExternal();
