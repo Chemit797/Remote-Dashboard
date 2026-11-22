@@ -3,17 +3,18 @@
   "use strict";
   const {esc,num,signed,average,count,stamp,site,sections,states,jobs,causes,groups,metricInfo,mainBeds,tag,link,sub,col,row,box,grid,note,lead,source,examTitle,slice,stat,cell,chosen}=window.VEMBook, book=window.VEMBook;
   const live=!!document.querySelector('meta[name="vem-scorer-live"]'), file=location.protocol==="file:";
-  const rawURL="https://raw.githubusercontent.com/Chemit797/Remote-Dashboard/vem-scorer-feed/progress.json";
+  const rawURL="https://raw.githubusercontent.com/Chemit797/Remote-Dashboard/refs/heads/vem-scorer-feed/progress.json";
   const apiURL="https://api.github.com/repos/Chemit797/Remote-Dashboard/contents/progress.json?ref=vem-scorer-feed";
   const cache="26vem-v31-scorebook-1", perPage=10;
   const deadline=Date.parse("2026-11-26T19:59:00+08:00");
   const iterationKinds={primary:"主床迭代",transfer:"跨床复核",official_1d:"官床一天",finalist_1d:"候选官床一天",finalist_2d:"候选官床两天",observation:"观察床",identity:"预测身份对照",benchmark_2d:"多床两天对照"};
+  const driverPhases={driver_attached:"持续控制器已启动",designing:"设计下一批",scoring_primary:"主床正在评分",primary_accepted:"主床已验收",round_failure:"本轮失败",visible_calibration_between_primary_batches:"主床间隔内做可见数据校准",qualifying:"候选正在验收",qualified:"候选已验收",two_primary_rounds_accepted:"两轮主床已验收",deadline:"持续迭代已到计划截止"};
   let current;
   const $=(s,sel)=>s.root.querySelector(sel);
   function shell() {
     return `<article class="scorebook" id="scorer-board"><header class="bk-header">
       <div><span class="bk-kicker">VIRTUAL EMBRYO &nbsp;/&nbsp; T1</span><h1>时间外推评分看板</h1></div>
-      <div class="bk-actions">${file?'<a class="btn" href="http://127.0.0.1:18765/#/scorer">5090 实时看板 ↗</a>':""}<button class="btn" type="button" data-refresh>检查更新</button></div></header>
+      <div class="bk-actions">${!live?'<a class="btn" href="http://127.0.0.1:18765/#/scorer/activity">本机实时看板 ↗</a>':""}<button class="btn" type="button" data-refresh>检查更新</button></div></header>
       <div class="bk-status"><span id="bk-fresh" role="status">正在读取评分快照…</span><a id="bk-coverage" href="${site}/samples"></a><span id="bk-deadline"></span><span id="bk-decision"></span></div>
       <p id="bk-iteration-signal" hidden><a href="${site}/activity" data-jump="activity"></a></p>
       <p class="bk-intro">用已知胚龄模拟一次预测：把晚期细胞表达藏起来，看哪种方法比直接复制早期数据更准。下面都是本地开发分，历史原件的官网回执单独列出。</p>
@@ -207,6 +208,24 @@
     return `<details class="bk-disclosure"><summary>5090 · 历史官方验证登记（${list.length} 条）</summary>${note("索引采集于 "+stamp(p.history.as_of)+"。独立上传分别保留，内部记录号不等于官方 ID。")}
       ${grid("历史官方验证登记",["登记文件","官网分","记录状态","上传字节身份","内部记录号"],list.map(x=>row(esc(x.file),[num(x.score),esc(x.state),x.exact?"已核实":"未核实",esc(x.id)])))}</details>`;
   }
+  function agentJobEvidence(s){
+    const d=live?s.payload?.iterations_private?.agent_jobs:null;
+    if(!d)return "";
+    const priv=d.jobs;
+    const markers=Object.entries(d.counts).filter(([,n])=>n).map(([status,n])=>`${esc(jobs[status]||status)} ${count(n)}`);
+    const marker=d.controller;
+    const batchCell=j=>{
+      const linked=j.batches||(j.batch?[j.batch]:[]), declared=j.declared_batches||[];
+      return [...linked.map(id=>{
+        const key=s.payload.iterations_private.batch_aliases?.[id]||id;
+        return Object.hasOwn(s.sampleCurrent,key)?`<a href="${site}/samples?view=all&batch=${encodeURIComponent(key)}">${esc(id)} ↗</a>`:`${esc(id)}${sub("待验收")}`;
+      }),...declared.filter(id=>!linked.includes(id)).map(id=>`${esc(id)}${sub("已登记 · 待核实")}`)].join("<br>")||"—";
+    };
+    const jobTable=(title,list)=>grid(title,["作业 ID","状态","状态时间（北京）","对应批次"],list.map(j=>
+      row(esc(j.id),[esc(jobs[j.status]||j.status),stamp(j.at),batchCell(j)])));
+    const active=priv?.length?`<details class="bk-disclosure" data-board-disclosure="agent-jobs"><summary>全部作业状态记录（${count(priv.length)} 条）</summary>${jobTable("全部 T1 作业状态记录",priv)}</details>`:"";
+    return box("本地 T1 作业状态",`<p>${markers.join(" · ")||"当前没有匹配的作业回执。"}</p>${marker?note(esc(driverPhases[marker.phase]||marker.phase)+" · "+stamp(marker.updated_at)+"（北京时间）"+(marker.next_primary_at?" · 下次计划主床："+stamp(marker.next_primary_at):"")):""}${note("从 5090 作业回执自动读取。批次验收后可点进样本记录；未能核实关联的旧作业仍保留状态。")}${priv?.length?jobTable("最近 T1 作业状态",priv.slice(0,5)):""}<p><a href="${site}/samples">查看全部已验收成绩 ↗</a></p>${active}`);
+  }
   function iterationDetail(s, key){
     const cases=s.payload?.iterations_private?.details?.[key]||[];
     if(!cases.length)return note("该批未取得可核验明细。");
@@ -247,11 +266,12 @@
     const iter=iterationSnapshot(s)?.batches||[], signal=$(s,"#bk-iteration-signal");
     signal.hidden=!iter.length;
     signal.querySelector("a").textContent=iter.length?`新一轮迭代：${count(iter.length)} 批验收、${count(iter.reduce((n,x)=>n+x.rows,0))} 条评估 · 查进度 ↗`:"";
-    const html={methods:book.baselines(d)+privateEvidence(s),samples:"",activity:iterations(s)+`<details class="bk-disclosure"><summary>11 月 21 日复核的候选与作业</summary>${book.activity(d)}</details>`,pipeline:book.pipeline(d),validation:book.validation(d),metrics:book.metrics(d),issues:book.progress(d)};
-    const content=$(s,"#bk-content"), prior=new Set([...content.querySelectorAll("details[open]")].map(x=>x.querySelector("summary")?.textContent));
+    const html={methods:book.baselines(d)+privateEvidence(s),samples:"",activity:agentJobEvidence(s)+iterations(s)+`<details class="bk-disclosure"><summary>11 月 21 日复核的候选与作业</summary>${book.activity(d)}</details>`,pipeline:book.pipeline(d),validation:book.validation(d),metrics:book.metrics(d),issues:book.progress(d)};
+    const content=$(s,"#bk-content"), disclosure=x=>x.dataset.boardDisclosure||x.querySelector("summary")?.textContent,
+      prior=new Set([...content.querySelectorAll("details[open]")].map(disclosure));
     content.innerHTML=Object.entries(sections).map(([k,l],i)=>`<section class="bk-section" id="bk-${k}" aria-labelledby="bk-title-${k}">
       <header class="bk-section-head"><span>0${i+1}</span><h2 id="bk-title-${k}">${l}</h2></header><div data-section-body="${k}">${html[k]}</div></section>`).join("");
-    for(const el of content.querySelectorAll("details"))if(prior.has(el.querySelector("summary")?.textContent))el.open=true;
+    for(const el of content.querySelectorAll("details"))if(prior.has(disclosure(el)))el.open=true;
     $(s,"#bk-signal").innerHTML=book.signal(d,s.signalId);
     drawSamples(s);content.setAttribute("aria-busy","false");
   }
@@ -270,7 +290,9 @@
     const old=s.data;s.data=data;s.source=source;if(payload)s.payload=payload;
     const incoming=sampleData(data,s.payload);
     s.sampleCurrent=incoming.samples;s.sampleBatches=incoming.batches;s.sampleSource=incoming.source;
-    const key=JSON.stringify([data.board.review,data.board.frozen,data.board.jobs,data.cells,data.samples.batches,data.board.master,payload?.history?.as_of,data.iterations, incoming.source, Object.keys(incoming.samples).length]);
+    const priv=s.payload?.iterations_private;
+    const key=JSON.stringify([data.board.review,data.board.frozen,data.board.jobs,data.cells,data.samples.batches,data.board.master,payload?.history?.as_of,data.iterations, incoming.source, Object.keys(incoming.samples).length,
+      priv?.agent_jobs?.counts,priv?.agent_jobs?.controller,priv?.agent_jobs?.jobs]);
     if(s.key!==key){
       const focus=document.activeElement,searchSelector=focus?.hasAttribute("data-search")?"[data-search]":focus?.hasAttribute("data-all-search")?"[data-all-search]":null,selection=searchSelector?[focus.selectionStart,focus.selectionEnd]:null;
       const scrollSelector=s.archive?"#bk-matrix .bk-scroll":"#bk-all-matrix .bk-scroll";
