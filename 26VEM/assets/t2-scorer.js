@@ -213,10 +213,10 @@
   function scoresSection(s, batches, kind) {
     const baseline = kind === "baseline", title = baseline ? "基线对照" : "样本记录";
     const defs = beds[s.board];
-    const batchList = batches.filter(batch => (batch.phase === "baseline") === baseline && batch.status === "accepted" && batch.methods.length);
+    const batchList = batches.filter(batch => (!baseline || batch.phase === "baseline") && batch.status === "accepted" && batch.methods.length);
     const records = batchList.flatMap(batch => batch.methods.map(method => ({ batch, method })));
     const query = s.ui.q.trim().toLowerCase();
-    const filtered = baseline ? records : records.filter(({batch, method}) => (!s.ui.batch || batch.id === s.ui.batch) && (!query || `${method.id} ${batch.id}`.toLowerCase().includes(query)));
+    const filtered = baseline ? records : records.filter(({batch, method}) => (!s.ui.batch || batch.id === s.ui.batch) && (!query || `${method.id} ${batchName(batch)}`.toLowerCase().includes(query)));
     const {items, nav} = page(s, filtered, kind);
     const heads = ["方案 / 批次", "野床均分", ...defs.map(([id, , , type]) => `<span data-bed="${esc(id)}">${esc(id)}</span>${sub(`${id.endsWith("-OFF") ? "官床 · " : ""}${type}`)}`)];
     const rows = items.map(({batch, method}) => {
@@ -228,7 +228,7 @@
     });
     const filters = baseline || !batchList.length ? "" : `<div class="bk-iteration-picker">
       <label>方案 / 批次 <input type="search" data-t2-search value="${esc(s.ui.q)}" placeholder="输入编号"></label>
-      <label>批次 <select data-t2-batch><option value="">全部批次</option>${batchList.map(batch => `<option value="${esc(batch.id)}"${batch.id === s.ui.batch ? " selected" : ""}>${esc(batch.id)} · ${esc(phases[batch.phase] || "批次")}</option>`).join("")}</select></label>
+      <label>批次 <select data-t2-batch><option value="">全部批次</option>${batchList.map(batch => `<option value="${esc(batch.id)}"${batch.id === s.ui.batch ? " selected" : ""}>${esc(batchName(batch))}</option>`).join("")}</select></label>
     </div>`;
     return `<section class="bk-section bk-score-register" aria-labelledby="t2-${kind}-title">
       <header class="bk-section-head"><h2 id="t2-${kind}-title" tabindex="-1">${title}</h2>${s.data ? `<span>${count(filtered.length)} / ${count(records.length)} 条方案记录</span>` : ""}</header>

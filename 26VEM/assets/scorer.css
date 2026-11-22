@@ -155,4 +155,6 @@
   .bk-bed-definitions{grid-template-columns:minmax(0,1fr);gap:8px}
   .bk-aligned-score{--bk-identity:86px;--bk-mean:61px;--bk-bed-min:86px}
   .bk-aligned-score>thead [data-bed]{font-size:10px}
+  #t2-scorer-board .bk-aligned-score>thead>tr>th:nth-child(2),
+  #t2-scorer-board .bk-aligned-score>tbody>tr[data-recipe]>td:nth-child(2){display:table-cell}
 }
