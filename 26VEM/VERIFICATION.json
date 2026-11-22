@@ -55,6 +55,7 @@
     "asset_assets/stage-rankings-data.js": true,
     "asset_assets/stage-rankings.js": true,
     "asset_assets/scorer-seed.js": true,
+    "asset_assets/t1-iterations-seed.js": true,
     "asset_assets/scorebook.js": true,
     "asset_assets/scorer.js": true,
     "asset_assets/t2-scorer-data.js": true,
@@ -91,12 +92,12 @@
     "web_report_links_A14": true,
     "safe_report_A15": true,
     "web_report_links_A15": true,
-    "filter_type_Other mesoderm": true,
-    "filter_type_Endothelial/endocardial": true,
     "filter_type_Cardiac progenitor/heart field": true,
+    "filter_type_Endothelial/endocardial": true,
+    "filter_type_Other mesoderm": true,
     "filter_type_Cardiomyocyte": true
   },
-  "check_count": 94,
+  "check_count": 95,
   "all_passed": true,
   "browser_checks": "See delivery receipt for desktop/mobile screenshots and interactive verification; not performed by this script.",
   "counts": {
@@ -203,13 +204,13 @@
     },
     {
       "path": "assets/scorer.css",
-      "bytes": 12498,
-      "sha256": "0f86cd9ee79c8a7c004cd42a80d090fd8978a01bb365cc0336ee7f1572b92068"
+      "bytes": 12906,
+      "sha256": "b4f4870695f39161debbd2e0e7409f7a313b2433d743b53c64af15dcd19ad030"
     },
     {
       "path": "assets/scorer.js",
-      "bytes": 21361,
-      "sha256": "47c8cfbd277430d597d712f9658c261c20dd2a478276b756db554f13342bfb3b"
+      "bytes": 26599,
+      "sha256": "530124e41b87057f73fb311578eaafb40e9841e47f8c9e29e606e10113e672bd"
     },
     {
       "path": "assets/site.css",
@@ -225,6 +226,11 @@
       "path": "assets/stage-rankings.js",
       "bytes": 5075,
       "sha256": "3603d1696edd73150670fca6a015ed4e3e9c2ed8f7332b72a433a3b57b211c48"
+    },
+    {
+      "path": "assets/t1-iterations-seed.js",
+      "bytes": 16107,
+      "sha256": "9a502b8dbb10b25230d9126a144b8c01d834d0c3e14c242a5b2c2a6c43be8e68"
     },
     {
       "path": "assets/t2-scorer-data.js",
@@ -298,8 +304,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2530,
-      "sha256": "ec3511ff0d6a5c77271ef3baf791c3ba90423964fc0379e9f6edbb2b4a86069a"
+      "bytes": 2624,
+      "sha256": "b4f2781c2cfb22d75b97e51672e28f4d14cc5e2fe8fc4263b59198d9e48ae05e"
     },
     {
       "path": "readers/docs/EXTERNAL_DATASET_NAMES.md",
@@ -4693,8 +4699,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9890,
-      "sha256": "71cd7e4da85dd6604190b3323084c635d73083aed63022fa5a40ac5a63130560"
+      "bytes": 10400,
+      "sha256": "50a0ad92c109365ed1753d14186e0190275291a7873301644c5abc285f1b86ea"
     },
     {
       "path": "scripts/build_data.py",

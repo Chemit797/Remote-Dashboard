@@ -7,6 +7,7 @@
   const apiURL="https://api.github.com/repos/Chemit797/Remote-Dashboard/contents/progress.json?ref=vem-scorer-feed";
   const cache="26vem-v31-scorebook-1", perPage=10;
   const deadline=Date.parse("2026-11-26T19:59:00+08:00");
+  const iterationKinds={primary:"主床迭代",transfer:"跨床复核",official_1d:"官床一天",finalist_1d:"候选官床一天",finalist_2d:"候选官床两天",observation:"观察床",identity:"预测身份对照",benchmark_2d:"多床两天对照"};
   let current;
   const $=(s,sel)=>s.root.querySelector(sel);
   function shell() {
@@ -14,6 +15,7 @@
       <div><span class="bk-kicker">VIRTUAL EMBRYO &nbsp;/&nbsp; T1</span><h1>时间外推评分看板</h1></div>
       <div class="bk-actions">${file?'<a class="btn" href="http://127.0.0.1:18765/#/scorer">5090 实时看板 ↗</a>':""}<button class="btn" type="button" data-refresh>检查更新</button></div></header>
       <div class="bk-status"><span id="bk-fresh" role="status">正在读取评分快照…</span><a id="bk-coverage" href="${site}/samples"></a><span id="bk-deadline"></span><span id="bk-decision"></span></div>
+      <p id="bk-iteration-signal" hidden><a href="${site}/activity" data-jump="activity"></a></p>
       <p class="bk-intro">用已知胚龄模拟一次预测：把晚期细胞表达藏起来，看哪种方法比直接复制早期数据更准。下面都是本地开发分，历史原件的官网回执单独列出。</p>
       <nav class="bk-nav" aria-label="评分看板栏目"><span>跳到</span>${Object.entries(sections).map(([k,l],i)=>`<a href="${site}/${k}" data-jump="${k}"><small>0${i+1}</small> ${l}</a>`).join("")}</nav>
       <div id="bk-content" aria-busy="true">正在载入成绩和考场…</div></article>`;
@@ -160,11 +162,46 @@
     return `<details class="bk-disclosure"><summary>5090 · 历史官方验证登记（${list.length} 条）</summary>${note("索引采集于 "+stamp(p.history.as_of)+"。独立上传分别保留，内部记录号不等于官方 ID。")}
       ${grid("历史官方验证登记",["登记文件","官网分","记录状态","上传字节身份","内部记录号"],list.map(x=>row(esc(x.file),[num(x.score),esc(x.state),x.exact?"已核实":"未核实",esc(x.id)])))}</details>`;
   }
+  function iterationDetail(s, key){
+    const cases=s.payload?.iterations_private?.details?.[key]||[];
+    if(!cases.length)return note("该批未取得可核验明细。");
+    return grid("逐条开发评估",["配方","考场","种子","结果","开发总分",...metricInfo.map(m=>m[0])],cases.map(c=>row(esc(c.recipe),
+      [esc(c.bed),esc(c.seed),esc(states[c.status]||c.status),num(c.total),...c.skills.map(v=>num(v))])));
+  }
+  const iterationSnapshot=s=>s.data.iterations||(file?window.VEMT1IterationSeed:null);
+  function iterations(s){
+    const recent=iterationSnapshot(s), priv=live?s.payload?.iterations_private:null;
+    const local= file ? '<a class="btn" href="../../virtualembryo_biocosmosX/reports/vem_scorer/agent_20261122/continuous/PROGRESS.md">本地逐轮报告 ↗</a><a class="btn" href="../../virtualembryo_biocosmosX/reports/vem_scorer/agent_20261122/continuous/BROAD_LATEST.md">本地候选验收 ↗</a>' : "";
+    if(!recent?.batches?.length)return box("新一轮迭代",note("当前快照没有新批次数据，请检查更新或查看 5090 实时页。")+`<div class="bk-live-link">${local}</div>`);
+    const batches=[...recent.batches].sort((a,b)=>Date.parse(b.accepted_at)-Date.parse(a.accepted_at)||a.id.localeCompare(b.id));
+    const tally=key=>count(batches.reduce((n,b)=>n+b[key],0));
+    const items=batches.map(b=>row(esc(b.id)+sub(esc(iterationKinds[b.purpose]||b.purpose)),
+      [stamp(b.accepted_at),count(b.bed_count),count(b.recipe_count),count(b.valid),count(b.na),count(b.failed)]));
+    const batchTable=(label, data)=>grid(label,["批次 / 用途","验收时间（北京）","考场","配方","有分","缺分","失败"],data);
+    const picker=priv?.details&&batches.some(b=>priv.details[b.id]?.length)
+      ? `<details class="bk-disclosure"><summary>5090 · 逐种子成绩与四个分项</summary>
+        <label class="bk-iteration-picker">查看批次 <select data-iteration-batch>${batches.filter(b=>priv.details[b.id]?.length).map(b=>option(b.id,b.id+" · "+(iterationKinds[b.purpose]||b.purpose),s.iterationBatch)).join("")}</select></label>
+        <div id="bk-iteration-detail">${iterationDetail(s,priv.details[s.iterationBatch]?.length?s.iterationBatch:batches.find(b=>priv.details[b.id]?.length).id)}</div></details>` : "";
+    const candidates=priv?.candidates?.length ? grid("本地候选验收",["候选","主床一","主床二","两主床均分","已出分考场","TEST 格式"],
+      priv.candidates.map(c=>row(esc(c.recipe),[...c.main_scores.map(v=>num(v,3)),num(c.mean,3),count(c.scored_beds),c.format_passed?"通过":"未通过"]))) : "";
+    const test=recent.test;
+    const links=`<div class="bk-live-link">${!live?'<a class="btn" href="http://127.0.0.1:18765/#/scorer/activity">5090 逐批明细 ↗</a>':""}${local}</div>`;
+    return `<div class="bk-iterations"><h3>新一轮迭代</h3><p class="bk-lead">每条记录对应一次配方、考场和种子的评估；同一配方复测会保留在各自批次里。${s.data.iterations?"":"本机随页快照 · "}最近验收：${stamp(batches[0].accepted_at)}（北京时间）。</p>
+      <div class="bk-totals" aria-label="近期 T1 迭代汇总"><div><b>${count(batches.length)}</b><small>已验收批次</small></div><div><b>${tally("rows")}</b><small>评估记录</small></div>
+      <div><b>${tally("valid")}</b><small>有分</small></div><div><b>${tally("failed")}</b><small>失败记录</small></div></div>
+      ${recent.skipped||recent.truncated?note(`另有 ${count(recent.skipped)} 批未通过采集核验，${count(recent.truncated)} 批未纳入本页。`):""}
+      ${box("最近验收批次",batchTable("最近验收的 T1 迭代批次",items.slice(0,8)))}
+      ${items.length>8?`<details class="bk-disclosure"><summary>较早验收批次（${count(items.length-8)} 批）</summary>${batchTable("较早验收的 T1 迭代批次",items.slice(8))}</details>`:""}
+      ${picker}${box("TEST 候选准备",test?.checked_at?`<p><b>${count(test.ready)} 份</b> 已通过开发床与 TEST 文件验收 · ${stamp(test.checked_at)}（北京时间）。</p>${candidates}${note("TEST 真值隐藏。这里记录本地候选的准备情况；官网上传与反馈另行登记。")}`:note("当前快照没有可核验的 TEST 候选回执。"))}${links}</div>`;
+  }
   function overview(s){
     const d=s.data,b=d.board;
-    $(s,"#bk-coverage").textContent=`${d.operations.methods} 个配方 · ${d.scored_beds} 个有答案考场 · ${count(d.cells)} 条样本记录 ↗`;
+    $(s,"#bk-coverage").textContent=`11 月 21 日复核 · ${d.operations.methods} 个配方 · ${count(d.cells)} 条样本记录 ↗`;
     $(s,"#bk-decision").textContent=`复核${b.frozen?"已冻结":"待确认"} · ${b.steady}（稳） / ${b.bold}（搏）`;
-    const html={methods:book.baselines(d)+privateEvidence(s),samples:"",activity:book.activity(d),pipeline:book.pipeline(d),validation:book.validation(d),metrics:book.metrics(d),issues:book.progress(d)};
+    const iter=iterationSnapshot(s)?.batches||[], signal=$(s,"#bk-iteration-signal");
+    signal.hidden=!iter.length;
+    signal.querySelector("a").textContent=iter.length?`新一轮迭代：${count(iter.length)} 批验收、${count(iter.reduce((n,x)=>n+x.rows,0))} 条评估 · 查进度 ↗`:"";
+    const html={methods:book.baselines(d)+privateEvidence(s),samples:"",activity:iterations(s)+`<details class="bk-disclosure"><summary>11 月 21 日复核的候选与作业</summary>${book.activity(d)}</details>`,pipeline:book.pipeline(d),validation:book.validation(d),metrics:book.metrics(d),issues:book.progress(d)};
     const content=$(s,"#bk-content"), prior=new Set([...content.querySelectorAll("details[open]")].map(x=>x.querySelector("summary")?.textContent));
     content.innerHTML=Object.entries(sections).map(([k,l],i)=>`<section class="bk-section" id="bk-${k}" aria-labelledby="bk-title-${k}">
       <header class="bk-section-head"><span>0${i+1}</span><h2 id="bk-title-${k}">${l}</h2></header><div data-section-body="${k}">${html[k]}</div></section>`).join("");
@@ -185,7 +222,7 @@
     check(data);
     if(s.data&&Date.parse(data.collected_at)<Date.parse(s.data.collected_at))return;
     const old=s.data;s.data=data;s.source=source;if(payload)s.payload=payload;
-    const key=JSON.stringify([data.board.review,data.board.frozen,data.board.jobs,data.cells,data.samples.batches,data.board.master,payload?.history?.as_of]);
+    const key=JSON.stringify([data.board.review,data.board.frozen,data.board.jobs,data.cells,data.samples.batches,data.board.master,payload?.history?.as_of,data.iterations]);
     if(s.key!==key){
       const focus=document.activeElement,wasSearch=focus?.hasAttribute("data-search"),selection=wasSearch?[focus.selectionStart,focus.selectionEnd]:null;
       const scroll=$(s,"#bk-matrix .bk-scroll"),xy=scroll?[scroll.scrollLeft,scroll.scrollTop]:null;
@@ -232,6 +269,7 @@
     }
     root.addEventListener("input",e=>{if(!e.target.matches("[data-search]"))return;s.ui.q=e.target.value;s.ui.pages.clear();saveRoute(s);renderMatrix(s);});
     root.addEventListener("change",e=>{
+      if(e.target.matches("[data-iteration-batch]")){s.iterationBatch=e.target.value;$(s,"#bk-iteration-detail").innerHTML=iterationDetail(s,s.iterationBatch);return;}
       if(e.target.matches("[data-signal]")){s.signalId=e.target.value;$(s,"#bk-signal").innerHTML=book.signal(s.data,s.signalId);$(s,"[data-signal]").focus({preventScroll:true});return;}
       const key=e.target.dataset.filter;if(!key)return;s.ui[key]=e.target.value;if(key==="scope"&&s.ui.bed){s.ui.bed="";$(s,'[data-filter="bed"]').value="";}
       s.ui.pages.clear();saveRoute(s);renderMatrix(s);
