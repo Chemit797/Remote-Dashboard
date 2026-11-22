@@ -5,11 +5,13 @@
   const pageSize=12;
   const bedGroups=[
     {title:"日常迭代 · 两张主床", labels:{"T1-FENGCD1-2D":"主床 1 · CD1","T1-TOMEHEART-2D":"主床 2 · 心脏区域"}},
-    {title:"候选验收 · 官方数据本地参照", labels:{"T1-OFF-1D-EXT":"参照 · 一天 EXT","T1-OFF-2D-EXT":"参照 · 两天 EXT"}},
-    {title:"候选验收 · 观察床", labels:{"T1-QIUPOOL-2D":"观察 · 合并样本","T1-QIUSINGLE-2D":"观察 · 单重复","T1-TOMEWHOLE-2D":"观察 · 全胚胎","T1-FENGB6-2D":"观察 · C57BL/6N"}},
+    {title:"原定六床 · 官方数据底线", labels:{"T1-OFF-1D-EXT":"底线 · 一天 EXT","T1-OFF-2D-EXT":"底线 · 两天 EXT"}},
+    {title:"原定六床 · 只展示", labels:{"T1-QIUPOOL-2D":"展示 · 合并样本","T1-QIUSINGLE-2D":"展示 · 单重复"}},
+    {title:"候选额外复核 · 不计入排名", labels:{"T1-TOMEWHOLE-2D":"额外 · 全胚胎","T1-FENGB6-2D":"额外 · C57BL/6N"}},
   ];
   const bedLabels=Object.assign({},...bedGroups.map(g=>g.labels));
   const priority=Object.keys(bedLabels), main=Object.keys(bedGroups[0].labels);
+  const agreed=bedGroups.slice(0,3).flatMap(g=>Object.keys(g.labels));
   const seriesLabels={A:"持续迭代",S:"11 月 21 日复核"};
   const time=x=>Date.parse(x)||0;
   const byId=(a,b)=>a.localeCompare(b,"en",{numeric:true});
@@ -68,7 +70,7 @@
       matches.push({...item,observations,byBed,last});
     }
     const inResults=beds.filter(k=>matches.some(item=>item.byBed.has(k)));
-    const preset=u.columns==="all"?beds:u.columns==="current"?priority:main;
+    const preset=u.columns==="all"?beds:u.columns==="current"?priority:u.columns==="agreed"?agreed:main;
     const shown=preset.filter(k=>beds.includes(k));
     const displayedBeds=u.bed||u.batch?inResults:shown;
     const scoreBed=u.bed||displayedBeds[0];
@@ -120,7 +122,9 @@
       <p>配方 / 系列：预测方案的编号，A 是持续迭代，S 是 11 月 21 日复核。最近验收：所选记录里该配方最新验收的时间（北京）与批次。</p>
       <p>考场分数：在筛选范围内，每个种子取最近一次验收，再算有分均值。5/5 有分表示 5 个种子都得分；Δ S00 是同考场同种子相对复制基线的分差。</p>
       <p>评估条数：考场 × 种子 × 批次的记录数，包含缺分、失败与复测。点配方查全部明细。</p>
-      <p>主床两张均从 E10.5 外推到 E12.5，各跑五个技术种子，两床等权。EXT 表示可用指定外部参考，仍是本地评分。T1-TEST 只有格式检查，没有分数列。</p>
+      <p>原定六床＝两张排名主床、两张底线、两张只展示。只有主床计排名：两床都从 E10.5 预测 E12.5，各跑五个种子，两床等权。</p>
+      <p>两张底线用同一套官方 T1 数据、同一个 E10.5 答案：一天床能看 E8.5 和 E9.5，两天床只看 E8.5。EXT 表示允许指定外部参考，仍是本地评分。</p>
+      <p>候选复核另外留有两张诊断床的记录。T1-TEST 只做格式检查，没有分数列。</p>
       <div class="bk-bed-groups">${groups}</div>
       ${old.length?`<details data-board-disclosure="old-beds"><summary>另 ${count(old.length)} 张历史复核与补充床</summary>${list(old)}</details>`:""}</details>`;
   }
@@ -144,7 +148,7 @@
       return expanded?[a,`<tr class="bk-detail-row"><td colspan="${heads.length}"><div class="bk-detail" id="bk-all-detail-${esc(id)}">${detailFor(d,item,beds)}</div></td></tr>`]:[a];
     });
     const controls=`<div class="bk-tools bk-all-primary"><label>搜索样本<input type="search" data-all-search aria-label="搜索样本" placeholder="配方、考场、来源或批次" value="${esc(u.q||"")}"></label>
-      ${select("显示考场列","columns",[["main","日常 · 两张主床"],["current","当前 · 全部八床"],["all",`全历史 · ${beds.length} 张床`]],u.columns||"main",!!(u.bed||u.batch))}</div>
+      ${select("显示考场列","columns",[["main","日常 · 两张排名床"],["agreed","原定 · 六张床"],["current","候选复核 · 八床（含额外两张）"],["all",`全历史 · ${beds.length} 张床`]],u.columns||"main",!!(u.bed||u.batch))}</div>
       <details class="bk-sample-filters" data-board-disclosure="sample-filters"${[u.bed,u.series,u.batch,u.seed,u.status].some(Boolean)||u.order!=="recent"?" open":""}><summary>更多筛选与排序</summary>
       <div class="bk-tools bk-all-tools">
       ${select("配方系列","series",[["","全部配方"],["A","A · 持续迭代"],["S","S · 11 月 21 日复核"]],u.series)}

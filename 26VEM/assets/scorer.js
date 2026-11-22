@@ -61,7 +61,7 @@
       all.q=(p.get("q")||"").slice(0,150);
       for(const key of allFilters)if(p.get(key))all[key]=p.get(key).slice(0,100);
       if(!["recent","oldest","score","id"].includes(all.order))all.order="recent";
-      if(!["main","current","all"].includes(all.columns))all.columns="main";
+      if(!["main","agreed","current","all"].includes(all.columns))all.columns="main";
       if(/^[0-9]{1,4}$/.test(p.get("page")||""))all.page=Number(p.get("page"));
       for(const k of p.getAll("open").slice(0,20))if(/^[AS]\d+$/.test(k))all.open.add(k);
       if(/^A\d+$/.test(id)){all.q=id;all.open.add(id);}
