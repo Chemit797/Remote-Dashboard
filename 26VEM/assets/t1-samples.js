@@ -72,30 +72,30 @@
     const inResults=beds.filter(k=>matches.some(item=>item.byBed.has(k)));
     const preset=u.columns==="all"?beds:u.columns==="current"?priority:u.columns==="agreed"?agreed:main;
     const shown=preset.filter(k=>beds.includes(k));
-    const displayedBeds=u.bed||u.batch?inResults:shown;
+    const compact=u.columns==="main"||!u.columns;
+    const displayedBeds=u.bed||u.batch||(compact&&q&&inResults.length&&!inResults.some(k=>main.includes(k)))?inResults:shown;
     const scoreBed=u.bed||displayedBeds[0];
     const forSort=item=>stat(item.byBed.get(scoreBed)||[]).score??-Infinity;
     matches.sort((a,b)=>(u.order==="oldest"?newest(b.last,a.last):u.order==="id"?0:
       u.order==="score"?forSort(b)-forSort(a):newest(a.last,b.last))||byId(a.id,b.id));
-    return {d,u,beds,displayedBeds,matches,items,batches:[...batches.values()].sort((a,b)=>time(b.at)-time(a.at)||byId(b.id,a.id)),seeds:[...seeds].sort((a,b)=>a-b),scoreBed};
+    return {d,u,beds,displayedBeds,matches,items,batches:[...batches.values()].sort((a,b)=>time(b.at)-time(a.at)||byId(b.id,a.id)),seeds:[...seeds].sort((a,b)=>a-b),scoreBed,compact};
   }
 
   function statusCell(c){return tag(states[c.status],c.status==="valid"?"visible":c.status==="failed"?"bad":"neutral");}
 
   function scoreCell(cases=[]){
     const a=stat(cases);
-    if(!a.n)return '<span class="bk-dim">未登记</span>';
+    if(!a.n)return '<span class="bk-dim">未评</span>';
     const coverage=sub(`${a.ok}/${a.n} 有分`);
     if(!a.ok)return `${a.failed?tag("失败","bad"):tag("NA","neutral")}${coverage}`;
     return `<b>${num(a.score)}</b>${coverage}${Number.isFinite(a.delta)?sub("Δ S00 "+signed(a.delta)):""}`;
   }
 
-  function detailFor(d,item,bedOrder){
+  function detailFor(d,item,bedOrder,{scoped=false,openAttempts=false}={}){
     const {id,name,byBed,observations}=item;
-    const beds=bedOrder.filter(b=>byBed.has(b));
-    const summaries=beds.map(b=>stat(byBed.get(b)));
-    const components=grid(id+" 各考场分项均分",["分数",...beds.map(b=>examTitle(d,b)+sub(esc(b)))],
-      ["开发总分",...metricNames].map((name,i)=>row(name,summaries.map(a=>num(i?a.skills[i-1]:a.score)))));
+    const summaryBeds=(scoped?bedOrder.filter(b=>byBed.has(b)):agreed).filter(b=>Object.hasOwn(d.samples.beds,b));
+    const summary=grid(id+" 考场成绩",["考场","总分"],summaryBeds.map(b=>
+      row(`<b>${esc(bedLabels[b]||b)}</b><div class="bk-bed-source">${examTitle(d,b)}${sub(esc(b))}</div>`,[scoreCell(byBed.get(b))],`data-summary-bed="${esc(b)}"`)),"bk-bed-summary");
     const cases=[...observations].sort((a,b)=>bedOrder.indexOf(a.bed)-bedOrder.indexOf(b.bed)||a.seed-b.seed||newest(a,b));
     const haveRaw=cases.some(c=>c.raw?.some(Number.isFinite));
     const haveDelta=cases.some(c=>Number.isFinite(c.delta));
@@ -106,9 +106,11 @@
       ...c.skills.map((v,i)=>num(v)+rawFor(c,i)),...(haveDelta?[signed(c.delta)]:[]),...(haveCause?[esc(causes[c.cause]||"—")]:[]),
       esc(c.batch)+sub(stamp(c.at))],`data-all-case="${esc(c.bed)}" data-seed="${c.seed}"`,heads.slice(1)));
     return `<div class="bk-detail-head"><h4>${esc(id)}${name?" · "+esc(name):""}</h4><span>${count(cases.length)} 条评估</span></div>
-      <h5>各考场总分与四项换算分</h5>${components}
-      <h5>逐种子与批次</h5>${haveRaw?note("历史记录同列列出可用的原始指标值。缺分和失败保留为空分。"):""}
-      ${grid(id+" 逐种子评估",heads,detailRows,"bk-cases")}`;
+      <h5>${scoped?"筛选结果":"原定六床"}</h5>${summary}
+      <details class="bk-sample-attempts" data-board-disclosure="sample-attempts-${esc(id)}"${openAttempts?" open":""}>
+        <summary>逐种子与批次（${count(cases.length)} 条）</summary>
+        ${note("这里保留所有匹配记录，含补充、历史床、四项分数、失败和复测。"+(haveRaw?"旧记录也显示可用的原始指标。":""))}
+        ${grid(id+" 逐种子评估",heads,detailRows,"bk-cases")}</details>`;
   }
 
   const select=(label,key,values,selected,disabled=false)=>`<label>${esc(label)}<select aria-label="${esc(label)}" data-all-filter="${key}"${disabled?" disabled":""}>${
@@ -118,7 +120,7 @@
     const list=ids=>`<ul>${ids.map(id=>`<li>${examTitle(d,id)}${sub(esc(id))}</li>`).join("")}</ul>`;
     const groups=bedGroups.map(({title,labels})=>`<div><h5>${esc(title)}</h5>${list(Object.keys(labels).filter(id=>beds.includes(id)))}</div>`).join("");
     const old=beds.filter(id=>!priority.includes(id));
-    return `<details class="bk-bed-guide" data-board-disclosure="bed-guide"><summary>列说明与考场清单</summary>
+    return `<details class="bk-bed-guide" data-board-disclosure="bed-guide"><summary>成绩怎么读</summary>
       <p>配方 / 系列：预测方案的编号，A 是持续迭代，S 是 11 月 21 日复核。最近验收：所选记录里该配方最新验收的时间（北京）与批次。</p>
       <p>考场分数：在筛选范围内，每个种子取最近一次验收，再算有分均值。5/5 有分表示 5 个种子都得分；Δ S00 是同考场同种子相对复制基线的分差。</p>
       <p>评估条数：考场 × 种子 × 批次的记录数，包含缺分、失败与复测。点配方查全部明细。</p>
@@ -130,27 +132,31 @@
   }
 
   function render(s){
-    const {d,u,displayedBeds,beds,matches,items,batches,seeds,scoreBed}=models(s);
+    const {d,u,displayedBeds,beds,matches,items,batches,seeds,scoreBed,compact}=models(s);
     const records=matches.reduce((n,item)=>n+item.observations.length,0);
     const total=[...items.values()].reduce((n,item)=>n+item.records.length,0);
     const pages=Math.max(1,Math.ceil(matches.length/pageSize));
     const page=Math.min(Math.max(0,Math.trunc(Number(u.page)||0)),pages-1);
     const start=page*pageSize,end=Math.min(matches.length,start+pageSize);
     const open=u.open||new Set();
-    const heads=["配方 / 系列","最近验收",...displayedBeds.map(id=>{
+    const ranks=compact&&displayedBeds.length===main.length&&displayedBeds.every((id,i)=>id===main[i])&&!u.bed&&!u.batch;
+    const heads=compact?["配方 / 最近验收",ranks?"排名床成绩":"考场成绩","评估条数"]:["配方 / 系列","最近验收",...displayedBeds.map(id=>{
       const bed=d.samples.beds[id];
       return `<span data-bed="${esc(id)}" title="${esc(bed.source+' · '+id)}">${esc(bedLabels[id]||id.replace(/^T1-/,""))}</span>${sub(esc(`E${bed.last} → E${bed.target}`))}`;
     }),"评估条数"];
     const rows=matches.slice(start,end).flatMap(item=>{
       const {id,name,last,byBed,observations}=item, expanded=open.has(id);
       const label=`<button type="button" class="bk-open" data-all-open="${esc(id)}" aria-label="${expanded?"收起":"展开"} ${esc(id)}" aria-expanded="${expanded}"${expanded?` aria-controls="bk-all-detail-${esc(id)}"`:""}><b>${expanded?"▾":"▸"} ${esc(id)}</b>${name?`<span>${esc(name)}</span>`:""}</button>${sub(esc(seriesLabels[series(id)]))}`;
-      const a=row(label,[stamp(last.at)+sub(esc(last.batch)),...displayedBeds.map(b=>scoreCell(byBed.get(b))),count(observations.length)],`data-recipe="${esc(id)}" class="${expanded?"open":""}"`);
-      return expanded?[a,`<tr class="bk-detail-row"><td colspan="${heads.length}"><div class="bk-detail" id="bk-all-detail-${esc(id)}">${detailFor(d,item,beds)}</div></td></tr>`]:[a];
+      const time=stamp(last.at), meta=`<small class="bk-sample-time" title="${esc(time+'（北京时间） · '+last.batch)}">${esc(time.slice(5,16))}</small>`;
+      const combined=compact?`<div class="bk-sample-scores">${displayedBeds.map(b=>`<div data-bed="${esc(b)}" title="${esc(d.samples.beds[b].source+' · '+b)}">${sub(esc(bedLabels[b]||b))}${scoreCell(byBed.get(b))}</div>`).join("")}</div>`:"";
+      const a=row(label+(compact?meta:""),compact?[combined,count(observations.length)]:[time+sub(esc(last.batch)),...displayedBeds.map(b=>scoreCell(byBed.get(b))),count(observations.length)],`data-recipe="${esc(id)}" class="${expanded?"open":""}"`);
+      const narrowed=!!(u.bed||u.batch)||(compact&&!ranks);
+      return expanded?[a,`<tr class="bk-detail-row"><td colspan="${heads.length}"><div class="bk-detail" id="bk-all-detail-${esc(id)}">${detailFor(d,item,beds,{scoped:narrowed,openAttempts:!!(u.bed||u.batch)})}</div></td></tr>`]:[a];
     });
-    const controls=`<div class="bk-tools bk-all-primary"><label>搜索样本<input type="search" data-all-search aria-label="搜索样本" placeholder="配方、考场、来源或批次" value="${esc(u.q||"")}"></label>
-      ${select("显示考场列","columns",[["main","日常 · 两张排名床"],["agreed","原定 · 六张床"],["current","候选复核 · 八床（含额外两张）"],["all",`全历史 · ${beds.length} 张床`]],u.columns||"main",!!(u.bed||u.batch))}</div>
-      <details class="bk-sample-filters" data-board-disclosure="sample-filters"${[u.bed,u.series,u.batch,u.seed,u.status].some(Boolean)||u.order!=="recent"?" open":""}><summary>更多筛选与排序</summary>
+    const controls=`<div class="bk-tools bk-all-primary"><label>搜索样本<input type="search" data-all-search aria-label="搜索样本" placeholder="配方、考场、来源或批次" value="${esc(u.q||"")}"></label></div>
+      <details class="bk-sample-filters" data-board-disclosure="sample-filters"${[u.bed,u.series,u.batch,u.seed,u.status].some(Boolean)||u.order!=="recent"||!compact?" open":""}><summary>筛选与对比</summary>
       <div class="bk-tools bk-all-tools">
+      ${select("显示方式","columns",[["main","简表"],["agreed","横向对比 · 原定六床"],["current","横向对比 · 候选八床"],["all",`横向对比 · 历史全部 ${beds.length} 床`]],u.columns||"main",!!(u.bed||u.batch))}
       ${select("配方系列","series",[["","全部配方"],["A","A · 持续迭代"],["S","S · 11 月 21 日复核"]],u.series)}
       ${select("考场","bed",[["","所有有记录的考场"],...beds.map(b=>[b,b+" · "+d.samples.beds[b].source+(d.samples.beds[b].subset?"｜"+d.samples.beds[b].subset:"")])],u.bed)}
       ${select("抽样种子","seed",[["","所有种子"],...seeds.map(seed=>[seed,String(seed)])],u.seed)}
@@ -164,13 +170,13 @@
       <button class="btn" type="button" data-all-page="${Math.min(page+1,pages-1)}"${page===pages-1?" disabled":""}>下一页</button></div>`:"";
     const source=s.sampleSource?note(esc(s.sampleSource)):"";
     const latestBatch=batches[0];
-    return lead("每行一个配方。默认并排看两张主床；点配方可查其他考场、四项分数、种子和历次验收。")+
-      `<p class="bk-note">${latestBatch?`最近验收：${stamp(latestBatch.at)}（北京时间） · ${esc(latestBatch.id)} · `:""}<a href="${site}/samples/archive">打开 11 月 21 日复核原表 ↗</a></p>${source}
+    return lead("每行一个配方。平时看两张排名床，点配方可展开原定六床和历次评估。")+
+      `<p class="bk-note">${latestBatch?`最新验收：${stamp(latestBatch.at)}（北京时间） · ${esc(latestBatch.id)} · `:""}<a href="${site}/samples/archive">历史复核原表 ↗</a></p>${source}
       <div class="bk-card bk-register bk-all-register">${controls}${bedGuide(d,beds)}
-      ${u.bed||u.batch?note("已按筛选的考场或批次显示对应列。清除筛选后恢复所选列组。"):""}
+      ${u.bed||u.batch?note("这里显示所选考场或批次的成绩。") : ""}
       <p id="bk-all-count" aria-live="polite">显示 ${count(matches.length)} / ${count(items.size)} 个配方 · ${count(records)} / ${count(total)} 条评估${u.order==="score"&&scoreBed?" · 按 "+esc(scoreBed)+" 排序":""}</p>
-      <div id="bk-all-matrix">${rows.length?grid("T1 全部样本成绩",heads,rows,"bk-matrix bk-freeze bk-all-table"+(displayedBeds.length<=2?" bk-all-compact":"")):'<p class="bk-empty">没有匹配的样本。请更换关键词或清除筛选。</p>'}</div>
-      ${pagination}${displayedBeds.length>3?'<p class="bk-note bk-swipe">横向滑动查看其余考场，配方编号留在左侧。</p>':""}</div>`;
+      <div id="bk-all-matrix">${rows.length?grid("T1 全部样本成绩",heads,rows,"bk-matrix bk-all-table"+(compact?" bk-sample-summary":" bk-freeze")):'<p class="bk-empty">没有匹配的样本。请更换关键词或清除筛选。</p>'}</div>
+      ${pagination}${!compact&&displayedBeds.length>3?'<p class="bk-note bk-swipe">横向滑动查看其余考场，配方编号留在左侧。</p>':""}</div>`;
   }
 
   function detail(s,id){
