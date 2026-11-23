@@ -6,12 +6,12 @@ import { bedCell, esc, num, person, signed, status, verdict, when } from "./fmt.
 import { fetchDetail } from "./api.js";
 
 const PAGE = 60;
-const NOTE_MIN = 200;   // px left for 改了什么 before the tables scroll sideways
+const NOTE_MIN = 180;   // px left for 改了什么 before the tables scroll sideways
 export const SMALL = window.matchMedia("(max-width: 760px)");
 
 // Column widths: px on wider screens, % on phones (only these five columns are kept there).
-const W = { id: 118, name: 122, by: 56, parent: 92, last: 100, official: 86, rank: 96, bed: 94, offm: 82, floor: 46,
-  dp: 76, verdict: 80, st: 92 };
+const W = { id: 116, name: 110, by: 52, parent: 86, last: 94, official: 82, rank: 92, bed: 86, offm: 78, floor: 44,
+  dp: 72, verdict: 76, st: 90 };
 const SMALL_W = { id: 25, name: 20, official: 17, rank: 21, st: 17 };
 
 export function columnsFor(p, ui, small = SMALL.matches) {
@@ -26,7 +26,7 @@ export function columnsFor(p, ui, small = SMALL.matches) {
     { key: "rank", label: "排名分", sub: "本地评分器", cls: "rank key", w: W.rank },
   ];
   for (const c of p.columns) {
-    if (c.role === "rank" || (ui.aux && c.role !== "rank")) cols.push({ key: `bed:${c.id}`, bed: c, cls: "bed", w: W.bed });
+    if (c.role === "rank" || c.default !== false || ui.aux) cols.push({ key: `bed:${c.id}`, bed: c, cls: "bed", w: W.bed });
   }
   if (p.rules.official) {
     for (const m of p.rules.official.modes) cols.push({ key: `off:${m}`, label: `官床 ${m}`, cls: "bed", mode: m, w: W.offm });
@@ -48,11 +48,13 @@ function minWidth(cols) {
 
 function head(col) {
   if (!col.bed) return `<th class="${col.cls || ""}">${esc(col.label)}${col.sub ? `<small>${esc(col.sub)}</small>` : ""}</th>`;
+  // Label, then one short line: the bed's role and stage. The bed ID and source are in the tooltip.
   const b = col.bed;
-  const sub = [b.stage, b.id].filter(Boolean).join(" · ");
+  const role = b.role === "rank" ? "排名" : b.role === "floor" ? "底线" : "展示";
+  const sub = [role, b.stage].filter(Boolean).join(" · ");
   const flat = b.flat ? ` <em class="flat" title="这一列所有配方的分数逐位相同，不能用来比较">无区分</em>` : "";
-  const role = b.role === "floor" ? "（底线）" : b.role === "display" ? "（展示）" : "";
-  return `<th class="${col.cls}" title="${esc(b.source || "")}">${esc(b.label)}${role}${flat}<small>${esc(sub)}</small></th>`;
+  const tip = [b.id, b.source].filter(Boolean).join("\n");
+  return `<th class="${col.cls} role-${esc(b.role)}" title="${esc(tip)}">${esc(b.label)}${flat}<small>${esc(sub)}</small></th>`;
 }
 
 const DASH = `<span class="muted">—</span>`;
@@ -131,14 +133,14 @@ export function countsLine(p) {
     + `${others ? `<span class="muted">，另有${others}，默认不显示</span>` : ""}`;
 }
 
-export function filtersHTML(ui) {
+export function filtersHTML(ui, hidden = 0) {
   const opt = (value, label, current) => `<option value="${esc(value)}"${value === current ? " selected" : ""}>${esc(label)}</option>`;
   return `<label>提交者 <select data-f="by">${opt("all", "全部", ui.by)}${opt("cym", "只看 cym", ui.by)}${opt("xzk", "只看 xzk", ui.by)}</select></label>
     <label>范围 <select data-f="kind">${opt("提交", "提交", ui.kind)}${opt("工程", "提交 + 工程", ui.kind)}${opt("归档", "提交 + 归档", ui.kind)}${opt("全部", "全部", ui.kind)}</select></label>
     <label>状态 <select data-f="st">${["all", "已验收", "在评", "不全", "失败", "中断", "已登记"].map(s => opt(s, s === "all" ? "全部" : s, ui.st)).join("")}</select></label>
     <label>排序 <select data-f="sort">${opt("new", "最新在上", ui.sort)}${opt("rank", "排名分", ui.sort)}${opt("id", "编号", ui.sort)}</select></label>
     <label class="grow">搜索 <input data-f="q" type="search" placeholder="编号、配方名、父本或说明" value="${esc(ui.q || "")}"></label>
-    <label class="check"><input data-f="aux" type="checkbox"${ui.aux ? " checked" : ""}> 显示其余计分床</label>`;
+    ${hidden ? `<label class="check"><input data-f="aux" type="checkbox"${ui.aux ? " checked" : ""}> 再显示 ${hidden} 张计分床</label>` : ""}`;
 }
 
 // Sideways scrolling of the two tables moves together. The box the user last touched (wheel, pointer, touch or
@@ -227,9 +229,10 @@ export class SubmissionTable {
     this.tbody.querySelectorAll("tr.placeholder").forEach(tr => tr.remove());
     this.counts.innerHTML = countsLine(p);
     const focused = document.activeElement && this.form.contains(document.activeElement) ? document.activeElement.dataset.f : null;
-    const formSig = JSON.stringify([ui.by, ui.kind, ui.st, ui.sort, ui.aux]);
+    const hidden = p.columns.filter(c => c.role !== "rank" && c.default === false).length;
+    const formSig = JSON.stringify([ui.by, ui.kind, ui.st, ui.sort, ui.aux, hidden]);
     if (this.formSig !== formSig || !this.form.innerHTML) {
-      this.form.innerHTML = filtersHTML(ui);
+      this.form.innerHTML = filtersHTML(ui, hidden);
       this.formSig = formSig;
       if (focused) this.form.querySelector(`[data-f="${focused}"]`)?.focus();
     }
