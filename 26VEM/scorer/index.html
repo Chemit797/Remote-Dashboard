@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="board-source" content="snapshot">
+<meta name="board-feed" content="https://raw.githubusercontent.com/Chemit797/Remote-Dashboard/vem-board-feed/">
+<title>评分器 · 26VEM 比赛与研究</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="static/board.css">
+</head>
+<body>
+<!-- The 评分器 section of the 26VEM workbench. Links are relative: the workbench sits one level up (../),
+     both on the 5090 live service and in a static copy. -->
+<header class="top">
+  <div class="inner">
+    <a class="brand" href="../#/overview">26VEM<small>比赛与研究</small></a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="../#/overview">比赛总览</a>
+      <a href="#/t1" class="active" aria-current="page">评分器</a>
+      <a href="../#/data">数据概况</a>
+      <a href="../#/analysis">分析专题</a>
+      <a href="../#/similarity">同阶段对照</a>
+      <a href="../#/knowledge">先验知识</a>
+      <a href="../#/files">5090 文件</a>
+      <a href="../#/plan">联合规划</a>
+    </nav>
+  </div>
+  <div class="inner sub"><nav id="tabs" aria-label="评分任务"></nav><span class="where" id="where">GitHub 快照</span></div>
+</header>
+<main id="main"><p class="muted">正在读取看板数据…</p></main>
+<footer class="foot">只读看板：读取评分回执、作业状态和 nexus 日志，不触发评分、训练或官网提交。</footer>
+<script type="module" src="static/js/app.js"></script>
+</body>
+</html>
