@@ -35,7 +35,7 @@ export function headline(p) {
   const c = p.champion;
   if (!c) return `<p class="champion muted">还没有完整评完主床的提交，暂无冠军。</p>`;
   const parent = c.parent ? ` · 父本 <span class="mono">${esc(c.parent)}</span>${c.dp !== null ? `（${signed(c.dp)}）` : ""}` : "";
-  return `<p class="champion"><span class="label">当前冠军</span> <b class="mono">${esc(c.name)}</b> <span class="mono muted">${esc(c.id)}</span> ${person(c.by)}
+  return `<p class="champion"><span class="label">当前冠军</span> <b class="mono">${esc(c.name)}</b> <span class="mono muted">${esc(c.id)}</span>
     · 排名分 <b>${num(c.rank, 3)}</b>${parent} · 验收于 ${when(c.last)}${c.note ? `<br><span class="note">${esc(c.note)}</span>` : ""}</p>`;
 }
 
